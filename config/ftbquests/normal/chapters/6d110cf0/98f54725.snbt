@@ -1,0 +1,52 @@
+{
+	title: "Birch Forest Hills M",
+	icon: "minecraft:sapling 1 2",
+	x: -4.5d,
+	y: 1.0d,
+	text: [
+		"Birch Forest Hills M have Banded Iron, Salt, Tantalite, Stibnite, and Lignite Coal ore."
+	],
+	dependencies: [
+		"21073eee"
+	],
+	tasks: [{
+		uid: "9db92fc4",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_banded_iron_0"
+		}],
+		count: 16L
+	},
+	{
+		uid: "db9779e7",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_salt_0"
+		}],
+		count: 16L
+	},
+	{
+		uid: "f1ad62e1",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_lignite_0"
+		}],
+		count: 16L
+	},
+	{
+		uid: "6aa5ebfe",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_stibnite_0"
+		}],
+		count: 16L
+	},
+	{
+		uid: "943d5cd0",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_tantalite_0"
+		}],
+		count: 16L
+	}]
+}

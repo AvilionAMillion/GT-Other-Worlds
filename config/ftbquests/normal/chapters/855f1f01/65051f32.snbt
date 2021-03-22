@@ -1,0 +1,20 @@
+{
+	title: "Mud Balls 2: Electric Boogaloo",
+	x: -19.0d,
+	y: -1.5d,
+	description: "A long awaited sequel",
+	text: [
+		"You want some mud for defense? You don't have a bog nearby? Well try our new mud creation technique water and dirt!"
+	],
+	dependencies: [
+		"5a2aa758"
+	],
+	tasks: [{
+		uid: "11d924fe",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:mudball"
+		}],
+		count: 64L
+	}]
+}

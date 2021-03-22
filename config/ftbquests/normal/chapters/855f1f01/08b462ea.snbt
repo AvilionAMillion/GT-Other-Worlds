@@ -1,0 +1,35 @@
+{
+	title: "Bark Like The Dog",
+	icon: "minecraft:log",
+	x: -24.5d,
+	y: -7.5d,
+	description: "Hope you wont find any wolves",
+	text: [
+		"With the expected wood quest out of the way, lets get into actual progression!"
+	],
+	dependencies: [
+		"2c0ccff3"
+	],
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "d2fc512f",
+		type: "item",
+		title: "Any logWood",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "7f616442",
+		type: "item",
+		item: "harvestcraft:frenchtoastitem",
+		count: 2
+	}]
+}

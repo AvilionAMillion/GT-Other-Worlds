@@ -1,0 +1,32 @@
+{
+	title: "Hammer It!",
+	x: -24.5d,
+	y: -4.0d,
+	description: "Stop! Hammertime",
+	text: [
+		"Ah, the hammer. The most important tool in all of GregTech. ",
+		"This thing will turn 4 ingots into a plate, which is very important and you'll need to do that a lot.",
+		"Later you will be able to use a bending machine to make plates on a 1:1 ratio, but that's like two ages away."
+	],
+	dependencies: [
+		"1a40b4ef"
+	],
+	tasks: [{
+		uid: "23e2f461",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_hammer_wood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b676031f",
+		type: "item",
+		item: "minecraft:log",
+		count: 8
+	}]
+}

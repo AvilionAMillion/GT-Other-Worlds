@@ -1,0 +1,36 @@
+{
+	title: "Birch Forest Hills",
+	icon: "minecraft:sapling 1 2",
+	x: -4.5d,
+	y: 0.0d,
+	text: [
+		"This has the same ore fulfillments as a regular Birch Forest except it has Stibnite instead of Tantalite"
+	],
+	dependencies: [
+		"21073eee"
+	],
+	tasks: [{
+		uid: "22d36108",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_salt_0"
+		}],
+		count: 16L
+	},
+	{
+		uid: "31a7f372",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_lignite_0"
+		}],
+		count: 16L
+	},
+	{
+		uid: "d28a07d1",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_stibnite_0"
+		}],
+		count: 16L
+	}]
+}

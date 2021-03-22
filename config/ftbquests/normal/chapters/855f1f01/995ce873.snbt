@@ -1,0 +1,28 @@
+{
+	title: "Hardcore Darkness",
+	x: -28.5d,
+	y: -6.5d,
+	description: "This isn't your normal darkness. This is HARDCORE DARKNESS!",
+	text: [
+		"GT: Other Worlds contains the mod Hardcore Darkness, which makes everything at night pitch black. ",
+		"You can use F7 at night to provide a little bit of light (and show spawning spaces), but that's about it."
+	],
+	tasks: [{
+		uid: "1a5dc1e0",
+		type: "checkmark",
+		title: "Hardcore Darkness",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:cosmetic",
+			Damage: 31s
+		}
+	}],
+	rewards: [{
+		uid: "76ba4d74",
+		type: "item",
+		item: "minecraft:dirt",
+		count: 3
+	}]
+}

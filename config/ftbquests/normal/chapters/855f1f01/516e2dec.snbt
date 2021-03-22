@@ -1,0 +1,17 @@
+{
+	title: "Eww....",
+	x: -22.0d,
+	y: -7.5d,
+	description: "Muddy... Perfect for crafting!",
+	text: [
+		"Mud is a simple material you can find in many swamps and bogs, if you can't find it I have another option."
+	],
+	tasks: [{
+		uid: "29ff96b3",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:mudball"
+		}],
+		count: 8L
+	}]
+}

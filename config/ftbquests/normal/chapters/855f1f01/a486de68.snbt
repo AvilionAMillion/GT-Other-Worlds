@@ -1,0 +1,26 @@
+{
+	title: "IROOOOOOOOOOOOOOOON",
+	x: -21.5d,
+	y: 2.0d,
+	description: "The posterchild of modded minecraft",
+	text: [
+		"The basis of everything, so much can be done with this single ingot. Unfortunately in this stage of the game you won't be using it too much. Mostly for components for machines."
+	],
+	dependencies: [
+		"2722a25e"
+	],
+	tasks: [{
+		uid: "1e1effb6",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "248f34ff",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 8
+	}]
+}

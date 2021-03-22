@@ -1,0 +1,19 @@
+{
+	x: -28.5d,
+	y: -7.5d,
+	text: [
+		"Further progression in this pack wont be as handholdy as this beginning section, this is meant for you to get acquantied with the changed recipes. Once you get to Steam or LV it's pretty free."
+	],
+	tasks: [{
+		uid: "a8ea404c",
+		type: "checkmark",
+		title: "Further Progression",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:cosmetic",
+			Damage: 31s
+		}
+	}]
+}

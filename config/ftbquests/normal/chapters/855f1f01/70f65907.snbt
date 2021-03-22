@@ -1,0 +1,26 @@
+{
+	title: "Masonry Master",
+	x: -24.5d,
+	y: 4.5d,
+	description: "5x5 Stoneworking!",
+	text: [
+		"These workshops are 5x5 and can hold several items, these are going to be your main way of crafting for a while."
+	],
+	dependencies: [
+		"d57e33ca",
+		"55111d0e"
+	],
+	tasks: [{
+		uid: "a6908ee4",
+		type: "item",
+		items: [{
+			item: "artisanworktables:workshop 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "ec8430e9",
+		type: "item",
+		item: "minecraft:brick",
+		count: 16
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Work It!",
+	x: -24.5d,
+	y: -5.5d,
+	description: "Used way too much",
+	text: [
+		"Welcome to the \"Empowerer of Age of Engineering\" or \"Buildcraft Lasers of FTB:IE\" in this pack! The early game is based around the fact that Crafting Tables have been disabled, so you have to use tools and Artisan Worktables to complete your tasks."
+	],
+	dependencies: [
+		"08b462ea"
+	],
+	tasks: [{
+		uid: "e61a7eef",
+		type: "item",
+		items: [{
+			item: "artisanworktables:worktable 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "3c609657",
+		type: "item",
+		item: "harvestcraft:onionhamburgeritem"
+	}]
+}

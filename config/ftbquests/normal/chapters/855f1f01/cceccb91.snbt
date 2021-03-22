@@ -1,0 +1,29 @@
+{
+	title: "Thread It!",
+	x: -23.5d,
+	y: -4.0d,
+	description: "The needle in the haystack",
+	text: [
+		"The thread and needle will be used later in making Hardened Leather, which is used for your new worktables. Let's make one."
+	],
+	dependencies: [
+		"1a40b4ef"
+	],
+	tasks: [{
+		uid: "ed841a0c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_needle_wood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "256f11e9",
+		type: "item",
+		item: "harvestcraft:neapolitanicecreamitem"
+	}]
+}

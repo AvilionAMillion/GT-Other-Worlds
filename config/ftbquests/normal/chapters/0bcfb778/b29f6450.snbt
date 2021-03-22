@@ -1,0 +1,46 @@
+{
+	title: "Scrumptious Beginning",
+	x: -3.5d,
+	y: 0.0d,
+	description: "Delicious",
+	text: [
+		"Well, looks like you can get yourself some proper food setup, since all other means of crafting food has been removed, you'll be resorting to manually making food for a while. ",
+		"Also, Spice of Life and Nutrition are in the pack, so vary your diet!"
+	],
+	dependencies: [
+		"30e9906b"
+	],
+	tasks: [{
+		uid: "1de445bf",
+		type: "checkmark",
+		title: "Scrumptous Beginnings",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:cosmetic",
+			Damage: 31s
+		}
+	}],
+	rewards: [{
+		uid: "090ccbbf",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "spiceoflife:bookfoodjournal"
+		}
+	},
+	{
+		uid: "52a01401",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cookingforblockheads:recipe_book",
+			Damage: 1s
+		}
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Searing Pain",
+	x: -26.5d,
+	y: -2.0d,
+	description: "No smeltery yet",
+	text: [
+		"In order to start smelting your ores you'll need a Seared furnace since default furnaces are disabled. It's a tad expensive, but nothing not seen before."
+	],
+	dependencies: [
+		"d9ebfe4b",
+		"660faa98"
+	],
+	tasks: [{
+		uid: "bca4e13f",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "ed7ab65d",
+		type: "item",
+		item: "tconstruct:materials",
+		count: 4
+	}]
+}

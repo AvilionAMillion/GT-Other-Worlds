@@ -1,0 +1,26 @@
+{
+	title: "Natural Explorers",
+	x: -7.0d,
+	y: -3.0d,
+	description: "Oh, the biomes you'll go!",
+	text: [
+		"The Nature's Compass is incredibly helpful as it will tell you exactly how far you are from the nearest of some biome. ",
+		"Some biomes are just not there because they don't exist on Earth, but this will get you most of your early ore gathering needs."
+	],
+	dependencies: [
+		"a09ea957"
+	],
+	tasks: [{
+		uid: "3f13e81b",
+		type: "item",
+		items: [{
+			id: "naturescompass:naturescompass",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "18e43d18",
+		type: "item",
+		item: "harvestcraft:beetburgeritem"
+	}]
+}

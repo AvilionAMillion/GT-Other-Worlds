@@ -1,0 +1,31 @@
+{
+	title: "Engineering Master",
+	x: -26.5d,
+	y: 3.0d,
+	description: "Mechanics is life",
+	text: [
+		"These workshops are 5x5 and can hold several items, these are going to be your main way of crafting for a while."
+	],
+	dependencies: [
+		"d57e33ca",
+		"55111d0e"
+	],
+	tasks: [{
+		uid: "6e3118bd",
+		type: "item",
+		items: [{
+			item: "artisanworktables:workshop 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "4fcbe209",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10071",
+		count: 16
+	},
+	{
+		uid: "2d364903",
+		type: "item",
+		item: "harvestcraft:raspberrymilkshakeitem"
+	}]
+}

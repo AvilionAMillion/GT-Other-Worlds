@@ -1,0 +1,27 @@
+{
+	title: "Motor Machina",
+	icon: "contenttweaker:steam_motor",
+	x: -5.5d,
+	y: -2.5d,
+	description: "Excessive crafting is my gig",
+	text: [
+		"In order to start steam production, you're going to need steam components. This is a major component for all steam machines and is quite a hefty craft"
+	],
+	dependencies: [
+		"40e7a1ba",
+		"a486de68"
+	],
+	tasks: [{
+		uid: "aee7dfe3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:steam_motor"
+		}]
+	}],
+	rewards: [{
+		uid: "73b9a71d",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10095",
+		count: 16
+	}]
+}

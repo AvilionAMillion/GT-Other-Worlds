@@ -1,0 +1,10 @@
+{
+	title: "Ores",
+	icon: "gregtech:ore_iron_0",
+	description: [
+		"Always good to know your resources at hand"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

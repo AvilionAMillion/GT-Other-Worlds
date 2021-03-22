@@ -1,0 +1,20 @@
+{
+	title: "Cut It!",
+	x: -2.5d,
+	y: -2.0d,
+	dependencies: [
+		"028e884c"
+	],
+	tasks: [{
+		uid: "6ca7bc51",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_cutting_board_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

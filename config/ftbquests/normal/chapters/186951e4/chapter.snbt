@@ -1,0 +1,10 @@
+{
+	title: "Steam Age",
+	icon: "gregtech:machine 1 1",
+	description: [
+		"Steamy hot fun"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

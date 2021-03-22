@@ -1,0 +1,28 @@
+{
+	title: "Smeltery Time!",
+	x: -26.5d,
+	y: 2.0d,
+	description: "Big boys can have a little smelting",
+	text: [
+		"The Tinkers Construct Smeltery is now in your hands! This is going to be used for alloying and making tools, this is required for iron attainment."
+	],
+	dependencies: [
+		"d68b08bb",
+		"f5fd765d",
+		"f1834db4"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "db5f2b38",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "c4fd9d88",
+		type: "item",
+		item: "harvestcraft:cranberryjellysandwichitem",
+		count: 2
+	}]
+}

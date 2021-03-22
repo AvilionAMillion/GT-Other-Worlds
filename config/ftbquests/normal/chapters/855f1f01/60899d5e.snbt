@@ -1,0 +1,30 @@
+{
+	title: "Saw It!",
+	x: -25.5d,
+	y: -4.0d,
+	description: "Buzz, get the saw",
+	text: [
+		"It's just a saw.  This thing basically cuts wood into slabs and other stuff. A must have."
+	],
+	dependencies: [
+		"1a40b4ef"
+	],
+	tasks: [{
+		uid: "9a1e853c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_handsaw_wood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8e92cd16",
+		type: "item",
+		item: "minecraft:log",
+		count: 8
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Birch Forest M",
+	icon: "minecraft:sapling 1 2",
+	x: -3.5d,
+	y: -7.0d,
+	text: [
+		"MOAR BIRCH! Banded Iron, Lignite Coal, and Salt"
+	],
+	dependencies: [
+		"21073eee"
+	],
+	tasks: [{
+		uid: "1387e5ce",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_salt_0"
+		}],
+		count: 16L
+	},
+	{
+		uid: "47353b78",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_lignite_0"
+		}],
+		count: 16L
+	},
+	{
+		uid: "70dc97b6",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_banded_iron_0"
+		}],
+		count: 16L
+	}]
+}

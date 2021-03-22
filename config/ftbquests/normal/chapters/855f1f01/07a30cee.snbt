@@ -1,0 +1,23 @@
+{
+	title: "Gravel Gathering",
+	x: -29.5d,
+	y: -3.0d,
+	description: "A grave situation",
+	text: [
+		"Gravel is going to be important for grout and flint tools. Let's get some."
+	],
+	tasks: [{
+		uid: "aaf7b48b",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "d8b9d4af",
+		type: "item",
+		item: "minecraft:gravel",
+		count: 16
+	}]
+}

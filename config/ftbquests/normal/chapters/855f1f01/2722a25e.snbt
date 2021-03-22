@@ -1,0 +1,33 @@
+{
+	title: "Better Pickaxes",
+	x: -22.5d,
+	y: 2.0d,
+	description: "Bronze is your future wife",
+	text: [
+		"This pick'll bump up your mining level to Iron, so have fun collecting that stuff!"
+	],
+	dependencies: [
+		"40e7a1ba",
+		"8179c197"
+	],
+	tasks: [{
+		uid: "75a1ee1f",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "bronze"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "96585eb7",
+		type: "item",
+		item: {
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "bronze"
+			}
+		}
+	}]
+}

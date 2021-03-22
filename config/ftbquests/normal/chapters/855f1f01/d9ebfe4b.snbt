@@ -1,0 +1,33 @@
+{
+	title: "Grout Gathered",
+	x: -28.5d,
+	y: -2.0d,
+	description: "I am an overused pun",
+	text: [
+		"Get some grout for your Seared Bricks. You'll need a ton of them, so let's start with 1 stack."
+	],
+	dependencies: [
+		"ade8ba40",
+		"3bb15650",
+		"b59163a5",
+		"07a30cee"
+	],
+	tasks: [{
+		uid: "1fe44923",
+		type: "item",
+		items: [{
+			item: "tconstruct:soil"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "edcd59d4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_hammer_flint"
+		}
+	}]
+}

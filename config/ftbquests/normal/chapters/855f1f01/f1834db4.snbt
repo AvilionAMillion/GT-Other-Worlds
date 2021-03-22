@@ -1,0 +1,28 @@
+{
+	title: "Copper",
+	x: -24.0d,
+	y: 1.0d,
+	description: "Coppering a feel",
+	text: [
+		"While you're a while away from Steam, copper is required to get into further engineering and tools. Chalcopyrite, Malachite, and Tetrahedrite are going to be your main sources of copper, more on that in the \"Ores\" Chapter."
+	],
+	dependencies: [
+		"f5fd765d",
+		"36ef230f",
+		"b57eaebb"
+	],
+	tasks: [{
+		uid: "90a6c587",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10018"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "2662ce1a",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10018",
+		count: 8
+	}]
+}

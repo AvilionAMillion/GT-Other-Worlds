@@ -1,0 +1,25 @@
+{
+	title: "Pattern Recognition Skills",
+	x: -25.5d,
+	y: -3.0d,
+	description: "This is a pattern.",
+	text: [
+		"There's more.",
+		"Blank Patterns are mostly intended to be used for patterns in Tinker's tools, however, we can't do that right now, you'll need it though, for a brick form."
+	],
+	dependencies: [
+		"60899d5e"
+	],
+	tasks: [{
+		uid: "93333973",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}]
+	}],
+	rewards: [{
+		uid: "03fb957a",
+		type: "item",
+		item: "tconstruct:pattern"
+	}]
+}

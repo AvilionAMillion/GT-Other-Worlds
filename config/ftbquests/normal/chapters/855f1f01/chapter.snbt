@@ -1,0 +1,10 @@
+{
+	title: "A New World",
+	icon: "minecraft:grass",
+	description: [
+		"A World of opportunities, and danger"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

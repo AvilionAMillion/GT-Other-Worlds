@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "harvestcraft:items/juiceritem"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "damage": 0.1
+      },
+      "model": "contenttweaker:item/juiceritem_smalldirty"
+    },
+    {
+      "predicate": {
+        "damage": 0.9
+      },
+      "model": "contenttweaker:item/juiceritem_verydirty"
+    }
+  ]
+}

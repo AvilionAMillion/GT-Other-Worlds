@@ -1,0 +1,29 @@
+{
+	title: "File It!",
+	x: -22.5d,
+	y: -4.0d,
+	description: "Put it in a folder or something",
+	text: [
+		"A file! This tool will turn metal ingots (or other materials) into rods. It is also required in making your thread and needle."
+	],
+	dependencies: [
+		"1a40b4ef"
+	],
+	tasks: [{
+		uid: "b0356048",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_file_wood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6920ee93",
+		type: "item",
+		item: "harvestcraft:berryvinaigrettesaladitem"
+	}]
+}
