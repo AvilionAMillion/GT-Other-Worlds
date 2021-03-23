@@ -1,54 +1,50 @@
 // Vanilla
-import crafttweaker.item.IItemStack as IItemStack;
-import mods.jei.JEI.removeAndHide as rh;
-import mods.artisanworktables.builder.RecipeBuilder;
-import mods.tconstruct.Drying;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 import mods.inworldcrafting.FireCrafting;
 
 // Val
-val flint = <minecraft:flint>;
-val gravel = <minecraft:gravel>;
-val artFile = <ore:artisansFile>;
-val dustGlass = <gregtech:meta_item_1:2209>;
-val compClay = <gregtech:meta_item_2:32013>;
-val brick = <minecraft:brick>;
-val brickBlock = <minecraft:brick_block>;
-val conMix = <contenttweaker:concretemix>;
-val clayBucket = <ceramics:clay_bucket>;
-val unfiredClayBucket = <ceramics:unfired_clay>;
-val glassySand = <contenttweaker:glassy_sand>;
-val mGlass = <minecraft:glass>;
+val rootsBark = <ore:rootsBark>;
+val vanillaWorkbench = <minecraft:crafting_table>;
+val stone = <minecraft:stone>;
+val wool = <ore:wool>;
+val bed = <minecraft:bed>;
+val oreBed = <ore:bed>;
+var softHammer = <ore:craftingToolSoftHammer>.firstItem.withEmptyTag();
+var chest = <minecraft:chest>;
+var treated_plank = <immersiveengineering:treated_wood>;
+var bronze = <thermalfoundation:material:163>;
+var bronze_ring = <gregtech:meta_item_1:18095>;
+var bronze_longrod = <gregtech:meta_item_2:19095>;
+var chest_lock = <stevescarts:modulecomponents:33>;
 
-// Removal
-recipes.remove(<minecraft:crafting_table>);
-recipes.remove(<minecraft:furnace>);
-recipes.remove(brickBlock);
-
-// Mason Table
- # Flint
-RecipeBuilder.get("mason")
-	.setShapeless(
-		[gravel, gravel, gravel])
-	.addTool(artFile, 3)
-	.addOutput(flint)
-.create();
- # Brick Block
-RecipeBuilder.get("mason")
-	.setShaped([
-		[brick, conMix, brick],
-		[conMix, brick, conMix],
-		[brick, conMix, brick]])
-	.setFluid(<liquid:water> * 2000)
-	.addTool(artHammer, 24)
-	.addOutput(brickBlock)
-.create();
-
-// Drying
- # Bricks
-mods.tconstruct.Drying.addRecipe(brick, compClay, 1200);
+// Crafting Table
+	# Crafting Table
+		recipes.remove(vanillaWorkbench);
+		recipes.addShaped(vanillaWorkbench, 
+			[[rootsBark, rootsBark], 
+			[wood, wood]]);
+	# Furnace
+		recipes.remove(<minecraft:furnace>);
+	# Bed
+		recipes.remove(oreBed);
+		recipes.addShaped(bed,
+		[[wool, wool, wool],
+		[plank, plank, plank],
+		[stick, softHammer, stick]]);
+		
+	# Chest
+		recipes.remove(chest_lock * 8);
+		recipes.addShaped(chest_lock,
+		[[stone,null,null],
+		[bronze,null,null],
+		[null,null,null]]);
+		
+		recipes.remove(chest);
+		recipes.addShaped(chest,
+		[[treated_plank,treated_plank,treated_plank],
+		[bronze_ring, bronze_longrod, chest_lock],
+		[treated_plank,treated_plank,treated_plank]]);
 
 // Burning
- # Clay Bucket
-FireCrafting.addRecipe(clayBucket, unfiredClayBucket, 200);
- # Glass
-FireCrafting.addRecipe(mGlass, glassySand, 300);
+	FireCrafting.addRecipe(<minecraft:glass>, <contenttweaker:glassy_sand>, 200);

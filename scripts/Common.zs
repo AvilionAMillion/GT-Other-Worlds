@@ -4,20 +4,17 @@ import crafttweaker.oredict.IOreDictEntry;
 
 // Common materials
 global stick as IOreDictEntry = <ore:stickWood>;
-global longStick as IItemStack = <gregtech:meta_item_2:19196>;
 global wood as IOreDictEntry = <ore:logWood>;
 global stone as IOreDictEntry = <ore:cobblestone>;
 global cobble as IOreDictEntry = <ore:stoneCobble>;
 global flint as IOreDictEntry = <ore:gemFlint>;
-global bone as IOreDictEntry = <ore:bone>;
-global item_string as IItemStack = <minecraft:string>;
-global glass as IItemStack = <minecraft:glass>;
-global sand as IItemStack = <minecraft:sand>;
-global clay as IItemStack = <minecraft:clay_ball>;
+global gravel as IItemStack = <minecraft:gravel>;
+global plank as IOreDictEntry = <ore:plankWood>;
+global vanillaCobblestone as IOreDictEntry = <ore:cobblestone>;
+global itemString as IOreDictEntry = <ore:string>;
+global sand as IOreDictEntry = <ore:sand>;
+global clay as IOreDictEntry = <ore:clay>;
+global glass as IOreDictEntry = <ore:blockGlass>;
 
-// Common tools
-global artHammer as IOreDictEntry = <ore:artisansHammer>;
-global artSaw as IOreDictEntry = <ore:artisansHandsaw>;
-global artFile as IOreDictEntry = <ore:artisansFile>;
-global artNeedle as IOreDictEntry = <ore:artisansNeedle>;
-global artMortar as IOreDictEntry = <ore:artisansMortar>;
+// GregTech Tools
+global EXSoftHammer as IOreDictEntry = <ore:craftingToolSoftHammer>;

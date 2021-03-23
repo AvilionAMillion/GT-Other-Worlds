@@ -1,17 +1,12 @@
 {
-  "weight": 0,
+  "weight": 80,
   "density": 0.6,
-  "max_height": 50,
-  "min_height": 10, 
-  "biome_modifier": {
-    "type": "biome_map",
-    "biomesoplenty:alps": 1000
-  },
+  "max_height": 60,
+  "min_height": 50,
+
   "generator": {
-    "type": "plate",
-    "length": [32, 32],
-    "depth": [32, 32],
-    "height": [6, 6]
+    "type": "ellipsoid",
+    "radius": [11, 12]
   },
   "filler": {
     "type": "simple",
@@ -19,18 +14,18 @@
       "type": "weight_random",
       "values": [
         {
-          "weight": 50,
+          "weight": 30,
           "value": "ore:cassiterite_sand"
         },
-		{
-          "weight": 20,
+        {
+          "weight": 30,
           "value": "ore:garnet_sand"
         },
-		{
-          "weight": 20,
+        {
+          "weight": 30,
           "value": "ore:asbestos"
         },
-		{
+        {
           "weight": 10,
           "value": "ore:diatomite"
         }

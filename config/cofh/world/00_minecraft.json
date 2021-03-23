@@ -1,4 +1,5 @@
 {
+	"priority": 1000000000000,
 	"populate": {
 		"dirt": {
 
@@ -8,7 +9,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 33
 			},
-			"cluster-count": 4,
+			"cluster-count": 10,
 			"min-height": 0,
 			"max-height": 256,
 			"retrogen": false,
@@ -21,6 +22,7 @@
 				]
 			}
 		},
+
 		"gravel": {
 			"distribution": "uniform",
 			"generator": {
@@ -28,7 +30,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 33
 			},
-			"cluster-count": 6,
+			"cluster-count": 8,
 			"min-height": 0,
 			"max-height": 256,
 			"retrogen": false,
@@ -41,6 +43,7 @@
 				]
 			}
 		},
+
 		"diorite": {
 			"distribution": "uniform",
 			"generator": {
@@ -53,7 +56,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 33
 			},
-			"cluster-count": 0,
+			"cluster-count": 1,
 			"min-height": 0,
 			"max-height": 80,
 			"retrogen": false,
@@ -66,6 +69,7 @@
 				]
 			}
 		},
+
 		"granite": {
 			"distribution": "uniform",
 			"generator": {
@@ -78,7 +82,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 33
 			},
-			"cluster-count": 0,
+			"cluster-count": 1,
 			"min-height": 0,
 			"max-height": 80,
 			"retrogen": false,
@@ -91,6 +95,7 @@
 				]
 			}
 		},
+
 		"andesite": {
 			"distribution": "uniform",
 			"generator": {
@@ -103,7 +108,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 33
 			},
-			"cluster-count": 0,
+			"cluster-count": 1,
 			"min-height": 0,
 			"max-height": 80,
 			"retrogen": false,
@@ -244,7 +249,7 @@
 		},
 
 		"mesa_gold": {
-			"enabled": true,
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -253,7 +258,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 9
 			},
-			"cluster-count": 0,
+			"cluster-count": 20,
 			"min-height": 32,
 			"max-height": 80,
 			"retrogen": false,
@@ -289,7 +294,7 @@
 					"name": "emerald_ore"
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 1
+				"cluster-size": 0
 			},
 			"cluster-count": {
 				"min": 0,
