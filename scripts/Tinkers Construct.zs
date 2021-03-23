@@ -17,6 +17,7 @@ val clayDust = <gregtech:meta_item_1:2105>;
 val unfiredSearedBrick = <contenttweaker:unfired_searedbrick>;
 val searedBrick = <tconstruct:materials>;
 val searedBricks = <tconstruct:seared:3>;
+val searedBricksSlab = <tconstruct:seared_slab:3>;
 val stencilTable = <tconstruct:tooltables:1>.withTag({textureBlock: {id: "minecraft:planks", Count: 1 as byte, Damage: 0 as short}});
 val partBuilder = <tconstruct:tooltables:2>.withTag({textureBlock: {id: "minecraft:log", Count: 1 as byte, Damage: 0 as short}});
 val dryingRack = <tconstruct:rack:1>.withTag({textureBlock: {id: "minecraft:wooden_slab", Count: 1 as byte, Damage: 0 as short}});
@@ -25,6 +26,19 @@ var hardHammer = <ore:craftingToolHardHammer>.firstItem.withEmptyTag();
 val unfiredClay = <ceramics:unfired_clay>;
 val clayBucket = <ceramics:clay_bucket>;
 var gregMortar = <ore:craftingToolMortar>.firstItem.withEmptyTag();
+val smelteryController = <tconstruct:smeltery_controller>;
+val hardLeather = <harvestcraft:hardenedleatheritem>;
+val craftingTable = <minecraft:crafting_table>;
+val log = <ore:logWood>;
+val craftingStation = <tconstruct:tooltables>;
+val chest = <minecraft:chest>;
+val resin = <gregtech:meta_item_1:32627>;
+val faucet = <tconstruct:faucet>;
+val channel = <tconstruct:channel>;
+val drain = <tconstruct:smeltery_io>;
+val casting = <tconstruct:casting>;
+val searedTank = <tconstruct:seared_tank:2>;
+val castingBasin = <tconstruct:casting:1>;
 
 
 // Crafting Table
@@ -64,9 +78,12 @@ var gregMortar = <ore:craftingToolMortar>.firstItem.withEmptyTag();
 			[[rootsBark, rootsBark, rootsBark],
 			[itemString, hardHammer, itemString],
 			[rootsBark, rootsBark, rootsBark]]);
-	# Grout
-		recipes.addShapeless(grout * 2,
-			[clayDust, sand, gravel, gregMortar]);
+	# Crafting Station
+		recipes.remove(craftingStation);
+		recipes.addShaped(craftingStation,
+			[[hardLeather,blankPattern,hardLeather],
+			[log,craftingTable,log],
+			[log,chest,log]]);
 
 // Seared Items
 	# Seared Bricks
@@ -81,6 +98,42 @@ var gregMortar = <ore:craftingToolMortar>.firstItem.withEmptyTag();
 			[[searedBricks, searedBrick, searedBricks],
 			[searedBrick, hardHammer, searedBrick],
 			[searedBricks, searedBrick, searedBricks]]);
+	# Smeltery Controller
+		recipes.remove(smelteryController);
+		recipes.addShaped(smelteryController,
+			[[searedBricks, searedBrick, searedBricks],
+			[<ore:plateCopper>, hardHammer, <ore:plateCopper>],
+			[searedBricks, searedBrick, searedBricks]]);
+	# Faucet
+		recipes.remove(faucet);
+		recipes.addShaped(faucet,
+		[[null,null,null],
+		[searedBrick,hardHammer,searedBrick],
+		[searedBrick,searedBrick,searedBrick]]);
+	# Channel
+		recipes.remove(channel);
+		recipes.addShaped(channel,
+		[[null,null,null],
+		[null,hardHammer,null],
+		[faucet,resin,faucet]]);	
+	# Drain
+		recipes.remove(drain);
+		recipes.addShaped(drain,
+		[[searedBricks,channel,searedBricks],
+		[channel,null,channel],
+		[searedBricks,null,searedBricks]]);	
+	# Casting Table
+		recipes.remove(casting);
+		recipes.addShaped(casting,
+		[[searedBricks,null,searedBricks],
+		[searedBricks,searedBricksSlab,searedBricks],
+		[searedBrick,null,searedBrick]]);	
+	# Casting Basin
+		recipes.remove(castingBasin);
+		recipes.addShaped(castingBasin,
+		[[searedBrick,searedTank,searedBrick],
+		[searedBrick,searedTank,searedBrick],
+		[searedBricks,searedBricks,searedBricks]]);	
 			
 // Clay Bucket
 	# Unfired Clay Bucket
@@ -103,6 +156,6 @@ var gregMortar = <ore:craftingToolMortar>.firstItem.withEmptyTag();
 		
 // Drying Rack
 	# Seared Brick
-		mods.tconstruct.Drying.addRecipe(searedBrick, unfiredSearedBrick, 3000);
+		mods.tconstruct.Drying.addRecipe(searedBrick, unfiredSearedBrick, 2400);
 		
 		
