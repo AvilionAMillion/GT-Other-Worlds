@@ -40,9 +40,6 @@ val casting = <tconstruct:casting>;
 val searedTank = <tconstruct:seared_tank:2>;
 val castingBasin = <tconstruct:casting:1>;
 
-=======
-
-
 // Crafting Table
 	# Blank Pattern
 		recipes.remove(blankPattern);
@@ -137,8 +134,6 @@ val castingBasin = <tconstruct:casting:1>;
 		[[searedBrick,null,searedBrick],
 		[searedBrick,searedTank,searedBrick],
 		[searedBricks,searedBricks,searedBricks]]);	
-=======
-
 			
 // Clay Bucket
 	# Unfired Clay Bucket

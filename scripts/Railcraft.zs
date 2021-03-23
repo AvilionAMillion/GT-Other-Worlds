@@ -15,5 +15,5 @@ var hardHammer = <ore:craftingToolHardHammer>.firstItem.withEmptyTag();
 		recipes.remove(<railcraft:tank_water>);
 		recipes.addShaped(<railcraft:tank_water>,
 			[[treatedWood, treatedWood, treatedWood],
-			[stickBronze, hardHammer, stickBronze],
+			[rodBronze, hardHammer, rodBronze],
 			[treatedWood, <gregtech:meta_item_1:32627>, treatedWood]]);
