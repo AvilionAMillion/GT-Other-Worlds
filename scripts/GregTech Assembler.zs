@@ -27,7 +27,7 @@ var Coke_Controller = <gregtech:machine:526>;
 		
 	assembler.recipeBuilder()
 		.inputs(treated_planks * 8)
-		.fluidInputs([<liquid:black_steel> * 16])
+		.fluidInputs([<liquid:steel> * 16])
 		.outputs(chest * 1)
 		.property("circuit", 8)
 		.duration(300)
@@ -36,7 +36,7 @@ var Coke_Controller = <gregtech:machine:526>;
 	
 	assembler.recipeBuilder()
 		.inputs(treated_planks * 8)
-		.fluidInputs([<liquid:kanthal> * 4])
+		.fluidInputs([<liquid:aluminium> * 4])
 		.outputs(chest * 1)
 		.property("circuit", 8)
 		.duration(300)

@@ -11,14 +11,13 @@ import mods.gregtech.recipe.RecipeMaps;
 import mods.gregtech.recipe.RecipeMap;
 
 // Removed Categories
-# Thermal
-	mods.jei.JEI.hideCategory("thermalexpansion.furnace");
 	
 // Add to OreDict
 <ore:oreCopper>.add(<mysticalworld:copper_ore>);
 <ore:oreQuartz>.add(<mysticalworld:quartz_ore>);
 <ore:oreQuartz>.add(<mysticalworld:granite_quartz_ore>);
 <ore:oreSilver>.add(<mysticalworld:silver_ore>);
+<ore:ingotAluminum>.add(<erebus:materials:42>);
 
 print("Ore Removal");
 
@@ -27,15 +26,13 @@ var oresDisabled as IItemStack[][IOreDictEntry] = {
 	#oreAluminium
 	<ore:oreAluminium> : [
 		<libvulpes:ore0:9>,
-		<erebus:ore_aluminium>,
-		<thermalfoundation:ore:4>
+		<erebus:ore_aluminium>
 		],
 
 	#oreAluminum
 	<ore:oreAluminum> : [
 		<libvulpes:ore0:9>,
-		<erebus:ore_aluminium>,
-		<thermalfoundation:ore:4>
+		<erebus:ore_aluminium>
 	],
 
 	#oreCoal
@@ -51,7 +48,6 @@ var oresDisabled as IItemStack[][IOreDictEntry] = {
 		<libvulpes:ore0:4>,
 		<erebus:ore_copper>,
 		<forestry:resources:1>,
-		<thermalfoundation:ore>,
 		<railcraft:ore_metal>,
 		<immersiveengineering:ore>,
 		<mysticalworld:copper_ore>
@@ -78,8 +74,7 @@ var oresDisabled as IItemStack[][IOreDictEntry] = {
 
 	#oreIridium
 	<ore:oreIridium> : [
-		<libvulpes:ore0:10>,
-		<thermalfoundation:ore:7>
+		<libvulpes:ore0:10>
 	],
 
 	#oreIron
@@ -96,7 +91,6 @@ var oresDisabled as IItemStack[][IOreDictEntry] = {
 
 	#oreLead
 	<ore:oreLead>: [
-		<thermalfoundation:ore:3>,
 		<erebus:ore_lead>,
 		<railcraft:ore_metal:2>,
 		<immersiveengineering:ore:2>
@@ -107,11 +101,6 @@ var oresDisabled as IItemStack[][IOreDictEntry] = {
 		<minecraft:quartz_ore>,
 		<erebus:ore_quartz>,
 		<erebus:ore_petrified_quartz>
-	],
-
-	#orePlatinum
-	<ore:orePlatinum> : [
-		<thermalfoundation:ore:6>
 	],
 
 	#oreRedstone
@@ -137,8 +126,7 @@ var oresDisabled as IItemStack[][IOreDictEntry] = {
 		<mekanism:oreblock:2>,
 		<erebus:ore_tin>,
 		<forestry:resources:2>,
-		<railcraft:ore_metal:1>,
-		<thermalfoundation:ore:1>
+		<railcraft:ore_metal:1>
 	],
 
 	#oreTitanium
@@ -148,7 +136,6 @@ var oresDisabled as IItemStack[][IOreDictEntry] = {
 
 	#oreSilver
 	<ore:oreSilver> : [
-		<thermalfoundation:ore:2>,
 		<erebus:ore_silver>,
 		<immersiveengineering:ore:3>,
 		<mysticalworld:silver_ore>,
@@ -203,8 +190,7 @@ var oresDisabled as IItemStack[][IOreDictEntry] = {
 	#oreNickel
 	<ore:oreNickel> : [
 		<immersiveengineering:ore:4>,
-		<railcraft:ore_metal:4>,
-		<thermalfoundation:ore:5>
+		<railcraft:ore_metal:4>
 	]
 };
 
@@ -215,3 +201,23 @@ for oreDictEntry, items in oresDisabled {
 	oreDictEntry.removeItems(items);
 }
 
+print("Finished Ore Removal!");
+
+print("Starting Ingot Removal");
+
+var ingotsDisabled as IItemStack[][IOreDictEntry] = {
+
+	#ingotAluminum
+	<ore:ingotAluminum> : [
+		<immersiveengineering:metal:1>,
+		<erebus:materials:42>,
+		<libvulpes:productingot:9>
+	]
+};
+
+for oreDictEntry, items in ingotsDisabled {
+	for i in items {
+		mods.jei.JEI.removeAndHide(i);
+	}
+	oreDictEntry.removeItems(items);
+}
