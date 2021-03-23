@@ -40,6 +40,8 @@ val casting = <tconstruct:casting>;
 val searedTank = <tconstruct:seared_tank:2>;
 val castingBasin = <tconstruct:casting:1>;
 
+=======
+
 
 // Crafting Table
 	# Blank Pattern
@@ -104,6 +106,7 @@ val castingBasin = <tconstruct:casting:1>;
 			[[searedBricks, searedBrick, searedBricks],
 			[<ore:plateCopper>, hardHammer, <ore:plateCopper>],
 			[searedBricks, searedBrick, searedBricks]]);
+
 	# Faucet
 		recipes.remove(faucet);
 		recipes.addShaped(faucet,
@@ -134,6 +137,8 @@ val castingBasin = <tconstruct:casting:1>;
 		[[searedBrick,searedTank,searedBrick],
 		[searedBrick,searedTank,searedBrick],
 		[searedBricks,searedBricks,searedBricks]]);	
+=======
+
 			
 // Clay Bucket
 	# Unfired Clay Bucket
