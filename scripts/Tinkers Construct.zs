@@ -25,7 +25,7 @@ var hardHammer = <ore:craftingToolHardHammer>.firstItem.withEmptyTag();
 val unfiredClay = <ceramics:unfired_clay>;
 val clayBucket = <ceramics:clay_bucket>;
 var gregMortar = <ore:craftingToolMortar>.firstItem.withEmptyTag();
-
+val smelteryController = <tconstruct:smeltery_controller>;
 
 // Crafting Table
 	# Blank Pattern
@@ -80,6 +80,12 @@ var gregMortar = <ore:craftingToolMortar>.firstItem.withEmptyTag();
 		recipes.addShaped(<tconstruct:seared_furnace_controller>,
 			[[searedBricks, searedBrick, searedBricks],
 			[searedBrick, hardHammer, searedBrick],
+			[searedBricks, searedBrick, searedBricks]]);
+	# Smeltery Controller
+		recipes.remove(smelteryController);
+		recipes.addShaped(smelteryController,
+			[[searedBricks, searedBrick, searedBricks],
+			[<ore:plateCopper>, hardHammer, <ore:plateCopper>],
 			[searedBricks, searedBrick, searedBricks]]);
 			
 // Clay Bucket
