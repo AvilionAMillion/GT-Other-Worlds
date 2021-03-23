@@ -3069,7 +3069,8 @@
       "questID:3": 39,
       "preRequisites:11": [
         36,
-        40
+        40,
+        44
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -3369,6 +3370,368 @@
           }
         }
       }
+    },
+    "43:10": {
+      "questID:3": 43,
+      "preRequisites:11": [
+        28
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "railcraft:creosote",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Creosote Oil",
+          "desc:8": "Creosote is a handy byproduct of putting things through a coke oven, it can be used as a fuel source and as a way to make torches. You can also use to to make treated wood. Get creosote.\n\nYou just need to put the creosote in the bucket, BetterQuesting is good like that. Clay or Iron will work."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "FluidName:8": "creosote",
+              "Amount:3": 1000
+            }
+          },
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "taskID:8": "bq_standard:fluid"
+        }
+      },
+      "rewards:9": {}
+    },
+    "44:10": {
+      "questID:3": 44,
+      "preRequisites:11": [
+        36
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {
+                "AS_Amulet_HolderLeast:4": -4648920116963100068,
+                "AS_Amulet_HolderMost:4": 3237099140495459049
+              }
+            },
+            "id:8": "gregtech:meta_tool",
+            "Count:3": 1,
+            "tag:10": {
+              "GT.ToolStats:10": {
+                "Material:8": "bronze"
+              }
+            },
+            "Damage:2": 6,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Tools For Bigger Fools",
+          "desc:8": "Bronze is a durable enough material to make proper tools out of, these tools in this quest will be the main ones you\u0027ll be using a lot. You also might want to consider upgrading your hammer, the stone one is pretty bad.\n\nPersonal advice? I\u0027d wait off till Iron to do this, casting out all the bronze is kind of boring, but you can do it right now."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "gregtech:meta_tool",
+              "Count:3": 1,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "Material:8": "bronze"
+                }
+              },
+              "Damage:2": 8,
+              "OreDict:8": "craftingToolWrench"
+            },
+            "1:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "gregtech:meta_tool",
+              "Count:3": 1,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "Material:8": "bronze",
+                  "Dmg:3": 8
+                }
+              },
+              "Damage:2": 6,
+              "OreDict:8": "craftingToolHardHammer"
+            },
+            "2:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "gregtech:meta_tool",
+              "Count:3": 1,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "Material:8": "bronze",
+                  "Dmg:3": 20
+                }
+              },
+              "Damage:2": 9,
+              "OreDict:8": "craftingToolFile"
+            },
+            "3:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "gtadditions:ga_meta_tool",
+              "Count:3": 1,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "Material:8": "bronze"
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": "craftingToolBendingCylinder"
+            },
+            "4:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "gregtech:meta_tool",
+              "Count:3": 1,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "Material:8": "bronze"
+                }
+              },
+              "Damage:2": 11,
+              "OreDict:8": "craftingToolScrewdriver"
+            },
+            "5:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "gregtech:meta_tool",
+              "Count:3": 1,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "Material:8": "bronze",
+                  "Dmg:3": 2
+                }
+              },
+              "Damage:2": 5,
+              "OreDict:8": "craftingToolSaw"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "45:10": {
+      "questID:3": 45,
+      "preRequisites:11": [
+        43
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersiveengineering:treated_wood",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Treated Wood",
+          "desc:8": "Wood is a pretty flimsy resource, why don\u0027t we treat it?\n\nTreated wood allows for easier crafting of wooden items, like crafting tables, and the crafting of completely new items, like chests. It\u0027s a pretty neat resource isn\u0027t it?\n\nDespite what the recipe says, you can use clay buckets for this, still"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:treated_wood",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "46:10": {
+      "questID:3": 46,
+      "preRequisites:11": [
+        44,
+        45
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:chest",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "STORAGE!",
+          "desc:8": "With all of your newfangled tools, chests are now a definite possibility to make. They\u0027re a bit expensive, but it will be so, so worth it.\n\nThis quest is a crafting task, which means you can\u0027t just pick up a chest you got previously."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:chest",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "ironchest:wood_iron_chest_upgrade",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "47:10": {
+      "questID:3": 47,
+      "preRequisites:11": [
+        45,
+        44
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "railcraft:tank_water",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Infinite Water",
+          "desc:8": "Finite water got you down? Don\u0027t fret! Infinite Water is here to save you! The water tank from railcraft generates a very tiny amount of water per tick, but it\u0027ll probably be enough to sustain you, at least for now."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "railcraft:tank_water",
+              "Count:3": 26,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -3446,7 +3809,7 @@
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 84,
+          "x:3": 72,
           "y:3": 192,
           "id:3": 10,
           "sizeY:3": 24
@@ -3482,7 +3845,7 @@
         "15:10": {
           "sizeX:3": 24,
           "x:3": 132,
-          "y:3": 168,
+          "y:3": 192,
           "id:3": 15,
           "sizeY:3": 24
         },
@@ -3648,11 +4011,11 @@
           "sizeY:3": 24
         },
         "39:10": {
-          "sizeX:3": 24,
-          "x:3": 240,
-          "y:3": 432,
+          "sizeX:3": 48,
+          "x:3": 180,
+          "y:3": 444,
           "id:3": 39,
-          "sizeY:3": 24
+          "sizeY:3": 48
         },
         "40:10": {
           "sizeX:3": 24,
@@ -3670,9 +4033,44 @@
         },
         "42:10": {
           "sizeX:3": 24,
-          "x:3": 408,
+          "x:3": 456,
           "y:3": 384,
           "id:3": 42,
+          "sizeY:3": 24
+        },
+        "43:10": {
+          "sizeX:3": 24,
+          "x:3": 408,
+          "y:3": 336,
+          "id:3": 43,
+          "sizeY:3": 24
+        },
+        "44:10": {
+          "sizeX:3": 24,
+          "x:3": 288,
+          "y:3": 432,
+          "id:3": 44,
+          "sizeY:3": 24
+        },
+        "45:10": {
+          "sizeX:3": 24,
+          "x:3": 408,
+          "y:3": 432,
+          "id:3": 45,
+          "sizeY:3": 24
+        },
+        "46:10": {
+          "sizeX:3": 24,
+          "x:3": 348,
+          "y:3": 432,
+          "id:3": 46,
+          "sizeY:3": 24
+        },
+        "47:10": {
+          "sizeX:3": 24,
+          "x:3": 408,
+          "y:3": 480,
+          "id:3": 47,
           "sizeY:3": 24
         }
       },
