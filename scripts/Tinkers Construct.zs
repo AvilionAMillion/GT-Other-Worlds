@@ -134,7 +134,7 @@ val castingBasin = <tconstruct:casting:1>;
 	# Casting Basin
 		recipes.remove(castingBasin);
 		recipes.addShaped(castingBasin,
-		[[searedBrick,searedTank,searedBrick],
+		[[searedBrick,null,searedBrick],
 		[searedBrick,searedTank,searedBrick],
 		[searedBricks,searedBricks,searedBricks]]);	
 =======
