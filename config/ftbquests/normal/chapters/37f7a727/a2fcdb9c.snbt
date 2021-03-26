@@ -1,0 +1,46 @@
+{
+	title: "Tin Proficiency",
+	icon: "gregtech:meta_item_1 1 10071",
+	x: 12.5d,
+	y: 14.5d,
+	text: [
+		"With your flint pickaxe you can really only mine a few basic ores, tin being one of them. The main places you will find tin this early on is in Cassiterite Sand and Magnetite veins. For the Cassiterite sand vein you can mine everything in it, while with the Magnetite vein you can only mine the tin ore. Of note, the cassiterite sand smelts into tin as well."
+	],
+	dependencies: [
+		"9525bad6"
+	],
+	tasks: [{
+		uid: "f8c2c8d2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotTin",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotTin"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1c0a36d6",
+		type: "item",
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "flint"
+			}
+		}
+	},
+	{
+		uid: "731c7eca",
+		type: "item",
+		item: "minecraft:torch",
+		count: 8
+	}]
+}

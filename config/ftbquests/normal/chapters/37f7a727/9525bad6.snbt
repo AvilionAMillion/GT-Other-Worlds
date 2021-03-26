@@ -1,0 +1,25 @@
+{
+	title: "Dig Dug",
+	icon: "minecraft:stone",
+	x: 11.5d,
+	y: 12.5d,
+	description: "The Wall of Text Awakens",
+	text: [
+		"This pack has a fully customized ore generation and world generation system. This means that there is a lot of things you're going to need to know.",
+		"Firstly, caves do not generate. Ravines and other underground structures do generate, but there are no caves in this world. There are also no non-Gregtech ores, and all of those ores generate in large veins underground. These veins are massive and filled with tons of ores depending on the type of vein. Vein information can be found in JEI. (Note that the stone of each ore is interchangeable, basalt cassiterite is the same as granite cassiterite) These large veins generate on a consistent map of veins.",
+		"To find any one of these veins you need to find your coordinate of the chunk you are in (That is, your placement on the minecraft chunk grid, found by opening the F3 menu and looking at the second set of numbers in the Chunk listing, which is two below your XYZ coordinates) and only focus on the first and last values, we do not care about the middle one. Secondly, disregard any negative signs, if both of those values are some sort of multiple of 3 plus 1, there is an ore vein there."
+	],
+	dependencies: [
+		"10d90bc5"
+	],
+	tasks: [{
+		uid: "ee4e025c",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "e41d7e95",
+		type: "item",
+		item: "minecraft:torch",
+		count: 32
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Grinding Away",
+	icon: "roots:mortar",
+	x: 3.5d,
+	y: 4.5d,
+	text: [
+		"The Roots Pestle and Mortar is the first major step in order to get blank patterns. In order to use this item you have to place the mortar on the ground and put the respective ingredients in, then you can mix it together. Later you will get a way better mortar, but that's not right now."
+	],
+	dependencies: [
+		"4de33fc3",
+		"ae80b124"
+	],
+	tasks: [{
+		uid: "173934e7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:pestle"
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "de38d253",
+		type: "item",
+		items: [{
+			item: "roots:mortar"
+		}]
+	}],
+	rewards: [{
+		uid: "2d8ca452",
+		type: "item",
+		item: "actuallyadditions:item_food 1 5",
+		count: 2
+	}]
+}

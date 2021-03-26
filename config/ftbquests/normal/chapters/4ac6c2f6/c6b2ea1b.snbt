@@ -1,0 +1,25 @@
+{
+	x: -5.5d,
+	y: -0.5d,
+	description: "Let's begin!",
+	text: [
+		"Steam power is your most basic form of gregtech power.",
+		"Steam machines are powered through steam, obviously, which must be funneled to them through pipes. Some pipes cannot stand the temperatures of steam and end up burning up, because of that you can only really use bronze pipes to transport steam now",
+		"Make sure to keep your boilers constantly fed with water otherwise they will explode! A railcraft water tank is good at making sure they don't blow up."
+	],
+	dependencies: [
+		"5fe58145"
+	],
+	tasks: [{
+		uid: "184a10d6",
+		type: "checkmark",
+		title: "Into the Steam Age",
+		icon: "gregtech:machine 1 1"
+	}],
+	rewards: [{
+		uid: "2fb978ca",
+		type: "item",
+		item: "gregtech:meta_item_1 1 8357",
+		count: 16
+	}]
+}

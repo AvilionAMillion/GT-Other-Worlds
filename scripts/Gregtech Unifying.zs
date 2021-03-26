@@ -18,6 +18,12 @@ import mods.gregtech.recipe.RecipeMap;
 <ore:oreQuartz>.add(<mysticalworld:granite_quartz_ore>);
 <ore:oreSilver>.add(<mysticalworld:silver_ore>);
 <ore:ingotAluminum>.add(<erebus:materials:42>);
+<ore:ingotCopper>.add(<erebus:materials:43>);
+<ore:ingotCopper>.add(<mysticalworld:copper_ingot>);
+<ore:ingotLead>.add(<erebus:materials:44>);
+<ore:ingotTin>.add(<erebus:materials:46>);
+<ore:ingotSilver>.add(<erebus:materials:45>);
+<ore:ingotSilver>.add(<mysticalworld:silver_ingot>);
 
 print("Ore Removal");
 
@@ -32,7 +38,8 @@ var oresDisabled as IItemStack[][IOreDictEntry] = {
 	#oreAluminum
 	<ore:oreAluminum> : [
 		<libvulpes:ore0:9>,
-		<erebus:ore_aluminium>
+		<erebus:ore_aluminium>,
+		<thermalfoundation:ore:4>
 	],
 
 	#oreCoal
@@ -50,7 +57,8 @@ var oresDisabled as IItemStack[][IOreDictEntry] = {
 		<forestry:resources:1>,
 		<railcraft:ore_metal>,
 		<immersiveengineering:ore>,
-		<mysticalworld:copper_ore>
+		<mysticalworld:copper_ore>,
+		<thermalfoundation:ore>
 	],
 
 	#oreDiamond
@@ -74,7 +82,8 @@ var oresDisabled as IItemStack[][IOreDictEntry] = {
 
 	#oreIridium
 	<ore:oreIridium> : [
-		<libvulpes:ore0:10>
+		<libvulpes:ore0:10>,
+		<thermalfoundation:ore:7>
 	],
 
 	#oreIron
@@ -93,7 +102,8 @@ var oresDisabled as IItemStack[][IOreDictEntry] = {
 	<ore:oreLead>: [
 		<erebus:ore_lead>,
 		<railcraft:ore_metal:2>,
-		<immersiveengineering:ore:2>
+		<immersiveengineering:ore:2>,
+		<thermalfoundation:ore:3>
 	],
 
 	#oreNetherQuartz
@@ -126,7 +136,8 @@ var oresDisabled as IItemStack[][IOreDictEntry] = {
 		<mekanism:oreblock:2>,
 		<erebus:ore_tin>,
 		<forestry:resources:2>,
-		<railcraft:ore_metal:1>
+		<railcraft:ore_metal:1>,
+		<thermalfoundation:ore:1>
 	],
 
 	#oreTitanium
@@ -139,7 +150,8 @@ var oresDisabled as IItemStack[][IOreDictEntry] = {
 		<erebus:ore_silver>,
 		<immersiveengineering:ore:3>,
 		<mysticalworld:silver_ore>,
-		<railcraft:ore_metal:3>
+		<railcraft:ore_metal:3>,
+		<thermalfoundation:ore:2>
 	],
 
 	#oreUranium
@@ -190,7 +202,8 @@ var oresDisabled as IItemStack[][IOreDictEntry] = {
 	#oreNickel
 	<ore:oreNickel> : [
 		<immersiveengineering:ore:4>,
-		<railcraft:ore_metal:4>
+		<railcraft:ore_metal:4>,
+		<thermalfoundation:ore:5>
 	]
 };
 
@@ -203,21 +216,148 @@ for oreDictEntry, items in oresDisabled {
 
 print("Finished Ore Removal!");
 
-print("Starting Ingot Removal");
+/////////////////////////////////////////////////
 
-var ingotsDisabled as IItemStack[][IOreDictEntry] = {
+print("Starting Plate Removal");
 
-	#ingotAluminum
-	<ore:ingotAluminum> : [
-		<immersiveengineering:metal:1>,
-		<erebus:materials:42>,
-		<libvulpes:productingot:9>
+var platesDisabled as IItemStack[][IOreDictEntry] = {
+
+	#plateAluminum
+	<ore:plateAluminum> : [
+		<libvulpes:productplate:9>,
+		<thermalfoundation:material:324>,
+		<immersiveengineering:metal:31>
+	],
+
+
+	#plateBronze
+	<ore:plateBronze> : [
+		<thermalfoundation:material:355>,
+		<railcraft:plate:6>
+	],
+
+	#plateConstantan
+	<ore:plateConstantan> : [
+		<thermalfoundation:material:356>,
+		<immersiveengineering:metal:36>
+	],
+
+	#plateCopper
+	<ore:plateCopper> : [
+		<libvulpes:productplate:4>,
+		<thermalfoundation:material:320>,
+		<immersiveengineering:metal:30>,
+		<railcraft:plate:3>
+	],
+
+	#plateElectrum
+	<ore:plateElectrum> : [
+		<thermalfoundation:material:353>,
+		<immersiveengineering:metal:37>
+	],
+
+	#plateEnderium
+	<ore:plateEnderium> : [
+		<thermalfoundation:material:359>
+	],
+
+	#plateGold
+	<ore:plateGold> : [
+		<libvulpes:productplate:2>,
+		<thermalfoundation:material:33>,
+		<immersiveengineering:metal:40>,
+		<railcraft:plate:7>
+	],
+
+	#plateInvar
+	<ore:plateInvar> : [
+		<thermalfoundation:material:354>,
+		<railcraft:plate:9>
+	],
+
+	#plateIridium
+	<ore:plateIridium> : [
+		<libvulpes:productplate:10>,
+		<thermalfoundation:material:327>
+	],
+
+	#plateIron
+	<ore:plateIron> : [
+		<thermalfoundation:material:32>,
+		<thaumcraft:plate:1>,
+		<libvulpes:productplate:1>,
+		<immersiveengineering:metal:39>,
+		<railcraft:plate>
+	],
+
+	#plateLead
+	<ore:plateLead> : [
+		<thermalfoundation:material:323>,
+		<immersiveengineering:metal:32>,
+		<railcraft:plate:4>
+	],
+
+	#plateLumium
+	<ore:plateLumium> : [
+		<thermalfoundation:material:358>
+	],
+
+	#plateNickel
+	<ore:plateNickel> : [
+		<thermalfoundation:material:325>,
+		<immersiveengineering:metal:34>,
+		<railcraft:plate:8>
+	],
+
+	#platePlatinum
+	<ore:platePlatinum> : [
+		<thermalfoundation:material:326>
+	],
+
+	#plateSignalum
+	<ore:plateSignalum> : [
+		<thermalfoundation:material:357>
+	],
+
+	#plateSilicon
+	<ore:plateSilicon> : [
+		<libvulpes:productplate:3>
+	],
+
+	#plateSilver
+	<ore:plateSilver> : [
+		<thermalfoundation:material:322>,
+		<immersiveengineering:metal:33>,
+		<railcraft:plate:5>
+	],
+
+	#plateSteel
+	<ore:plateSteel> : [
+		<thermalfoundation:material:352>,
+		<libvulpes:productplate:6>,
+		<immersiveengineering:metal:38>,
+		<railcraft:plate:1>
+	],
+
+	#plateTin
+	<ore:plateTin> : [
+		<thermalfoundation:material:321>,
+		<libvulpes:productplate:5>,
+		<railcraft:plate:2>
+	],
+
+	#plateTitanium
+	<ore:plateTitanium> : [
+		<libvulpes:productplate:7>
 	]
 };
 
-for oreDictEntry, items in ingotsDisabled {
+for oreDictEntry, items in platesDisabled {
 	for i in items {
 		mods.jei.JEI.removeAndHide(i);
 	}
 	oreDictEntry.removeItems(items);
 }
+
+print("Finished Plate Removal!");
+

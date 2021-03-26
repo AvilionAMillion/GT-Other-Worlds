@@ -1,0 +1,44 @@
+{
+	title: "Barking Better",
+	icon: "roots:bark_oak",
+	x: 3.5d,
+	y: 2.0d,
+	text: [
+		"With your newfound knife you can start knapping up wood to get bark! Right click on some vanilla wood to get that respective bark.",
+		"",
+		"§cTHIS ONLY WORKS ON VANILLA BARK! §fChanges are pending for this."
+	],
+	dependencies: [
+		"cb544dc3"
+	],
+	tasks: [{
+		uid: "94c7228f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "rootsBark",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rootsBark"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "529df1ce",
+		type: "item",
+		item: "minecraft:log",
+		count: 4
+	},
+	{
+		uid: "7c43a7ec",
+		type: "item",
+		item: "harvestcraft:cookedgrubitem",
+		count: 2
+	}]
+}

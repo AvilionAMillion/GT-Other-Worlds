@@ -1,0 +1,33 @@
+{
+	title: "Creosote Oil",
+	icon: "railcraft:creosote",
+	x: 17.5d,
+	y: 14.5d,
+	text: [
+		"Creosote is a handy byproduct of putting things through a coke oven, it can be used as a fuel source and as a way to make torches. You can also use to to make treated wood. Get creosote.",
+		"",
+		"You just need to put the creosote in the bucket, FTBQuests is good like that. Clay or Iron will work."
+	],
+	dependencies: [
+		"e122f462"
+	],
+	tasks: [{
+		uid: "bc154e4b",
+		type: "fluid",
+		fluid: "creosote"
+	}],
+	rewards: [{
+		uid: "8c3bc6e1",
+		type: "item",
+		item: {
+			id: "binniecore:glass",
+			tag: {
+				Fluid: {
+					FluidName: "binnie.juice.olive",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	}]
+}

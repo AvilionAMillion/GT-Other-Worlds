@@ -1,0 +1,50 @@
+{
+	title: "End Of The Night",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:bed",
+		Damage: 14s
+	},
+	x: 9.5d,
+	y: 3.5d,
+	text: [
+		"With your newfound soft hammer you can make a bed, and are now able to skip those horrible, horrible nights.",
+		"",
+		"Of note, the hammer in the recipe is §l§cNOT §fconsumed on use. It only takes damage, and this is true of most recipes."
+	],
+	dependencies: [
+		"162acbe3"
+	],
+	tasks: [{
+		uid: "78939a4a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "bed",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any bed"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ebedd2a3",
+		type: "item",
+		item: "immersiveengineering:metal_decoration2 1 4",
+		count: 2
+	},
+	{
+		uid: "476da7f9",
+		type: "item",
+		item: "harvestcraft:cookiesandmilkitem",
+		count: 2
+	}]
+}

@@ -1,0 +1,66 @@
+{
+	title: "Bonk",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {
+				AS_Amulet_HolderLeast: -4648920116963100068L,
+				AS_Amulet_HolderMost: 3237099140495459049L
+			}
+		},
+		id: "gregtech:meta_tool",
+		tag: {
+			GT.ToolStats: {
+				MaxDurability: 55,
+				DigSpeed: 4.0f,
+				AttackDamage: 1.0f,
+				Material: "wood",
+				HarvestLevel: 1
+			}
+		},
+		Damage: 7s
+	},
+	x: 8.0d,
+	y: 5.5d,
+	text: [
+		"Go to GregTech jail",
+		"",
+		"The soft hammer is the first real GregTech tool you can make, it can be crafted out of 6 planks and a stick in a regular hammer formation. This is required for basic technology making."
+	],
+	dependencies: [
+		"4de33fc3"
+	],
+	tasks: [{
+		uid: "ed4c3e81",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4648920116963100068L,
+					AS_Amulet_HolderMost: 3237099140495459049L
+				}
+			},
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					MaxDurability: 55,
+					DigSpeed: 4.0f,
+					AttackDamage: 1.0f,
+					Material: "wood",
+					HarvestLevel: 1
+				}
+			},
+			Damage: 7s
+		}]
+	}],
+	rewards: [{
+		uid: "547c3307",
+		type: "item",
+		item: "minecraft:wool",
+		count: 2
+	},
+	{
+		uid: "fa10dfbe",
+		type: "item",
+		item: "harvestcraft:deviledeggitem"
+	}]
+}

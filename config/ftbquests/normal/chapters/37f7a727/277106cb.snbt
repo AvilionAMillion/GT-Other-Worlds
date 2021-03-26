@@ -1,0 +1,50 @@
+{
+	title: "Copper Collection",
+	icon: "gregtech:meta_item_1 1 10018",
+	x: 10.5d,
+	y: 14.5d,
+	text: [
+		"With your flint pickaxe you can really only mine a few basic ores, copper being one of them. The main places you will find copper this early on is in Bornite and Chalcopyrite veins. For the chalcopyrite vein you can mine both the copper and chacopyrite ore, while with the bornite vein you can only mine the Chalcolite and Copper ore. Regardless, get some copper"
+	],
+	dependencies: [
+		"9525bad6"
+	],
+	tasks: [{
+		uid: "d9b27e7d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotCopper",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotCopper"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5a44579c",
+		type: "item",
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "flint"
+			}
+		}
+	},
+	{
+		uid: "3a011028",
+		type: "item",
+		item: {
+			id: "tconstruct:binding",
+			tag: {
+				Material: "copper"
+			}
+		}
+	}]
+}

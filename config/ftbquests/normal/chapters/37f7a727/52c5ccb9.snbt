@@ -1,0 +1,28 @@
+{
+	title: "Basic Materialism",
+	icon: "minecraft:flint",
+	x: 2.5d,
+	y: 0.5d,
+	text: [
+		"Flint is a key material in early crafting, and one of the first durable ingredients to make tools out of. It can be crafted through 3 gravel as well. Go grab some flint!"
+	],
+	tasks: [{
+		uid: "33edaee9",
+		type: "item",
+		items: [{
+			item: "minecraft:flint 4"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "0a80d776",
+		type: "item",
+		item: "minecraft:torch",
+		count: 8
+	},
+	{
+		uid: "b2816586",
+		type: "item",
+		item: "harvestcraft:toastitem"
+	}]
+}

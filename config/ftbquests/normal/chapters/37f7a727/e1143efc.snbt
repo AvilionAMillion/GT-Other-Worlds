@@ -1,0 +1,26 @@
+{
+	title: "Akashic Wha-????",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "akashictome:tome"
+	},
+	x: -1.0d,
+	y: 2.0d,
+	text: [
+		"Do you have too many books? Of course you do! The Akashic Tome solves that issue by consolidating all mod guidebooks you obtain into one central book, including this here questbook! Hopefully the documentation in this is enough, but§ §f in case we are too dumb and don't put in enough information you always have the books to look back on."
+	],
+	dependencies: [
+		"8057bc2f"
+	],
+	tasks: [{
+		uid: "c56069ae",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "31d3670a",
+		type: "choice",
+		table: 0
+	}]
+}

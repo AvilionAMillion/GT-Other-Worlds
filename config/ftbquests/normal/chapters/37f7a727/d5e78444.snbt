@@ -1,0 +1,136 @@
+{
+	title: "Tools For Bigger Fools",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {
+				AS_Amulet_HolderLeast: -4648920116963100068L,
+				AS_Amulet_HolderMost: 3237099140495459049L
+			}
+		},
+		id: "gregtech:meta_tool",
+		tag: {
+			GT.ToolStats: {
+				Material: "bronze"
+			}
+		},
+		Damage: 6s
+	},
+	x: 12.5d,
+	y: 20.5d,
+	text: [
+		"Bronze is a durable enough material to make proper tools out of, these tools in this quest will be the main ones you'll be using a lot. You also might want to consider upgrading your hammer, the stone one is pretty bad.",
+		"",
+		"Personal advice? I'd wait off till Iron to do this, casting out all the bronze is kind of boring, but you can do it right now."
+	],
+	dependencies: [
+		"3ddf5904"
+	],
+	tasks: [{
+		uid: "7ab5ae96",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolWrench",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolWrench"
+				}
+			}
+		}]
+	},
+	{
+		uid: "1fce54b2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolHardHammer",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolHardHammer"
+				}
+			}
+		}]
+	},
+	{
+		uid: "316f2dd4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolFile",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolFile"
+				}
+			}
+		}]
+	},
+	{
+		uid: "03b0dc23",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolBendingCylinder",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolBendingCylinder"
+				}
+			}
+		}]
+	},
+	{
+		uid: "a8334aa8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolScrewdriver",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolScrewdriver"
+				}
+			}
+		}]
+	},
+	{
+		uid: "3f5fb858",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolSaw",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolSaw"
+				}
+			}
+		}]
+	}]
+}

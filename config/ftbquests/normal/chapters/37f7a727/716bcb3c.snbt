@@ -1,0 +1,32 @@
+{
+	title: "STORAGE!",
+	icon: "minecraft:chest",
+	x: 15.0d,
+	y: 18.5d,
+	text: [
+		"With all of your newfangled tools, chests are now a definite possibility to make. They're a bit expensive, but it will be so, so worth it.",
+		"",
+		"This quest is a crafting task, which means you can't just pick up a chest you got previously."
+	],
+	dependencies: [
+		"8a958d67",
+		"d5e78444"
+	],
+	tasks: [{
+		uid: "500968ab",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}]
+	}],
+	rewards: [{
+		uid: "72ad5760",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ironchest:wood_iron_chest_upgrade"
+		}
+	}]
+}

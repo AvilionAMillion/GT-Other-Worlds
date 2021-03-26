@@ -1,0 +1,45 @@
+{
+	title: "A New Beginning",
+	icon: "minecraft:log",
+	x: 0.5d,
+	y: 0.5d,
+	description: "What's this? *dies*",
+	text: [
+		"Welcome to GTOW! Thanks for choosing to play this pack, starting off is easy! Just grab a bit of wood and you'll be doing great!"
+	],
+	tasks: [{
+		uid: "bf2d6827",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "609b746d",
+		type: "item",
+		item: "harvestcraft:caramelappleitem",
+		count: 2
+	},
+	{
+		uid: "af5df5a2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "akashictome:tome"
+		}
+	}]
+}

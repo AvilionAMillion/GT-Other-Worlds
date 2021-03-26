@@ -1,0 +1,73 @@
+{
+	title: "Tinkers Afficianado",
+	icon: "tconstruct:tooltables 1 3",
+	x: 6.0d,
+	y: 8.5d,
+	text: [
+		"Combining all of your current tools and gizmos together should allow you to make the 4 tinkers work stations. This pack unifies all of the part builders and stencil tables into one, so no need to worry about having the correct type of wood."
+	],
+	dependencies: [
+		"8ac199b4",
+		"162acbe3",
+		"4096638d"
+	],
+	tasks: [{
+		uid: "d9c0e249",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 4"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "de66c391",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2274380d",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4ab8710a",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dbbcb5bf",
+		type: "item",
+		item: "harvestcraft:gourmetbeefburgeritem"
+	},
+	{
+		uid: "fbdd39c2",
+		type: "item",
+		item: "tconstruct:pattern",
+		count: 4
+	}]
+}

@@ -1,0 +1,10 @@
+{
+	title: "STEAM ROLLAH!!!!!",
+	icon: "gregtech:machine 1 1",
+	description: [
+		"The start of your gregtech progression"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

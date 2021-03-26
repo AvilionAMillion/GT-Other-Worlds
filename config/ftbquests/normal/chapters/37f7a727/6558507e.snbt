@@ -1,0 +1,24 @@
+{
+	title: "Defensive Maneuvers",
+	icon: "minecraft:brick_block",
+	x: 5.0d,
+	y: 18.5d,
+	text: [
+		"Brick blocks are a sturdy block perfect for defending your base against most mobs. It's also an essential item for steam machines, which is probably why you'd make them."
+	],
+	dependencies: [
+		"8c28c0a5"
+	],
+	tasks: [{
+		uid: "7b4cb44f",
+		type: "item",
+		items: [{
+			item: "minecraft:brick_block"
+		}]
+	}],
+	rewards: [{
+		uid: "56622591",
+		type: "item",
+		item: "harvestcraft:chocolatebaconitem"
+	}]
+}

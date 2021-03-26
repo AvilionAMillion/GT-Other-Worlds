@@ -46,5 +46,9 @@ var chest_lock = <stevescarts:modulecomponents:33>;
 		[bronze_ring, bronze_longrod, chest_lock],
 		[treated_plank,treated_plank,treated_plank]]);
 
+// Furnace
+	# Charcoal
+		furnace.remove(<minecraft:coal:1>);
+
 // Burning
 	FireCrafting.addRecipe(<minecraft:glass>, <contenttweaker:glassy_sand>, 200);

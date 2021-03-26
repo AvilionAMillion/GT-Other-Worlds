@@ -1,0 +1,32 @@
+{
+	title: "Seared Bricks",
+	icon: "tconstruct:materials",
+	x: 14.5d,
+	y: 7.5d,
+	text: [
+		"By drying an unfired seared brick for 5 minutes on a drying rack you will get a regular old seared brick! Because of how long this takes, you should §ldefinitely §l§fmake multiple drying racks, doing it one at a time will kill you."
+	],
+	dependencies: [
+		"6dd56fc4",
+		"c1d26a4f"
+	],
+	tasks: [{
+		uid: "36d17a3f",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials"
+		}]
+	}],
+	rewards: [{
+		uid: "4a498c3d",
+		type: "item",
+		item: "tconstruct:materials",
+		count: 16
+	},
+	{
+		uid: "24c8c768",
+		type: "item",
+		item: "minecraft:clay_ball",
+		count: 32
+	}]
+}

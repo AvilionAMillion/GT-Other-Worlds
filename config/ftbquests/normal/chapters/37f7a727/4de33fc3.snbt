@@ -1,0 +1,36 @@
+{
+	title: "Workshop Workstop",
+	icon: "minecraft:crafting_table",
+	x: 6.0d,
+	y: 2.0d,
+	text: [
+		"Finally you can obtain a crafting table, it's as simple as two bark and two logs. At last 3x3 stations it only took- what 3 minutes?"
+	],
+	dependencies: [
+		"a3af92ca"
+	],
+	tasks: [{
+		uid: "a85d74dc",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "7004b61b",
+		type: "item",
+		item: "minecraft:flint",
+		count: 8
+	},
+	{
+		uid: "315f461e",
+		type: "item",
+		item: "minecraft:log",
+		count: 16
+	},
+	{
+		uid: "73fd3a46",
+		type: "item",
+		item: "harvestcraft:pizzaitem"
+	}]
+}
