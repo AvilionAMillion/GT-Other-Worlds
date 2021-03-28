@@ -1,0 +1,31 @@
+{
+	title: "Rage Against The Machine",
+	x: -4.5d,
+	y: 0.0d,
+	description: "Too much control over me",
+	text: [
+		"Ever modular machinery multiblock needs a machine controller on it. This block is how you can determine if the structure is built correctly, and if it needs a blueprint."
+	],
+	dependencies: [
+		"3c103079",
+		"523f2038"
+	],
+	tasks: [{
+		uid: "0cc3e9ce",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	}],
+	rewards: [{
+		uid: "fb08fc5b",
+		type: "item",
+		item: "harvestcraft:roastedrootveggiemedleyitem"
+	},
+	{
+		uid: "39d8ddb9",
+		type: "item",
+		item: "modularmachinery:blockcasing",
+		count: 8
+	}]
+}
