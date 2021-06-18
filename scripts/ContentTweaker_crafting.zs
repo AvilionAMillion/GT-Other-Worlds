@@ -8,6 +8,8 @@ val unfiredSearedBrick = <contenttweaker:unfired_searedbrick>;
 val brickForm = <gregtech:meta_item_2:32012>;
 val grout = <tconstruct:soil>;
 val glassDust = <gregtech:meta_item_1:2209>;
+val wIronScrew = <ore:screwWroughtIron>;
+val wIronPlate = <ore:plateWroughtIron>;
 
 // Unfired Seared Brick
 	recipes.addShapeless(unfiredSearedBrick,
@@ -20,6 +22,12 @@ val glassDust = <gregtech:meta_item_1:2209>;
 // Sandy-Clay Compound
 	recipes.addShapeless(<contenttweaker:sandyclay>,
 		[<gregtech:meta_item_1:2960>, <gregtech:meta_item_1:2105>]);
+
+// Wrought Iron Heating Component
+	recipes.addShaped(<contenttweaker:wroughtironheater>,
+		[[wIronScrew, craftingToolScrewdriver, wIronScrew],
+		[wIronPlate, <immersiveengineering:metal_device1:1>, wIronPlate],
+		[wIronScrew, craftingToolWrench, wIronScrew]]);
 
 // Glassy Sand
 	recipes.addShaped(<contenttweaker:glassy_sand>,

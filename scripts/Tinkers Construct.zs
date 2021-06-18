@@ -32,13 +32,14 @@ val craftingTable = <minecraft:crafting_table>;
 val log = <ore:logWood>;
 val craftingStation = <tconstruct:tooltables>;
 val chest = <minecraft:chest>;
-val resin = <gregtech:meta_item_1:32627>;
+val resin = <ore:slimeball>;
 val faucet = <tconstruct:faucet>;
 val channel = <tconstruct:channel>;
 val drain = <tconstruct:smeltery_io>;
 val casting = <tconstruct:casting>;
 val searedTank = <tconstruct:seared_tank:2>;
 val castingBasin = <tconstruct:casting:1>;
+val pipeBronzeMedium = <gregtech:fluid_pipe:2095>;
 
 // Crafting Table
 	# Blank Pattern
@@ -83,6 +84,10 @@ val castingBasin = <tconstruct:casting:1>;
 			[[hardLeather,blankPattern,hardLeather],
 			[log,craftingTable,log],
 			[log,chest,log]]);
+	# Grout
+		recipes.remove(grout);
+		recipes.addShapeless(grout * 2,
+			[gravel, sand, clayDust, gregMortar]);
 
 // Seared Items
 	# Seared Bricks
@@ -113,9 +118,7 @@ val castingBasin = <tconstruct:casting:1>;
 	# Channel
 		recipes.remove(channel);
 		recipes.addShaped(channel,
-		[[null,null,null],
-		[null,hardHammer,null],
-		[faucet,resin,faucet]]);	
+		[[faucet,hardHammer,faucet]]);	
 	# Drain
 		recipes.remove(drain);
 		recipes.addShaped(drain,
@@ -134,6 +137,20 @@ val castingBasin = <tconstruct:casting:1>;
 		[[searedBrick,null,searedBrick],
 		[searedBrick,searedTank,searedBrick],
 		[searedBricks,searedBricks,searedBricks]]);	
+	# Tank Controller
+		recipes.remove(<tconstruct:tinker_tank_controller>);
+		recipes.addShaped(<tconstruct:tinker_tank_controller>,
+			[[searedBricks, pipeBronzeMedium, searedBricks],
+			[searedBrick, hardHammer, searedBrick],
+			[searedBricks, pipeBronzeMedium, searedBricks]]);
+
+// Casts
+	# Plate Cast
+		mods.tconstruct.Casting.removeTableRecipe(<tconstruct:cast_custom:3>);
+// Furnace
+		furnace.remove(searedBrick);
+		furnace.addRecipe(searedBrick, unfiredSearedBrick);
+	
 			
 // Clay Bucket
 	# Unfired Clay Bucket
@@ -144,6 +161,8 @@ val castingBasin = <tconstruct:casting:1>;
 		[clayDust, clayDust, clayDust]]);
 	# Fired Clay Bucket
 		FireCrafting.addRecipe(clayBucket, unfiredClay, 80);
+	# Seared Bricks
+		FireCrafting.addRecipe(searedBrick, unfiredSearedBrick, 320);
 
 // Bark Cutting
 	# Stone Shard
@@ -151,11 +170,6 @@ val castingBasin = <tconstruct:casting:1>;
 		
 // InWorldCrafting
 	# Grout
-		recipes.remove(grout);
 		FluidToItem.transform(grout * 4, <fluid:water>, [gravel * 2, sand * 2, clayDust * 2], true);
-		
-// Drying Rack
-	# Seared Brick
-		mods.tconstruct.Drying.addRecipe(searedBrick, unfiredSearedBrick, 2400);
 		
 		

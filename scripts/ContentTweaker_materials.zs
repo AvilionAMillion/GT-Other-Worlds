@@ -12,6 +12,9 @@ unfiredSearedBrick.register();
  # Sandy-Clay Compound
 var dustSandyClay as Item = VanillaFactory.createItem("sandyClay");
 dustSandyClay.register();
+ # Wrought Iron Heating Component
+var wroughtIron_Heater as Item = VanillaFactory.createItem("wroughtIronHeater");
+wroughtIron_Heater.register();
 
 // Blocks
  # Glassy Sand

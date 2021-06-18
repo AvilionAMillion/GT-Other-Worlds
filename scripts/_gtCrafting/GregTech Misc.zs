@@ -3,6 +3,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.roots.Mortar;
 import mods.tconstruct.Drying;
+import mods.roots.Fey;
+import mods.inworldcrafting.FireCrafting;
 
 // Val
 var softHammer = <ore:craftingToolSoftHammer>.firstItem.withEmptyTag();
@@ -18,6 +20,9 @@ val Coke_Controller = <gregtech:machine:526>;
 val cokeBrick = <gregtech:meta_item_2:32016>;
 val sandyClay = <contenttweaker:sandyclay>;
 val cokeClay = <gtadditions:ga_meta_item:32036>;
+val woodPlank = <gregtech:meta_item_1:12196>;
+val firebrick = <gregtech:meta_item_2:32015>;
+val concreteBucket = <forge:bucketfilled>.withTag({FluidName: "concrete", Amount: 1000});
 
 // Crafting Table
 	# Small Chest
@@ -38,14 +43,6 @@ val cokeClay = <gtadditions:ga_meta_item:32036>;
 	# Match
 	recipes.addShapeless(gregMatch,
 		[<roots:wildroot>, itemString, stick]);
-	# Compressed Coke Clay
-	recipes.remove(cokeClay);
-	recipes.addShapeless(cokeClay,
-		[brickForm, sandyClay]);
-	recipes.addShaped(cokeClay * 8,
-		[[sandyClay, sandyClay, sandyClay],
-		[sandyClay, brickForm, sandyClay],
-		[sandyClay, sandyClay, sandyClay]]);
 	# Coke Oven Controller
 	recipes.remove(Coke_Controller);
 	recipes.addShaped(Coke_Controller,
@@ -64,7 +61,23 @@ val cokeClay = <gtadditions:ga_meta_item:32036>;
 		[[Coke_Brick, glass, Coke_Brick],
 		[glass, hardHammer, glass],
 		[Coke_Brick, glass, Coke_Brick]]);
+	# Wooden Tank
+	recipes.remove(<gregtech:machine:811>);
+	recipes.addShaped(<gregtech:machine:811>,
+		[[woodPlank, glass, woodPlank],
+		[glass, null, glass],
+		[woodPlank, glass, woodPlank]]);
+	# Pre-LV Firebricks
+	recipes.addShaped(<gregtech:metal_casing:1>,
+		[[firebrick, <ore:dustGypsum>, firebrick],
+		[firebrick, concreteBucket, firebrick],
+		[firebrick, <ore:dustGypsum>, firebrick]]);
 		
-// Drying
+// Fire Crafting
 	# Coke Brick
-		mods.tconstruct.Drying.addRecipe(cokeBrick, cokeClay, 1200);
+		FireCrafting.addRecipe(cokeBrick, cokeClay, 180);
+		
+// Fey Crafting
+	# Rubber Tree Sapling
+		Fey.addRecipe("rubberTree", <gregtech:sapling>, [<ore:slimeball>, <ore:slimeball>, <botania:overgrowthseed>, <thaumcraft:sapling_greatwood>, <roots:wildroot>]);
+		

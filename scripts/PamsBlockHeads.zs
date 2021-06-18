@@ -22,6 +22,7 @@ val pMortar = <harvestcraft:mortarandpestleitem>;
 val bowl = <harvestcraft:mixingbowlitem>;
 val knifeBlade = <actuallyadditions:item_misc:2>;
 val juicer = <harvestcraft:juiceritem>;
+val reinforcedStone = <sonarcore:reinforcedstoneblock>;
 
 // Wax from comb
 
@@ -77,6 +78,14 @@ val juicer = <harvestcraft:juiceritem>;
 		[null,knifeBlade,null],
 		[wroIronPlate,wroIronPlate,wroIronPlate]]);	
 		
+		
+// Crafting
+	# Pam's Well
+	recipes.remove(<harvestcraft:well>);
+	recipes.addShaped(<harvestcraft:well>,
+		[[hardHammer, <minecraft:bucket>, craftingToolFile],
+		[<ore:plateIron>, reinforcedStone, <ore:plateIron>],
+		[<ore:plateIron>, reinforcedStone, <ore:plateIron>]]);
 		
 		
 		

@@ -17,6 +17,12 @@ global sand as IOreDictEntry = <ore:sand>;
 global clay as IOreDictEntry = <ore:clay>;
 global glass as IOreDictEntry = <ore:blockGlass>;
 
+// Plates
+global plateIron as IOreDictEntry = <ore:plateIron>;
+
+// Screws
+global screwIron as IOreDictEntry = <ore:screwIron>;
+
 // GregTech Tools
 global hardHammer as IItemStack = <gregtech:meta_tool:6>;
 global craftingToolFile as IItemStack = <gregtech:meta_tool:9>;

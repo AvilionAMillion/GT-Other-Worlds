@@ -11,6 +11,7 @@ val rootsBark = <ore:rootsBark>;
 val rootsPestle = <roots:pestle>;
 val rootsMortar = <roots:mortar>;
 val wildroot = <roots:wildroot>;
+var reinforcedStone = <sonarcore:reinforcedstoneblock>;
 
 // Crafting Table
   # Flint Knife
@@ -30,6 +31,12 @@ val wildroot = <roots:wildroot>;
 		[stoneShard, null, stoneShard],
 		[stoneShard, null, stoneShard],
 		[stoneShard, stoneShard, stoneShard]]);
+  # Pyre
+	recipes.remove(<roots:bonfire>);
+	recipes.addShaped(<roots:bonfire>, [
+		[null, wood, null],
+		[wood, wildroot, wood],
+		[reinforcedStone, reinforcedStone, reinforcedStone]]);
 		
 // Bark Cutting
 	# Wildroot

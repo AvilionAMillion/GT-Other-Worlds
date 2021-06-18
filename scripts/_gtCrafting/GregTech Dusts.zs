@@ -16,3 +16,7 @@ val dustWood = <gregtech:meta_item_1:2196>;
 		Mortar.addRecipe(<gregtech:meta_item_1:2960>, [sand]);
 	# Flint Dust
 		Mortar.addRecipe(<gregtech:meta_item_1:2220>, [flint]);
+		
+// Furnace
+	# Redstone Removal
+		furnace.remove(<minecraft:redstone>);

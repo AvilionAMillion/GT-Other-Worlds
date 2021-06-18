@@ -20,7 +20,7 @@ val chest = <ore:chest>;
 		[null, <ore:plateIron>, null]]);
 	recipes.addShaped(<modularmachinery:blockcontroller>,
 		[[mmCasing, bronzePlate, mmCasing],
-		[redPlate, null, redPlate],
+		[redPlate, craftingToolWrench, redPlate],
 		[mmCasing, bronzePlate, mmCasing]]);
 
 // Outputs and Inputs

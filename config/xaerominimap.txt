@@ -5,6 +5,7 @@ settingsButton:false
 allowWrongWorldTeleportation:false
 differentiateByServerAddress:true
 debugEntityIcons:false
+debugEntityVariantIds:false
 #INGAME SETTINGS (DO NOT EDIT!)
 minimap:true
 caveMaps:2
@@ -54,7 +55,7 @@ showBiome:false
 showEntityHeight:true
 showFlowers:true
 keepWaypointNames:false
-waypointsDistance:0.0
+waypointsDistanceExp:0
 waypointsDistanceMin:0.0
 waypointTPCommand:/tp @s
 arrowScale:1.5
@@ -84,7 +85,7 @@ otherNames:0
 tamedMobNames:3
 showLightLevel:0
 renderLayerIndex:1
-showTime:0
+showTime:1
 biomeColorsVanillaMode:false
 lookingAtAngle:10
 lookingAtAngleVertical:180
@@ -94,7 +95,8 @@ alwaysEntityNametags:false
 minimapTextAlign:0
 showAngles:false
 waypointsMutualEdit:true
-compass:true
+compassLocation:1
+compassScale:1
 caveMapsDepth:30
 hideWaypointCoordinates:false
 renderAllSets:false
@@ -109,7 +111,12 @@ lightOverlayColor:13
 uiScale:0
 bossHealthPushBox:1
 potionEffectPushBox:1
-interface:dummy:0:0:true:false:false:false
+minimapFrame:0
+minimapFrameColor:9
+compassColor:9
+itemFramesOnRadar:false
+showDimensionName:true
+interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false
 interface:dummy:0:36:true:false:false:false
