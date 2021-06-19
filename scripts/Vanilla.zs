@@ -49,7 +49,7 @@ val oreDictFurnace = <ore:furnaceBlock>;
 		recipes.remove(chest_lock * 8);
 		recipes.addShaped(chest_lock,
 		[[stone,null,null],
-		[bronze,null,null],
+		[<ore:ingotTin>,null,null],
 		[null,null,null]]);
 		
 		recipes.remove(chest);

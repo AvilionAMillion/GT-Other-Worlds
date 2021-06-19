@@ -29,6 +29,7 @@ import mods.gregtech.recipe.RecipeMap;
 <ore:blockAluminum>.addAll(<ore:blockAluminium>);
 <ore:blockConstantan>.addAll(<ore:blockCupronickel>);
 <ore:blockCopper>.add(<mysticalworld:copper_block>);
+<ore:blockSilver>.add(<mysticalworld:silver_block>);
 
 print("Ore Removal");
 
@@ -472,7 +473,8 @@ var blocksDisabled as IItemStack[][IOreDictEntry] = {
 	<ore:blockBronze> : [
 		<mekanism:basicblock:1>,
 		<thermalfoundation:storage_alloy:3>,
-		<railcraft:metal:5>
+		<railcraft:metal:5>,
+		<forestry:resource_storage:3>
 	],
 	
 	#blockConstantan
@@ -513,6 +515,61 @@ var blocksDisabled as IItemStack[][IOreDictEntry] = {
 	<ore:blockIridium> : [
 		<thermalfoundation:storage:7>,
 		<libvulpes:metal0:10>
+	],
+	
+	#blockLead
+	<ore:blockLead> : [
+		<immersiveengineering:storage:2>,
+		<railcraft:metal:2>,
+		<thermalfoundation:storage:3>
+	],
+	
+	#blockNickel
+	<ore:blockNickel> : [
+		<immersiveengineering:storage:4>,
+		<railcraft:metal:6>,
+		<thermalfoundation:storage:5>
+	],
+	
+	#blockPlatinum
+	<ore:blockPlatinum> : [
+		<thermalfoundation:storage:6>
+	],
+	
+	#blockSilver
+	<ore:blockSilver> : [
+		<immersiveengineering:storage:3>,
+		<mysticalworld:silver_block>,
+		<railcraft:metal:4>,
+		<thermalfoundation:storage:2>
+	],
+	
+	#blockSteel
+	<ore:blockSteel> : [
+		<thermalfoundation:storage_alloy>,
+		<railcraft:metal:3>,
+		<libvulpes:metal0:6>,
+		<mekanism:basicblock:5>,
+		<immersiveengineering:storage:8>
+	],
+	
+	#blockTin
+	<ore:blockTin> : [
+		<forestry:resource_storage:2>,
+		<libvulpes:metal0:5>,
+		<thermalfoundation:storage:1>,
+		<railcraft:metal:1>,
+		<mekanism:basicblock:13>
+	],
+	
+	#blockTitanium
+	<ore:blockTitanium> : [
+		<libvulpes:metal0:7>
+	],
+	
+	#blockOsmium
+	<ore:blockOsmium> : [
+		<mekanism:basicblock>
 	]
 	
 };

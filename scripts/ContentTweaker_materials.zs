@@ -15,6 +15,11 @@ dustSandyClay.register();
  # Wrought Iron Heating Component
 var wroughtIron_Heater as Item = VanillaFactory.createItem("wroughtIronHeater");
 wroughtIron_Heater.register();
+ # Steel Heating Component
+var steel_Heater as Item = VanillaFactory.createItem("steelHeater");
+steel_Heater.register();
+var heatExchangerLV as Item = VanillaFactory.createItem("heatExchanger_LV");
+heatExchangerLV.register();
 
 // Blocks
  # Glassy Sand
