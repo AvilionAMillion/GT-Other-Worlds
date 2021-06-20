@@ -30,6 +30,14 @@ import mods.gregtech.recipe.RecipeMap;
 <ore:blockConstantan>.addAll(<ore:blockCupronickel>);
 <ore:blockCopper>.add(<mysticalworld:copper_block>);
 <ore:blockSilver>.add(<mysticalworld:silver_block>);
+<ore:dustAluminum>.add(<gregtech:meta_item_1:2001>);
+<ore:dustCupronickel>.addAll(<ore:dustConstantan>);
+<ore:dustCopper>.add(<mysticalworld:copper_dust>);
+<ore:dustIron>.add(<mysticalworld:iron_dust>);
+<ore:dustSilver>.add(<mysticalworld:silver_dust>);
+<ore:dustGold>.add(<mysticalworld:gold_dust>);
+<ore:dustEnder>.add(<gregtech:meta_item_1:2218>);
+
 
 print("Ore Removal");
 
@@ -196,6 +204,12 @@ var platesDisabled as IItemStack[][IOreDictEntry] = {
 		<thermalfoundation:material:355>,
 		<railcraft:plate:6>
 	],
+	
+	#plateBrass
+	<ore:plateBrass> : [
+		<railcraft:plate:11>,
+		<thaumcraft:plate>
+	],
 
 	#plateConstantan
 	<ore:plateConstantan> : [
@@ -310,6 +324,16 @@ var platesDisabled as IItemStack[][IOreDictEntry] = {
 	#plateTitanium
 	<ore:plateTitanium> : [
 		<libvulpes:productplate:7>
+	],
+	
+	#plateZinc
+	<ore:plateZinc> : [
+		<railcraft:plate:10>
+	],
+	
+	#plateUranium
+	<ore:plateUranium> : [
+		<immersiveengineering:metal:35>
 	]
 };
 
@@ -344,6 +368,12 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 		<thermalfoundation:material:163>
 	],
 	
+	#ingotBrass
+	<ore:ingotBrass> : [
+		<thaumcraft:ingot:2>,
+		<railcraft:ingot:9>
+	],
+	
 	#ingotConstantan
 	<ore:ingotConstantan> : [
 		<thermalfoundation:material:164>,
@@ -370,7 +400,7 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 	
 	#ingotEnderium
 	<ore:ingotEnderium> : [
-		<thermalfoundation:material:167>,
+		<thermalfoundation:material:167>
 	],
 	
 	#ingotInvar
@@ -446,7 +476,12 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 	#ingotOsmium
 	<ore:ingotOsmium> : [
 		<mekanism:ingot:1>
-	]
+	],
+	
+	#ingotZinc
+	<ore:ingotZinc> : [
+		<railcraft:ingot:8>
+	],
 };
 
 for oreDictEntry, items in ingotsDisabled {
@@ -457,6 +492,8 @@ for oreDictEntry, items in ingotsDisabled {
 }
 
 print("Finished Ingot Removal!");
+
+///////////////////////////////////////////////////////
 
 print("Starting Block Removal!");
 
@@ -475,6 +512,20 @@ var blocksDisabled as IItemStack[][IOreDictEntry] = {
 		<thermalfoundation:storage_alloy:3>,
 		<railcraft:metal:5>,
 		<forestry:resource_storage:3>
+	],
+	
+	#blockBrass
+	<ore:blockBrass> : [
+		<thaumcraft:metal_brass>,
+		<railcraft:metal:9>
+	],
+	
+	#blockCharcoal
+	<ore:blockCharcoal> : [
+		<actuallyadditions:block_misc:5>,
+		<mekanism:basicblock:3>,
+		<thermalfoundation:storage_resource>,
+		<forestry:charcoal>
 	],
 	
 	#blockConstantan
@@ -570,6 +621,11 @@ var blocksDisabled as IItemStack[][IOreDictEntry] = {
 	#blockOsmium
 	<ore:blockOsmium> : [
 		<mekanism:basicblock>
+	],
+	
+	#blockZinc
+	<ore:blockZinc> : [
+		<railcraft:metal:8>
 	]
 	
 };
@@ -580,6 +636,262 @@ for oreDictEntry, items in blocksDisabled {
 	}
 	oreDictEntry.removeItems(items);
 }
+
+print("Finished Block Removal!");
+
+/////////////////////////////////////////////////
+
+print("Starting Dust Removal!");
+
+var dustsDisabled as IItemStack[][IOreDictEntry] = {
+
+	#dustAluminum
+	<ore:dustAluminum> : [
+		<immersiveengineering:metal:10>,
+		<thermalfoundation:material:68>,
+		<libvulpes:productdust:9>
+	],
+	
+	#dustBronze
+	<ore:dustBronze> : [
+		<thermalfoundation:material:99>
+	],
+	
+	#dustCoal
+	<ore:dustCoal> : [
+		<threng:material:3>,
+		<railcraft:dust:5>,
+		<actuallyadditions:item_dust:6>,
+		<bloodmagic:component:21>,
+		<thermalfoundation:material:768>
+	],
+	
+	#dustCharcoal
+	<ore:dustCharcoal> : [
+		<railcraft:dust:3>,
+		<thermalfoundation:material:769>
+	],
+	
+	#dustCoke
+	<ore:dustCoke> : [
+		<immersiveengineering:material:17>
+	],
+		
+	
+	#dustConstantan
+	<ore:dustConstantan> : [
+		<thermalfoundation:material:100>,
+		<immersiveengineering:metal:15>
+	],
+	
+	#dustCopper
+	<ore:dustCopper> : [
+		<mekanism:dust:3>,
+		<mysticalworld:copper_dust>,
+		<thermalfoundation:material:64>,
+		<libvulpes:productdust:4>,
+		<immersiveengineering:metal:9>
+	],
+	
+	#dustElectrum
+	<ore:dustElectrum> : [
+		<immersiveengineering:metal:16>,
+		<thermalfoundation:material:97>
+	],
+	
+	#dustEnderium
+	<ore:dustEnderium> : [
+		<thermalfoundation:material:103>
+	],
+	
+	#dustInvar
+	<ore:dustInvar> : [
+		<thermalfoundation:material:98>
+	],
+	
+	#dustIridium
+	<ore:dustIridium> : [
+		<libvulpes:productdust:10>,
+		<thermalfoundation:material:71>
+	],
+	
+	#dustIron
+	<ore:dustIron> : [
+		<libvulpes:productdust:1>,
+		<mysticalworld:iron_dust>,
+		<mekanism:dust>,
+		<thermalfoundation:material>,
+		<immersiveengineering:metal:18>,
+		<actuallyadditions:item_dust>,
+		<appliedenergistics2:material:49>,
+		<bloodmagic:component:19>
+	],
+	
+	#dustLead
+	<ore:dustLead> : [
+		<thermalfoundation:material:67>,
+		<mekanism:dust:6>,
+		<immersiveengineering:metal:11>
+	],
+	
+	#dustNickel
+	<ore:dustNickel> : [
+		<thermalfoundation:material:69>,
+		<immersiveengineering:metal:13>
+	],
+	
+	#dustPlatinum
+	<ore:dustPlatinum> : [
+		<thermalfoundation:material:70>
+	],
+	
+	#dustSilicon
+	<ore:dustSilicon> : [
+		<libvulpes:productdust:3>
+	],
+	
+	#dustSilver
+	<ore:dustSilver> : [
+		<mekanism:dust:5>,
+		<immersiveengineering:metal:12>,
+		<mysticalworld:silver_ingot>,
+		<thermalfoundation:material:66>,
+		<mysticalworld:silver_dust>
+	],
+	
+	#dustSteel
+	<ore:dustSteel> : [
+		<thermalfoundation:material:96>,
+		<immersiveengineering:metal:17>,
+		<mekanism:otherdust:1>,
+		<libvulpes:productdust:6>
+	],
+	
+	#dustTin
+	<ore:dustTin> : [
+		<thermalfoundation:material:65>,
+		<mekanism:dust:4>,
+		<libvulpes:productdust:5>
+	],
+	
+	#dustTitanium
+	<ore:dustTitanium> : [
+		<libvulpes:productdust:7>
+	],
+	
+	#dustOsmium
+	<ore:dustOsmium> : [
+		<mekanism:dust:2>
+	],
+	
+	#dustGold
+	<ore:dustGold> : [
+		<thermalfoundation:material:1>,
+		<immersiveengineering:metal:19>,
+		<mekanism:dust:1>,
+		<actuallyadditions:item_dust:1>,
+		<appliedenergistics2:material:51>,
+		<mysticalworld:gold_dust>,
+		<libvulpes:productdust:2>,
+		<bloodmagic:component:20>
+	],
+	
+	#dustDiamond
+	<ore:dustDiamond> : [
+		<actuallyadditions:item_dust:2>,
+		<mekanism:otherdust>
+	],
+	
+	#dustNetherQuartz
+	<ore:dustNetherQuartz> : [
+		<actuallyadditions:item_dust:5>,
+		<appliedenergistics2:material:3>
+	],
+	
+	#dustCertusQuartz
+	<ore:dustCertusQuartz> : [
+		<appliedenergistics2:material:2>
+	],
+	
+	#dustLapis
+	<ore:dustLapis> : [
+		<actuallyadditions:item_dust:4>
+	],
+	
+	#dustEmerald
+	<ore:dustEmerald> : [
+		<actuallyadditions:item_dust:3>
+	],
+	
+	#dustSulfur
+	<ore:dustSulfur> : [
+		<bloodmagic:component:23>,
+		<immersiveengineering:material:25>,
+		<railcraft:dust:1>,
+		<thermalfoundation:material:771>,
+		<mekanism:otherdust:3>
+	],
+	
+	#dustObsidian
+	<ore:dustObsidian> : [
+		<mekanism:otherdust:6>,
+		<railcraft:dust>,
+		<thermalfoundation:material:770>
+	],
+	
+	#dustEnder
+	<ore:dustEnder> : [
+		<appliedenergistics2:material:46>,
+		<railcraft:dust:6>
+	],
+	
+	#dustWood
+	<ore:dustWood> : [
+		<thermalfoundation:material:800>,
+		<mekanism:sawdust>
+	],
+	
+	#dustSaltpeter
+	<ore:dustSaltpeter> : [
+		<bloodmagic:component:24>,
+		<thermalfoundation:material:772>,
+		<railcraft:dust:2>,
+		<immersiveengineering:material:24>
+	],
+	
+	#dustLithium
+	<ore:dustLithium> : [
+		<mekanism:otherdust:4>
+	],
+	
+	#dustSapphire
+	<ore:dustSapphire> : [
+		<practicallogistics2:sapphiredust>
+	],
+	
+	#dustPyrotheum
+	<ore:dustPyrotheum> : [
+		<thermalfoundation:material:1024>
+	],
+	
+	#dustCryotheum
+	<ore:dustCryotheum> : [
+		<thermalfoundation:material:1025>
+	]
+	
+};
+
+for oreDictEntry, items in dustsDisabled {
+	for i in items {
+		mods.jei.JEI.removeAndHide(i);
+	}
+	oreDictEntry.removeItems(items);
+}
+
+print("Finished Dust Removal!");
+
+/////////////////////////////////////////////////
+
 	
 
 

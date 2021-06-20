@@ -4561,7 +4561,25 @@
           "desc:8": "The Steam Compressor is a very handy item, for one it now allows you to make blocks of metals, and for another... Well we\u0027ll see what else it does soon. Regardless, make it. Now."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {
         "0:10": {
           "rewardID:8": "bq_standard:item",
@@ -6182,6 +6200,234 @@
           }
         }
       }
+    },
+    "78:10": {
+      "questID:3": 78,
+      "preRequisites:11": [
+        76
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine_casing",
+            "Count:3": 1,
+            "Damage:2": 12,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Better Steam Machines",
+          "desc:8": "High Pressure steam machines run much faster than the default steam machines, so if you don\u0027t want to rush into LV, you should make these. Regardless this quest only asks for the casing and hull for the machines, there are no individual quests for the high pressure steam machines. Anything taking these machines is just run off from this quest"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine_casing",
+              "Count:3": 1,
+              "Damage:2": 12,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:machine_casing",
+              "Count:3": 1,
+              "Damage:2": 13,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:fluid_pipe",
+              "Count:3": 6,
+              "Damage:2": 1184,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 8,
+              "Damage:2": 10184,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "79:10": {
+      "questID:3": 79,
+      "preRequisites:11": [
+        59
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_2",
+            "Count:3": 1,
+            "Damage:2": 32433,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Advanced Alloy",
+          "desc:8": "Advanced Alloy is a compressed version of a possible blend of many different plates. Though the easiest to do right now would be with tin, iron, and bronze. It\u0027s a component for advanced glass and some higher tier machines."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_2",
+              "Count:3": 1,
+              "Damage:2": 32433,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:fluid_pipe",
+              "Count:3": 4,
+              "Damage:2": 3095,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:glass",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "80:10": {
+      "questID:3": 80,
+      "preRequisites:11": [
+        78,
+        79
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 4197,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Steam Oven",
+          "desc:8": "The most powerful oven since 1982\n\nThe steam oven is a large multiblock that smelts 8 items at a time at the cost of (who\u0027d guess it) steam. The oven is a structure with a 3x3 base, a 3x3 middle with a hollow center, and a 3x1 set of casings at the top. If you need any help building it look at the structure preview in JEI.\n\nFor both steam multiblocks you need steam buses and a steam hatch. The steam buses are fairly simple, while the steam hatch just takes some bronze and a tank. This quest shows all the materials you need for it. Of note is that the steam hatch must go on the bottom layer and the steam buses must go in the middle layer.\n\nWith this you are now a proper smelter!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 4197,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 4176,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 4177,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 4175,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "gregtech:metal_casing_bronze",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "gregtech:boiler_firebox_casing",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -6623,7 +6869,7 @@
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": 264,
+          "x:3": 276,
           "y:3": -24,
           "id:3": 57,
           "sizeY:3": 24
@@ -6637,35 +6883,35 @@
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 312,
+          "x:3": 300,
           "y:3": 48,
           "id:3": 59,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 264,
+          "x:3": 252,
           "y:3": 48,
           "id:3": 60,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 372,
+          "x:3": 396,
           "y:3": -12,
           "id:3": 61,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 336,
+          "x:3": 348,
           "y:3": 96,
           "id:3": 62,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 336,
+          "x:3": 348,
           "y:3": 144,
           "id:3": 63,
           "sizeY:3": 24
@@ -6728,7 +6974,7 @@
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": 288,
+          "x:3": 276,
           "y:3": 96,
           "id:3": 74,
           "sizeY:3": 24
@@ -6752,6 +6998,27 @@
           "x:3": 168,
           "y:3": 144,
           "id:3": 77,
+          "sizeY:3": 24
+        },
+        "22:10": {
+          "sizeX:3": 24,
+          "x:3": 204,
+          "y:3": 180,
+          "id:3": 78,
+          "sizeY:3": 24
+        },
+        "23:10": {
+          "sizeX:3": 24,
+          "x:3": 312,
+          "y:3": 120,
+          "id:3": 79,
+          "sizeY:3": 24
+        },
+        "24:10": {
+          "sizeX:3": 24,
+          "x:3": 240,
+          "y:3": 144,
+          "id:3": 80,
           "sizeY:3": 24
         }
       },
