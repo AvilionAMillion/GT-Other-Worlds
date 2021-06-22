@@ -5,6 +5,10 @@ import mods.roots.Mortar;
 import mods.tconstruct.Drying;
 import mods.roots.Fey;
 import mods.inworldcrafting.FireCrafting;
+import mods.gregtech.recipe.RecipeMap;
+
+val assembler = mods.gregtech.recipe.RecipeMap.getByName("assembler");
+
 
 // Val
 var softHammer = <ore:craftingToolSoftHammer>.firstItem.withEmptyTag();
@@ -23,6 +27,10 @@ val cokeClay = <gtadditions:ga_meta_item:32036>;
 val woodPlank = <gregtech:meta_item_1:12196>;
 val firebrick = <gregtech:meta_item_2:32015>;
 val concreteBucket = <forge:bucketfilled>.withTag({FluidName: "concrete", Amount: 1000});
+val LvExchanger = <contenttweaker:heatexchanger_lv>;
+val LvPump = <gregtech:meta_item_1:32610>;
+val tSteelPipe = <gregtech:fluid_pipe:184>;
+val BTank = <gregtech:machine:812>;
 
 // Crafting Table
 	# Small Chest
@@ -72,6 +80,23 @@ val concreteBucket = <forge:bucketfilled>.withTag({FluidName: "concrete", Amount
 		[[firebrick, <ore:dustGypsum>, firebrick],
 		[firebrick, concreteBucket, firebrick],
 		[firebrick, <ore:dustGypsum>, firebrick]]);
+		
+	recipes.addShaped(LvExchanger,
+		[[BTank, tSteelPipe, null],
+		[tSteelPipe, tSteelPipe, <minecraft:water_bucket>],
+		[LvPump, null, null]]);
+		
+	assembler.recipeBuilder()
+		.inputs
+			(LvPump, 
+			BTank, 
+			tSteelPipe * 3)
+		.fluidInputs([<liquid:water> * 1000])
+		.outputs(LvExchanger * 1)
+		.duration(200)
+		.EUt(16)
+		.buildAndRegister();
+	
 		
 // Fire Crafting
 	# Coke Brick
