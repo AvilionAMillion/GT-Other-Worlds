@@ -8,3 +8,4 @@ import crafttweaker.oredict.IOreDictEntry;
 <ore:wireCopper>.add(<gregtech:cable:18>);
 mods.jei.JEI.removeAndHide(<immersiveengineering:material:20>);
 <ore:wireCopper>.remove(<immersiveengineering:material:20>);
+

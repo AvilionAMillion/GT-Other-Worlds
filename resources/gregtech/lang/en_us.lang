@@ -1,1 +1,12 @@
 material.cobblestone=Stone
+material.titanium_aluminide=Titanium Aluminide
+material.titanium_iridium=Titanium Iridium Alloy
+material.basalz=Basalz
+material.petrotheum=Petrotheum
+material.iron_compressed=Compressed Iron
+
+material.wroughtiron.name=Wrought Iron
+
+multiblocktweaker.machine.bloomery.name=Bloomery Controller Block
+recipemap.bloomery.name=Bloomery Recipes
+multiblocktweaker.multiblock.bloomery.description=Used to turn Iron into Wrought Iron using some sort of fuel

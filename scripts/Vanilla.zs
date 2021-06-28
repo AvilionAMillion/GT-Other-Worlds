@@ -32,7 +32,7 @@ val Compass = <minecraft:compass>;
 val Red = <ore:dyeRed>;
 val Kerosene = <forge:bucketfilled>.withTag({FluidName: "kerosene", Amount: 1000});
 
-val oreDictFurnace = <ore:furnaceBlock>;
+val oreDictFurnace = <ore:craftingFurnace>;
 
 // Crafting Table
 	# Crafting Table
@@ -45,6 +45,10 @@ val oreDictFurnace = <ore:furnaceBlock>;
 			[treated_plank, treated_plank]]);
 	# Furnace
 		recipes.remove(<minecraft:furnace>);
+		recipes.addShaped(<minecraft:furnace>,
+			[[ingotSteel, ingotSteel, ingotSteel],
+			[ingotSteel, null, ingotSteel],
+			[ingotSteel, ingotSteel, ingotSteel]]);
 	# Bed
 		recipes.remove(oreBed);
 		recipes.addShaped(bed,
@@ -101,7 +105,7 @@ val oreDictFurnace = <ore:furnaceBlock>;
 		furnace.addRecipe(<minecraft:glass>, <contenttweaker:glassy_sand>);
 		
 // Furnace OreDict
-	recipes.replaceAllOccurences(<minecraft:furnace>, <ore:furnaceBlock>);
+	recipes.replaceAllOccurences(<minecraft:furnace>, <ore:craftingFurnace>);
 	oreDictFurnace.add(<tconstruct:seared_furnace_controller>);
 
 // Burning

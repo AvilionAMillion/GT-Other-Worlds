@@ -38,7 +38,6 @@ import mods.gregtech.recipe.RecipeMap;
 <ore:dustGold>.add(<mysticalworld:gold_dust>);
 <ore:dustEnder>.add(<gregtech:meta_item_1:2218>);
 
-
 print("Ore Removal");
 
 var oresDisabled as IItemStack[][IOreDictEntry] = {
@@ -197,8 +196,17 @@ var platesDisabled as IItemStack[][IOreDictEntry] = {
 		<thermalfoundation:material:324>,
 		<immersiveengineering:metal:31>
 	],
-
-
+	
+	#plateTitaniumAluminide
+	<ore:plateTitaniumAluminide> : [
+		<advancedrocketry:productplate>
+	],
+	
+	#plateTitaniumIridium
+	<ore:plateTitaniumIridium> : [
+		<advancedrocketry:productplate:1>
+	],
+	
 	#plateBronze
 	<ore:plateBronze> : [
 		<thermalfoundation:material:355>,
@@ -360,6 +368,16 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 		<libvulpes:productingot:9>
 	],
 	
+	#ingotTitaniumAluminide
+	<ore:ingotTitaniumAluminide> : [
+		<advancedrocketry:productingot>
+	],
+	
+	#ingotTitaniumIridium
+	<ore:ingotTitaniumIridium> : [
+		<advancedrocketry:productingot:1>
+	],
+	
 	#ingotBronze
 	<ore:ingotBronze> : [
 		<forestry:ingot_bronze>,
@@ -506,6 +524,16 @@ var blocksDisabled as IItemStack[][IOreDictEntry] = {
 		<immersiveengineering:storage:1>
 	],
 	
+	#blockTitaniumAluminde
+	<ore:blockTitaniumAluminide> : [
+		<advancedrocketry:metal0>
+	],
+	
+	#blockTitaniumIridium
+	<ore:blockTitaniumIridium> : [
+		<advancedrocketry:metal0:1>
+	],
+	
 	#blockBronze
 	<ore:blockBronze> : [
 		<mekanism:basicblock:1>,
@@ -650,6 +678,16 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 		<immersiveengineering:metal:10>,
 		<thermalfoundation:material:68>,
 		<libvulpes:productdust:9>
+	],
+	
+	#dustTitaniumAluminde
+	<ore:dustTitaniumAluminde> : [
+		<advancedrocketry:productdust>
+	],
+	
+	#dustTitaniumIridium
+	<ore:dustTitaniumIridium> : [
+		<advancedrocketry:productdust:1>
 	],
 	
 	#dustBronze

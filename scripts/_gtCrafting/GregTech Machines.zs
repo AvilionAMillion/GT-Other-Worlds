@@ -13,6 +13,8 @@ val bronzeMCasing = <gregtech:metal_casing_bronze>;
 val tinPlate = <ore:plateTin>;
 val advAlloy = <gregtech:meta_item_2:32433>;
 val chest = <minecraft:chest>;
+val plateWood = <ore:plateWood>;
+val redAlloyCable = <gregtech:cable:5237>;
 
 // Removal
 	# Firebricks
@@ -57,5 +59,21 @@ val chest = <minecraft:chest>;
 			[[bronzePlate, tinPlate, bronzePlate],
 			[advAlloy, chest, advAlloy],
 			[bronzePlate, tinPlate, bronzePlate]]);
+	# ULV Machine Casing
+		recipes.remove(<gregtech:machine_casing>);
+		recipes.addShaped(<gregtech:machine_casing>,
+			[[plateIron, plateIron, plateIron],
+			[plateIron, craftingToolWrench, plateIron],
+			[plateIron, plateIron, plateIron]]);
+	# ULV Machine Hull
+		recipes.remove(<gregtech:machine:500>);
+		recipes.addShaped(<gregtech:machine:500>,
+			[[plateWood, plateIron, plateWood],
+			[redAlloyCable, <gregtech:machine_casing>, redAlloyCable]]);
+	# Bloomery Controller
+		recipes.addShaped(<gregtech:machine:4008>,
+			[[plateIron, <ore:craftingFurnace>, plateIron],
+			[craftingToolScrewdriver, <gregtech:machine_casing>, craftingToolWrench],
+			[plateIron, <gregtech:cable:1237>, plateIron]]);
 			
 			

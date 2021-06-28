@@ -1,4 +1,5 @@
 recipes.remove(<ore:dustBronze>);
+recipes.removeByMod("modularmachinery");
 
 // Removed JEI Categories
 

@@ -2,6 +2,6 @@ item.contenttweaker.unfired_searedBrick.name=Unfired Seared Brick
 item.contenttweaker.sandyClay.name=Sandy-Clay Compound
 item.contenttweaker.wroughtIronHeater.name=Wrought Iron Heating Component
 item.contenttweaker.steelHeater.name=Steel Heating Component
-item.contenttweaker.heatExchanger_LV=LV Heat Exchanger
+item.contenttweaker.heatExchanger_LV.name=Heat Exchanger (LV)
 
 tile.contenttweaker.glassy_sand.name=Glassy Sand

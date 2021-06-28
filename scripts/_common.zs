@@ -16,12 +16,16 @@ global itemString as IOreDictEntry = <ore:string>;
 global sand as IOreDictEntry = <ore:sand>;
 global clay as IOreDictEntry = <ore:clay>;
 global glass as IOreDictEntry = <ore:blockGlass>;
+global treatedWood as IOreDictEntry = <ore:plankTreatedWood>;
 
 // Plates
 global plateIron as IOreDictEntry = <ore:plateIron>;
 
 // Screws
 global screwIron as IOreDictEntry = <ore:screwIron>;
+
+// Ingots
+global ingotSteel as IOreDictEntry = <ore:ingotSteel>;
 
 // GregTech Tools
 global hardHammer as IItemStack = <gregtech:meta_tool:6>;
