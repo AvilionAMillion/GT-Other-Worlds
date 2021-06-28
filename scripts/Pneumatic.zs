@@ -128,7 +128,6 @@ val EtchingAcid = <forge:bucketfilled>.withTag({FluidName: "etchacid", Amount: 1
 		GreyPlastic],
 		 2.5,[Transistor]);
 		 
-		mods.pneumaticcraft.pressurechamber.removeRecipe([Transistor]);
 		mods.pneumaticcraft.pressurechamber.addRecipe
 		([RefSMDTrans,
 		FineMalg * 4,
@@ -136,7 +135,6 @@ val EtchingAcid = <forge:bucketfilled>.withTag({FluidName: "etchacid", Amount: 1
 		GreyPlastic],
 		 3.0,[Transistor * 2]);
 		 
-		mods.pneumaticcraft.pressurechamber.removeRecipe([Transistor]);
 		mods.pneumaticcraft.pressurechamber.addRecipe
 		([NanoSMDTrans,
 		FineMalg * 4,
@@ -144,7 +142,6 @@ val EtchingAcid = <forge:bucketfilled>.withTag({FluidName: "etchacid", Amount: 1
 		GreyPlastic],
 		 3.5,[Transistor * 4]);
 		 
-		mods.pneumaticcraft.pressurechamber.removeRecipe([Transistor]);
 		mods.pneumaticcraft.pressurechamber.addRecipe
 		([QuantSMDTrans,
 		FineMalg * 4,
@@ -152,7 +149,6 @@ val EtchingAcid = <forge:bucketfilled>.withTag({FluidName: "etchacid", Amount: 1
 		GreyPlastic],
 		 4.0,[Transistor * 8]);
 		 
-		mods.pneumaticcraft.pressurechamber.removeRecipe([Transistor]);
 		mods.pneumaticcraft.pressurechamber.addRecipe
 		([CrystSMDTrans,
 		FineMalg * 4,
@@ -160,7 +156,6 @@ val EtchingAcid = <forge:bucketfilled>.withTag({FluidName: "etchacid", Amount: 1
 		GreyPlastic],
 		 4.5,[Transistor * 16]);
 		 
-		mods.pneumaticcraft.pressurechamber.removeRecipe([EmptyPCB]);
 		mods.pneumaticcraft.pressurechamber.addRecipe
 		([GreenPlastic,
 		YellowPlastic,
