@@ -1,7 +1,9 @@
 import mods.gregtech.recipe.RecipeMap;
+import mods.gtadditions.recipe.GARecipeMaps;
 
 //Variables
 val assembler = mods.gregtech.recipe.RecipeMap.getByName("assembler");
+val CircAssembler as RecipeMap = GARecipeMaps.CIRCUIT_ASSEMBLER_RECIPES;
 
 var chest = <minecraft:chest>; 
 var planks = <ore:plankWood>.firstItem;
@@ -11,11 +13,28 @@ var hardHammer = <ore:craftingToolHardHammer>.firstItem.withEmptyTag();
 var Seared_Brick = <tconstruct:seared:3>;
 var Coke_Brick = <gregtech:metal_casing:8>;
 var Coke_Controller = <gregtech:machine:526>;
+var IronPlate = <gregtech:meta_item_1:12033>;
+var WroughtPlate = <gregtech:meta_item_1:12197>;
+var Redstone = <minecraft:redstone>;
+
+val MvCircuit = <ore:circuitGood>;
+val FineElecWire = <gregtech:meta_item_2:16112>;
+val MicroSMDResistor = <gregtech:meta_item_2:32459>;
+val Capacitor = <pneumaticcraft:capacitor>;
+val Transistor = <pneumaticcraft:transistor>;
+val UnassCircBoard = <pneumaticcraft:unassembled_pcb>;
+val CircBoard = <pneumaticcraft:printed_circuit_board>;
 		
 //Assembling Machine 
 	//Chest
 	
+	// findRecipe(long voltage, IItemHandlerModifiable inputs, IMultipleTankHandler/List<FluidStack> fluidInputs)
+	assembler.findRecipe(4,[IronPlate * 4, Redstone],[null]).remove();
+	assembler.findRecipe(4,[WroughtPlate * 4, Redstone],[null]).remove();
+	
 	assembler.findRecipe(4,[planks * 8, config_8],[null]).remove();
+	
+	
 	assembler.recipeBuilder()
 		.inputs(treated_planks * 8)
 		.fluidInputs([<liquid:bronze> * 144])
@@ -95,6 +114,21 @@ var Coke_Controller = <gregtech:machine:526>;
 		.property("circuit", 8)
 		.duration(300)
 		.EUt(192)
+		.buildAndRegister();
+		
+	recipes.remove(CircBoard);
+	CircAssembler.recipeBuilder()
+		.inputs(
+			UnassCircBoard,
+			Capacitor * 3,
+			Transistor * 3,
+			MicroSMDResistor,
+			FineElecWire * 4,
+			MvCircuit)
+		.fluidInputs([<liquid:soldering_alloy> * 144])
+		.outputs(CircBoard)
+		.duration(600)
+		.EUt(32)
 		.buildAndRegister();
 		
 		
