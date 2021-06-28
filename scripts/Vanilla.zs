@@ -24,6 +24,13 @@ var redAlloyWire = <gregtech:cable:237>;
 val ironRod = <ore:stickIron>;
 var blockIron = <minecraft:iron_block>;
 var curvedIron = <ore:plateCurvedIron>;
+val IronRing = <gregtech:meta_item_1:18033>;
+val MagIronBolt = <gregtech:meta_item_1:16297>;
+val CGold = <gtadditions:ga_meta_item:26>;
+val GPane = <minecraft:glass_pane>;
+val Compass = <minecraft:compass>;
+val Red = <ore:dyeRed>;
+val Kerosene = <forge:bucketfilled>.withTag({FluidName: "kerosene", Amount: 1000});
 
 val oreDictFurnace = <ore:furnaceBlock>;
 
@@ -78,6 +85,14 @@ val oreDictFurnace = <ore:furnaceBlock>;
 	# Glass Pane Removal
 		recipes.remove(<minecraft:glass_pane>);
 		// NEED TO FIX TO REMOVE ALL GLASS PANE RECIPES
+		
+	//Placing recipes after glass pane nuke so they dont get overridden once you fix removal - Nyagi
+		
+		recipes.remove(Compass);
+		recipes.addShaped(Compass,
+			[[null, GPane, Red],
+			[IronRing, MagIronBolt, curvedIron],
+			[curvedIron, Kerosene, null]]);
 
 // Furnace
 	# Charcoal
