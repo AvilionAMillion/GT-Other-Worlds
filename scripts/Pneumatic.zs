@@ -2,8 +2,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.pneumaticcraft.pressurechamber;
 
-val CompIronPlate = <pneumaticcraft:ingot_iron_compressed>;
-val CurvCompIronPlate = <pneumaticcraft:ingot_iron_compressed>;
+val CompIronPlate = <gregtech:meta_item_1:12478>;
+val CurvCompIronPlate = <gtadditions:ga_meta_item:478>;
 val BSteelPlate = <gregtech:meta_item_1:12231>;
 val AlumFrame = <gregtech:frame_aluminium>;
 val RubRing = <gregtech:meta_item_1:18152>;
@@ -80,9 +80,9 @@ val EtchingAcid = <forge:bucketfilled>.withTag({FluidName: "etchacid", Amount: 1
 			
 		recipes.remove(OmniHopper);
 		recipes.addShaped(OmniHopper,
-			[[CurvCompIronPlate, LvConv, CurvCompIronPlate],
-			[CurvCompIronPlate, Hopper, CurvCompIronPlate],
-			[null, CurvCompIronPlate, null]]);	
+			[[CompIronPlate, LvConv, CompIronPlate],
+			[CompIronPlate, Hopper, CompIronPlate],
+			[null, CompIronPlate, null]]);
 			
 		mods.pneumaticcraft.pressurechamber.removeRecipe([Capacitor]);
 		mods.pneumaticcraft.pressurechamber.addRecipe
@@ -156,6 +156,7 @@ val EtchingAcid = <forge:bucketfilled>.withTag({FluidName: "etchacid", Amount: 1
 		GreyPlastic],
 		 4.5,[Transistor * 16]);
 		 
+		mods.pneumaticcraft.pressurechamber.removeRecipe([EmptyPCB]);
 		mods.pneumaticcraft.pressurechamber.addRecipe
 		([GreenPlastic,
 		YellowPlastic,
