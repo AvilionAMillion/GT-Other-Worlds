@@ -82,7 +82,7 @@ val EtchingAcid = <forge:bucketfilled>.withTag({FluidName: "etchacid", Amount: 1
 		recipes.addShaped(OmniHopper,
 			[[CompIronPlate, LvConv, CompIronPlate],
 			[CompIronPlate, Hopper, CompIronPlate],
-			[null, CompIronPlate, null]]);	
+			[null, CompIronPlate, null]]);
 			
 		mods.pneumaticcraft.pressurechamber.removeRecipe([Capacitor]);
 		mods.pneumaticcraft.pressurechamber.addRecipe

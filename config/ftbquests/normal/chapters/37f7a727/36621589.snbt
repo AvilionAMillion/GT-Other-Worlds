@@ -1,0 +1,69 @@
+{
+	title: "Glass",
+	icon: "minecraft:glass",
+	x: 16.5d,
+	y: 10.0d,
+	text: [
+		"Glass is a tricky material to get.",
+		"",
+		"In order to make glass you have to burn glassy sand, which itself is a compound of glass dust and sand, with glass dust being a compound of sand dust and flint dust. While it's nothing expensive, it's quite a process."
+	],
+	dependencies: [
+		"456fc131",
+		"77dcf6bf"
+	],
+	tasks: [{
+		uid: "07ceb94b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 2 2960"
+		}],
+		count: 2L
+	},
+	{
+		uid: "c2844d5a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 2 2220"
+		}],
+		count: 2L
+	},
+	{
+		uid: "0260821f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 2 2209"
+		}],
+		count: 2L
+	},
+	{
+		uid: "5ab3441a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:glassy_sand"
+		}]
+	},
+	{
+		uid: "aeaab82e",
+		type: "item",
+		items: [{
+			item: "minecraft:glass"
+		}]
+	}],
+	rewards: [{
+		uid: "775ef7a2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "gregtech:meta_item_1",
+			Damage: 32473s
+		}
+	},
+	{
+		uid: "61453299",
+		type: "item",
+		item: "mysticalworld:cactus_dandelion_salad"
+	}]
+}

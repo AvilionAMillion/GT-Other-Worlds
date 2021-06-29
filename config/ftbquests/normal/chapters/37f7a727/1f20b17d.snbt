@@ -1,0 +1,45 @@
+{
+	title: "Clay Bucket",
+	icon: "ceramics:clay_bucket",
+	x: 12.5d,
+	y: 8.5d,
+	text: [
+		"For fluid collection, we'll need to start off with clay. It is a very primitive way of transporting fluids and breaks after placing down lava, but it will work for now. You get it by burning an unfired clay bucket into a fire for a few seconds. Don't worry, you won't loose the clay bucket."
+	],
+	dependencies: [
+		"456fc131",
+		"77dcf6bf"
+	],
+	tasks: [{
+		uid: "2c6fabc8",
+		type: "item",
+		items: [{
+			item: "ceramics:unfired_clay"
+		}]
+	},
+	{
+		uid: "73ee8e8c",
+		type: "item",
+		items: [{
+			item: "ceramics:clay_bucket"
+		}]
+	}],
+	rewards: [{
+		uid: "4dd404cb",
+		type: "item",
+		item: "minecraft:clay_ball",
+		count: 16
+	},
+	{
+		uid: "b17cc2af",
+		type: "item",
+		item: "minecraft:gravel",
+		count: 16
+	},
+	{
+		uid: "3809bdd2",
+		type: "item",
+		item: "minecraft:sand",
+		count: 16
+	}]
+}

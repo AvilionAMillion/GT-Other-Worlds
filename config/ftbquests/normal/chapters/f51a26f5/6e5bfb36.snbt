@@ -1,0 +1,58 @@
+{
+	title: "Blooming Buildings",
+	icon: "gregtech:meta_item_1 1 10197",
+	x: -2.5d,
+	y: -1.5d,
+	description: "P.S. It takes 5 full minutes to make one wrought iron",
+	text: [
+		"The bloomery is the first way of making wrought iron in this pack. Wrought iron is not only better than regular iron, it's necessary to get steel, by both being a high enough pickaxe tier and also just in general being how to make steel.",
+		"This doesn't mean it's easy to make, while it's not expensive, it is a lot of iron. It takes a total of 8 iron casings, 6 bricks, one item input and one item output.",
+		"You can see how to make it in JEI by looking at the machine blueprint for it. For the bottom layer, it can be any input or output hatch or bricks. Bricks being the easiest to make.",
+		"You can speed these up by putting large bronze or steel pipes right in the middle of the casings. Bronze makes it run 1.2x faster, steel makes it run 1.7x faster.",
+		"Unlike literally all other modular machines, this one does not take a blueprint to run."
+	],
+	dependencies: [
+		"3f5b5c9d"
+	],
+	tasks: [{
+		uid: "17d88ef1",
+		type: "item",
+		items: [{
+			item: "minecraft:brick_block"
+		}],
+		count: 6L
+	},
+	{
+		uid: "1e3b57b7",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing_iron"
+		}],
+		count: 8L
+	},
+	{
+		uid: "ea4c9bde",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 1"
+		}]
+	},
+	{
+		uid: "d58363e1",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "174218c5",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10197",
+		count: 16
+	},
+	{
+		uid: "65422e3a",
+		type: "item",
+		item: "gregtech:fluid_pipe 1 3184"
+	}]
+}

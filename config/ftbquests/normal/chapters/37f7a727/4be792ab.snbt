@@ -1,0 +1,41 @@
+{
+	title: "Better Mining",
+	icon: {
+		id: "tconstruct:pick_head",
+		tag: {
+			Material: "bronze"
+		}
+	},
+	x: 15.0d,
+	y: 16.5d,
+	text: [
+		"Bronze is a pretty good material, might be a good idea to mine with it.",
+		"",
+		"Bronze tools are the final step towards getting iron, they can harvest many more resources and are much faster than your dinky flint tools. pretty fun, amirite?"
+	],
+	dependencies: [
+		"3ddf5904"
+	],
+	tasks: [{
+		uid: "e7917eb9",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "bronze"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "22c3b0d0",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10095",
+		count: 8
+	},
+	{
+		uid: "1f6deed6",
+		type: "item",
+		item: "minecraft:torch",
+		count: 16
+	}]
+}

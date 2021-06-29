@@ -1,0 +1,25 @@
+{
+	title: "Getting Your Alloys Smelted",
+	x: -3.0d,
+	y: -0.5d,
+	description: "Perfect for- uh- alloys",
+	text: [
+		"Some alloys you just cant make in your smeltery or by blending dusts together, that's where this machine comes into play! It can smelt up alloys pretty darn good, and you'll need it for some industrial applications"
+	],
+	dependencies: [
+		"c6b2ea1b"
+	],
+	tasks: [{
+		uid: "27b443f8",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 17"
+		}]
+	}],
+	rewards: [{
+		uid: "34d8c38b",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10095",
+		count: 16
+	}]
+}

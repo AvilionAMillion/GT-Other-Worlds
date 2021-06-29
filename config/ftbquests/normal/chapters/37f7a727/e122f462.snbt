@@ -1,0 +1,44 @@
+{
+	title: "Charcoal Production",
+	icon: "gregtech:machine 1 526",
+	x: 16.5d,
+	y: 12.5d,
+	text: [
+		"Do you love charcoal? Of course you do! That's why you need to make yourself a coke oven. No seriously make it.",
+		"",
+		"A coke oven provides two essential resources, charcoal and creosote (also coal coke, but you can choose whichever burnable product you want). Charcoal or Coal Coke acts as an effective fuel in boilers, while creosote is required for treated wood and also can be used in later boilers and as a fuel. In total this takes 120 coke clay.",
+		"",
+		"Despite the JEI information saying otherwise, you don't need a coke oven hatch for it to work, which is why it is not required for this quest."
+	],
+	dependencies: [
+		"456fc131",
+		"52c119ba"
+	],
+	tasks: [{
+		uid: "78ac6ac0",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 25 8"
+		}],
+		count: 25L
+	},
+	{
+		uid: "3d010b66",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 526"
+		}]
+	}],
+	rewards: [{
+		uid: "45f83b72",
+		type: "item",
+		item: "minecraft:torch",
+		count: 16
+	},
+	{
+		uid: "6884b956",
+		type: "item",
+		item: "gregtech:meta_item_1 1 8357",
+		count: 4
+	}]
+}

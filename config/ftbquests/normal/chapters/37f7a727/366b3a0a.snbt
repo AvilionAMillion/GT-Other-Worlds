@@ -1,0 +1,21 @@
+{
+	title: "ERROR: NO QUESTS FOUND",
+	icon: "questbook:itemquestbook",
+	x: -1.0d,
+	y: 0.5d,
+	text: [
+		"If you play on a new update of this pack, chances are that the questbook has changed. Completing this quest will reload the questbook, meaning you get all the new quests!"
+	],
+	dependencies: [
+		"8057bc2f"
+	],
+	tasks: [{
+		uid: "1202b4aa",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "ef824d9c",
+		type: "command",
+		command: "#Script Commentbq_admin default load"
+	}]
+}

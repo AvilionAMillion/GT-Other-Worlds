@@ -1,0 +1,31 @@
+{
+	title: "Blank Patterns",
+	icon: "tconstruct:pattern",
+	x: 3.5d,
+	y: 8.5d,
+	text: [
+		"The base for tool crafting is now available, enjoy your freedom"
+	],
+	dependencies: [
+		"71073d0e"
+	],
+	tasks: [{
+		uid: "a206a285",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}]
+	}],
+	rewards: [{
+		uid: "15aa4ffd",
+		type: "item",
+		item: "tconstruct:pattern",
+		count: 4
+	},
+	{
+		uid: "25663fc8",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32100",
+		count: 2
+	}]
+}

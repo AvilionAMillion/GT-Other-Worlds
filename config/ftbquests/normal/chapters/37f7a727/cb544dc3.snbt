@@ -1,0 +1,40 @@
+{
+	title: "Flint Knifework",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "roots:stone_knife"
+	},
+	x: 1.5d,
+	y: 2.0d,
+	text: [
+		"To get into crafting you'll need some bark, which you can get through breaking wood blocks with a knife, to get a knife you'll need some flint and a stick, if you craft the gregtech knife, however, you can recraft it into a Roots one."
+	],
+	dependencies: [
+		"8057bc2f",
+		"52c5ccb9"
+	],
+	tasks: [{
+		uid: "47715f0e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:stone_knife"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "21c06a3b",
+		type: "item",
+		item: "minecraft:flint",
+		count: 4
+	},
+	{
+		uid: "728c7b65",
+		type: "item",
+		item: "harvestcraft:apple_sapling"
+	}]
+}

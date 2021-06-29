@@ -1,0 +1,21 @@
+{
+	title: "Ore Washing Tier 0",
+	x: 19.5d,
+	y: 19.0d,
+	description: "I mean, it techinically washes ores?",
+	text: [
+		"The cauldron can hold water in it, which means it can wash things, like ores. washing ores, recommended since 1997.",
+		"But no seriously you have to do this."
+	],
+	dependencies: [
+		"a56ccb92",
+		"d5e78444"
+	],
+	tasks: [{
+		uid: "29777b71",
+		type: "item",
+		items: [{
+			item: "minecraft:cauldron"
+		}]
+	}]
+}

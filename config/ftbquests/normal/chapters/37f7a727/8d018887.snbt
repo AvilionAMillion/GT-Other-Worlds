@@ -1,0 +1,61 @@
+{
+	title: "Miscellaneous Monoculture",
+	icon: "minecraft:wheat_seeds",
+	x: 16.5d,
+	y: 0.5d,
+	text: [
+		"There are many varieties of seeds in the world, even disregarding the pam's ones. The main ones to use early on are Actually Additions crops and Roots crops, as well as some vanilla ones.",
+		"",
+		"Of note is that wildroot is gotten by either breaking tall grass or by cutting regular grass with your knife."
+	],
+	dependencies: [
+		"a0704260"
+	],
+	tasks: [{
+		uid: "52aa4fa2",
+		type: "item",
+		items: [{
+			item: "roots:wildroot"
+		}]
+	},
+	{
+		uid: "a0f0aace",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}]
+	},
+	{
+		uid: "571115f8",
+		type: "item",
+		items: [{
+			item: "minecraft:reeds"
+		}]
+	},
+	{
+		uid: "17092ae7",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_rice_seed"
+		}]
+	},
+	{
+		uid: "d903cd78",
+		type: "item",
+		items: [{
+			item: "mysticalworld:aubergine_seed"
+		}]
+	},
+	{
+		uid: "6adf7e25",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:seed"
+		}]
+	}],
+	rewards: [{
+		uid: "9d97980f",
+		type: "choice",
+		table: 1
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Light The Fire Up In The Night",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "gregtech:meta_item_1",
+		Damage: 32473s
+	},
+	x: 16.5d,
+	y: 8.5d,
+	text: [
+		"Your first way of starting fire is with a match, fire is a very handy resource for cooking up objects and items, though it may be too fast and hot to make some items, like bricks. But the use of fire will definitely advance your civilization past the stone age."
+	],
+	dependencies: [
+		"8d018887"
+	],
+	tasks: [{
+		uid: "64b8c204",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32471"
+		}]
+	}],
+	rewards: [{
+		uid: "e9fe66e8",
+		type: "item",
+		item: "gregtech:compressed_5",
+		count: 2
+	},
+	{
+		uid: "a758da19",
+		type: "item",
+		item: "harvestcraft:hotwingsitem",
+		count: 3
+	}]
+}

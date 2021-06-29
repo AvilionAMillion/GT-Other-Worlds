@@ -1,0 +1,31 @@
+{
+	title: "Good Ol' Bricks.",
+	icon: "minecraft:brick",
+	x: 8.0d,
+	y: 12.5d,
+	text: [
+		"Just your regular, everyday, bricks. Nothing odd here."
+	],
+	dependencies: [
+		"10d90bc5",
+		"456fc131"
+	],
+	tasks: [{
+		uid: "06745ca8",
+		type: "item",
+		items: [{
+			item: "minecraft:brick"
+		}]
+	}],
+	rewards: [{
+		uid: "3887f2c8",
+		type: "item",
+		item: "minecraft:chest"
+	},
+	{
+		uid: "e67a8a77",
+		type: "item",
+		item: "minecraft:clay_ball",
+		count: 16
+	}]
+}

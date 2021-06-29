@@ -29,7 +29,6 @@ val PCBBlueprint = <pneumaticcraft:pcb_blueprint>;
 
 val BlueSteelPlate = <gregtech:meta_item_1:12233>;
 val SaphLens = <gregtech:meta_item_1:15157>;
-
 		
 //Assembling Machine 
 	//Chest

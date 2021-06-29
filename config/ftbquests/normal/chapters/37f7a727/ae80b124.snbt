@@ -1,0 +1,38 @@
+{
+	title: "Stone Cutting",
+	icon: {
+		id: "tconstruct:shard",
+		tag: {
+			Material: "stone"
+		}
+	},
+	x: 1.5d,
+	y: 4.5d,
+	text: [
+		"Because of your lack of tools, you don't have much access to stone yet, luckily you can still get fragments of stone by breaking gravel open with your knife."
+	],
+	dependencies: [
+		"cb544dc3"
+	],
+	tasks: [{
+		uid: "f75f3f38",
+		type: "item",
+		items: [{
+			id: "tconstruct:shard",
+			tag: {
+				Material: "stone"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4fc88e9e",
+		type: "item",
+		item: "minecraft:torch",
+		count: 2
+	},
+	{
+		uid: "8d22d34e",
+		type: "item",
+		item: "harvestcraft:lemonlimesodaitem"
+	}]
+}

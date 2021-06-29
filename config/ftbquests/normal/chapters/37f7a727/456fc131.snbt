@@ -1,0 +1,51 @@
+{
+	title: "Still Pretty Basic Materialism",
+	icon: "minecraft:sand",
+	x: 9.0d,
+	y: 10.0d,
+	text: [
+		"With your tools it is now very easy to gather a lot of these basic materials, like sand and clay. You'll need these materials to make better blocks for protection and for primitive technology."
+	],
+	dependencies: [
+		"c480bc67"
+	],
+	tasks: [{
+		uid: "db93880e",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel 30"
+		}],
+		count: 30L
+	},
+	{
+		uid: "44105612",
+		type: "item",
+		items: [{
+			item: "minecraft:sand 30"
+		}],
+		count: 30L
+	},
+	{
+		uid: "6e924423",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball 30"
+		}],
+		count: 30L
+	}],
+	rewards: [{
+		uid: "6cba1381",
+		type: "item",
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "flint"
+			}
+		}
+	},
+	{
+		uid: "e397a677",
+		type: "item",
+		item: "harvestcraft:neapolitanicecreamitem"
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "Chests?",
+	icon: "minecraft:chest",
+	x: 6.0d,
+	y: 5.5d,
+	text: [
+		"No, not quite yet.",
+		"",
+		"At this current point you do not have the ability to make chests, sorry about that. Luckily for you, completing this quest will give you some chests in case your inventory is filled. All it takes is some wood."
+	],
+	dependencies: [
+		"4de33fc3"
+	],
+	tasks: [{
+		uid: "a78fb2e4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "22361c66",
+		type: "item",
+		item: "minecraft:chest",
+		count: 2
+	}]
+}
