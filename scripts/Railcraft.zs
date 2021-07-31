@@ -34,6 +34,18 @@ val screwIron = <ore:screwIron>;
 		[[plateIron, plateIron, plateIron],
 		[screwIron, craftingToolScrewdriver, screwIron],
 		[plateIron, plateIron, plateIron]]);
+	# Liquid Fueled Boiler
+	recipes.remove(<railcraft:boiler_firebox_fluid>);
+	recipes.addShaped(<railcraft:boiler_firebox_fluid>,
+		[[plateSteel, craftingToolWrench, plateSteel],
+		[<minecraft:iron_bars>, <gregtech:machine:6>, <minecraft:iron_bars>],
+		[plateSteel, <gregtech:boiler_firebox_casing>, plateSteel]]);
+	# High Pressue Tank
+	recipes.remove(<railcraft:boiler_tank_pressure_high>);
+	recipes.addShaped(<railcraft:boiler_tank_pressure_high>,
+		[[plateSteel, plateSteel, plateSteel],
+		[screwSteel, craftingToolScrewdriver, screwSteel],
+		[plateSteel, plateSteel, plateSteel]]);
 		
 // Tanks
 	# Iron Tank Wall
@@ -54,3 +66,21 @@ val screwIron = <ore:screwIron>;
 			[[screwIron, craftingToolWrench, screwIron],
 			[plateIron, <ore:pipeMediumBronze>, plateIron],
 			[screwIron, craftingToolScrewdriver, screwIron]]);
+	# Steel Tank Wall
+		recipes.remove(<railcraft:tank_steel_wall>);
+		recipes.addShaped(<railcraft:tank_steel_wall> * 2,
+			[[screwSteel, plateSteel, screwSteel],
+			[plateSteel, craftingToolScrewdriver, plateSteel],
+			[screwSteel, plateSteel, screwSteel]]);
+	# Steel Tank Gauge
+		recipes.remove(<railcraft:tank_steel_gauge>);
+		recipes.addShaped(<railcraft:tank_steel_gauge>,
+			[[screwSteel, craftingToolWrench, screwSteel],
+			[plateSteel, <ore:paneGlass>, plateSteel],
+			[screwSteel, craftingToolScrewdriver, screwSteel]]);
+	# Steel Tank Valve
+		recipes.remove(<railcraft:tank_steel_valve>);
+		recipes.addShaped(<railcraft:tank_steel_valve>,
+			[[screwSteel, craftingToolWrench, screwSteel],
+			[plateSteel, <ore:pipeMediumSteel>, plateSteel],
+			[screwSteel, craftingToolScrewdriver, screwSteel]]);

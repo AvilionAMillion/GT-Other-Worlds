@@ -11,7 +11,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:log",
@@ -82,7 +82,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:flint",
@@ -153,7 +153,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -229,7 +229,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "roots:bark_oak",
@@ -299,7 +299,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -315,7 +315,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Akashic Wha-????",
           "desc:8": "Do you have too many books? Of course you do! The Akashic Tome solves that issue by consolidating all mod guidebooks you obtain into one central book, including this here questbook! Hopefully the documentation in this is enough, but§ §f in case we are too dumb and don\u0027t put in enough information you always have the books to look back on. "
         }
@@ -359,7 +359,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:crafting_table",
@@ -435,7 +435,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "rustic:condenser",
@@ -448,7 +448,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Basic Alchemy",
           "desc:8": "Rustic is a pretty neat mod\n\nIn order to progress in food quests and in agriculture you need to set up basic alchemy with rustic. You need an alchemic condensor with two alchemic retorts, some sort of fuel, water, and glass bottles for any recipe. You can also use these to make potions with Rustic crops, which can be helpful and powerful."
         }
@@ -505,7 +505,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:shard",
@@ -582,7 +582,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "roots:mortar",
@@ -655,7 +655,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:meta_item_1",
@@ -668,7 +668,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Getting Pulped",
           "desc:8": "Wood Pulp is gotten by pulverizing a log in a mortar and pestle. Later you can get two pulp per piece, but right now it\u0027s one to one"
         }
@@ -725,7 +725,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:pattern",
@@ -738,7 +738,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Blank Patterns",
           "desc:8": "The base for tool crafting is now available, enjoy your freedom"
         }
@@ -796,7 +796,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "roots:bonfire",
@@ -809,9 +809,9 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "The Beginnings of Magic",
-          "desc:8": "Roots and Rustic are simultaneously the first magic mods you can get into. While Rustic is more of a primitive tech mod, Roots is the major magic enabler at the start of the pack. Both have a heavy focus on nature so you\u0027ll need to get your green thumb on.\n\nThe quest here is to make a pyre, this is normally meant to be lit with a flint and steel, but without steel you\u0027ll need a different type of firestarter, like a match. While you can\u0027t light a Pyre with a match, lighting the ground next to it will cause the Pyre to begin doing rituals."
+          "desc:8": "Roots and Rustic are simultaneously the first magic mods you can get into. While Rustic is more of a primitive tech mod, Roots is the major magic enabler at the start of the pack. Both have a heavy focus on nature so you\u0027ll need to get your green thumb on.\n\nThe quest here is to make a pyre, this is normally meant to be lit with a flint and steel, but without steel you\u0027ll need a different type of firestarter, like a match. While you can\u0027t light a Pyre with a match, lighting the ground next to it will cause the Pyre to begin doing rituals.\n\n§cBoth Rustic and Roots are highly in development and are still being worked on, not all recipes are finished, bear with it."
         }
       },
       "tasks:9": {
@@ -872,7 +872,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -900,7 +900,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Bonk",
           "desc:8": "Go to GregTech jail\n\nThe soft hammer is the first real GregTech tool you can make, it can be crafted out of 6 planks and a stick in a regular hammer formation. This is required for basic technology making."
         }
@@ -963,7 +963,7 @@
     "13:10": {
       "questID:3": 13,
       "preRequisites:11": [
-        12
+        85
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -972,15 +972,12 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "minecraft:bed",
+            "id:8": "gregtech:ore_nether_quartz_0",
             "Count:3": 1,
-            "Damage:2": 14,
+            "Damage:2": 6,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -989,8 +986,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "End Of The Night",
-          "desc:8": "With your newfound soft hammer you can make a bed, and are now able to skip those horrible, horrible nights.\n\nOf note, the hammer in the recipe is §l§cNOT §fconsumed on use. It only takes damage, and this is true of most recipes."
+          "name:8": "Important Nether Ores",
+          "desc:8": "The nether, while being a dangerous place, has some fairly useful ores. Some of these ores are just more concentrated veins of what you\u0027ve already seen in the overworld, however some of these veins are brand new and are integral for your progression.\n\nThe most important two veins you\u0027ll need to find are a sulfur vein and a nether quartz vein. Sulfur is needed to make your first bits of rubber while nether quartz is a valuable gemstone to have for sharpening tools and making glasses.\n\nDon\u0027t worry about the veins looking like they can have any type of ore in JEI, because they only spawn in the nether they will only be nether ores!"
         }
       },
       "tasks:9": {
@@ -1003,38 +1000,63 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "minecraft:bed",
+              "id:8": "gregtech:ore_nether_quartz_0",
               "Count:3": 1,
-              "Damage:2": 14,
-              "OreDict:8": "bed"
+              "Damage:2": 6,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:ore_quartzite_0",
+              "Count:3": 1,
+              "Damage:2": 6,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:ore_sulfur_0",
+              "Count:3": 1,
+              "Damage:2": 6,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:ore_niter_0",
+              "Count:3": 1,
+              "Damage:2": 6,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:ore_pyrite_0",
+              "Count:3": 1,
+              "Damage:2": 6,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:ore_sphalerite_0",
+              "Count:3": 1,
+              "Damage:2": 6,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "gregtech:ore_tennantite_0",
+              "Count:3": 1,
+              "Damage:2": 6,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "immersiveengineering:metal_decoration2",
-              "Count:3": 2,
-              "Damage:2": 4,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "harvestcraft:cookiesandmilkitem",
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
+      "rewards:9": {}
     },
     "14:10": {
       "questID:3": 14,
@@ -1048,7 +1070,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:chest",
@@ -1061,9 +1083,9 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Chests?",
-          "desc:8": "No, not quite yet.\n\nAt this current point you do not have the ability to make chests, sorry about that. Luckily for you, completing this quest will give you some chests in case your inventory is filled. All it takes is some wood."
+          "desc:8": "No, not quite yet.\n\nAt this current point you do not have the ability to make chests, sorry about that. Luckily for you, completing this quest will give you some chests in case your inventory is filled. All it takes is some wood.\n\nYou can make small storage crates, which only hold one item in them. These are required for both the pattern chest §cdont use regular chests for the pattern chest §0§fand drawers, drawers being the best form of storage you can craft right now."
         }
       },
       "tasks:9": {
@@ -1114,7 +1136,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:tooltables",
@@ -1216,7 +1238,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:sand",
@@ -1301,7 +1323,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -1453,7 +1475,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:meta_item_2",
@@ -1523,7 +1545,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:cobblestone",
@@ -1593,7 +1615,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -1680,7 +1702,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:soil",
@@ -1765,7 +1787,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:wheat_seeds",
@@ -1896,7 +1918,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:materials",
@@ -1966,7 +1988,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -2044,7 +2066,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:glass",
@@ -2175,7 +2197,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "ceramics:clay_bucket",
@@ -2271,7 +2293,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:seared_furnace_controller",
@@ -2350,7 +2372,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:machine",
@@ -2427,7 +2449,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:machine",
@@ -2491,7 +2513,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "questbook:itemquestbook",
@@ -2540,7 +2562,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:stone",
@@ -2606,7 +2628,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Copper Collection",
-          "desc:8": "With your flint pickaxe you can really only mine a few basic ores, copper being one of them. The main places you will find copper this early on is in Bornite and Chalcopyrite veins. For the chalcopyrite vein you can mine both the copper and chacopyrite ore, while with the bornite vein you can only mine the Chalcolite and Copper ore. Regardless, get some copper"
+          "desc:8": "With your flint pickaxe you can really only mine a few basic ores, copper being one of them. The main places you will find copper this early on is in Bornite and Tenorite veins. For the chalcopyrite vein you can mine both the copper and chacopyrite ore, while with the bornite vein you can only mine the Chalcolite and Copper ore. Regardless, get some copper"
         }
       },
       "tasks:9": {
@@ -2667,7 +2689,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:meta_item_1",
@@ -2731,8 +2753,7 @@
     "34:10": {
       "questID:3": 34,
       "preRequisites:11": [
-        32,
-        27
+        32
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2741,7 +2762,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:smeltery_controller",
@@ -2848,7 +2869,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:meta_item_1",
@@ -2913,7 +2934,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:meta_item_1",
@@ -2964,7 +2985,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:cast",
@@ -3006,7 +3027,6 @@
     "38:10": {
       "questID:3": 38,
       "preRequisites:11": [
-        16,
         27
       ],
       "properties:10": {
@@ -3016,7 +3036,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:brick",
@@ -3077,7 +3097,6 @@
     "39:10": {
       "questID:3": 39,
       "preRequisites:11": [
-        36,
         40,
         44
       ],
@@ -3088,7 +3107,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:machine",
@@ -3174,7 +3193,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:brick_block",
@@ -3238,7 +3257,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:pick_head",
@@ -3314,7 +3333,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:iron_ingot",
@@ -3392,7 +3411,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "railcraft:creosote",
@@ -3440,7 +3459,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -3486,7 +3505,7 @@
               "Count:3": 1,
               "tag:10": {
                 "GT.ToolStats:10": {
-                  "Material:8": "bronze"
+                  "Material:8": "darmstadtium"
                 }
               },
               "Damage:2": 8,
@@ -3500,8 +3519,7 @@
               "Count:3": 1,
               "tag:10": {
                 "GT.ToolStats:10": {
-                  "Material:8": "bronze",
-                  "Dmg:3": 8
+                  "Material:8": "darmstadtium"
                 }
               },
               "Damage:2": 6,
@@ -3515,8 +3533,7 @@
               "Count:3": 1,
               "tag:10": {
                 "GT.ToolStats:10": {
-                  "Material:8": "bronze",
-                  "Dmg:3": 20
+                  "Material:8": "darmstadtium"
                 }
               },
               "Damage:2": 9,
@@ -3530,7 +3547,7 @@
               "Count:3": 1,
               "tag:10": {
                 "GT.ToolStats:10": {
-                  "Material:8": "bronze"
+                  "Material:8": "darmstadtium"
                 }
               },
               "Damage:2": 0,
@@ -3544,7 +3561,7 @@
               "Count:3": 1,
               "tag:10": {
                 "GT.ToolStats:10": {
-                  "Material:8": "bronze"
+                  "Material:8": "darmstadtium"
                 }
               },
               "Damage:2": 11,
@@ -3558,8 +3575,7 @@
               "Count:3": 1,
               "tag:10": {
                 "GT.ToolStats:10": {
-                  "Material:8": "bronze",
-                  "Dmg:3": 2
+                  "Material:8": "darmstadtium"
                 }
               },
               "Damage:2": 5,
@@ -3583,7 +3599,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "immersiveengineering:treated_wood",
@@ -3635,7 +3651,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:chest",
@@ -3678,12 +3694,8 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
-              "Count:3": 1,
-              "tag:10": {
-                "orig_meta:3": 0,
-                "orig_id:8": "ironchest:wood_iron_chest_upgrade"
-              },
+              "id:8": "minecraft:chest",
+              "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -3704,7 +3716,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "railcraft:tank_water",
@@ -3719,7 +3731,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Infinite Water",
-          "desc:8": "Finite water got you down? Don\u0027t fret! Infinite Water is here to save you! The water tank from railcraft generates a very tiny amount of water per tick, but it\u0027ll probably be enough to sustain you, at least for now.\n\nThe Slimeball can be gotten through either Tinkers Construct Slime Islands or Rice Slimeballs.\n\nNote, unlike the 1.7.10 version, the 1.12.2 tank does not have a GUI, but it does still output water. So while it does generate water you can\u0027t see it do it in action."
+          "desc:8": "Finite water got you down? Don\u0027t fret! Infinite Water is here to save you! The water tank from railcraft generates a very tiny amount of water per tick, but it\u0027ll probably be enough to sustain you, at least for now.\n\nThe Slimeball can be gotten through either Tinkers Construct Slime Islands or Rice Slimeballs.\n\nNote, unlike the 1.7.10 version, the 1.12.2 tank does not have a GUI, but it does still output water (Not automatically into GT pipes, however). So while it does generate water you can\u0027t see it do it in action."
         }
       },
       "tasks:9": {
@@ -3741,7 +3753,26 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:fluid_pipe",
+              "Count:3": 16,
+              "Damage:2": 3196,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bucket",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "48:10": {
       "questID:3": 48,
@@ -3755,7 +3786,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:pick_head",
@@ -3826,7 +3857,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:redstone",
@@ -3899,7 +3930,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:cauldron",
@@ -3963,7 +3994,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "harvestcraft:well",
@@ -4033,7 +4064,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "harvestcraft:royaljellyitem",
@@ -4084,7 +4115,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:machine",
@@ -4155,7 +4186,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:meta_item_1",
@@ -4225,7 +4256,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -4312,7 +4343,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "forestry:ash_block_0",
@@ -4403,7 +4434,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:piston",
@@ -4473,7 +4504,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:machine",
@@ -4543,7 +4574,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:machine",
@@ -4613,7 +4644,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:machine",
@@ -4683,7 +4714,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:machine",
@@ -4753,7 +4784,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:anvil",
@@ -4831,7 +4862,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:machine",
@@ -4901,7 +4932,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:machine",
@@ -4972,7 +5003,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "railcraft:boiler_firebox_solid",
@@ -5039,7 +5070,7 @@
     "66:10": {
       "questID:3": 66,
       "preRequisites:11": [
-        42
+        76
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5048,12 +5079,12 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "modularmachinery:blockcasing",
+            "id:8": "immersiveengineering:wooden_device0",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 2,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -5062,8 +5093,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Machine Casings",
-          "desc:8": "Modular machinery is a mod that allows you to build some important multiblocks, and some quality of life multiblocks. When it\u0027s not necessary it\u0027s recommended to make these machines. Your first goal should be to make casings, which are required for all of the machines."
+          "name:8": "The Engineer is Engi-here",
+          "desc:8": "Yep, that\u0027ll do.\n\nIn order to progress further in machinery you\u0027ll need the Engineer\u0027s Workbench for many recipes. Not just mechanical components but also your first circuits and other features. Also make an engineer\u0027s hammer, if you haven\u0027t already.\n\nYou\u0027re also going to need blueprints in order to do any crafting in a workbench, right now you really only have to care about the crafting components blueprint, since none of the others are necessary currently. This is why the quest only cares that you get the crafting components blueprint."
         }
       },
       "tasks:9": {
@@ -5076,8 +5107,40 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "modularmachinery:blockcasing",
+              "id:8": "immersiveengineering:wooden_device0",
               "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "immersiveengineering:tool",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "immersiveengineering:blueprint",
+              "Count:3": 1,
+              "tag:10": {
+                "blueprint:8": "components"
+              },
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -5091,15 +5154,18 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "gregtech:meta_item_1",
-              "Count:3": 8,
-              "Damage:2": 12095,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "immersiveengineering:tool",
+              "Count:3": 1,
+              "Damage:2": 3,
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "minecraft:iron_ingot",
+              "id:8": "gregtech:meta_item_1",
               "Count:3": 16,
-              "Damage:2": 0,
+              "Damage:2": 10184,
               "OreDict:8": ""
             }
           }
@@ -5110,8 +5176,7 @@
       "questID:3": 67,
       "preRequisites:11": [
         66,
-        54,
-        68
+        90
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5120,12 +5185,12 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "modularmachinery:blockcontroller",
+            "id:8": "gregtech:meta_item_2",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 32450,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -5134,8 +5199,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Machine Controller",
-          "desc:8": "Every modular machine needs a machine controller, therefore you need to worry about those when making these machines. They don\u0027t take too much, however."
+          "name:8": "Your First Circuits!",
+          "desc:8": "Calling them circuits is a bit misleading\n\nYour first \"circuits\" you can obtain will be Vacuum Tubes, these are used for both ULV machines and also your first LV circuits, we\u0027ll talk about both of those later, right now you\u0027re gonna need them, and plan on making a lot of them. Make sure you start stocking up on all of your ores, and maybe think about getting that Steam Macerator if you haven\u0027t already."
         }
       },
       "tasks:9": {
@@ -5148,9 +5213,9 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "modularmachinery:blockcontroller",
+              "id:8": "gregtech:meta_item_2",
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 32450,
               "OreDict:8": ""
             }
           },
@@ -5160,18 +5225,24 @@
       "rewards:9": {
         "0:10": {
           "rewardID:8": "bq_standard:item",
-          "index:3": 1,
+          "index:3": 0,
           "rewards:9": {
             "0:10": {
               "id:8": "gregtech:meta_item_1",
               "Count:3": 8,
-              "Damage:2": 10237,
+              "Damage:2": 10184,
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "minecraft:piston",
-              "Count:3": 1,
-              "Damage:2": 0,
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 24,
+              "Damage:2": 10018,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 8,
+              "Damage:2": 10237,
               "OreDict:8": ""
             }
           }
@@ -5181,7 +5252,8 @@
     "68:10": {
       "questID:3": 68,
       "preRequisites:11": [
-        66
+        76,
+        65
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5190,79 +5262,22 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "modularmachinery:blockcasing",
+            "id:8": "railcraft:boiler_firebox_fluid",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Modular Machinery Quests",
-          "desc:8": "Every structure in Modular Machinery is in this quest tab, it might seem overwhelming but they\u0027ll only open up when you can make them."
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 1,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "modularmachinery:blockinputbus",
-              "Count:3": 1,
-              "Damage:2": 1,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "modularmachinery:blockoutputbus",
-              "Count:3": 1,
-              "Damage:2": 1,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "69:10": {
-      "questID:3": 69,
-      "preRequisites:11": [
-        67
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "gregtech:meta_item_1",
-            "Count:3": 1,
-            "Damage:2": 10197,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Bloomery",
-          "desc:8": "Wrought Iron is a more durable version of Iron that can be used for tools, and is required for high pressure steam machines and steel (More on both of those later). However, making Wrought Iron isn\u0027t as simple as just smelting iron, oh no. In order to make wrought iron you need to put iron (And some sort of fuel) through a bloomery, which will be your first multiblock.\n\nThe Bloomerys\u0027 bottom floor can have either machine casing, input/output hatches or bricks. The intended idea is to use bricks as the bottom floor except for the other necessary components, though you could make it have 5 output hatches, not sure why you\u0027d want that.\n\nAll machines other than the bloomery require a blueprint to run, not the bloomery. The bloomery can be made and ran without any blueprint of any sort.\n\nYou can speed up the bloomery as well, inserting an external heater into the middle of the structure will get it to run twice as fast."
+          "name:8": "High Pressure Tank and Liquid Boiler",
+          "desc:8": " You want to improve your railcraft steam? Of course you do! Making a High Pressure Tank will allow for more steam to be produced, while the liquid fueled boiler allows for liquids, like creosote, to be used in the process of making steam. Both of these components take steel and either of them can be used to complete the quest.\n\nNow let\u0027s get even more steam!"
         }
       },
       "tasks:9": {
@@ -5275,26 +5290,95 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "modularmachinery:blockcontroller",
+              "id:8": "railcraft:boiler_firebox_fluid",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "railcraft:boiler_tank_pressure_high",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "69:10": {
+      "questID:3": 69,
+      "preRequisites:11": [
+        54,
+        60
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 4008,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Bloomery",
+          "desc:8": "Wrought Iron is a more durable version of Iron that can be used for tools, and is required for high pressure steam machines and steel (More on both of those later). However, making Wrought Iron isn\u0027t as simple as just smelting iron, oh no. In order to make wrought iron you need to put iron (And some sort of fuel) through a bloomery, which will be your first multiblock.\n\nThe Bloomery is a multiblock designed solely for making wrought iron. It will take a lot of iron and bricks, but the materials in general aren\u0027t to hard to obtain. However, there is one slight difference. Each recipe takes two inputs and makes two outputs, however your currently available buses (ULV) only have 1 input slot and 1 output slot. This means you need 2 ULV input and output buses in order to actually have the multiblock work.\n\nOther than that it\u0027s pretty simple, and you can see a preview of the multiblock in JEI. Note that you can rotate the multiblock vertically by hold shift while dragging your mouse. Other than that it\u0027s fairly self explanatory, now get that iron!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 4008,
+              "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "modularmachinery:blockinputbus",
-              "Count:3": 1,
-              "Damage:2": 1,
+              "id:8": "gregtech:machine",
+              "Count:3": 2,
+              "Damage:2": 700,
               "OreDict:8": ""
             },
             "2:10": {
-              "id:8": "modularmachinery:blockoutputbus",
-              "Count:3": 1,
-              "Damage:2": 1,
+              "id:8": "gregtech:machine",
+              "Count:3": 2,
+              "Damage:2": 701,
               "OreDict:8": ""
             },
             "3:10": {
               "id:8": "minecraft:brick_block",
-              "Count:3": 6,
+              "Count:3": 13,
               "Damage:2": 0,
               "OreDict:8": ""
             },
@@ -5358,7 +5442,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:ore_calcite_0",
@@ -5428,7 +5512,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:pick_head",
@@ -5498,7 +5582,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:ore_gypsum_0",
@@ -5569,7 +5653,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -5644,7 +5728,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:machine",
@@ -5715,7 +5799,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "railcraft:tank_iron_valve",
@@ -5844,7 +5928,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:meta_item_1",
@@ -5939,7 +6023,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:machine",
@@ -6213,7 +6297,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:machine_casing",
@@ -6289,7 +6373,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:meta_item_2",
@@ -6351,7 +6435,8 @@
       "questID:3": 80,
       "preRequisites:11": [
         78,
-        79
+        79,
+        88
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -6360,7 +6445,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:machine",
@@ -6428,6 +6513,2672 @@
         }
       },
       "rewards:9": {}
+    },
+    "81:10": {
+      "questID:3": 81,
+      "preRequisites:11": [
+        75,
+        76
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "railcraft:tank_steel_valve",
+            "Count:3": 2,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Extreme Steam Storage",
+          "desc:8": "Maybe your Iron Tank still isn\u0027t sufficing you, maybe you need something even bigger, maybe you need the power of steel.\n\nA Steel tank holds twice the storage of an iron tank and eight times the storage of a tinker tank of equal size, If your tinker tank isn\u0027t suiting you this certaintly will.\n\nSame rules apply to this tank, outputs from the bottom, inputs from any of the side, basically built in the same way as an iron tank, but steel. A lot of steel. Might need some more blast furnaces for that."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "railcraft:tank_steel_wall",
+              "Count:3": 30,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "railcraft:tank_steel_valve",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "railcraft:tank_steel_gauge",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "82:10": {
+      "questID:3": 82,
+      "preRequisites:11": [
+        76
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:pick_head",
+            "Count:3": 1,
+            "tag:10": {
+              "Material:8": "steel"
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Steel Mining",
+          "desc:8": "Some ores take steel mining level, also steel is awesome. make a steel pickaxe head."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:pick_head",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "steel"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "tconstruct:materials",
+              "Count:3": 1,
+              "Damage:2": 14,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "libvulpes:productingot",
+              "Count:3": 8,
+              "Damage:2": 6,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "tconstruct:tool_rod",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "knightmetal"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "83:10": {
+      "questID:3": 83,
+      "preRequisites:11": [
+        82
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:obsidian",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Obsidian",
+          "desc:8": "With your newfound steel pickaxe, you can now start getting obsidian. Obsidian is a strong material, and good for building your bases with, but because of how long it takes to mine, you might want to think about using materials that just take a bit of obsidian rather than obsidian itself. Even then there\u0027s still something you want to make taking obsidian... Nonetheless, get that rock!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:obsidian",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "84:10": {
+      "questID:3": 84,
+      "preRequisites:11": [
+        76
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "minecraft:flint_and_steel",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Better Way To Make Fire",
+          "desc:8": "Matches are a bit outdated, why not use flint and steel!\n\nBecause you now have steel, flint and steel is a very good investment. It\u0027s more permanent than both matches and match boxes, so if you burn a lot or want to hurt smokey the bears feelings by burning down multiple forests, it\u0027s a great choice!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "minecraft:flint_and_steel",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:paper",
+              "Count:3": 1,
+              "tag:10": {
+                "display:10": {
+                  "Lore:9": {
+                    "0:8": "Now it\u0027s legal!"
+                  },
+                  "Name:8": "Burning Permit"
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:fireworks",
+              "Count:3": 128,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "85:10": {
+      "questID:3": 85,
+      "preRequisites:11": [
+        83,
+        84
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:netherrack",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "To The Nether!",
+          "desc:8": "Let\u0027s go to hell!\n\nThe nether is a dangerous place, with fire and lava and very deadly enemies everywhere, you want to be careful there. But it is your first way of getting gold and sulfur so it is necessary to go there to progress. Make sure to bring plenty of food and armor with you, it\u0027s gonna be dangerous"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 1,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "The Nether",
+          "dimension:3": -1,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:potion",
+              "Count:3": 3,
+              "tag:10": {
+                "Potion:8": "minecraft:long_fire_resistance"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "86:10": {
+      "questID:3": 86,
+      "preRequisites:11": [
+        66
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:ulv_motor",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "ULV Motors",
+          "desc:8": "Electric Motors are a powerful tool to have, and will allow you to make your first ULV machines, the ULV Electric Motors, like your Vacuum Tubes, must be made in a engineers worktable. If you haven\u0027t already, make a Forge Hammer, it makes the wires way less horrible to make."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:ulv_motor",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:ulv_motor",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:piston",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "87:10": {
+      "questID:3": 87,
+      "preRequisites:11": [
+        86,
+        67
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 4009,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "ULV POWAH!",
+          "desc:8": "Let\u0027s get some electricity up in this bi-atch!\n\nNo LV Machines are currently accesable, so we\u0027re gonna have to use the only tier of machine available to us, ULV. We\u0027ll cover electricty more in depth later, but for right now you have to know some very basic things, 1. Don\u0027t overpower your machines (Basically stick with ULV wires, preferably red alloy since it\u0027s lossless) and 2. Dont overpower your cables (Good luck getting battery storage). Nonetheless, let\u0027s get a steam turbine!\n\nThe main materials for ULV machines are red alloy and tin alloy, So make sure you have plenty of copper, redstone, iron, and tin in supply. \n\nFor a Primitive Steam Turbine you need 2 tin alloy rotors, 1 ULV circuits (so Vacuum Tubes) 2 ULV Motors, 2 Medium Wood pipes, a ULV Machine hull, and a red alloy cable. The previous two quests showed you how to make ULV motors and Vacuum tubes, and you already made red alloy cable and ULV machine hulls for your Bloomery, all that\u0027s left is the tin alloy rotors, each of them takes 4 curved plates so if you haven\u0027t already MAKE A FORGE HAMMER. It is the cheapest way to make plates until LV, so you\u0027re going to want it. The ring and screw are nothing special, so it shouldn\u0027t be an issue\n\nWith all those ingredients together you can now make the truly powerful and incredible Primitive Steam Turbine, POWAH!!!!!!!!!!!!!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 500,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:cable",
+              "Count:3": 1,
+              "Damage:2": 5237,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:meta_item_2",
+              "Count:3": 2,
+              "Damage:2": 18189,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "contenttweaker:ulv_motor",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "gregtech:meta_item_2",
+              "Count:3": 1,
+              "Damage:2": 32450,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "gregtech:fluid_pipe",
+              "Count:3": 2,
+              "Damage:2": 2196,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 4009,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_2",
+              "Count:3": 4,
+              "Damage:2": 32450,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "88:10": {
+      "questID:3": 88,
+      "preRequisites:11": [
+        76
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:steelheater",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Steel Heaters",
+          "desc:8": "Wrought Iron can heat up pretty well, but you want to know what\u0027s better? Steel. Make a steel heater, you need them for Steam Multiblocks"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "89:10": {
+      "questID:3": 89,
+      "preRequisites:11": [
+        88,
+        78,
+        79
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 4178,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Steam Grinder",
+          "desc:8": "If you want to go getting the max output possible now, you could use your regular macerator for all your ores, but that\u0027s slow and just a really dumb idea. You want to go with a steam grinder.\n\nThe steam grinder takes mostly the same components as the steam oven, so if you havent already you should check that quest, the only real difference is the diamond grinding head, which shouldn\u0027t be an issue. The multiblock can run 8 items at once but that take 1.5x the base duration of that one item, so it becomes more effective the more items you put into it. The structure is built as a hollow 3x3x3 structure, with any of the bronze metal casings being able to be replaced with the buses or hatch. \n\nThis still wont allow you to double gem-like ores. Like Diamond or Coal. But it\u0027ll allow you to get more product out of iron, copper, cassiterite, and other important ores.\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 4178,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:metal_casing_bronze",
+              "Count:3": 22,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 4176,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 4177,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 4175,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:ore_copper_0",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:ore_iron_0",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 16,
+              "Damage:2": 10184,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "90:10": {
+      "questID:3": 90,
+      "preRequisites:11": [
+        76
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 32301,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Mold For Your Form",
+          "desc:8": "Molds are pretty handy! They allow for making things like rods and gears for cheaper! At least, later they will. Right now you only have an alloy smelter so you can only use alloy smelter molds, later if you get an Extruder you can use extruder molds to a much greater effect. Either way, gather all of these molds since they are incredibly nice and cut down a lot on resource cost and will help keep your tools alive.\n\nPlate Mold: Used to GT Glass Panes\nIngot Mold: Makes bricks and coke bricks cheaper\nBall Mold: Used for Glass Tubes\nGear Mold: Cost of gears cut down\nSmall Gear Mold: Cost of small gears cut down"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 32301,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 32306,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 32307,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 32303,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 32317,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "91:10": {
+      "questID:3": 91,
+      "preRequisites:11": [
+        87
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 4011,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Polarizing Discourse",
+          "desc:8": "The ULV Polarizer is one of the four ULV machines you can make, it\u0027s use is pretty much limited to making the magnetic steel required for LV motors. This machine doesn\u0027t take any ULV components whatsoever, so it is incredibly cheap, so why wait to make it."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 500,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 2,
+              "Damage:2": 14033,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:cable",
+              "Count:3": 2,
+              "Damage:2": 5237,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:cable",
+              "Count:3": 4,
+              "Damage:2": 1189,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 4011,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 8,
+              "Damage:2": 14297,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "contenttweaker:ulv_motor",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "92:10": {
+      "questID:3": 92,
+      "preRequisites:11": [
+        86
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:ulv_piston",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "ULV Piston",
+          "desc:8": "A ULV component\n\nIs not an actual piston"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:ulv_piston",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "93:10": {
+      "questID:3": 93,
+      "preRequisites:11": [
+        86
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:ulv_conveyor",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "ULV Conveyer",
+          "desc:8": "A ULV Component\n\nDoes not actually transfer stacks"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:ulv_conveyor",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "94:10": {
+      "questID:3": 94,
+      "preRequisites:11": [
+        87,
+        96,
+        93
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 4010,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "ULV Assembling Machine",
+          "desc:8": "In order to make LV circuits, and thus get into LV, you need to use an Assembler to make primitive processors, without access to an LV assembler, that leaves only one option, the ULV Assembling Machine.\n\nThis is a very expensive machine, requiring a total of eight motors in all just to build, however not only is it required to make LV circuits, it can also do things like make furnaces and bookshelves way cheaper and also allows you to build better tanks (More on that later). So it\u0027s a worthwhile investment.\n\nAny ULV Machine can only do recipes that take 8 EU per tick (EU/t) max, alternatively JEI shows the tier an assembler needs to be at to make a recipe."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 500,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_item_2",
+              "Count:3": 2,
+              "Damage:2": 32450,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "contenttweaker:ulv_robotarm",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "contenttweaker:ulv_conveyor",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "gregtech:cable",
+              "Count:3": 2,
+              "Damage:2": 5237,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "95:10": {
+      "questID:3": 95,
+      "preRequisites:11": [
+        86
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:ulv_pump",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "ULV Pump",
+          "desc:8": "A ULV Component\n\nDoes not pump fluids"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:ulv_pump",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "96:10": {
+      "questID:3": 96,
+      "preRequisites:11": [
+        92
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:ulv_robotarm",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "ULV Robot Arm",
+          "desc:8": "A ULV Component, the most expensive one.\n\nDoes not actually work as a cover."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:ulv_robotarm",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "97:10": {
+      "questID:3": 97,
+      "preRequisites:11": [
+        6
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "rustic:chamomile",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Heralding Horticulture",
+          "desc:8": "I promise this is the last one of those with a bad name\n\nRustic Alchemy takes some plants, some of them you can\u0027t find just yet but others are found dotted throughout the overworld, the ones shown here are the only ones you can use in basic alchemy. So go grab some plants and probably subsequently plant them"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "rustic:cohosh",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "rustic:chamomile",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "rustic:wind_thistle",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "rustic:bee",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "rustic:candle_gold",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "98:10": {
+      "questID:3": 98,
+      "preRequisites:11": [
+        97
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "rustic:elixir",
+            "Count:3": 1,
+            "tag:10": {
+              "ElixirEffects:9": {
+                "0:10": {
+                  "Effect:8": "minecraft:instant_health",
+                  "Duration:3": 1,
+                  "Amplifier:3": 0
+                }
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Some Nifty Little Potions",
+          "desc:8": "If a brewing stand isn\u0027t available, try the next best thing!\n\nRustic Alchemy allows you to brew elixirs, with the current supplies and tier of alchemy you have you can really only make three of them, a healing potion, a regeneration potion, and a swiftness potion. The only odd ingredient that isn\u0027t obvious is honeycombs, which come from Rustic Bees and Rustic Bees alone in a Rustic Apiary.\n\nBrew yourself some elixirs to help get you out of a bad situation, knowing this pack you\u0027ll need it at some point."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "rustic:elixir",
+              "Count:3": 1,
+              "tag:10": {
+                "ElixirEffects:9": {
+                  "0:10": {
+                    "Effect:8": "minecraft:instant_health",
+                    "Duration:3": 1,
+                    "Amplifier:3": 0
+                  }
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "rustic:elixir",
+              "Count:3": 1,
+              "tag:10": {
+                "ElixirEffects:9": {
+                  "0:10": {
+                    "Effect:8": "minecraft:regeneration",
+                    "Duration:3": 900,
+                    "Amplifier:3": 0
+                  }
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "rustic:elixir",
+              "Count:3": 1,
+              "tag:10": {
+                "ElixirEffects:9": {
+                  "0:10": {
+                    "Effect:8": "minecraft:speed",
+                    "Duration:3": 3600,
+                    "Amplifier:3": 0
+                  }
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "rustic:elixir",
+              "Count:3": 1,
+              "tag:10": {
+                "ElixirEffects:9": {
+                  "0:10": {
+                    "Effect:8": "minecraft:regeneration",
+                    "Duration:3": 1800,
+                    "Amplifier:3": 0
+                  }
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "rustic:elixir",
+              "Count:3": 1,
+              "tag:10": {
+                "ElixirEffects:9": {
+                  "0:10": {
+                    "Effect:8": "minecraft:strength",
+                    "Duration:3": 3600,
+                    "Amplifier:3": 0
+                  }
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "rustic:elixir",
+              "Count:3": 1,
+              "tag:10": {
+                "ElixirEffects:9": {
+                  "0:10": {
+                    "Effect:8": "rustic:ironskin",
+                    "Duration:3": 9600,
+                    "Amplifier:3": 0
+                  }
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "rustic:elixir",
+              "Count:3": 1,
+              "tag:10": {
+                "ElixirEffects:9": {
+                  "0:10": {
+                    "Effect:8": "minecraft:health_boost",
+                    "Duration:3": 9600,
+                    "Amplifier:3": 0
+                  }
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "99:10": {
+      "questID:3": 99,
+      "preRequisites:11": [
+        11
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "roots:staff",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Understanding Spells",
+          "desc:8": "Roots is a mod about using nature\u0027s aura in order to become more powerful, There are two forms of magic in Roots, that being rituals and spells. We\u0027ll be focusing on spells for now since that\u0027s the most important thing to us\n\nIn order to cast spells you need a type of spell dust, a staff, and an imbuer. First, place down the imbuer and then put the spell you want to infuse your staff with into the imbuer, and then place the wand there too. After a short amount of time your staff should be successfully imbued with the respective spell!\n\nYou can add up to five spells to a single staff, and can switch between them by shift-right clocking. However using each spell takes a certain amount of components (Seen in the tooltip of the spell dust itself), it can either take these components from your inventory or take them from a component pouch, which stores much more of them, it can hold six stacks of components to be used currently, and it also stores twelve stacks of items, it\u0027s like a mini-backpack! (The rightmost inventory is for components, the left one is for general storage).\n\nMost spells don\u0027t consume a whole number amount of resources, so for most of these early spells you wont have to worry too much about running out, even then most of the components are renewable and growable. The only exception now is Terra Moss, because you\u0027d have to find either vines or mossy cobblestone, which are both not extremely common. I recommend trying to find a tall forestry tree, since those usually have veins, or look for a biome like a Jungle or Lush Swamp.\n\nThat about covers everything with spells! This quest solely asks for the Imbuer and Staff, nothing else. We can talk about specific spells later."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "roots:staff",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "roots:imbuer",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "roots:wildroot",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "roots:terra_moss",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "100:10": {
+      "questID:3": 100,
+      "preRequisites:11": [
+        11,
+        98
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "roots:cloud_berry",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "First Roots Crops",
+          "desc:8": "The first roots crop you\u0027re going to want to make is the Cloud Berry, this is, importantly, used to make the Fey Crafter, and is thus a pretty key item for Fey Crafting. It must be made in a Pyre using Wool, Cloudsbluff (Another Rustic Plant in the Overworld), Biomes O\u0027 Plenty Berries, Terra Moss, and a Speed Elixir. Most of those materials you have probably just stumbled across on your escapades, so it is not terribly difficult.\n\nLater you can grow these crops but that is LV which is not where you are right now."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:cloud_berry",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "rustic:elixir",
+              "Count:3": 2,
+              "tag:10": {
+                "ElixirEffects:9": {
+                  "0:10": {
+                    "Effect:8": "minecraft:speed",
+                    "Duration:3": 3600,
+                    "Amplifier:3": 0
+                  }
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "101:10": {
+      "questID:3": 101,
+      "preRequisites:11": [
+        99,
+        100
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "roots:fey_crafter",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Fey Crafting",
+          "desc:8": "One of the most important mechanisms in Roots is the Fey Crafter, which allows you to craft items using the power of Feys, that\u0027s probably the lore behing it.\n\nThere are three parts to Fey Crafting, the Crafter itself, the Grove Stone, and the spell \"Grove Supplication\", imbued onto a staff. The Fey Crafter is what will be used for actual crafting operations, while the Grove Stone is able to make those crafters usable in a radius around it when given the Grove Supplication spell. Basically, you craft with the Fey Crafter which needs a powered Grove Stone in order for it to work.\n\nAfter imbuing your staff with the Grove Supplication Spell, you can then use it near a grove stone in order to allow it to do Fey Crafting rituals, putting your ingredients on the pedestal and then wacking it with a knife will get you the item you are trying to make!\n\nThis quest asks for both the Grove Stone, the Fey Crafter, and the Supplication Spell Dust. The only things that are worth to note about these recipes are the greatwood leaves, menril logs, and silverwood saplings used in the Fey Crafter, these Trees naturally generate in the world fairly uncommonly, but it shouldn\u0027t be too impossible with some exploring.\n\nNow you can get to Fey Crafting!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "roots:spell_dust",
+              "Count:3": 1,
+              "tag:10": {
+                "spell_holder:10": {
+                  "spell_0:8": "spell_supplication",
+                  "selectedSlot:3": 0,
+                  "lastCooldown:3": 0,
+                  "cooldown:3": 0
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:grove_stone",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "roots:fey_crafter",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 16,
+              "Damage:2": 10095,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "roots:terra_spores",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "102:10": {
+      "questID:3": 102,
+      "preRequisites:11": [
+        101
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:sapling",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Rubber Trees",
+          "desc:8": "GregTech\u0027s Rubber Trees do not naturally generate in the world, rather you\u0027re going to have to make your first Rubber Trees using Roots. It takes two slimeballs of some type, a greatwood sapling, terra spores, and Wildroot, none of which should be hard to get.\n\n§cThis is the only way of making raw resin, there is no other way to do it. (Working on removing the other recipes)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:sapling",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "roots:diamond_knife",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:slime_ball",
+              "Count:3": 12,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "103:10": {
+      "questID:3": 103,
+      "preRequisites:11": [
+        102,
+        61,
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 10152,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Making Rubber",
+          "desc:8": "Rubber is a very flexible and versatile material, it\u0027s used to coat wires, to make soft mallets, and is required for quite a lot of machines and components coming forth. Rubber can be made later in a chemical reactor, but for right now it needs to be made in an alloy smelter\n\nTo make a rubber bar you need four raw resin pulp and two sulfur dust. Raw resin pulp is gotten from extracting raw resin, which is gotten from GT rubber trees, and sulfur dust, which is gotten (unsurprisingly) from sulfur\n\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 4,
+              "Damage:2": 2153,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 2,
+              "Damage:2": 2065,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 10152,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 8,
+              "Damage:2": 10152,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "gregtech:meta_tool",
+              "Count:3": 1,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "MaxDurability:3": 256,
+                  "DigSpeed:5": 4.0,
+                  "AttackDamage:5": 1.0,
+                  "Material:8": "rubber",
+                  "HarvestLevel:3": 1
+                }
+              },
+              "Damage:2": 7,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 32627,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "104:10": {
+      "questID:3": 104,
+      "preRequisites:11": [
+        87
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 2900,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "A Need For FE",
+          "desc:8": "All FE (That is to say all RF, or MJ or whatever traditional power sources are) generators have been removed §c(still being worked on), §fwhich means that you can only use GT generators to make power, to power your FE machines, you\u0027ll have to turn that GT power into FE power, which means you need a GTEU Energy Converter going from GTEU to FE.\n\nThere are 4 GTEU to FE energy converters that can be made, a 1x, a 4x, a 8x, and a 16x. However these machines dont care about Amperage, so all that it changes is how much FE is pumped out, for the first ULV one its 32 FE/tick for the 16x ULV one its 512 FE/tick.\n\nIt should be noted that GTEU and FE do not have a 1 to 1 conversion ratio, it is 4 to 1, meaning for each single unit of GTEU that\u0027s used you get 4 units of FE. The input of GTEU into the device comes from any normal side while the side with the red dot is where FE is outputted from.\n\nThis quest asks for the 1x one, since it\u0027s the cheapest to make and also probably the only one you\u0027ll need to make. You also do not need batteries for these to run, but they will hold less internal energy"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 2900,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 32499,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "105:10": {
+      "questID:3": 105,
+      "preRequisites:11": [
+        104
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersiveengineering:wirecoil",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Immersive Engineering Wires",
+          "desc:8": "Immersive Engineering is the first FE-based mod you have access to, and it\u0027s wires are also the first FE transfer wires you have access to, right now its LV wires and relays are more than good enough, so let\u0027s make that\n\nFor a brief overview of how IE wires work, Connectors are placed on objects to output or input FE, and can only hold one connection, while Relays are able to hold more than one connection but cannot input or output FE into a machine"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:connector",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "immersiveengineering:connector",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "immersiveengineering:wirecoil",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:ulv_motor",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "immersiveengineering:connector",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "106:10": {
+      "questID:3": 106,
+      "preRequisites:11": [
+        95
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 1018,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Primitive Industrial Tank",
+          "desc:8": "Maybe you don\u0027t want to make a new iron tank or tinkers tank every time you get a new liquid to mess with, once you start working with chemicals you\u0027ll understand why. Maybe you need semi-permanent fairly extensive single block storage, maybe Industrial Tanks are what you\u0027re looking for.\n\nIndustrial Tanks function as lighter versions of quantum tanks, only holding a few dozen buckets instead of a few thousand. The first one you can craft is a Primitive Industrial Tank, which stores 32 buckets."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1018,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 4,
+              "Damage:2": 32762,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "107:10": {
+      "questID:3": 107,
+      "preRequisites:11": [
+        105,
+        106
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersiveengineering:metal_device0",
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Bottling Machine",
+          "desc:8": "In order to make tin wires for LV you\u0027re going to need a way to wrap them, the only way to do it this early is with an immersive engineering bottler.\n\nThe bottling machine is a multiblock from immersive engineering, however how to build it will not be described here, check the Immersive Engineering manual instead for how to build this machine. The requirements for it are three conveyer belts, three steel scaffolding, two iron sheetmetal, two light engineering blocks, one redstone engineering block, one fluid pump, and one block of glass, as well as probably a hopper to do slight automation with it.\n\nMost of the crafting for this components is self explanatory, when you construct it you must hit the center conveyer belt with an immersive hammer for the structure to form, if it doesnt form check the manual again and also make sure the conveyers are pointing in the same direction. Which is to say they go forward from the iron sheetmetal to the light engineering blocks. power must go into the orange plug on the top of where the light engineering blocks were put, attaching a LV connector there and wiring it up will work. A hopper can be placed next to the conveyers in the direction they\u0027re traveling in order to do semi-automation with it, if a hopper isnt used the item wanting to be bottled can just be thrown on the conveyer belt.\n\nLiquids are pumped into the blue input plug on the back of where the iron sheetmetal was, fluiducts/mek pipes will work for this. Other than that, that\u0027s pretty much all there is to know, have fun bottling!\n\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:metal_decoration1",
+              "Count:3": 3,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "immersiveengineering:conveyor",
+              "Count:3": 3,
+              "tag:10": {
+                "conveyorType:8": "immersiveengineering:conveyor"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "immersiveengineering:sheetmetal",
+              "Count:3": 2,
+              "Damage:2": 9,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "immersiveengineering:metal_decoration0",
+              "Count:3": 2,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "immersiveengineering:metal_decoration0",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "minecraft:glass",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "6:10": {
+              "id:8": "immersiveengineering:metal_device0",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "immersiveengineering:jerrycan",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "108:10": {
+      "questID:3": 108,
+      "preRequisites:11": [
+        103,
+        107
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:cable",
+            "Count:3": 1,
+            "Damage:2": 5071,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Tin Cables",
+          "desc:8": "An essential LV crafting component, for now must be made in the bottler.\n\nIn order to get molten rubber to coat the wires you have to melt rubber ingots in a smeltery and then output it to the bottler using a smeltery drain connected to some sort of fluid pipe. It takes two ingots to make one cable."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:cable",
+              "Count:3": 1,
+              "Damage:2": 5071,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 16,
+              "Damage:2": 10152,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "109:10": {
+      "questID:3": 109,
+      "preRequisites:11": [
+        108
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 501,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "LV Machine Hulls",
+          "desc:8": "Another step towards LV! LV Machine Hulls are required for each LV machine, much like the previous ULV hulls, so you\u0027re going to need a lot of these, it just takes steel, wrought iron, and some tin cables, so they aren\u0027t terribly difficult."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 501,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "actuallyadditions:item_food",
+              "Count:3": 1,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "110:10": {
+      "questID:3": 110,
+      "preRequisites:11": [
+        108,
+        91
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 32600,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "LV Motors",
+          "desc:8": "ULV motors are a tad old, let\u0027s make ULV motors!\n\nThey can only be made with magnetic steel rods, magnetic iron is not gonna cut it. They also take four copper wires and two tin cable\n\nNote: Magnetic Steel can be made in a ULV polarizer, it only takes 8 EU/t now."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 32600,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:cable",
+              "Count:3": 4,
+              "Damage:2": 5071,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_item_2",
+              "Count:3": 2,
+              "Damage:2": 32450,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "111:10": {
+      "questID:3": 111,
+      "preRequisites:11": [
+        102
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_2",
+            "Count:3": 1,
+            "Damage:2": 32455,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Resistors",
+          "desc:8": "Resistors are an integral part of LV circuits, let\u0027s get some Resistors.\n\nThe only really strange component is the fine copper wire, taking copper foil which needs copper plates, but other than that you should\u0027ve already seen the materials."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_2",
+              "Count:3": 1,
+              "Damage:2": 32455,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:sapling",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 8,
+              "Damage:2": 10184,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "112:10": {
+      "questID:3": 112,
+      "preRequisites:11": [
+        111,
+        94
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_2",
+            "Count:3": 1,
+            "Damage:2": 32487,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "LV Circuits",
+          "desc:8": "I can see the horizon, you are almost free of Steam and ULV!!\n\nLV Circuits are an integral part of every LV machine bar a few exceptions, so be expecting to make a lot of these. The circuits can only be made in an assembling machine, and they take two vacuum tubes, two resistors, three red alloy cable, a circuit board, and a steel plate. Other than the circuit board you have made all of them previously, and the Circuit board itself is also fairly simple. Without access to a Centrifuge you only have access to the recipe using Copper Wire, which is more costly, unfortunately.\n\nPutting all of those components into your ULV Assembling machine will get you the amazing Primitive Processor!! Your first LV Circuit, congrats!!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:cable",
+              "Count:3": 3,
+              "Damage:2": 5237,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_item_2",
+              "Count:3": 2,
+              "Damage:2": 32450,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:meta_item_2",
+              "Count:3": 2,
+              "Damage:2": 32455,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gtadditions:ga_meta_item",
+              "Count:3": 1,
+              "Damage:2": 32029,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 12184,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_2",
+              "Count:3": 1,
+              "Damage:2": 32487,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "minecraft:cake",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "113:10": {
+      "questID:3": 113,
+      "preRequisites:11": [
+        110,
+        112,
+        109
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 2242,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "The Future Is Now, Old Man",
+          "desc:8": "Your first form of LV power generation, and your gateway to every other LV machine.\n\nMost of the materials for a turbine have been gotten already, all that it really takes now are the three tin rotors, but you already made tin alloy rotors, so I don\u0027t feel the need to explain it again, just the same as previously but with tin.\n\nCongrats on unlocking LV!\n\n§cAlso you cant use a transformer to get LV power, that\u0027s been disabled.\n\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 501,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:cable",
+              "Count:3": 1,
+              "Damage:2": 5071,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:meta_item_2",
+              "Count:3": 2,
+              "Damage:2": 18071,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 2,
+              "Damage:2": 32600,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "gregtech:fluid_pipe",
+              "Count:3": 2,
+              "Damage:2": 2095,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "gregtech:meta_item_2",
+              "Count:3": 1,
+              "Damage:2": 32487,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {},
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "harvestcraft:redvelvetcakeitem",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "railcraft:boiler_tank_pressure_high",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 1,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_2",
+              "Count:3": 2,
+              "Damage:2": 32487,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 2,
+              "Damage:2": 32600,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 2,
+              "Damage:2": 501,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "2:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Run a command script",
+          "viaPlayer:1": 0,
+          "index:3": 2,
+          "title:8": "bq_standard.reward.command",
+          "command:8": "#Script Comment\nsay @p has completed \"Age 0 - The Steam Age\"!"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -6456,373 +9207,359 @@
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": 72,
+          "x:3": 60,
           "y:3": 36,
           "id:3": 3,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": -48,
-          "y:3": 36,
+          "x:3": 0,
+          "y:3": -48,
           "id:3": 4,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": 36,
+          "x:3": 60,
+          "y:3": 84,
           "id:3": 5,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 516,
-          "y:3": 288,
+          "x:3": 360,
+          "y:3": 36,
           "id:3": 6,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 96,
+          "x:3": 0,
+          "y:3": 72,
           "id:3": 7,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": 96,
+          "x:3": 0,
+          "y:3": 132,
           "id:3": 8,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 144,
+          "x:3": 60,
+          "y:3": 132,
           "id:3": 9,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": 192,
+          "x:3": 108,
+          "y:3": 132,
           "id:3": 10,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 516,
-          "y:3": 168,
+          "x:3": 264,
+          "y:3": 36,
           "id:3": 11,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 120,
+          "x:3": 108,
+          "y:3": 36,
           "id:3": 12,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 72,
-          "id:3": 13,
+          "x:3": 108,
+          "y:3": 84,
+          "id:3": 14,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": 120,
-          "id:3": 14,
+          "x:3": 156,
+          "y:3": 84,
+          "id:3": 15,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
           "x:3": 132,
-          "y:3": 192,
-          "id:3": 15,
+          "y:3": 180,
+          "id:3": 16,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 204,
-          "y:3": 204,
-          "id:3": 16,
+          "x:3": 156,
+          "y:3": 132,
+          "id:3": 17,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 168,
-          "id:3": 17,
+          "x:3": 60,
+          "y:3": 180,
+          "id:3": 18,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": 240,
-          "id:3": 18,
+          "x:3": 228,
+          "y:3": 132,
+          "id:3": 19,
           "sizeY:3": 24
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": 240,
-          "y:3": 168,
-          "id:3": 19,
+          "x:3": 276,
+          "y:3": 156,
+          "id:3": 20,
           "sizeY:3": 24
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": 312,
-          "y:3": 168,
-          "id:3": 20,
-          "sizeY:3": 24
-        },
-        "21:10": {
-          "sizeX:3": 24,
-          "x:3": 264,
+          "x:3": 108,
           "y:3": 240,
           "id:3": 21,
           "sizeY:3": 24
         },
-        "22:10": {
+        "21:10": {
           "sizeX:3": 24,
-          "x:3": 408,
-          "y:3": 120,
+          "x:3": 180,
+          "y:3": 0,
           "id:3": 22,
           "sizeY:3": 24
         },
-        "23:10": {
+        "22:10": {
           "sizeX:3": 24,
-          "x:3": 384,
+          "x:3": 216,
           "y:3": 240,
           "id:3": 23,
           "sizeY:3": 24
         },
-        "24:10": {
+        "23:10": {
           "sizeX:3": 24,
-          "x:3": 408,
+          "x:3": 180,
           "y:3": 204,
           "id:3": 24,
           "sizeY:3": 24
         },
-        "25:10": {
+        "24:10": {
           "sizeX:3": 24,
-          "x:3": 348,
+          "x:3": 216,
           "y:3": 204,
           "id:3": 25,
           "sizeY:3": 24
         },
+        "25:10": {
+          "sizeX:3": 24,
+          "x:3": 216,
+          "y:3": 168,
+          "id:3": 26,
+          "sizeY:3": 24
+        },
         "26:10": {
           "sizeX:3": 24,
-          "x:3": 264,
+          "x:3": 300,
           "y:3": 204,
-          "id:3": 26,
+          "id:3": 27,
           "sizeY:3": 24
         },
         "27:10": {
           "sizeX:3": 24,
-          "x:3": 312,
-          "y:3": 264,
-          "id:3": 27,
+          "x:3": 216,
+          "y:3": 300,
+          "id:3": 28,
           "sizeY:3": 24
         },
         "28:10": {
           "sizeX:3": 24,
-          "x:3": 384,
-          "y:3": 288,
-          "id:3": 28,
-          "sizeY:3": 24
-        },
-        "29:10": {
-          "sizeX:3": 24,
-          "x:3": 432,
-          "y:3": 288,
+          "x:3": 156,
+          "y:3": 264,
           "id:3": 29,
           "sizeY:3": 24
         },
-        "30:10": {
+        "29:10": {
           "sizeX:3": 24,
           "x:3": -48,
           "y:3": 0,
           "id:3": 30,
           "sizeY:3": 24
         },
+        "30:10": {
+          "sizeX:3": 24,
+          "x:3": 348,
+          "y:3": 204,
+          "id:3": 31,
+          "sizeY:3": 24
+        },
         "31:10": {
           "sizeX:3": 24,
-          "x:3": 264,
-          "y:3": 288,
-          "id:3": 31,
+          "x:3": 324,
+          "y:3": 168,
+          "id:3": 32,
           "sizeY:3": 24
         },
         "32:10": {
           "sizeX:3": 24,
-          "x:3": 240,
-          "y:3": 336,
-          "id:3": 32,
+          "x:3": 372,
+          "y:3": 168,
+          "id:3": 33,
           "sizeY:3": 24
         },
         "33:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 336,
-          "id:3": 33,
+          "x:3": 348,
+          "y:3": 132,
+          "id:3": 34,
           "sizeY:3": 24
         },
         "34:10": {
           "sizeX:3": 24,
-          "x:3": 240,
-          "y:3": 384,
-          "id:3": 34,
+          "x:3": 300,
+          "y:3": 264,
+          "id:3": 35,
           "sizeY:3": 24
         },
         "35:10": {
           "sizeX:3": 24,
-          "x:3": 348,
-          "y:3": 336,
-          "id:3": 35,
+          "x:3": 396,
+          "y:3": 132,
+          "id:3": 36,
           "sizeY:3": 24
         },
         "36:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 384,
-          "id:3": 36,
+          "x:3": 348,
+          "y:3": 84,
+          "id:3": 37,
           "sizeY:3": 24
         },
         "37:10": {
           "sizeX:3": 24,
-          "x:3": 192,
-          "y:3": 384,
-          "id:3": 37,
-          "sizeY:3": 24
-        },
-        "38:10": {
-          "sizeX:3": 24,
-          "x:3": 204,
-          "y:3": 264,
+          "x:3": 252,
+          "y:3": 252,
           "id:3": 38,
           "sizeY:3": 24
         },
-        "39:10": {
+        "38:10": {
           "sizeX:3": 48,
-          "x:3": 180,
-          "y:3": 444,
+          "x:3": 480,
+          "y:3": 324,
           "id:3": 39,
           "sizeY:3": 48
         },
+        "39:10": {
+          "sizeX:3": 24,
+          "x:3": 252,
+          "y:3": 336,
+          "id:3": 40,
+          "sizeY:3": 24
+        },
         "40:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 432,
-          "id:3": 40,
+          "x:3": 396,
+          "y:3": 84,
+          "id:3": 41,
           "sizeY:3": 24
         },
         "41:10": {
           "sizeX:3": 24,
-          "x:3": 348,
-          "y:3": 384,
-          "id:3": 41,
+          "x:3": 444,
+          "y:3": 84,
+          "id:3": 42,
           "sizeY:3": 24
         },
         "42:10": {
           "sizeX:3": 24,
-          "x:3": 456,
-          "y:3": 384,
-          "id:3": 42,
+          "x:3": 312,
+          "y:3": 300,
+          "id:3": 43,
           "sizeY:3": 24
         },
         "43:10": {
           "sizeX:3": 24,
-          "x:3": 408,
-          "y:3": 336,
-          "id:3": 43,
+          "x:3": 492,
+          "y:3": 192,
+          "id:3": 44,
           "sizeY:3": 24
         },
         "44:10": {
           "sizeX:3": 24,
-          "x:3": 312,
-          "y:3": 492,
-          "id:3": 44,
+          "x:3": 384,
+          "y:3": 240,
+          "id:3": 45,
           "sizeY:3": 24
         },
         "45:10": {
           "sizeX:3": 24,
-          "x:3": 408,
-          "y:3": 420,
-          "id:3": 45,
+          "x:3": 432,
+          "y:3": 192,
+          "id:3": 46,
           "sizeY:3": 24
         },
         "46:10": {
           "sizeX:3": 24,
-          "x:3": 336,
-          "y:3": 420,
-          "id:3": 46,
+          "x:3": 432,
+          "y:3": 240,
+          "id:3": 47,
           "sizeY:3": 24
         },
         "47:10": {
           "sizeX:3": 24,
-          "x:3": 408,
-          "y:3": 516,
-          "id:3": 47,
+          "x:3": 528,
+          "y:3": 84,
+          "id:3": 48,
           "sizeY:3": 24
         },
         "48:10": {
           "sizeX:3": 24,
-          "x:3": 516,
-          "y:3": 384,
-          "id:3": 48,
+          "x:3": 600,
+          "y:3": 84,
+          "id:3": 49,
           "sizeY:3": 24
         },
         "49:10": {
           "sizeX:3": 24,
-          "x:3": 516,
-          "y:3": 444,
-          "id:3": 49,
+          "x:3": 492,
+          "y:3": 132,
+          "id:3": 50,
           "sizeY:3": 24
         },
         "50:10": {
           "sizeX:3": 24,
-          "x:3": 456,
-          "y:3": 492,
-          "id:3": 50,
+          "x:3": 492,
+          "y:3": 36,
+          "id:3": 51,
           "sizeY:3": 24
         },
         "51:10": {
           "sizeX:3": 24,
-          "x:3": 456,
-          "y:3": 336,
-          "id:3": 51,
+          "x:3": -48,
+          "y:3": -48,
+          "id:3": 52,
           "sizeY:3": 24
         },
         "52:10": {
           "sizeX:3": 24,
-          "x:3": -48,
-          "y:3": 72,
-          "id:3": 52,
+          "x:3": 552,
+          "y:3": 192,
+          "id:3": 55,
           "sizeY:3": 24
         },
         "53:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 516,
-          "id:3": 55,
-          "sizeY:3": 24
-        },
-        "54:10": {
-          "sizeX:3": 24,
-          "x:3": 384,
-          "y:3": 456,
+          "x:3": 432,
+          "y:3": 300,
           "id:3": 56,
-          "sizeY:3": 24
-        },
-        "55:10": {
-          "sizeX:3": 24,
-          "x:3": 516,
-          "y:3": 336,
-          "id:3": 66,
           "sizeY:3": 24
         }
       },
@@ -6847,186 +9584,389 @@
     "1:10": {
       "quests:9": {
         "0:10": {
+          "sizeX:3": 24,
+          "x:3": 204,
+          "y:3": 240,
+          "id:3": 13,
+          "sizeY:3": 24
+        },
+        "1:10": {
           "sizeX:3": 32,
           "x:3": -16,
           "y:3": -16,
           "id:3": 39,
           "sizeY:3": 32
         },
-        "1:10": {
+        "2:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": -24,
           "id:3": 53,
           "sizeY:3": 24
         },
-        "2:10": {
+        "3:10": {
           "sizeX:3": 24,
           "x:3": 168,
           "y:3": -36,
           "id:3": 54,
           "sizeY:3": 24
         },
-        "3:10": {
+        "4:10": {
           "sizeX:3": 24,
-          "x:3": 276,
+          "x:3": 252,
           "y:3": -24,
           "id:3": 57,
           "sizeY:3": 24
         },
-        "4:10": {
+        "5:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": -72,
           "id:3": 58,
           "sizeY:3": 24
         },
-        "5:10": {
-          "sizeX:3": 24,
-          "x:3": 300,
-          "y:3": 48,
-          "id:3": 59,
-          "sizeY:3": 24
-        },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 48,
-          "id:3": 60,
+          "x:3": 276,
+          "y:3": 12,
+          "id:3": 59,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 396,
-          "y:3": -12,
-          "id:3": 61,
+          "x:3": 228,
+          "y:3": 12,
+          "id:3": 60,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 348,
-          "y:3": 96,
-          "id:3": 62,
+          "x:3": 372,
+          "y:3": 12,
+          "id:3": 61,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 348,
-          "y:3": 144,
-          "id:3": 63,
+          "x:3": 300,
+          "y:3": 72,
+          "id:3": 62,
           "sizeY:3": 24
         },
         "10:10": {
+          "sizeX:3": 24,
+          "x:3": 336,
+          "y:3": 72,
+          "id:3": 63,
+          "sizeY:3": 24
+        },
+        "11:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 48,
           "id:3": 64,
           "sizeY:3": 24
         },
-        "11:10": {
+        "12:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": -12,
+          "x:3": -72,
+          "y:3": 48,
           "id:3": 65,
           "sizeY:3": 24
         },
-        "12:10": {
+        "13:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 12,
+          "x:3": 0,
+          "y:3": 120,
+          "id:3": 66,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": 168,
           "id:3": 67,
           "sizeY:3": 24
         },
-        "13:10": {
+        "15:10": {
           "sizeX:3": 24,
           "x:3": 168,
           "y:3": 12,
           "id:3": 69,
           "sizeY:3": 24
         },
-        "14:10": {
+        "16:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": 48,
           "id:3": 70,
           "sizeY:3": 24
         },
-        "15:10": {
+        "17:10": {
           "sizeX:3": 24,
           "x:3": 120,
           "y:3": 12,
           "id:3": 71,
           "sizeY:3": 24
         },
-        "16:10": {
+        "18:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 48,
           "id:3": 72,
           "sizeY:3": 24
         },
-        "17:10": {
+        "19:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 96,
+          "x:3": 72,
+          "y:3": 84,
           "id:3": 73,
           "sizeY:3": 24
         },
-        "18:10": {
+        "20:10": {
           "sizeX:3": 24,
-          "x:3": 276,
-          "y:3": 96,
+          "x:3": 252,
+          "y:3": 72,
           "id:3": 74,
           "sizeY:3": 24
         },
-        "19:10": {
+        "21:10": {
           "sizeX:3": 24,
           "x:3": -12,
           "y:3": 48,
           "id:3": 75,
           "sizeY:3": 24
         },
-        "20:10": {
-          "sizeX:3": 24,
-          "x:3": 168,
-          "y:3": 216,
-          "id:3": 76,
-          "sizeY:3": 24
-        },
-        "21:10": {
-          "sizeX:3": 24,
-          "x:3": 168,
-          "y:3": 144,
-          "id:3": 77,
-          "sizeY:3": 24
-        },
         "22:10": {
-          "sizeX:3": 24,
-          "x:3": 204,
-          "y:3": 180,
-          "id:3": 78,
-          "sizeY:3": 24
+          "sizeX:3": 48,
+          "x:3": 36,
+          "y:3": 120,
+          "id:3": 76,
+          "sizeY:3": 48
         },
         "23:10": {
-          "sizeX:3": 24,
-          "x:3": 312,
-          "y:3": 120,
-          "id:3": 79,
-          "sizeY:3": 24
+          "sizeX:3": 36,
+          "x:3": 180,
+          "y:3": 72,
+          "id:3": 77,
+          "sizeY:3": 36
         },
         "24:10": {
           "sizeX:3": 24,
-          "x:3": 240,
-          "y:3": 144,
+          "x:3": 120,
+          "y:3": 132,
+          "id:3": 78,
+          "sizeY:3": 24
+        },
+        "25:10": {
+          "sizeX:3": 24,
+          "x:3": 276,
+          "y:3": 156,
+          "id:3": 79,
+          "sizeY:3": 24
+        },
+        "26:10": {
+          "sizeX:3": 24,
+          "x:3": 228,
+          "y:3": 132,
           "id:3": 80,
           "sizeY:3": 24
+        },
+        "27:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 192,
+          "id:3": 82,
+          "sizeY:3": 24
+        },
+        "28:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 240,
+          "id:3": 83,
+          "sizeY:3": 24
+        },
+        "29:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": 192,
+          "id:3": 84,
+          "sizeY:3": 24
+        },
+        "30:10": {
+          "sizeX:3": 24,
+          "x:3": 132,
+          "y:3": 240,
+          "id:3": 85,
+          "sizeY:3": 24
+        },
+        "31:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 120,
+          "id:3": 86,
+          "sizeY:3": 24
+        },
+        "32:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 168,
+          "id:3": 87,
+          "sizeY:3": 24
+        },
+        "33:10": {
+          "sizeX:3": 24,
+          "x:3": 120,
+          "y:3": 180,
+          "id:3": 88,
+          "sizeY:3": 24
+        },
+        "34:10": {
+          "sizeX:3": 24,
+          "x:3": 228,
+          "y:3": 180,
+          "id:3": 89,
+          "sizeY:3": 24
+        },
+        "35:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 168,
+          "id:3": 90,
+          "sizeY:3": 24
+        },
+        "36:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": 240,
+          "id:3": 91,
+          "sizeY:3": 24
+        },
+        "37:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": 144,
+          "id:3": 92,
+          "sizeY:3": 24
+        },
+        "38:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": 168,
+          "id:3": 93,
+          "sizeY:3": 24
+        },
+        "39:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": 240,
+          "id:3": 94,
+          "sizeY:3": 24
+        },
+        "40:10": {
+          "sizeX:3": 24,
+          "x:3": -204,
+          "y:3": 120,
+          "id:3": 95,
+          "sizeY:3": 24
+        },
+        "41:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": 240,
+          "id:3": 96,
+          "sizeY:3": 24
+        },
+        "42:10": {
+          "sizeX:3": 24,
+          "x:3": 372,
+          "y:3": 288,
+          "id:3": 102,
+          "sizeY:3": 24
+        },
+        "43:10": {
+          "sizeX:3": 24,
+          "x:3": 372,
+          "y:3": 240,
+          "id:3": 103,
+          "sizeY:3": 24
+        },
+        "44:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 240,
+          "id:3": 104,
+          "sizeY:3": 24
+        },
+        "45:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 288,
+          "id:3": 105,
+          "sizeY:3": 24
+        },
+        "46:10": {
+          "sizeX:3": 24,
+          "x:3": -204,
+          "y:3": 288,
+          "id:3": 106,
+          "sizeY:3": 24
+        },
+        "47:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 288,
+          "id:3": 107,
+          "sizeY:3": 24
+        },
+        "48:10": {
+          "sizeX:3": 24,
+          "x:3": 204,
+          "y:3": 288,
+          "id:3": 108,
+          "sizeY:3": 24
+        },
+        "49:10": {
+          "sizeX:3": 48,
+          "x:3": 192,
+          "y:3": 324,
+          "id:3": 109,
+          "sizeY:3": 48
+        },
+        "50:10": {
+          "sizeX:3": 48,
+          "x:3": 24,
+          "y:3": 324,
+          "id:3": 110,
+          "sizeY:3": 48
+        },
+        "51:10": {
+          "sizeX:3": 24,
+          "x:3": 372,
+          "y:3": 336,
+          "id:3": 111,
+          "sizeY:3": 24
+        },
+        "52:10": {
+          "sizeX:3": 48,
+          "x:3": -144,
+          "y:3": 324,
+          "id:3": 112,
+          "sizeY:3": 48
+        },
+        "53:10": {
+          "sizeX:3": 72,
+          "x:3": 12,
+          "y:3": 420,
+          "id:3": 113,
+          "sizeY:3": 72
         }
       },
       "lineID:3": 1,
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
-          "name:8": "Age 1 - The Steam Age",
+          "name:8": "Age 0 - The Steam Age",
           "icon:10": {
             "id:8": "gregtech:machine",
             "Count:3": 1,
@@ -7066,7 +10006,7 @@
         "3:10": {
           "sizeX:3": 24,
           "x:3": 0,
-          "y:3": 48,
+          "y:3": 36,
           "id:3": 34,
           "sizeY:3": 24
         },
@@ -7080,7 +10020,7 @@
         "5:10": {
           "sizeX:3": 24,
           "x:3": 72,
-          "y:3": 48,
+          "y:3": 36,
           "id:3": 56,
           "sizeY:3": 24
         },
@@ -7093,37 +10033,58 @@
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 396,
-          "y:3": 0,
-          "id:3": 67,
+          "x:3": 204,
+          "y:3": 36,
+          "id:3": 68,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 0,
-          "id:3": 68,
-          "sizeY:3": 24
-        },
-        "9:10": {
-          "sizeX:3": 24,
           "x:3": 348,
-          "y:3": 48,
+          "y:3": 0,
           "id:3": 69,
           "sizeY:3": 24
         },
-        "10:10": {
+        "9:10": {
           "sizeX:3": 24,
           "x:3": 252,
           "y:3": 0,
           "id:3": 75,
           "sizeY:3": 24
         },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": 120,
+          "y:3": 84,
+          "id:3": 77,
+          "sizeY:3": 24
+        },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 36,
+          "x:3": 0,
           "y:3": 120,
-          "id:3": 77,
+          "id:3": 80,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": 252,
+          "y:3": 36,
+          "id:3": 81,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 84,
+          "id:3": 89,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": 48,
+          "y:3": 84,
+          "id:3": 107,
           "sizeY:3": 24
         }
       },
@@ -7143,15 +10104,64 @@
           "desc:8": "Only a fool would build such powerful machines, or would they?\n\nThis is your multiblock questline. Filled with the biggest and most powerful machines you can ever make. Most quests here will be in the main line, however."
         }
       },
-      "order:3": 3
+      "order:3": 4
     },
     "3:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 0,
+          "x:3": -60,
+          "y:3": -36,
+          "id:3": 6,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": -36,
           "id:3": 11,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": 12,
+          "id:3": 97,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": 60,
+          "id:3": 98,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": 12,
+          "id:3": 99,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 12,
+          "id:3": 100,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 60,
+          "id:3": 101,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 108,
+          "id:3": 102,
           "sizeY:3": 24
         }
       },
@@ -7172,6 +10182,41 @@
         }
       },
       "order:3": 1
+    },
+    "4:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": -48,
+          "id:3": 110,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": 24,
+          "id:3": 113,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 4,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Age 1 - The LV Age",
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 501,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "We gotta rock down to- Electric Avenue"
+        }
+      },
+      "order:3": 3
     }
   },
   "questSettings:10": {

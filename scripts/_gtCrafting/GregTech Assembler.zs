@@ -1,10 +1,7 @@
 import mods.gregtech.recipe.RecipeMap;
-import mods.gtadditions.recipe.GARecipeMaps;
 
 //Variables
 val assembler = mods.gregtech.recipe.RecipeMap.getByName("assembler");
-val CircAssembler as RecipeMap = GARecipeMaps.CIRCUIT_ASSEMBLER_RECIPES;
-val Laser = mods.gregtech.recipe.RecipeMap.getByName("laser_engraver");
 
 var chest = <minecraft:chest>; 
 var planks = <ore:plankWood>.firstItem;
@@ -14,22 +11,12 @@ var hardHammer = <ore:craftingToolHardHammer>.firstItem.withEmptyTag();
 var Seared_Brick = <tconstruct:seared:3>;
 var Coke_Brick = <gregtech:metal_casing:8>;
 var Coke_Controller = <gregtech:machine:526>;
-var IronPlate = <gregtech:meta_item_1:12033>;
-var WroughtPlate = <gregtech:meta_item_1:12197>;
-var Redstone = <minecraft:redstone>;
+var glassTube = <gregtech:meta_item_2:32454>;
+	
+// Removal
+assembler.findRecipe(8, [<minecraft:paper> * 2, <gregtech:cable:18> * 2, glassTube], null).remove();
+assembler.findRecipe(8, [<minecraft:paper> * 2, <gregtech:meta_item_2:16018> * 2, glassTube], null).remove();
 
-val MvCircuit = <ore:circuitGood>;
-val FineElecWire = <gregtech:meta_item_2:16112>;
-val MicroSMDResistor = <gregtech:meta_item_2:32459>;
-val Capacitor = <pneumaticcraft:capacitor>;
-val Transistor = <pneumaticcraft:transistor>;
-val UnassCircBoard = <pneumaticcraft:unassembled_pcb>;
-val CircBoard = <pneumaticcraft:printed_circuit_board>;
-val PCBBlueprint = <pneumaticcraft:pcb_blueprint>;
-
-val BlueSteelPlate = <gregtech:meta_item_1:12233>;
-val SaphLens = <gregtech:meta_item_1:15157>;
-		
 //Assembling Machine 
 	//Chest
 	
@@ -115,28 +102,17 @@ val SaphLens = <gregtech:meta_item_1:15157>;
 		.EUt(192)
 		.buildAndRegister();
 		
-	recipes.remove(CircBoard);
-		CircAssembler.recipeBuilder()
-			.inputs(
-				UnassCircBoard,
-				Capacitor * 3,
-				Transistor * 3,
-				MicroSMDResistor,
-				FineElecWire * 4,
-				MvCircuit)
-			.fluidInputs([<liquid:soldering_alloy> * 144])
-			.outputs(CircBoard)
-			.duration(600)
-			.EUt(32)
-			.buildAndRegister();
+	# Logic Circuit
+	
+	assembler.recipeBuilder()
+		.inputs(<gregtech:cable:5237> * 3, <ore:plateSteel>, <gregtech:meta_item_2:32450> * 2, <gregtech:meta_item_2:32455> * 2, <gtadditions:ga_meta_item:32029>)
+		.outputs(<gregtech:meta_item_2:32487>)
+		.duration(600)
+		.EUt(8)
+		.buildAndRegister();
 		
-		Laser.recipeBuilder()
-			.inputs(BlueSteelPlate)
-			.notConsumable(SaphLens)
-			.outputs(PCBBlueprint)
-			.duration(6000)
-			.EUt(96)
-			.buildAndRegister();
+		
+		
 		
 		
 		

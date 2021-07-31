@@ -6,6 +6,7 @@
   "priority": -100,
   "count_as_vein": false,
   "generation_predicate": "any",
+  "dimension_filter": ["dimension_id:0"],
 
   "vein_populator": {
     "type": "fluid_spring",
@@ -13,7 +14,7 @@
   },
   "biome_modifier": {
     "type": "biome_dictionary",
-    "sandy": 5
+    "sandy": 10
   },
   "generator": {
     "type": "sphere",

@@ -26,6 +26,8 @@ import mods.gregtech.recipe.RecipeMap;
 <ore:ingotSilver>.add(<erebus:materials:45>);
 <ore:ingotSilver>.add(<mysticalworld:silver_ingot>);
 <ore:ingotConstantan>.add(<gregtech:meta_item_1:10109>);
+<ore:plateAluminum>.addAll(<ore:plateAluminium>);
+<ore:plateConstantan>.addAll(<ore:plateCupronickel>);
 <ore:blockAluminum>.addAll(<ore:blockAluminium>);
 <ore:blockConstantan>.addAll(<ore:blockCupronickel>);
 <ore:blockCopper>.add(<mysticalworld:copper_block>);
@@ -37,6 +39,16 @@ import mods.gregtech.recipe.RecipeMap;
 <ore:dustSilver>.add(<mysticalworld:silver_dust>);
 <ore:dustGold>.add(<mysticalworld:gold_dust>);
 <ore:dustEnder>.add(<gregtech:meta_item_1:2218>);
+<ore:nuggetAluminum>.addAll(<ore:nuggetAluminium>);
+<ore:nuggetConstantan>.addAll(<ore:nuggetCupronickel>);
+<ore:nuggetCopper>.add(<mysticalworld:copper_nugget>);
+<ore:nuggetSilver>.add(<mysticalworld:silver_nugget>);
+<ore:stickAluminum>.addAll(<ore:stickAluminium>);
+<ore:gearConstantan>.addAll(<ore:gearCupronickel>);
+<ore:gearAluminum>.addAll(<ore:gearAluminium>);
+
+// Occurences
+recipes.replaceAllOccurences(<pneumaticcraft:compressed_iron_gear>, <ore:gearIronCompressed>);
 
 print("Ore Removal");
 
@@ -172,6 +184,11 @@ var oresDisabled as IItemStack[][IOreDictEntry] = {
 	<ore:oreNickel> : [
 		<immersiveengineering:ore:4>,
 		<thermalfoundation:ore:5>
+	],
+	
+	#oreCobalt
+	<ore:oreCobalt> : [
+		<tconstruct:ore>
 	]
 };
 
@@ -496,9 +513,19 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 		<mekanism:ingot:1>
 	],
 	
+	#ingotUranium
+	<ore:ingotUranium> : [
+		<immersiveengineering:metal:5>
+	],
+	
 	#ingotZinc
 	<ore:ingotZinc> : [
 		<railcraft:ingot:8>
+	],
+	
+	#ingotCobalt
+	<ore:ingotCobalt> : [
+		<tconstruct:ingots>
 	],
 };
 
@@ -651,9 +678,19 @@ var blocksDisabled as IItemStack[][IOreDictEntry] = {
 		<mekanism:basicblock>
 	],
 	
+	#blockUranium
+	<ore:blockUranium> : [
+		<immersiveengineering:storage:5>
+	],
+	
 	#blockZinc
 	<ore:blockZinc> : [
 		<railcraft:metal:8>
+	],
+	
+	#blockCobalt
+	<ore:blockCobalt> : [
+		<tconstruct:metal>
 	]
 	
 };
@@ -915,6 +952,11 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 	#dustCryotheum
 	<ore:dustCryotheum> : [
 		<thermalfoundation:material:1025>
+	],
+	
+	#dustUranium
+	<ore:dustUranium> : [
+		<immersiveengineering:metal:14>
 	]
 	
 };
@@ -930,7 +972,362 @@ print("Finished Dust Removal!");
 
 /////////////////////////////////////////////////
 
+print("Starting Nugget Removal!");
+
+var nuggetsDisabled as IItemStack[][IOreDictEntry] = {
+
+	#nuggetAluminum
+	<ore:nuggetAluminum> : [
+		<immersiveengineering:metal:21>,
+		<thermalfoundation:material:196>,
+		<libvulpes:productnugget:9>
+	],
 	
+	#nuggetTitaniumAluminide
+	<ore:nuggetTitaniumAluminide> : [
+		<advancedrocketry:productnugget>
+	],
+	
+	#nuggetTitaniumIridium
+	<ore:nuggetTitaniumIridium> : [
+		<advancedrocketry:productnugget:1>
+	],
+	
+	#nuggetBronze
+	<ore:nuggetBronze> : [
+		<magicbees:orepart:5>,
+		<mekanism:nugget:2>,
+		<railcraft:nugget:5>,
+		<thermalfoundation:material:227>
+	],
+	
+	#nuggetBrass
+	<ore:nuggetBrass> : [
+		<thaumcraft:nugget:2>,
+		<railcraft:nugget:9>
+	],
+	
+	#nuggetConstantan
+	<ore:nuggetConstantan> : [
+		<thermalfoundation:material:228>,
+		<immersiveengineering:metal:26>
+	],
+	
+	#nuggetCopper
+	<ore:nuggetCopper> : [
+		<mysticalworld:copper_nugget>,
+		<thaumcraft:nugget:1>,
+		<mekanism:nugget:5>,
+		<railcraft:nugget:1>,
+		<thermalfoundation:material:192>,
+		<magicbees:orepart:3>,
+		<libvulpes:productnugget:4>
+	],
+	
+	#nuggetElectrum
+	<ore:nuggetElectrum> : [
+		<immersiveengineering:metal:27>,
+		<thermalfoundation:material:225>
+	],
+	
+	#nuggetEnderium
+	<ore:nuggetEnderium> : [
+		<thermalfoundation:material:231>
+	],
+	
+	#nuggetInvar
+	<ore:nuggetInvar> : [
+		<railcraft:nugget:7>,
+		<thermalfoundation:material:226>
+	],
+	
+	#nuggetIridium
+	<ore:nuggetIridium> : [
+		<thermalfoundation:material:199>,
+		<libvulpes:productnugget:10>
+	],
+	
+	#nuggetLead
+	<ore:nuggetLead> : [
+		<immersiveengineering:metal:22>,
+		<railcraft:nugget:3>,
+		<thaumcraft:nugget:4>,
+		<thermalfoundation:material:195>
+	],
+	
+	#nuggetNickel
+	<ore:nuggetNickel> : [
+		<immersiveengineering:metal:24>,
+		<railcraft:nugget:6>,
+		<thermalfoundation:material:197>
+	],
+	
+	#nuggetPlatinum
+	<ore:nuggetPlatinum> : [
+		<thermalfoundation:material:198>
+	],
+	
+	#nuggetSilicon
+	<ore:nuggetSilicon> : [
+		<libvulpes:productnugget:3>
+	],
+	
+	#nuggetSilver
+	<ore:nuggetSilver> : [
+		<thaumcraft:nugget:3>,
+		<immersiveengineering:metal:23>,
+		<mysticalworld:silver_nugget>,
+		<railcraft:nugget:4>,
+		<thermalfoundation:material:194>
+	],
+	
+	#nuggetSteel
+	<ore:nuggetSteel> : [
+		<thermalfoundation:material:224>,
+		<immersiveengineering:metal:28>,
+		<mekanism:nugget:4>,
+		<railcraft:nugget>,
+		<libvulpes:productnugget:6>
+	],
+	
+	#nuggetTin
+	<ore:nuggetTin> : [
+		<libvulpes:productnugget:5>,
+		<thermalfoundation:material:193>,
+		<thaumcraft:nugget:2>,
+		<railcraft:nugget:2>,
+		<mekanism:nugget:6>,
+		<magicbees:orepart:4>
+	],
+	
+	#nuggetTitanium
+	<ore:nuggetTitanium> : [
+		<libvulpes:productnugget:7>
+	],
+	
+	#nuggetOsmium
+	<ore:nuggetOsmium> : [
+		<mekanism:nugget:1>
+	],
+	
+	#nuggetUranium
+	<ore:nuggetUranium> : [
+		<immersiveengineering:metal:25>
+	],
+	
+	#nuggetZinc
+	<ore:nuggetZinc> : [
+		<railcraft:nugget:8>
+	],
+	
+	#nuggetCobalt
+	<ore:nuggetCobalt> : [
+		<tconstruct:nuggets>
+	]
+};
 
+for oreDictEntry, items in nuggetsDisabled {
+	for i in items {
+		mods.jei.JEI.removeAndHide(i);
+	}
+	oreDictEntry.removeItems(items);
+}
 
+print("Finished Nugget Removal!");
+
+/////////////////////////////////////////////////
+
+print("Starting Rod Removal!");
+
+var rodsDisabled as IItemStack[][IOreDictEntry] = {
+	
+	#stickCopper
+	<ore:stickCopper> : [
+		<libvulpes:productrod:4>
+	],
+	
+	#stickIron
+	<ore:stickIron> : [
+		<libvulpes:productrod:1>,
+		<immersiveengineering:material:1>
+	],
+	
+	#stickAluminum
+	<ore:stickAluminum> : [
+		<immersiveengineering:material:3>
+	],
+	
+	#stickIridium
+	<ore:stickIridium> : [
+		<libvulpes:productrod:10>
+	],
+	
+	#stickTitaniumIrdium
+	<ore:stickTitaniumIrdium> : [
+		<advancedrocketry:productrod:1>
+	],
+	
+	#stickTitaniumAluminide
+	<ore:stickTitaniumAluminide> : [
+		<advancedrocketry:productrod>
+	],
+	
+	#stickTitanium
+	<ore:stickTitanium> : [
+		<libvulpes:productrod:7>
+	],
+	
+	#stickSteel
+	<ore:stickSteel> : [
+		<libvulpes:productrod:6>,
+		<immersiveengineering:material:2>
+	]
+};
+
+for oreDictEntry, items in rodsDisabled {
+	for i in items {
+		mods.jei.JEI.removeAndHide(i);
+	}
+	oreDictEntry.removeItems(items);
+}
+	
+print("Finished Rod Removal!");
+
+///////////////////////////////////////////////////
+
+print("Starting Gear Removal!");
+
+var gearsDisabled as IItemStack[][IOreDictEntry] = {
+
+	#gearAluminum
+	<ore:gearAluminum> : [
+		<thermalfoundation:material:260>
+	],
+	
+	#gearBrass
+	<ore:gearBrass> : [
+		<railcraft:gear>
+	],
+	
+	#gearBronze
+	<ore:gearBronze> : [
+		<forestry:gear_bronze>,
+		<railcraft:gear:4>,
+		<thermalfoundation:material:291>
+	],
+	
+	#gearCopper
+	<ore:gearCopper> : [
+		<thermalfoundation:material:256>,
+		<forestry:gear_copper>
+	],
+	
+	#gearCompressedIron
+	<ore:gearCompressedIron> : [
+		<pneumaticcraft:compressed_iron_gear>
+	],
+	
+	#gearConstantan
+	<ore:gearConstantan> : [
+		<thermalfoundation:material:292>
+	],
+	
+	#gearDiamond
+	<ore:gearDiamond> : [
+		<thermalfoundation:material:26>
+	],
+	
+	#gearEmerald
+	<ore:gearEmerald> : [
+		<thermalfoundation:material:27>
+	],
+	
+	#gearElectrum
+	<ore:gearElectrum> : [
+		<thermalfoundation:material:289>
+	],
+	
+	#gearEnderium
+	<ore:gearEnderium> : [
+		<thermalfoundation:material:295>
+	],
+	
+	#gearGold
+	<ore:gearGold> : [
+		<thermalfoundation:material:25>
+	],
+	
+	#gearInvar
+	<ore:gearInvar> : [
+		<thermalfoundation:material:290>,
+		<railcraft:gear:5>
+	],
+	
+	#gearIron
+	<ore:gearIron> : [
+		<thermalfoundation:material:24>,
+		<railcraft:gear:1>
+	],
+	
+	#gearIridium
+	<ore:gearIridium> : [
+		<thermalfoundation:material:263>
+	],
+	
+	#gearLead
+	<ore:gearLead> : [
+		<thermalfoundation:material:259>
+	],
+	
+	#gearNickel
+	<ore:gearNickel> : [
+		<thermalfoundation:material:261>
+	],
+	
+	#gearPlatinum
+	<ore:gearPlatinum> : [
+		<thermalfoundation:material:262>
+	],
+	
+	#gearSilver
+	<ore:gearSilver> : [
+		<thermalfoundation:material:258>
+	],
+	
+	#gearSteel
+	<ore:gearSteel> : [
+		<thermalfoundation:material:288>,
+		<railcraft:gear:2>,
+		<libvulpes:productgear:6>
+	],
+	
+	#gearTin
+	<ore:gearTin> : [
+		<thermalfoundation:material:257>,
+		<forestry:gear_tin>
+	],
+	
+	#gearTitanium
+	<ore:gearTitanium> : [
+		<libvulpes:productgear:7>
+	],
+	
+	#gearTitaniumAluminide
+	<ore:gearTitaniumAluminide> : [
+		<advancedrocketry:productgear>
+	],
+	
+	#gearTitaniumIridium
+	<ore:gearTitaniumIridium> : [
+		<advancedrocketry:productgear:1>
+	]
+};
+
+for oreDictEntry, items in gearsDisabled {
+	for i in items {
+		mods.jei.JEI.removeAndHide(i);
+	}
+	oreDictEntry.removeItems(items);
+}
+	
 

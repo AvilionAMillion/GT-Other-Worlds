@@ -20,12 +20,11 @@
         {
           "weight": 40,
           "value": "ore:blue_topaz"
-        }
-      ,
-        {
-          "weight": 5,
-          "value": "ore:zirkelite"
-        }
+        },
+		{
+		  "weight": 40,
+		  "value": "ore:nether_quartz"
+		}
       ]
     }
   }

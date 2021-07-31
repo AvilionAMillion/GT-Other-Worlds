@@ -6,9 +6,10 @@ import mods.tconstruct.Drying;
 import mods.roots.Fey;
 import mods.inworldcrafting.FireCrafting;
 import mods.gregtech.recipe.RecipeMap;
+import mods.immersiveengineering.BottlingMachine;
 
 val assembler = mods.gregtech.recipe.RecipeMap.getByName("assembler");
-
+val packer as RecipeMap = RecipeMap.getByName("packer");
 
 // Val
 var softHammer = <ore:craftingToolSoftHammer>.firstItem.withEmptyTag();
@@ -31,6 +32,9 @@ val LvExchanger = <contenttweaker:heatexchanger_lv>;
 val LvPump = <gregtech:meta_item_1:32610>;
 val tSteelPipe = <gregtech:fluid_pipe:184>;
 val BTank = <gregtech:machine:812>;
+val carpetBlack = <minecraft:carpet:15>;
+val cableTin = <gregtech:cable:5071>;
+val wireCopper = <gregtech:cable:18>;
 
 // Crafting Table
 	# Small Chest
@@ -75,6 +79,11 @@ val BTank = <gregtech:machine:812>;
 		[[woodPlank, glass, woodPlank],
 		[glass, null, glass],
 		[woodPlank, glass, woodPlank]]);
+	# Iron Electric Motor Removal
+	recipes.removeShaped(motorLV,
+		[[cableTin, wireCopper, rodIron],
+		[wireCopper, <gregtech:meta_item_1:14297>, wireCopper],
+		[rodIron, wireCopper, cableTin]]);
 	# Pre-LV Firebricks
 	recipes.addShaped(<gregtech:metal_casing:1>,
 		[[firebrick, <ore:dustGypsum>, firebrick],
@@ -104,5 +113,20 @@ val BTank = <gregtech:machine:812>;
 		
 // Fey Crafting
 	# Rubber Tree Sapling
-		Fey.addRecipe("rubberTree", <gregtech:sapling>, [<ore:slimeball>, <ore:slimeball>, <botania:overgrowthseed>, <thaumcraft:sapling_greatwood>, <roots:wildroot>]);
+		Fey.addRecipe("rubberTree", <gregtech:sapling>, [<ore:slimeball>, <ore:slimeball>, <roots:terra_spores>, <thaumcraft:sapling_greatwood>, <roots:wildroot>]);
 		
+// Cable Changes
+	# Tin Cable 
+recipes.remove(<gregtech:cable:5071>);
+recipes.removeShapeless(<gregtech:cable:6071>,
+	[<gregtech:cable:1071>, carpetBlack, carpetBlack, itemString]);
+recipes.removeShapeless(<gregtech:cable:7071>, 
+	[<gregtech:cable:2071>, carpetBlack, carpetBlack, carpetBlack, carpetBlack, itemString]);
+	packer.findRecipe(8, [carpetBlack, <gregtech:cable:71>], null).remove();
+	packer.findRecipe(8, [carpetBlack * 2, <gregtech:cable:1071>], null).remove();
+	packer.findRecipe(8, [carpetBlack * 4, <gregtech:cable:2071>], null).remove();
+	packer.findRecipe(8, [carpetBlack * 8, <gregtech:cable:3071>], null).remove();
+	packer.findRecipe(8, [carpetBlack * 16, <gregtech:cable:4071>], null).remove();
+	# Tin Cable Crafting Bottler
+mods.immersiveengineering.BottlingMachine.addRecipe(<gregtech:cable:5071>, <gregtech:cable:71>, <liquid:rubber> * 288);
+	

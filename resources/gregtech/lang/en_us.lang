@@ -10,3 +10,7 @@ material.wroughtiron.name=Wrought Iron
 multiblocktweaker.machine.bloomery.name=Bloomery Controller Block
 recipemap.bloomery.name=Bloomery Recipes
 multiblocktweaker.multiblock.bloomery.description=Used to turn Iron into Wrought Iron using some sort of fuel
+
+devtech.machine.steam_turbine.ulv.name=Primitive Steam Turbine
+devtech.machine.tank.ulv.name=Primitive Industrial Tank
+devtech.machine.tank.lv.name=Basic Industrial Tank

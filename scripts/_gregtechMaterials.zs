@@ -4,6 +4,7 @@ import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 import mods.gregtech.material.MaterialRegistry;
 import crafttweaker.enchantments.IEnchantmentDefinition;
+import mods.gregtech.material.MaterialCasting;
 
 // Additional Tool Flags
 	# Nickel Gear
@@ -14,6 +15,15 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 <material:graphite>.addFlags("GENERATE_FINE_WIRE");
 	#Small Gold Gear
 <material:gold>.addFlags("GENERATE_SMALL_GEAR");
+	# Tin Alloy
+MaterialCasting.toIngot(<material:tin_alloy>).setCableProperties(8, 1, 1);
+<material:tin_alloy>.addFlags("GENERATE_BOLT_SCREW", "GENERATE_ROTOR");
+	# Small Iron Gear
+<material:iron>.addFlags("GENERATE_SMALL_GEAR");
+	# Cupronickel Gear
+<material:cupronickel>.addFlags("GENERATE_GEAR");
+	# Emerald Gear
+<material:emerald>.addFlags("GENERATE_GEAR");
 
 // Tool Registry
 	#Stone

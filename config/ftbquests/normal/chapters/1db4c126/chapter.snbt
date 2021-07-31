@@ -1,7 +1,0 @@
-{
-	title: "The Root of it All",
-	icon: "roots:spirit_herb",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

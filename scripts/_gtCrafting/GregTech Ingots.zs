@@ -14,3 +14,4 @@ val nuggetWrought = <ore:nuggetWroughtIron>;
 // Crafting
 	# Wrought Iron
 		recipes.remove(wroughtIron);
+		

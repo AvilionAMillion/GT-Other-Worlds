@@ -17,15 +17,25 @@ global sand as IOreDictEntry = <ore:sand>;
 global clay as IOreDictEntry = <ore:clay>;
 global glass as IOreDictEntry = <ore:blockGlass>;
 global treatedWood as IOreDictEntry = <ore:plankTreatedWood>;
+global paper as IOreDictEntry = <ore:paper>;
+global chest as IOreDictEntry = <ore:chestWood>;
 
 // Plates
 global plateIron as IOreDictEntry = <ore:plateIron>;
+global plateWood as IOreDictEntry = <ore:plateWood>;
+global plateSteel as IOreDictEntry = <ore:plateSteel>;
 
 // Screws
 global screwIron as IOreDictEntry = <ore:screwIron>;
+global screwSteel as IOreDictEntry = <ore:screwSteel>;
+
+// Rods
+global rodIron as IOreDictEntry = <ore:stickIron>;
+global rodSteel as IOreDictEntry = <ore:stickSteel>;
 
 // Ingots
 global ingotSteel as IOreDictEntry = <ore:ingotSteel>;
+global ingotIron as IOreDictEntry = <ore:ingotIron>;
 
 // GregTech Tools
 global hardHammer as IItemStack = <gregtech:meta_tool:6>;
@@ -35,3 +45,11 @@ global gregMortar as IItemStack = <gregtech:meta_tool:12>;
 global craftingToolKnife as IItemStack = <gregtech:meta_tool:17>;
 global craftingToolWrench as IIngredient = <gregtech:meta_tool:8> | <gregtech:meta_tool:29> | <gregtech:meta_tool:30> | <gregtech:meta_tool:31>; 
 global craftingToolSaw as IIngredient = <gregtech:meta_tool:5> | <gregtech:meta_tool:26> | <gregtech:meta_tool:27> | <gregtech:meta_tool:28>;
+global craftingToolCylinder as IItemStack = <gtadditions:ga_meta_tool>;
+
+// Circuits
+global circuitULV as IOreDictEntry = <ore:circuitPrimitive>;
+global circuitLV as IOreDictEntry = <ore:circuitBasic>;
+
+// Components
+global motorLV as IItemStack = <gregtech:meta_item_1:32600>;

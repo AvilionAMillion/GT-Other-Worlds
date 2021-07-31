@@ -6,6 +6,9 @@ import mods.roots.Mortar;
 import mods.inworldcrafting.FluidToItem;
 import mods.tconstruct.Drying;
 import mods.inworldcrafting.FireCrafting;
+import mods.tconstruct.Melting;
+import mods.tconstruct.Fuel;
+import crafttweaker.liquid.ILiquidDefinition;
 
 // Val
 val stoneShard = <tconstruct:shard>.withTag({Material: "stone"});
@@ -40,6 +43,7 @@ val casting = <tconstruct:casting>;
 val searedTank = <tconstruct:seared_tank:2>;
 val castingBasin = <tconstruct:casting:1>;
 val pipeBronzeMedium = <gregtech:fluid_pipe:2095>;
+val definitionCreosote = <liquid:creosote>.definition;
 
 // Crafting Table
 	# Blank Pattern
@@ -171,5 +175,19 @@ val pipeBronzeMedium = <gregtech:fluid_pipe:2095>;
 // InWorldCrafting
 	# Grout
 		FluidToItem.transform(grout * 4, <fluid:water>, [gravel * 2, sand * 2, clayDust * 2], true);
+		
+// Tinkers Construct Specialized Melting
+	# Wrought Iron
+mods.tconstruct.Melting.addRecipe(<liquid:wrought_iron> * 144, <gregtech:meta_item_1:10197>, 650);
+	# Rubber
+mods.tconstruct.Melting.addRecipe(<liquid:rubber> * 144, <gregtech:meta_item_1:10152>, 350);
+	
+// Fuel Registry
+	# Creosote Oil
+// Zengetter: Temperature
+val creosoteT = definitionCreosote.temperature;
+// Zensetter: Temperature
+definitionCreosote.temperature = 150;
+mods.tconstruct.Fuel.registerFuel(<liquid:creosote> * 1, 100);
 		
 		

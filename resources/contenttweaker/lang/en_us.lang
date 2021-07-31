@@ -3,5 +3,11 @@ item.contenttweaker.sandyClay.name=Sandy-Clay Compound
 item.contenttweaker.wroughtIronHeater.name=Wrought Iron Heating Component
 item.contenttweaker.steelHeater.name=Steel Heating Component
 item.contenttweaker.heatExchanger_LV.name=Heat Exchanger (LV)
+item.contenttweaker.ULV_motor.name=Electric Motor (ULV)
+item.contenttweaker.ULV_piston.name=Electric Piston (ULV)
+item.contenttweaker.ULV_conveyor.name=Conveyor Belt (ULV)
+item.contenttweaker.ULV_robotarm.name=Robot Arm (ULV)
+item.contenttweaker.ULV_pump.name=Electric Pump (ULV)
+
 
 tile.contenttweaker.glassy_sand.name=Glassy Sand

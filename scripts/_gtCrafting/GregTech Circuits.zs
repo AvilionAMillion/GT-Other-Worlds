@@ -3,6 +3,9 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.immersiveengineering.Blueprint;
 
+// Removal
+recipes.remove(<gregtech:meta_item_2:32487>);
+
 // Engineers Worktable
  # Vacuum Tubes
 recipes.remove(<gregtech:meta_item_2:32450>);
