@@ -175,13 +175,85 @@ val CraftPipe = <logisticspipes:pipe_crafting>;
 			.EUt(64)
 			.buildAndRegister();				
 			
+// Here we initiate the hell of all of these fucking moduels -Nyagi
+
+val LimePlastic = <pneumaticcraft:plastic:10>;
+val BrownPlastic = <pneumaticcraft:plastic:3>;
+
+val ItemSink = <logisticspipes:module_item_sink>;			
+	recipes.remove(ItemSink);		
+			CircAssembler.recipeBuilder()
+				.inputs(
+					FPGA,
+					GoldBolt * 4,
+					BlankModule,
+					LimePlastic,
+					<immersiveengineering:wooden_device0:3>
+					)
+				.notConsumable(<logisticspipes:logistics_programmer>.withTag({LogisticsRecipeTarget: "logisticspipes:module_item_sink"})
+				)
+				.fluidInputs([<liquid:soldering_alloy> * 144])
+				.outputs(ItemSink)
+				.duration(100)
+				.EUt(48)
+				.buildAndRegister();
+				
+val PolyItemSink = <logisticspipes:module_item_sink_polymorphic>;
+				val Observer = <minecraft:observer>;
+	recipes.remove(PolyItemSink);		
+			CircAssembler.recipeBuilder()
+				.inputs(
+					FPGA * 4,
+					GoldBolt * 4,
+					ItemSink,
+					BrownPlastic,
+					Observer
+					)
+				.notConsumable(<logisticspipes:logistics_programmer>.withTag({LogisticsRecipeTarget: "logisticspipes:module_item_sink_polymorphic"})
+				)
+				.fluidInputs([<liquid:soldering_alloy> * 144])
+				.outputs(PolyItemSink)
+				.duration(200)
+				.EUt(64)
+				.buildAndRegister();
 			
+val ExtractorI = <logisticspipes:module_extractor>;
+	val MVConvayer = <gregtech:meta_item_1:32631>;
+	recipes.remove(ExtractorI);		
+			CircAssembler.recipeBuilder()
+				.inputs(
+					FPGA * 4,
+					GoldBolt * 4,
+					BlankModule,
+					BluePlastic,
+					MVConvayer
+					)
+				.notConsumable(<logisticspipes:logistics_programmer>.withTag({LogisticsRecipeTarget: "logisticspipes:module_extractor"})
+				)
+				.fluidInputs([<liquid:soldering_alloy> * 144])
+				.outputs(ExtractorI)
+				.duration(200)
+				.EUt(64)
+				.buildAndRegister();			
 			
-			
-			
-			
-			
-			
+val ExtractorII = <logisticspipes:module_extractor_advanced>;
+	val HVConvayer = <gregtech:meta_item_1:32632>;
+	recipes.remove(ExtractorII);		
+			CircAssembler.recipeBuilder()
+				.inputs(
+					FPGA * 4,
+					GoldBolt * 4,
+					ExtractorI,
+					BluePlastic * 8,
+					HVConvayer
+					)
+				.notConsumable(<logisticspipes:logistics_programmer>.withTag({LogisticsRecipeTarget: "logisticspipes:module_extractor_advanced"})
+				)
+				.fluidInputs([<liquid:soldering_alloy> * 144])
+				.outputs(ExtractorII)
+				.duration(600)
+				.EUt(64)
+				.buildAndRegister();			
 			
 			
 			
