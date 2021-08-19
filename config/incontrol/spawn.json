@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "mob": ["minecraft:zombie", "minecraft:skeleton", "minecraft:spider"],
+	"gamestage": "Beginning",
+    "result": "default"
+  },
+  {
+	"mob": ["minecraft:creeper", "minecraft:witch", "minecraft:cave_spider", "mekanism:babyskeleton", "minecraft:zombie_villager", "minecraft:zombie_pigman", "minecraft:ghast"],
+	"gamestage": "SteamAge",
+	"result": "default"
+  },
+  {
+    "mob": ["minecraft:skeleton","minecraft:zombie"],
+    "playerhelditem": ["minecraft:stone_sword", "minecraft:wooden_axe"],
+	"gamestage": "SteamAge"	
+  },
+  {
+    "passive": true,
+    "result": "default"
+  },
+  {
+    "result": "deny"
+  }
+]

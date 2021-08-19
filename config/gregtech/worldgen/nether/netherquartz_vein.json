@@ -2,7 +2,7 @@
   "weight": 170,
   "density": 0.2,
   "max_height": 110,
-  "min_height": 40,
+  "min_height": 60,
   "dimension_filter": ["is_nether"],
   "generator": {
     "type": "ellipsoid",

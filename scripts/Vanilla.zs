@@ -31,7 +31,7 @@ val GPane = <minecraft:glass_pane>;
 val Compass = <minecraft:compass>;
 val Red = <ore:dyeRed>;
 val Kerosene = <forge:bucketfilled>.withTag({FluidName: "kerosene", Amount: 1000});
-
+val flintShard = <tconstruct:shard>.withTag({Material: "flint"});
 val oreDictFurnace = <ore:craftingFurnace>;
 
 // Crafting Table
@@ -55,6 +55,11 @@ val oreDictFurnace = <ore:craftingFurnace>;
 		[[wool, wool, wool],
 		[plank, plank, plank],
 		[stick, softHammer, stick]]);
+	# Flint
+		recipes.removeShapeless(<minecraft:flint>,
+			[gravel, gravel, gravel]);
+		recipes.addShapeless(<minecraft:flint>,
+			[flintShard, flintShard, flintShard]);
 		
 	# Chest
 		recipes.remove(chest_lock * 8);

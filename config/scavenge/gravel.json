@@ -1,0 +1,35 @@
+{
+    "block_pools": [
+      {
+        "name": "Gravel",
+        "type": {
+          "type": "block",
+          "name": "minecraft:gravel"
+        },
+        "clicktype": "right",
+        "properties": [
+          {
+            "type": "require_sneak"
+          },
+          {
+            "type": "per_block_limit",
+            "max": 8,
+			"min": 2
+          },
+		  {
+			"type": "consume_block",
+			"chance": 15.0
+		  }
+        ],
+        "drops": [
+          {
+            "name": "tconstruct:shard",
+            "meta": 0,
+            "nbt": "gravelNBT",
+            "disableJEI": false,
+            "chance": 20
+          }
+        ]
+      }
+    ]
+  }

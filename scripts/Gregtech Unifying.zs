@@ -46,6 +46,7 @@ import mods.gregtech.recipe.RecipeMap;
 <ore:stickAluminum>.addAll(<ore:stickAluminium>);
 <ore:gearConstantan>.addAll(<ore:gearCupronickel>);
 <ore:gearAluminum>.addAll(<ore:gearAluminium>);
+<ore:dustWheat>.add(<harvestcraft:flouritem>);
 
 // Occurences
 recipes.replaceAllOccurences(<pneumaticcraft:compressed_iron_gear>, <ore:gearIronCompressed>);
@@ -691,6 +692,11 @@ var blocksDisabled as IItemStack[][IOreDictEntry] = {
 	#blockCobalt
 	<ore:blockCobalt> : [
 		<tconstruct:metal>
+	],
+	
+	#blockSalt
+	<ore:blockSalt> : [
+		<mekanism:saltblock>
 	]
 	
 };
@@ -957,8 +963,14 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 	#dustUranium
 	<ore:dustUranium> : [
 		<immersiveengineering:metal:14>
-	]
+	],
 	
+	#dustWheat
+	<ore:dustWheat> : [
+		<appliedenergistics2:material:4>,
+		<roots:flour>,
+		<harvestcraft:flouritem>
+	]
 };
 
 for oreDictEntry, items in dustsDisabled {
@@ -1021,7 +1033,8 @@ var nuggetsDisabled as IItemStack[][IOreDictEntry] = {
 		<railcraft:nugget:1>,
 		<thermalfoundation:material:192>,
 		<magicbees:orepart:3>,
-		<libvulpes:productnugget:4>
+		<libvulpes:productnugget:4>,
+		<immersiveengineering:metal:20>
 	],
 	
 	#nuggetElectrum
@@ -1045,6 +1058,12 @@ var nuggetsDisabled as IItemStack[][IOreDictEntry] = {
 	<ore:nuggetIridium> : [
 		<thermalfoundation:material:199>,
 		<libvulpes:productnugget:10>
+	],
+	
+	#nuggetIron
+	<ore:nuggetIron> : [
+		<immersiveengineering:metal:29>,
+		<thaumcraft:nugget>
 	],
 	
 	#nuggetLead

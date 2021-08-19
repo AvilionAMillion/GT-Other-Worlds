@@ -40,7 +40,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:log",
-              "Count:3": 1,
+              "Count:3": 16,
               "Damage:2": 0,
               "OreDict:8": "logWood"
             }
@@ -69,6 +69,16 @@
               "OreDict:8": ""
             }
           }
+        },
+        "1:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Run a command script",
+          "viaPlayer:1": 0,
+          "index:3": 1,
+          "title:8": "bq_standard.reward.command",
+          "command:8": "/gamestage silentadd @p Beginning"
         }
       }
     },
@@ -85,7 +95,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:flint",
+            "id:8": "minecraft:gravel",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -97,7 +107,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Basic Materialism",
-          "desc:8": "Flint is a key material in early crafting, and one of the first durable ingredients to make tools out of. It can be crafted through 3 gravel as well. Go grab some flint!"
+          "desc:8": "Gravel is a very important material to have in the early game, it often generates near rivers and oceans and there are even some entire beaches of it! Grab that gravel!"
         }
       },
       "tasks:9": {
@@ -110,8 +120,8 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:flint",
-              "Count:3": 4,
+              "id:8": "minecraft:gravel",
+              "Count:3": 16,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -144,7 +154,7 @@
       "questID:3": 2,
       "preRequisites:11": [
         0,
-        1
+        114
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -523,7 +533,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Stone Cutting",
-          "desc:8": "Because of your lack of tools, you don\u0027t have much access to stone yet, luckily you can still get fragments of stone by breaking gravel open with your knife."
+          "desc:8": "Because of your lack of tools, you don\u0027t have much access to stone yet, luckily you can still get fragments of stone by shift right clicking on stone with your knife"
         }
       },
       "tasks:9": {
@@ -635,8 +645,8 @@
           "rewards:9": {
             "0:10": {
               "id:8": "actuallyadditions:item_food",
-              "Count:3": 2,
-              "Damage:2": 5,
+              "Count:3": 1,
+              "Damage:2": 4,
               "OreDict:8": ""
             }
           }
@@ -987,7 +997,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Important Nether Ores",
-          "desc:8": "The nether, while being a dangerous place, has some fairly useful ores. Some of these ores are just more concentrated veins of what you\u0027ve already seen in the overworld, however some of these veins are brand new and are integral for your progression.\n\nThe most important two veins you\u0027ll need to find are a sulfur vein and a nether quartz vein. Sulfur is needed to make your first bits of rubber while nether quartz is a valuable gemstone to have for sharpening tools and making glasses.\n\nDon\u0027t worry about the veins looking like they can have any type of ore in JEI, because they only spawn in the nether they will only be nether ores!"
+          "desc:8": "The nether, while being a dangerous place, has some fairly useful ores. Some of these ores are just more concentrated veins of what you\u0027ve already seen in the overworld, however some of these veins are brand new and are integral for your progression.\n\nThe most important two veins you\u0027ll need to find are a sulfur vein and a nether quartz vein. Sulfur is needed to make your first bits of rubber while nether quartz is a valuable gemstone to have for sharpening tools and making glasses.\n\nDon\u0027t worry about the veins looking like they can have any type of ore in JEI, because they only spawn in the nether they will only be nether ores!\n\n§cMost Nether Ores spawn near the top or throughout the nether, very few spawn down low. Keep this in mind when digging for veins."
         }
       },
       "tasks:9": {
@@ -1149,7 +1159,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Tinkers Afficianado",
           "desc:8": "Combining all of your current tools and gizmos together should allow you to make the 4 tinkers work stations. This pack unifies all of the part builders and stencil tables into one, so no need to worry about having the correct type of wood."
         }
@@ -1251,7 +1261,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Still Pretty Basic Materialism",
           "desc:8": "With your tools it is now very easy to gather a lot of these basic materials, like sand and clay. You\u0027ll need these materials to make better blocks for protection and for primitive technology."
         }
@@ -1303,6 +1313,15 @@
             },
             "1:10": {
               "id:8": "harvestcraft:neapolitanicecreamitem",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "spiceoflife:lunchbag",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -1397,7 +1416,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Tools For Fools",
           "desc:8": "Flint tools are the easiest ones to make as of yet, and the most durable. This quest wants you to get a flint axe, pickaxe, and shovel."
         }
@@ -1488,7 +1507,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Conformity",
           "desc:8": "A brick form is required for brick making, obviously. You\u0027ll need just about every brick you can make with this, so you\u0027ll be using it a lot."
         }
@@ -1558,7 +1577,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Cobblestone",
           "desc:8": "Cobblestone is a great and sturdy building material, as well as an important item in crafting. Get your pickaxe to work now!"
         }
@@ -1636,7 +1655,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Stop! Overdone Pun Time!",
           "desc:8": "Hammers are an important tool in most GregTech crafting, but because you don\u0027t have metals and cannot make a furnace, your first hammer will be made out of cobblestone."
         }
@@ -1715,7 +1734,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "We are Grout!",
           "desc:8": "Grout is a handy compound made of clay, sand, and gravel. You\u0027ll need it specifically for both the Seared Furnace (First proper furnace in the pack) and the Smeltery (First way of obtaining Iron). You\u0027ll end up needing a lot of it, almost 2 stacks for the furnace alone.\n\nTo make grout you need to throw one sand, one gravel, and one clay dust into a body of water and it will consume the water, because of the fact that there is finite water in the pack you need to do this one at a time. Later, once you have the seared furnace, you can make grout more easily and without water, but for now you are limited to this.\n\nTo get unfired seared bricks is easy, however. You just stamp grout through a wooden brick form and you get it out. The wonders of technology!"
         }
@@ -1800,7 +1819,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Miscellaneous Monoculture",
           "desc:8": "There are many varieties of seeds in the world, even disregarding the pam\u0027s ones. The main ones to use early on are Actually Additions crops and Roots crops, as well as some vanilla ones.\n\nOf note is that wildroot is gotten by either breaking tall grass or by cutting regular grass with your knife."
         }
@@ -1931,7 +1950,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Seared Bricks",
           "desc:8": "By burning an unfired seared brick in a fire to can make fired seared bricks! You can also throw in more than one at a time to make multiple."
         }
@@ -1979,7 +1998,8 @@
     "24:10": {
       "questID:3": 24,
       "preRequisites:11": [
-        22
+        22,
+        16
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2004,7 +2024,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Light The Fire Up In The Night",
           "desc:8": "Your first way of starting fire is with a match, fire is a very handy resource for cooking up objects and items, though it may be too fast and hot to make some items, like bricks. But the use of fire will definitely advance your civilization past the stone age."
         }
@@ -2034,12 +2054,8 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
-              "Count:3": 2,
-              "tag:10": {
-                "orig_meta:3": 0,
-                "orig_id:8": "gregtech:compressed_5"
-              },
+              "id:8": "roots:wildroot",
+              "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
             },
@@ -2079,7 +2095,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Glass",
           "desc:8": "Glass is a tricky material to get.\n\nIn order to make glass you have to burn glassy sand, which itself is a compound of glass dust and sand, with glass dust being a compound of sand dust and flint dust. While it\u0027s nothing expensive, it\u0027s quite a process. "
         }
@@ -2210,7 +2226,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Clay Bucket",
           "desc:8": "For fluid collection, we\u0027ll need to start off with clay. It is a very primitive way of transporting fluids and breaks after placing down lava, but it will work for now. You get it by burning an unfired clay bucket into a fire for a few seconds. Don\u0027t worry, you won\u0027t loose the clay bucket."
         }
@@ -2306,7 +2322,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Burn, Baby, Burn!",
           "desc:8": "Combining all of the materials at your disposal you should now be able to make a seared furnace. A proper improvement over firing or drying your items. Unfortunately, getting all the required ingredients wont be easy.\n\nFor the full multiblock you\u0027ll end up needing exactly 60 seared bricks, or just under a stack of bricks. All the seared bricks go into the components you see, 8 seared brick blocks arranged almost like a capped donut (a rough schematic is at the bottom of this text), a seared furnace controller, and a seared tank. You also need lava to power the furnace, and finding that could be an issue in and of itself. If you can\u0027t find lava for the life of you, you can use creosote oil just as well.\n\nThis quest also gives you a free lava florb, which basically acts as a throwable lava source. You can use this to power the furnace as well, but you\u0027re going to need a reliable source of lava at some point.\n\nMinimum Furnace:\n\nTop Layer\n\n(air)       (air)        (air)\n(air) (seared brick) (air)\n(air)       (air)        (air)\n\nMid Layer\n\n(seared brick) (seared brick) (seared brick)\n(seared brick)        (air)       (seared brick)\n(seared brick) (furnace cont.) (seared tank)\n\nBottom Layer\n\n(air)       (air)        (air)\n(air) (seared brick) (air)\n(air)       (air)        (air)"
         }
@@ -2385,7 +2401,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Charcoal Production",
           "desc:8": "Do you love charcoal? Of course you do! That\u0027s why you need to make yourself a coke oven. No seriously make it.\n\nA coke oven provides two essential resources, charcoal and creosote (also coal coke, but you can choose whichever burnable product you want). Charcoal or Coal Coke acts as an effective fuel in boilers, while creosote is required for treated wood and also can be used in later boilers and as a fuel. In total this takes 120 coke clay.\n\nDespite the JEI information saying otherwise, you don\u0027t need a coke oven hatch for it to work, which is why it is not required for this quest."
         }
@@ -2427,9 +2443,9 @@
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "gregtech:meta_item_1",
-              "Count:3": 4,
-              "Damage:2": 8357,
+              "id:8": "minecraft:clay_ball",
+              "Count:3": 64,
+              "Damage:2": 0,
               "OreDict:8": ""
             }
           }
@@ -2575,9 +2591,9 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Dig Dug",
-          "desc:8": "This pack has a fully customized ore generation and world generation system. This means that there is a lot of things you\u0027re going to need to know.\n\nFirstly, caves do not generate. Ravines and other underground structures do generate, but there are no caves in this world. There are also no non-Gregtech ores, and all of those ores generate in large veins underground. These veins are massive and filled with tons of ores depending on the type of vein. Vein information can be found in JEI. (Note that the stone of each ore is interchangeable, basalt cassiterite is the same as granite cassiterite) These large veins generate on a consistent map of veins.\n\nTo find any one of these veins you need to find your coordinate of the chunk you are in (That is, your placement on the minecraft chunk grid, found by opening the F3 menu and looking at the second set of numbers in the Chunk listing, which is two below your XYZ coordinates) and only focus on the first and last values, we do not care about the middle one. Secondly, disregard any negative signs, if both of those values are some sort of multiple of 3 plus 1, there is an ore vein there. \n\nAdditionally, the harvest levels of the minerals are customized. Which means you can\u0027t get some materials before getting a certain tier of pickaxe. This is used to limit progression, luckily all the mining heads needed will be listed off in the questbook, so it should be fine *probably*. The harvest level of a block indicates the first material a pickaxe head can be made out of that mines at that level.\n"
+          "desc:8": "This pack has a fully customized ore generation and world generation system. This means that there is a lot of things you\u0027re going to need to know.\n\nFirstly, caves do not generate. Ravines and other underground structures do generate, but there are no caves in this world. There are also no non-Gregtech ores, and all of those ores generate in large veins underground. These veins are massive and filled with tons of ores depending on the type of vein. Vein information can be found in JEI. (Note that the stone of each ore is interchangeable, basalt cassiterite is the same as granite cassiterite) These large veins generate on a consistent map of veins.\n\nTo find any one of these veins you need to find your coordinate of the chunk you are in (That is, your placement on the minecraft chunk grid, found by opening the F3 menu and looking at the second set of numbers in the Chunk listing, which is two below your XYZ coordinates) and only focus on the first and last values, we do not care about the middle one. Then, if both of those values are some sort of multiple of 3 plus 1, there is an ore vein there. §cThis includes negative signs§f§c, for example a vein would not spawn at 21 -34, but would spawn at 21 -32§f\n\nAdditionally, the harvest levels of the minerals are customized. Which means you can\u0027t get some materials before getting a certain tier of pickaxe. This is used to limit progression, luckily all the mining heads needed will be listed off in the questbook, so it should be fine *probably*. The harvest level of a block indicates the first material a pickaxe head can be made out of that mines at that level.\n"
         }
       },
       "tasks:9": {
@@ -5718,8 +5734,7 @@
     "74:10": {
       "questID:3": 74,
       "preRequisites:11": [
-        60,
-        59
+        42
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5733,7 +5748,7 @@
           "icon:10": {
             "id:8": "gregtech:machine",
             "Count:3": 1,
-            "Damage:2": 811,
+            "Damage:2": 8516,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -5742,8 +5757,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Wooden Tank",
-          "desc:8": "Currently, your only real form of fluid storage is buckets, but after some time those become basically idiotic to handle, so you\u0027re gonna want some tanks. But wait! You may say, \"Didn\u0027t I already get a new fancy tank?\", and yes, you can make an iron tank, but lets say you don\u0027t want such big storage, well then the GT tanks are for you.\n\nYou can only make the wood tank for now, but 4 buckets should be enough storage for your inventory handling.\n\nOh yeah! I should mention why these are good, it\u0027s because they can carry fluids in and out of inventorys in none-full bucket amounts. This makes them useful for fluid crafting without whole number outputs, like with concrete."
+          "name:8": "What\u0027s Cooking Good Looking?",
+          "desc:8": "Alternatively: What\u0027s Baking Good.... yeah ive got nothing\n\nYou\u0027ve been pretty sufficiently fed up to this point probably, Getting food from each and every quest and the likes, well in the future do not expect to be getting hamburgers for making a new tool, you\u0027re going to have to feed yourself at some point, you know. That\u0027s why you need to start baking.\n\nThe Baking Oven from GregTech Food Option is a very early game multiblock that can do a number of operations normal furnaces can\u0027t, like baking bread or bacon or a multitude of other food items, this is your first proper way of making food, enjoy.\n\nThe multiblock uses mainly adobe brick blocks, adobe brick being able to be made in a multitude of different ways. This quest shows the way to make it using the most expensive recipe, just sand, gravel, and clay. If you want to you could use wheat in some fashion but you\u0027re alone on those calculations then"
         }
       },
       "tasks:9": {
@@ -5756,9 +5771,90 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
+              "id:8": "minecraft:sand",
+              "Count:3": 128,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:gravel",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:clay_ball",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:meta_item_2",
+              "Count:3": 1,
+              "Damage:2": 32012,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtechfoodoption:gtfo_meta_item",
+              "Count:3": 160,
+              "Damage:2": 43,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtechfoodoption:gtfo_meta_item",
+              "Count:3": 160,
+              "Damage:2": 44,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "3:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 3,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
               "id:8": "gregtech:machine",
               "Count:3": 1,
-              "Damage:2": 811,
+              "Damage:2": 8516,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtechfoodoption:gtfo_casing",
+              "Count:3": 33,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:frame_iron",
+              "Count:3": 4,
+              "Damage:2": 0,
               "OreDict:8": ""
             }
           },
@@ -5767,19 +5863,33 @@
       },
       "rewards:9": {
         "0:10": {
-          "rewardID:8": "bq_standard:item",
+          "rewardID:8": "bq_standard:choice",
           "index:3": 0,
-          "rewards:9": {
+          "choices:9": {
             "0:10": {
-              "id:8": "gregtech:meta_item_1",
-              "Count:3": 8,
-              "Damage:2": 12196,
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 813,
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "railcraft:tank_iron_valve",
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "gregtech:meta_tool",
               "Count:3": 1,
-              "Damage:2": 0,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "Material:8": "damascus_steel"
+                }
+              },
+              "Damage:2": 12,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 64,
+              "Damage:2": 2403,
               "OreDict:8": ""
             }
           }
@@ -7077,7 +7187,25 @@
           "desc:8": "Wrought Iron can heat up pretty well, but you want to know what\u0027s better? Steel. Make a steel heater, you need them for Steam Multiblocks"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:steelheater",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "89:10": {
@@ -9063,7 +9191,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "The Future Is Now, Old Man",
-          "desc:8": "Your first form of LV power generation, and your gateway to every other LV machine.\n\nMost of the materials for a turbine have been gotten already, all that it really takes now are the three tin rotors, but you already made tin alloy rotors, so I don\u0027t feel the need to explain it again, just the same as previously but with tin.\n\nCongrats on unlocking LV!\n\n§cAlso you cant use a transformer to get LV power, that\u0027s been disabled.\n\n"
+          "desc:8": "Your first form of LV power generation, and your gateway to every other LV machine.\n\nMost of the materials for a turbine have been gotten already, all that it really takes now are the two tin rotors, but you already made tin alloy rotors, so I don\u0027t feel the need to explain it again, just the same as previously but with tin.\n\nCongrats on unlocking LV!\n\n§cAlso you cant use a transformer to get LV power, that\u0027s been disabled.\n\n"
         }
       },
       "tasks:9": {
@@ -9120,8 +9248,15 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
-          "requiredItems:9": {},
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 2242,
+              "OreDict:8": ""
+            }
+          },
           "taskID:8": "bq_standard:retrieval"
         }
       },
@@ -9179,28 +9314,1524 @@
           "command:8": "#Script Comment\nsay @p has completed \"Age 0 - The Steam Age\"!"
         }
       }
+    },
+    "114:10": {
+      "questID:3": 114,
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:flint",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "You Didn\u0027t Think It Would Be That Simple Did You?",
+          "desc:8": "After you\u0027ve been mining gravel for a bit you may say \"Hey! This gravel isn\u0027t dropping any flint!\", keen eye esteemed player, gravel no longer drops flint in this pack! Instead the first way to get flint is to sift through gravel by shift-right clocking it. That will get you flint shards which you can turn into flint, "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:shard",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "flint"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:flint",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:torch",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "harvestcraft:coleslawburgeritem",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "115:10": {
+      "questID:3": 115,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "bibliocraft:bookcase",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Organized For Your Convenience ",
+          "desc:8": "BQ not only allows for quests it also allows for questlines, the questlines in this pack are sorted top down and the general pattern for them goes as follows\n\n1st Tier: Overall Progression, Main Voltage Tiers of GT\n2nd Tier: Non-GT Tech Mods (Mekanism, AE2)\n3rd Tier: Magic Mods (Roots, Thaumcraft)\n4th Tier: Quality of Life Tools (Armor, Weapons)\n5th Tier: Additional Information\n\nIt\u0027s fairly easy to tell when the tiers switch, as well."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "116:10": {
+      "questID:3": 116,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "minecraft:writable_book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "\"Hey You Should Really Read The Questbook\"",
+          "desc:8": "This is just a reminder that you 100% definitely and are incredibly recommended to read the questbook, You should also try to make your own things but most of the time everything gets explained in the Questbook."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bibliocraft:biblioglasses",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "117:10": {
+      "questID:3": 117,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "minecraft:leather_chestplate",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Early Game Protection",
+          "desc:8": "Leather armor is a good armor for the early game. In a stage where iron is hard to come by, leather makes for a good substitute if you get yourself into some trouble. You can also make it out of woven cotten, which may be cheaper depending on what you\u0027ve been growing."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "minecraft:leather_helmet",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "minecraft:leather_chestplate",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "minecraft:leather_leggings",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "minecraft:leather_boots",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:leather",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:flint",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "118:10": {
+      "questID:3": 118,
+      "preRequisites:11": [
+        42,
+        117
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "minecraft:iron_chestplate",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "The Iron Man",
+          "desc:8": "Or Woman, if you prefer\n\nIron armors\u0027 recipes has been changed, now taking iron plates and bended iron plates, which is kind of expensive, either way you should craft yourself some iron armor, more durable and strong than leather so even better for running away."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "minecraft:iron_helmet",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "minecraft:iron_chestplate",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "minecraft:iron_leggings",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "minecraft:iron_boots",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 16,
+              "Damage:2": 10095,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "119:10": {
+      "questID:3": 119,
+      "preRequisites:11": [
+        113
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 470,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Almost Definitely Your First Machine",
+          "desc:8": "Wires are really REALLY annoying to craft, right now we turn 1.5 ingots optimally into only 1 wire! lets turn 1 ingot into 2 wires now, shall we?\n\nThe Wiremill is going to definitely be your first machine, unless you really want to make plates more efficiently, but you probably want to make wires more efficiently instead, anyways, the Wiremill gets you a lot of wires very fast, very handy. Only just takes a lot of motors really (but after this you\u0027ll never worry about motors again)."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 470,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 16,
+              "Damage:2": 10018,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "120:10": {
+      "questID:3": 120,
+      "preRequisites:11": [
+        77
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 13184,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "MOAR STEEL!!!",
+          "desc:8": "Hey remember that Primitive Blast Furnace you made? You should make 3 more of those\n\nMachines can share walls, building these all in a square sort of formation is the cheapest way to make 4 PBFs run"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 3,
+              "Damage:2": 510,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:metal_casing",
+              "Count:3": 52,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 64,
+              "Damage:2": 10184,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_block_compressed_22",
+              "Count:3": 64,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "121:10": {
+      "questID:3": 121,
+      "preRequisites:11": [
+        113
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "betterquesting:placeholder",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Wait. What Machines Should I Make????",
+          "desc:8": "If you\u0027re new to Gregtech you may be intimidated by the large amount of machines you can make, don\u0027t be!\nLV opens up a lot of new machines, unlike ULV, LV has a bunch of machines available to you right out of the gate, some more useful than others. Your main priority starting out will be to get more efficient materials, that is wires, plates, and rods. For those you\u0027ll want a wiremill, bending machine, and lathe respectively. Early on you should also make machines to deprecate your old singleblock steam machines, as they are far less efficient than using LV. It\u0027s also recommended to soon make machines for much cheaper rubber.\nAfter that it\u0027s mostly making machines like assemblers and chemical baths, machines that reduce the amount of resources you\u0027ll be using. Once you start making assemblers and other doo-dads you\u0027re pretty much free to do whatever you want\n\nThere is no goal for this quest, just letting you know kind of what to expect!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 4,
+              "Damage:2": 12184,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "tag:10": {
+                "Charge:4": 32000
+              },
+              "Damage:2": 32511,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:meta_item_2",
+              "Count:3": 2,
+              "Damage:2": 32450,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "122:10": {
+      "questID:3": 122,
+      "preRequisites:11": [
+        113
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 32640,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "LV Piston",
+          "desc:8": "You know what? Pistons are good, let\u0027s make them better\n\nLV Electric Pistons are a very important component for a lot of machines, and can even be used to make pistons very efficiently. Not much else to say here, they\u0027re a useful component. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 32640,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:cable",
+              "Count:3": 4,
+              "Damage:2": 5071,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 32600,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "123:10": {
+      "questID:3": 123,
+      "preRequisites:11": [
+        76
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:toolforge",
+            "Count:3": 1,
+            "tag:10": {
+              "textureBlock:10": {
+                "id:8": "gregtech:meta_block_compressed_11",
+                "Count:1": 1,
+                "Damage:2": 8
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Better Tools You Say?",
+          "desc:8": "With your newfound steel production you can now make a tool forge! It takes a lot of steel though, but it is so worth it to get those better tools.\n\n§cNote: Only one of the tool forges shown in JEI are able to be crafted, the rest aren\u0027t. We don\u0027t know why JEI doesn\u0027t remove them.§c"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:toolforge",
+              "Count:3": 1,
+              "tag:10": {
+                "textureBlock:10": {
+                  "id:8": "gregtech:meta_block_compressed_11",
+                  "Count:1": 1,
+                  "Damage:2": 8
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 1,
+          "choices:9": {
+            "0:10": {
+              "id:8": "tconstruct:hammer_head",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "steel"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "tconstruct:excavator_head",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "steel"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "tconstruct:broad_axe_head",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "steel"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "124:10": {
+      "questID:3": 124,
+      "preRequisites:11": [
+        122
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 120,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Better Plates",
+          "desc:8": "The forge hammer is pretty good, turning three ingots into two plates and all that. But what if we could do better?\n\nThe Basic Bending Machine is a machine that allows for you to turn one plate into one ingot, which will make pretty much every single thing cheaper, after the wiremill this is the second machine you are going to want to make. \n\nThe only odd part about the bending machine is what it needs to make plates (and other bendable materials, I suppose), and that\u0027s the integrated circuit. To get it you just put an LV circuit in a crafting grid, and to configure it you right click it in-world. Every plate takes configuration 1.\n\nEnjoy your new plate maker!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 120,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:fluid_pipe",
+              "Count:3": 8,
+              "Damage:2": 1184,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 8,
+              "Damage:2": 10197,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "125:10": {
+      "questID:3": 125,
+      "preRequisites:11": [
+        122
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 350,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Basic Lathe",
+          "desc:8": "Or as Avi calls it \"Quite possibly the worst machine\"\n\nThe Lathe is able to make rods, however unlike the extruder, which will end up being able to double rod output, the Lathe only does 1.5x output§c*§f It\u0027s not a drastic improvement and is exceedingly slow, but it\u0027s the best you got in LV since the only way to double rods takes an extruder which you can only get in MV.\n\nNonetheless, moving away from the file is a fairly good idea.\n\n§c*If you\u0027re a literal min-maxing god for all technical purposes the output of rods from a lathe ends up asympoting to 2x output. nerd.\n\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 350,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 6,
+              "Damage:2": 14184,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 24,
+              "Damage:2": 14033,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "126:10": {
+      "questID:3": 126,
+      "preRequisites:11": [
+        16
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:grass",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Terraforma",
+          "desc:8": "You have been mocked relentlessly by this cruel, cruel world. It is time to strike back at it and overrule it. You hear legends of a powerful tool, an item that can be used to level deserts and bring Gaia to her knees, although the price is hefty it may be the only thing you can do to prevent becoming victim to the world at large. For when the earth spirits laugh at you for so long it is only a matter of time until you are at their throats."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:gravel",
+              "Count:3": 1024,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:sand",
+              "Count:3": 1024,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:dirt",
+              "Count:3": 1024,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "minecraft:clay_ball",
+              "Count:3": 1024,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {
+                  "AS_Amulet_HolderLeast:4": -4648920116963100068,
+                  "AS_Amulet_HolderMost:4": 3237099140495459049
+                }
+              },
+              "id:8": "tconstruct:shovel",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {
+                  "0:10": {
+                    "lvl:2": 1,
+                    "id:2": 33
+                  }
+                },
+                "StatsOriginal:10": {
+                  "AttackSpeedMultiplier:5": 1.0,
+                  "MiningSpeed:5": 11.0,
+                  "FreeModifiers:3": 3,
+                  "Durability:3": 392,
+                  "HarvestLevel:3": 1,
+                  "Attack:5": 1.0
+                },
+                "display:10": {
+                  "Name:8": "Spiter of Gaia"
+                },
+                "Stats:10": {
+                  "AttackSpeedMultiplier:5": 1.0,
+                  "MiningSpeed:5": 31.211504,
+                  "FreeModifiers:3": 0,
+                  "Durability:3": 392,
+                  "HarvestLevel:3": 1,
+                  "Attack:5": 1.0
+                },
+                "Special:10": {
+                  "Categories:9": {
+                    "0:8": "tool",
+                    "1:8": "aoe",
+                    "2:8": "harvest"
+                  }
+                },
+                "TinkerData:10": {
+                  "UsedModifiers:3": 8,
+                  "Materials:9": {
+                    "0:8": "copper",
+                    "1:8": "tin",
+                    "2:8": "sponge"
+                  },
+                  "Modifiers:9": {
+                    "0:8": "toolleveling",
+                    "1:8": "reinforced",
+                    "2:8": "creative",
+                    "3:8": "haste"
+                  }
+                },
+                "Modifiers:9": {
+                  "0:10": {
+                    "identifier:8": "established",
+                    "color:3": -1204473,
+                    "level:3": 1
+                  },
+                  "1:10": {
+                    "identifier:8": "stonebound",
+                    "color:3": -1447447,
+                    "level:3": 1
+                  },
+                  "2:10": {
+                    "identifier:8": "squeaky",
+                    "color:3": -3486642,
+                    "level:3": 1
+                  },
+                  "3:10": {
+                    "identifier:8": "toolleveling",
+                    "color:3": 16777215,
+                    "level:3": 1
+                  },
+                  "4:10": {
+                    "identifier:8": "reinforced",
+                    "color:3": 5254787,
+                    "level:3": 3
+                  },
+                  "5:10": {
+                    "identifier:8": "creative",
+                    "color:3": 0,
+                    "level:3": 5
+                  },
+                  "6:10": {
+                    "identifier:8": "haste",
+                    "current:3": 250,
+                    "color:3": 9502720,
+                    "level:3": 5,
+                    "max:3": 250,
+                    "extraInfo:8": "249 / 250"
+                  }
+                },
+                "Traits:9": {
+                  "0:8": "established",
+                  "1:8": "stonebound",
+                  "2:8": "squeaky",
+                  "3:8": "toolleveling",
+                  "4:8": "reinforced"
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "127:10": {
+      "questID:3": 127,
+      "preRequisites:11": [
+        74
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "spiceoflife:lunchbox",
+            "Count:3": 1,
+            "tag:10": {
+              "UUID:8": "70102243-88c3-405d-bc9c-6a76093f4d3e",
+              "Inventory:10": {},
+              "Open:1": 0
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Lunch Box",
+          "desc:8": "Able to store more foods than a flimsy lunch bag, get a lunch box!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "spiceoflife:lunchbox",
+              "Count:3": 1,
+              "tag:10": {
+                "UUID:8": "70102243-88c3-405d-bc9c-6a76093f4d3e",
+                "Inventory:10": {},
+                "Open:1": 0
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "harvestcraft:chocolatepuddingitem",
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "128:10": {
+      "questID:3": 128,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "rftools:nightvision_module",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Denizens of the Night",
+          "desc:8": "The mob spawning in GTOW is different than how it is in the vanilla game, Therefore you\u0027re going to want to know the intricacies of the mobs and what the expect during the night time\n\nWhat you should know now is that in this stage you will only encounter zombies, skeletons, and spiders. No creepers, enderman, nothing like that, just those three hostile mobs. However the further you get in the game the harder they become and the more that can spawn.\n\nLuckily the Quest Book has a set of quests in \"Survive the Night\" that documents all of the important progression points for each stage. This quest is telling you about those quests.\n\nIncidentally, you should consider hiding in the ground because by the time you\u0027re reading this it\u0027s probably close to nighttime."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:torch",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "rustic:elixir",
+              "Count:3": 1,
+              "tag:10": {
+                "ElixirEffects:9": {
+                  "0:10": {
+                    "Effect:8": "minecraft:night_vision",
+                    "Duration:3": 3600,
+                    "Amplifier:3": 0
+                  }
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "129:10": {
+      "questID:3": 129,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:crafting_table",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "The Beginning",
+          "desc:8": "There are only three hostile mobs that spawn in the beginning\n\nZombies, Skeletons, and Spiders\nThese spawn normally with no changes to them. Passive mobs also obviously spawn"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "130:10": {
+      "questID:3": 130,
+      "preRequisites:11": [
+        39,
+        129
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "The Steam Age",
+          "desc:8": "Once you complete the quest for the Small Steam Coal Boiler the Steam Age unlocks\n\nThis makes creepers, witches, zombie villagers, and cave spiders spawn.\nThis also makes zombies and skeletons have a chance to spawn with either a stone sword or a wooden axe"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "131:10": {
+      "questID:3": 131,
+      "preRequisites:11": [
+        48
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:stone",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "To Tunnel Between Worlds",
+          "desc:8": "Your tools are good but are not up to mark. They may be great at digging out ores but making larger areas takes far more effort. There are many remedys to this, but you hear of one Snake Oil Salesman who has a tool which can fill your wildest satisfactions. A tool that is unbreakable, and mines in a 3x3 shape, my how magnificent! The cost is steep but the reward will be magnificent, what could be the downside?"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:cobblestone",
+              "Count:3": 8192,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 128,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 128,
+              "Damage:2": 10018,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 128,
+              "Damage:2": 10071,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {
+                  "AS_Amulet_HolderLeast:4": -4648920116963100068,
+                  "AS_Amulet_HolderMost:4": 3237099140495459049
+                }
+              },
+              "id:8": "tconstruct:hammer",
+              "Count:3": 1,
+              "tag:10": {
+                "StatsOriginal:10": {
+                  "AttackSpeedMultiplier:5": 1.0,
+                  "MiningSpeed:5": 3.0,
+                  "FreeModifiers:3": 3,
+                  "Durability:3": 57,
+                  "HarvestLevel:3": 0,
+                  "Attack:5": 2.5
+                },
+                "Unbreakable:1": 1,
+                "display:10": {
+                  "Name:8": "Conman\u0027s Bore"
+                },
+                "Stats:10": {
+                  "AttackSpeedMultiplier:5": 2.0,
+                  "MiningSpeed:5": 28.047188,
+                  "FreeModifiers:3": 0,
+                  "Durability:3": 45,
+                  "HarvestLevel:3": 0,
+                  "Attack:5": 2.5
+                },
+                "Special:10": {
+                  "Categories:9": {
+                    "0:8": "harvest",
+                    "1:8": "weapon",
+                    "2:8": "aoe",
+                    "3:8": "tool"
+                  }
+                },
+                "TinkerData:10": {
+                  "UsedModifiers:3": 10,
+                  "Materials:9": {
+                    "0:8": "tin",
+                    "1:8": "wood",
+                    "2:8": "stone",
+                    "3:8": "stone"
+                  },
+                  "Modifiers:9": {
+                    "0:8": "toolleveling",
+                    "1:8": "creative",
+                    "2:8": "reinforced",
+                    "3:8": "haste"
+                  }
+                },
+                "Modifiers:9": {
+                  "0:10": {
+                    "identifier:8": "ecological",
+                    "color:3": -7444965,
+                    "level:3": 1
+                  },
+                  "1:10": {
+                    "identifier:8": "cheapskate",
+                    "color:3": -6710887,
+                    "level:3": 1
+                  },
+                  "2:10": {
+                    "identifier:8": "toolleveling",
+                    "color:3": 16777215,
+                    "level:3": 1
+                  },
+                  "3:10": {
+                    "identifier:8": "creative",
+                    "color:3": 0,
+                    "level:3": 10
+                  },
+                  "4:10": {
+                    "identifier:8": "reinforced",
+                    "color:3": 5254787,
+                    "level:3": 5
+                  },
+                  "5:10": {
+                    "identifier:8": "haste",
+                    "current:3": 250,
+                    "color:3": 9502720,
+                    "level:3": 5,
+                    "max:3": 250,
+                    "extraInfo:8": "249 / 250"
+                  }
+                },
+                "Traits:9": {
+                  "0:8": "ecological",
+                  "1:8": "cheapskate",
+                  "2:8": "toolleveling",
+                  "3:8": "reinforced"
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
     "0:10": {
       "quests:9": {
         "0:10": {
-          "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 0,
+          "sizeX:3": 48,
+          "x:3": -60,
+          "y:3": 24,
           "id:3": 0,
-          "sizeY:3": 24
+          "sizeY:3": 48
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 48,
+          "x:3": 12,
           "y:3": 0,
           "id:3": 1,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 24,
+          "x:3": 12,
           "y:3": 36,
           "id:3": 2,
           "sizeY:3": 24
@@ -9214,8 +10845,8 @@
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": -48,
+          "x:3": -72,
+          "y:3": -24,
           "id:3": 4,
           "sizeY:3": 24
         },
@@ -9235,14 +10866,14 @@
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 72,
+          "x:3": 12,
+          "y:3": 84,
           "id:3": 7,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 0,
+          "x:3": 12,
           "y:3": 132,
           "id:3": 8,
           "sizeY:3": 24
@@ -9291,7 +10922,7 @@
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 132,
+          "x:3": 108,
           "y:3": 180,
           "id:3": 16,
           "sizeY:3": 24
@@ -9312,7 +10943,7 @@
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": 228,
+          "x:3": 216,
           "y:3": 132,
           "id:3": 19,
           "sizeY:3": 24
@@ -9389,8 +11020,8 @@
         },
         "29:10": {
           "sizeX:3": 24,
-          "x:3": -48,
-          "y:3": 0,
+          "x:3": -108,
+          "y:3": 60,
           "id:3": 30,
           "sizeY:3": 24
         },
@@ -9543,8 +11174,8 @@
         },
         "51:10": {
           "sizeX:3": 24,
-          "x:3": -48,
-          "y:3": -48,
+          "x:3": -108,
+          "y:3": 12,
           "id:3": 52,
           "sizeY:3": 24
         },
@@ -9560,6 +11191,48 @@
           "x:3": 432,
           "y:3": 300,
           "id:3": 56,
+          "sizeY:3": 24
+        },
+        "54:10": {
+          "sizeX:3": 24,
+          "x:3": 444,
+          "y:3": 0,
+          "id:3": 74,
+          "sizeY:3": 24
+        },
+        "55:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": 0,
+          "id:3": 114,
+          "sizeY:3": 24
+        },
+        "56:10": {
+          "sizeX:3": 24,
+          "x:3": -24,
+          "y:3": 96,
+          "id:3": 115,
+          "sizeY:3": 24
+        },
+        "57:10": {
+          "sizeX:3": 24,
+          "x:3": -72,
+          "y:3": 96,
+          "id:3": 116,
+          "sizeY:3": 24
+        },
+        "58:10": {
+          "sizeX:3": 24,
+          "x:3": 492,
+          "y:3": 0,
+          "id:3": 127,
+          "sizeY:3": 24
+        },
+        "59:10": {
+          "sizeX:3": 24,
+          "x:3": -24,
+          "y:3": -24,
+          "id:3": 128,
           "sizeY:3": 24
         }
       },
@@ -9628,7 +11301,7 @@
         "6:10": {
           "sizeX:3": 24,
           "x:3": 276,
-          "y:3": 12,
+          "y:3": 84,
           "id:3": 59,
           "sizeY:3": 24
         },
@@ -9648,15 +11321,15 @@
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 300,
-          "y:3": 72,
+          "x:3": 336,
+          "y:3": 84,
           "id:3": 62,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
           "x:3": 336,
-          "y:3": 72,
+          "y:3": 132,
           "id:3": 63,
           "sizeY:3": 24
         },
@@ -9725,241 +11398,241 @@
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 72,
-          "id:3": 74,
-          "sizeY:3": 24
-        },
-        "21:10": {
-          "sizeX:3": 24,
           "x:3": -12,
           "y:3": 48,
           "id:3": 75,
           "sizeY:3": 24
         },
-        "22:10": {
+        "21:10": {
           "sizeX:3": 48,
           "x:3": 36,
           "y:3": 120,
           "id:3": 76,
           "sizeY:3": 48
         },
-        "23:10": {
+        "22:10": {
           "sizeX:3": 36,
-          "x:3": 180,
-          "y:3": 72,
+          "x:3": 192,
+          "y:3": 78,
           "id:3": 77,
           "sizeY:3": 36
         },
-        "24:10": {
+        "23:10": {
           "sizeX:3": 24,
           "x:3": 120,
           "y:3": 132,
           "id:3": 78,
           "sizeY:3": 24
         },
-        "25:10": {
+        "24:10": {
           "sizeX:3": 24,
           "x:3": 276,
           "y:3": 156,
           "id:3": 79,
           "sizeY:3": 24
         },
-        "26:10": {
+        "25:10": {
           "sizeX:3": 24,
           "x:3": 228,
           "y:3": 132,
           "id:3": 80,
           "sizeY:3": 24
         },
-        "27:10": {
+        "26:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 192,
           "id:3": 82,
           "sizeY:3": 24
         },
-        "28:10": {
+        "27:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 240,
           "id:3": 83,
           "sizeY:3": 24
         },
-        "29:10": {
+        "28:10": {
           "sizeX:3": 24,
           "x:3": 84,
           "y:3": 192,
           "id:3": 84,
           "sizeY:3": 24
         },
-        "30:10": {
+        "29:10": {
           "sizeX:3": 24,
           "x:3": 132,
           "y:3": 240,
           "id:3": 85,
           "sizeY:3": 24
         },
-        "31:10": {
+        "30:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": 120,
           "id:3": 86,
           "sizeY:3": 24
         },
-        "32:10": {
+        "31:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": 168,
           "id:3": 87,
           "sizeY:3": 24
         },
-        "33:10": {
+        "32:10": {
           "sizeX:3": 24,
           "x:3": 120,
           "y:3": 180,
           "id:3": 88,
           "sizeY:3": 24
         },
-        "34:10": {
+        "33:10": {
           "sizeX:3": 24,
           "x:3": 228,
           "y:3": 180,
           "id:3": 89,
           "sizeY:3": 24
         },
-        "35:10": {
+        "34:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 168,
           "id:3": 90,
           "sizeY:3": 24
         },
-        "36:10": {
+        "35:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": 240,
           "id:3": 91,
           "sizeY:3": 24
         },
-        "37:10": {
+        "36:10": {
           "sizeX:3": 24,
           "x:3": -168,
           "y:3": 144,
           "id:3": 92,
           "sizeY:3": 24
         },
-        "38:10": {
+        "37:10": {
           "sizeX:3": 24,
           "x:3": -132,
           "y:3": 168,
           "id:3": 93,
           "sizeY:3": 24
         },
-        "39:10": {
+        "38:10": {
           "sizeX:3": 24,
           "x:3": -132,
           "y:3": 240,
           "id:3": 94,
           "sizeY:3": 24
         },
-        "40:10": {
+        "39:10": {
           "sizeX:3": 24,
           "x:3": -204,
           "y:3": 120,
           "id:3": 95,
           "sizeY:3": 24
         },
-        "41:10": {
+        "40:10": {
           "sizeX:3": 24,
           "x:3": -168,
           "y:3": 240,
           "id:3": 96,
           "sizeY:3": 24
         },
-        "42:10": {
+        "41:10": {
           "sizeX:3": 24,
           "x:3": 372,
           "y:3": 288,
           "id:3": 102,
           "sizeY:3": 24
         },
-        "43:10": {
+        "42:10": {
           "sizeX:3": 24,
           "x:3": 372,
           "y:3": 240,
           "id:3": 103,
           "sizeY:3": 24
         },
-        "44:10": {
+        "43:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": 240,
           "id:3": 104,
           "sizeY:3": 24
         },
-        "45:10": {
+        "44:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": 288,
           "id:3": 105,
           "sizeY:3": 24
         },
-        "46:10": {
+        "45:10": {
           "sizeX:3": 24,
           "x:3": -204,
           "y:3": 288,
           "id:3": 106,
           "sizeY:3": 24
         },
-        "47:10": {
+        "46:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 288,
           "id:3": 107,
           "sizeY:3": 24
         },
-        "48:10": {
+        "47:10": {
           "sizeX:3": 24,
           "x:3": 204,
           "y:3": 288,
           "id:3": 108,
           "sizeY:3": 24
         },
-        "49:10": {
+        "48:10": {
           "sizeX:3": 48,
           "x:3": 192,
           "y:3": 324,
           "id:3": 109,
           "sizeY:3": 48
         },
-        "50:10": {
+        "49:10": {
           "sizeX:3": 48,
           "x:3": 24,
           "y:3": 324,
           "id:3": 110,
           "sizeY:3": 48
         },
-        "51:10": {
+        "50:10": {
           "sizeX:3": 24,
           "x:3": 372,
           "y:3": 336,
           "id:3": 111,
           "sizeY:3": 24
         },
-        "52:10": {
+        "51:10": {
           "sizeX:3": 48,
           "x:3": -144,
           "y:3": 324,
           "id:3": 112,
           "sizeY:3": 48
         },
-        "53:10": {
+        "52:10": {
           "sizeX:3": 72,
           "x:3": 12,
           "y:3": 420,
           "id:3": 113,
           "sizeY:3": 72
+        },
+        "53:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 84,
+          "id:3": 123,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 1,
@@ -9978,7 +11651,7 @@
           "desc:8": "Nikola Tesla got NOTHING on these bad bois"
         }
       },
-      "order:3": 2
+      "order:3": 1
     },
     "2:10": {
       "quests:9": {
@@ -10086,6 +11759,13 @@
           "y:3": 84,
           "id:3": 107,
           "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": 168,
+          "y:3": 84,
+          "id:3": 120,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 2,
@@ -10104,7 +11784,7 @@
           "desc:8": "Only a fool would build such powerful machines, or would they?\n\nThis is your multiblock questline. Filled with the biggest and most powerful machines you can ever make. Most quests here will be in the main line, however."
         }
       },
-      "order:3": 4
+      "order:3": 6
     },
     "3:10": {
       "quests:9": {
@@ -10181,22 +11861,50 @@
           "desc:8": "The beginning of magic! Wholely import to any master of the elements."
         }
       },
-      "order:3": 1
+      "order:3": 3
     },
     "4:10": {
       "quests:9": {
         "0:10": {
-          "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": -48,
-          "id:3": 110,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "sizeX:3": 24,
+          "sizeX:3": 48,
           "x:3": 24,
           "y:3": 24,
           "id:3": 113,
+          "sizeY:3": 48
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": 36,
+          "id:3": 119,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 84,
+          "id:3": 121,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 36,
+          "x:3": -36,
+          "y:3": 120,
+          "id:3": 122,
+          "sizeY:3": 36
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 120,
+          "id:3": 124,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 168,
+          "id:3": 125,
           "sizeY:3": 24
         }
       },
@@ -10213,10 +11921,97 @@
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "We gotta rock down to- Electric Avenue"
+          "desc:8": "We gotta rock down to- Electric Avenue\n\nMachines in this tier use 32 EU/t"
         }
       },
-      "order:3": 3
+      "order:3": 2
+    },
+    "5:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -204,
+          "y:3": -60,
+          "id:3": 117,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": -60,
+          "id:3": 118,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -348,
+          "y:3": -60,
+          "id:3": 129,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -348,
+          "y:3": -12,
+          "id:3": 130,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 5,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Survive The Night",
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "minecraft:diamond_sword",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "This pack has a completely customized system for spawning mobs that causes them to become incredibly difficult in the late game. In this line we learn how to survive the night."
+        }
+      },
+      "order:3": 4
+    },
+    "6:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -264,
+          "y:3": -96,
+          "id:3": 126,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -264,
+          "y:3": -48,
+          "id:3": 131,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 6,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Thrive The Night",
+          "icon:10": {
+            "id:8": "magicbees:resource",
+            "Count:3": 1,
+            "Damage:2": 8,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "We cannot just survive everything thrown our way. We must thrive. We must win.\n\nThis is a special chapter dedicated for \"grind\" quests, quests that take an innumerable amount of resources to finish. These quests often have epic rewards but a hefty price. These are nonessential to completing the pack."
+        }
+      },
+      "order:3": 5
     }
   },
   "questSettings:10": {

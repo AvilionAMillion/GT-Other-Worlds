@@ -35,6 +35,8 @@ val BTank = <gregtech:machine:812>;
 val carpetBlack = <minecraft:carpet:15>;
 val cableTin = <gregtech:cable:5071>;
 val wireCopper = <gregtech:cable:18>;
+val adobeBrick = <gregtechfoodoption:gtfo_meta_item:44>;
+val adobeBricks = <gregtechfoodoption:gtfo_casing>;
 
 // Crafting Table
 	# Small Chest
@@ -73,12 +75,6 @@ val wireCopper = <gregtech:cable:18>;
 		[[Coke_Brick, glass, Coke_Brick],
 		[glass, hardHammer, glass],
 		[Coke_Brick, glass, Coke_Brick]]);
-	# Wooden Tank
-	recipes.remove(<gregtech:machine:811>);
-	recipes.addShaped(<gregtech:machine:811>,
-		[[woodPlank, glass, woodPlank],
-		[glass, null, glass],
-		[woodPlank, glass, woodPlank]]);
 	# Iron Electric Motor Removal
 	recipes.removeShaped(motorLV,
 		[[cableTin, wireCopper, rodIron],
@@ -105,6 +101,16 @@ val wireCopper = <gregtech:cable:18>;
 		.duration(200)
 		.EUt(16)
 		.buildAndRegister();
+	recipes.remove(adobeBricks);
+	recipes.addShaped(adobeBricks * 2,
+		[[adobeBrick, adobeBrick, adobeBrick],
+		[adobeBrick, hardHammer, adobeBrick],
+		[adobeBrick, adobeBrick, adobeBrick]]);
+	recipes.remove(<gregtech:machine:8516>);
+	recipes.addShaped(<gregtech:machine:8516>,
+		[[adobeBricks, adobeBricks, adobeBricks],
+		[adobeBricks, hardHammer, adobeBricks],
+		[adobeBricks, <ore:craftingFurnace>, adobeBricks]]);
 	
 		
 // Fire Crafting

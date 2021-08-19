@@ -9,6 +9,9 @@ import mods.inworldcrafting.FireCrafting;
 import mods.tconstruct.Melting;
 import mods.tconstruct.Fuel;
 import crafttweaker.liquid.ILiquidDefinition;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.item.IItemDefinition;
 
 // Val
 val stoneShard = <tconstruct:shard>.withTag({Material: "stone"});
@@ -91,7 +94,7 @@ val definitionCreosote = <liquid:creosote>.definition;
 	# Grout
 		recipes.remove(grout);
 		recipes.addShapeless(grout * 2,
-			[gravel, sand, clayDust, gregMortar]);
+			[gravel, sand, clayDust, gregMortar, <fluid:water>*1000]);
 
 // Seared Items
 	# Seared Bricks
@@ -147,7 +150,15 @@ val definitionCreosote = <liquid:creosote>.definition;
 			[[searedBricks, pipeBronzeMedium, searedBricks],
 			[searedBrick, hardHammer, searedBrick],
 			[searedBricks, pipeBronzeMedium, searedBricks]]);
-
+// Tool Forge Changes
+	# Removal
+	mods.jei.JEI.removeAndHide(<tconstruct:toolforge>);
+	recipes.addShaped(<tconstruct:toolforge>.withTag({textureBlock: {id: "gregtech:meta_block_compressed_11", Count: 1 as byte, Damage: 8 as short}}),
+		[[screwSteel, searedBricks, screwSteel],
+		[<gregtech:meta_block_compressed_11:8>, <tconstruct:tooltables:3>, <gregtech:meta_block_compressed_11:8>],
+		[<gregtech:meta_block_compressed_11:8>, craftingToolScrewdriver, <gregtech:meta_block_compressed_11:8>]]);
+	mods.jei.JEI.addItem(<tconstruct:toolforge>.withTag({textureBlock: {id: "gregtech:meta_block_compressed_11", Count: 1 as byte, Damage: 8 as short}}));
+	
 // Casts
 	# Plate Cast
 		mods.tconstruct.Casting.removeTableRecipe(<tconstruct:cast_custom:3>);
@@ -174,7 +185,7 @@ val definitionCreosote = <liquid:creosote>.definition;
 		
 // InWorldCrafting
 	# Grout
-		FluidToItem.transform(grout * 4, <fluid:water>, [gravel * 2, sand * 2, clayDust * 2], true);
+		FluidToItem.transform(grout * 2, <fluid:water>, [gravel, sand, clayDust], true);
 		
 // Tinkers Construct Specialized Melting
 	# Wrought Iron
@@ -187,7 +198,7 @@ mods.tconstruct.Melting.addRecipe(<liquid:rubber> * 144, <gregtech:meta_item_1:1
 // Zengetter: Temperature
 val creosoteT = definitionCreosote.temperature;
 // Zensetter: Temperature
-definitionCreosote.temperature = 150;
+definitionCreosote.temperature = 400;
 mods.tconstruct.Fuel.registerFuel(<liquid:creosote> * 1, 100);
 		
 		

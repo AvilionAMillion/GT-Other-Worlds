@@ -1,0 +1,32 @@
+{
+  "weight": 70,
+  "density": 0.3,
+  "max_height": 100,
+  "min_height": 10,
+  "dimension_filter": ["is_nether"],
+
+  "generator": {
+    "type": "ellipsoid",
+    "radius": [13, 16]
+  },
+  "filler": {
+    "type": "simple",
+    "value": {
+      "type": "weight_random",
+      "values": [
+        {
+          "weight": 50,
+          "value": "ore:galena"
+        },
+        {
+          "weight": 25,
+          "value": "ore:silver"
+        },
+		{
+          "weight": 25,
+          "value": "ore:lead"
+        }
+      ]
+    }
+  }
+}

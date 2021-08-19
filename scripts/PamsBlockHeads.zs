@@ -144,6 +144,12 @@ val Prever = <cookingforblockheads:preservation_chamber>;
 		[[hardHammer, <minecraft:bucket>, craftingToolFile],
 		[<ore:plateIron>, reinforcedStone, <ore:plateIron>],
 		[<ore:plateIron>, reinforcedStone, <ore:plateIron>]]);
+	# Lunch Box
+	recipes.remove(<spiceoflife:lunchbox>);
+	recipes.addShaped(<spiceoflife:lunchbox>,
+		[[hardHammer, <ore:ringIron>, craftingToolFile],
+		[plateIron2, <spiceoflife:lunchbag>, plateIron2],
+		[screwIron, plateTin, screwIron]]);
 		
 	recipes.remove(CBookII);
 	assembler.recipeBuilder()

@@ -28,3 +28,7 @@ RegisterMachine.CreateSimpleMachine(4011, "polarizer.ulv", RecipeMaps.POLARIZER_
 RegisterMachine.CreateQuantumTank(1018, "tank.ulv", 0, 32000);
  # LV Small Tank
 RegisterMachine.CreateQuantumTank(1019, "tank.lv", 1, 128000);
+
+// Chests
+RegisterMachine.CreateChest(800, "woodchest", MaterialCasting.toSolid(<material:wood>), 9, 1);
+RegisterMachine.CreateChest(801, "ironchest", MaterialCasting.toSolid(<material:iron>), 9, 4);

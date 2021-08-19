@@ -1,0 +1,44 @@
+{
+    "block_pools": [
+      {
+        "name": "Stone",
+        "type": {
+          "type": "block",
+          "name": "minecraft:stone"
+        },
+        "clicktype": "right",
+        "properties": [
+          {
+            "type": "require_sneak"
+          },
+          {
+            "type": "per_block_limit",
+            "max": 1,
+			"min": 1
+		  },
+		  {
+			"type": "consume_block",
+			"chance": 100.0,
+			"name": "minecraft:cobblestone"
+		  },
+		  {
+			"type": "require_item",
+			"name": "roots:stone_knife"
+		  },
+		  {
+			"type": "damage_item",
+			"amount": 3
+		  }
+        ],
+        "drops": [
+          {
+            "name": "tconstruct:shard",
+            "meta": 0,
+            "nbt": "stoneNBT",
+            "disableJEI": false,
+            "chance": 100
+          }
+        ]
+      }
+    ]
+  }

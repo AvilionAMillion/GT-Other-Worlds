@@ -62,9 +62,8 @@ val ringPaper = <ore:ringPaper>;
 		[steelScrew, craftingToolWrench, steelScrew]]);
 
 // Glassy Sand
-	recipes.addShaped(<contenttweaker:glassy_sand>,
-		[[glassDust, sand],
-		[glassDust, sand]]);
+	recipes.addShapeless(<contenttweaker:glassy_sand>,
+		[glassDust, sand, glassDust, sand]);
 
 
 //////////////////// Engineers Worktable //////////////////

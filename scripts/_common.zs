@@ -24,6 +24,10 @@ global chest as IOreDictEntry = <ore:chestWood>;
 global plateIron as IOreDictEntry = <ore:plateIron>;
 global plateWood as IOreDictEntry = <ore:plateWood>;
 global plateSteel as IOreDictEntry = <ore:plateSteel>;
+global plateTin as IOreDictEntry = <ore:plateTin>;
+
+// Double Plates
+global plateIron2 as IOreDictEntry = <ore:plateDoubleIron>;
 
 // Screws
 global screwIron as IOreDictEntry = <ore:screwIron>;
@@ -53,3 +57,8 @@ global circuitLV as IOreDictEntry = <ore:circuitBasic>;
 
 // Components
 global motorLV as IItemStack = <gregtech:meta_item_1:32600>;
+global pistonLV as IItemStack = <gregtech:meta_item_1:32640>;
+global pumpLV as IItemStack = <gregtech:meta_item_1:32610>;
+
+// Machine Hulls
+global hullLV as IItemStack = <gregtech:machine:501>;

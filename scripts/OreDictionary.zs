@@ -8,6 +8,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.gregtech.recipe.RecipeMaps;
 import mods.gregtech.recipe.RecipeMap;
+import mods.tconstruct.Casting;
 
  # Immersive Engineering Wire Replacement
 <ore:wireCopper>.add(<gregtech:cable:18>);
@@ -67,3 +68,49 @@ for oreDictEntry, items in circuitsDisabled {
 	oreDictEntry.removeItems(items);
 }
 	
+ # Food Changes
+//// Dough
+var gtfoDough = <gregtechfoodoption:gtfo_meta_item:50>;
+var dustWheat = <gregtech:meta_item_1:2345>;
+recipes.replaceAllOccurences(<harvestcraft:doughitem>, <gregtechfoodoption:gtfo_meta_item:50>);
+mods.jei.JEI.removeAndHide(<harvestcraft:doughitem>);
+<ore:impureSalt>.add(<mekanism:salt>);
+<ore:impureSalt>.add(<gregtech:meta_item_1:155>);
+	recipes.remove(gtfoDough);
+	recipes.addShapeless(gtfoDough * 2,
+		[dustWheat, dustWheat, dustWheat, dustWheat, <ore:impureSalt>, <fluid:water>*1000]);
+	recipes.addShapeless(gtfoDough * 4,
+		[dustWheat, dustWheat, dustWheat, dustWheat, <ore:impureSalt>, <gregtech:meta_item_1:403>, <fluid:water>*1000]);
+// Rest of dough recipes for the mixer continued in mixer file
+
+//// Salt Changes
+<mekanism:salt>.displayName = "River Salt";
+<ore:itemSalt>.addAll(<ore:dustSalt>);
+<ore:itemSalt>.remove(<harvestcraft:saltitem>);
+<ore:dustSalt>.removeItems([<mekanism:salt>,<harvestcraft:saltitem>]);
+mods.jei.JEI.removeAndHide(<harvestcraft:saltitem>);
+
+//// Food Oredicts
+// Foods won't be removed, just oredicted
+<ore:cropTomato>.add(<gregtechfoodoption:gtfo_meta_item:76>);
+recipes.replaceAllOccurences(<gregtechfoodoption:gtfo_meta_item:76>, <ore:cropTomato>);
+<ore:cropOnion>.add(<gregtechfoodoption:gtfo_meta_item:77>);
+recipes.replaceAllOccurences(<gregtechfoodoption:gtfo_meta_item:77>, <ore:cropOnion>);
+<ore:cropCucumber>.add(<gregtechfoodoption:gtfo_meta_item:78>);
+recipes.replaceAllOccurences(<gregtechfoodoption:gtfo_meta_item:78>, <ore:cropCucumber>);
+<ore:cropOlive>.add(<gregtechfoodoption:gtfo_meta_item:73>);
+recipes.replaceAllOccurences(<gregtechfoodoption:gtfo_meta_item:73>, <ore:cropOlive>);
+<ore:cropLime>.add(<gregtechfoodoption:gtfo_meta_item:18>);
+recipes.replaceAllOccurences(<gregtechfoodoption:gtfo_meta_item:18>, <ore:cropOlive>);
+<ore:cropLemon>.add(<gregtechfoodoption:gtfo_meta_item:17>);
+recipes.replaceAllOccurences(<gregtechfoodoption:gtfo_meta_item:17>, <ore:cropLemon>);
+
+// Remove Aluminium Smelting
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:meta_item_1:10001>);
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:meta_item_1:9001>);
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:meta_item_1:12001>);
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:meta_item_2:26001>);
+mods.tconstruct.Casting.removeBasinRecipe(<gregtech:meta_block_compressed_0:1>);
+
+
+

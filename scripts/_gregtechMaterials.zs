@@ -44,6 +44,9 @@ materialTitaniumIridium.addFlags(["GENERATE_BOLT_SCREW", "GENERATE_PLATE", "GENE
 	// Compressed Iron
 val materialCompressedIron = MaterialRegistry.createIngotMaterial(478, "iron_compressed", 0x797979, "METALLIC", 6, [<material:iron> * 1]);
 materialCompressedIron.addFlags(["GENERATE_BOLT_SCREW", "GENERATE_PLATE", "GENERATE_GEAR"]);
+	// Mithril
+val materialMithril = MaterialRegistry.createIngotMaterial(479, "mithril", 0x317BEB, "SHINY", 12);
+materialMithril.addFlags(["GENERATE_BOLT_SCREW", "GENERATE_PLATE", "GENERATE_GEAR", "GENERATE_ORE", "GENERATE_PLASMA"]);
 
 # Dust Registry
 val materialBasalz = MaterialRegistry.createDustMaterial(480, "basalz", 0x78707C, "DULL", 3, [<material:obsidian> * 1, <material:redstone> * 1, <material:oil_heavy> * 1]);
