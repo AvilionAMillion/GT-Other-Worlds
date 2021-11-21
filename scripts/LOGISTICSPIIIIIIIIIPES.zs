@@ -391,9 +391,44 @@ val OreSink = <logisticspipes:module_item_sink_oredict>;
 				.EUt(64)
 				.buildAndRegister();		
 	
+val EnchantmentSink = <logisticspipes:module_enchantment_sink>;
+	val RedPlastic = <pneumaticcraft:plastic:1>;
+	val SolidXP = <actuallyadditions:item_solidified_experience>;
+	recipes.remove(EnchantmentSink);		
+			CircAssembler.recipeBuilder()
+				.inputs(
+					FPGA * 4,
+					GoldBolt * 4,
+					ItemSink,
+					RedPlastic,
+					SolidXP * 16
+					)
+				.notConsumable(<logisticspipes:logistics_programmer>.withTag({LogisticsRecipeTarget: "logisticspipes:module_enchantment_sink"})
+				)
+				.fluidInputs([<liquid:soldering_alloy> * 144])
+				.outputs(EnchantmentSink)
+				.duration(300)
+				.EUt(64)
+				.buildAndRegister();	
 	
-	
-	
+val EnchantmentSinkII = <logisticspipes:module_enchantment_sink_mk2>;
+	val EnchantTable = <minecraft:enchanting_table>;
+	recipes.remove(EnchantmentSinkII);		
+			CircAssembler.recipeBuilder()
+				.inputs(
+					AdvancedChip,
+					GoldBolt * 4,
+					EnchantmentSink,
+					RedPlastic,
+					EnchantTable
+					)
+				.notConsumable(<logisticspipes:logistics_programmer>.withTag({LogisticsRecipeTarget: "logisticspipes:module_enchantment_sink_mk2"})
+				)
+				.fluidInputs([<liquid:soldering_alloy> * 144])
+				.outputs(EnchantmentSinkII)
+				.duration(400)
+				.EUt(64)
+				.buildAndRegister();		
 	
 	
 	
