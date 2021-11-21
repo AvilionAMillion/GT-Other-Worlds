@@ -1,0 +1,40 @@
+{
+ "name": "cm3Controller:Applied",
+ "target-item": "appliedenergistics2:controller",
+ "target-count": 1,
+ 
+ "duration": 600,
+ 
+   "catalyst": "gregtech:meta_item_1",
+   "catalyst-meta": 32725,
+ 
+ "input-types": {
+   "a": { "id": "gtadditions:ga_transparent_casing",
+	   	  "meta": 4 },
+   "b": { "id": "appliedenergistics2:quartz_vibrant_glass"},
+   "d": {"id":"chisel:futura",
+	   	  "meta": 4 },
+   "f": {"id":"appliedenergistics2:dense_energy_cell"},
+   "g": {"id":"appliedenergistics2:fluix_block"},
+   "h": {"id": "compactmachines3:wallbreakable"}
+ },
+ 
+ "symmetrical": true,
+ "shape": [
+   [
+     ["a","b","a"],
+     ["b","f","b"],
+     ["a","b","a"]
+   ],
+   [
+     ["h","b","h"],
+     ["b","d","b"],
+     ["h","b","h"]
+   ],
+   [
+     ["g","b","g"],
+     ["b","f","b"],
+     ["g","b","g"]
+   ]
+]
+}
