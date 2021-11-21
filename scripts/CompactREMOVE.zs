@@ -1,0 +1,1 @@
+recipes.remove(<appliedenergistics2:controller>);
