@@ -199,7 +199,7 @@ val ItemSink = <logisticspipes:module_item_sink>;
 				.buildAndRegister();
 				
 val PolyItemSink = <logisticspipes:module_item_sink_polymorphic>;
-				val Observer = <minecraft:observer>;
+	val Observer = <minecraft:observer>;
 	recipes.remove(PolyItemSink);		
 			CircAssembler.recipeBuilder()
 				.inputs(
@@ -255,8 +255,152 @@ val ExtractorII = <logisticspipes:module_extractor_advanced>;
 				.EUt(64)
 				.buildAndRegister();			
 			
+val PassiveProvider = <logisticspipes:module_passive_supplier>;
+	val OmniHopper = <pneumaticcraft:omnidirectional_hopper>;
+	val OrangePlastic = <pneumaticcraft:plastic:14>;
+	recipes.remove(PassiveProvider);		
+			CircAssembler.recipeBuilder()
+				.inputs(
+					FPGA * 4,
+					GoldBolt * 4,
+					ItemSink,
+					OrangePlastic,
+					OmniHopper
+					)
+				.notConsumable(<logisticspipes:logistics_programmer>.withTag({LogisticsRecipeTarget: "logisticspipes:module_passive_supplier"})
+				)
+				.fluidInputs([<liquid:soldering_alloy> * 144])
+				.outputs(PassiveProvider)
+				.duration(200)
+				.EUt(64)
+				.buildAndRegister();					
 			
+val ActiveProvider = <logisticspipes:module_active_supplier>;
+	val AdvancedChip = <logisticspipes:chip_advanced>;
+	val RequestPipe = <logisticspipes:pipe_request>;
+	recipes.remove(ActiveProvider);		
+			CircAssembler.recipeBuilder()
+				.inputs(
+					AdvancedChip * 2,
+					GoldBolt * 8,
+					PassiveProvider,
+					OrangePlastic * 8,
+					RequestPipe
+					)
+				.notConsumable(<logisticspipes:logistics_programmer>.withTag({LogisticsRecipeTarget: "logisticspipes:module_active_supplier"})
+				)
+				.fluidInputs([<liquid:soldering_alloy> * 144])
+				.outputs(ActiveProvider)
+				.duration(600)
+				.EUt(64)
+				.buildAndRegister();
+				
+val Provider = <logisticspipes:module_provider>;
+	recipes.remove(Provider);		
+			CircAssembler.recipeBuilder()
+				.inputs(
+					FPGA * 4,
+					GoldBolt * 4,
+					BlankModule,
+					BluePlastic,
+					Observer * 4
+					)
+				.notConsumable(<logisticspipes:logistics_programmer>.withTag({LogisticsRecipeTarget: "logisticspipes:module_provider"})
+				)
+				.fluidInputs([<liquid:soldering_alloy> * 144])
+				.outputs(Provider)
+				.duration(200)
+				.EUt(64)
+				.buildAndRegister();					
 			
-			
-			
+val QuickSort = <logisticspipes:module_quick_sort>;	
+	val ExtDist = <stevescarts:blockdistributor>;
+	recipes.remove(QuickSort);		
+			CircAssembler.recipeBuilder()
+				.inputs(
+					AdvancedChip * 2,
+					GoldBolt * 12,
+					BlankModule,
+					BluePlastic * 8,
+					ExtDist
+					)
+				.notConsumable(<logisticspipes:logistics_programmer>.withTag({LogisticsRecipeTarget: "logisticspipes:module_quick_sort"})
+				)
+				.fluidInputs([<liquid:soldering_alloy> * 144])
+				.outputs(QuickSort)
+				.duration(400)
+				.EUt(64)
+				.buildAndRegister();			
+	
+val Terminus = <logisticspipes:module_terminus>;	
+	val PurplePlastic = <pneumaticcraft:plastic:5>;
+	val VoidChest = <railcraft:chest_void>;
+	recipes.remove(Terminus);		
+			CircAssembler.recipeBuilder()
+				.inputs(
+					FPGA * 4,
+					GoldBolt * 4,
+					BlankModule,
+					PurplePlastic,
+					VoidChest
+					)
+				.notConsumable(<logisticspipes:logistics_programmer>.withTag({LogisticsRecipeTarget: "logisticspipes:module_terminus"})
+				)
+				.fluidInputs([<liquid:soldering_alloy> * 144])
+				.outputs(Terminus)
+				.duration(100)
+				.EUt(48)
+				.buildAndRegister();			
+	
+val ModSink = <logisticspipes:module_item_sink_mod>;
+	val GlowstonePlate = <gregtech:meta_item_1:12330>;
+	val Bookshelf = <ore:bookshelf>;
+	recipes.remove(ModSink);		
+			CircAssembler.recipeBuilder()
+				.inputs(
+					FPGA,
+					GlowstonePlate,
+					PolyItemSink,
+					LimePlastic,
+					Bookshelf
+					)
+				.notConsumable(<logisticspipes:logistics_programmer>.withTag({LogisticsRecipeTarget: "logisticspipes:module_item_sink_mod"})
+				)
+				.fluidInputs([<liquid:soldering_alloy> * 144])
+				.outputs(ModSink)
+				.duration(200)
+				.EUt(64)
+				.buildAndRegister();			
+	
+val OreSink = <logisticspipes:module_item_sink_oredict>;
+	val MagnetiteOre = <ore:oreMagnetite>;
+	recipes.remove(OreSink);		
+			CircAssembler.recipeBuilder()
+				.inputs(
+					FPGA * 2,
+					MagnetiteOre,
+					PolyItemSink,
+					LimePlastic,
+					Bookshelf
+					)
+				.notConsumable(<logisticspipes:logistics_programmer>.withTag({LogisticsRecipeTarget: "logisticspipes:module_item_sink_oredict"})
+				)
+				.fluidInputs([<liquid:soldering_alloy> * 144])
+				.outputs(OreSink)
+				.duration(200)
+				.EUt(64)
+				.buildAndRegister();		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 			
