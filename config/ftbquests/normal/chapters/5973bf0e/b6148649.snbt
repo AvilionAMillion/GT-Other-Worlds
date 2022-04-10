@@ -1,0 +1,21 @@
+{
+	title: "Light Up The Night",
+	icon: "minecraft:torch",
+	x: 1.5d,
+	y: 11.0d,
+	description: "Finally, Freedom",
+	text: [
+		"If you've gotten to this point you may have had to live through some dark nights, worry no more! The era of dark nights are over!",
+		"Torches are very simple to craft, it is one charcoal flake and one stick for one torch. A simple and worthwhile recipe."
+	],
+	dependencies: [
+		"27e71f7b"
+	],
+	tasks: [{
+		uid: "00660655",
+		type: "item",
+		items: [{
+			item: "minecraft:torch"
+		}]
+	}]
+}

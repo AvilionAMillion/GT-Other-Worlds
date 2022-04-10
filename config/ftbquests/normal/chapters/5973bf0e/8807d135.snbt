@@ -1,0 +1,21 @@
+{
+	title: "The Last Stone Machine!",
+	icon: "pyrotech:stone_crucible",
+	x: 6.0d,
+	y: 8.0d,
+	description: "Melt And Smelt",
+	text: [
+		"You have been missing one stone machine for too long, the stone crucible! This will allow you to melt things using the power of hotness",
+		"It takes a lot of mason bricks and some newly obtainable glass to craft."
+	],
+	dependencies: [
+		"3f73672a"
+	],
+	tasks: [{
+		uid: "66da55a2",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_crucible"
+		}]
+	}]
+}

@@ -1,0 +1,53 @@
+{
+	title: "Charcoal Pit",
+	icon: "pyrotech:log_pile",
+	x: 1.5d,
+	y: 9.5d,
+	description: "Fuel For Life",
+	text: [
+		"The Charcoal Pit is a \"multiblock\" from Pyrotech that will turn log piles into charcoal, among other things.",
+		"It works fairly similarly to the charcoal pit from Forestry, if you've ever used it. All sides have to be surrounded by dirt/grass except for the bottom, which can be stone drains.",
+		"Light one of the top logs and then cover it with dirt or grass again and wait, if you did it right the structure should continue smoking. Once it has stopped smoking you are able to open it again and break the ash, leaving you with charcoal.",
+		"Stone basins at the bottom can collect fluid from the process. Namely wood tar, which can be used later.",
+		"All of the ingredients here will be required for a good multiblock, the wood log count can be increased though."
+	],
+	dependencies: [
+		"e088bfa6",
+		"8d118416"
+	],
+	tasks: [{
+		uid: "b818a06b",
+		type: "item",
+		items: [{
+			item: "pyrotech:log_pile"
+		}]
+	},
+	{
+		uid: "90a5bbb1",
+		type: "item",
+		items: [{
+			item: "pyrotech:tar_collector"
+		}]
+	},
+	{
+		uid: "484ef35d",
+		type: "item",
+		items: [{
+			item: "pyrotech:tar_drain"
+		}]
+	},
+	{
+		uid: "43f9d99a",
+		type: "item",
+		items: [{
+			item: "pyrotech:faucet_stone"
+		}]
+	},
+	{
+		uid: "9a1ce0fc",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1610"
+		}]
+	}]
+}

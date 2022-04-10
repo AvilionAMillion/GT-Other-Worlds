@@ -1,118 +1,85 @@
-// Vanilla
-import crafttweaker.item.IItemStack;
-import crafttweaker.item.IIngredient;
-import mods.inworldcrafting.FireCrafting;
-import crafttweaker.oredict.IOreDict;
-import crafttweaker.oredict.IOreDictEntry;
-
+// GTOW ZS File
+// Made by GTOW Team
+	import mods.artisanworktables.builder.RecipeBuilder;
+	import mods.pyrotech.StoneKiln;
+	import mods.pyrotech.BrickKiln;
+	
 // Val
-val rootsBark = <ore:rootsBark>;
-val vanillaWorkbench = <minecraft:crafting_table>;
-val stone = <minecraft:stone>;
-val wool = <ore:wool>;
-val bed = <minecraft:bed>;
-val oreBed = <ore:bed>;
-var softHammer = <ore:craftingToolSoftHammer>.firstItem.withEmptyTag();
-var chest = <minecraft:chest>;
-var treated_plank = <immersiveengineering:treated_wood>;
-var bronze = <ore:ingotBronze>;
-var bronze_ring = <gregtech:meta_item_1:18095>;
-var bronze_longrod = <gregtech:meta_item_2:19095>;
-var chest_lock = <stevescarts:modulecomponents:33>;
-var ironScrew = <gregtech:meta_item_1:17033>;
-var redAlloyWire = <gregtech:cable:237>;
-val ironRod = <ore:stickIron>;
-var blockIron = <minecraft:iron_block>;
-var curvedIron = <ore:plateCurvedIron>;
-val IronRing = <gregtech:meta_item_1:18033>;
-val MagIronBolt = <gregtech:meta_item_1:16297>;
-val CGold = <gtadditions:ga_meta_item:26>;
-val GPane = <minecraft:glass_pane>;
-val Compass = <minecraft:compass>;
-val Red = <ore:dyeRed>;
-val Kerosene = <forge:bucketfilled>.withTag({FluidName: "kerosene", Amount: 1000});
-val flintShard = <tconstruct:shard>.withTag({Material: "flint"});
-val oreDictFurnace = <ore:craftingFurnace>;
+val builder = RecipeBuilder.get("basic");
 
-// Crafting Table
-	# Crafting Table
-		recipes.remove(vanillaWorkbench);
-		recipes.addShaped(vanillaWorkbench, 
-			[[rootsBark, rootsBark], 
-			[wood, wood]]);
-		recipes.addShaped(vanillaWorkbench,
-			[[treated_plank, treated_plank],
-			[treated_plank, treated_plank]]);
-	# Furnace
-		recipes.remove(<minecraft:furnace>);
-		recipes.addShaped(<minecraft:furnace>,
-			[[ingotSteel, ingotSteel, ingotSteel],
-			[ingotSteel, null, ingotSteel],
-			[ingotSteel, ingotSteel, ingotSteel]]);
-	# Bed
-		recipes.remove(oreBed);
-		recipes.addShaped(bed,
-		[[wool, wool, wool],
-		[plank, plank, plank],
-		[stick, softHammer, stick]]);
-	# Flint
-		recipes.removeShapeless(<minecraft:flint>,
-			[gravel, gravel, gravel]);
-		recipes.addShapeless(<minecraft:flint>,
-			[flintShard, flintShard, flintShard]);
-		
-	# Chest
-		recipes.remove(chest_lock * 8);
-		recipes.addShaped(chest_lock,
-		[[stone,null,null],
-		[<ore:ingotTin>,null,null],
-		[null,null,null]]);
-		
-		recipes.remove(chest);
-		recipes.addShaped(chest,
-		[[treated_plank,treated_plank,treated_plank],
-		[bronze_ring, bronze_longrod, chest_lock],
-		[treated_plank,treated_plank,treated_plank]]);
-	# Piston
-		recipes.remove(<minecraft:piston>);
-		recipes.addShaped(<minecraft:piston>,
-			[[treated_plank, treated_plank, treated_plank],
-			[ironScrew, redAlloyWire, ironScrew],
-			[stone, hardHammer, stone]]);
-	# Iron Bars
-		recipes.remove(<minecraft:iron_bars>);
-		recipes.addShaped(<minecraft:iron_bars> * 2,
-			[[null, craftingToolWrench, null],
-			[ironRod, ironRod, ironRod],
-			[ironRod, ironRod, ironRod]]);
-	# Anvil
-		recipes.remove(<minecraft:anvil>);
-		recipes.addShaped(<minecraft:anvil>,
-			[[blockIron, blockIron, blockIron],
-			[hardHammer, plateIron, craftingToolFile],
-			[curvedIron, plateIron, curvedIron]]);
-	# Glass Pane Removal
-		recipes.remove(<minecraft:glass_pane>);
-		// NEED TO FIX TO REMOVE ALL GLASS PANE RECIPES
-		
-	//Placing recipes after glass pane nuke so they dont get overridden once you fix removal - Nyagi
-		
-		recipes.remove(Compass);
-		recipes.addShaped(Compass,
-			[[null, GPane, Red],
-			[IronRing, MagIronBolt, curvedIron],
-			[curvedIron, Kerosene, null]]);
+// Removal
+recipes.remove(<minecraft:crafting_table>);
+recipes.removeByRecipeName("pyrotech:furnace");
+recipes.removeByRecipeName("gregtech:furnace");
+recipes.removeByRecipeName("pyrotech:chest");
+recipes.removeByRecipeName("gregtech:chest");
+recipes.removeByRecipeName("enderio:tweak_chest_from_wood");
+recipes.remove(<minecraft:chest>);
+recipes.removeShapeless(<minecraft:flint>, [gravel, gravel, gravel]);
+recipes.remove(<minecraft:paper>);
+recipes.remove(<minecraft:torch>);
+StoneKiln.removeRecipes(<minecraft:glass>);
+BrickKiln.removeRecipes(<minecraft:glass>);
 
-// Furnace
-	# Charcoal
-		furnace.remove(<minecraft:coal:1>);
-		furnace.remove(glass);
-		furnace.addRecipe(<minecraft:glass>, <contenttweaker:glassy_sand>);
-		
-// Furnace OreDict
-	recipes.replaceAllOccurences(<minecraft:furnace>, <ore:craftingFurnace>);
-	oreDictFurnace.add(<tconstruct:seared_furnace_controller>);
+// Crafting
+# Torch
+recipes.addShapeless(<minecraft:torch>, 
+	[stick, <pyrotech:material:15>]);
+	
+// Pyrotech Kilns
+ # Glass
+StoneKiln.addRecipe("glass", <minecraft:glass>, <contenttweaker:glassy_sand>, 6000, 0.10, [<gregtech:meta_dust:2023> * 1]);
+BrickKiln.addRecipe("refrac_glass", <minecraft:glass>, <contenttweaker:glassy_sand>, 3000, 0.05, [<gregtech:meta_dust:2023> * 2]);
 
-// Burning
-	FireCrafting.addRecipe(<minecraft:glass>, <contenttweaker:glassy_sand>, 200);
-	FireCrafting.addRecipe(<minecraft:brick>, <gregtech:meta_item_2:32013>, 120);
+// Worktable
+# Flint
+RecipeBuilder.get("basic")
+  .setShapeless([<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>])
+  .addTool(<ore:artisansMortar>, 1)
+  .addOutput(<minecraft:flint>)
+  .create();
+# Ladder
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:stickWood>, <ore:string>, <ore:stickWood>],
+    [<ore:stickWood>, <gregtech:meta_bolt:1617>, <ore:stickWood>],
+    [<ore:stickWood>, <ore:string>, <ore:stickWood>]])
+  .addTool(<ore:artisansHandsaw>, 7)
+  .addOutput(<minecraft:ladder>)
+  .create();
+# Bowl
+RecipeBuilder.get("basic")
+  .setShapeless([<ore:plankWood>])
+  .addTool(<ore:artisansKnife>, 1)
+  .addOutput(<minecraft:bowl>)
+  .create();
+# Chest
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+    [<ore:plankWood>, null, <ore:plankWood>],
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]])
+  .addTool(<ore:artisansHandsaw>, 10)
+  .addOutput(<minecraft:chest>)
+  .create();
+# Cobblestone Slab
+RecipeBuilder.get("basic")
+  .setShapeless([<minecraft:cobblestone>])
+  .addTool(<ore:artisansHandsaw>, 5)
+  .addOutput(<minecraft:stone_slab:3>)
+  .create();
+# Stone Bricks
+RecipeBuilder.get("basic")
+  .setShapeless([<minecraft:stone>])
+  .addTool(<ore:artisansChisel>, 1)
+  .addOutput(<minecraft:stonebrick>)
+  .create();
+# Fence
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:plankWood>, <ore:stickWood>, <ore:plankWood>],
+    [<ore:plankWood>, <ore:stickWood>, <ore:plankWood>],
+    [<ore:plankWood>, <ore:stickWood>, <ore:plankWood>]])
+  .addTool(<ore:artisansHandsaw>, 8)
+  .addOutput(<minecraft:fence>)
+  .create();

@@ -1,0 +1,40 @@
+{
+	title: "Health And Hunger",
+	icon: "twilightforest:charm_of_life_1",
+	x: -1.0d,
+	y: -4.0d,
+	description: "Minecraft Medicare",
+	text: [
+		"You may notice that you have less hearts than usual, that's intended. This pack has spice of life and that means your health can be increased from farming a variety of foods.",
+		"Be warned! Eating too much of the same food in a row may have negative consequences..."
+	],
+	dependencies: [
+		"aa2ea952"
+	],
+	tasks: [{
+		uid: "5e30b77a",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "09342680",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "spiceoflife:lunchbag"
+		}
+	},
+	{
+		uid: "fa0451ef",
+		type: "item",
+		item: "harvestcraft:peanutbutterbananasandwichitem",
+		count: 4
+	},
+	{
+		uid: "1b76bb7c",
+		type: "item",
+		item: "harvestcraft:mangojellysandwichitem",
+		count: 4
+	}]
+}

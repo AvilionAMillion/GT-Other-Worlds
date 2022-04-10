@@ -25,13 +25,24 @@ global plateIron as IOreDictEntry = <ore:plateIron>;
 global plateWood as IOreDictEntry = <ore:plateWood>;
 global plateSteel as IOreDictEntry = <ore:plateSteel>;
 global plateTin as IOreDictEntry = <ore:plateTin>;
+global plateCopper as IOreDictEntry = <ore:plateCopper>;
+global plateBronze as IOreDictEntry = <ore:plateBronze>;
+global plateAluminium as IOreDictEntry = <ore:plateAluminium>;
+global plateStainlessSteel as IOreDictEntry = <ore:plateStainlessSteel>;
+global plateTitanium as IOreDictEntry = <ore:plateTitanium>;
 
 // Double Plates
 global plateIron2 as IOreDictEntry = <ore:plateDoubleIron>;
+global plateSteel2 as IOreDictEntry = <ore:plateDoubleSteel>;
+global plateAluminium2 as IOreDictEntry = <ore:plateDoubleAluminium>;
+global plateStainlessSteel2 as IOreDictEntry = <ore:plateDoubleStainlessSteel>;
+global plateTitanium2 as IOreDictEntry = <ore:plateDoubleTitanium>;
 
 // Screws
 global screwIron as IOreDictEntry = <ore:screwIron>;
 global screwSteel as IOreDictEntry = <ore:screwSteel>;
+global screwTin as IOreDictEntry = <ore:screwTin>;
+global screwBronze as IOreDictEntry = <ore:screwBronze>;
 
 // Rods
 global rodIron as IOreDictEntry = <ore:stickIron>;
@@ -40,25 +51,26 @@ global rodSteel as IOreDictEntry = <ore:stickSteel>;
 // Ingots
 global ingotSteel as IOreDictEntry = <ore:ingotSteel>;
 global ingotIron as IOreDictEntry = <ore:ingotIron>;
+global ingotAluminium as IOreDictEntry = <ore:ingotAluminium>;
 
 // GregTech Tools
-global hardHammer as IItemStack = <gregtech:meta_tool:6>;
-global craftingToolFile as IItemStack = <gregtech:meta_tool:9>;
-global craftingToolScrewdriver as IIngredient = <gregtech:meta_tool:11> | <gregtech:meta_tool:34>;
-global gregMortar as IItemStack = <gregtech:meta_tool:12>;
-global craftingToolKnife as IItemStack = <gregtech:meta_tool:17>;
-global craftingToolWrench as IIngredient = <gregtech:meta_tool:8> | <gregtech:meta_tool:29> | <gregtech:meta_tool:30> | <gregtech:meta_tool:31>; 
-global craftingToolSaw as IIngredient = <gregtech:meta_tool:5> | <gregtech:meta_tool:26> | <gregtech:meta_tool:27> | <gregtech:meta_tool:28>;
-global craftingToolCylinder as IItemStack = <gtadditions:ga_meta_tool>;
+global gtHammer as IItemStack = <gregtech:meta_tool:6>;
+global gtFile as IItemStack = <gregtech:meta_tool:9>;
+global gtScrewdriver as IIngredient = <gregtech:meta_tool:11> | <gregtech:meta_tool:34>;
+global gtMortar as IItemStack = <gregtech:meta_tool:12>;
+global gtKnife as IItemStack = <gregtech:meta_tool:17>;
+global gtWrench as IIngredient = <gregtech:meta_tool:8> | <gregtech:meta_tool:29> | <gregtech:meta_tool:30> | <gregtech:meta_tool:31>; 
+global gtSaw as IIngredient = <gregtech:meta_tool:5> | <gregtech:meta_tool:26> | <gregtech:meta_tool:27> | <gregtech:meta_tool:28>;
+global gtSoftHammer as IItemStack = <gregtech:meta_tool:7>;
 
 // Circuits
 global circuitULV as IOreDictEntry = <ore:circuitPrimitive>;
 global circuitLV as IOreDictEntry = <ore:circuitBasic>;
+global circuitMV as IOreDictEntry = <ore:circuitGood>;
 
 // Components
-global motorLV as IItemStack = <gregtech:meta_item_1:32600>;
-global pistonLV as IItemStack = <gregtech:meta_item_1:32640>;
-global pumpLV as IItemStack = <gregtech:meta_item_1:32610>;
+#LV Components
 
 // Machine Hulls
-global hullLV as IItemStack = <gregtech:machine:501>;
+
+// Wires

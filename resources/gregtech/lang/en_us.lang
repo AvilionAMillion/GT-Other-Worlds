@@ -1,19 +1,5 @@
-material.cobblestone=Stone
-material.titanium_aluminide=Titanium Aluminide
-material.titanium_iridium=Titanium Iridium Alloy
-material.basalz=Basalz
-material.petrotheum=Petrotheum
-material.iron_compressed=Compressed Iron
-material.mithril=Mithril
-
-multiblocktweaker.machine.bloomery.name=Bloomery Controller Block
-recipemap.bloomery.name=Bloomery
-multiblocktweaker.multiblock.bloomery.description=Used to turn Iron into Wrought Iron using some sort of fuel
-
-devtech.machine.steam_turbine.ulv.name=Primitive Steam Turbine
-devtech.machine.tank.ulv.name=Primitive Industrial Tank
-devtech.machine.tank.lv.name=Basic Industrial Tank
-
-devtech.machine.woodchest.name=Medium Wooden Chest
-devtech.machine.ironchest.name=Iron Chest
-
+material.utsuhonium=Utsuhonium
+material.kaenbyonum=Kaenbyonum
+material.okuurinate=Okuurinate
+material.bitumous_coal=Bitumous Coal
+material.anthracite_coal=Anthracite Coal

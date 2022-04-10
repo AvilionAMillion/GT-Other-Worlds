@@ -1,0 +1,20 @@
+{
+	title: "Drying All Your Wares",
+	x: 1.5d,
+	y: 5.0d,
+	description: "Running Out Of Dry Fiber",
+	text: [
+		"With your newfound chopping stump and wooden planks, you should attempt to make a drying rack. It allows you to turn plant fibers into dry plant fibers, which is a more consistent source of twine.",
+		"It also will be necessary for making paper later on"
+	],
+	dependencies: [
+		"ec2a1f58"
+	],
+	tasks: [{
+		uid: "d04fc36a",
+		type: "item",
+		items: [{
+			item: "pyrotech:drying_rack 1 1"
+		}]
+	}]
+}

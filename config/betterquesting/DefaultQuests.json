@@ -809,7 +809,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "roots:bonfire",
+            "id:8": "roots:pyre",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -834,7 +834,7 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "roots:bonfire",
+              "id:8": "roots:pyre",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -863,6 +863,7 @@
               },
               "id:8": "roots:component_pouch",
               "Count:3": 1,
+              "tag:10": {},
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -1095,7 +1096,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Chests?",
-          "desc:8": "No, not quite yet.\n\nAt this current point you do not have the ability to make chests, sorry about that. Luckily for you, completing this quest will give you some chests in case your inventory is filled. All it takes is some wood.\n\nYou can make small storage crates, which only hold one item in them. These are required for both the pattern chest §cdont use regular chests for the pattern chest §0§fand drawers, drawers being the best form of storage you can craft right now."
+          "desc:8": "No, not quite yet.\n\nAt this current point you do not have the ability to make chests, sorry about that. Luckily for you, completing this quest will give you some chests in case your inventory is filled. All it takes is some wood.\n\nYou can make small storage crates, which only hold one item in them. These are required for both the pattern chest §cdont use regular chests for the pattern chest§f, drawers, and medium wood chests. The medium wood chests being the best form of storage early on holding a grand total of nine items in them. It\u0027s something, I guess."
         }
       },
       "tasks:9": {
@@ -2593,7 +2594,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Dig Dug",
-          "desc:8": "This pack has a fully customized ore generation and world generation system. This means that there is a lot of things you\u0027re going to need to know.\n\nFirstly, caves do not generate. Ravines and other underground structures do generate, but there are no caves in this world. There are also no non-Gregtech ores, and all of those ores generate in large veins underground. These veins are massive and filled with tons of ores depending on the type of vein. Vein information can be found in JEI. (Note that the stone of each ore is interchangeable, basalt cassiterite is the same as granite cassiterite) These large veins generate on a consistent map of veins.\n\nTo find any one of these veins you need to find your coordinate of the chunk you are in (That is, your placement on the minecraft chunk grid, found by opening the F3 menu and looking at the second set of numbers in the Chunk listing, which is two below your XYZ coordinates) and only focus on the first and last values, we do not care about the middle one. Then, if both of those values are some sort of multiple of 3 plus 1, there is an ore vein there. §cThis includes negative signs§f§c, for example a vein would not spawn at 21 -34, but would spawn at 21 -32§f\n\nAdditionally, the harvest levels of the minerals are customized. Which means you can\u0027t get some materials before getting a certain tier of pickaxe. This is used to limit progression, luckily all the mining heads needed will be listed off in the questbook, so it should be fine *probably*. The harvest level of a block indicates the first material a pickaxe head can be made out of that mines at that level.\n"
+          "desc:8": "This pack has a fully customized ore generation and world generation system. This means that there is a lot of things you\u0027re going to need to know.\n\nFirstly, caves do not generate. Ravines and other underground structures do generate, but there are no caves in this world. There are also no non-Gregtech ores, and all of those ores generate in large veins underground. These veins are massive and filled with tons of ores depending on the type of vein. Vein information can be found in JEI. (Note that the stone of each ore is interchangeable, basalt cassiterite is the same as granite cassiterite) These large veins generate on a consistent map of veins.\n\nTo find any one of these veins you need to find your coordinate of the chunk you are in (That is, your placement on the minecraft chunk grid, found by opening the F3 menu and looking at the second set of numbers in the Chunk listing, which is two below your XYZ coordinates) and only focus on the first and last values, we do not care about the middle one. Then, if both of those values are some sort of multiple of 3 plus 1, there is an ore vein there. §cThis includes negative signs§f§c, for example a vein would not spawn at 22 -34, but would spawn at 22 -32§f§c. Also note that some parralel planes have no ores in them at all, that is to say some places that should have veins wont in a perfectly perpindicular line, no one knows why this is but it\u0027s fairly rare so make sure to not just dig in straight lines§f.\n\nAdditionally, the harvest levels of the minerals are customized. Which means you can\u0027t get some materials before getting a certain tier of pickaxe. This is used to limit progression, luckily all the mining heads needed will be listed off in the questbook, so it should be fine *probably*. The harvest level of a block indicates the first material a pickaxe head can be made out of that mines at that level.\n"
         }
       },
       "tasks:9": {
@@ -2642,7 +2643,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Copper Collection",
           "desc:8": "With your flint pickaxe you can really only mine a few basic ores, copper being one of them. The main places you will find copper this early on is in Bornite and Tenorite veins. For the chalcopyrite vein you can mine both the copper and chacopyrite ore, while with the bornite vein you can only mine the Chalcolite and Copper ore. Regardless, get some copper"
         }
@@ -2718,7 +2719,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Tin Proficiency ",
           "desc:8": "With your flint pickaxe you can really only mine a few basic ores, tin being one of them. The main places you will find tin this early on is in Cassiterite Sand and Magnetite veins. For the Cassiterite sand vein you can mine everything in it, while with the Magnetite vein you can only mine the tin ore. Of note, the cassiterite sand smelts into tin as well."
         }
@@ -2791,7 +2792,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Smelting Manufacturing",
           "desc:8": "The tinker\u0027s smeltery is the way to get into further metallurgy. Most importantly it can blend together alloys, which is what is required in order to get iron. It can also smelt them out into certain casts.\n\nThis quest shows the resources for the smallest possible smeltery but you are most certainly going to want something a bit bigger. This is just the minimum amount of material required to progress. "
         }
@@ -2963,7 +2964,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Bringin\u0027 Home The Bronze",
           "desc:8": "Bronze is an alloy of 3 copper and 1 tin. You cannot make a dust blend for this alloy, so you have to alloy those two together in the smeltery. This alloy will be the basis for all of your steam machines, and is how to get higher tier metals."
         }
@@ -3406,8 +3407,8 @@
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "minecraft:redstone",
-              "Count:3": 64,
+              "id:8": "harvestcraft:steakandchipsitem",
+              "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -3509,7 +3510,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -4239,26 +4240,7 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "gregtech:meta_item_1",
-              "Count:3": 12,
-              "Damage:2": 10095,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "minecraft:redstone",
-              "Count:3": 12,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
+      "rewards:9": {}
     },
     "55:10": {
       "questID:3": 55,
@@ -4303,7 +4285,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -4374,7 +4356,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "YOU NEED MORE CHARCOAL!!",
-          "desc:8": "Coke Ovens are painfully slow, and while you could just make more of them that\u0027ll produce way more creosote than you can reasonably handle, maybe lets try another way?\n\nForestry Charcoal Pits allow for mass production of charcoal, by making wood piles and encasing them in a solid square and then surrounding that on all of its open sides by some sort of block, you can go and start mass producing charcoal!\n\nFor now you only have access to three types of encasing blocks, Bricks, Coke Oven Bricks, and Seared Bricks. Out of all of these the coke oven bricks produce the best result, being a 1 to 1 ratio. You can see the amount of charcoal you get in JEI (If you minus the amount by 9, that is). Later on you can make ash bricks, and if you\u0027re really dedicated you can make Loam or Blast Furnace Bricks. But these structures should supply you for now.\n\nThe byproduct produced by these is Forestry ash, which unfortunately cannot be changed, so all Forestry ash can be crafted into GT ash, which can be used in recipes.\n\nDespite how amazing these may seem, they can\u0027t be automated, so if you\u0027re sticking with steam you\u0027ll have to retire these at some point.\n\n§cIMPORTANT! This has been mentioned previously but the amount in JEI that you see is NOT the amount rewarded by each block, however it is if you minus 9 from it. These structures can be effectively any sized cube you want. THe quest ONLY asks you make a wood pile. It does not matter what you encase it in."
+          "desc:8": "Coke Ovens are painfully slow, and while you could just make more of them that\u0027ll produce way more creosote than you can reasonably handle, maybe lets try another way?\n\nForestry Charcoal Pits allow for mass production of charcoal, by making wood piles and encasing them in a solid square and then surrounding that on all of its open sides by some sort of block, you can go and start mass producing charcoal!\n\nFor now you only have access to three types of encasing blocks, Bricks, Coke Oven Bricks, and Seared Bricks. Out of all of these the coke oven bricks produce the best result, being a 1 to 1 ratio. You can see the amount of charcoal you get in JEI (If you minus the amount by 9, that is). Later on you can make ash bricks, and if you\u0027re really dedicated you can make Loam or Blast Furnace Bricks. But these structures should supply you for now.\n\nThe byproduct produced by these is Forestry ash, which unfortunately cannot be changed, so all Forestry ash can be crafted into GT ash, which can be used in recipes.\n\nDespite how amazing these may seem, they can\u0027t be automated, so if you\u0027re sticking with steam you\u0027ll have to retire these at some point.\n\n§cIMPORTANT! This has been mentioned previously but the amount in JEI that you see is NOT the amount rewarded by each block, however it is if you minus 9 from it. These structures can be effectively any sized cube you want. THe quest ONLY asks you make a wood pile. It does not matter what you encase it in.\n\n§6§aForestry is a ***** and this feature isn\u0027t working properly. Once it\u0027s fixed this text will be removed."
         }
       },
       "tasks:9": {
@@ -6256,7 +6238,7 @@
           "requiredFluids:9": {
             "0:10": {
               "FluidName:8": "concrete",
-              "Amount:3": 36000
+              "Amount:3": 1000
             }
           },
           "ignoreNBT:1": 0,
@@ -6368,27 +6350,9 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "gregtech:machine",
-              "Count:3": 1,
-              "Damage:2": 710,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "gregtech:machine",
-              "Count:3": 1,
-              "Damage:2": 711,
-              "OreDict:8": ""
-            },
-            "2:10": {
               "id:8": "harvestcraft:thankfuldinneritem",
               "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "3:10": {
-              "id:8": "gregtech:meta_item_1",
-              "Count:3": 32,
-              "Damage:2": 10197,
               "OreDict:8": ""
             }
           }
@@ -8067,6 +8031,7 @@
               },
               "id:8": "roots:staff",
               "Count:3": 1,
+              "tag:10": {},
               "Damage:2": 0,
               "OreDict:8": ""
             },
@@ -8178,7 +8143,6 @@
     "101:10": {
       "questID:3": 101,
       "preRequisites:11": [
-        99,
         100
       ],
       "properties:10": {
@@ -8191,7 +8155,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "roots:fey_crafter",
+            "id:8": "roots:ritual_grove_supplication",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -8208,34 +8172,6 @@
       },
       "tasks:9": {
         "0:10": {
-          "partialMatch:1": 0,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "roots:spell_dust",
-              "Count:3": 1,
-              "tag:10": {
-                "spell_holder:10": {
-                  "spell_0:8": "spell_supplication",
-                  "selectedSlot:3": 0,
-                  "lastCooldown:3": 0,
-                  "cooldown:3": 0
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
@@ -8266,7 +8202,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "gregtech:meta_item_1",
-              "Count:3": 16,
+              "Count:3": 4,
               "Damage:2": 10095,
               "OreDict:8": ""
             },
@@ -9830,12 +9766,6 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "gregtech:meta_item_1",
-              "Count:3": 64,
-              "Damage:2": 10184,
-              "OreDict:8": ""
-            },
-            "1:10": {
               "id:8": "gregtech:meta_block_compressed_22",
               "Count:3": 64,
               "Damage:2": 5,
@@ -10135,12 +10065,6 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "gregtech:fluid_pipe",
-              "Count:3": 8,
-              "Damage:2": 1184,
-              "OreDict:8": ""
-            },
-            "1:10": {
               "id:8": "gregtech:meta_item_1",
               "Count:3": 8,
               "Damage:2": 10197,
@@ -10177,7 +10101,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Basic Lathe",
-          "desc:8": "Or as Avi calls it \"Quite possibly the worst machine\"\n\nThe Lathe is able to make rods, however unlike the extruder, which will end up being able to double rod output, the Lathe only does 1.5x output§c*§f It\u0027s not a drastic improvement and is exceedingly slow, but it\u0027s the best you got in LV since the only way to double rods takes an extruder which you can only get in MV.\n\nNonetheless, moving away from the file is a fairly good idea.\n\n§c*If you\u0027re a literal min-maxing god for all technical purposes the output of rods from a lathe ends up asympoting to 2x output. nerd.\n\n"
+          "desc:8": "Or as Avi calls it \"Quite possibly the worst machine\"\n\nThe Lathe is able to make rods, however unlike the extruder, which will end up being able to double rod output, the Lathe only does 1.5x output§c*§f It\u0027s not a drastic improvement and is exceedingly slow, but it\u0027s the best you got in LV since the only way to double rods takes an extruder which you can only get in MV.\n\nNonetheless, moving away from the file is a fairly good idea. Plus, this also increases your screw output, so that\u0027s a plus.\n\n§c*If you\u0027re a literal min-maxing god for all technical purposes the output of rods from a lathe ends up asympoting to 2x output. nerd.\n\n"
         }
       },
       "tasks:9": {
@@ -10208,12 +10132,6 @@
               "id:8": "gregtech:meta_item_1",
               "Count:3": 6,
               "Damage:2": 14184,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "gregtech:meta_item_1",
-              "Count:3": 24,
-              "Damage:2": 14033,
               "OreDict:8": ""
             }
           }
@@ -10810,6 +10728,638 @@
           }
         }
       }
+    },
+    "132:10": {
+      "questID:3": 132,
+      "preRequisites:11": [
+        12
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 800,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Medium Wooden Chests",
+          "desc:8": "Stores 9 total items, they\u0027re trash but they are something."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 800,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 4,
+              "Damage:2": 808,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:log",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "133:10": {
+      "questID:3": 133,
+      "preRequisites:11": [
+        113
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 32610,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "LV Electric Pump",
+          "desc:8": "The LV Electric Pump is both a component for machines and works as a cover, for a short explanation, covers act as things you can put on the side of GT machines/pipes and allows them to do something special, from item I/O access to filtering. LV Electric Pumps pump fluids into or out of machines/pipes when used as a cover.\n\n§aCheck in \"Rage Against The Machine\" for more quests"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 32610,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 12,
+              "Damage:2": 12152,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:cable",
+              "Count:3": 4,
+              "Damage:2": 5071,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "134:10": {
+      "questID:3": 134,
+      "preRequisites:11": [
+        133
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 320,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Basic Fluid Solidifier",
+          "desc:8": "The LV fluid solidifer allows you to solidify fluids into a certain shape, pretty self explanatory\n\nTo make any recipes with the fluid solidifier you need a mold, in LV you will likely only be using the plate mold, but in later tiers you may or may not need other ones (It\u0027s also recommended to make an ingot mold). When using fluids keep in mind that GT tanks can store fluids not in increments of 1000. So it\u0027s recommended to use tanks when transporting fluids to this."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 320,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 816,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "135:10": {
+      "questID:3": 135,
+      "preRequisites:11": [
+        113
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 190,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Basic Chemical Reactor",
+          "desc:8": "Let\u0027s get chemical!\n\nThe LV Chemical Reactor is a machine that allows you to do chemical reactions, makes sense right? In LV you won\u0027t be using this a lot (especially compared to later tiers), but you will want to use it to make really good rubber. Seriously you want this."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 190,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 63,
+              "Damage:2": 2153,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 7,
+              "Damage:2": 2065,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "136:10": {
+      "questID:3": 136,
+      "preRequisites:11": [
+        133,
+        81
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "mekanism:basicblock",
+            "Count:3": 1,
+            "Damage:2": 11,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "MOAR STORAGE!!!!!!!!!!!!!!!!!!!",
+          "desc:8": "We can go further than Steel Tanks, Steel Tanks are for fools, we need more and more and more. We need Dynamic Tanks.\n\nMekanisms Dynamic Tanks store 2x as much storage per block as an RC steel tank of the same size, these things are ludicrous and are not much more expensive than the RC Steel Tanks.\n\nAs with all the other quests about liquid storage, this also is for a 3x4x3 hollow tank, but you can go bigger, way bigger than with any RC tank, these will probably be the multiblock tanks you use for the rest of the game. You also don\u0027t need to make the structural glass for it to form, but where\u0027s the fun in that\n\n§aYou can also make them more efficiently using other materials, like Stainless Steel and Titanium, check JEI."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:basicblock",
+              "Count:3": 30,
+              "Damage:2": 9,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "mekanism:basicblock",
+              "Count:3": 2,
+              "Damage:2": 10,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "mekanism:basicblock",
+              "Count:3": 2,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 32,
+              "Damage:2": 10184,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "thermaldynamics:duct_16",
+              "Count:3": 16,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "137:10": {
+      "questID:3": 137,
+      "preRequisites:11": [
+        133
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "mekanism:basicblock",
+            "Count:3": 1,
+            "Damage:2": 14,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Thermal Evaporation Tower",
+          "desc:8": "The Thermal Evaporation Tower is a massive multiblock from mekanism that allows for the turning of fluids into other fluids, namely it allows you to get salt water for nothing but water, and thus salt, or maybe more importantly, Sodium Hydroxide. It\u0027s not cheap though, but let\u0027s see how to make it.\n\nThe Thermal Evaporation Tower is a 4x4 structure at it\u0027s base with a max height of 17 blocks, but a min height of 3. What this means is that the base is a solid 4x4 of thermal evaporation blocks, and each layer above it follows that with a hollowed out middle. Also the controller block and valves must be on layer 2 at the minimum §cTHEY CANNOT BE ON LAYER ONE! §fThe requirements here show the minimum number of blocks for a thermal evaporation tower. that being a 4x4x3. \n\nAlso of note is that at the max height of 17 blocks you can do something special with it, but only once you get to HV (plus it\u0027s so expensive to get to there at this point you\u0027re better off sticking to 3-5 blocks tall). Either way, the multiblock works when it has direct access to sunlight, in which the heat will build up in the plant, you can then put in a liquid through one valve and output it the other, more hot it is the better it runs.\n\nThat\u0027s about it for this multiblock, now you will be swimming in salt!\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:basicblock",
+              "Count:3": 1,
+              "Damage:2": 14,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "mekanism:basicblock",
+              "Count:3": 2,
+              "Damage:2": 15,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "mekanism:basicblock2",
+              "Count:3": 37,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "mekanism:basicblock",
+              "Count:3": 16,
+              "Damage:2": 9,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "thermalexpansion:device",
+              "Count:3": 1,
+              "tag:10": {
+                "RSControl:1": 0,
+                "Facing:1": 3,
+                "Energy:3": 0,
+                "SideCache:7": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:meta_item_2",
+              "Count:3": 4,
+              "Damage:2": 32487,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "138:10": {
+      "questID:3": 138,
+      "preRequisites:11": [
+        133
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thermalexpansion:device",
+            "Count:3": 1,
+            "tag:10": {
+              "RSControl:1": 0,
+              "Facing:1": 4,
+              "Creative:1": 0,
+              "Level:1": 0,
+              "SideCache:7": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Way Better Water",
+          "desc:8": "The Water Tank is really, really bad. Let\u0027s get something way better\n\nThe Aqeuous Accumulator from Thermal Foundation collects water around it at the cost of... nothing. It\u0027s completely free water, good for pretty much anything. It even auto-outputs into GT pipes if you still want to use those."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "thermalexpansion:device",
+              "Count:3": 1,
+              "tag:10": {
+                "RSControl:1": 0,
+                "Facing:1": 4,
+                "Creative:1": 0,
+                "Level:1": 0,
+                "SideCache:7": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:bucket",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "139:10": {
+      "questID:3": 139,
+      "preRequisites:11": [
+        97,
+        22
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "harvestcraft:windygarden",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Green Thumb",
+          "desc:8": "Are you an astute observer? Of course you are! You may have taken notice that there are no Pam\u0027s Harvestcraft gardens in the world you reside in. Well that just won\u0027t do, will it. You want all those crops for every food item under the sun, and for that you have to make them in a alchemic condensor.\n\nInfusing a seed found regularly in the world with magical root seems to be able to get you one of these gardens. They can also grow naturally, and their spread rate has been boosted up dramatically in this pack, so you aren\u0027t forced to make more and more gardens.\n\nGet all of the Pam\u0027s gardens, and then we can start talking!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "harvestcraft:aridgarden",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "harvestcraft:frostgarden",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "harvestcraft:shadedgarden",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "harvestcraft:soggygarden",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "harvestcraft:tropicalgarden",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "harvestcraft:windygarden",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -10825,7 +11375,7 @@
         "1:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": 0,
+          "y:3": -12,
           "id:3": 1,
           "sizeY:3": 24
         },
@@ -10965,7 +11515,7 @@
         "21:10": {
           "sizeX:3": 24,
           "x:3": 180,
-          "y:3": 0,
+          "y:3": 36,
           "id:3": 22,
           "sizeY:3": 24
         },
@@ -11203,7 +11753,7 @@
         "55:10": {
           "sizeX:3": 24,
           "x:3": 60,
-          "y:3": 0,
+          "y:3": -12,
           "id:3": 114,
           "sizeY:3": 24
         },
@@ -11233,6 +11783,13 @@
           "x:3": -24,
           "y:3": -24,
           "id:3": 128,
+          "sizeY:3": 24
+        },
+        "60:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": -12,
+          "id:3": 132,
           "sizeY:3": 24
         }
       },
@@ -11664,14 +12221,14 @@
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 72,
+          "x:3": 48,
           "y:3": 0,
           "id:3": 28,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 108,
+          "x:3": 84,
           "y:3": 0,
           "id:3": 29,
           "sizeY:3": 24
@@ -11685,28 +12242,28 @@
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 156,
+          "x:3": 132,
           "y:3": 0,
           "id:3": 47,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 72,
+          "x:3": 48,
           "y:3": 36,
           "id:3": 56,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 204,
+          "x:3": 180,
           "y:3": 0,
           "id:3": 65,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 204,
+          "x:3": 180,
           "y:3": 36,
           "id:3": 68,
           "sizeY:3": 24
@@ -11720,14 +12277,14 @@
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 252,
+          "x:3": 228,
           "y:3": 0,
           "id:3": 75,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 120,
+          "x:3": 84,
           "y:3": 84,
           "id:3": 77,
           "sizeY:3": 24
@@ -11741,7 +12298,7 @@
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 252,
+          "x:3": 228,
           "y:3": 36,
           "id:3": 81,
           "sizeY:3": 24
@@ -11755,16 +12312,30 @@
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 48,
+          "x:3": 36,
           "y:3": 84,
           "id:3": 107,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 168,
+          "x:3": 120,
           "y:3": 84,
           "id:3": 120,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": 228,
+          "y:3": 72,
+          "id:3": 136,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": 276,
+          "y:3": 72,
+          "id:3": 137,
           "sizeY:3": 24
         }
       },
@@ -11784,7 +12355,7 @@
           "desc:8": "Only a fool would build such powerful machines, or would they?\n\nThis is your multiblock questline. Filled with the biggest and most powerful machines you can ever make. Most quests here will be in the main line, however."
         }
       },
-      "order:3": 6
+      "order:3": 5
     },
     "3:10": {
       "quests:9": {
@@ -11832,16 +12403,23 @@
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 36,
+          "x:3": -12,
           "y:3": 60,
           "id:3": 101,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 36,
+          "x:3": -12,
           "y:3": 108,
           "id:3": 102,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": 12,
+          "id:3": 139,
           "sizeY:3": 24
         }
       },
@@ -11888,23 +12466,51 @@
         },
         "3:10": {
           "sizeX:3": 36,
-          "x:3": -36,
+          "x:3": -60,
           "y:3": 120,
           "id:3": 122,
           "sizeY:3": 36
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": 120,
+          "x:3": -96,
+          "y:3": 108,
           "id:3": 124,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": 168,
+          "x:3": -96,
+          "y:3": 144,
           "id:3": 125,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 36,
+          "x:3": 120,
+          "y:3": 120,
+          "id:3": 133,
+          "sizeY:3": 36
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": 168,
+          "y:3": 108,
+          "id:3": 134,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": 192,
+          "y:3": 36,
+          "id:3": 135,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": 132,
+          "y:3": 84,
+          "id:3": 138,
           "sizeY:3": 24
         }
       },
@@ -11977,41 +12583,6 @@
         }
       },
       "order:3": 4
-    },
-    "6:10": {
-      "quests:9": {
-        "0:10": {
-          "sizeX:3": 24,
-          "x:3": -264,
-          "y:3": -96,
-          "id:3": 126,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "sizeX:3": 24,
-          "x:3": -264,
-          "y:3": -48,
-          "id:3": 131,
-          "sizeY:3": 24
-        }
-      },
-      "lineID:3": 6,
-      "properties:10": {
-        "betterquesting:10": {
-          "visibility:8": "NORMAL",
-          "name:8": "Thrive The Night",
-          "icon:10": {
-            "id:8": "magicbees:resource",
-            "Count:3": 1,
-            "Damage:2": 8,
-            "OreDict:8": ""
-          },
-          "bg_image:8": "",
-          "bg_size:3": 256,
-          "desc:8": "We cannot just survive everything thrown our way. We must thrive. We must win.\n\nThis is a special chapter dedicated for \"grind\" quests, quests that take an innumerable amount of resources to finish. These quests often have epic rewards but a hefty price. These are nonessential to completing the pack."
-        }
-      },
-      "order:3": 5
     }
   },
   "questSettings:10": {

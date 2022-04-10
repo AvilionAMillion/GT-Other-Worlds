@@ -1,0 +1,98 @@
+{
+	title: "For Larger Sized Logs",
+	x: -1.5d,
+	y: 2.0d,
+	description: "Yes, You'll Need Two Hatchets",
+	text: [
+		"The Artisan's Flint Hatchet is only good at crafting, for chopping down actual trees it's rather bad. Make a flint hatchet that is far better at doing that.",
+		"It has a small durability, so to repair it you can make Flint Sharpening Kits"
+	],
+	dependencies: [
+		"8cc4a247"
+	],
+	tasks: [{
+		uid: "6f2e7ebe",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:hatchet",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 190,
+					HarvestLevel: 1,
+					Attack: 3.4f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 45,
+					HarvestLevel: 1,
+					Attack: 3.4f
+				},
+				Special: {
+					Categories: [
+						"harvest",
+						"aoe",
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"flint",
+						"wood"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965L,
+					level: 1
+				},
+				{
+					identifier: "crude",
+					color: -9868951L,
+					level: 2,
+					crude2: 1b
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"ecological",
+					"crude2",
+					"toolleveling"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3fc5e299",
+		type: "item",
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "flint"
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "db418795",
+		type: "item",
+		item: "harvestcraft:generaltsochickenitem"
+	}]
+}

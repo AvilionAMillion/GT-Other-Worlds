@@ -1,0 +1,23 @@
+{
+	title: "Materialism",
+	x: -1.5d,
+	y: 0.5d,
+	description: "Tools must be made out of something",
+	text: [
+		"Your first tools will not be wood or stone, they must be flint. Flint will not naturally drop from gravel, you have to shift right click it for flint shards."
+	],
+	dependencies: [
+		"93698e65"
+	],
+	tasks: [{
+		uid: "bf9a0c2e",
+		type: "item",
+		items: [{
+			id: "tconstruct:shard",
+			tag: {
+				Material: "flint"
+			}
+		}],
+		count: 4L
+	}]
+}

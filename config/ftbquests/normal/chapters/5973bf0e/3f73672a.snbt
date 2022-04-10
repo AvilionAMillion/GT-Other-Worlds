@@ -1,0 +1,21 @@
+{
+	title: "Heart of Glass",
+	icon: "minecraft:glass",
+	x: 6.0d,
+	y: 6.5d,
+	description: "It's A Pain In The Ass",
+	text: [
+		"Your next goal is to get glass, which is a somewhat investive endeavor.",
+		"In order to make glass you must smelt glassy sand in a kiln (not pit). Glassy sand is made with two glass dust and two sand. The Glass dust is made with quartz sand (ground up sand) and small piles of flint."
+	],
+	dependencies: [
+		"c4ded503"
+	],
+	tasks: [{
+		uid: "8c12f9c8",
+		type: "item",
+		items: [{
+			item: "minecraft:glass"
+		}]
+	}]
+}

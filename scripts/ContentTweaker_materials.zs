@@ -14,6 +14,9 @@ unfiredSearedBrick.register();
  # Sandy-Clay Compound
 var dustSandyClay as Item = VanillaFactory.createItem("sandyClay");
 dustSandyClay.register();
+ # Wet Chad
+var dustWetChad as Item = VanillaFactory.createItem("wetChad");
+dustWetChad.register();
  # Wrought Iron Heating Component
 var wroughtIron_Heater as Item = VanillaFactory.createItem("wroughtIronHeater");
 wroughtIron_Heater.register();

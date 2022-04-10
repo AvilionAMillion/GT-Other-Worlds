@@ -1,0 +1,49 @@
+{
+	title: "Gregtech Mortar",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "gregtech:meta_tool",
+		tag: {
+			GT.ToolStats: {
+				MaxDurability: 80,
+				DigSpeed: 6.0f,
+				AttackDamage: 2.0f,
+				Material: "flint",
+				HarvestLevel: 1
+			}
+		},
+		Damage: 12s
+	},
+	x: 6.0d,
+	y: 5.0d,
+	description: "Wait, We Only Get to Gregtech *Now*?",
+	text: [
+		"The Gregtech Mortar is basically just a better version of the artisan's mortar. It can make chad, sugar, and clay dust as well as making flint for only one gravel instead of three. "
+	],
+	dependencies: [
+		"2d540a25"
+	],
+	tasks: [{
+		uid: "d9053d0b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					MaxDurability: 80,
+					DigSpeed: 6.0f,
+					AttackDamage: 2.0f,
+					Material: "flint",
+					HarvestLevel: 1
+				}
+			},
+			Damage: 12s
+		}],
+		ignore_nbt: 1b
+	}]
+}

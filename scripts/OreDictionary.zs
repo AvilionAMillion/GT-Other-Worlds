@@ -1,4 +1,4 @@
-# priority 95
+# priority 110
 
 // This is for more general OreDict unification
 import crafttweaker.oredict.IOreDict;
@@ -11,76 +11,73 @@ import mods.gregtech.recipe.RecipeMap;
 import mods.tconstruct.Casting;
 
  # Immersive Engineering Wire Replacement
-<ore:wireCopper>.add(<gregtech:cable:18>);
-mods.jei.JEI.removeAndHide(<immersiveengineering:material:20>);
-<ore:wireCopper>.remove(<immersiveengineering:material:20>);
-recipes.replaceAllOccurences(<immersiveengineering:material:22>, <gregtech:cable:1>);
-mods.jei.JEI.removeAndHide(<immersiveengineering:material:22>);
-recipes.replaceAllOccurences(<immersiveengineering:material:23>, <gregtech:cable:184>);
-mods.jei.JEI.removeAndHide(<immersiveengineering:material:23>);
+#<ore:wireCopper>.add(<gregtech:cable:18>);
+#mods.jei.JEI.removeAndHide(<immersiveengineering:material:20>);
+#<ore:wireCopper>.remove(<immersiveengineering:material:20>);
+#recipes.replaceAllOccurences(<immersiveengineering:material:22>, <gregtech:cable:1>);
+#mods.jei.JEI.removeAndHide(<immersiveengineering:material:22>);
+#recipes.replaceAllOccurences(<immersiveengineering:material:23>, <gregtech:cable:184>);
+#mods.jei.JEI.removeAndHide(<immersiveengineering:material:23>);
 
  # Rubber Changes
-recipes.replaceAllOccurences(<industrialforegoing:plastic>, <gregtech:meta_item_1:12141>);
+recipes.replaceAllOccurences(<industrialforegoing:plastic>, <gregtech:meta_plate:1012>);
 
 // Disabled Circuits
  # Circuit Replace
 recipes.replaceAllOccurences(<immersiveengineering:material:27>, <ore:circuitBasic>);
 mods.jei.JEI.removeAndHide(<immersiveengineering:material:27>);
-recipes.replaceAllOccurences(<immersiveengineering:material:26>, <gregtech:meta_item_2:32450>);
+recipes.replaceAllOccurences(<immersiveengineering:material:26>, <gregtech:meta_item_1:516>);
 mods.jei.JEI.removeAndHide(<immersiveengineering:material:26>);
 
 
-print("Start Circuit Removal");
+#print("Start Circuit Removal");
 // This neutralizes the circuits and stops them in oredict
-var circuitsDisabled as IItemStack[][IOreDictEntry] = {
-	
+#var circuitsDisabled as IItemStack[][IOreDictEntry] = {	
 	#circuitBasic
-	<ore:circuitBasic> : [
-		<gregtech:meta_item_2:32507>,
-		<mekanism:controlcircuit>
-	],
-	
+	#<ore:circuitBasic> : [
+	#	<gregtech:meta_item_2:32507>,
+	#	<mekanism:controlcircuit>
+	#],	
 	#circuitGood
-	<ore:circuitGood> : [
-		<gregtech:meta_item_2:32489>,
-		<gregtech:meta_item_2:32490>
-	],
-	
+	#<ore:circuitGood> : [
+	#	<gregtech:meta_item_2:32489>,
+	#	<gregtech:meta_item_2:32490>
+	#],	
 	#circuitAdvanced
-	<ore:circuitAdvanced> : [
-		<mekanism:controlcircuit:1>
-	],
-	
+	#<ore:circuitAdvanced> : [
+	#	<mekanism:controlcircuit:1>
+	#],	
 	#circuitElite
-	<ore:circuitElite> : [
-		<mekanism:controlcircuit:2>,
-		<gregtech:meta_item_2:32495>,
-		<gregtech:meta_item_2:32496>
-	],
-	
+	#<ore:circuitElite> : [
+	#	<mekanism:controlcircuit:2>,
+	#	<gregtech:meta_item_2:32495>,
+	#	<gregtech:meta_item_2:32496>
+	#],	
 	#circuitUltimate
-	<ore:circuitUltimate> : [
-		<mekanism:controlcircuit:3>
-	]
-};
-
-for oreDictEntry, items in circuitsDisabled {
-	oreDictEntry.removeItems(items);
-}
+	#<ore:circuitUltimate> : [
+	#	<mekanism:controlcircuit:3>
+	#]
+#};
+#for oreDictEntry, items in circuitsDisabled {
+#	oreDictEntry.removeItems(items);
+#}
 	
+ # String to Twine Changes
+<ore:string>.add(<pyrotech:material:14>);
+
  # Food Changes
 //// Dough
 var gtfoDough = <gregtechfoodoption:gtfo_meta_item:50>;
-var dustWheat = <gregtech:meta_item_1:2345>;
+var dustWheat = <gregtech:meta_dust:1615>;
 recipes.replaceAllOccurences(<harvestcraft:doughitem>, <gregtechfoodoption:gtfo_meta_item:50>);
 mods.jei.JEI.removeAndHide(<harvestcraft:doughitem>);
 <ore:impureSalt>.add(<mekanism:salt>);
-<ore:impureSalt>.add(<gregtech:meta_item_1:155>);
+<ore:impureSalt>.add(<gregtech:meta_dust_tiny:312>);
 	recipes.remove(gtfoDough);
 	recipes.addShapeless(gtfoDough * 2,
 		[dustWheat, dustWheat, dustWheat, dustWheat, <ore:impureSalt>, <fluid:water>*1000]);
 	recipes.addShapeless(gtfoDough * 4,
-		[dustWheat, dustWheat, dustWheat, dustWheat, <ore:impureSalt>, <gregtech:meta_item_1:403>, <fluid:water>*1000]);
+		[dustWheat, dustWheat, dustWheat, dustWheat, <ore:impureSalt>, <gregtech:meta_dust_tiny:353>, <fluid:water>*1000]);
 // Rest of dough recipes for the mixer continued in mixer file
 
 //// Salt Changes
@@ -106,11 +103,9 @@ recipes.replaceAllOccurences(<gregtechfoodoption:gtfo_meta_item:18>, <ore:cropOl
 recipes.replaceAllOccurences(<gregtechfoodoption:gtfo_meta_item:17>, <ore:cropLemon>);
 
 // Remove Aluminium Smelting
-mods.tconstruct.Casting.removeTableRecipe(<gregtech:meta_item_1:10001>);
-mods.tconstruct.Casting.removeTableRecipe(<gregtech:meta_item_1:9001>);
-mods.tconstruct.Casting.removeTableRecipe(<gregtech:meta_item_1:12001>);
-mods.tconstruct.Casting.removeTableRecipe(<gregtech:meta_item_2:26001>);
-mods.tconstruct.Casting.removeBasinRecipe(<gregtech:meta_block_compressed_0:1>);
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:meta_nugget:2>);
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:meta_plate:2>);
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:meta_gear:2>);
 
 
 

@@ -1,0 +1,31 @@
+{
+	title: "Tarred Tools",
+	icon: "pyrotech:planks_tarred",
+	x: 4.5d,
+	y: 5.0d,
+	description: "Wow You Really Hate The Environment",
+	text: [
+		"Make some durable string or tarred boards/anything else with wood tar to complete this quest.",
+		"In order to soak these items correctly, you have to place the soaking pot above a campfire, other than that it's the same."
+	],
+	dependencies: [
+		"93b56e89",
+		"a37b5f0c"
+	],
+	tasks: [{
+		uid: "022b622e",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 23"
+		},
+		{
+			item: "pyrotech:planks_tarred"
+		},
+		{
+			item: "pyrotech:material 1 26"
+		},
+		{
+			item: "pyrotech:wood_tar_block"
+		}]
+	}]
+}

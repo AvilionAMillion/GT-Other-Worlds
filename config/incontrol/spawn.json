@@ -5,7 +5,7 @@
     "result": "default"
   },
   {
-	"mob": ["minecraft:creeper", "minecraft:witch", "minecraft:cave_spider", "mekanism:babyskeleton", "minecraft:zombie_villager", "minecraft:zombie_pigman", "minecraft:ghast"],
+	"mob": ["minecraft:creeper", "minecraft:witch", "minecraft:cave_spider", "minecraft:zombie_villager", "minecraft:zombie_pigman", "minecraft:ghast"],
 	"gamestage": "SteamAge",
 	"result": "default"
   },

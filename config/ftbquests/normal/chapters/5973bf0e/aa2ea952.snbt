@@ -1,0 +1,40 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	description: "Welcome to GT - Other Worlds!",
+	text: [
+		"Hello Player and welcome to Gregtech Other Worlds! This pack is made as a collaborative effort of the GTOW team, and credit is given to each member of the team on the packs main page. ",
+		"This modpack is made mostly off the mod \"Gregtech Community Edition Unofficial\" and so there is some expertise of Gregtech recommended, however players of all skill levels can still enjoy the pack!",
+		"Check the box to begin playing!"
+	],
+	tasks: [{
+		uid: "7193ab9c",
+		type: "checkmark",
+		title: "Introduction",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "ftblib:textures/icons/support.png"
+			}
+		}
+	}],
+	rewards: [{
+		uid: "54946567",
+		type: "item",
+		item: "harvestcraft:pizzasoupitem",
+		count: 2
+	},
+	{
+		uid: "415ef3fd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "akashictome:tome"
+		}
+	}]
+}

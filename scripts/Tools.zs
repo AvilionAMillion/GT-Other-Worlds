@@ -110,6 +110,12 @@ val toolsToNerf = [
 	<minecraft:stone_shovel>,
 	<minecraft:stone_sword>,
 	
+	<pyrotech:flint_sword>,
+	<pyrotech:flint_pickaxe>,
+	<pyrotech:flint_axe>,
+	<pyrotech:flint_shovel>,
+	<pyrotech:flint_hoe>,
+	
 	<astralsorcery:itemcrystalpickaxe>,
 	<astralsorcery:itemcrystalsword>,
 	<astralsorcery:itemcrystalaxe>,

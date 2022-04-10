@@ -1,0 +1,19 @@
+{
+	title: "For Chopping Up Wood",
+	x: 1.5d,
+	y: 2.0d,
+	description: "Logs Are Better When They Arent Together!",
+	text: [
+		"To get planks, you'll need a chopping block. It's nothing more than a log"
+	],
+	dependencies: [
+		"8cc4a247"
+	],
+	tasks: [{
+		uid: "915123f8",
+		type: "item",
+		items: [{
+			item: "pyrotech:chopping_block"
+		}]
+	}]
+}

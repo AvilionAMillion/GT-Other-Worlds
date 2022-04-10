@@ -1,0 +1,35 @@
+{
+	title: "Catching Spare Fluids",
+	icon: "pyrotech:faucet_stone",
+	x: 0.0d,
+	y: 9.5d,
+	description: "Drain Gang!!!!",
+	text: [
+		"The stone collector and stone drain are able to collect fluids from certain crafting operations, namely that of the log pile.",
+		"You can put a faucet on the drain and lead that into a wooden barrel or stone tank."
+	],
+	dependencies: [
+		"dfe441e7"
+	],
+	tasks: [{
+		uid: "43323b53",
+		type: "item",
+		items: [{
+			item: "pyrotech:tar_collector"
+		}]
+	},
+	{
+		uid: "b5d40711",
+		type: "item",
+		items: [{
+			item: "pyrotech:tar_drain"
+		}]
+	},
+	{
+		uid: "0aefe0ee",
+		type: "item",
+		items: [{
+			item: "pyrotech:faucet_stone"
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Tind'r",
+	x: 0.0d,
+	y: 5.0d,
+	description: "Swipe Right On GTOW!!",
+	text: [
+		"Tinder is a handy combination of dry plant fibers and sticks that can be used as a very flammable material.",
+		"Also, you should try to find some wheat to make straw. It's a easier way of making it, but that's just a suggestion."
+	],
+	dependencies: [
+		"853f0d25"
+	],
+	tasks: [{
+		uid: "e0c1fcee",
+		type: "item",
+		items: [{
+			item: "pyrotech:tinder"
+		}]
+	}]
+}

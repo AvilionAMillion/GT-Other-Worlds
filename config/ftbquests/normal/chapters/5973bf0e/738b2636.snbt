@@ -1,0 +1,151 @@
+{
+	title: "Farming Time!",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "tconstruct:mattock",
+		tag: {
+			StatsOriginal: {
+				AttackSpeedMultiplier: 1.0f,
+				HarvestLevelAxe: 1,
+				MiningSpeed: 5.0f,
+				FreeModifiers: 3,
+				HarvestLevelShovel: 1,
+				Durability: 65,
+				HarvestLevel: 1,
+				Attack: 5.9f
+			},
+			Stats: {
+				AttackSpeedMultiplier: 1.0f,
+				HarvestLevelAxe: 1,
+				MiningSpeed: 5.0f,
+				FreeModifiers: 0,
+				HarvestLevelShovel: 1,
+				Durability: 65,
+				HarvestLevel: 1,
+				Attack: 5.9f
+			},
+			Special: {
+				Categories: [
+					"harvest",
+					"tool",
+					"aoe"
+				]
+			},
+			TinkerData: {
+				Materials: [
+					"wood",
+					"flint",
+					"flint"
+				],
+				Modifiers: [
+					"toolleveling"
+				]
+			},
+			Modifiers: [{
+				identifier: "ecological",
+				color: -7444965L,
+				level: 1
+			},
+			{
+				identifier: "crude",
+				color: -9868951L,
+				level: 2,
+				crude2: 1b
+			},
+			{
+				identifier: "toolleveling",
+				color: 16777215,
+				level: 1
+			}],
+			Traits: [
+				"ecological",
+				"crude2",
+				"toolleveling"
+			]
+		}
+	},
+	x: -3.0d,
+	y: 2.0d,
+	description: "Wait... Where's The Pam Crops?",
+	text: [
+		"Not able to find enough spare flax? Need some wheat to turn into straw? Just start farming! Mattock is a simple craft, and there's not really anything more to it.",
+		"Where are the pam gardens you ask? Don't.... worry about that yet."
+	],
+	dependencies: [
+		"ddcc7e52"
+	],
+	tasks: [{
+		uid: "ba86dc3b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:mattock",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevelAxe: 1,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					HarvestLevelShovel: 1,
+					Durability: 65,
+					HarvestLevel: 1,
+					Attack: 5.9f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevelAxe: 1,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 0,
+					HarvestLevelShovel: 1,
+					Durability: 65,
+					HarvestLevel: 1,
+					Attack: 5.9f
+				},
+				Special: {
+					Categories: [
+						"harvest",
+						"tool",
+						"aoe"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"flint",
+						"flint"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965L,
+					level: 1
+				},
+				{
+					identifier: "crude",
+					color: -9868951L,
+					level: 2,
+					crude2: 1b
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"ecological",
+					"crude2",
+					"toolleveling"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

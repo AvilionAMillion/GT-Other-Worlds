@@ -1,0 +1,22 @@
+{
+	title: "Better Wood",
+	x: 0.0d,
+	y: 3.5d,
+	description: "You're going to need a looooooooot of axes",
+	text: [
+		"With a chopping block and flint hatchet in hand, you can now go and chip chop your way to some wooden planks!",
+		"The chopping block is an in world crafting station, when you place a log on it with right clock it will appear on the stump. Hitting the chopping block with right click using your axe will slowly break apart the log, eventually returning planks!",
+		"The Flint Hatchet returns only two planks for each log."
+	],
+	dependencies: [
+		"65501199",
+		"e8b6d883"
+	],
+	tasks: [{
+		uid: "62f6650b",
+		type: "item",
+		items: [{
+			item: "minecraft:planks"
+		}]
+	}]
+}

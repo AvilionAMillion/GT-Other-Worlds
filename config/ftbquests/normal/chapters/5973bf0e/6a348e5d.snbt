@@ -1,0 +1,21 @@
+{
+	title: "The Workshoppening!",
+	icon: "artisanworktables:workshop 1 2",
+	x: 6.0d,
+	y: 9.5d,
+	description: "Master Masonry",
+	text: [
+		"You have unlocked the secrets of the craft, no longer can you merely just work with mason tools, you have become a true mason. You understand stone like it's a living creature... maybe it is one?",
+		"You have unlocked the skill to craft the mason's workshop. Use it wisely."
+	],
+	dependencies: [
+		"8807d135"
+	],
+	tasks: [{
+		uid: "b73ee5e7",
+		type: "item",
+		items: [{
+			item: "artisanworktables:workshop 1 2"
+		}]
+	}]
+}

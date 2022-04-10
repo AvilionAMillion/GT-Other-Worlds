@@ -1,0 +1,264 @@
+{
+	title: "Flint Tools... Again",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "tconstruct:pickaxe",
+		tag: {
+			StatsOriginal: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 5.0f,
+				FreeModifiers: 3,
+				Durability: 54,
+				HarvestLevel: 1,
+				Attack: 2.9f
+			},
+			Stats: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 5.0f,
+				FreeModifiers: 0,
+				Durability: 54,
+				HarvestLevel: 1,
+				Attack: 2.9f
+			},
+			Special: {
+				Categories: [
+					"aoe",
+					"tool",
+					"harvest"
+				]
+			},
+			TinkerData: {
+				Materials: [
+					"flint",
+					"flint",
+					"flint"
+				],
+				Modifiers: [
+					"toolleveling"
+				]
+			},
+			Modifiers: [{
+				identifier: "crude",
+				color: -9868951,
+				level: 3,
+				crude1: 1b,
+				crude2: 1b
+			},
+			{
+				identifier: "toolleveling",
+				color: 16777215,
+				level: 1
+			}],
+			Traits: [
+				"crude1",
+				"crude2",
+				"toolleveling"
+			]
+		}
+	},
+	x: 7.5d,
+	y: 2.0d,
+	description: "Third Set Of Flint Tools",
+	text: [
+		"There's something wrong about your flint tools... Since you didn't make them in a tinkers table they're much worse than standard. They have lower durability, but more importantly, they only have a wood mining level!",
+		"Every single ore (barring some slim exceptions) has a flint mining lever or higher, your flint pickaxe won't be able to pierce copper no matter how hard you try.",
+		"But if you make a new pickaxe... Well you can mine whatever you'd like! So make the new new flint pickaxe!"
+	],
+	dependencies: [
+		"5ed43182"
+	],
+	tasks: [{
+		uid: "a18d8d66",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:pickaxe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 190,
+					HarvestLevel: 1,
+					Attack: 2.9f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 0,
+					Durability: 190,
+					HarvestLevel: 1,
+					Attack: 2.9f
+				},
+				Special: {
+					Categories: [
+						"aoe",
+						"tool",
+						"harvest"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"flint",
+						"wood"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "crude",
+					color: -9868951,
+					level: 2,
+					crude2: 1b
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"ecological",
+					"crude2",
+					"toolleveling"
+				]
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:hatchet",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 190,
+					HarvestLevel: 1,
+					Attack: 3.4f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 0,
+					Durability: 190,
+					HarvestLevel: 1,
+					Attack: 3.4f
+				},
+				Special: {
+					Categories: [
+						"aoe",
+						"tool",
+						"harvest",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"flint",
+						"wood"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "crude",
+					color: -9868951,
+					level: 2,
+					crude2: 1b
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"ecological",
+					"crude2",
+					"toolleveling"
+				]
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:shovel",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 190,
+					HarvestLevel: 1,
+					Attack: 2.9f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 0,
+					Durability: 190,
+					HarvestLevel: 1,
+					Attack: 2.9f
+				},
+				Special: {
+					Categories: [
+						"aoe",
+						"tool",
+						"harvest"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"flint",
+						"wood"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "crude",
+					color: -9868951,
+					level: 2,
+					crude2: 1b
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"ecological",
+					"crude2",
+					"toolleveling"
+				]
+			}
+		}],
+		ignore_damage: true
+	}]
+}

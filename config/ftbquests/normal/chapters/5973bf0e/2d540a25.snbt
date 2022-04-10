@@ -1,0 +1,21 @@
+{
+	title: "Finally, Actual Crafting!",
+	x: 7.5d,
+	y: 3.5d,
+	description: "Well, Somewhat Normal.",
+	text: [
+		"The Artisan's workshop is a 5x5 artisan table that can use three tools, blah blah, we don't care about that. The good thing about the Basic Workshop is that it can craft actual normal crafting table recipes.",
+		"Every other artisan's worktable is unable to craft recipes from the normal \"Crafting\" JEI tab. The Basic Workshop is not limited by that, and you are free to craft whatever you'd like. ",
+		"Also some future things may require the 5x5 grid or the three tools, i.e. Refractory stuff."
+	],
+	dependencies: [
+		"5ed43182"
+	],
+	tasks: [{
+		uid: "b0aaa344",
+		type: "item",
+		items: [{
+			item: "artisanworktables:workshop 1 5"
+		}]
+	}]
+}

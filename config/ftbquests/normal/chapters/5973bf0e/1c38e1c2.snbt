@@ -1,0 +1,27 @@
+{
+	title: "Bricks and Bricks and More Bricks!",
+	icon: "tconstruct:materials",
+	x: 7.5d,
+	y: 8.0d,
+	description: "Construction Time!",
+	text: [
+		"Further technology? Well guess how we'll get that, we need more and more bricks! For the next bit of progression we'll be using seared and refractory bricks, so grab yourself both of those!"
+	],
+	dependencies: [
+		"8807d135"
+	],
+	tasks: [{
+		uid: "f2dc3375",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials"
+		}]
+	},
+	{
+		uid: "19577f68",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 5"
+		}]
+	}]
+}

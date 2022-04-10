@@ -1,0 +1,48 @@
+{
+	title: "Stone Machines",
+	icon: "pyrotech:stone_kiln",
+	x: 1.5d,
+	y: 8.0d,
+	description: "Technology? Maybe...",
+	text: [
+		"The Stone Kiln, Stone Oven, and Stone Sawmill are slightly more efficient versions of their non-stone counterparts. They are powered by burning logs or other objects in their lower slot.",
+		"On top of the standard recipes, they also have some special recipes that can only be made in improved versions of the machines.",
+		"For this quest you'll craft all three of them, don't worry, you will use them all. Additionally it also has you get a flint sawblade for the sawmill."
+	],
+	dependencies: [
+		"8d118416"
+	],
+	tasks: [{
+		uid: "ac11d1bb",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_kiln"
+		}]
+	},
+	{
+		uid: "bfb12b1c",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_oven"
+		}]
+	},
+	{
+		uid: "6e6e8137",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_sawmill"
+		}]
+	},
+	{
+		uid: "65a57218",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:sawmill_blade_flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

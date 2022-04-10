@@ -1,0 +1,7 @@
+{
+	title: "Begin Anew",
+	icon: "biomesoplenty:earth",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

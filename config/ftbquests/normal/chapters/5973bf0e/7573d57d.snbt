@@ -1,0 +1,19 @@
+{
+	title: "Basic Crafting",
+	x: 0.0d,
+	y: 0.5d,
+	description: "No Crafting Tables Yet",
+	text: [
+		"Crafting Tables are not attainable yet, so you must use the Basic Worktable. This can only craft recipes that can be made in a basic worktable and some recipes may take tools to complete."
+	],
+	dependencies: [
+		"93698e65"
+	],
+	tasks: [{
+		uid: "a8c1928c",
+		type: "item",
+		items: [{
+			item: "artisanworktables:worktable 1 5"
+		}]
+	}]
+}

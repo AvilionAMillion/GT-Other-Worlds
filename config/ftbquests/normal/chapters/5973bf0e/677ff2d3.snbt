@@ -1,0 +1,48 @@
+{
+	title: "Herbiculture",
+	icon: "pyrotech:material 1 12",
+	x: 1.5d,
+	y: 0.5d,
+	description: "A most essential aspect",
+	text: [
+		"There are many plants and species of flora in this world, you should grab some of the most important resources you can from them.",
+		"You obtain wildroot, seeds and plant fibers from breaking grass, and string can be obtained from flax plants"
+	],
+	dependencies: [
+		"93698e65"
+	],
+	tasks: [{
+		uid: "f162d966",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 12"
+		}]
+	},
+	{
+		uid: "11e5dfa9",
+		type: "item",
+		items: [{
+			item: "minecraft:string"
+		}]
+	},
+	{
+		uid: "ef2cd5bb",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}]
+	},
+	{
+		uid: "999ce4e8",
+		type: "item",
+		items: [{
+			item: "roots:wildroot"
+		}]
+	}],
+	rewards: [{
+		uid: "d984ba95",
+		type: "item",
+		item: "forestry:fertilizer_compound",
+		count: 16
+	}]
+}
