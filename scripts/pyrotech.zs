@@ -45,6 +45,7 @@ recipes.remove(<pyrotech:material:4>);
 recipes.remove(<pyrotech:material:9>);
 recipes.remove(<pyrotech:refractory_brick_block>);
 recipes.remove(<pyrotech:bloomery>);
+recipes.remove(<pyrotech:brick_kiln>);
 
 
 // Soaking Pot
@@ -252,6 +253,16 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansHammer>, 20)
   .addTool(<ore:artisansChisel>, 25)
   .addOutput(<pyrotech:bloomery>)
+  .create();
+ # Refractory Kiln
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>],
+    [<pyrotech:refractory_brick_block>, <pyrotech:stone_kiln>, <pyrotech:refractory_brick_block>],
+    [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>]])
+  .addTool(<ore:artisansHammer>, 15)
+  .addTool(<ore:artisansTSquare>, 15)
+  .addOutput(<pyrotech:brick_kiln>)
   .create();
   
 // Stone Crucible

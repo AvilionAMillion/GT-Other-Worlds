@@ -2,7 +2,7 @@
 
 # Optional: Generic Modpack Ignores
 **/*.log
-/.mixin.out
+**/*.mixin.out
 /saves
 /downloads
 /resourcepacks
