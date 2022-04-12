@@ -275,13 +275,11 @@ var platesDisabled as IItemStack[][IOreDictEntry] = {
 	
 	#plateBronze
 	<ore:plateBronze> : [
-		<thermalfoundation:material:355>,
-		<railcraft:plate:6>
+		<thermalfoundation:material:355>
 	],
 	
 	#plateBrass
 	<ore:plateBrass> : [
-		<railcraft:plate:11>,
 		<thaumcraft:plate>
 	],
 
@@ -295,8 +293,7 @@ var platesDisabled as IItemStack[][IOreDictEntry] = {
 	<ore:plateCopper> : [
 		<libvulpes:productplate:4>,
 		<thermalfoundation:material:320>,
-		<immersiveengineering:metal:30>,
-		<railcraft:plate:3>
+		<immersiveengineering:metal:30>
 	],
 
 	#plateElectrum
@@ -314,14 +311,12 @@ var platesDisabled as IItemStack[][IOreDictEntry] = {
 	<ore:plateGold> : [
 		<libvulpes:productplate:2>,
 		<thermalfoundation:material:33>,
-		<immersiveengineering:metal:40>,
-		<railcraft:plate:7>
+		<immersiveengineering:metal:40>
 	],
 
 	#plateInvar
 	<ore:plateInvar> : [
-		<thermalfoundation:material:354>,
-		<railcraft:plate:9>
+		<thermalfoundation:material:354>
 	],
 
 	#plateIridium
@@ -335,15 +330,13 @@ var platesDisabled as IItemStack[][IOreDictEntry] = {
 		<thermalfoundation:material:32>,
 		<thaumcraft:plate:1>,
 		<libvulpes:productplate:1>,
-		<immersiveengineering:metal:39>,
-		<railcraft:plate>
+		<immersiveengineering:metal:39>
 	],
 
 	#plateLead
 	<ore:plateLead> : [
 		<thermalfoundation:material:323>,
-		<immersiveengineering:metal:32>,
-		<railcraft:plate:4>
+		<immersiveengineering:metal:32>
 	],
 
 	#plateLumium
@@ -354,8 +347,7 @@ var platesDisabled as IItemStack[][IOreDictEntry] = {
 	#plateNickel
 	<ore:plateNickel> : [
 		<thermalfoundation:material:325>,
-		<immersiveengineering:metal:34>,
-		<railcraft:plate:8>
+		<immersiveengineering:metal:34>
 	],
 
 	#platePlatinum
@@ -376,33 +368,25 @@ var platesDisabled as IItemStack[][IOreDictEntry] = {
 	#plateSilver
 	<ore:plateSilver> : [
 		<thermalfoundation:material:322>,
-		<immersiveengineering:metal:33>,
-		<railcraft:plate:5>
+		<immersiveengineering:metal:33>
 	],
 
 	#plateSteel
 	<ore:plateSteel> : [
 		<thermalfoundation:material:352>,
 		<libvulpes:productplate:6>,
-		<immersiveengineering:metal:38>,
-		<railcraft:plate:1>
+		<immersiveengineering:metal:38>
 	],
 
 	#plateTin
 	<ore:plateTin> : [
 		<thermalfoundation:material:321>,
-		<libvulpes:productplate:5>,
-		<railcraft:plate:2>
+		<libvulpes:productplate:5>
 	],
 
 	#plateTitanium
 	<ore:plateTitanium> : [
 		<libvulpes:productplate:7>
-	],
-	
-	#plateZinc
-	<ore:plateZinc> : [
-		<railcraft:plate:10>
 	],
 	
 	#plateUranium
@@ -454,15 +438,13 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 	<ore:ingotBronze> : [
 		<forestry:ingot_bronze>,
 		<mekanism:ingot:2>,
-		<railcraft:ingot:5>,
 		<thermalfoundation:material:163>,
 		<nuclearcraft:alloy>
 	],
 	
 	#ingotBrass
 	<ore:ingotBrass> : [
-		<thaumcraft:ingot:2>,
-		<railcraft:ingot:9>
+		<thaumcraft:ingot:2>
 	],
 	
 	#ingotIronCompressed
@@ -483,7 +465,6 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 		<immersiveengineering:metal>,
 		<mekanism:ingot:5>,
 		<mysticalworld:copper_ingot>,
-		<railcraft:ingot:1>,
 		<thermalfoundation:material:128>,
 		<libvulpes:productingot:4>,
 		<nuclearcraft:ingot>
@@ -502,7 +483,6 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 	
 	#ingotInvar
 	<ore:ingotInvar> : [
-		<railcraft:ingot:7>,
 		<thermalfoundation:material:162>,
 	],
 	
@@ -517,7 +497,6 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 	<ore:ingotLead> : [
 		<erebus:materials:44>,
 		<immersiveengineering:metal:2>,
-		<railcraft:ingot:3>,
 		<thermalfoundation:material:131>,
 		<nuclearcraft:ingot:2>
 	],
@@ -535,7 +514,6 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 	#ingotNickel
 	<ore:ingotNickel> : [
 		<immersiveengineering:metal:4>,
-		<railcraft:ingot:6>,
 		<thermalfoundation:material:133>,
 		<qmd:ingot:5>
 	],
@@ -556,7 +534,6 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 		<erebus:materials:45>,
 		<immersiveengineering:metal:3>,
 		<mysticalworld:silver_ingot>,
-		<railcraft:ingot:4>,
 		<thermalfoundation:material:130>,
 		<nuclearcraft:ingot:13>
 	],
@@ -564,7 +541,6 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 	#ingotSteel
 	<ore:ingotSteel> : [
 		<immersiveengineering:metal:8>,
-		<railcraft:ingot>,
 		<mekanism:ingot:4>,
 		<thermalfoundation:material:160>,
 		<libvulpes:productingot:6>,
@@ -577,7 +553,6 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 		<forestry:ingot_tin>,
 		<libvulpes:productingot:5>,
 		<thermalfoundation:material:129>,
-		<railcraft:ingot:2>,
 		<mekanism:ingot:6>,
 		<nuclearcraft:ingot:1>
 	],
@@ -602,7 +577,6 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 	
 	#ingotZinc
 	<ore:ingotZinc> : [
-		<railcraft:ingot:8>,
 		<qmd:ingot:7>
 	],
 	
@@ -695,14 +669,12 @@ var blocksDisabled as IItemStack[][IOreDictEntry] = {
 	<ore:blockBronze> : [
 		<mekanism:basicblock:1>,
 		<thermalfoundation:storage_alloy:3>,
-		<railcraft:metal:5>,
 		<forestry:resource_storage:3>
 	],
 	
 	#blockBrass
 	<ore:blockBrass> : [
-		<thaumcraft:metal_brass>,
-		<railcraft:metal:9>
+		<thaumcraft:metal_brass>
 	],
 	
 	#blockCharcoal
@@ -726,7 +698,6 @@ var blocksDisabled as IItemStack[][IOreDictEntry] = {
 		<immersiveengineering:storage>,
 		<mekanism:basicblock:12>,
 		<mysticalworld:copper_block>,
-		<railcraft:metal>,
 		<forestry:resource_storage:1>
 	],
 	
@@ -743,8 +714,7 @@ var blocksDisabled as IItemStack[][IOreDictEntry] = {
 	
 	#blockInvar
 	<ore:blockInvar> : [
-		<thermalfoundation:storage_alloy:2>,
-		<railcraft:metal:7>
+		<thermalfoundation:storage_alloy:2>
 	],
 	
 	#blockIridium
@@ -756,7 +726,6 @@ var blocksDisabled as IItemStack[][IOreDictEntry] = {
 	#blockLead
 	<ore:blockLead> : [
 		<immersiveengineering:storage:2>,
-		<railcraft:metal:2>,
 		<thermalfoundation:storage:3>
 	],
 	
@@ -768,7 +737,6 @@ var blocksDisabled as IItemStack[][IOreDictEntry] = {
 	#blockNickel
 	<ore:blockNickel> : [
 		<immersiveengineering:storage:4>,
-		<railcraft:metal:6>,
 		<thermalfoundation:storage:5>
 	],
 	
@@ -781,14 +749,12 @@ var blocksDisabled as IItemStack[][IOreDictEntry] = {
 	<ore:blockSilver> : [
 		<immersiveengineering:storage:3>,
 		<mysticalworld:silver_block>,
-		<railcraft:metal:4>,
 		<thermalfoundation:storage:2>
 	],
 	
 	#blockSteel
 	<ore:blockSteel> : [
 		<thermalfoundation:storage_alloy>,
-		<railcraft:metal:3>,
 		<libvulpes:metal0:6>,
 		<mekanism:basicblock:5>,
 		<immersiveengineering:storage:8>
@@ -799,7 +765,6 @@ var blocksDisabled as IItemStack[][IOreDictEntry] = {
 		<forestry:resource_storage:2>,
 		<libvulpes:metal0:5>,
 		<thermalfoundation:storage:1>,
-		<railcraft:metal:1>,
 		<mekanism:basicblock:13>
 	],
 	
@@ -820,7 +785,6 @@ var blocksDisabled as IItemStack[][IOreDictEntry] = {
 	
 	#blockZinc
 	<ore:blockZinc> : [
-		<railcraft:metal:8>
 	],
 	
 	#blockCobalt
@@ -875,7 +839,6 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 	#dustCoal
 	<ore:dustCoal> : [
 		<threng:material:3>,
-		<railcraft:dust:5>,
 		<actuallyadditions:item_dust:6>,
 		<bloodmagic:component:21>,
 		<thermalfoundation:material:768>
@@ -883,7 +846,6 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 	
 	#dustCharcoal
 	<ore:dustCharcoal> : [
-		<railcraft:dust:3>,
 		<thermalfoundation:material:769>
 	],
 	
@@ -1047,7 +1009,6 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 	<ore:dustSulfur> : [
 		<bloodmagic:component:23>,
 		<immersiveengineering:material:25>,
-		<railcraft:dust:1>,
 		<thermalfoundation:material:771>,
 		<mekanism:otherdust:3>
 	],
@@ -1055,14 +1016,12 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 	#dustObsidian
 	<ore:dustObsidian> : [
 		<mekanism:otherdust:6>,
-		<railcraft:dust>,
 		<thermalfoundation:material:770>
 	],
 	
 	#dustEnder
 	<ore:dustEnder> : [
-		<appliedenergistics2:material:46>,
-		<railcraft:dust:6>
+		<appliedenergistics2:material:46>
 	],
 	
 	#dustWood
@@ -1075,7 +1034,6 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 	<ore:dustSaltpeter> : [
 		<bloodmagic:component:24>,
 		<thermalfoundation:material:772>,
-		<railcraft:dust:2>,
 		<immersiveengineering:material:24>
 	],
 	
@@ -1143,14 +1101,12 @@ var nuggetsDisabled as IItemStack[][IOreDictEntry] = {
 	<ore:nuggetBronze> : [
 		<magicbees:orepart:5>,
 		<mekanism:nugget:2>,
-		<railcraft:nugget:5>,
 		<thermalfoundation:material:227>
 	],
 	
 	#nuggetBrass
 	<ore:nuggetBrass> : [
-		<thaumcraft:nugget:2>,
-		<railcraft:nugget:9>
+		<thaumcraft:nugget:2>
 	],
 	
 	#nuggetConstantan
@@ -1164,7 +1120,6 @@ var nuggetsDisabled as IItemStack[][IOreDictEntry] = {
 		<mysticalworld:copper_nugget>,
 		<thaumcraft:nugget:1>,
 		<mekanism:nugget:5>,
-		<railcraft:nugget:1>,
 		<thermalfoundation:material:192>,
 		<magicbees:orepart:3>,
 		<libvulpes:productnugget:4>,
@@ -1184,7 +1139,6 @@ var nuggetsDisabled as IItemStack[][IOreDictEntry] = {
 	
 	#nuggetInvar
 	<ore:nuggetInvar> : [
-		<railcraft:nugget:7>,
 		<thermalfoundation:material:226>
 	],
 	
@@ -1203,7 +1157,6 @@ var nuggetsDisabled as IItemStack[][IOreDictEntry] = {
 	#nuggetLead
 	<ore:nuggetLead> : [
 		<immersiveengineering:metal:22>,
-		<railcraft:nugget:3>,
 		<thaumcraft:nugget:4>,
 		<thermalfoundation:material:195>
 	],
@@ -1216,7 +1169,6 @@ var nuggetsDisabled as IItemStack[][IOreDictEntry] = {
 	#nuggetNickel
 	<ore:nuggetNickel> : [
 		<immersiveengineering:metal:24>,
-		<railcraft:nugget:6>,
 		<thermalfoundation:material:197>
 	],
 	
@@ -1235,7 +1187,6 @@ var nuggetsDisabled as IItemStack[][IOreDictEntry] = {
 		<thaumcraft:nugget:3>,
 		<immersiveengineering:metal:23>,
 		<mysticalworld:silver_nugget>,
-		<railcraft:nugget:4>,
 		<thermalfoundation:material:194>
 	],
 	
@@ -1244,7 +1195,6 @@ var nuggetsDisabled as IItemStack[][IOreDictEntry] = {
 		<thermalfoundation:material:224>,
 		<immersiveengineering:metal:28>,
 		<mekanism:nugget:4>,
-		<railcraft:nugget>,
 		<libvulpes:productnugget:6>
 	],
 	
@@ -1253,7 +1203,6 @@ var nuggetsDisabled as IItemStack[][IOreDictEntry] = {
 		<libvulpes:productnugget:5>,
 		<thermalfoundation:material:193>,
 		<thaumcraft:nugget:2>,
-		<railcraft:nugget:2>,
 		<mekanism:nugget:6>,
 		<magicbees:orepart:4>
 	],
@@ -1275,7 +1224,6 @@ var nuggetsDisabled as IItemStack[][IOreDictEntry] = {
 	
 	#nuggetZinc
 	<ore:nuggetZinc> : [
-		<railcraft:nugget:8>
 	],
 	
 	#nuggetCobalt
@@ -1362,15 +1310,9 @@ var gearsDisabled as IItemStack[][IOreDictEntry] = {
 		<thermalfoundation:material:260>
 	],
 	
-	#gearBrass
-	<ore:gearBrass> : [
-		<railcraft:gear>
-	],
-	
 	#gearBronze
 	<ore:gearBronze> : [
 		<forestry:gear_bronze>,
-		<railcraft:gear:4>,
 		<thermalfoundation:material:291>
 	],
 	
@@ -1418,13 +1360,11 @@ var gearsDisabled as IItemStack[][IOreDictEntry] = {
 	#gearInvar
 	<ore:gearInvar> : [
 		<thermalfoundation:material:290>,
-		<railcraft:gear:5>
 	],
 	
 	#gearIron
 	<ore:gearIron> : [
 		<thermalfoundation:material:24>,
-		<railcraft:gear:1>
 	],
 	
 	#gearIridium
@@ -1460,7 +1400,6 @@ var gearsDisabled as IItemStack[][IOreDictEntry] = {
 	#gearSteel
 	<ore:gearSteel> : [
 		<thermalfoundation:material:288>,
-		<railcraft:gear:2>,
 		<libvulpes:productgear:6>
 	],
 	

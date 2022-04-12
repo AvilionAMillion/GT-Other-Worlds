@@ -1,0 +1,119 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "mysticalworld:world_guide": {
+      "viewedEntries": [
+        "mysticalworld:crops/aubergine",
+        "mysticalworld:cuisine/venison"
+      ],
+      "bookmarks": [],
+      "history": [
+        "mysticalworld:cuisine/venison",
+        "mysticalworld:crops/aubergine"
+      ],
+      "completedManualQuests": []
+    },
+    "roots:roots_guide": {
+      "viewedEntries": [
+        "roots:apparatus/knives",
+        "roots:resources/bark",
+        "roots:basics/other_imbuer",
+        "roots:basics/spells",
+        "roots:basics/pyre",
+        "roots:basics/crafting",
+        "roots:spells/spell_grove_supplication",
+        "roots:resources/petals",
+        "roots:basics/bucket_of_water",
+        "roots:herbs/pereskia",
+        "roots:basics/resources",
+        "roots:basics/letter",
+        "roots:herbs/wildroot",
+        "roots:spells/spell_fey_light",
+        "roots:basics/groves",
+        "roots:basics/introduction",
+        "roots:rituals/ritual_overgrowth",
+        "roots:rituals/automation",
+        "roots:spells/spell_sense_danger",
+        "roots:spells/spell_rose_thorns",
+        "roots:herbs/infernal_bulb",
+        "roots:resources/elemental_soil",
+        "roots:resources/runestone",
+        "roots:apparatus/mortar",
+        "roots:apparatus/component_pouch",
+        "roots:herbs/stalicripe",
+        "roots:rituals/ritual_frost_lands",
+        "roots:spells/spell_magnetism",
+        "roots:spells/spell_iced_touch",
+        "roots:spells/spell_growth_infusion",
+        "roots:spells/spell_second_wind",
+        "roots:rituals/ritual_grove_supplication"
+      ],
+      "bookmarks": [],
+      "history": [
+        "roots:rituals/ritual_grove_supplication",
+        "roots:spells/spell_second_wind",
+        "roots:basics/spells",
+        "roots:spells/spell_growth_infusion",
+        "roots:spells/spell_iced_touch",
+        "roots:spells/spell_magnetism",
+        "roots:spells/spell_grove_supplication",
+        "roots:rituals/ritual_frost_lands",
+        "roots:rituals/ritual_overgrowth",
+        "roots:rituals/automation",
+        "roots:herbs/stalicripe",
+        "roots:resources/elemental_soil",
+        "roots:basics/bucket_of_water"
+      ],
+      "completedManualQuests": []
+    },
+    "pyrotech:book": {
+      "viewedEntries": [
+        "pyrotech:gather/shard_bone_and_flint",
+        "pyrotech:adapt/anvil_granite",
+        "pyrotech:survive/campfire",
+        "pyrotech:survive/campfire_effects",
+        "pyrotech:survive/chopping_block",
+        "pyrotech:survive/introduction",
+        "pyrotech:survive/tools_crude",
+        "pyrotech:adapt/plant_fibers_dried",
+        "pyrotech:adapt/pit_kiln",
+        "pyrotech:accelerate/coal_coke",
+        "pyrotech:bloom/tools_redstone",
+        "pyrotech:bloom/wither_forge",
+        "pyrotech:survive/food_roasted",
+        "pyrotech:survive/fishing_rod_crude",
+        "pyrotech:survive/hammer_crude",
+        "pyrotech:survive/rocks",
+        "pyrotech:survive/flint_and_tinder",
+        "pyrotech:survive/fiber_torch",
+        "pyrotech:survive/worktable",
+        "pyrotech:survive/food_raw",
+        "pyrotech:gather/stone_cobbled",
+        "pyrotech:gather/storage",
+        "pyrotech:innovate/stone_collector",
+        "pyrotech:innovate/stone_drain",
+        "pyrotech:innovate/log_pile",
+        "pyrotech:innovate/pit_burn",
+        "pyrotech:accelerate/bloomery"
+      ],
+      "bookmarks": [],
+      "history": [
+        "pyrotech:accelerate/bloomery",
+        "pyrotech:innovate/pit_burn",
+        "pyrotech:innovate/log_pile",
+        "pyrotech:innovate/stone_drain",
+        "pyrotech:innovate/stone_collector",
+        "pyrotech:adapt/pit_kiln",
+        "pyrotech:gather/storage",
+        "pyrotech:survive/campfire_effects",
+        "pyrotech:survive/chopping_block",
+        "pyrotech:gather/stone_cobbled",
+        "pyrotech:survive/food_raw",
+        "pyrotech:survive/worktable",
+        "pyrotech:survive/fiber_torch"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

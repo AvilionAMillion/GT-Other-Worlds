@@ -1,0 +1,22 @@
+{
+	title: "Primitive Metallurgy",
+	x: 7.5d,
+	y: 5.0d,
+	description: "It Only Gets Better From Here",
+	text: [
+		"The Bloomery is the first way of smelting any ores, and it is baaaaaad at it.",
+		"It requires the ore (or dust) to be placed into the top first, and then fuel put on top of that. You then light the top on fire and it starts. It is verrrrrrrry slow, however can be sped up using bellows placed next to it.",
+		"Once it's finished you will get a bloom. This bloom should be picked up with tongs and then placed onto an anvil, where you can then smash it with a hammer getting slag, nuggets, and dust in the process.",
+		"Be careful! The bloom is very hot and may start a fire!"
+	],
+	dependencies: [
+		"1c38e1c2"
+	],
+	tasks: [{
+		uid: "fdfdff54",
+		type: "item",
+		items: [{
+			item: "pyrotech:bloomery"
+		}]
+	}]
+}

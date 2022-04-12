@@ -107,5 +107,9 @@ mods.tconstruct.Casting.removeTableRecipe(<gregtech:meta_nugget:2>);
 mods.tconstruct.Casting.removeTableRecipe(<gregtech:meta_plate:2>);
 mods.tconstruct.Casting.removeTableRecipe(<gregtech:meta_gear:2>);
 
+// GregTech Stone Ingot Changes
+<ore:ingotStone>.add(<pyrotech:material:16>);
+mods.jei.JEI.removeAndHide(<gregtech:meta_ingot:1599>);
+
 
 

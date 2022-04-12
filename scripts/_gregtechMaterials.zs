@@ -2,6 +2,7 @@
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 import mods.gregtech.material.MaterialBuilder;
+import mods.gregtech.material.MaterialRegistry;
 import mods.gregtech.material.Material;
 import mods.gregtech.material.Elements;
 
@@ -54,3 +55,8 @@ var anthracite_coal = MaterialBuilder(4001, "anthracite_coal")
 	.addOreByproducts(<material:bitumous_coal>, <material:graphite>)
 	.build();
 	
+	
+// Prexisting
+# Stone
+var stoneGT = MaterialRegistry.get("stone");
+stoneGT.addTools(1,1,40,1);

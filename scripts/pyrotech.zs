@@ -9,6 +9,7 @@
 	import mods.pyrotech.Chopping;
 	import mods.pyrotech.SoakingPot;
 	import mods.pyrotech.DryingRack;
+	import mods.pyrotech.StoneCrucible;
 import mods.artisanworktables.builder.RecipeBuilder;
 val builder = RecipeBuilder.get("basic");
 
@@ -252,3 +253,7 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansChisel>, 25)
   .addOutput(<pyrotech:bloomery>)
   .create();
+  
+// Stone Crucible
+# Melting Copper Nuggets
+StoneCrucible.addRecipe("liquid_copper", <liquid:copper> * 16, <gregtech:meta_nugget:25>, 2400);

@@ -1,0 +1,29 @@
+{
+	title: "Your First Ores!",
+	icon: "gregtech:ore_copper_0",
+	x: 9.0d,
+	y: 3.5d,
+	description: "Proper Metallurgy",
+	text: [
+		"Finally finding the tools to mine, you set off, and look for the ores you can utilize... Of which there is only one. Yep, for even minor progression onwards you need to get copper.",
+		"Don't fret! Copper is not a rare metal at all, however for this early of ore processing you can only use two types of copper that are in your mining level and rich enough to process",
+		"Copper and Chalcopyrite ore often spawn in the same ore vein, so getting a lot of it wont be much of an issue. Get to it!"
+	],
+	dependencies: [
+		"c60c0f6a"
+	],
+	tasks: [{
+		uid: "cbb7b3af",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_copper_0"
+		}]
+	},
+	{
+		uid: "3b36b95f",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_chalcopyrite_0"
+		}]
+	}]
+}
