@@ -46,7 +46,9 @@ recipes.remove(<pyrotech:material:9>);
 recipes.remove(<pyrotech:refractory_brick_block>);
 recipes.remove(<pyrotech:bloomery>);
 recipes.remove(<pyrotech:brick_kiln>);
-
+recipes.remove(<pyrotech:brick_oven>);
+recipes.remove(<pyrotech:brick_sawmill>);
+recipes.remove(<pyrotech:brick_crucible>);
 
 // Soaking Pot
 SoakingPot.addRecipe("wet_chad", <contenttweaker:wetchad>, <liquid:water>, <gregtech:meta_dust:1618>, 6000);
@@ -260,8 +262,38 @@ RecipeBuilder.get("basic")
     [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>],
     [<pyrotech:refractory_brick_block>, <pyrotech:stone_kiln>, <pyrotech:refractory_brick_block>],
     [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>]])
-  .addTool(<ore:artisansHammer>, 15)
-  .addTool(<ore:artisansTSquare>, 15)
+  .addTool(<ore:artisansHammer>, 45)
+  .addTool(<ore:artisansTSquare>, 45)
+  .addOutput(<pyrotech:brick_kiln>)
+  .create();
+ # Refractory Oven
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>],
+    [<pyrotech:refractory_brick_block>, <pyrotech:stone_oven>, <pyrotech:refractory_brick_block>],
+    [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>]])
+  .addTool(<ore:artisansHammer>, 45)
+  .addTool(<ore:artisansTSquare>, 45)
+  .addOutput(<pyrotech:brick_kiln>)
+  .create();
+ # Refractory Sawmill
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>],
+    [<pyrotech:refractory_brick_block>, <pyrotech:stone_sawmill>, <pyrotech:refractory_brick_block>],
+    [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>]])
+  .addTool(<ore:artisansHammer>, 45)
+  .addTool(<ore:artisansTSquare>, 45)
+  .addOutput(<pyrotech:brick_kiln>)
+  .create();
+ # Refractory Crucible
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>],
+    [<pyrotech:refractory_brick_block>, <pyrotech:stone_crucible>, <pyrotech:refractory_brick_block>],
+    [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>]])
+  .addTool(<ore:artisansHammer>, 45)
+  .addTool(<ore:artisansTSquare>, 45)
   .addOutput(<pyrotech:brick_kiln>)
   .create();
   
