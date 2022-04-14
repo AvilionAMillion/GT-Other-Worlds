@@ -1,638 +1,155 @@
 [PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-Robijnvogel
-Zuniroa
-Peregrinus11
-Ncc1702
-DreamThorn
-SquidDev
 NickT
-Psyberition
-IDroid
-Spencer Gilbert
-Genryu
-NerdyWhiteGuy
 Quaternary
-Ivy_
-Tez Not Here
-Tyrone McLean
-Pongo Sapiens
-Barrier
+WaterMoon
 BrÃƒÂ¸nsted
+SquidDev
+Zuniroa
+Barrier
+NerdyWhiteGuy
+Tez Not Here
+Ivy_
+DreamThorn
+Psyberition
+AdaraChristine
+Spencer Gilbert
+Peregrinus11
+Tyrone McLean
+Genryu
 Belathus
+Pongo Sapiens
+Robijnvogel
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [preinit]
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: _common.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: __copyscript.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:gregtech]: _gregtechMaterials.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: _ticContentTweaker\matRubber.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: _ticContentTweaker\matTin.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: _ticContentTweaker\matWroughtIron.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: _tools.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: artisanworktables\basic.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: artisanworktables\mason.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ContentTweaker_crafting.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: ContentTweaker_materials.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Forestry.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Gregtech Unifying.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: contenttweaker\ContentTweaker_crafting.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker\ContentTweaker_materials.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: forestry.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: foundry.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:gregtech]: gregtech\_gregtechMaterials.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\Gregtech Unifying.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\gregtechdust.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\gregtechmisc.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: OreDictionary.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: oredictionary.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: pyrotech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: pyrotech_bloomery.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: ticmat\matRubber.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: ticmat\matTin.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: ticmat\matWroughtIron.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: tinkers.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Tools.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Vanilla.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 4ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 3ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: _common.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: __copyscript.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:gregtech]: _gregtechMaterials.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: _ticContentTweaker\matRubber.zs}
-[PREINITIALIZATION][CLIENT][INFO] Liquid <liquid:rubber> has not been found, trying to use a ghost representative. This message will only be printed once, all subsequent missing fluids will be handled the same way.
-[PREINITIALIZATION][CLIENT][INFO] Item <item:gregtech:meta_item_1:10152> has not been found, trying to use a ghost representative. This message will only be printed once, all subsequent missing items will be handled the same way.
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: _ticContentTweaker\matTin.zs}
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: _ticContentTweaker\matWroughtIron.zs}
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: _tools.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: artisanworktables\basic.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: artisanworktables\mason.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ContentTweaker_crafting.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: ContentTweaker_materials.zs}
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Forestry.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Gregtech Unifying.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: contenttweaker\ContentTweaker_crafting.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: contenttweaker\ContentTweaker_materials.zs}
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: forestry.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: foundry.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:gregtech]: gregtech\_gregtechMaterials.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\Gregtech Unifying.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\gregtechdust.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\gregtechmisc.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: OreDictionary.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: oredictionary.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: pyrotech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: pyrotech_bloomery.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: ticmat\matRubber.zs}
+[PREINITIALIZATION][CLIENT][INFO] Liquid <liquid:rubber> has not been found, trying to use a ghost representative. This message will only be printed once, all subsequent missing fluids will be handled the same way.
+[PREINITIALIZATION][CLIENT][INFO] Item <item:gregtech:meta_item_1:10152> has not been found, trying to use a ghost representative. This message will only be printed once, all subsequent missing items will be handled the same way.
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: ticmat\matTin.zs}
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: ticmat\matWroughtIron.zs}
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: tinkers.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Tools.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Vanilla.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 332ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 345ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [gregtech]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [gregtech]
 [PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: _common.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: __copyscript.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Loading Script: {[0:gregtech]: _gregtechMaterials.zs}
-[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: _ticContentTweaker\matRubber.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: _ticContentTweaker\matTin.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: _ticContentTweaker\matWroughtIron.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: _tools.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: artisanworktables\basic.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: artisanworktables\mason.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ContentTweaker_crafting.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: ContentTweaker_materials.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Forestry.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Gregtech Unifying.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: contenttweaker\ContentTweaker_crafting.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker\ContentTweaker_materials.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: forestry.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: foundry.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Loading Script: {[0:gregtech]: gregtech\_gregtechMaterials.zs}
+[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\Gregtech Unifying.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\gregtechdust.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\gregtechmisc.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: OreDictionary.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: oredictionary.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: pyrotech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: pyrotech_bloomery.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: ticmat\matRubber.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: ticmat\matTin.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: ticmat\matWroughtIron.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: tinkers.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Tools.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Vanilla.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 33ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 32ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [gregtech], [nc_preinit]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [nc_preinit]
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: _common.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: __copyscript.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:gregtech]: _gregtechMaterials.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: _ticContentTweaker\matRubber.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: _ticContentTweaker\matTin.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: _ticContentTweaker\matWroughtIron.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: _tools.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: artisanworktables\basic.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: artisanworktables\mason.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ContentTweaker_crafting.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: ContentTweaker_materials.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Forestry.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Gregtech Unifying.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: contenttweaker\ContentTweaker_crafting.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker\ContentTweaker_materials.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: forestry.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: foundry.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:gregtech]: gregtech\_gregtechMaterials.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\Gregtech Unifying.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\gregtechdust.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\gregtechmisc.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: OreDictionary.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: oredictionary.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: pyrotech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: pyrotech_bloomery.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: ticmat\matRubber.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: ticmat\matTin.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: ticmat\matWroughtIron.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: tinkers.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Tools.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Vanilla.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 0ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 1ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [gregtech], [nc_preinit], [qmd_preinit]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [qmd_preinit]
 [PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: _common.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: __copyscript.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:gregtech]: _gregtechMaterials.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: _ticContentTweaker\matRubber.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: _ticContentTweaker\matTin.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: _ticContentTweaker\matWroughtIron.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: _tools.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: artisanworktables\basic.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: artisanworktables\mason.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ContentTweaker_crafting.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: ContentTweaker_materials.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Forestry.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Gregtech Unifying.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: contenttweaker\ContentTweaker_crafting.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker\ContentTweaker_materials.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: forestry.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: foundry.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:gregtech]: gregtech\_gregtechMaterials.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\Gregtech Unifying.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\gregtechdust.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\gregtechmisc.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: OreDictionary.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: oredictionary.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: pyrotech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: pyrotech_bloomery.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: ticmat\matRubber.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: ticmat\matTin.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: ticmat\matWroughtIron.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: tinkers.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Tools.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Vanilla.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 0ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 1ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [gregtech], [nc_preinit], [qmd_preinit], [recipeevent | crafttweaker]]
 [INITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: _common.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: __copyscript.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:gregtech]: _gregtechMaterials.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: _ticContentTweaker\matRubber.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: _ticContentTweaker\matTin.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: _ticContentTweaker\matWroughtIron.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: artisanworktables\basic.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: artisanworktables\mason.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ContentTweaker_crafting.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: ContentTweaker_materials.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Forestry.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Gregtech Unifying.zs}
-[INITIALIZATION][CLIENT][INFO] Adding Amethyst Ore to ore dictionary entry oreAmethyst
-[INITIALIZATION][CLIENT][INFO] Adding Copper Ore to ore dictionary entry oreCopper
-[INITIALIZATION][CLIENT][INFO] Adding Quartz Ore to ore dictionary entry oreQuartz
-[INITIALIZATION][CLIENT][INFO] Adding Quartz Ore to ore dictionary entry oreQuartz
-[INITIALIZATION][CLIENT][INFO] Adding Silver Ore to ore dictionary entry oreSilver
-[INITIALIZATION][CLIENT][INFO] Adding Aluminium Ingot to ore dictionary entry ingotAluminum
-[INITIALIZATION][CLIENT][INFO] Adding invalid item to ore dictionary entry ingotAluminum
-[INITIALIZATION][CLIENT][INFO] Adding Copper Ingot to ore dictionary entry ingotCopper
-[INITIALIZATION][CLIENT][INFO] Adding Copper Ingot to ore dictionary entry ingotCopper
-[INITIALIZATION][CLIENT][INFO] Adding Lead Ingot to ore dictionary entry ingotLead
-[INITIALIZATION][CLIENT][INFO] Adding Tin Ingot to ore dictionary entry ingotTin
-[INITIALIZATION][CLIENT][INFO] Adding Silver Ingot to ore dictionary entry ingotSilver
-[INITIALIZATION][CLIENT][INFO] Adding Silver Ingot to ore dictionary entry ingotSilver
-[INITIALIZATION][CLIENT][INFO] Adding invalid item to ore dictionary entry ingotConstantan
-[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry plateAluminium to plateAluminum
-[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry plateCupronickel to plateConstantan
-[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry blockAluminium to blockAluminum
-[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry blockCupronickel to blockConstantan
-[INITIALIZATION][CLIENT][INFO] Adding Block of Copper to ore dictionary entry blockCopper
-[INITIALIZATION][CLIENT][INFO] Adding Block of Silver to ore dictionary entry blockSilver
-[INITIALIZATION][CLIENT][INFO] Adding invalid item to ore dictionary entry dustAluminum
-[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry dustConstantan to dustCupronickel
-[INITIALIZATION][CLIENT][INFO] Adding Copper Dust to ore dictionary entry dustCopper
-[INITIALIZATION][CLIENT][INFO] Adding Iron Dust to ore dictionary entry dustIron
-[INITIALIZATION][CLIENT][INFO] Adding Silver Dust to ore dictionary entry dustSilver
-[INITIALIZATION][CLIENT][INFO] Adding Gold Dust to ore dictionary entry dustGold
-[INITIALIZATION][CLIENT][INFO] Adding invalid item to ore dictionary entry dustEnder
-[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry nuggetAluminium to nuggetAluminum
-[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry nuggetCupronickel to nuggetConstantan
-[INITIALIZATION][CLIENT][INFO] Adding Copper Nugget to ore dictionary entry nuggetCopper
-[INITIALIZATION][CLIENT][INFO] Adding Silver Nugget to ore dictionary entry nuggetSilver
-[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry stickAluminium to stickAluminum
-[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry gearCupronickel to gearConstantan
-[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry gearAluminium to gearAluminum
-[INITIALIZATION][CLIENT][INFO] Adding Flour to ore dictionary entry dustWheat
-[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry ingotChrome to ingotChromium
-[INITIALIZATION][CLIENT][INFO] Ore Removal
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Ore from ore dictionary entry oreAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Ore from ore dictionary entry oreAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Nether Quartz Ore from ore dictionary entry oreQuartz
-[INITIALIZATION][CLIENT][INFO] Removing Quartz Ore from ore dictionary entry oreQuartz
-[INITIALIZATION][CLIENT][INFO] Removing Quartz Ore from ore dictionary entry oreQuartz
-[INITIALIZATION][CLIENT][INFO] Removing Quartz Ore from ore dictionary entry oreQuartz
-[INITIALIZATION][CLIENT][INFO] Removing Iron Ore from ore dictionary entry oreIron
-[INITIALIZATION][CLIENT][INFO] Removing Iron Ore from ore dictionary entry oreIron
-[INITIALIZATION][CLIENT][INFO] Removing Tin Ore from ore dictionary entry oreTin
-[INITIALIZATION][CLIENT][INFO] Removing Tin Ore from ore dictionary entry oreTin
-[INITIALIZATION][CLIENT][INFO] Removing Tin Ore from ore dictionary entry oreTin
-[INITIALIZATION][CLIENT][INFO] Removing Tin Ore from ore dictionary entry oreTin
-[INITIALIZATION][CLIENT][INFO] Removing Tin Ore from ore dictionary entry oreTin
-[INITIALIZATION][CLIENT][INFO] Removing Cinnabar Ore from ore dictionary entry oreCinnabar
-[INITIALIZATION][CLIENT][INFO] Removing Lead Ore from ore dictionary entry oreLead
-[INITIALIZATION][CLIENT][INFO] Removing Lead Ore from ore dictionary entry oreLead
-[INITIALIZATION][CLIENT][INFO] Removing Lead Ore from ore dictionary entry oreLead
-[INITIALIZATION][CLIENT][INFO] Removing Coal Ore from ore dictionary entry oreCoal
-[INITIALIZATION][CLIENT][INFO] Removing Coal Ore from ore dictionary entry oreCoal
-[INITIALIZATION][CLIENT][INFO] Removing Cobalt Ore from ore dictionary entry oreCobalt
-[INITIALIZATION][CLIENT][INFO] Removing Diamond Ore from ore dictionary entry oreDiamond
-[INITIALIZATION][CLIENT][INFO] Removing Diamond Ore from ore dictionary entry oreDiamond
-[INITIALIZATION][CLIENT][INFO] Removing Volcanic Diamond Ore from ore dictionary entry oreDiamond
-[INITIALIZATION][CLIENT][INFO] Removing Emerald Ore from ore dictionary entry oreEmerald
-[INITIALIZATION][CLIENT][INFO] Removing Emerald Ore from ore dictionary entry oreEmerald
-[INITIALIZATION][CLIENT][INFO] Removing Platinum Ore from ore dictionary entry orePlatinum
-[INITIALIZATION][CLIENT][INFO] Removing Uranium Ore from ore dictionary entry oreUranium
-[INITIALIZATION][CLIENT][INFO] Removing Uranium Ore from ore dictionary entry oreUranium
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Ore from ore dictionary entry oreNickel
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Ore from ore dictionary entry oreNickel
-[INITIALIZATION][CLIENT][INFO] Removing Lapis Lazuli Ore from ore dictionary entry oreLapis
-[INITIALIZATION][CLIENT][INFO] Removing Lapis Lazuli Ore from ore dictionary entry oreLapis
-[INITIALIZATION][CLIENT][INFO] Removing Rutile Ore from ore dictionary entry oreTitanium
-[INITIALIZATION][CLIENT][INFO] Removing Rutile Ore from ore dictionary entry oreRutile
-[INITIALIZATION][CLIENT][INFO] Removing Mana Infused Ore from ore dictionary entry oreMithril
-[INITIALIZATION][CLIENT][INFO] Removing Silver Ore from ore dictionary entry oreSilver
-[INITIALIZATION][CLIENT][INFO] Removing Silver Ore from ore dictionary entry oreSilver
-[INITIALIZATION][CLIENT][INFO] Removing Silver Ore from ore dictionary entry oreSilver
-[INITIALIZATION][CLIENT][INFO] Removing Lithium Ore from ore dictionary entry oreLithium
-[INITIALIZATION][CLIENT][INFO] Removing Magnesium Ore from ore dictionary entry oreMagnesium
-[INITIALIZATION][CLIENT][INFO] Removing Nether Quartz Ore from ore dictionary entry oreNetherQuartz
-[INITIALIZATION][CLIENT][INFO] Removing Gold Ore from ore dictionary entry oreGold
-[INITIALIZATION][CLIENT][INFO] Removing Gold Ore from ore dictionary entry oreGold
-[INITIALIZATION][CLIENT][INFO] Removing Amethyst Ore from ore dictionary entry oreAmethyst
-[INITIALIZATION][CLIENT][INFO] Removing Ender Amethyst Ore from ore dictionary entry oreAmethyst
-[INITIALIZATION][CLIENT][INFO] Removing Iridium Ore from ore dictionary entry oreIridium
-[INITIALIZATION][CLIENT][INFO] Removing Iridium Ore from ore dictionary entry oreIridium
-[INITIALIZATION][CLIENT][INFO] Removing Redstone Ore from ore dictionary entry oreRedstone
-[INITIALIZATION][CLIENT][INFO] Removing Thorium Ore from ore dictionary entry oreThorium
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ore from ore dictionary entry oreCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ore from ore dictionary entry oreCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ore from ore dictionary entry oreCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ore from ore dictionary entry oreCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ore from ore dictionary entry oreCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ore from ore dictionary entry oreCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ore from ore dictionary entry oreCopper
-[INITIALIZATION][CLIENT][INFO] Removing Boron Ore from ore dictionary entry oreBoron
-[INITIALIZATION][CLIENT][INFO] Finished Ore Removal!
-[INITIALIZATION][CLIENT][INFO] Starting Plate Removal
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Plate from ore dictionary entry plateBronze
-[INITIALIZATION][CLIENT][INFO] Removing Iridium Plate from ore dictionary entry plateIridium
-[INITIALIZATION][CLIENT][INFO] Removing Iridium Plate from ore dictionary entry plateIridium
-[INITIALIZATION][CLIENT][INFO] Removing Titanium Iridium Alloy Plate from ore dictionary entry plateTitaniumIridium
-[INITIALIZATION][CLIENT][INFO] Removing Lead Plate from ore dictionary entry plateLead
-[INITIALIZATION][CLIENT][INFO] Removing Lead Plate from ore dictionary entry plateLead
-[INITIALIZATION][CLIENT][INFO] Removing Uranium Plate from ore dictionary entry plateUranium
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Plate from ore dictionary entry plateNickel
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Plate from ore dictionary entry plateNickel
-[INITIALIZATION][CLIENT][INFO] Removing Titanium Plate from ore dictionary entry plateTitanium
-[INITIALIZATION][CLIENT][INFO] Removing Silicon Plate from ore dictionary entry plateSilicon
-[INITIALIZATION][CLIENT][INFO] Removing Brass Plate from ore dictionary entry plateBrass
-[INITIALIZATION][CLIENT][INFO] Removing Iron Plate from ore dictionary entry plateIron
-[INITIALIZATION][CLIENT][INFO] Removing Iron Plate from ore dictionary entry plateIron
-[INITIALIZATION][CLIENT][INFO] Removing Iron Plate from ore dictionary entry plateIron
-[INITIALIZATION][CLIENT][INFO] Removing Iron Plate from ore dictionary entry plateIron
-[INITIALIZATION][CLIENT][INFO] Removing Platinum Plate from ore dictionary entry platePlatinum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Plate from ore dictionary entry plateAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Plate from ore dictionary entry plateAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Plate from ore dictionary entry plateAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Silver Plate from ore dictionary entry plateSilver
-[INITIALIZATION][CLIENT][INFO] Removing Silver Plate from ore dictionary entry plateSilver
-[INITIALIZATION][CLIENT][INFO] Removing Steel Plate from ore dictionary entry plateSteel
-[INITIALIZATION][CLIENT][INFO] Removing Steel Plate from ore dictionary entry plateSteel
-[INITIALIZATION][CLIENT][INFO] Removing Steel Plate from ore dictionary entry plateSteel
-[INITIALIZATION][CLIENT][INFO] Removing Copper Plate from ore dictionary entry plateCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Plate from ore dictionary entry plateCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Plate from ore dictionary entry plateCopper
-[INITIALIZATION][CLIENT][INFO] Removing Enderium Plate from ore dictionary entry plateEnderium
-[INITIALIZATION][CLIENT][INFO] Removing Signalum Plate from ore dictionary entry plateSignalum
-[INITIALIZATION][CLIENT][INFO] Removing Electrum Plate from ore dictionary entry plateElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Electrum Plate from ore dictionary entry plateElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Gold Plate from ore dictionary entry plateGold
-[INITIALIZATION][CLIENT][INFO] Removing Gold Plate from ore dictionary entry plateGold
-[INITIALIZATION][CLIENT][INFO] Removing Gold Plate from ore dictionary entry plateGold
-[INITIALIZATION][CLIENT][INFO] Removing Constantan Plate from ore dictionary entry plateConstantan
-[INITIALIZATION][CLIENT][INFO] Removing Constantan Plate from ore dictionary entry plateConstantan
-[INITIALIZATION][CLIENT][INFO] Removing Lumium Plate from ore dictionary entry plateLumium
-[INITIALIZATION][CLIENT][INFO] Removing Titanium Aluminide Plate from ore dictionary entry plateTitaniumAluminide
-[INITIALIZATION][CLIENT][INFO] Removing Invar Plate from ore dictionary entry plateInvar
-[INITIALIZATION][CLIENT][INFO] Removing Tin Plate from ore dictionary entry plateTin
-[INITIALIZATION][CLIENT][INFO] Removing Tin Plate from ore dictionary entry plateTin
-[INITIALIZATION][CLIENT][INFO] Finished Plate Removal!
-[INITIALIZATION][CLIENT][INFO] Starting Ingot Removal!
-[INITIALIZATION][CLIENT][INFO] Removing Constantan Ingot from ore dictionary entry ingotConstantan
-[INITIALIZATION][CLIENT][INFO] Removing Constantan Ingot from ore dictionary entry ingotConstantan
-[INITIALIZATION][CLIENT][INFO] Removing Silver Ingot from ore dictionary entry ingotSilver
-[INITIALIZATION][CLIENT][INFO] Removing Silver Ingot from ore dictionary entry ingotSilver
-[INITIALIZATION][CLIENT][INFO] Removing Silver Ingot from ore dictionary entry ingotSilver
-[INITIALIZATION][CLIENT][INFO] Removing Silver Ingot from ore dictionary entry ingotSilver
-[INITIALIZATION][CLIENT][INFO] Removing Silver Ingot from ore dictionary entry ingotSilver
-[INITIALIZATION][CLIENT][INFO] Removing Chromium Ingot from ore dictionary entry ingotChromium
-[INITIALIZATION][CLIENT][INFO] Removing Magnesium Ingot from ore dictionary entry ingotMagnesium
-[INITIALIZATION][CLIENT][INFO] Removing Electrum Ingot from ore dictionary entry ingotElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Electrum Ingot from ore dictionary entry ingotElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Zirconium Ingot from ore dictionary entry ingotZirconium
-[INITIALIZATION][CLIENT][INFO] Removing Invar Ingot from ore dictionary entry ingotInvar
-[INITIALIZATION][CLIENT][INFO] Removing Nichrome Ingot from ore dictionary entry ingotNichrome
-[INITIALIZATION][CLIENT][INFO] Removing Tungsten Ingot from ore dictionary entry ingotTungsten
-[INITIALIZATION][CLIENT][INFO] Removing Lumium Ingot from ore dictionary entry ingotLumium
-[INITIALIZATION][CLIENT][INFO] Removing Tin Ingot from ore dictionary entry ingotTin
-[INITIALIZATION][CLIENT][INFO] Removing Tin Ingot from ore dictionary entry ingotTin
-[INITIALIZATION][CLIENT][INFO] Removing Tin Ingot from ore dictionary entry ingotTin
-[INITIALIZATION][CLIENT][INFO] Removing Tin Ingot from ore dictionary entry ingotTin
-[INITIALIZATION][CLIENT][INFO] Removing Tin Ingot from ore dictionary entry ingotTin
-[INITIALIZATION][CLIENT][INFO] Removing Tin Ingot from ore dictionary entry ingotTin
-[INITIALIZATION][CLIENT][INFO] Removing Strontium Ingot from ore dictionary entry ingotStrontium
-[INITIALIZATION][CLIENT][INFO] Removing Osmium Ingot from ore dictionary entry ingotOsmium
-[INITIALIZATION][CLIENT][INFO] Removing Osmium Ingot from ore dictionary entry ingotOsmium
-[INITIALIZATION][CLIENT][INFO] Removing Calcium Ingot from ore dictionary entry ingotCalcium
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Brass Ingot from ore dictionary entry ingotAlubrass
-[INITIALIZATION][CLIENT][INFO] Removing Niobium Ingot from ore dictionary entry ingotNiobium
-[INITIALIZATION][CLIENT][INFO] Removing Lithium Ingot from ore dictionary entry ingotLithium
-[INITIALIZATION][CLIENT][INFO] Removing Alchemical Brass Ingot from ore dictionary entry ingotBrass
-[INITIALIZATION][CLIENT][INFO] Removing Uranium Ingot from ore dictionary entry ingotUranium
-[INITIALIZATION][CLIENT][INFO] Removing Uranium Ingot from ore dictionary entry ingotUranium
-[INITIALIZATION][CLIENT][INFO] Removing Enderium Ingot from ore dictionary entry ingotEnderium
-[INITIALIZATION][CLIENT][INFO] Removing Platinum Ingot from ore dictionary entry ingotPlatinum
-[INITIALIZATION][CLIENT][INFO] Removing Platinum Ingot from ore dictionary entry ingotPlatinum
-[INITIALIZATION][CLIENT][INFO] Removing Tungsten Carbide Ingot from ore dictionary entry ingotTungstenCarbide
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Ingot from ore dictionary entry ingotNickel
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Ingot from ore dictionary entry ingotNickel
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Ingot from ore dictionary entry ingotNickel
-[INITIALIZATION][CLIENT][INFO] Removing Stainless Steel Ingot from ore dictionary entry ingotStainlessSteel
-[INITIALIZATION][CLIENT][INFO] Removing Mana Infused Ingot from ore dictionary entry ingotMithril
-[INITIALIZATION][CLIENT][INFO] Removing Titanium Iridium Alloy Ingot from ore dictionary entry ingotTitaniumIridium
-[INITIALIZATION][CLIENT][INFO] Removing Silicon Ingot from ore dictionary entry ingotSilicon
-[INITIALIZATION][CLIENT][INFO] Removing Zinc Ingot from ore dictionary entry ingotZinc
-[INITIALIZATION][CLIENT][INFO] Removing Titanium Ingot from ore dictionary entry ingotTitanium
-[INITIALIZATION][CLIENT][INFO] Removing Titanium Ingot from ore dictionary entry ingotTitanium
-[INITIALIZATION][CLIENT][INFO] Removing Cobalt Ingot from ore dictionary entry ingotCobalt
-[INITIALIZATION][CLIENT][INFO] Removing Cobalt Ingot from ore dictionary entry ingotCobalt
-[INITIALIZATION][CLIENT][INFO] Removing Hafnium Ingot from ore dictionary entry ingotHafnium
-[INITIALIZATION][CLIENT][INFO] Removing Lead Ingot from ore dictionary entry ingotLead
-[INITIALIZATION][CLIENT][INFO] Removing Lead Ingot from ore dictionary entry ingotLead
-[INITIALIZATION][CLIENT][INFO] Removing Lead Ingot from ore dictionary entry ingotLead
-[INITIALIZATION][CLIENT][INFO] Removing Lead Ingot from ore dictionary entry ingotLead
-[INITIALIZATION][CLIENT][INFO] Removing Manganese Ingot from ore dictionary entry ingotManganese
-[INITIALIZATION][CLIENT][INFO] Removing Sodium Ingot from ore dictionary entry ingotSodium
-[INITIALIZATION][CLIENT][INFO] Removing Steel Ingot from ore dictionary entry ingotSteel
-[INITIALIZATION][CLIENT][INFO] Removing Steel Ingot from ore dictionary entry ingotSteel
-[INITIALIZATION][CLIENT][INFO] Removing Steel Ingot from ore dictionary entry ingotSteel
-[INITIALIZATION][CLIENT][INFO] Removing Steel Ingot from ore dictionary entry ingotSteel
-[INITIALIZATION][CLIENT][INFO] Removing Steel Ingot from ore dictionary entry ingotSteel
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Ingot from ore dictionary entry ingotAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Ingot from ore dictionary entry ingotAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Ingot from ore dictionary entry ingotAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Ingot from ore dictionary entry ingotAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Ingot from ore dictionary entry ingotAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Thorium Ingot from ore dictionary entry ingotThorium
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Ingot from ore dictionary entry ingotBronze
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Ingot from ore dictionary entry ingotBronze
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Ingot from ore dictionary entry ingotBronze
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Ingot from ore dictionary entry ingotBronze
-[INITIALIZATION][CLIENT][INFO] Removing Yttrium Ingot from ore dictionary entry ingotYttrium
-[INITIALIZATION][CLIENT][INFO] Removing Potassium Ingot from ore dictionary entry ingotPotassium
-[INITIALIZATION][CLIENT][INFO] Removing Niobium-Titanium Ingot from ore dictionary entry ingotNiobiumTitanium
-[INITIALIZATION][CLIENT][INFO] Removing Iridium Ingot from ore dictionary entry ingotIridium
-[INITIALIZATION][CLIENT][INFO] Removing Iridium Ingot from ore dictionary entry ingotIridium
-[INITIALIZATION][CLIENT][INFO] Removing Iridium Ingot from ore dictionary entry ingotIridium
-[INITIALIZATION][CLIENT][INFO] Removing Titanium Aluminide Ingot from ore dictionary entry ingotTitaniumAluminide
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ingot from ore dictionary entry ingotCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ingot from ore dictionary entry ingotCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ingot from ore dictionary entry ingotCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ingot from ore dictionary entry ingotCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ingot from ore dictionary entry ingotCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ingot from ore dictionary entry ingotCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ingot from ore dictionary entry ingotCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ingot from ore dictionary entry ingotCopper
-[INITIALIZATION][CLIENT][INFO] Removing Beryllium Ingot from ore dictionary entry ingotBeryllium
-[INITIALIZATION][CLIENT][INFO] Finished Ingot Removal!
-[INITIALIZATION][CLIENT][INFO] Starting Block Removal!
-[INITIALIZATION][CLIENT][INFO] Removing Block of Cobalt from ore dictionary entry blockCobalt
-[INITIALIZATION][CLIENT][INFO] Removing Block of Uranium from ore dictionary entry blockUranium
-[INITIALIZATION][CLIENT][INFO] Removing Block of Constantan from ore dictionary entry blockConstantan
-[INITIALIZATION][CLIENT][INFO] Removing Block of Constantan from ore dictionary entry blockConstantan
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Block from ore dictionary entry blockAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Block of Aluminum from ore dictionary entry blockAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Block of Aluminium from ore dictionary entry blockAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Block of Platinum from ore dictionary entry blockPlatinum
-[INITIALIZATION][CLIENT][INFO] Removing Titanium Aluminide Block from ore dictionary entry blockTitaniumAluminide
-[INITIALIZATION][CLIENT][INFO] Removing Block of Electrum from ore dictionary entry blockElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Block of Electrum from ore dictionary entry blockElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Block from ore dictionary entry blockBronze
-[INITIALIZATION][CLIENT][INFO] Removing Block of Bronze from ore dictionary entry blockBronze
-[INITIALIZATION][CLIENT][INFO] Removing Block of Bronze from ore dictionary entry blockBronze
-[INITIALIZATION][CLIENT][INFO] Removing Block of Silver from ore dictionary entry blockSilver
-[INITIALIZATION][CLIENT][INFO] Removing Block of Silver from ore dictionary entry blockSilver
-[INITIALIZATION][CLIENT][INFO] Removing Block of Silver from ore dictionary entry blockSilver
-[INITIALIZATION][CLIENT][INFO] Removing Osmium Block from ore dictionary entry blockOsmium
-[INITIALIZATION][CLIENT][INFO] Removing Block of Invar from ore dictionary entry blockInvar
-[INITIALIZATION][CLIENT][INFO] Removing Block of Nickel from ore dictionary entry blockNickel
-[INITIALIZATION][CLIENT][INFO] Removing Block of Nickel from ore dictionary entry blockNickel
-[INITIALIZATION][CLIENT][INFO] Removing Block of Enderium from ore dictionary entry blockEnderium
-[INITIALIZATION][CLIENT][INFO] Removing Block of Charcoal from ore dictionary entry blockCharcoal
-[INITIALIZATION][CLIENT][INFO] Removing Charcoal Block from ore dictionary entry blockCharcoal
-[INITIALIZATION][CLIENT][INFO] Removing Block of Charcoal from ore dictionary entry blockCharcoal
-[INITIALIZATION][CLIENT][INFO] Removing Block of Charcoal from ore dictionary entry blockCharcoal
-[INITIALIZATION][CLIENT][INFO] Removing Titanium Iridium Alloy Block from ore dictionary entry blockTitaniumIridium
-[INITIALIZATION][CLIENT][INFO] Removing Block of Copper from ore dictionary entry blockCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Block from ore dictionary entry blockCopper
-[INITIALIZATION][CLIENT][INFO] Removing Block of Copper from ore dictionary entry blockCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Block from ore dictionary entry blockCopper
-[INITIALIZATION][CLIENT][INFO] Removing Block of Copper from ore dictionary entry blockCopper
-[INITIALIZATION][CLIENT][INFO] Removing Block of Copper from ore dictionary entry blockCopper
-[INITIALIZATION][CLIENT][INFO] Removing Block of Tin from ore dictionary entry blockTin
-[INITIALIZATION][CLIENT][INFO] Removing Tin Block from ore dictionary entry blockTin
-[INITIALIZATION][CLIENT][INFO] Removing Block of Tin from ore dictionary entry blockTin
-[INITIALIZATION][CLIENT][INFO] Removing Tin Block from ore dictionary entry blockTin
-[INITIALIZATION][CLIENT][INFO] Removing Titanium Block from ore dictionary entry blockTitanium
-[INITIALIZATION][CLIENT][INFO] Removing Brass Block from ore dictionary entry blockBrass
-[INITIALIZATION][CLIENT][INFO] Removing Block of Lead from ore dictionary entry blockLead
-[INITIALIZATION][CLIENT][INFO] Removing Block of Lead from ore dictionary entry blockLead
-[INITIALIZATION][CLIENT][INFO] Removing Block of Steel from ore dictionary entry blockSteel
-[INITIALIZATION][CLIENT][INFO] Removing Steel Block from ore dictionary entry blockSteel
-[INITIALIZATION][CLIENT][INFO] Removing Steel Block from ore dictionary entry blockSteel
-[INITIALIZATION][CLIENT][INFO] Removing Block of Steel from ore dictionary entry blockSteel
-[INITIALIZATION][CLIENT][INFO] Removing Salt Block from ore dictionary entry blockSalt
-[INITIALIZATION][CLIENT][INFO] Removing Block of Lumium from ore dictionary entry blockLumium
-[INITIALIZATION][CLIENT][INFO] Removing Block of Iridium from ore dictionary entry blockIridium
-[INITIALIZATION][CLIENT][INFO] Removing Iridium Block from ore dictionary entry blockIridium
-[INITIALIZATION][CLIENT][INFO] Finished Block Removal!
-[INITIALIZATION][CLIENT][INFO] Starting Dust Removal!
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Grit from ore dictionary entry dustAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Aluminum from ore dictionary entry dustAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Dust from ore dictionary entry dustAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Gold from ore dictionary entry dustGold
-[INITIALIZATION][CLIENT][INFO] Removing Gold Grit from ore dictionary entry dustGold
-[INITIALIZATION][CLIENT][INFO] Removing Gold Dust from ore dictionary entry dustGold
-[INITIALIZATION][CLIENT][INFO] Removing Crushed Gold from ore dictionary entry dustGold
-[INITIALIZATION][CLIENT][INFO] Removing Gold Dust from ore dictionary entry dustGold
-[INITIALIZATION][CLIENT][INFO] Removing Gold Dust from ore dictionary entry dustGold
-[INITIALIZATION][CLIENT][INFO] Removing Gold Dust from ore dictionary entry dustGold
-[INITIALIZATION][CLIENT][INFO] Removing Gold Sand from ore dictionary entry dustGold
-[INITIALIZATION][CLIENT][INFO] Removing Crushed Quartz from ore dictionary entry dustNetherQuartz
-[INITIALIZATION][CLIENT][INFO] Removing Nether Quartz Dust from ore dictionary entry dustNetherQuartz
-[INITIALIZATION][CLIENT][INFO] Removing Pyrotheum Dust from ore dictionary entry dustPyrotheum
-[INITIALIZATION][CLIENT][INFO] Removing Crushed Coal from ore dictionary entry dustCoal
-[INITIALIZATION][CLIENT][INFO] Removing Coal Sand from ore dictionary entry dustCoal
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Coal from ore dictionary entry dustCoal
-[INITIALIZATION][CLIENT][INFO] Removing Sawdust from ore dictionary entry dustWood
-[INITIALIZATION][CLIENT][INFO] Removing Sawdust from ore dictionary entry dustWood
-[INITIALIZATION][CLIENT][INFO] Removing Crushed Diamond from ore dictionary entry dustDiamond
-[INITIALIZATION][CLIENT][INFO] Removing Diamond Dust from ore dictionary entry dustDiamond
-[INITIALIZATION][CLIENT][INFO] Removing Lumium Blend from ore dictionary entry dustLumium
-[INITIALIZATION][CLIENT][INFO] Removing Titanium Iridium Alloy Dust from ore dictionary entry dustTitaniumIridium
-[INITIALIZATION][CLIENT][INFO] Removing Certus Quartz Dust from ore dictionary entry dustCertusQuartz
-[INITIALIZATION][CLIENT][INFO] Removing Obsidian Dust from ore dictionary entry dustObsidian
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Obsidian from ore dictionary entry dustObsidian
-[INITIALIZATION][CLIENT][INFO] Removing Electrum Grit from ore dictionary entry dustElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Electrum Blend from ore dictionary entry dustElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Silver Dust from ore dictionary entry dustSilver
-[INITIALIZATION][CLIENT][INFO] Removing Silver Grit from ore dictionary entry dustSilver
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Silver from ore dictionary entry dustSilver
-[INITIALIZATION][CLIENT][INFO] Removing Silver Dust from ore dictionary entry dustSilver
-[INITIALIZATION][CLIENT][INFO] Removing Crushed Lapis from ore dictionary entry dustLapis
-[INITIALIZATION][CLIENT][INFO] Removing Uranium Grit from ore dictionary entry dustUranium
-[INITIALIZATION][CLIENT][INFO] Removing Lithium Dust from ore dictionary entry dustLithium
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Lead from ore dictionary entry dustLead
-[INITIALIZATION][CLIENT][INFO] Removing Lead Dust from ore dictionary entry dustLead
-[INITIALIZATION][CLIENT][INFO] Removing Lead Grit from ore dictionary entry dustLead
-[INITIALIZATION][CLIENT][INFO] Removing Silicon Dust from ore dictionary entry dustSilicon
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Nickel from ore dictionary entry dustNickel
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Grit from ore dictionary entry dustNickel
-[INITIALIZATION][CLIENT][INFO] Removing Constantan Blend from ore dictionary entry dustConstantan
-[INITIALIZATION][CLIENT][INFO] Removing Constantan Grit from ore dictionary entry dustConstantan
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Charcoal from ore dictionary entry dustCharcoal
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Blend from ore dictionary entry dustBronze
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Tin from ore dictionary entry dustTin
-[INITIALIZATION][CLIENT][INFO] Removing Tin Dust from ore dictionary entry dustTin
-[INITIALIZATION][CLIENT][INFO] Removing Tin Dust from ore dictionary entry dustTin
-[INITIALIZATION][CLIENT][INFO] Removing Iron Dust from ore dictionary entry dustIron
-[INITIALIZATION][CLIENT][INFO] Removing Iron Dust from ore dictionary entry dustIron
-[INITIALIZATION][CLIENT][INFO] Removing Iron Dust from ore dictionary entry dustIron
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Iron from ore dictionary entry dustIron
-[INITIALIZATION][CLIENT][INFO] Removing Iron Grit from ore dictionary entry dustIron
-[INITIALIZATION][CLIENT][INFO] Removing Crushed Iron from ore dictionary entry dustIron
-[INITIALIZATION][CLIENT][INFO] Removing Iron Dust from ore dictionary entry dustIron
-[INITIALIZATION][CLIENT][INFO] Removing Iron Sand from ore dictionary entry dustIron
-[INITIALIZATION][CLIENT][INFO] Removing Flour from ore dictionary entry dustWheat
-[INITIALIZATION][CLIENT][INFO] Removing Flour from ore dictionary entry dustWheat
-[INITIALIZATION][CLIENT][INFO] Removing Flour from ore dictionary entry dustWheat
-[INITIALIZATION][CLIENT][INFO] Removing Invar Blend from ore dictionary entry dustInvar
-[INITIALIZATION][CLIENT][INFO] Removing Osmium Dust from ore dictionary entry dustOsmium
-[INITIALIZATION][CLIENT][INFO] Removing Crushed Emerald from ore dictionary entry dustEmerald
-[INITIALIZATION][CLIENT][INFO] Removing Steel Blend from ore dictionary entry dustSteel
-[INITIALIZATION][CLIENT][INFO] Removing Steel Grit from ore dictionary entry dustSteel
-[INITIALIZATION][CLIENT][INFO] Removing Steel Dust from ore dictionary entry dustSteel
-[INITIALIZATION][CLIENT][INFO] Removing Steel Dust from ore dictionary entry dustSteel
-[INITIALIZATION][CLIENT][INFO] Removing Cryotheum Dust from ore dictionary entry dustCryotheum
-[INITIALIZATION][CLIENT][INFO] Removing Ender Dust from ore dictionary entry dustEnder
-[INITIALIZATION][CLIENT][INFO] Removing Niter from ore dictionary entry dustSaltpeter
-[INITIALIZATION][CLIENT][INFO] Removing Nitrate Dust from ore dictionary entry dustSaltpeter
-[INITIALIZATION][CLIENT][INFO] Removing Coke Dust from ore dictionary entry dustCoke
-[INITIALIZATION][CLIENT][INFO] Removing Enderium Blend from ore dictionary entry dustEnderium
-[INITIALIZATION][CLIENT][INFO] Removing Iridium Dust from ore dictionary entry dustIridium
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Iridium from ore dictionary entry dustIridium
-[INITIALIZATION][CLIENT][INFO] Removing Copper Dust from ore dictionary entry dustCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Dust from ore dictionary entry dustCopper
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Copper from ore dictionary entry dustCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Dust from ore dictionary entry dustCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Grit from ore dictionary entry dustCopper
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Platinum from ore dictionary entry dustPlatinum
-[INITIALIZATION][CLIENT][INFO] Removing Sulfur Dust from ore dictionary entry dustSulfur
-[INITIALIZATION][CLIENT][INFO] Removing Sulfur from ore dictionary entry dustSulfur
-[INITIALIZATION][CLIENT][INFO] Removing Sulfur Dust from ore dictionary entry dustSulfur
-[INITIALIZATION][CLIENT][INFO] Removing Titanium Dust from ore dictionary entry dustTitanium
-[INITIALIZATION][CLIENT][INFO] Finished Dust Removal!
-[INITIALIZATION][CLIENT][INFO] Starting Nugget Removal!
-[INITIALIZATION][CLIENT][INFO] Removing Enderium Nugget from ore dictionary entry nuggetEnderium
-[INITIALIZATION][CLIENT][INFO] Removing Iron Nugget from ore dictionary entry nuggetIron
-[INITIALIZATION][CLIENT][INFO] Removing Iron Nugget from ore dictionary entry nuggetIron
-[INITIALIZATION][CLIENT][INFO] Removing Cobalt Nugget from ore dictionary entry nuggetCobalt
-[INITIALIZATION][CLIENT][INFO] Removing Silicon Nugget from ore dictionary entry nuggetSilicon
-[INITIALIZATION][CLIENT][INFO] Removing Steel Nugget from ore dictionary entry nuggetSteel
-[INITIALIZATION][CLIENT][INFO] Removing Steel Nugget from ore dictionary entry nuggetSteel
-[INITIALIZATION][CLIENT][INFO] Removing Steel Nugget from ore dictionary entry nuggetSteel
-[INITIALIZATION][CLIENT][INFO] Removing Steel Nugget from ore dictionary entry nuggetSteel
-[INITIALIZATION][CLIENT][INFO] Removing Tin Nugget from ore dictionary entry nuggetTin
-[INITIALIZATION][CLIENT][INFO] Removing Tin Nugget from ore dictionary entry nuggetTin
-[INITIALIZATION][CLIENT][INFO] Removing Tin Nugget from ore dictionary entry nuggetTin
-[INITIALIZATION][CLIENT][INFO] Removing Tin Nugget from ore dictionary entry nuggetTin
-[INITIALIZATION][CLIENT][INFO] Removing Tin Nugget from ore dictionary entry nuggetTin
-[INITIALIZATION][CLIENT][INFO] Removing Invar Nugget from ore dictionary entry nuggetInvar
-[INITIALIZATION][CLIENT][INFO] Removing Uranium Nugget from ore dictionary entry nuggetUranium
-[INITIALIZATION][CLIENT][INFO] Removing Lumium Nugget from ore dictionary entry nuggetLumium
-[INITIALIZATION][CLIENT][INFO] Removing Titanium Nugget from ore dictionary entry nuggetTitanium
-[INITIALIZATION][CLIENT][INFO] Removing Titanium Aluminide Nugget from ore dictionary entry nuggetTitaniumAluminide
-[INITIALIZATION][CLIENT][INFO] Removing Lead Nugget from ore dictionary entry nuggetLead
-[INITIALIZATION][CLIENT][INFO] Removing Lead Nugget from ore dictionary entry nuggetLead
-[INITIALIZATION][CLIENT][INFO] Removing Lead Nugget from ore dictionary entry nuggetLead
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Nugget from ore dictionary entry nuggetBronze
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Nugget from ore dictionary entry nuggetBronze
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Nugget from ore dictionary entry nuggetBronze
-[INITIALIZATION][CLIENT][INFO] Removing Platinum Nugget from ore dictionary entry nuggetPlatinum
-[INITIALIZATION][CLIENT][INFO] Removing Constantan Nugget from ore dictionary entry nuggetConstantan
-[INITIALIZATION][CLIENT][INFO] Removing Constantan Nugget from ore dictionary entry nuggetConstantan
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Nugget from ore dictionary entry nuggetNickel
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Nugget from ore dictionary entry nuggetNickel
-[INITIALIZATION][CLIENT][INFO] Removing Electrum Nugget from ore dictionary entry nuggetElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Electrum Nugget from ore dictionary entry nuggetElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Titanium Iridium Alloy Nugget from ore dictionary entry nuggetTitaniumIridium
-[INITIALIZATION][CLIENT][INFO] Removing Copper Nugget from ore dictionary entry nuggetCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Nugget from ore dictionary entry nuggetCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Nugget from ore dictionary entry nuggetCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Nugget from ore dictionary entry nuggetCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Nugget from ore dictionary entry nuggetCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Nugget from ore dictionary entry nuggetCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Nugget from ore dictionary entry nuggetCopper
-[INITIALIZATION][CLIENT][INFO] Removing Silver Nugget from ore dictionary entry nuggetSilver
-[INITIALIZATION][CLIENT][INFO] Removing Silver Nugget from ore dictionary entry nuggetSilver
-[INITIALIZATION][CLIENT][INFO] Removing Silver Nugget from ore dictionary entry nuggetSilver
-[INITIALIZATION][CLIENT][INFO] Removing Silver Nugget from ore dictionary entry nuggetSilver
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Nugget from ore dictionary entry nuggetAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Nugget from ore dictionary entry nuggetAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Nugget from ore dictionary entry nuggetAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Iridium Nugget from ore dictionary entry nuggetIridium
-[INITIALIZATION][CLIENT][INFO] Removing Iridium Nugget from ore dictionary entry nuggetIridium
-[INITIALIZATION][CLIENT][INFO] Removing Osmium Nugget from ore dictionary entry nuggetOsmium
-[INITIALIZATION][CLIENT][INFO] Finished Nugget Removal!
-[INITIALIZATION][CLIENT][INFO] Starting Rod Removal!
-[INITIALIZATION][CLIENT][INFO] Removing Copper Rod from ore dictionary entry stickCopper
-[INITIALIZATION][CLIENT][INFO] Removing Titanium Rod from ore dictionary entry stickTitanium
-[INITIALIZATION][CLIENT][INFO] Removing Iron Rod from ore dictionary entry stickIron
-[INITIALIZATION][CLIENT][INFO] Removing Iron Rod from ore dictionary entry stickIron
-[INITIALIZATION][CLIENT][INFO] Removing Titanium Aluminide Rod from ore dictionary entry stickTitaniumAluminide
-[INITIALIZATION][CLIENT][INFO] Removing Iridium Rod from ore dictionary entry stickIridium
-[INITIALIZATION][CLIENT][INFO] Removing Steel Rod from ore dictionary entry stickSteel
-[INITIALIZATION][CLIENT][INFO] Removing Steel Rod from ore dictionary entry stickSteel
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Rod from ore dictionary entry stickAluminum
-[INITIALIZATION][CLIENT][INFO] Finished Rod Removal!
-[INITIALIZATION][CLIENT][INFO] Starting Gear Removal!
-[INITIALIZATION][CLIENT][INFO] Removing Enderium Gear from ore dictionary entry gearEnderium
-[INITIALIZATION][CLIENT][INFO] Removing Platinum Gear from ore dictionary entry gearPlatinum
-[INITIALIZATION][CLIENT][INFO] Removing Copper Gear from ore dictionary entry gearCopper
-[INITIALIZATION][CLIENT][INFO] Removing Copper Gear from ore dictionary entry gearCopper
-[INITIALIZATION][CLIENT][INFO] Removing Constantan Gear from ore dictionary entry gearConstantan
-[INITIALIZATION][CLIENT][INFO] Removing Titanium Aluminide Gear from ore dictionary entry gearTitaniumAluminide
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Gear from ore dictionary entry gearAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Iron Gear from ore dictionary entry gearIron
-[INITIALIZATION][CLIENT][INFO] Removing Titanium Gear from ore dictionary entry gearTitanium
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Gear from ore dictionary entry gearNickel
-[INITIALIZATION][CLIENT][INFO] Removing Tin Gear from ore dictionary entry gearTin
-[INITIALIZATION][CLIENT][INFO] Removing Tin Gear from ore dictionary entry gearTin
-[INITIALIZATION][CLIENT][INFO] Removing Invar Gear from ore dictionary entry gearInvar
-[INITIALIZATION][CLIENT][INFO] Removing Steel Gear from ore dictionary entry gearSteel
-[INITIALIZATION][CLIENT][INFO] Removing Steel Gear from ore dictionary entry gearSteel
-[INITIALIZATION][CLIENT][INFO] Removing Emerald Gear from ore dictionary entry gearEmerald
-[INITIALIZATION][CLIENT][INFO] Removing Gold Gear from ore dictionary entry gearGold
-[INITIALIZATION][CLIENT][INFO] Removing Lead Gear from ore dictionary entry gearLead
-[INITIALIZATION][CLIENT][INFO] Removing Lumium Gear from ore dictionary entry gearLumium
-[INITIALIZATION][CLIENT][INFO] Removing Diamond Gear from ore dictionary entry gearDiamond
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Gear from ore dictionary entry gearBronze
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Gear from ore dictionary entry gearBronze
-[INITIALIZATION][CLIENT][INFO] Removing Iridium Gear from ore dictionary entry gearIridium
-[INITIALIZATION][CLIENT][INFO] Removing Titanium Iridium Alloy Gear from ore dictionary entry gearTitaniumIridium
-[INITIALIZATION][CLIENT][INFO] Removing Electrum Gear from ore dictionary entry gearElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Silver Gear from ore dictionary entry gearSilver
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: gregtech\gregtechdust.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: gregtech\gregtechmisc.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: OreDictionary.zs}
-[INITIALIZATION][CLIENT][INFO] Adding Twine to ore dictionary entry string
-[INITIALIZATION][CLIENT][INFO] Adding Salt to ore dictionary entry impureSalt
-[INITIALIZATION][CLIENT][INFO] Adding Tiny Pile of Salt to ore dictionary entry impureSalt
-[INITIALIZATION][CLIENT][INFO] Translating item.Salt.name to River Salt
-[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry dustSalt to itemSalt
-[INITIALIZATION][CLIENT][INFO] Removing Salt from ore dictionary entry itemSalt
-[INITIALIZATION][CLIENT][INFO] Removing River Salt from ore dictionary entry dustSalt
-[INITIALIZATION][CLIENT][INFO] Removing Salt from ore dictionary entry dustSalt
-[INITIALIZATION][CLIENT][INFO] Adding Tomato to ore dictionary entry cropTomato
-[INITIALIZATION][CLIENT][INFO] Adding Onion to ore dictionary entry cropOnion
-[INITIALIZATION][CLIENT][INFO] Adding Cucumber to ore dictionary entry cropCucumber
-[INITIALIZATION][CLIENT][INFO] Adding Olive to ore dictionary entry cropOlive
-[INITIALIZATION][CLIENT][INFO] Adding Lime to ore dictionary entry cropLime
-[INITIALIZATION][CLIENT][INFO] Adding Lemon to ore dictionary entry cropLemon
-[INITIALIZATION][CLIENT][INFO] Altering Casting Recipe(s) for <gregtech:meta_nugget:2>
-[INITIALIZATION][CLIENT][INFO] Altering Casting Recipe(s) for <gregtech:meta_plate:2>
-[INITIALIZATION][CLIENT][INFO] Altering Casting Recipe(s) for <gregtech:meta_gear:2>
-[INITIALIZATION][CLIENT][INFO] Adding Masonry Brick to ore dictionary entry ingotStone
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: pyrotech.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: pyrotech_bloomery.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: tinkers.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Tools.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: _tools.zs}
 [INITIALIZATION][CLIENT][INFO] Starting Tools.zs
 [INITIALIZATION][CLIENT][INFO] Setting max damage of  Wooden AIOT to 1
 [INITIALIZATION][CLIENT][INFO] Adding tooltip for <actuallyadditions:wooden_paxel>: "Most standard tools have been deprecated"
@@ -1214,8 +731,498 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Adding tooltip for <botania:glasspick>: "Tinker's must be used in most circumstances"
 [INITIALIZATION][CLIENT][INFO] Adding tooltip for <botania:glasspick>: "Any tools that have not been deprecated"
 [INITIALIZATION][CLIENT][INFO] Adding tooltip for <botania:glasspick>: "Must be forwarded to the Development Team"
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: artisanworktables\basic.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: artisanworktables\mason.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: contenttweaker\ContentTweaker_crafting.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker\ContentTweaker_materials.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: forestry.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: foundry.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:gregtech]: gregtech\_gregtechMaterials.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: gregtech\Gregtech Unifying.zs}
+[INITIALIZATION][CLIENT][INFO] Adding Amethyst Ore to ore dictionary entry oreAmethyst
+[INITIALIZATION][CLIENT][INFO] Adding Copper Ore to ore dictionary entry oreCopper
+[INITIALIZATION][CLIENT][INFO] Adding Quartz Ore to ore dictionary entry oreQuartz
+[INITIALIZATION][CLIENT][INFO] Adding Quartz Ore to ore dictionary entry oreQuartz
+[INITIALIZATION][CLIENT][INFO] Adding Silver Ore to ore dictionary entry oreSilver
+[INITIALIZATION][CLIENT][INFO] Adding Aluminium Ingot to ore dictionary entry ingotAluminum
+[INITIALIZATION][CLIENT][INFO] Adding invalid item to ore dictionary entry ingotAluminum
+[INITIALIZATION][CLIENT][INFO] Adding Copper Ingot to ore dictionary entry ingotCopper
+[INITIALIZATION][CLIENT][INFO] Adding Copper Ingot to ore dictionary entry ingotCopper
+[INITIALIZATION][CLIENT][INFO] Adding Lead Ingot to ore dictionary entry ingotLead
+[INITIALIZATION][CLIENT][INFO] Adding Tin Ingot to ore dictionary entry ingotTin
+[INITIALIZATION][CLIENT][INFO] Adding Silver Ingot to ore dictionary entry ingotSilver
+[INITIALIZATION][CLIENT][INFO] Adding Silver Ingot to ore dictionary entry ingotSilver
+[INITIALIZATION][CLIENT][INFO] Adding invalid item to ore dictionary entry ingotConstantan
+[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry plateAluminium to plateAluminum
+[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry plateCupronickel to plateConstantan
+[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry blockAluminium to blockAluminum
+[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry blockCupronickel to blockConstantan
+[INITIALIZATION][CLIENT][INFO] Adding Block of Copper to ore dictionary entry blockCopper
+[INITIALIZATION][CLIENT][INFO] Adding Block of Silver to ore dictionary entry blockSilver
+[INITIALIZATION][CLIENT][INFO] Adding invalid item to ore dictionary entry dustAluminum
+[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry dustConstantan to dustCupronickel
+[INITIALIZATION][CLIENT][INFO] Adding Copper Dust to ore dictionary entry dustCopper
+[INITIALIZATION][CLIENT][INFO] Adding Iron Dust to ore dictionary entry dustIron
+[INITIALIZATION][CLIENT][INFO] Adding Silver Dust to ore dictionary entry dustSilver
+[INITIALIZATION][CLIENT][INFO] Adding Gold Dust to ore dictionary entry dustGold
+[INITIALIZATION][CLIENT][INFO] Adding invalid item to ore dictionary entry dustEnder
+[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry nuggetAluminium to nuggetAluminum
+[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry nuggetCupronickel to nuggetConstantan
+[INITIALIZATION][CLIENT][INFO] Adding Copper Nugget to ore dictionary entry nuggetCopper
+[INITIALIZATION][CLIENT][INFO] Adding Silver Nugget to ore dictionary entry nuggetSilver
+[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry stickAluminium to stickAluminum
+[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry gearCupronickel to gearConstantan
+[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry gearAluminium to gearAluminum
+[INITIALIZATION][CLIENT][INFO] Adding Flour to ore dictionary entry dustWheat
+[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry ingotChrome to ingotChromium
+[INITIALIZATION][CLIENT][INFO] Ore Removal
+[INITIALIZATION][CLIENT][INFO] Removing Aluminum Ore from ore dictionary entry oreAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Aluminum Ore from ore dictionary entry oreAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Nether Quartz Ore from ore dictionary entry oreQuartz
+[INITIALIZATION][CLIENT][INFO] Removing Quartz Ore from ore dictionary entry oreQuartz
+[INITIALIZATION][CLIENT][INFO] Removing Quartz Ore from ore dictionary entry oreQuartz
+[INITIALIZATION][CLIENT][INFO] Removing Quartz Ore from ore dictionary entry oreQuartz
+[INITIALIZATION][CLIENT][INFO] Removing Iron Ore from ore dictionary entry oreIron
+[INITIALIZATION][CLIENT][INFO] Removing Iron Ore from ore dictionary entry oreIron
+[INITIALIZATION][CLIENT][INFO] Removing Tin Ore from ore dictionary entry oreTin
+[INITIALIZATION][CLIENT][INFO] Removing Tin Ore from ore dictionary entry oreTin
+[INITIALIZATION][CLIENT][INFO] Removing Tin Ore from ore dictionary entry oreTin
+[INITIALIZATION][CLIENT][INFO] Removing Tin Ore from ore dictionary entry oreTin
+[INITIALIZATION][CLIENT][INFO] Removing Tin Ore from ore dictionary entry oreTin
+[INITIALIZATION][CLIENT][INFO] Removing Cinnabar Ore from ore dictionary entry oreCinnabar
+[INITIALIZATION][CLIENT][INFO] Removing Lead Ore from ore dictionary entry oreLead
+[INITIALIZATION][CLIENT][INFO] Removing Lead Ore from ore dictionary entry oreLead
+[INITIALIZATION][CLIENT][INFO] Removing Lead Ore from ore dictionary entry oreLead
+[INITIALIZATION][CLIENT][INFO] Removing Coal Ore from ore dictionary entry oreCoal
+[INITIALIZATION][CLIENT][INFO] Removing Coal Ore from ore dictionary entry oreCoal
+[INITIALIZATION][CLIENT][INFO] Removing Cobalt Ore from ore dictionary entry oreCobalt
+[INITIALIZATION][CLIENT][INFO] Removing Diamond Ore from ore dictionary entry oreDiamond
+[INITIALIZATION][CLIENT][INFO] Removing Diamond Ore from ore dictionary entry oreDiamond
+[INITIALIZATION][CLIENT][INFO] Removing Volcanic Diamond Ore from ore dictionary entry oreDiamond
+[INITIALIZATION][CLIENT][INFO] Removing Emerald Ore from ore dictionary entry oreEmerald
+[INITIALIZATION][CLIENT][INFO] Removing Emerald Ore from ore dictionary entry oreEmerald
+[INITIALIZATION][CLIENT][INFO] Removing Platinum Ore from ore dictionary entry orePlatinum
+[INITIALIZATION][CLIENT][INFO] Removing Uranium Ore from ore dictionary entry oreUranium
+[INITIALIZATION][CLIENT][INFO] Removing Uranium Ore from ore dictionary entry oreUranium
+[INITIALIZATION][CLIENT][INFO] Removing Nickel Ore from ore dictionary entry oreNickel
+[INITIALIZATION][CLIENT][INFO] Removing Nickel Ore from ore dictionary entry oreNickel
+[INITIALIZATION][CLIENT][INFO] Removing Lapis Lazuli Ore from ore dictionary entry oreLapis
+[INITIALIZATION][CLIENT][INFO] Removing Lapis Lazuli Ore from ore dictionary entry oreLapis
+[INITIALIZATION][CLIENT][INFO] Removing Rutile Ore from ore dictionary entry oreTitanium
+[INITIALIZATION][CLIENT][INFO] Removing Rutile Ore from ore dictionary entry oreRutile
+[INITIALIZATION][CLIENT][INFO] Removing Mana Infused Ore from ore dictionary entry oreMithril
+[INITIALIZATION][CLIENT][INFO] Removing Silver Ore from ore dictionary entry oreSilver
+[INITIALIZATION][CLIENT][INFO] Removing Silver Ore from ore dictionary entry oreSilver
+[INITIALIZATION][CLIENT][INFO] Removing Silver Ore from ore dictionary entry oreSilver
+[INITIALIZATION][CLIENT][INFO] Removing Lithium Ore from ore dictionary entry oreLithium
+[INITIALIZATION][CLIENT][INFO] Removing Magnesium Ore from ore dictionary entry oreMagnesium
+[INITIALIZATION][CLIENT][INFO] Removing Nether Quartz Ore from ore dictionary entry oreNetherQuartz
+[INITIALIZATION][CLIENT][INFO] Removing Gold Ore from ore dictionary entry oreGold
+[INITIALIZATION][CLIENT][INFO] Removing Gold Ore from ore dictionary entry oreGold
+[INITIALIZATION][CLIENT][INFO] Removing Amethyst Ore from ore dictionary entry oreAmethyst
+[INITIALIZATION][CLIENT][INFO] Removing Ender Amethyst Ore from ore dictionary entry oreAmethyst
+[INITIALIZATION][CLIENT][INFO] Removing Iridium Ore from ore dictionary entry oreIridium
+[INITIALIZATION][CLIENT][INFO] Removing Iridium Ore from ore dictionary entry oreIridium
+[INITIALIZATION][CLIENT][INFO] Removing Redstone Ore from ore dictionary entry oreRedstone
+[INITIALIZATION][CLIENT][INFO] Removing Thorium Ore from ore dictionary entry oreThorium
+[INITIALIZATION][CLIENT][INFO] Removing Copper Ore from ore dictionary entry oreCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Ore from ore dictionary entry oreCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Ore from ore dictionary entry oreCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Ore from ore dictionary entry oreCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Ore from ore dictionary entry oreCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Ore from ore dictionary entry oreCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Ore from ore dictionary entry oreCopper
+[INITIALIZATION][CLIENT][INFO] Removing Boron Ore from ore dictionary entry oreBoron
+[INITIALIZATION][CLIENT][INFO] Finished Ore Removal!
+[INITIALIZATION][CLIENT][INFO] Starting Plate Removal
+[INITIALIZATION][CLIENT][INFO] Removing Bronze Plate from ore dictionary entry plateBronze
+[INITIALIZATION][CLIENT][INFO] Removing Iridium Plate from ore dictionary entry plateIridium
+[INITIALIZATION][CLIENT][INFO] Removing Iridium Plate from ore dictionary entry plateIridium
+[INITIALIZATION][CLIENT][INFO] Removing Titanium Iridium Alloy Plate from ore dictionary entry plateTitaniumIridium
+[INITIALIZATION][CLIENT][INFO] Removing Lead Plate from ore dictionary entry plateLead
+[INITIALIZATION][CLIENT][INFO] Removing Lead Plate from ore dictionary entry plateLead
+[INITIALIZATION][CLIENT][INFO] Removing Uranium Plate from ore dictionary entry plateUranium
+[INITIALIZATION][CLIENT][INFO] Removing Nickel Plate from ore dictionary entry plateNickel
+[INITIALIZATION][CLIENT][INFO] Removing Nickel Plate from ore dictionary entry plateNickel
+[INITIALIZATION][CLIENT][INFO] Removing Titanium Plate from ore dictionary entry plateTitanium
+[INITIALIZATION][CLIENT][INFO] Removing Silicon Plate from ore dictionary entry plateSilicon
+[INITIALIZATION][CLIENT][INFO] Removing Brass Plate from ore dictionary entry plateBrass
+[INITIALIZATION][CLIENT][INFO] Removing Iron Plate from ore dictionary entry plateIron
+[INITIALIZATION][CLIENT][INFO] Removing Iron Plate from ore dictionary entry plateIron
+[INITIALIZATION][CLIENT][INFO] Removing Iron Plate from ore dictionary entry plateIron
+[INITIALIZATION][CLIENT][INFO] Removing Iron Plate from ore dictionary entry plateIron
+[INITIALIZATION][CLIENT][INFO] Removing Platinum Plate from ore dictionary entry platePlatinum
+[INITIALIZATION][CLIENT][INFO] Removing Aluminum Plate from ore dictionary entry plateAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Aluminum Plate from ore dictionary entry plateAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Aluminium Plate from ore dictionary entry plateAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Silver Plate from ore dictionary entry plateSilver
+[INITIALIZATION][CLIENT][INFO] Removing Silver Plate from ore dictionary entry plateSilver
+[INITIALIZATION][CLIENT][INFO] Removing Steel Plate from ore dictionary entry plateSteel
+[INITIALIZATION][CLIENT][INFO] Removing Steel Plate from ore dictionary entry plateSteel
+[INITIALIZATION][CLIENT][INFO] Removing Steel Plate from ore dictionary entry plateSteel
+[INITIALIZATION][CLIENT][INFO] Removing Copper Plate from ore dictionary entry plateCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Plate from ore dictionary entry plateCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Plate from ore dictionary entry plateCopper
+[INITIALIZATION][CLIENT][INFO] Removing Enderium Plate from ore dictionary entry plateEnderium
+[INITIALIZATION][CLIENT][INFO] Removing Signalum Plate from ore dictionary entry plateSignalum
+[INITIALIZATION][CLIENT][INFO] Removing Electrum Plate from ore dictionary entry plateElectrum
+[INITIALIZATION][CLIENT][INFO] Removing Electrum Plate from ore dictionary entry plateElectrum
+[INITIALIZATION][CLIENT][INFO] Removing Gold Plate from ore dictionary entry plateGold
+[INITIALIZATION][CLIENT][INFO] Removing Gold Plate from ore dictionary entry plateGold
+[INITIALIZATION][CLIENT][INFO] Removing Gold Plate from ore dictionary entry plateGold
+[INITIALIZATION][CLIENT][INFO] Removing Constantan Plate from ore dictionary entry plateConstantan
+[INITIALIZATION][CLIENT][INFO] Removing Constantan Plate from ore dictionary entry plateConstantan
+[INITIALIZATION][CLIENT][INFO] Removing Lumium Plate from ore dictionary entry plateLumium
+[INITIALIZATION][CLIENT][INFO] Removing Titanium Aluminide Plate from ore dictionary entry plateTitaniumAluminide
+[INITIALIZATION][CLIENT][INFO] Removing Invar Plate from ore dictionary entry plateInvar
+[INITIALIZATION][CLIENT][INFO] Removing Tin Plate from ore dictionary entry plateTin
+[INITIALIZATION][CLIENT][INFO] Removing Tin Plate from ore dictionary entry plateTin
+[INITIALIZATION][CLIENT][INFO] Finished Plate Removal!
+[INITIALIZATION][CLIENT][INFO] Starting Ingot Removal!
+[INITIALIZATION][CLIENT][INFO] Removing Constantan Ingot from ore dictionary entry ingotConstantan
+[INITIALIZATION][CLIENT][INFO] Removing Constantan Ingot from ore dictionary entry ingotConstantan
+[INITIALIZATION][CLIENT][INFO] Removing Silver Ingot from ore dictionary entry ingotSilver
+[INITIALIZATION][CLIENT][INFO] Removing Silver Ingot from ore dictionary entry ingotSilver
+[INITIALIZATION][CLIENT][INFO] Removing Silver Ingot from ore dictionary entry ingotSilver
+[INITIALIZATION][CLIENT][INFO] Removing Silver Ingot from ore dictionary entry ingotSilver
+[INITIALIZATION][CLIENT][INFO] Removing Silver Ingot from ore dictionary entry ingotSilver
+[INITIALIZATION][CLIENT][INFO] Removing Chromium Ingot from ore dictionary entry ingotChromium
+[INITIALIZATION][CLIENT][INFO] Removing Magnesium Ingot from ore dictionary entry ingotMagnesium
+[INITIALIZATION][CLIENT][INFO] Removing Electrum Ingot from ore dictionary entry ingotElectrum
+[INITIALIZATION][CLIENT][INFO] Removing Electrum Ingot from ore dictionary entry ingotElectrum
+[INITIALIZATION][CLIENT][INFO] Removing Zirconium Ingot from ore dictionary entry ingotZirconium
+[INITIALIZATION][CLIENT][INFO] Removing Invar Ingot from ore dictionary entry ingotInvar
+[INITIALIZATION][CLIENT][INFO] Removing Nichrome Ingot from ore dictionary entry ingotNichrome
+[INITIALIZATION][CLIENT][INFO] Removing Tungsten Ingot from ore dictionary entry ingotTungsten
+[INITIALIZATION][CLIENT][INFO] Removing Lumium Ingot from ore dictionary entry ingotLumium
+[INITIALIZATION][CLIENT][INFO] Removing Tin Ingot from ore dictionary entry ingotTin
+[INITIALIZATION][CLIENT][INFO] Removing Tin Ingot from ore dictionary entry ingotTin
+[INITIALIZATION][CLIENT][INFO] Removing Tin Ingot from ore dictionary entry ingotTin
+[INITIALIZATION][CLIENT][INFO] Removing Tin Ingot from ore dictionary entry ingotTin
+[INITIALIZATION][CLIENT][INFO] Removing Tin Ingot from ore dictionary entry ingotTin
+[INITIALIZATION][CLIENT][INFO] Removing Tin Ingot from ore dictionary entry ingotTin
+[INITIALIZATION][CLIENT][INFO] Removing Strontium Ingot from ore dictionary entry ingotStrontium
+[INITIALIZATION][CLIENT][INFO] Removing Osmium Ingot from ore dictionary entry ingotOsmium
+[INITIALIZATION][CLIENT][INFO] Removing Osmium Ingot from ore dictionary entry ingotOsmium
+[INITIALIZATION][CLIENT][INFO] Removing Calcium Ingot from ore dictionary entry ingotCalcium
+[INITIALIZATION][CLIENT][INFO] Removing Aluminum Brass Ingot from ore dictionary entry ingotAlubrass
+[INITIALIZATION][CLIENT][INFO] Removing Niobium Ingot from ore dictionary entry ingotNiobium
+[INITIALIZATION][CLIENT][INFO] Removing Lithium Ingot from ore dictionary entry ingotLithium
+[INITIALIZATION][CLIENT][INFO] Removing Alchemical Brass Ingot from ore dictionary entry ingotBrass
+[INITIALIZATION][CLIENT][INFO] Removing Uranium Ingot from ore dictionary entry ingotUranium
+[INITIALIZATION][CLIENT][INFO] Removing Uranium Ingot from ore dictionary entry ingotUranium
+[INITIALIZATION][CLIENT][INFO] Removing Enderium Ingot from ore dictionary entry ingotEnderium
+[INITIALIZATION][CLIENT][INFO] Removing Platinum Ingot from ore dictionary entry ingotPlatinum
+[INITIALIZATION][CLIENT][INFO] Removing Platinum Ingot from ore dictionary entry ingotPlatinum
+[INITIALIZATION][CLIENT][INFO] Removing Tungsten Carbide Ingot from ore dictionary entry ingotTungstenCarbide
+[INITIALIZATION][CLIENT][INFO] Removing Nickel Ingot from ore dictionary entry ingotNickel
+[INITIALIZATION][CLIENT][INFO] Removing Nickel Ingot from ore dictionary entry ingotNickel
+[INITIALIZATION][CLIENT][INFO] Removing Nickel Ingot from ore dictionary entry ingotNickel
+[INITIALIZATION][CLIENT][INFO] Removing Stainless Steel Ingot from ore dictionary entry ingotStainlessSteel
+[INITIALIZATION][CLIENT][INFO] Removing Mana Infused Ingot from ore dictionary entry ingotMithril
+[INITIALIZATION][CLIENT][INFO] Removing Titanium Iridium Alloy Ingot from ore dictionary entry ingotTitaniumIridium
+[INITIALIZATION][CLIENT][INFO] Removing Silicon Ingot from ore dictionary entry ingotSilicon
+[INITIALIZATION][CLIENT][INFO] Removing Zinc Ingot from ore dictionary entry ingotZinc
+[INITIALIZATION][CLIENT][INFO] Removing Titanium Ingot from ore dictionary entry ingotTitanium
+[INITIALIZATION][CLIENT][INFO] Removing Titanium Ingot from ore dictionary entry ingotTitanium
+[INITIALIZATION][CLIENT][INFO] Removing Cobalt Ingot from ore dictionary entry ingotCobalt
+[INITIALIZATION][CLIENT][INFO] Removing Cobalt Ingot from ore dictionary entry ingotCobalt
+[INITIALIZATION][CLIENT][INFO] Removing Hafnium Ingot from ore dictionary entry ingotHafnium
+[INITIALIZATION][CLIENT][INFO] Removing Lead Ingot from ore dictionary entry ingotLead
+[INITIALIZATION][CLIENT][INFO] Removing Lead Ingot from ore dictionary entry ingotLead
+[INITIALIZATION][CLIENT][INFO] Removing Lead Ingot from ore dictionary entry ingotLead
+[INITIALIZATION][CLIENT][INFO] Removing Lead Ingot from ore dictionary entry ingotLead
+[INITIALIZATION][CLIENT][INFO] Removing Manganese Ingot from ore dictionary entry ingotManganese
+[INITIALIZATION][CLIENT][INFO] Removing Sodium Ingot from ore dictionary entry ingotSodium
+[INITIALIZATION][CLIENT][INFO] Removing Steel Ingot from ore dictionary entry ingotSteel
+[INITIALIZATION][CLIENT][INFO] Removing Steel Ingot from ore dictionary entry ingotSteel
+[INITIALIZATION][CLIENT][INFO] Removing Steel Ingot from ore dictionary entry ingotSteel
+[INITIALIZATION][CLIENT][INFO] Removing Steel Ingot from ore dictionary entry ingotSteel
+[INITIALIZATION][CLIENT][INFO] Removing Steel Ingot from ore dictionary entry ingotSteel
+[INITIALIZATION][CLIENT][INFO] Removing Aluminium Ingot from ore dictionary entry ingotAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Aluminium Ingot from ore dictionary entry ingotAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Aluminum Ingot from ore dictionary entry ingotAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Aluminum Ingot from ore dictionary entry ingotAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Aluminum Ingot from ore dictionary entry ingotAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Thorium Ingot from ore dictionary entry ingotThorium
+[INITIALIZATION][CLIENT][INFO] Removing Bronze Ingot from ore dictionary entry ingotBronze
+[INITIALIZATION][CLIENT][INFO] Removing Bronze Ingot from ore dictionary entry ingotBronze
+[INITIALIZATION][CLIENT][INFO] Removing Bronze Ingot from ore dictionary entry ingotBronze
+[INITIALIZATION][CLIENT][INFO] Removing Bronze Ingot from ore dictionary entry ingotBronze
+[INITIALIZATION][CLIENT][INFO] Removing Yttrium Ingot from ore dictionary entry ingotYttrium
+[INITIALIZATION][CLIENT][INFO] Removing Potassium Ingot from ore dictionary entry ingotPotassium
+[INITIALIZATION][CLIENT][INFO] Removing Niobium-Titanium Ingot from ore dictionary entry ingotNiobiumTitanium
+[INITIALIZATION][CLIENT][INFO] Removing Iridium Ingot from ore dictionary entry ingotIridium
+[INITIALIZATION][CLIENT][INFO] Removing Iridium Ingot from ore dictionary entry ingotIridium
+[INITIALIZATION][CLIENT][INFO] Removing Iridium Ingot from ore dictionary entry ingotIridium
+[INITIALIZATION][CLIENT][INFO] Removing Titanium Aluminide Ingot from ore dictionary entry ingotTitaniumAluminide
+[INITIALIZATION][CLIENT][INFO] Removing Copper Ingot from ore dictionary entry ingotCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Ingot from ore dictionary entry ingotCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Ingot from ore dictionary entry ingotCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Ingot from ore dictionary entry ingotCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Ingot from ore dictionary entry ingotCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Ingot from ore dictionary entry ingotCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Ingot from ore dictionary entry ingotCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Ingot from ore dictionary entry ingotCopper
+[INITIALIZATION][CLIENT][INFO] Removing Beryllium Ingot from ore dictionary entry ingotBeryllium
+[INITIALIZATION][CLIENT][INFO] Finished Ingot Removal!
+[INITIALIZATION][CLIENT][INFO] Starting Block Removal!
+[INITIALIZATION][CLIENT][INFO] Removing Block of Cobalt from ore dictionary entry blockCobalt
+[INITIALIZATION][CLIENT][INFO] Removing Block of Uranium from ore dictionary entry blockUranium
+[INITIALIZATION][CLIENT][INFO] Removing Block of Constantan from ore dictionary entry blockConstantan
+[INITIALIZATION][CLIENT][INFO] Removing Block of Constantan from ore dictionary entry blockConstantan
+[INITIALIZATION][CLIENT][INFO] Removing Aluminum Block from ore dictionary entry blockAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Block of Aluminum from ore dictionary entry blockAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Block of Aluminium from ore dictionary entry blockAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Block of Platinum from ore dictionary entry blockPlatinum
+[INITIALIZATION][CLIENT][INFO] Removing Titanium Aluminide Block from ore dictionary entry blockTitaniumAluminide
+[INITIALIZATION][CLIENT][INFO] Removing Block of Electrum from ore dictionary entry blockElectrum
+[INITIALIZATION][CLIENT][INFO] Removing Block of Electrum from ore dictionary entry blockElectrum
+[INITIALIZATION][CLIENT][INFO] Removing Bronze Block from ore dictionary entry blockBronze
+[INITIALIZATION][CLIENT][INFO] Removing Block of Bronze from ore dictionary entry blockBronze
+[INITIALIZATION][CLIENT][INFO] Removing Block of Bronze from ore dictionary entry blockBronze
+[INITIALIZATION][CLIENT][INFO] Removing Block of Silver from ore dictionary entry blockSilver
+[INITIALIZATION][CLIENT][INFO] Removing Block of Silver from ore dictionary entry blockSilver
+[INITIALIZATION][CLIENT][INFO] Removing Block of Silver from ore dictionary entry blockSilver
+[INITIALIZATION][CLIENT][INFO] Removing Osmium Block from ore dictionary entry blockOsmium
+[INITIALIZATION][CLIENT][INFO] Removing Block of Invar from ore dictionary entry blockInvar
+[INITIALIZATION][CLIENT][INFO] Removing Block of Nickel from ore dictionary entry blockNickel
+[INITIALIZATION][CLIENT][INFO] Removing Block of Nickel from ore dictionary entry blockNickel
+[INITIALIZATION][CLIENT][INFO] Removing Block of Enderium from ore dictionary entry blockEnderium
+[INITIALIZATION][CLIENT][INFO] Removing Block of Charcoal from ore dictionary entry blockCharcoal
+[INITIALIZATION][CLIENT][INFO] Removing Charcoal Block from ore dictionary entry blockCharcoal
+[INITIALIZATION][CLIENT][INFO] Removing Block of Charcoal from ore dictionary entry blockCharcoal
+[INITIALIZATION][CLIENT][INFO] Removing Block of Charcoal from ore dictionary entry blockCharcoal
+[INITIALIZATION][CLIENT][INFO] Removing Titanium Iridium Alloy Block from ore dictionary entry blockTitaniumIridium
+[INITIALIZATION][CLIENT][INFO] Removing Block of Copper from ore dictionary entry blockCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Block from ore dictionary entry blockCopper
+[INITIALIZATION][CLIENT][INFO] Removing Block of Copper from ore dictionary entry blockCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Block from ore dictionary entry blockCopper
+[INITIALIZATION][CLIENT][INFO] Removing Block of Copper from ore dictionary entry blockCopper
+[INITIALIZATION][CLIENT][INFO] Removing Block of Copper from ore dictionary entry blockCopper
+[INITIALIZATION][CLIENT][INFO] Removing Block of Tin from ore dictionary entry blockTin
+[INITIALIZATION][CLIENT][INFO] Removing Tin Block from ore dictionary entry blockTin
+[INITIALIZATION][CLIENT][INFO] Removing Block of Tin from ore dictionary entry blockTin
+[INITIALIZATION][CLIENT][INFO] Removing Tin Block from ore dictionary entry blockTin
+[INITIALIZATION][CLIENT][INFO] Removing Titanium Block from ore dictionary entry blockTitanium
+[INITIALIZATION][CLIENT][INFO] Removing Brass Block from ore dictionary entry blockBrass
+[INITIALIZATION][CLIENT][INFO] Removing Block of Lead from ore dictionary entry blockLead
+[INITIALIZATION][CLIENT][INFO] Removing Block of Lead from ore dictionary entry blockLead
+[INITIALIZATION][CLIENT][INFO] Removing Block of Steel from ore dictionary entry blockSteel
+[INITIALIZATION][CLIENT][INFO] Removing Steel Block from ore dictionary entry blockSteel
+[INITIALIZATION][CLIENT][INFO] Removing Steel Block from ore dictionary entry blockSteel
+[INITIALIZATION][CLIENT][INFO] Removing Block of Steel from ore dictionary entry blockSteel
+[INITIALIZATION][CLIENT][INFO] Removing Salt Block from ore dictionary entry blockSalt
+[INITIALIZATION][CLIENT][INFO] Removing Block of Lumium from ore dictionary entry blockLumium
+[INITIALIZATION][CLIENT][INFO] Removing Block of Iridium from ore dictionary entry blockIridium
+[INITIALIZATION][CLIENT][INFO] Removing Iridium Block from ore dictionary entry blockIridium
+[INITIALIZATION][CLIENT][INFO] Finished Block Removal!
+[INITIALIZATION][CLIENT][INFO] Starting Dust Removal!
+[INITIALIZATION][CLIENT][INFO] Removing Aluminium Grit from ore dictionary entry dustAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Pulverized Aluminum from ore dictionary entry dustAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Aluminum Dust from ore dictionary entry dustAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Pulverized Gold from ore dictionary entry dustGold
+[INITIALIZATION][CLIENT][INFO] Removing Gold Grit from ore dictionary entry dustGold
+[INITIALIZATION][CLIENT][INFO] Removing Gold Dust from ore dictionary entry dustGold
+[INITIALIZATION][CLIENT][INFO] Removing Crushed Gold from ore dictionary entry dustGold
+[INITIALIZATION][CLIENT][INFO] Removing Gold Dust from ore dictionary entry dustGold
+[INITIALIZATION][CLIENT][INFO] Removing Gold Dust from ore dictionary entry dustGold
+[INITIALIZATION][CLIENT][INFO] Removing Gold Dust from ore dictionary entry dustGold
+[INITIALIZATION][CLIENT][INFO] Removing Gold Sand from ore dictionary entry dustGold
+[INITIALIZATION][CLIENT][INFO] Removing Crushed Quartz from ore dictionary entry dustNetherQuartz
+[INITIALIZATION][CLIENT][INFO] Removing Nether Quartz Dust from ore dictionary entry dustNetherQuartz
+[INITIALIZATION][CLIENT][INFO] Removing Pyrotheum Dust from ore dictionary entry dustPyrotheum
+[INITIALIZATION][CLIENT][INFO] Removing Crushed Coal from ore dictionary entry dustCoal
+[INITIALIZATION][CLIENT][INFO] Removing Coal Sand from ore dictionary entry dustCoal
+[INITIALIZATION][CLIENT][INFO] Removing Pulverized Coal from ore dictionary entry dustCoal
+[INITIALIZATION][CLIENT][INFO] Removing Sawdust from ore dictionary entry dustWood
+[INITIALIZATION][CLIENT][INFO] Removing Sawdust from ore dictionary entry dustWood
+[INITIALIZATION][CLIENT][INFO] Removing Crushed Diamond from ore dictionary entry dustDiamond
+[INITIALIZATION][CLIENT][INFO] Removing Diamond Dust from ore dictionary entry dustDiamond
+[INITIALIZATION][CLIENT][INFO] Removing Lumium Blend from ore dictionary entry dustLumium
+[INITIALIZATION][CLIENT][INFO] Removing Titanium Iridium Alloy Dust from ore dictionary entry dustTitaniumIridium
+[INITIALIZATION][CLIENT][INFO] Removing Certus Quartz Dust from ore dictionary entry dustCertusQuartz
+[INITIALIZATION][CLIENT][INFO] Removing Obsidian Dust from ore dictionary entry dustObsidian
+[INITIALIZATION][CLIENT][INFO] Removing Pulverized Obsidian from ore dictionary entry dustObsidian
+[INITIALIZATION][CLIENT][INFO] Removing Electrum Grit from ore dictionary entry dustElectrum
+[INITIALIZATION][CLIENT][INFO] Removing Electrum Blend from ore dictionary entry dustElectrum
+[INITIALIZATION][CLIENT][INFO] Removing Silver Dust from ore dictionary entry dustSilver
+[INITIALIZATION][CLIENT][INFO] Removing Silver Grit from ore dictionary entry dustSilver
+[INITIALIZATION][CLIENT][INFO] Removing Pulverized Silver from ore dictionary entry dustSilver
+[INITIALIZATION][CLIENT][INFO] Removing Silver Dust from ore dictionary entry dustSilver
+[INITIALIZATION][CLIENT][INFO] Removing Crushed Lapis from ore dictionary entry dustLapis
+[INITIALIZATION][CLIENT][INFO] Removing Uranium Grit from ore dictionary entry dustUranium
+[INITIALIZATION][CLIENT][INFO] Removing Lithium Dust from ore dictionary entry dustLithium
+[INITIALIZATION][CLIENT][INFO] Removing Pulverized Lead from ore dictionary entry dustLead
+[INITIALIZATION][CLIENT][INFO] Removing Lead Dust from ore dictionary entry dustLead
+[INITIALIZATION][CLIENT][INFO] Removing Lead Grit from ore dictionary entry dustLead
+[INITIALIZATION][CLIENT][INFO] Removing Silicon Dust from ore dictionary entry dustSilicon
+[INITIALIZATION][CLIENT][INFO] Removing Pulverized Nickel from ore dictionary entry dustNickel
+[INITIALIZATION][CLIENT][INFO] Removing Nickel Grit from ore dictionary entry dustNickel
+[INITIALIZATION][CLIENT][INFO] Removing Constantan Blend from ore dictionary entry dustConstantan
+[INITIALIZATION][CLIENT][INFO] Removing Constantan Grit from ore dictionary entry dustConstantan
+[INITIALIZATION][CLIENT][INFO] Removing Pulverized Charcoal from ore dictionary entry dustCharcoal
+[INITIALIZATION][CLIENT][INFO] Removing Bronze Blend from ore dictionary entry dustBronze
+[INITIALIZATION][CLIENT][INFO] Removing Pulverized Tin from ore dictionary entry dustTin
+[INITIALIZATION][CLIENT][INFO] Removing Tin Dust from ore dictionary entry dustTin
+[INITIALIZATION][CLIENT][INFO] Removing Tin Dust from ore dictionary entry dustTin
+[INITIALIZATION][CLIENT][INFO] Removing Iron Dust from ore dictionary entry dustIron
+[INITIALIZATION][CLIENT][INFO] Removing Iron Dust from ore dictionary entry dustIron
+[INITIALIZATION][CLIENT][INFO] Removing Iron Dust from ore dictionary entry dustIron
+[INITIALIZATION][CLIENT][INFO] Removing Pulverized Iron from ore dictionary entry dustIron
+[INITIALIZATION][CLIENT][INFO] Removing Iron Grit from ore dictionary entry dustIron
+[INITIALIZATION][CLIENT][INFO] Removing Crushed Iron from ore dictionary entry dustIron
+[INITIALIZATION][CLIENT][INFO] Removing Iron Dust from ore dictionary entry dustIron
+[INITIALIZATION][CLIENT][INFO] Removing Iron Sand from ore dictionary entry dustIron
+[INITIALIZATION][CLIENT][INFO] Removing Flour from ore dictionary entry dustWheat
+[INITIALIZATION][CLIENT][INFO] Removing Flour from ore dictionary entry dustWheat
+[INITIALIZATION][CLIENT][INFO] Removing Flour from ore dictionary entry dustWheat
+[INITIALIZATION][CLIENT][INFO] Removing Invar Blend from ore dictionary entry dustInvar
+[INITIALIZATION][CLIENT][INFO] Removing Osmium Dust from ore dictionary entry dustOsmium
+[INITIALIZATION][CLIENT][INFO] Removing Crushed Emerald from ore dictionary entry dustEmerald
+[INITIALIZATION][CLIENT][INFO] Removing Steel Blend from ore dictionary entry dustSteel
+[INITIALIZATION][CLIENT][INFO] Removing Steel Grit from ore dictionary entry dustSteel
+[INITIALIZATION][CLIENT][INFO] Removing Steel Dust from ore dictionary entry dustSteel
+[INITIALIZATION][CLIENT][INFO] Removing Steel Dust from ore dictionary entry dustSteel
+[INITIALIZATION][CLIENT][INFO] Removing Cryotheum Dust from ore dictionary entry dustCryotheum
+[INITIALIZATION][CLIENT][INFO] Removing Ender Dust from ore dictionary entry dustEnder
+[INITIALIZATION][CLIENT][INFO] Removing Niter from ore dictionary entry dustSaltpeter
+[INITIALIZATION][CLIENT][INFO] Removing Nitrate Dust from ore dictionary entry dustSaltpeter
+[INITIALIZATION][CLIENT][INFO] Removing Coke Dust from ore dictionary entry dustCoke
+[INITIALIZATION][CLIENT][INFO] Removing Enderium Blend from ore dictionary entry dustEnderium
+[INITIALIZATION][CLIENT][INFO] Removing Iridium Dust from ore dictionary entry dustIridium
+[INITIALIZATION][CLIENT][INFO] Removing Pulverized Iridium from ore dictionary entry dustIridium
+[INITIALIZATION][CLIENT][INFO] Removing Copper Dust from ore dictionary entry dustCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Dust from ore dictionary entry dustCopper
+[INITIALIZATION][CLIENT][INFO] Removing Pulverized Copper from ore dictionary entry dustCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Dust from ore dictionary entry dustCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Grit from ore dictionary entry dustCopper
+[INITIALIZATION][CLIENT][INFO] Removing Pulverized Platinum from ore dictionary entry dustPlatinum
+[INITIALIZATION][CLIENT][INFO] Removing Sulfur Dust from ore dictionary entry dustSulfur
+[INITIALIZATION][CLIENT][INFO] Removing Sulfur from ore dictionary entry dustSulfur
+[INITIALIZATION][CLIENT][INFO] Removing Sulfur Dust from ore dictionary entry dustSulfur
+[INITIALIZATION][CLIENT][INFO] Removing Titanium Dust from ore dictionary entry dustTitanium
+[INITIALIZATION][CLIENT][INFO] Finished Dust Removal!
+[INITIALIZATION][CLIENT][INFO] Starting Nugget Removal!
+[INITIALIZATION][CLIENT][INFO] Removing Enderium Nugget from ore dictionary entry nuggetEnderium
+[INITIALIZATION][CLIENT][INFO] Removing Iron Nugget from ore dictionary entry nuggetIron
+[INITIALIZATION][CLIENT][INFO] Removing Iron Nugget from ore dictionary entry nuggetIron
+[INITIALIZATION][CLIENT][INFO] Removing Cobalt Nugget from ore dictionary entry nuggetCobalt
+[INITIALIZATION][CLIENT][INFO] Removing Silicon Nugget from ore dictionary entry nuggetSilicon
+[INITIALIZATION][CLIENT][INFO] Removing Steel Nugget from ore dictionary entry nuggetSteel
+[INITIALIZATION][CLIENT][INFO] Removing Steel Nugget from ore dictionary entry nuggetSteel
+[INITIALIZATION][CLIENT][INFO] Removing Steel Nugget from ore dictionary entry nuggetSteel
+[INITIALIZATION][CLIENT][INFO] Removing Steel Nugget from ore dictionary entry nuggetSteel
+[INITIALIZATION][CLIENT][INFO] Removing Tin Nugget from ore dictionary entry nuggetTin
+[INITIALIZATION][CLIENT][INFO] Removing Tin Nugget from ore dictionary entry nuggetTin
+[INITIALIZATION][CLIENT][INFO] Removing Tin Nugget from ore dictionary entry nuggetTin
+[INITIALIZATION][CLIENT][INFO] Removing Tin Nugget from ore dictionary entry nuggetTin
+[INITIALIZATION][CLIENT][INFO] Removing Tin Nugget from ore dictionary entry nuggetTin
+[INITIALIZATION][CLIENT][INFO] Removing Invar Nugget from ore dictionary entry nuggetInvar
+[INITIALIZATION][CLIENT][INFO] Removing Uranium Nugget from ore dictionary entry nuggetUranium
+[INITIALIZATION][CLIENT][INFO] Removing Lumium Nugget from ore dictionary entry nuggetLumium
+[INITIALIZATION][CLIENT][INFO] Removing Titanium Nugget from ore dictionary entry nuggetTitanium
+[INITIALIZATION][CLIENT][INFO] Removing Titanium Aluminide Nugget from ore dictionary entry nuggetTitaniumAluminide
+[INITIALIZATION][CLIENT][INFO] Removing Lead Nugget from ore dictionary entry nuggetLead
+[INITIALIZATION][CLIENT][INFO] Removing Lead Nugget from ore dictionary entry nuggetLead
+[INITIALIZATION][CLIENT][INFO] Removing Lead Nugget from ore dictionary entry nuggetLead
+[INITIALIZATION][CLIENT][INFO] Removing Bronze Nugget from ore dictionary entry nuggetBronze
+[INITIALIZATION][CLIENT][INFO] Removing Bronze Nugget from ore dictionary entry nuggetBronze
+[INITIALIZATION][CLIENT][INFO] Removing Bronze Nugget from ore dictionary entry nuggetBronze
+[INITIALIZATION][CLIENT][INFO] Removing Platinum Nugget from ore dictionary entry nuggetPlatinum
+[INITIALIZATION][CLIENT][INFO] Removing Constantan Nugget from ore dictionary entry nuggetConstantan
+[INITIALIZATION][CLIENT][INFO] Removing Constantan Nugget from ore dictionary entry nuggetConstantan
+[INITIALIZATION][CLIENT][INFO] Removing Nickel Nugget from ore dictionary entry nuggetNickel
+[INITIALIZATION][CLIENT][INFO] Removing Nickel Nugget from ore dictionary entry nuggetNickel
+[INITIALIZATION][CLIENT][INFO] Removing Electrum Nugget from ore dictionary entry nuggetElectrum
+[INITIALIZATION][CLIENT][INFO] Removing Electrum Nugget from ore dictionary entry nuggetElectrum
+[INITIALIZATION][CLIENT][INFO] Removing Titanium Iridium Alloy Nugget from ore dictionary entry nuggetTitaniumIridium
+[INITIALIZATION][CLIENT][INFO] Removing Copper Nugget from ore dictionary entry nuggetCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Nugget from ore dictionary entry nuggetCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Nugget from ore dictionary entry nuggetCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Nugget from ore dictionary entry nuggetCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Nugget from ore dictionary entry nuggetCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Nugget from ore dictionary entry nuggetCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Nugget from ore dictionary entry nuggetCopper
+[INITIALIZATION][CLIENT][INFO] Removing Silver Nugget from ore dictionary entry nuggetSilver
+[INITIALIZATION][CLIENT][INFO] Removing Silver Nugget from ore dictionary entry nuggetSilver
+[INITIALIZATION][CLIENT][INFO] Removing Silver Nugget from ore dictionary entry nuggetSilver
+[INITIALIZATION][CLIENT][INFO] Removing Silver Nugget from ore dictionary entry nuggetSilver
+[INITIALIZATION][CLIENT][INFO] Removing Aluminium Nugget from ore dictionary entry nuggetAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Aluminum Nugget from ore dictionary entry nuggetAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Aluminum Nugget from ore dictionary entry nuggetAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Iridium Nugget from ore dictionary entry nuggetIridium
+[INITIALIZATION][CLIENT][INFO] Removing Iridium Nugget from ore dictionary entry nuggetIridium
+[INITIALIZATION][CLIENT][INFO] Removing Osmium Nugget from ore dictionary entry nuggetOsmium
+[INITIALIZATION][CLIENT][INFO] Finished Nugget Removal!
+[INITIALIZATION][CLIENT][INFO] Starting Rod Removal!
+[INITIALIZATION][CLIENT][INFO] Removing Copper Rod from ore dictionary entry stickCopper
+[INITIALIZATION][CLIENT][INFO] Removing Titanium Rod from ore dictionary entry stickTitanium
+[INITIALIZATION][CLIENT][INFO] Removing Iron Rod from ore dictionary entry stickIron
+[INITIALIZATION][CLIENT][INFO] Removing Iron Rod from ore dictionary entry stickIron
+[INITIALIZATION][CLIENT][INFO] Removing Titanium Aluminide Rod from ore dictionary entry stickTitaniumAluminide
+[INITIALIZATION][CLIENT][INFO] Removing Iridium Rod from ore dictionary entry stickIridium
+[INITIALIZATION][CLIENT][INFO] Removing Steel Rod from ore dictionary entry stickSteel
+[INITIALIZATION][CLIENT][INFO] Removing Steel Rod from ore dictionary entry stickSteel
+[INITIALIZATION][CLIENT][INFO] Removing Aluminium Rod from ore dictionary entry stickAluminum
+[INITIALIZATION][CLIENT][INFO] Finished Rod Removal!
+[INITIALIZATION][CLIENT][INFO] Starting Gear Removal!
+[INITIALIZATION][CLIENT][INFO] Removing Enderium Gear from ore dictionary entry gearEnderium
+[INITIALIZATION][CLIENT][INFO] Removing Platinum Gear from ore dictionary entry gearPlatinum
+[INITIALIZATION][CLIENT][INFO] Removing Copper Gear from ore dictionary entry gearCopper
+[INITIALIZATION][CLIENT][INFO] Removing Copper Gear from ore dictionary entry gearCopper
+[INITIALIZATION][CLIENT][INFO] Removing Constantan Gear from ore dictionary entry gearConstantan
+[INITIALIZATION][CLIENT][INFO] Removing Titanium Aluminide Gear from ore dictionary entry gearTitaniumAluminide
+[INITIALIZATION][CLIENT][INFO] Removing Aluminum Gear from ore dictionary entry gearAluminum
+[INITIALIZATION][CLIENT][INFO] Removing Iron Gear from ore dictionary entry gearIron
+[INITIALIZATION][CLIENT][INFO] Removing Titanium Gear from ore dictionary entry gearTitanium
+[INITIALIZATION][CLIENT][INFO] Removing Nickel Gear from ore dictionary entry gearNickel
+[INITIALIZATION][CLIENT][INFO] Removing Tin Gear from ore dictionary entry gearTin
+[INITIALIZATION][CLIENT][INFO] Removing Tin Gear from ore dictionary entry gearTin
+[INITIALIZATION][CLIENT][INFO] Removing Invar Gear from ore dictionary entry gearInvar
+[INITIALIZATION][CLIENT][INFO] Removing Steel Gear from ore dictionary entry gearSteel
+[INITIALIZATION][CLIENT][INFO] Removing Steel Gear from ore dictionary entry gearSteel
+[INITIALIZATION][CLIENT][INFO] Removing Emerald Gear from ore dictionary entry gearEmerald
+[INITIALIZATION][CLIENT][INFO] Removing Gold Gear from ore dictionary entry gearGold
+[INITIALIZATION][CLIENT][INFO] Removing Lead Gear from ore dictionary entry gearLead
+[INITIALIZATION][CLIENT][INFO] Removing Lumium Gear from ore dictionary entry gearLumium
+[INITIALIZATION][CLIENT][INFO] Removing Diamond Gear from ore dictionary entry gearDiamond
+[INITIALIZATION][CLIENT][INFO] Removing Bronze Gear from ore dictionary entry gearBronze
+[INITIALIZATION][CLIENT][INFO] Removing Bronze Gear from ore dictionary entry gearBronze
+[INITIALIZATION][CLIENT][INFO] Removing Iridium Gear from ore dictionary entry gearIridium
+[INITIALIZATION][CLIENT][INFO] Removing Titanium Iridium Alloy Gear from ore dictionary entry gearTitaniumIridium
+[INITIALIZATION][CLIENT][INFO] Removing Electrum Gear from ore dictionary entry gearElectrum
+[INITIALIZATION][CLIENT][INFO] Removing Silver Gear from ore dictionary entry gearSilver
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: gregtech\gregtechdust.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: gregtech\gregtechmisc.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: oredictionary.zs}
+[INITIALIZATION][CLIENT][INFO] Adding Twine to ore dictionary entry string
+[INITIALIZATION][CLIENT][INFO] Adding Salt to ore dictionary entry impureSalt
+[INITIALIZATION][CLIENT][INFO] Adding Tiny Pile of Salt to ore dictionary entry impureSalt
+[INITIALIZATION][CLIENT][INFO] Translating item.Salt.name to River Salt
+[INITIALIZATION][CLIENT][INFO] Copying contents of ore dictionary entry dustSalt to itemSalt
+[INITIALIZATION][CLIENT][INFO] Removing Salt from ore dictionary entry itemSalt
+[INITIALIZATION][CLIENT][INFO] Removing River Salt from ore dictionary entry dustSalt
+[INITIALIZATION][CLIENT][INFO] Removing Salt from ore dictionary entry dustSalt
+[INITIALIZATION][CLIENT][INFO] Adding Tomato to ore dictionary entry cropTomato
+[INITIALIZATION][CLIENT][INFO] Adding Onion to ore dictionary entry cropOnion
+[INITIALIZATION][CLIENT][INFO] Adding Cucumber to ore dictionary entry cropCucumber
+[INITIALIZATION][CLIENT][INFO] Adding Olive to ore dictionary entry cropOlive
+[INITIALIZATION][CLIENT][INFO] Adding Lime to ore dictionary entry cropLime
+[INITIALIZATION][CLIENT][INFO] Adding Lemon to ore dictionary entry cropLemon
+[INITIALIZATION][CLIENT][INFO] Altering Casting Recipe(s) for <gregtech:meta_nugget:2>
+[INITIALIZATION][CLIENT][INFO] Altering Casting Recipe(s) for <gregtech:meta_plate:2>
+[INITIALIZATION][CLIENT][INFO] Altering Casting Recipe(s) for <gregtech:meta_gear:2>
+[INITIALIZATION][CLIENT][INFO] Adding Masonry Brick to ore dictionary entry ingotStone
+[INITIALIZATION][CLIENT][INFO] Removing Stone Ingot from ore dictionary entry ingotStone
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: pyrotech.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: pyrotech_bloomery.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: ticmat\matRubber.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: ticmat\matTin.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: ticmat\matWroughtIron.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: tinkers.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Vanilla.zs}
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 405ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 425ms
 [INITIALIZATION][CLIENT][INFO] Translating item.Salt.name to River Salt
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "pyrotech:furnace"
@@ -1236,6 +1243,8 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <gregtechfoodoption:gtfo_meta_item:73> and replacing them with <ore:cropOlive>
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <gregtechfoodoption:gtfo_meta_item:18> and replacing them with <ore:cropOlive>
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <gregtechfoodoption:gtfo_meta_item:17> and replacing them with <ore:cropLemon>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <foundry:component:2> and replacing them with <pyrotech:material:5>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <foundry:component:1> and replacing them with <pyrotech:material:4>
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <pyrotech:material:10> and replacing them with <tconstruct:shard>.withTag({Material: "flint"})
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "immersiveengineering:toolupgrades/shield_flash"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "immersiveengineering:toolupgrades/revolver_electro"
@@ -1607,16 +1616,32 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "pyrotech:flint_hammer"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_hand_zest1"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_hand_zest2"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@103fdd6d[metavalue=73,unlocalizedname=crop.olive]"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@5aea7ed8[metavalue=76,unlocalizedname=crop.tomato]"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@29a23924[metavalue=77,unlocalizedname=crop.onion]"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@20e4801[metavalue=78,unlocalizedname=crop.cucumber]"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@36caaa9d[metavalue=73,unlocalizedname=crop.olive]"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@34d7b77e[metavalue=77,unlocalizedname=crop.onion]"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@213e2bb2[metavalue=78,unlocalizedname=crop.cucumber]"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@3b679b48[metavalue=76,unlocalizedname=crop.tomato]"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_hand_kubide_kebab_meat"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_hand_barg_kebab_meat"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_hand_kubide_kebab"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_hand_barg_kebab"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_hand_tomato_kebab"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_hand_onion_kebab"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "foundry:recipe3"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "foundry:recipe5"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "foundry:recipe9"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "foundry:recipe10"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "foundry:recipe12"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "foundry:recipe13"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "foundry:recipe16"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "foundry:recipe17"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "foundry:recipe18"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "foundry:recipe19"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "foundry:recipe20"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "foundry:recipe22"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "foundry:recipe23"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "foundry:recipe27"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "foundry:recipe29"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "foundry:recipe33"
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Basic Worktable with name ct_shaped1996331005
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Glassy Sand with name ct_shapeless-611905028
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Dough with name ct_shapeless-469492958
@@ -1993,31 +2018,49 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flint Hammer with name pyrotech_flint_hammer_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Zest with name gregtechfoodoption_gtfo_hand_zest1_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Zest with name gregtechfoodoption_gtfo_hand_zest2_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Olive Slice with name gregtechfoodoption_gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@103fdd6d[metavalue=73,unlocalizedname=crop.olive]_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Tomato Slice with name gregtechfoodoption_gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@5aea7ed8[metavalue=76,unlocalizedname=crop.tomato]_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Onion Slice with name gregtechfoodoption_gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@29a23924[metavalue=77,unlocalizedname=crop.onion]_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Cucumber Slice with name gregtechfoodoption_gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@20e4801[metavalue=78,unlocalizedname=crop.cucumber]_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Olive Slice with name gregtechfoodoption_gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@36caaa9d[metavalue=73,unlocalizedname=crop.olive]_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Onion Slice with name gregtechfoodoption_gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@34d7b77e[metavalue=77,unlocalizedname=crop.onion]_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Cucumber Slice with name gregtechfoodoption_gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@213e2bb2[metavalue=78,unlocalizedname=crop.cucumber]_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Tomato Slice with name gregtechfoodoption_gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@3b679b48[metavalue=76,unlocalizedname=crop.tomato]_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Koobideh Ingredients with name gregtechfoodoption_gtfo_hand_kubide_kebab_meat_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Barg Ingredients with name gregtechfoodoption_gtfo_hand_barg_kebab_meat_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Raw Koobideh Kebab with name gregtechfoodoption_gtfo_hand_kubide_kebab_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Raw Barg Kebab with name gregtechfoodoption_gtfo_hand_barg_kebab_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Nailed Tomatos Kebab with name gregtechfoodoption_gtfo_hand_tomato_kebab_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Nailed Onions Kebab with name gregtechfoodoption_gtfo_hand_onion_kebab_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Refractory Clay Block with name foundry_recipe3_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Inferno Clay with name foundry_recipe5_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Refractory Casing (Basic) with name foundry_recipe9_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Refractory Casing (Standard) with name foundry_recipe10_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Refractory Tank (Basic) with name foundry_recipe12_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Refractory Tank (Standard) with name foundry_recipe13_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ingot Casting Table with name foundry_recipe16_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Plate Casting Table with name foundry_recipe17_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Rod Casting Table with name foundry_recipe18_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Block Casting Table with name foundry_recipe19_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Refractory Spout with name foundry_recipe20_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Melting Crucible (Basic) with name foundry_recipe22_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Melting Crucible (Standard) with name foundry_recipe23_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Refractory Hopper with name foundry_recipe27_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Alloying Crucible with name foundry_recipe29_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mold Crafting Station with name foundry_recipe33_modified
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <foundry:component:2>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <foundry:component:2>
 [POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <tconstruct:materials>
 [POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <tconstruct:materials>
-[POSTINITIALIZATION][CLIENT][INFO] Removing soaking pot recipes for net.minecraft.item.crafting.Ingredient@377fe314
-[POSTINITIALIZATION][CLIENT][INFO] Removing drying rack recipes for net.minecraft.item.crafting.Ingredient@7f7d13bc
-[POSTINITIALIZATION][CLIENT][INFO] Adding soaking pot recipe for net.minecraftforge.fluids.FluidStack@5694f6bf
+[POSTINITIALIZATION][CLIENT][INFO] Removing soaking pot recipes for net.minecraft.item.crafting.Ingredient@5f6c1b53
+[POSTINITIALIZATION][CLIENT][INFO] Removing drying rack recipes for net.minecraft.item.crafting.Ingredient@1a93cdbf
+[POSTINITIALIZATION][CLIENT][INFO] Adding soaking pot recipe for net.minecraftforge.fluids.FluidStack@52a8f7a8
 [POSTINITIALIZATION][CLIENT][INFO] Adding drying rack recipe for 1xitem.pyrotech.material@13, inherited=false
-[POSTINITIALIZATION][CLIENT][INFO] Adding stone crucible recipe for net.minecraftforge.fluids.FluidStack@6f4b17c4, inherited=false
+[POSTINITIALIZATION][CLIENT][INFO] Adding stone crucible recipe for net.minecraftforge.fluids.FluidStack@65a8af92, inherited=false
 [POSTINITIALIZATION][CLIENT][INFO] Registering bloomery recipe: crafttweaker:copper_bloom
 [POSTINITIALIZATION][CLIENT][INFO] Registering bloomery recipe: crafttweaker:copper_pure_bloom
 [POSTINITIALIZATION][CLIENT][INFO] Registering bloomery recipe: crafttweaker:chalcopyrite_bloom
 [POSTINITIALIZATION][CLIENT][INFO] Registering bloomery recipe: crafttweaker:chalcopyrite_pure_bloom
 [POSTINITIALIZATION][CLIENT][INFO] Adding stone kiln recipe for 1xitem.tconstruct.materials@0, inherited=false
 [POSTINITIALIZATION][CLIENT][INFO] Adding brick kiln recipe for 1xitem.tconstruct.materials@0
-[POSTINITIALIZATION][CLIENT][INFO] Removing stone kiln recipes for net.minecraft.item.crafting.Ingredient@6a7f8f9
-[POSTINITIALIZATION][CLIENT][INFO] Removing brick kiln recipes for net.minecraft.item.crafting.Ingredient@77d1ba80
+[POSTINITIALIZATION][CLIENT][INFO] Removing stone kiln recipes for net.minecraft.item.crafting.Ingredient@6fffb2f5
+[POSTINITIALIZATION][CLIENT][INFO] Removing brick kiln recipes for net.minecraft.item.crafting.Ingredient@7f1dd8a
 [POSTINITIALIZATION][CLIENT][INFO] Adding stone kiln recipe for 1xtile.glass@0, inherited=false
 [POSTINITIALIZATION][CLIENT][INFO] Adding brick kiln recipe for 1xtile.glass@0
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
@@ -2098,8 +2141,25 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
 [AVAILABLE][CLIENT][INFO] Hiding category in JEI: artisanworktables_mason_worktable
 [AVAILABLE][CLIENT][INFO] Hiding category in JEI: artisanworktables_mason_workstation
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <foundry:component:1>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <foundry:component:16>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <foundry:component:2>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <foundry:alloyfurnace>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <foundry:fluidcontainer>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <forge:bucketfilled>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <foundry:liquidiron>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <foundry:liquidgold>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <foundry:liquidcopper>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <foundry:liquidtin>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <foundry:liquidbronze>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <foundry:liquidelectrum>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <foundry:liquidinvar>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <foundry:liquidnickel>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <libvulpes:ore0:9>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <erebus:ore_aluminium>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:ore:4>
