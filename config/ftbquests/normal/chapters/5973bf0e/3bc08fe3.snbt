@@ -1,0 +1,38 @@
+{
+	title: "More Tools You Say?",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "artisanworktables:artisans_hammer_copper"
+	},
+	x: 10.5d,
+	y: 3.5d,
+	description: "Metallic!",
+	text: [
+		"Make Copper Artisan's Tool for more durability!"
+	],
+	dependencies: [
+		"ca6e982d"
+	],
+	tasks: [{
+		uid: "c5d0fe23",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "artisansToolCopper",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any artisansToolCopper"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

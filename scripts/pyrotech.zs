@@ -227,7 +227,7 @@ RecipeBuilder.get("basic")
   .create();
  # Refractory Clay
 RecipeBuilder.get("basic")
-  .setShapeless([<ore:dustAsh>, <gregtech:meta_dust:2063>, <gregtech:meta_dust:2049>, <gregtech:meta_dust:2063>, <ore:dustAsh>, <ore:dustAsh>, <gregtech:meta_dust:2063>, <gregtech:meta_dust:2023>, <gregtech:meta_dust:2063>, <ore:dustAsh>])
+  .setShapeless([<gregtech:meta_dust:254>, <gregtech:meta_dust:2063>, <gregtech:meta_dust:2049>, <gregtech:meta_dust:2063>, <gregtech:meta_dust:254>, <gregtech:meta_dust:254>, <gregtech:meta_dust:2063>, <gregtech:meta_dust:2023>, <gregtech:meta_dust:2063>, <gregtech:meta_dust:254>])
   .setFluid(<liquid:liquid_clay> * 100)
   .addTool(<ore:artisansMortar>, 6)
   .addOutput(<pyrotech:material:4> * 8)
@@ -270,6 +270,7 @@ RecipeBuilder.get("basic")
     [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>],
     [<pyrotech:refractory_brick_block>, <pyrotech:stone_kiln>, <pyrotech:refractory_brick_block>],
     [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>]])
+  .setFluid(<liquid:foundry> * 1000)
   .addTool(<ore:artisansHammer>, 45)
   .addTool(<ore:artisansTSquare>, 45)
   .addOutput(<pyrotech:brick_kiln>)
@@ -280,6 +281,7 @@ RecipeBuilder.get("basic")
     [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>],
     [<pyrotech:refractory_brick_block>, <pyrotech:stone_oven>, <pyrotech:refractory_brick_block>],
     [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>]])
+  .setFluid(<liquid:foundry> * 1000)
   .addTool(<ore:artisansHammer>, 45)
   .addTool(<ore:artisansTSquare>, 45)
   .addOutput(<pyrotech:brick_oven>)
@@ -290,6 +292,7 @@ RecipeBuilder.get("basic")
     [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>],
     [<pyrotech:refractory_brick_block>, <pyrotech:stone_sawmill>, <pyrotech:refractory_brick_block>],
     [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>]])
+  .setFluid(<liquid:foundry> * 1000)
   .addTool(<ore:artisansHammer>, 45)
   .addTool(<ore:artisansTSquare>, 45)
   .addOutput(<pyrotech:brick_sawmill>)
@@ -300,6 +303,7 @@ RecipeBuilder.get("basic")
     [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>],
     [<pyrotech:refractory_brick_block>, <pyrotech:stone_crucible>, <pyrotech:refractory_brick_block>],
     [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>]])
+  .setFluid(<liquid:foundry> * 1000)
   .addTool(<ore:artisansHammer>, 45)
   .addTool(<ore:artisansTSquare>, 45)
   .addOutput(<pyrotech:brick_crucible>)

@@ -16,13 +16,14 @@
 	y: 5.0d,
 	description: "Stone Tools! Preposterous!",
 	text: [
-		"Other than the GT Mortar, you can make a few other select types of GT tools with the crafting table, namely stone tools using mason bricks."
+		"Other than the GT Mortar, you can make a few other select types of GT tools with the crafting table, namely stone tools using mason bricks.",
+		"Some other tools may take a stone plate or stone large plate from tinkers as well"
 	],
 	dependencies: [
 		"c4ded503"
 	],
 	tasks: [{
-		uid: "5d6a241c",
+		uid: "f5ae3307",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -35,6 +36,23 @@
 				}
 			},
 			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d51ceabf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "stone"
+				}
+			},
+			Damage: 9s
 		}],
 		ignore_nbt: 1b
 	}]

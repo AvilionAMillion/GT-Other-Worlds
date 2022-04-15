@@ -27,6 +27,19 @@
       "oreDictKey": "artisansToolMason"
     },
     {
+      "name": "copper",
+      "harvestLevel": 1,
+      "maxUses": 200,
+      "efficiency": 4.0,
+      "damage": 1.0,
+      "enchantability": 5,
+      "color": "FF9100",
+      "shiny": false,
+      "ingredient": "ore:plateCopper",
+      "langKey": "material.athenaeum.copper",
+      "oreDictKey": "artisansToolCopper"
+    },
+    {
       "name": "iron",
       "harvestLevel": 2,
       "maxUses": 400,
@@ -40,28 +53,15 @@
       "oreDictKey": "artisansToolIron"
     },
     {
-      "name": "gold",
-      "harvestLevel": 0,
-      "maxUses": 32,
-      "efficiency": 12.0,
-      "damage": 0.0,
-      "enchantability": 22,
-      "color": "ffe947",
-      "shiny": false,
-      "ingredient": "ore:ingotGold",
-      "langKey": "material.athenaeum.gold",
-      "oreDictKey": "artisansToolGold"
-    },
-    {
       "name": "bronze",
       "harvestLevel": 2,
-      "maxUses": 200,
+      "maxUses": 300,
       "efficiency": 6.0,
       "damage": 2.0,
       "enchantability": 15,
       "color": "e8983f",
       "shiny": true,
-      "ingredient": "ore:ingotBronze",
+      "ingredient": "ore:plateBronze",
       "langKey": "material.athenaeum.bronze",
       "oreDictKey": "artisansToolBronze"
     },
@@ -74,7 +74,7 @@
       "enchantability": 16,
       "color": "8e9a95",
       "shiny": true,
-      "ingredient": "ore:ingotInvar",
+      "ingredient": "ore:plateInvar",
       "langKey": "material.athenaeum.invar",
       "oreDictKey": "artisansToolInvar"
     },

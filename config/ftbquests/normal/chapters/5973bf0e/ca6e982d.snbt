@@ -1,0 +1,20 @@
+{
+	title: "Plate Production",
+	x: 10.5d,
+	y: 5.0d,
+	description: "It's Feeling Very Greggy",
+	text: [
+		"Make some copper plates! Good for the Refractory Machines"
+	],
+	dependencies: [
+		"cd4a21b2",
+		"2b42366c"
+	],
+	tasks: [{
+		uid: "257b92d9",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 25"
+		}]
+	}]
+}

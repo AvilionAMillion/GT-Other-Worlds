@@ -7,9 +7,10 @@ val builder = RecipeBuilder.get("basic");
  var tinyFoundRefract = <foundry:component:16>;
  var RefractBrick = <foundry:component:2>;
  var casingBasic = <foundry:componentblock:3>;
+ var ingotTable = <foundry:castingtable>;
  
 // Removal
-mods.jei.JEI.removeAndHide(<foundry:machine:1);
+mods.jei.JEI.removeAndHide(<foundry:machine:1>);
 mods.jei.JEI.removeAndHide(FoundRefract);
 mods.jei.JEI.removeAndHide(tinyFoundRefract);
 mods.jei.JEI.removeAndHide(RefractBrick);
@@ -43,6 +44,10 @@ recipes.addShaped(casingBasic, [
 	[plateCopper, RefractBrick, plateCopper],
 	[RefractBrick, null, RefractBrick],
 	[plateCopper, RefractBrick, plateCopper]]);
+recipes.remove(ingotTable);
+recipes.addShaped(ingotTable,
+	[[RefractBrick, <foundry:mold>, RefractBrick],
+	[gtHammer, <minecraft:stone_slab>, gtFile]]);
 
 // Worktable
  # Mold Crafting Station
