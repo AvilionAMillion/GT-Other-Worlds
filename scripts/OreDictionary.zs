@@ -109,11 +109,13 @@ mods.tconstruct.Casting.removeTableRecipe(<gregtech:meta_gear:2>);
 
 // GregTech Stone Ingot Changes
 <ore:ingotStone>.add(<pyrotech:material:16>);
-<ore:ingotStone>.remove(<gregtech:meta_ingot:1599>);
 mods.jei.JEI.removeAndHide(<gregtech:meta_ingot:1599>);
 
 // Refractory Brick Pyrotech -> Foundry
 recipes.replaceAllOccurences(<foundry:component:2>, <pyrotech:material:5>);
 recipes.replaceAllOccurences(<foundry:component:1>, <pyrotech:material:4>);
 
+// Ash Unification
+<ore:dustAsh>.add(<pyrotech:material>);
+recipes.addShapeless(<gregtech:meta_dust:254>, [<pyrotech:material>]);
 

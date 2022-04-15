@@ -52,6 +52,8 @@ glassy_sand.gravity = true;
 glassy_sand.register();
 
 // Fluids
-var liquidSteam = VanillaFactory.createFluid("steam", Color.fromHex("EBEBEB"));
-liquidSteam.register();
+var foundryliquid = VanillaFactory.createFluid("foundry", Color.fromHex("9A9A82"));
+foundryliquid.stillLocation = "contenttweaker:fluids/blank_still";
+foundryliquid.flowingLocation = "contenttweaker:fluids/blank_flow";
+foundryliquid.register();
 

@@ -219,10 +219,10 @@ RecipeBuilder.get("basic")
   .create();
  # Refractory Clay
 RecipeBuilder.get("basic")
-  .setShapeless([<gregtech:meta_dust:2063>, <pyrotech:material>, <gregtech:meta_dust:2063>, <gregtech:meta_dust:2049>, <gregtech:meta_dust:2023>, <gregtech:meta_dust:2049>, <gregtech:meta_dust:2063>, <pyrotech:material>, <gregtech:meta_dust:2063>])
+  .setShapeless([<ore:dustAsh>, <gregtech:meta_dust:2063>, <gregtech:meta_dust:2049>, <gregtech:meta_dust:2063>, <ore:dustAsh>, <ore:dustAsh>, <gregtech:meta_dust:2063>, <gregtech:meta_dust:2023>, <gregtech:meta_dust:2063>, <ore:dustAsh>])
   .setFluid(<liquid:liquid_clay> * 100)
-  .addTool(<ore:artisansMortar>, 3)
-  .addOutput(<pyrotech:material:4> * 4)
+  .addTool(<ore:artisansMortar>, 6)
+  .addOutput(<pyrotech:material:4> * 8)
   .create();
  # Unfired Refractory Brick
 RecipeBuilder.get("basic")
@@ -274,7 +274,7 @@ RecipeBuilder.get("basic")
     [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>]])
   .addTool(<ore:artisansHammer>, 45)
   .addTool(<ore:artisansTSquare>, 45)
-  .addOutput(<pyrotech:brick_kiln>)
+  .addOutput(<pyrotech:brick_oven>)
   .create();
  # Refractory Sawmill
 RecipeBuilder.get("basic")
@@ -284,7 +284,7 @@ RecipeBuilder.get("basic")
     [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>]])
   .addTool(<ore:artisansHammer>, 45)
   .addTool(<ore:artisansTSquare>, 45)
-  .addOutput(<pyrotech:brick_kiln>)
+  .addOutput(<pyrotech:brick_sawmill>)
   .create();
  # Refractory Crucible
 RecipeBuilder.get("basic")
@@ -294,7 +294,7 @@ RecipeBuilder.get("basic")
     [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>]])
   .addTool(<ore:artisansHammer>, 45)
   .addTool(<ore:artisansTSquare>, 45)
-  .addOutput(<pyrotech:brick_kiln>)
+  .addOutput(<pyrotech:brick_crucible>)
   .create();
   
 // Stone Crucible

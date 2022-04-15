@@ -1,0 +1,40 @@
+{
+	title: "Clay Molds",
+	icon: "foundry:moldstation",
+	x: 9.0d,
+	y: 8.0d,
+	description: "Like Tinker's, But Better",
+	text: [
+		"Foundrys take molds, so let's make some molds.",
+		"To start off, you'll need a mold crafting station, with that you can then craft some refractory clay blocks and put them in along with some fuel. Make it into a certain shape and then fire it.",
+		"Once you have your raw ingot mold, you'll want to place it into a cast. Another easy recipe."
+	],
+	dependencies: [
+		"1c38e1c2"
+	],
+	tasks: [{
+		uid: "a58df2b8",
+		type: "item",
+		items: [{
+			item: "foundry:moldstation"
+		}]
+	},
+	{
+		uid: "2e8f45e3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "foundry:mold"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ef5b4595",
+		type: "item",
+		items: [{
+			item: "foundry:castingtable"
+		}]
+	}]
+}

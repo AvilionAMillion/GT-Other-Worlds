@@ -1,0 +1,28 @@
+{
+	title: "Strong And Durable!",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "foundry",
+			Amount: 1000
+		}
+	},
+	x: 9.0d,
+	y: 6.5d,
+	description: "Oh So NOW We Care About Accuracy",
+	text: [
+		"To make refractory machines, we're going to need a strong and durable material to help keep the bricks together. You need Refractory Mortar",
+		"Combining dark ash which can be made from slag and some other miscellaneous dusts, you can get a durable foundation material for further refractory machines."
+	],
+	dependencies: [
+		"b723647a"
+	],
+	tasks: [{
+		uid: "15f723fe",
+		type: "fluid",
+		fluid: "foundry"
+	}]
+}

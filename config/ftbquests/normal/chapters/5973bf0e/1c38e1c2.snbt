@@ -2,10 +2,11 @@
 	title: "Bricks and Bricks and More Bricks!",
 	icon: "tconstruct:materials",
 	x: 7.5d,
-	y: 6.5d,
+	y: 8.0d,
 	description: "Construction Time!",
 	text: [
-		"Further technology? Well guess how we'll get that, we need more and more bricks! For the next bit of progression we'll be using seared and refractory bricks, so grab yourself both of those!"
+		"Further technology? Well guess how we'll get that, we need more and more bricks! For the next bit of progression we'll be using seared and refractory bricks, so grab yourself both of those!",
+		"The recipes both take fluids, and so can only be made in the basic workshop. Both take clay dust, which can be gotten from mortaring clay blocks. You can make clay blocks with a compacting bin or in a workshop as well."
 	],
 	dependencies: [
 		"8807d135"

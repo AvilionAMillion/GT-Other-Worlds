@@ -34,10 +34,3 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansHatchet>, 10)
   .addOutput(<gregtech:machine:1610>)
   .create();
-# Copper Ingot
-RecipeBuilder.get("basic")
-  .setShapeless([<gregtech:meta_item_1:348>.noReturn()])
-  .setFluid(<liquid:copper> * 144)
-  .addTool(<ore:artisansBeaker>, 5)
-  .addOutput(<gregtech:meta_ingot:25>)
-  .create();

@@ -83,3 +83,11 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansHandsaw>, 8)
   .addOutput(<minecraft:fence>)
   .create();
+# Clay
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:clay_ball>, <minecraft:clay_ball>],
+    [<minecraft:clay_ball>, <minecraft:clay_ball>]])
+  .setFluid(<liquid:water> * 10)
+  .addOutput(<minecraft:clay>)
+  .create();
