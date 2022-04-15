@@ -1,24 +1,24 @@
 [PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-Belathus
-Psyberition
-Quaternary
-SquidDev
-NerdyWhiteGuy
-Barrier
-Peregrinus11
-WaterMoon
-Ivy_
-BrÃƒÂ¸nsted
-AdaraChristine
-Spencer Gilbert
-IDroid
-Tez Not Here
 Pongo Sapiens
-Zuniroa
-Ncc1702
+Quaternary
+Tyrone McLean
+DreamThorn
 NickT
-Genryu
+Peregrinus11
+AdaraChristine
+Belathus
 Robijnvogel
+SquidDev
+Zuniroa
+Spencer Gilbert
+Tez Not Here
+BrÃƒÂ¸nsted
+Genryu
+Barrier
+Ncc1702
+Ivy_
+Psyberition
+IDroid
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit]]
@@ -44,7 +44,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: ticmat\matWroughtIron.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: tinkers.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: vanilla.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 5ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 4ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: _common.zs} as we are currently loading with a different loader
@@ -70,7 +70,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: ticmat\matWroughtIron.zs}
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: tinkers.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: vanilla.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 303ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 356ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [gregtech]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [gregtech]
 [PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: _common.zs} as we are currently loading with a different loader
@@ -94,7 +94,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: ticmat\matWroughtIron.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: tinkers.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: vanilla.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 51ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 32ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [gregtech], [nc_preinit]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [nc_preinit]
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: _common.zs} as we are currently loading with a different loader
@@ -142,7 +142,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: ticmat\matWroughtIron.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: tinkers.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: vanilla.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 1ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 0ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [gregtech], [nc_preinit], [qmd_preinit], [recipeevent | crafttweaker]]
@@ -1222,7 +1222,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: ticmat\matWroughtIron.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: tinkers.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: vanilla.zs}
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 377ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 383ms
 [INITIALIZATION][CLIENT][INFO] Translating item.Salt.name to River Salt
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <gregtech:meta_dust_small:2063>
@@ -1618,10 +1618,10 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "pyrotech:flint_hammer"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_hand_zest1"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_hand_zest2"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@1fcc922d[metavalue=76,unlocalizedname=crop.tomato]"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@49249043[metavalue=78,unlocalizedname=crop.cucumber]"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@6e12a66b[metavalue=73,unlocalizedname=crop.olive]"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@7b0d1016[metavalue=77,unlocalizedname=crop.onion]"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@6bb18341[metavalue=76,unlocalizedname=crop.tomato]"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@724ac84e[metavalue=73,unlocalizedname=crop.olive]"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@5e974449[metavalue=78,unlocalizedname=crop.cucumber]"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@105bcb94[metavalue=77,unlocalizedname=crop.onion]"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_hand_kubide_kebab_meat"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_hand_barg_kebab_meat"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_hand_kubide_kebab"
@@ -1650,6 +1650,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Dough with name ct_shapeless1684881147
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Ashes with name ct_shapeless320156749
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Flint and Tinder with name ct_shapeless589855650
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Refractory Faucet with name ct_shaped1801702731
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Torch with name ct_shapeless1319989655
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flashbulb with name immersiveengineering_toolupgrades/shield_flash_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Amplifier Electron Tubes with name immersiveengineering_toolupgrades/revolver_electro_modified
@@ -2021,10 +2022,10 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flint Hammer with name pyrotech_flint_hammer_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Zest with name gregtechfoodoption_gtfo_hand_zest1_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Zest with name gregtechfoodoption_gtfo_hand_zest2_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Tomato Slice with name gregtechfoodoption_gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@1fcc922d[metavalue=76,unlocalizedname=crop.tomato]_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Cucumber Slice with name gregtechfoodoption_gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@49249043[metavalue=78,unlocalizedname=crop.cucumber]_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Olive Slice with name gregtechfoodoption_gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@6e12a66b[metavalue=73,unlocalizedname=crop.olive]_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Onion Slice with name gregtechfoodoption_gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@7b0d1016[metavalue=77,unlocalizedname=crop.onion]_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Tomato Slice with name gregtechfoodoption_gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@6bb18341[metavalue=76,unlocalizedname=crop.tomato]_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Olive Slice with name gregtechfoodoption_gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@724ac84e[metavalue=73,unlocalizedname=crop.olive]_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Cucumber Slice with name gregtechfoodoption_gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@5e974449[metavalue=78,unlocalizedname=crop.cucumber]_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Onion Slice with name gregtechfoodoption_gtfo_slice_gregtech.api.items.metaitem.metaitem$metavalueitem@105bcb94[metavalue=77,unlocalizedname=crop.onion]_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Koobideh Ingredients with name gregtechfoodoption_gtfo_hand_kubide_kebab_meat_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Barg Ingredients with name gregtechfoodoption_gtfo_hand_barg_kebab_meat_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Raw Koobideh Kebab with name gregtechfoodoption_gtfo_hand_kubide_kebab_modified
@@ -2049,19 +2050,19 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <foundry:component:2>
 [POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <tconstruct:materials>
 [POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <tconstruct:materials>
-[POSTINITIALIZATION][CLIENT][INFO] Removing soaking pot recipes for net.minecraft.item.crafting.Ingredient@2bb5adbf
-[POSTINITIALIZATION][CLIENT][INFO] Removing drying rack recipes for net.minecraft.item.crafting.Ingredient@5098eb2c
+[POSTINITIALIZATION][CLIENT][INFO] Removing soaking pot recipes for net.minecraft.item.crafting.Ingredient@7ab3fabb
+[POSTINITIALIZATION][CLIENT][INFO] Removing drying rack recipes for net.minecraft.item.crafting.Ingredient@6fffb2f5
 [POSTINITIALIZATION][CLIENT][INFO] Adding soaking pot recipe for net.minecraftforge.fluids.FluidStack@52a8f7a8
 [POSTINITIALIZATION][CLIENT][INFO] Adding drying rack recipe for 1xitem.pyrotech.material@13, inherited=false
-[POSTINITIALIZATION][CLIENT][INFO] Adding stone crucible recipe for net.minecraftforge.fluids.FluidStack@65a8af92, inherited=false
+[POSTINITIALIZATION][CLIENT][INFO] Adding stone crucible recipe for net.minecraftforge.fluids.FluidStack@42fd5174, inherited=false
 [POSTINITIALIZATION][CLIENT][INFO] Registering bloomery recipe: crafttweaker:copper_bloom
 [POSTINITIALIZATION][CLIENT][INFO] Registering bloomery recipe: crafttweaker:copper_pure_bloom
 [POSTINITIALIZATION][CLIENT][INFO] Registering bloomery recipe: crafttweaker:chalcopyrite_bloom
 [POSTINITIALIZATION][CLIENT][INFO] Registering bloomery recipe: crafttweaker:chalcopyrite_pure_bloom
 [POSTINITIALIZATION][CLIENT][INFO] Adding stone kiln recipe for 1xitem.tconstruct.materials@0, inherited=false
 [POSTINITIALIZATION][CLIENT][INFO] Adding brick kiln recipe for 1xitem.tconstruct.materials@0
-[POSTINITIALIZATION][CLIENT][INFO] Removing stone kiln recipes for net.minecraft.item.crafting.Ingredient@b06de1c
-[POSTINITIALIZATION][CLIENT][INFO] Removing brick kiln recipes for net.minecraft.item.crafting.Ingredient@58dca2c5
+[POSTINITIALIZATION][CLIENT][INFO] Removing stone kiln recipes for net.minecraft.item.crafting.Ingredient@78b310b5
+[POSTINITIALIZATION][CLIENT][INFO] Removing brick kiln recipes for net.minecraft.item.crafting.Ingredient@6b48c5ce
 [POSTINITIALIZATION][CLIENT][INFO] Adding stone kiln recipe for 1xtile.glass@0, inherited=false
 [POSTINITIALIZATION][CLIENT][INFO] Adding brick kiln recipe for 1xtile.glass@0
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
@@ -2598,7 +2599,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <gregtech:meta_ingot:1599>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <pyrotech:material:10>
 [AVAILABLE][CLIENT][INFO] Hiding category in JEI: pyrotech.worktable
-[AVAILABLE][CLIENT][INFO] Adding <pyrotech:bucket_clay>.withTag({durability: 12, fluids: {FluidName: "foundry", Amount: 1000}}) to JEI
+[AVAILABLE][CLIENT][INFO] Adding <pyrotech:bucket_clay>.withTag({durability: 32767, fluids: {FluidName: "foundry", Amount: 1000}}) to JEI
 [AVAILABLE][CLIENT][INFO] Adding <tconstruct:hatchet>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 65, HarvestLevel: 0, Attack: 3.4 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 65, HarvestLevel: 0, Attack: 3.4 as float}, Special: {Categories: ["harvest", "aoe", "tool", "weapon"]}, TinkerData: {Materials: ["wood", "flint", "wood"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965 as long, level: 1}, {identifier: "crude", color: -9868951 as long, level: 2, crude2: 1 as byte}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["ecological", "crude2", "toolleveling"]}) to JEI
 [AVAILABLE][CLIENT][INFO] Adding <tconstruct:pickaxe>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 65, HarvestLevel: 0, Attack: 2.9 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 65, HarvestLevel: 0, Attack: 2.9 as float}, Special: {Categories: ["tool", "harvest", "aoe"]}, TinkerData: {Materials: ["wood", "flint", "wood"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965 as long, level: 1}, {identifier: "crude", color: -9868951 as long, level: 2, crude2: 1 as byte}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["ecological", "crude2", "toolleveling"]}) to JEI
 [AVAILABLE][CLIENT][INFO] Adding <tconstruct:shovel>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 65, HarvestLevel: 0, Attack: 2.9 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 65, HarvestLevel: 0, Attack: 2.9 as float}, Special: {Categories: ["harvest", "aoe", "tool"]}, TinkerData: {Materials: ["wood", "flint", "wood"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965 as long, level: 1}, {identifier: "crude", color: -9868951 as long, level: 2, crude2: 1 as byte}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["ecological", "crude2", "toolleveling"]}) to JEI
@@ -2606,3 +2607,424 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [AVAILABLE][CLIENT][INFO] Adding <tconstruct:pickaxe>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 110, HarvestLevel: 0, Attack: 2.9 as float}, display: {Name: "Sturdy Pickaxe"}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 0, Durability: 110, HarvestLevel: 0, Attack: 2.9 as float}, Special: {Categories: ["harvest", "aoe", "tool"]}, TinkerData: {Materials: ["treatedwood", "flint", "treatedwood"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -10144478 as long, level: 1}, {identifier: "crude", color: -9868951 as long, level: 2, crude2: 1 as byte}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["ecological", "crude2", "toolleveling"]}) to JEI
 [AVAILABLE][CLIENT][INFO] Adding <tconstruct:hatchet>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 110, HarvestLevel: 0, Attack: 3.4 as float}, display: {Name: "Sturdy Axe"}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 0, Durability: 110, HarvestLevel: 0, Attack: 3.4 as float}, Special: {Categories: ["harvest", "aoe", "tool", "weapon"]}, TinkerData: {Materials: ["treatedwood", "flint", "treatedwood"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -10144478 as long, level: 1}, {identifier: "crude", color: -9868951 as long, level: 2, crude2: 1 as byte}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["ecological", "crude2", "toolleveling"]}) to JEI
 [AVAILABLE][CLIENT][INFO] Adding <tconstruct:shovel>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 110, HarvestLevel: 0, Attack: 2.9 as float}, display: {Name: "Sturdy Shovel"}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 0, Durability: 110, HarvestLevel: 0, Attack: 2.9 as float}, Special: {Categories: ["harvest", "aoe", "tool"]}, TinkerData: {Materials: ["treatedwood", "flint", "treatedwood"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -10144478 as long, level: 1}, {identifier: "crude", color: -9868951 as long, level: 2, crude2: 1 as byte}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["ecological", "crude2", "toolleveling"]}) to JEI
+--- JEI Categories ---
+minecraft.crafting
+minecraft.fuel
+minecraft.smelting
+minecraft.brewing
+minecraft.anvil
+artisanworktables_basic_worktable
+artisanworktables_basic_workstation
+artisanworktables_mason_workshop
+artisanworktables_basic_workshop
+pyrotech.bloomery
+pyrotech.wither.forge
+pyrotech.pit.kiln
+pyrotech.crude.drying
+pyrotech.drying
+pyrotech.chopping
+pyrotech.anvil.granite
+pyrotech.anvil.ironclad
+pyrotech.compacting.bin
+pyrotech.campfire
+pyrotech.soaking.pot
+pyrotech.compost.bin
+pyrotech.stone.kiln
+pyrotech.stone.mill
+pyrotech.stone.oven
+pyrotech.stone.crucible
+pyrotech.brick.kiln
+pyrotech.brick.mill
+pyrotech.brick.oven
+pyrotech.brick.crucible
+pyrotech.mechanical.compacting.bin
+pyrotech.pit.burn
+pyrotech.refractory.burn
+jeresources.plant
+jeresources.worldgen
+jeresources.mob
+jeresources.enchantment
+jeresources.dungeon
+jeresources.villager
+binnie.genetics.incubator
+binnie.genetics.isolator
+binnie.genetics.polymeriser
+binnie.genetics.sequencer
+binnie.genetics.inoculator
+binnie.genetics.genepool
+binnie.genetics.database
+bdew.jeibees.mutation.rootTrees
+bdew.jeibees.produce.rootTrees
+bdew.jeibees.mutation.rootBees
+bdew.jeibees.produce.rootBees
+bdew.jeibees.mutation.rootButterflies
+bdew.jeibees.mutation.rootFlowers
+binnie.extratrees.lumbermill
+binnie.extratrees.fruitpress
+binnie.extratrees.brewing
+binnie.extratrees.distilling
+integrateddynamicscompat:dryingBasin
+integrateddynamicscompat:squeezer
+integrateddynamicscompat:mechanicalDryingBasin
+integrateddynamicscompat:mechanicalSqueezer
+forestry.farming
+Painter
+thermaldynamics.covers
+thermalexpansion.furnace
+thermalexpansion.furnace_food
+thermalexpansion.furnace_ore
+thermalexpansion.furnace_pyrolysis
+thermalexpansion.pulverizer
+thermalexpansion.pulverizer_petrotheum
+thermalexpansion.sawmill
+thermalexpansion.sawmill_tapper
+thermalexpansion.smelter
+thermalexpansion.smelter_pyrotheum
+thermalexpansion.insolator
+thermalexpansion.insolator_tree
+thermalexpansion.compactor
+thermalexpansion.compactor_mint
+thermalexpansion.compactor_gear
+thermalexpansion.crucible
+thermalexpansion.crucible_lava
+thermalexpansion.refinery
+thermalexpansion.refinery_fossil
+thermalexpansion.refinery_potion
+thermalexpansion.transposer_fill
+thermalexpansion.transposer_extract
+thermalexpansion.charger
+thermalexpansion.centrifuge
+thermalexpansion.centrifuge_mobs
+thermalexpansion.brewer
+thermalexpansion.enchanter
+thermalexpansion.precipitator
+thermalexpansion.extruder
+thermalexpansion.extruder_sedimentary
+thermalexpansion.steam
+thermalexpansion.magmatic
+thermalexpansion.compression
+thermalexpansion.reactant
+thermalexpansion.reactant_elemental
+thermalexpansion.enervation
+thermalexpansion.numismatic
+thermalexpansion.numismatic_gem
+thermalexpansion.factorizer_combine
+thermalexpansion.factorizer_split
+thermalexpansion.coolant
+actuallyadditions.coffee
+actuallyadditions.compost
+actuallyadditions.crushing
+actuallyadditions.reconstructor
+actuallyadditions.empowerer
+actuallyadditions.booklet
+tconstruct.smeltery
+tconstruct.alloy
+tconstruct.casting_table
+tconstruct.dryingrack
+appliedenergistics2.grinder
+appliedenergistics2.condenser
+appliedenergistics2.inscriber
+jetif
+compactmachines3.MultiblockMiniaturization
+qmd.accelerator_source
+qmd.particle_info
+qmd.target_chamber
+qmd.decay_chamber
+qmd.collision_chamber
+ore_leacher
+irradiator
+irradiator_fuel
+accelerator_cooling
+qmd.beam_dump
+qmd.neutral_containment
+cell_filling
+qmd.atmosphere_collector
+qmd.nucleosynthesis_chamber
+vacuum_chamber_heater
+extendedcrafting:table_crafting_7x7
+extendedcrafting:table_crafting_9x9
+extendedcrafting:compressor
+extendedcrafting:ender_crafting
+botania.brewery
+botania.pureDaisy
+botania.runicAltar
+botania.petals
+botania.elvenTrade
+botania.manaPool
+botania.orechid
+botania.orechid_ignem
+GENDUSTRY_MUTAGEN_PRODUCER
+GENDUSTRY_PROTEIN_LIQUIFIER
+GENDUSTRY_DNA_LIQUIFIER
+GENDUSTRY_MUTATRON
+GENDUSTRY_SAMPLER
+GENDUSTRY_TRANSPOSER
+GENDUSTRY_IMPRINTER
+GENDUSTRY_REPLICATOR
+jehc.presser
+jehc.shippingbin
+jehc.market
+jehc.apiary
+jehc.ground_trap
+jehc.water_trap
+jehc.grinder
+jehc.waterfilter
+astralsorcery.lightwell
+astralsorcery.grindstone
+astralsorcery.infuser
+astralsorcery.lightTransmutation
+astralsorcery.altar.trait
+astralsorcery.altar.constellation
+astralsorcery.altar.attunement
+astralsorcery.altar.discovery
+roots.runic_shears
+roots.ritual_crafting
+roots.chrysopoeia
+roots.ritual
+roots.fey_crafting
+roots.spell_costs
+roots.bark_carving
+roots.terra_moss
+roots.runic_shears_entity
+roots.summon_creatures
+roots.mortar_and_pestle
+roots.transmutation
+roots.runed_wood
+roots.loot
+roots.runic_shears_summon_entity
+roots.block_break
+roots.right_click_block
+roots.soil
+roots.pyre_light
+roots.ritual_visualise
+roots.spell_imbuing
+roots.spell_imposing
+foundry.melting
+foundry.casting
+foundry.alloymixer
+foundry.alloyingcrucible
+foundry.infuser
+foundry.atomizer
+foundry.mold
+foundry.casting_table.ingot
+foundry.casting_table.plate
+foundry.casting_table.rod
+foundry.casting_table.block
+scavenge.click
+tinkersjei:tool_stats
+infinityPowder
+aether_legacy.enchantment
+aether_legacy.freezable
+ie.cokeoven
+ie.alloysmelter
+ie.blastfurnace
+ie.blastfurnace.fuel
+ie.metalPress
+ie.crusher
+ie.workbench
+ie.squeezer
+ie.fermenter
+ie.refinery
+ie.arcFurnace
+ie.arcFurnace.recycling
+ie.bottlingMachine
+ie.mixer
+gregtech:circuit.integrated
+gregtech:multiblock_info
+gregtech:cutter
+gregtech:semi_fluid_generator
+gregtech:alloy_smelter
+gregtech:distillation_tower
+gregtech:large_chemical_reactor
+gregtech:electromagnetic_separator
+gregtech:electric_blast_furnace
+gregtech:packer
+gregtech:circuit_assembler
+gregtech:fluid_solidifier
+gregtech:assembly_line
+gregtech:forming_press
+gregtech:rock_breaker
+gregtech:canner
+gregtech:fluid_heater
+gregtech:coke_oven
+gregtech:centrifuge
+gregtech:cuisine_assembler
+gregtech:mixer
+gregtech:chemical_reactor
+gregtech:laser_engraver
+gregtech:fermenter
+gregtech:electric_baking_oven
+gregtech:ore_washer
+gregtech:combustion_generator
+gregtech:compressor
+gregtech:slicer
+gregtech:autoclave
+gregtech:alloy_blast_smelter
+gregtech:lathe
+gregtech:distillery
+gregtech:wiremill
+gregtech:extractor
+gregtech:thermal_centrifuge
+gregtech:electrolyzer
+gregtech:implosion_compressor
+gregtech:pyrolyse_oven
+gregtech:arc_furnace
+gregtech:brewery
+gregtech:macerator
+gregtech:bender
+gregtech:extruder
+gregtech:microwave
+gregtech:sifter
+gregtech:fusion_reactor
+gregtech:assembler
+gregtech:forge_hammer
+gregtech:steam_turbine
+gregtech:chemical_bath
+gregtech:baking_oven
+gregtech:polarizer
+gregtech:primitive_blast_furnace
+gregtech:vacuum_freezer
+gregtech:gas_collector
+gregtech:cracker
+gregtech:gas_turbine
+gregtech:plasma_generator
+gregtech:ore_by_product
+gregtech:ore_spawn_location
+gregtech:material_tree
+cookingforblockheads.cowjar
+forestry.charcoal.pile
+bloodmagic:altar
+bloodmagic:binding
+bloodmagic:alchemyArray
+bloodmagic:soulForge
+bloodmagic:salchemyTable
+bloodmagic:armourDowngrade
+spawner_modification
+DraconicEvolution.Fusion
+THAUMCRAFT_ARCANE_WORKBENCH
+THAUMCRAFT_CRUCIBLE
+THAUMCRAFT_INFUSION
+THAUMCRAFT_ASPECT_COMPOUND
+THAUMCRAFT_ASPECT_FROM_ITEMSTACK
+mekanism.chemicalcrystallizer
+mekanism.chemicaldissolutionchamber
+mekanism.chemicalinfuser
+mekanism.chemicaloxidizer
+mekanism.chemicalwasher
+mekanism.electrolyticseparator
+mekanism.metallurgicinfuser
+mekanism.pressurizedreactionchamber
+mekanism.rotary_condensentrator_condensentrating
+mekanism.rotary_condensentrator_decondensentrating
+mekanism.solarneutronactivator
+mekanism.combiner
+mekanism.purificationchamber
+mekanism.osmiumcompressor
+mekanism.chemicalinjectionchamber
+mekanism.precisionsawmill
+mekanism.enrichmentchamber
+mekanism.crusher
+mekanism.thermalevaporationplant
+pneumaticcraft.pressure_chamber
+pneumaticcraft.assembly_controller
+pneumaticcraft.thermo_pneumatic
+pneumaticcraft.refinery
+pneumaticcraft.etching_acid
+pneumaticcraft.uv_light_box
+pneumaticcraft.amadron_trade
+pneumaticcraft.plastic_mixer
+.heat_frame_cooling
+pneumaticcraft.compressed_iron_explosion
+sludge_refiner_category
+bioreactor_accepted_items
+protein_reactor_accepted_items
+laser_category
+machine_produce_category
+petrified_burn_time
+fluid_dictionary
+stone_work_factory
+EXTRACTOR_RECIPE
+if_manual_category
+ORE_WASHER
+ORE_FERMENTER
+ORE_SIEVE
+forestry.bottler
+forestry.carpenter
+forestry.centrifuge
+forestry.fabricator
+forestry.fermenter
+forestry.moistener
+forestry.rainmaker
+forestry.squeezer
+forestry.still
+ftbquests.quests
+threng.agg
+threng.purify
+threng.etch
+threng.energize
+jei.information
+nuclearcraft_manufactory
+nuclearcraft_separator
+nuclearcraft_decay_hastener
+nuclearcraft_fuel_reprocessor
+nuclearcraft_alloy_furnace
+nuclearcraft_infuser
+nuclearcraft_melter
+nuclearcraft_supercooler
+nuclearcraft_electrolyzer
+nuclearcraft_assembler
+nuclearcraft_ingot_former
+nuclearcraft_pressurizer
+nuclearcraft_chemical_reactor
+nuclearcraft_salt_mixer
+nuclearcraft_crystallizer
+nuclearcraft_enricher
+nuclearcraft_extractor
+nuclearcraft_centrifuge
+nuclearcraft_rock_crusher
+nuclearcraft_collector
+nuclearcraft_decay_generator
+nuclearcraft_fission_moderator
+nuclearcraft_fission_reflector
+nuclearcraft_fission_irradiator
+nuclearcraft_pebble_fission
+nuclearcraft_solid_fission
+nuclearcraft_fission_heating
+nuclearcraft_salt_fission
+nuclearcraft_coolant_heater
+nuclearcraft_emergency_cooling
+nuclearcraft_heat_exchanger
+nuclearcraft_condenser
+nuclearcraft_high_turbine
+nuclearcraft_radiation_scrubber
+AlloySmelter
+CombustionGenerator
+Enchanter
+SagMill
+GrindingBall
+SliceNSPlice
+SolarPanel
+SoulBinder
+StirlingGenerator
+EIOTank
+Vat
+EIOWC
+EIOWO
+ZombieGenerator
+EnderGenerator
+LavaGenerator
+rustic.crushing_tub
+rustic.evaporating
+rustic.alchemy_advanced
+rustic.alchemy_simple
+rustic.brewing
+zmaster587.AR.rollingMachine
+zmaster587.AR.lathe
+zmaster587.AR.precisionAssembler
+zmaster587.AR.sawMill
+zmaster587.AR.chemicalReactor
+zmaster587.AR.crystallizer
+zmaster587.AR.electrolyzer
+zmaster587.AR.arcFurnace
+zmaster587.AR.platePresser
+zmaster587.AR.centrifuge

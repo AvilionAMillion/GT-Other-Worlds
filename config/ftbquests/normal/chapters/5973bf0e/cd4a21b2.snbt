@@ -1,0 +1,19 @@
+{
+	title: "Copper Collection!",
+	x: 12.0d,
+	y: 6.5d,
+	description: "Sweet Sweet Ingots",
+	text: [
+		"Make some copper with your newfound Foundry!"
+	],
+	dependencies: [
+		"21abb173"
+	],
+	tasks: [{
+		uid: "7512f136",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 25"
+		}]
+	}]
+}

@@ -7,13 +7,21 @@ val builder = RecipeBuilder.get("basic");
  var tinyFoundRefract = <foundry:component:16>;
  var RefractBrick = <foundry:component:2>;
  var casingBasic = <foundry:componentblock:3>;
-
-    mods.jei.JEI.removeAndHide(FoundRefract);
-	mods.jei.JEI.removeAndHide(tinyFoundRefract);
-	mods.jei.JEI.removeAndHide(RefractBrick);
-	mods.jei.JEI.removeAndHide(<foundry:alloyfurnace>);   
-
-    furnace.remove(RefractBrick, FoundRefract);
+ 
+// Removal
+mods.jei.JEI.removeAndHide(<foundry:machine:1);
+mods.jei.JEI.removeAndHide(FoundRefract);
+mods.jei.JEI.removeAndHide(tinyFoundRefract);
+mods.jei.JEI.removeAndHide(RefractBrick);
+mods.jei.JEI.removeAndHide(<foundry:alloyfurnace>);   
+mods.jei.JEI.removeAndHide(<foundry:castingtable:1>);
+mods.jei.JEI.removeAndHide(<foundry:castingtable:2>);
+furnace.remove(RefractBrick, FoundRefract);
+	
+// JEI Removal
+mods.jei.JEI.hideCategory("foundry.casting");
+mods.jei.JEI.hideCategory("foundry.casting_table.rod");
+mods.jei.JEI.hideCategory("foundry.casting_table.plate");
  
  //JEI Fluid containers
  var RefractCan = <foundry:fluidcontainer>;

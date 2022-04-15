@@ -13,14 +13,16 @@
 import mods.artisanworktables.builder.RecipeBuilder;
 val builder = RecipeBuilder.get("basic");
 
+// Val
+val refracBrick = <pyrotech:material:5>;
+
 // Flint Shard Replacement
 recipes.replaceAllOccurences(<pyrotech:material:10>, <tconstruct:shard>.withTag({Material: "flint"}));
 mods.jei.JEI.removeAndHide(<pyrotech:material:10>);
-// Worktable JEI Removal
+// JEI Removal
 mods.jei.JEI.hideCategory("pyrotech.worktable");
 
 // Removal
-# Worktable
 recipes.remove(<pyrotech:worktable>);
 recipes.remove(<pyrotech:worktable_stone>);
 recipes.remove(<pyrotech:chopping_block>);
@@ -49,6 +51,7 @@ recipes.remove(<pyrotech:brick_kiln>);
 recipes.remove(<pyrotech:brick_oven>);
 recipes.remove(<pyrotech:brick_sawmill>);
 recipes.remove(<pyrotech:brick_crucible>);
+recipes.remove(<pyrotech:faucet_brick>);
 
 // Soaking Pot
 SoakingPot.addRecipe("wet_chad", <contenttweaker:wetchad>, <liquid:water>, <gregtech:meta_dust:1618>, 6000);
@@ -59,6 +62,11 @@ DryingRack.addRecipe("driedplantfibers", <pyrotech:material:13>, <pyrotech:mater
 // Crafting
 recipes.addShapeless(<pyrotech:flint_and_tinder>, 
 	[<tconstruct:shard>.withTag({Material: "flint"}), <pyrotech:material:13>, <minecraft:cobblestone>]);
+# Refractory Faucet
+recipes.addShaped(<pyrotech:faucet_brick>,
+	[[refracBrick, <pyrotech:faucet_stone>, refracBrick],
+	[refracBrick, refracBrick, refracBrick]]);
+	
 // Worktable Recipes
 # Chopping Block
 RecipeBuilder.get("basic")
@@ -297,6 +305,3 @@ RecipeBuilder.get("basic")
   .addOutput(<pyrotech:brick_crucible>)
   .create();
   
-// Stone Crucible
-# Melting Copper Nuggets
-StoneCrucible.addRecipe("liquid_copper", <liquid:copper> * 16, <gregtech:meta_nugget:25>, 2400);

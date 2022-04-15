@@ -1,7 +1,7 @@
 {
 	title: "Primitive Metallurgy",
 	x: 7.5d,
-	y: 5.0d,
+	y: 6.5d,
 	description: "It Only Gets Better From Here",
 	text: [
 		"The Bloomery is the first way of smelting any ores, and it is baaaaaad at it.",

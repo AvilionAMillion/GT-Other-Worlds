@@ -1,0 +1,41 @@
+{
+	title: "Other Gregtech Tools",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "gregtech:meta_tool",
+		tag: {
+			GT.ToolStats: {
+				Material: "stone"
+			}
+		},
+		Damage: 6s
+	},
+	x: 7.5d,
+	y: 5.0d,
+	description: "Stone Tools! Preposterous!",
+	text: [
+		"Other than the GT Mortar, you can make a few other select types of GT tools with the crafting table, namely stone tools using mason bricks."
+	],
+	dependencies: [
+		"c4ded503"
+	],
+	tasks: [{
+		uid: "5d6a241c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "stone"
+				}
+			},
+			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	}]
+}
