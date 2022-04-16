@@ -2,7 +2,7 @@ version:1343
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.0
-gamma:0.0
+gamma:1.0
 saturation:0.0
 renderDistance:12
 guiScale:3
@@ -88,18 +88,20 @@ key_key.hotbar.9:10
 key_Change Caster Focus:33
 key_Misc Caster Toggle:34
 key_keybind.baublesinventory:48
-key_keybind.railcraft.cart.bed:208
 key_roots.keybinds.pouch:0
 key_roots.keybinds.quiver:0
 key_roots.keybinds.spell_library:37
 key_roots.keybinds.cycle:0
 key_roots.keybinds.delete_spell:0
 key_key.toggle_shaders:0
-key_key.betterquesting.quests:41
 key_bloodmagic.keybind.open_holding:35
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
 key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT
 key_keybind.hammercorerenderstack:77
+key_gregtech.key.armor_mode_switch:50
+key_gregtech.key.armor_hover:35
+key_gregtech.key.armor_charging:49
+key_gregtech.key.tool_aoe_change:47
 key_enderutilities.key.activate_unselected:34
 key_enderutilities.key.togglemode:34
 key_key.erebus.glide:34
@@ -179,10 +181,6 @@ key_key.fuzzy:0
 key_key.connected_area:0
 key_key.rotate_mirror:0
 key_key.material_list:50
-key_ALT Menu:56
-key_Mode Switch:50
-key_Jetpack Hover:35
-key_Armor Charging:49
 key_mekanism.key.mode:50
 key_mekanism.key.armorMode:34
 key_mekanism.key.feetMode:35
@@ -202,7 +200,7 @@ key_key.porterPrevDestination:26
 key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
 key_gui.xaero_switch_waypoint_set:0
-key_gui.xaero_instant_waypoint:78
+key_gui.xaero_instant_waypoint:0
 key_gui.xaero_toggle_slime:0
 key_gui.xaero_toggle_grid:0
 key_gui.xaero_toggle_waypoints:0
@@ -212,7 +210,7 @@ key_gui.xaero_enlarge_map:44
 key_gui.xaero_waypoints_key:22
 key_gui.xaero_zoom_in:0
 key_gui.xaero_zoom_out:0
-key_gui.xaero_new_waypoint:48
+key_gui.xaero_new_waypoint:78
 key_gui.xaero_display_all_sets:0
 key_gui.xaero_toggle_light_overlay:0
 key_gui.xaero_toggle_entity_radar:0
@@ -223,11 +221,6 @@ key_gui.xaero_open_settings:27
 key_gui.xaero_map_zoom_in:0
 key_gui.xaero_map_zoom_out:0
 key_gui.xaero_quick_confirm:54
-key_keybind.railcraft.loco.reverse:53:ALT
-key_keybind.railcraft.loco.faster:52:ALT
-key_keybind.railcraft.loco.slower:51:ALT
-key_keybind.railcraft.loco.mode:50:ALT
-key_keybind.railcraft.loco.whistle:49:ALT
 key_Toggle Jetpack:45
 key_Open Rocket GUI:46
 key_Toggle RCS:19

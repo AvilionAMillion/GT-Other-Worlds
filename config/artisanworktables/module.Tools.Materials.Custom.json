@@ -3,7 +3,7 @@
 	{
       "name": "flint",
       "harvestLevel": 1,
-      "maxUses": 25,
+      "maxUses": 40,
       "efficiency": 3.8,
       "damage": 1.0,
       "enchantability": 5,
@@ -16,7 +16,7 @@
     {
       "name": "mason",
       "harvestLevel": 1,
-      "maxUses": 80,
+      "maxUses": 100,
       "efficiency": 4.0,
       "damage": 1.0,
       "enchantability": 5,

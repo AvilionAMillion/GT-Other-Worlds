@@ -1,0 +1,23 @@
+{
+	title: "Hot, Hot!",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:lava_bucket"
+	},
+	x: 13.5d,
+	y: 5.0d,
+	description: "Be Quick With It!",
+	text: [
+		"Refractory Crucibles can get hot enough to melt cobblestone into lava, a very useful ability! Grab some lava, but be warned because it'll set you on fire while holding it!"
+	],
+	dependencies: [
+		"50fe2d3a"
+	],
+	tasks: [{
+		uid: "93c75bf2",
+		type: "fluid",
+		fluid: "lava"
+	}]
+}

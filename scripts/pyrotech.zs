@@ -52,6 +52,14 @@ recipes.remove(<pyrotech:brick_oven>);
 recipes.remove(<pyrotech:brick_sawmill>);
 recipes.remove(<pyrotech:brick_crucible>);
 recipes.remove(<pyrotech:faucet_brick>);
+mods.jei.JEI.removeAndHide(<pyrotech:crude_hammer>);
+mods.jei.JEI.removeAndHide(<pyrotech:stone_hammer>);
+mods.jei.JEI.removeAndHide(<pyrotech:flint_hammer>);
+mods.jei.JEI.removeAndHide(<pyrotech:bone_hammer>);
+mods.jei.JEI.removeAndHide(<pyrotech:iron_hammer>);
+mods.jei.JEI.removeAndHide(<pyrotech:gold_hammer>);
+mods.jei.JEI.removeAndHide(<pyrotech:diamond_hammer>);
+mods.jei.JEI.removeAndHide(<pyrotech:obsidian_hammer>);
 
 // Soaking Pot
 SoakingPot.addRecipe("wet_chad", <contenttweaker:wetchad>, <liquid:water>, <gregtech:meta_dust:1618>, 6000);
@@ -66,7 +74,11 @@ recipes.addShapeless(<pyrotech:flint_and_tinder>,
 recipes.addShaped(<pyrotech:faucet_brick>,
 	[[refracBrick, <pyrotech:faucet_stone>, refracBrick],
 	[refracBrick, refracBrick, refracBrick]]);
-	
+# Pulp
+recipes.addShapeless(<pyrotech:material:25>,
+	[<contenttweaker:wetchad>,<contenttweaker:wetchad>,<contenttweaker:wetchad>,<contenttweaker:wetchad>]);
+
+
 // Worktable Recipes
 # Chopping Block
 RecipeBuilder.get("basic")
@@ -164,11 +176,6 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansHammer>, 15)
   .addTool(<ore:artisansFile>, 15)
   .addOutput(<pyrotech:soaking_pot>)
-  .create();
-# Pulp
-RecipeBuilder.get("basic")
-  .setShapeless([<contenttweaker:wetchad>, <contenttweaker:wetchad>, <contenttweaker:wetchad>, <contenttweaker:wetchad>])
-  .addOutput(<pyrotech:material:25>)
   .create();
 # Stone Collector
 RecipeBuilder.get("basic")

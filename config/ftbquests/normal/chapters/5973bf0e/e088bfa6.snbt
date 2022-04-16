@@ -6,7 +6,8 @@
 	description: "Drain Gang!!!!",
 	text: [
 		"The stone collector and stone drain are able to collect fluids from certain crafting operations, namely that of the log pile.",
-		"You can put a faucet on the drain and lead that into a wooden barrel or stone tank."
+		"You can put a faucet on the drain and lead that into a wooden barrel or stone tank.",
+		"The wooden barrel is bugged and doesn't allow fluids to be drained into it, but you can pull wood tar straight from the drain"
 	],
 	dependencies: [
 		"dfe441e7"
