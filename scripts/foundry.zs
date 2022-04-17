@@ -8,6 +8,7 @@ val builder = RecipeBuilder.get("basic");
  var RefractBrick = <foundry:component:2>;
  var casingBasic = <foundry:componentblock:3>;
  var ingotTable = <foundry:castingtable>;
+ var brickPT = <pyrotech:material:5>;
  
 // Removal
 mods.jei.JEI.removeAndHide(<foundry:machine:1>);
@@ -41,12 +42,12 @@ mods.jei.JEI.hideCategory("foundry.casting_table.plate");
 // Crafting
 recipes.remove(<foundry:componentblock:3>);
 recipes.addShaped(casingBasic, [
-	[plateCopper, RefractBrick, plateCopper],
-	[RefractBrick, null, RefractBrick],
-	[plateCopper, RefractBrick, plateCopper]]);
+	[plateCopper, brickPT, plateCopper],
+	[brickPT, null, brickPT],
+	[plateCopper, brickPT, plateCopper]]);
 recipes.remove(ingotTable);
 recipes.addShaped(ingotTable,
-	[[RefractBrick, <foundry:mold>, RefractBrick],
+	[[brickPT, <foundry:mold>, brickPT],
 	[gtHammer, <minecraft:stone_slab>, gtFile]]);
 
 // Worktable
