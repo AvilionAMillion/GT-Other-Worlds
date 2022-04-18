@@ -1,7 +1,8 @@
 {
 	title: "Primitive Metallurgy",
+	icon: "pyrotech:bloomery",
 	x: 7.5d,
-	y: 6.5d,
+	y: 8.0d,
 	description: "It Only Gets Better From Here",
 	text: [
 		"The Bloomery is the first way of smelting any ores, and it is baaaaaad at it.",
@@ -17,6 +18,13 @@
 		type: "item",
 		items: [{
 			item: "pyrotech:bloomery"
+		}]
+	},
+	{
+		uid: "cbee603f",
+		type: "item",
+		items: [{
+			item: "pyrotech:bellows"
 		}]
 	}]
 }

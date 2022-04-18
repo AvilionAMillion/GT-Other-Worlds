@@ -141,7 +141,7 @@ RecipeBuilder.get("basic")
   .setShapeless([<gregtech:meta_dust:2063>, <minecraft:gravel>, <minecraft:sand>])
   .setFluid(<liquid:water> * 50)
   .addTool(<ore:artisansMortar>, 1)
-  .addOutput(<tconstruct:soil>)
+  .addOutput(<tconstruct:soil> * 2)
   .create();
 # Seared Bricks
 RecipeBuilder.get("basic")

@@ -52,6 +52,7 @@ recipes.remove(<pyrotech:brick_oven>);
 recipes.remove(<pyrotech:brick_sawmill>);
 recipes.remove(<pyrotech:brick_crucible>);
 recipes.remove(<pyrotech:faucet_brick>);
+recipes.remove(<pyrotech:mechanical_bellows>);
 mods.jei.JEI.removeAndHide(<pyrotech:crude_hammer>);
 mods.jei.JEI.removeAndHide(<pyrotech:stone_hammer>);
 mods.jei.JEI.removeAndHide(<pyrotech:flint_hammer>);
@@ -314,5 +315,15 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansHammer>, 45)
   .addTool(<ore:artisansTSquare>, 45)
   .addOutput(<pyrotech:brick_crucible>)
+  .create();
+# Mechanical Bellows
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<pyrotech:material:23>, <ore:plateCopper>, <pyrotech:material:23>],
+    [<ore:plateStone>, <pyrotech:bellows>, <ore:plateStone>],
+    [<pyrotech:planks_tarred>, <ore:stickStone>, <pyrotech:planks_tarred>]])
+  .addTool(<ore:artisansHammer>, 15)
+  .addTool(<ore:artisansHandsaw>, 15)
+  .addOutput(<pyrotech:mechanical_bellows>)
   .create();
   

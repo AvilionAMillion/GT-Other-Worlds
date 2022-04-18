@@ -1,8 +1,8 @@
 {
 	title: "SMELTING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
 	icon: "tconstruct:seared_furnace_controller",
-	x: 15.0d,
-	y: 5.0d,
+	x: 13.5d,
+	y: 6.5d,
 	description: "Everything Is Falling Into Place",
 	text: [
 		"The Seared Furnace is the first form of Furnace-ry in the entire pack. And now, you can make it. It is costly, but with the quicker refractory machines it will be exceedingly possible.",

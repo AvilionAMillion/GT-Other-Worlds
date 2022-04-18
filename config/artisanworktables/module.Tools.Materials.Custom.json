@@ -87,7 +87,7 @@
       "enchantability": 9,
       "color": "8a93b1",
       "shiny": true,
-      "ingredient": "ore:ingotLead",
+      "ingredient": "ore:plateLead",
       "langKey": "material.athenaeum.lead",
       "oreDictKey": "artisansToolLead"
     },
@@ -100,7 +100,7 @@
       "enchantability": 9,
       "color": "4bacd8",
       "shiny": true,
-      "ingredient": "ore:ingotPlatinum",
+      "ingredient": "ore:platePlatinum",
       "langKey": "material.athenaeum.platinum",
       "oreDictKey": "artisansToolPlatinum"
     },
@@ -113,7 +113,7 @@
       "enchantability": 20,
       "color": "7b9da4",
       "shiny": true,
-      "ingredient": "ore:ingotSilver",
+      "ingredient": "ore:plateSilver",
       "langKey": "material.athenaeum.silver",
       "oreDictKey": "artisansToolSilver"
     },
@@ -126,7 +126,7 @@
       "enchantability": 10,
       "color": "858585",
       "shiny": false,
-      "ingredient": "ore:ingotSteel",
+      "ingredient": "ore:plateSteel",
       "langKey": "material.athenaeum.steel",
       "oreDictKey": "artisansToolSteel"
     },
@@ -139,7 +139,7 @@
       "enchantability": 12,
       "color": "9ba9b1",
       "shiny": true,
-      "ingredient": "ore:ingotOsmium",
+      "ingredient": "ore:plateOsmium",
       "langKey": "material.athenaeum.osmium",
       "oreDictKey": "artisansToolOsmium"
     },

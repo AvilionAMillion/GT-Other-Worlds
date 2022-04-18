@@ -44,6 +44,34 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansTSquare>, 50)
   .addOutput(<artisanworktables:workshop:2>)
   .create();
+# Carpenter's Workshop
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:plankWood>, <pyrotech:chopping_block>, <pyrotech:chopping_block>, <pyrotech:chopping_block>, <ore:plankWood>],
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+    [<gregtech:planks:1>, <pyrotech:material:26>, <gregtech:meta_block_frame_103>, <pyrotech:material:26>, <gregtech:planks:1>],
+    [<gregtech:planks:1>, <gregtech:meta_block_frame_103>, <pyrotech:material:26>, <gregtech:meta_block_frame_103>, <gregtech:planks:1>],
+    [<gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>]])
+  .setFluid(<liquid:wood_tar> * 4000)
+  .addTool(<ore:artisansHandsaw>, 100)
+  .addTool(<ore:artisansFramingHammer>, 100)
+  .addTool(<ore:artisansHatchet>, 100)
+  .addOutput(<artisanworktables:workshop:1>)
+  .create();
+# Tanner's Workshop
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:leather>, <minecraft:leather>, <minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
+    [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>, <minecraft:planks>, <minecraft:planks>],
+    [<gregtech:planks:1>, <pyrotech:material:26>, <gregtech:meta_block_frame_103>, <pyrotech:material:26>, <gregtech:planks:1>],
+    [<gregtech:planks:1>, <gregtech:meta_block_frame_103>, <pyrotech:material:26>, <gregtech:meta_block_frame_103>, <gregtech:planks:1>],
+    [<gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>]])
+  .setFluid(<liquid:calcium_hydroxide> * 4000)
+  .addTool(<ore:artisansHandsaw>, 100)
+  .addTool(<ore:artisansNeedle>, 100)
+  .addTool(<ore:artisansKnife>, 100)
+  .addOutput(<artisanworktables:workshop:13>)
+  .create();
 
 // Artisan Materials
 # Flint Hatchet

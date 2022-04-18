@@ -11,7 +11,7 @@
 		}
 	},
 	x: 9.0d,
-	y: 6.5d,
+	y: 8.0d,
 	description: "Oh So NOW We Care About Accuracy",
 	text: [
 		"To make refractory machines, we're going to need a strong and durable material to help keep the bricks together. You need Refractory Mortar",
@@ -21,8 +21,21 @@
 		"b723647a"
 	],
 	tasks: [{
-		uid: "15f723fe",
-		type: "fluid",
-		fluid: "foundry"
+		uid: "1d805e5b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:bucket_clay",
+			tag: {
+				durability: 32767,
+				fluids: {
+					FluidName: "foundry",
+					Amount: 1000
+				}
+			}
+		}],
+		ignore_nbt: 1b
 	}]
 }

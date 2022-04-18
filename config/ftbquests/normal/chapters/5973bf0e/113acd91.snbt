@@ -1,0 +1,42 @@
+{
+	title: "More Stone Tools!",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "gregtech:meta_tool",
+		tag: {
+			GT.ToolStats: {
+				Material: "stone"
+			}
+		},
+		Damage: 3s
+	},
+	x: 7.5d,
+	y: 6.5d,
+	description: "Oh My... That's A Lot Of Stone",
+	text: [
+		"Using stone large plates and masonry bricks you can make some other handy stone tools.",
+		"The stone axe is able to chop down multiple logs at once, and the stone mining hammer mines in a 3x3"
+	],
+	dependencies: [
+		"2b42366c"
+	],
+	tasks: [{
+		uid: "dabe28a6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "stone"
+				}
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}]
+}

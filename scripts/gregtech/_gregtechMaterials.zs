@@ -54,7 +54,14 @@ var anthracite_coal = MaterialBuilder(4001, "anthracite_coal")
 	.ore()
 	.addOreByproducts(<material:bitumous_coal>, <material:graphite>)
 	.build();
-	
+# Calcium Hydroxide
+var calcium_hydroxide = MaterialBuilder(3013, "calcium_hydroxide")
+	.dust()
+	.fluid()
+	.color(0xE8F1E8)
+	.iconSet("rough")
+	.components([<material:quicklime> * 1, <material:water> * 1])
+	.build();
 	
 // Prexisting
 # Stone

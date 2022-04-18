@@ -1,7 +1,7 @@
 {
 	title: "Not Quite Ingots",
 	x: 9.0d,
-	y: 5.0d,
+	y: 6.5d,
 	description: "Of Course It's Not Easy",
 	text: [
 		"With your bloomery, you can now turn copper into a bloom, breaking it on a granite anvil with a hammer will allow you to get copper! In... nugget form.",

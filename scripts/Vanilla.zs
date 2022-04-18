@@ -56,10 +56,10 @@ RecipeBuilder.get("basic")
 # Chest
 RecipeBuilder.get("basic")
   .setShaped([
-    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+    [wood, <ore:plankWood>, wood],
     [<ore:plankWood>, null, <ore:plankWood>],
-    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]])
-  .addTool(<ore:artisansHandsaw>, 10)
+    [wood, <ore:plankWood>, wood]])
+  .addTool(<ore:artisansHandsaw>, 20)
   .addOutput(<minecraft:chest>)
   .create();
 # Cobblestone Slab

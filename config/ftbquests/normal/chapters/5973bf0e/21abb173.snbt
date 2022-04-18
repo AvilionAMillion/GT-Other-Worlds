@@ -2,7 +2,7 @@
 	title: "Basic Metallurgy",
 	icon: "foundry:componentblock 1 3",
 	x: 10.5d,
-	y: 6.5d,
+	y: 8.0d,
 	description: "Jumping From Primitive To Basic Very Quickly",
 	text: [
 		"Well, you now have copper nuggets, let's turn those into ingots. ",

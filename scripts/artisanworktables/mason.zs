@@ -57,3 +57,11 @@ RecipeBuilder.get("mason")
   .addTool(<ore:artisansHammer>, 1)
   .addOutput(<pyrotech:refractory_brick_block>)
   .create();
+# Coke Oven Brick
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<gregtech:meta_item_1:353>, <gregtech:meta_item_1:353>],
+    [<gregtech:meta_item_1:353>, <gregtech:meta_item_1:353>]])
+  .addTool(<ore:artisansHammer>, 1)
+  .addOutput(<gregtech:metal_casing:8>)
+  .create();

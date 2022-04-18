@@ -2,7 +2,7 @@
 	title: "Bricks and Bricks and More Bricks!",
 	icon: "tconstruct:materials",
 	x: 7.5d,
-	y: 8.0d,
+	y: 9.5d,
 	description: "Construction Time!",
 	text: [
 		"Further technology? Well guess how we'll get that, we need more and more bricks! For the next bit of progression we'll be using seared and refractory bricks, so grab yourself both of those!",

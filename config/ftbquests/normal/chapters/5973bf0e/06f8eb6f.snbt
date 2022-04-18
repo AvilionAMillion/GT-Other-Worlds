@@ -2,7 +2,7 @@
 	title: "Clay Molds",
 	icon: "foundry:moldstation",
 	x: 9.0d,
-	y: 8.0d,
+	y: 9.5d,
 	description: "Like Tinker's, But Better",
 	text: [
 		"Foundrys take molds, so let's make some molds.",
