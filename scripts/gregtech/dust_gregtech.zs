@@ -1,5 +1,7 @@
 // GTOW ZS File
 // Made by GTOW Team
+	import mods.pyrotech.StoneKiln;
+	import mods.pyrotech.BrickKiln;
 import mods.artisanworktables.builder.RecipeBuilder;
 
 val builder = RecipeBuilder.get("basic");
@@ -10,6 +12,10 @@ recipes.removeShapeless(<gregtech:meta_dust_small:2063>, [gtMortar, <minecraft:c
 // Crafting
 recipes.addShapeless(<gregtech:meta_dust:275>, [gtMortar, <pyrotech:slag>]);
 
+// Furnace
+# Quicklime
+furnace.addRecipe(<gregtech:meta_dust:360>, <gregtech:meta_dust:262>);
+
 // Worktables
 # Chad
 RecipeBuilder.get("basic")
@@ -18,3 +24,7 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansMortar>, 4)
   .addOutput(<gregtech:meta_dust:1618> * 2)
   .create();
+  
+// Fluid Transformation
+
+  

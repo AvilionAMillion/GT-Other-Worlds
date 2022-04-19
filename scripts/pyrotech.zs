@@ -10,6 +10,8 @@
 	import mods.pyrotech.SoakingPot;
 	import mods.pyrotech.DryingRack;
 	import mods.pyrotech.StoneCrucible;
+	import mods.pyrotech.StoneKiln;
+	import mods.pyrotech.BrickKiln;
 import mods.artisanworktables.builder.RecipeBuilder;
 val builder = RecipeBuilder.get("basic");
 
@@ -53,6 +55,7 @@ recipes.remove(<pyrotech:brick_sawmill>);
 recipes.remove(<pyrotech:brick_crucible>);
 recipes.remove(<pyrotech:faucet_brick>);
 recipes.remove(<pyrotech:mechanical_bellows>);
+furnace.remove(<pyrotech:material:22>);
 mods.jei.JEI.removeAndHide(<pyrotech:crude_hammer>);
 mods.jei.JEI.removeAndHide(<pyrotech:stone_hammer>);
 mods.jei.JEI.removeAndHide(<pyrotech:flint_hammer>);
@@ -61,6 +64,9 @@ mods.jei.JEI.removeAndHide(<pyrotech:iron_hammer>);
 mods.jei.JEI.removeAndHide(<pyrotech:gold_hammer>);
 mods.jei.JEI.removeAndHide(<pyrotech:diamond_hammer>);
 mods.jei.JEI.removeAndHide(<pyrotech:obsidian_hammer>);
+StoneKiln.removeRecipes(<pyrotech:material:22>);
+BrickKiln.removeRecipes(<pyrotech:material:22>);
+SoakingPot.removeRecipes(<pyrotech:material:8>);
 
 // Soaking Pot
 SoakingPot.addRecipe("wet_chad", <contenttweaker:wetchad>, <liquid:water>, <gregtech:meta_dust:1618>, 6000);

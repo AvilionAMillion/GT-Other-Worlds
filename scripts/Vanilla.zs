@@ -20,6 +20,7 @@ recipes.remove(<minecraft:paper>);
 recipes.remove(<minecraft:torch>);
 StoneKiln.removeRecipes(<minecraft:glass>);
 BrickKiln.removeRecipes(<minecraft:glass>);
+furnace.remove(<minecraft:glass>);
 
 // Crafting
 # Torch

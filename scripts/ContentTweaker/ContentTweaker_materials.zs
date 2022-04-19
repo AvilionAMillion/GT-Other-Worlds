@@ -17,6 +17,9 @@ dustSandyClay.register();
  # Wet Chad
 var dustWetChad as Item = VanillaFactory.createItem("wetChad");
 dustWetChad.register();
+ # Bleached Coral
+var bleachedCoral as Item = VanillaFactory.createItem("bleached_coral");
+bleachedCoral.register();
  # Wrought Iron Heating Component
 var wroughtIron_Heater as Item = VanillaFactory.createItem("wroughtIronHeater");
 wroughtIron_Heater.register();
