@@ -1,0 +1,19 @@
+{
+	title: "A Lead On Lead",
+	x: 12.0d,
+	y: 8.0d,
+	description: "Englishing Is Hard",
+	text: [
+		"With a more proper furnace, you can now smelt lead ingots! Use either lead or galena ore for it. It's a pretty handy material."
+	],
+	dependencies: [
+		"00555771"
+	],
+	tasks: [{
+		uid: "e5007528",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 55"
+		}]
+	}]
+}

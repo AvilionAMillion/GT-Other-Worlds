@@ -13,32 +13,32 @@ mods.jei.JEI.hideCategory("artisanworktables_carpenter_workstation");
 RecipeBuilder.get("carpenter")
   .setShapeless([<minecraft:log>])
   .addTool(<ore:artisansHandsaw>, 1)
-  .addOutput(<minecraft:planks> * 4)
+  .addOutput(<minecraft:planks> * 2)
   .create();
 RecipeBuilder.get("carpenter")
   .setShapeless([<minecraft:log:1>])
   .addTool(<ore:artisansHandsaw>, 1)
-  .addOutput(<minecraft:planks:1> * 4)
+  .addOutput(<minecraft:planks:1> * 2)
   .create();
 RecipeBuilder.get("carpenter")
   .setShapeless([<minecraft:log:2>])
   .addTool(<ore:artisansHandsaw>, 1)
-  .addOutput(<minecraft:planks:2> * 4)
+  .addOutput(<minecraft:planks:2> * 2)
   .create();
 RecipeBuilder.get("carpenter")
   .setShapeless([<minecraft:log:3>])
   .addTool(<ore:artisansHandsaw>, 1)
-  .addOutput(<minecraft:planks:3> * 4)
+  .addOutput(<minecraft:planks:3> * 2)
   .create();
 RecipeBuilder.get("carpenter")
   .setShapeless([<minecraft:log2>])
   .addTool(<ore:artisansHandsaw>, 1)
-  .addOutput(<minecraft:planks:4> * 4)
+  .addOutput(<minecraft:planks:4> * 2)
   .create();
 RecipeBuilder.get("carpenter")
   .setShapeless([<minecraft:log2:1>])
   .addTool(<ore:artisansHandsaw>, 1)
-  .addOutput(<minecraft:planks:5> * 4)
+  .addOutput(<minecraft:planks:5> * 2)
   .create();
   
 # Chest

@@ -1,6 +1,6 @@
 // GTOW Dev
-//Nuking things from JEI
- //Refractory Material
+
+import mods.foundry.Melting;
 import mods.artisanworktables.builder.RecipeBuilder;
 val builder = RecipeBuilder.get("basic");
  var FoundRefract = <foundry:component:1>;
@@ -9,6 +9,7 @@ val builder = RecipeBuilder.get("basic");
  var casingBasic = <foundry:componentblock:3>;
  var ingotTable = <foundry:castingtable>;
  var brickPT = <pyrotech:material:5>;
+ 
  
 // Removal
 mods.jei.JEI.removeAndHide(<foundry:machine:1>);
@@ -19,6 +20,7 @@ mods.jei.JEI.removeAndHide(<foundry:alloyfurnace>);
 mods.jei.JEI.removeAndHide(<foundry:castingtable:1>);
 mods.jei.JEI.removeAndHide(<foundry:castingtable:2>);
 furnace.remove(RefractBrick, FoundRefract);
+recipes.remove(<foundry:machine:9>);
 	
 // JEI Removal
 mods.jei.JEI.hideCategory("foundry.casting");
@@ -114,3 +116,30 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansHammer>, 20)
   .addOutput(<foundry:refractoryspout>)
   .create();
+# Alloy Mixer
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<gregtech:meta_plate:112>, <foundry:refractoryspout>, <ore:plateTin>, <foundry:refractoryspout>, <gregtech:meta_plate:112>],
+    [<pyrotech:refractory_brick_block>, <ore:platePotin>, <pyrotech:brick_tank>, <ore:platePotin>, <pyrotech:refractory_brick_block>],
+    [<pyrotech:refractory_brick_block>, <ore:platePotin>, <foundry:componentblock:3>, <ore:platePotin>, <pyrotech:refractory_brick_block>],
+    [<pyrotech:refractory_brick_block>, <ore:platePotin>, <ore:platePotin>, <ore:platePotin>, <pyrotech:refractory_brick_block>],
+    [<ore:plateTin>, <pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <ore:plateTin>]])
+  .addTool(<ore:artisansHammer>, 100)
+  .addTool(<ore:artisansDriver>, 100)
+  .addTool(<ore:artisansChisel>, 100)
+  .addOutput(<foundry:machine:9>)
+  .create();
+  
+// Removing Certain Fluid Smelting
+Melting.removeRecipe(<gregtech:ore_copper_0>);
+Melting.removeRecipe(<gregtech:meta_dust:25>);
+Melting.removeRecipe(<gregtech:meta_dust_small:25>);
+Melting.removeRecipe(<gregtech:meta_dust_tiny:25>);
+Melting.removeRecipe(<gregtech:ore_tin_0>);
+Melting.removeRecipe(<gregtech:meta_dust:112>);
+Melting.removeRecipe(<gregtech:meta_dust_small:112>);
+Melting.removeRecipe(<gregtech:meta_dust_tiny:112>);
+Melting.removeRecipe(<gregtech:ore_lead_0>);
+Melting.removeRecipe(<gregtech:meta_dust:55>);
+Melting.removeRecipe(<gregtech:meta_dust_small:55>);
+Melting.removeRecipe(<gregtech:meta_dust_tiny:55>);

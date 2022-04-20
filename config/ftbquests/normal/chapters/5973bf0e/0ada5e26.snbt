@@ -1,0 +1,19 @@
+{
+	title: "Tin Man",
+	x: 10.5d,
+	y: 9.5d,
+	description: "Soft And Malleable",
+	text: [
+		"Tin is another handy metal that you can get using the foundry, using cassiterite or tin ores, alternatively you can zip straight to the seared furnace and get it that way."
+	],
+	dependencies: [
+		"21abb173"
+	],
+	tasks: [{
+		uid: "47a37f4c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 112"
+		}]
+	}]
+}

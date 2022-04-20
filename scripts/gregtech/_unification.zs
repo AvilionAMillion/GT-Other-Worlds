@@ -841,6 +841,7 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 		<threng:material:3>,
 		<actuallyadditions:item_dust:6>,
 		<bloodmagic:component:21>,
+		<enderio:item_material:23>,
 		<thermalfoundation:material:768>
 	],
 	
@@ -867,6 +868,7 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 		<mysticalworld:copper_dust>,
 		<thermalfoundation:material:64>,
 		<libvulpes:productdust:4>,
+		<enderio:item_material:26>,
 		<immersiveengineering:metal:9>
 	],
 	
@@ -900,6 +902,7 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 		<thermalfoundation:material>,
 		<immersiveengineering:metal:18>,
 		<actuallyadditions:item_dust>,
+		<enderio:item_material:24>,
 		<appliedenergistics2:material:49>,
 		<bloodmagic:component:19>
 	],
@@ -938,6 +941,7 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 		<immersiveengineering:metal:12>,
 		<mysticalworld:silver_ingot>,
 		<thermalfoundation:material:66>,
+		<nuclearcraft:dust:13>,
 		<mysticalworld:silver_dust>
 	],
 	
@@ -953,6 +957,7 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 	<ore:dustTin> : [
 		<thermalfoundation:material:65>,
 		<mekanism:dust:4>,
+		<enderio:item_material:27>,
 		<libvulpes:productdust:5>
 	],
 	
@@ -974,6 +979,7 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 		<actuallyadditions:item_dust:1>,
 		<appliedenergistics2:material:51>,
 		<mysticalworld:gold_dust>,
+		<enderio:item_material:25>,
 		<libvulpes:productdust:2>,
 		<bloodmagic:component:20>
 	],
@@ -992,12 +998,14 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 	
 	#dustCertusQuartz
 	<ore:dustCertusQuartz> : [
-		<appliedenergistics2:material:2>
+		<appliedenergistics2:material:2>,
+		<enderio:item_material:33>
 	],
 	
 	#dustLapis
 	<ore:dustLapis> : [
-		<actuallyadditions:item_dust:4>
+		<actuallyadditions:item_dust:4>,
+		<enderio:item_material:32>
 	],
 	
 	#dustEmerald
@@ -1016,6 +1024,7 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 	#dustObsidian
 	<ore:dustObsidian> : [
 		<mekanism:otherdust:6>,
+		<enderio:item_material:29>,
 		<thermalfoundation:material:770>
 	],
 	

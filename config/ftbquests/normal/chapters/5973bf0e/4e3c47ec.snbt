@@ -1,0 +1,19 @@
+{
+	title: "Bronze Age",
+	x: 15.0d,
+	y: 9.5d,
+	description: "My Little Bronze Age",
+	text: [
+		"By combining 3 copper and 1 tin in an alloying crucible you can make 4 bronze, show off what you can make!"
+	],
+	dependencies: [
+		"43234fdb"
+	],
+	tasks: [{
+		uid: "8aab8d1e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 260"
+		}]
+	}]
+}

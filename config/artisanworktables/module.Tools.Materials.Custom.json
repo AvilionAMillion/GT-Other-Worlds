@@ -79,19 +79,6 @@
       "oreDictKey": "artisansToolInvar"
     },
     {
-      "name": "lead",
-      "harvestLevel": 1,
-      "maxUses": 150,
-      "efficiency": 5.0,
-      "damage": 1.0,
-      "enchantability": 9,
-      "color": "8a93b1",
-      "shiny": true,
-      "ingredient": "ore:plateLead",
-      "langKey": "material.athenaeum.lead",
-      "oreDictKey": "artisansToolLead"
-    },
-    {
       "name": "platinum",
       "harvestLevel": 4,
       "maxUses": 1700,
@@ -131,9 +118,22 @@
       "oreDictKey": "artisansToolSteel"
     },
     {
+      "name": "tungstensteel",
+      "harvestLevel": 6,
+      "maxUses": 10000,
+      "efficiency": 15.0,
+      "damage": 5.0,
+      "enchantability": 30,
+      "color": "6464A0",
+      "shiny": false,
+      "ingredient": "ore:plateTungstensteel",
+      "langKey": "material.athenaeum.tungstensteel",
+      "oreDictKey": "artisansToolTungstensteel"
+    },
+    {
       "name": "osmium",
-      "harvestLevel": 2,
-      "maxUses": 5000,
+      "harvestLevel": 7,
+      "maxUses": 20000,
       "efficiency": 10.0,
       "damage": 4.0,
       "enchantability": 12,
