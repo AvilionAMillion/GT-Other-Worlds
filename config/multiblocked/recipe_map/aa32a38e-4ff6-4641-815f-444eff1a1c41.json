@@ -1,0 +1,40 @@
+{
+  "name": "aa32a38e-4ff6-4641-815f-444eff1a1c41",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "6aed8496-6008-41a4-8511-3e5fa9559773",
+      "duration": 1600,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:coal\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {},
+      "tickInputs": {
+        "fluid": [
+          {
+            "content": "{FluidName:\"water\",Amount:1}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickOutputs": {
+        "fluid": [
+          {
+            "content": "{FluidName:\"steam\",Amount:1}",
+            "chance": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}

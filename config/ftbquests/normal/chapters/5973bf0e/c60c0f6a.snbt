@@ -10,7 +10,7 @@
 		"Good luck digging!"
 	],
 	dependencies: [
-		"26ad113a"
+		"b9590722"
 	],
 	tasks: [{
 		uid: "54d01ea6",

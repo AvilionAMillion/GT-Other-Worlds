@@ -1,0 +1,29 @@
+{
+	title: "Bronze Mining",
+	x: 16.5d,
+	y: 5.0d,
+	description: "+1",
+	text: [
+		"Make yourself a bronze pickaxe! You have just advanced up a mining tier!"
+	],
+	dependencies: [
+		"4e3c47ec"
+	],
+	tasks: [{
+		uid: "482be510",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}

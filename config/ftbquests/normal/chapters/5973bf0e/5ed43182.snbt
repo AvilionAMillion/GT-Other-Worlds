@@ -1,8 +1,23 @@
 {
 	title: "Tinkers Tables",
-	icon: "tconstruct:tooltables 1 3",
+	icon: {
+		id: "tconstruct:tooltables",
+		tag: {
+			textureBlock: {
+				id: "minecraft:log",
+				Count: 1b,
+				Damage: 0s
+			}
+		},
+		Damage: 2s
+	},
 	x: 6.0d,
 	y: 3.5d,
+	description: "Are We Missing One?",
+	text: [
+		"With your newfound patterns, you can make the tables from tinker's construct! These allow you to make some invaluable crafting components for further on.",
+		"Where's the tool station you ask? Don't worry about that silly thing!"
+	],
 	dependencies: [
 		"81df4597",
 		"4441bafb"
@@ -35,13 +50,6 @@
 				}
 			},
 			Damage: 2s
-		}]
-	},
-	{
-		uid: "ea15f71d",
-		type: "item",
-		items: [{
-			item: "tconstruct:tooltables 1 3"
 		}]
 	},
 	{

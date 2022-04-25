@@ -1,0 +1,189 @@
+{
+	title: "Need More Tools!",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "gregtech:meta_tool",
+		tag: {
+			GT.ToolStats: {
+				Material: "iron"
+			}
+		},
+		Damage: 6s
+	},
+	x: 19.5d,
+	y: 5.0d,
+	description: "Gregtech Microcrafting BEGIN!",
+	text: [
+		"You are starting to enter the technological era, and so you need yourself some tools for the job.",
+		"Technically, you can still use stone for these tools but I severly don't recommend it, use Iron or Bronze (probably iron)"
+	],
+	dependencies: [
+		"6fe5d36c"
+	],
+	tasks: [{
+		uid: "75753c15",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolHardHammer",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolHardHammer"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c3db1baa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolFile",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolFile"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7c6da448",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolSaw",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolSaw"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "afbecad6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolWrench",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolWrench"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "405f3445",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolScrewdriver",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolScrewdriver"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0677bff3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolWireCutter",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolWireCutter"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2935296d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolMortar",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolMortar"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "565af184",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolSoftHammer",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolSoftHammer"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a164dcd0",
+		type: "item",
+		item: "minecraft:bucket",
+		count: 2
+	},
+	{
+		uid: "d94956c9",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 16
+	}]
+}

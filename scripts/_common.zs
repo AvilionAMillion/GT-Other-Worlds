@@ -56,11 +56,11 @@ global ingotAluminium as IOreDictEntry = <ore:ingotAluminium>;
 // GregTech Tools
 global gtHammer as IItemStack = <gregtech:meta_tool:6>;
 global gtFile as IItemStack = <gregtech:meta_tool:9>;
-global gtScrewdriver as IIngredient = <gregtech:meta_tool:11> | <gregtech:meta_tool:34>;
+global gtScrewdriver as IIngredient = <gregtech:meta_tool:11> | <gregtech:meta_tool:31>;
 global gtMortar as IItemStack = <gregtech:meta_tool:12>;
 global gtKnife as IItemStack = <gregtech:meta_tool:17>;
-global gtWrench as IIngredient = <gregtech:meta_tool:8> | <gregtech:meta_tool:29> | <gregtech:meta_tool:30> | <gregtech:meta_tool:31>; 
-global gtSaw as IIngredient = <gregtech:meta_tool:5> | <gregtech:meta_tool:26> | <gregtech:meta_tool:27> | <gregtech:meta_tool:28>;
+global gtWrench as IIngredient = <gregtech:meta_tool:8> | <gregtech:meta_tool:28> | <gregtech:meta_tool:29> | <gregtech:meta_tool:30>; 
+global gtSaw as IIngredient = <gregtech:meta_tool:5> | <gregtech:meta_tool:25> | <gregtech:meta_tool:26> | <gregtech:meta_tool:27> | <gregtech:meta_tool:32>;
 global gtSoftHammer as IItemStack = <gregtech:meta_tool:7>;
 
 // Circuits

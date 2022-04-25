@@ -122,3 +122,18 @@ Bloomery.createBloomeryBuilder(
     .addFailureItem(<pyrotech:slag>, 2)
     .addFailureItem(<gregtech:meta_dust_tiny:112>, 1)
     .register();
+	
+// Wrought Iron
+# Iron
+Bloomery.createBloomeryBuilder(
+        "wroughtiron_bloom",
+        <gregtech:meta_nugget:335>,
+        <minecraft:iron_ingot>
+    )
+    .setAnvilTiers(["granite", "ironclad"])
+    .setBurnTimeTicks(12000)
+    .setFailureChance(0.1)
+    .setBloomYield(9, 9)
+    .addFailureItem(<pyrotech:slag>, 1)
+    .addFailureItem(<gregtech:meta_dust_tiny:51>, 1)
+    .register();

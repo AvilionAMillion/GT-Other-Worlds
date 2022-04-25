@@ -1,0 +1,20 @@
+{
+	title: "What To Do With All That Creosote...",
+	x: 16.5d,
+	y: 3.5d,
+	description: "Reduce, Reuse, Recycle",
+	text: [
+		"So. You have creosote. You can use it as a pretty good furnace fuel... if you had a furnace. But there is another option for how to use it, you can make treated wood.",
+		"Treated wood is a more durable form of wood that can be used in construction and making some crafting parts. Most notably, worktables."
+	],
+	dependencies: [
+		"1c3a5391"
+	],
+	tasks: [{
+		uid: "6704c4cc",
+		type: "item",
+		items: [{
+			item: "gregtech:planks 1 1"
+		}]
+	}]
+}

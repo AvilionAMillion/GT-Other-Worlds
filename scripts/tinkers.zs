@@ -179,16 +179,6 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansHandsaw>, 5)
   .addOutput(<tconstruct:tooltables:2>.withTag({textureBlock: {id: "minecraft:log", Count: 1 as byte, Damage: 0 as short}}))
   .create();
-# Tool Station
-RecipeBuilder.get("basic")
-  .setShaped([
-    [<ore:plankWood>, <tconstruct:pattern>, <ore:plankWood>],
-    [<ore:stickWood>, <pyrotech:material:26>, <ore:stickWood>],
-    [<ore:stickWood>, <artisanworktables:workstation:5>, <ore:stickWood>]])
-  .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansHandsaw>, 5)
-  .addOutput(<tconstruct:tooltables:3>)
-  .create();
 # Pattern Chest
 RecipeBuilder.get("basic")
   .setShaped([
