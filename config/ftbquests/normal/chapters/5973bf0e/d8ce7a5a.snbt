@@ -12,7 +12,7 @@
 		},
 		Damage: 6s
 	},
-	x: 19.5d,
+	x: 18.0d,
 	y: 5.0d,
 	description: "Gregtech Microcrafting BEGIN!",
 	text: [

@@ -7,13 +7,10 @@ import mods.pyrotech.BrickKiln;
 val builder = RecipeBuilder.get("basic");
 
 // Val
-val basicPickaxe = <tconstruct:pickaxe>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 65, HarvestLevel: 0, Attack: 2.9 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 65, HarvestLevel: 0, Attack: 2.9 as float}, Special: {Categories: ["tool", "harvest", "aoe"]}, TinkerData: {Materials: ["wood", "flint", "wood"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "crude", color: -9868951, level: 2, crude2: 1 as byte}, {identifier: "toolleveling", color:  16777215, level: 1}], Traits: ["ecological", "crude2", "toolleveling"]});
-val basicAxe = <tconstruct:hatchet>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 65, HarvestLevel: 0, Attack: 3.4 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 65, HarvestLevel: 0, Attack: 3.4 as float}, Special: {Categories: ["harvest", "aoe", "tool", "weapon"]}, TinkerData: {Materials: ["wood", "flint", "wood"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "crude", color: -9868951, level: 2, crude2: 1 as byte}, {identifier: "toolleveling", color:  16777215, level: 1}], Traits: ["ecological", "crude2", "toolleveling"]});
-val basicShovel = <tconstruct:shovel>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 65, HarvestLevel: 0, Attack: 2.9 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 65, HarvestLevel: 0, Attack: 2.9 as float}, Special: {Categories: ["harvest", "aoe", "tool"]}, TinkerData: {Materials: ["wood", "flint", "wood"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "crude", color: -9868951, level: 2, crude2: 1 as byte}, {identifier: "toolleveling", color:  16777215, level: 1}], Traits: ["ecological", "crude2", "toolleveling"]});
-val basicMattock = <tconstruct:mattock>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, HarvestLevelAxe: 0, MiningSpeed: 5.0 as float, FreeModifiers: 3, HarvestLevelShovel: 0, Durability: 65, HarvestLevel: 0, Attack: 5.9 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, HarvestLevelAxe: 0, MiningSpeed: 5.0 as float, FreeModifiers: 0, HarvestLevelShovel: 0, Durability: 65, HarvestLevel: 0, Attack: 5.9 as float}, Special: {Categories: ["harvest", "tool", "aoe"]}, TinkerData: {Materials: ["wood", "flint", "flint"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "crude", color: -9868951, level: 2, crude2: 1 as byte}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["ecological", "crude2", "toolleveling"]});
-val sturdyPickaxe = <tconstruct:pickaxe>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 110, HarvestLevel: 0, Attack: 2.9 as float}, display: {Name: "Sturdy Pickaxe"}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 0, Durability: 110, HarvestLevel: 0, Attack: 2.9 as float}, Special: {Categories: ["harvest", "aoe", "tool"]}, TinkerData: {Materials: ["treatedwood", "flint", "treatedwood"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -10144478, level: 1}, {identifier: "crude", color: -9868951, level: 2, crude2: 1 as byte}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["ecological", "crude2", "toolleveling"]});
-val sturdyAxe = <tconstruct:hatchet>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 110, HarvestLevel: 0, Attack: 3.4 as float}, display: {Name: "Sturdy Axe"}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 0, Durability: 110, HarvestLevel: 0, Attack: 3.4 as float}, Special: {Categories: ["harvest", "aoe", "tool", "weapon"]}, TinkerData: {Materials: ["treatedwood", "flint", "treatedwood"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -10144478, level: 1}, {identifier: "crude", color: -9868951, level: 2, crude2: 1 as byte}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["ecological", "crude2", "toolleveling"]});
-val sturdyShovel = <tconstruct:shovel>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 110, HarvestLevel: 0, Attack: 2.9 as float}, display: {Name: "Sturdy Shovel"}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 0, Durability: 110, HarvestLevel: 0, Attack: 2.9 as float}, Special: {Categories: ["harvest", "aoe", "tool"]}, TinkerData: {Materials: ["treatedwood", "flint", "treatedwood"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -10144478, level: 1}, {identifier: "crude", color: -9868951, level: 2, crude2: 1 as byte}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["ecological", "crude2", "toolleveling"]});
+val basicPickaxe = <tconstruct:pickaxe>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 120, HarvestLevel: 0, Attack: 2.9 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 120, HarvestLevel: 0, Attack: 2.9 as float}, Special: {Categories: ["tool", "harvest", "aoe"]}, TinkerData: {Materials: ["wood", "flint", "wood"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "crude", color: -9868951, level: 2, crude2: 1 as byte}, {identifier: "toolleveling", color:  16777215, level: 1}], Traits: ["ecological", "crude2", "toolleveling"]});
+val basicAxe = <tconstruct:hatchet>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 120, HarvestLevel: 0, Attack: 3.4 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 120, HarvestLevel: 0, Attack: 3.4 as float}, Special: {Categories: ["harvest", "aoe", "tool", "weapon"]}, TinkerData: {Materials: ["wood", "flint", "wood"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "crude", color: -9868951, level: 2, crude2: 1 as byte}, {identifier: "toolleveling", color:  16777215, level: 1}], Traits: ["ecological", "crude2", "toolleveling"]});
+val basicShovel = <tconstruct:shovel>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 120, HarvestLevel: 0, Attack: 2.9 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 120, HarvestLevel: 0, Attack: 2.9 as float}, Special: {Categories: ["harvest", "aoe", "tool"]}, TinkerData: {Materials: ["wood", "flint", "wood"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "crude", color: -9868951, level: 2, crude2: 1 as byte}, {identifier: "toolleveling", color:  16777215, level: 1}], Traits: ["ecological", "crude2", "toolleveling"]});
+val basicMattock = <tconstruct:mattock>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, HarvestLevelAxe: 0, MiningSpeed: 5.0 as float, FreeModifiers: 3, HarvestLevelShovel: 0, Durability: 120, HarvestLevel: 0, Attack: 5.9 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, HarvestLevelAxe: 0, MiningSpeed: 5.0 as float, FreeModifiers: 0, HarvestLevelShovel: 0, Durability: 120, HarvestLevel: 0, Attack: 5.9 as float}, Special: {Categories: ["harvest", "tool", "aoe"]}, TinkerData: {Materials: ["wood", "flint", "flint"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "crude", color: -9868951, level: 2, crude2: 1 as byte}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["ecological", "crude2", "toolleveling"]});
 val flintShard = <tconstruct:shard>.withTag({Material: "flint"});
 val searedBrick = <tconstruct:materials>;
 
@@ -22,9 +19,6 @@ mods.jei.JEI.addItem(basicAxe);
 mods.jei.JEI.addItem(basicPickaxe);
 mods.jei.JEI.addItem(basicShovel);
 mods.jei.JEI.addItem(basicMattock);
-mods.jei.JEI.addItem(sturdyPickaxe);
-mods.jei.JEI.addItem(sturdyAxe);
-mods.jei.JEI.addItem(sturdyShovel);
 
 // Removal
 recipes.remove(<tconstruct:pattern>);
@@ -88,24 +82,6 @@ RecipeBuilder.get("basic")
 	.addTool(<ore:artisansHammer>, 25)
 	.addOutput(basicMattock)
 	.create();
-# Sturdy Pickaxe
-RecipeBuilder.get("basic")
-  .setShapeless([<tconstruct:pick_head>.withTag({Material: "flint"}), <tconstruct:binding>.withTag({Material: "wood"}), <pyrotech:material:27>, <pyrotech:material:14>])
-  .addTool(<ore:artisansHammer>, 25)
-  .addOutput(sturdyPickaxe)
-  .create();
-# Sturdy Axe
-RecipeBuilder.get("basic")
-  .setShapeless([<tconstruct:axe_head>.withTag({Material: "flint"}), <tconstruct:binding>.withTag({Material: "wood"}), <pyrotech:material:27>, <pyrotech:material:14>])
-  .addTool(<ore:artisansHammer>, 25)
-  .addOutput(sturdyAxe)
-  .create();
-# Sturdy Pickaxe
-RecipeBuilder.get("basic")
-  .setShapeless([<tconstruct:shovel_head>.withTag({Material: "flint"}), <tconstruct:binding>.withTag({Material: "wood"}), <pyrotech:material:27>, <pyrotech:material:14>])
-  .addTool(<ore:artisansHammer>, 25)
-  .addOutput(sturdyShovel)
-  .create();
 # Sharpening Kit
 RecipeBuilder.get("basic")
 	.setShapeless([flintShard, flintShard, flintShard, flintShard])

@@ -66,8 +66,7 @@
 	y: 3.5d,
 	description: "Still Pretty Crap Though",
 	text: [
-		"The time of using your hands is over, you can make a flint pickaxe and shovel now! ",
-		"They still have rather poor durability, you should try and fix that sometime"
+		"The time of using your hands is over, you can make a flint pickaxe and shovel now! "
 	],
 	dependencies: [
 		"6ecc60cd"

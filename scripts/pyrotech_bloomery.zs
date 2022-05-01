@@ -130,7 +130,7 @@ Bloomery.createBloomeryBuilder(
         <gregtech:meta_nugget:335>,
         <minecraft:iron_ingot>
     )
-    .setAnvilTiers(["granite", "ironclad"])
+    .setAnvilTiers(["ironclad"])
     .setBurnTimeTicks(12000)
     .setFailureChance(0.1)
     .setBloomYield(9, 9)
