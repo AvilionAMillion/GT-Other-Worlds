@@ -3,6 +3,7 @@
 	icon: "pyrotech:mechanical_bellows",
 	x: 12.0d,
 	y: 6.5d,
+	shape: "diamond",
 	description: "Time Wasted No More!",
 	text: [
 		"A mechanical bellow can be used to automate the processes of a bellow, it requires a cog to function, but now with it you can multitask!"

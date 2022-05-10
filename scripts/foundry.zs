@@ -26,6 +26,7 @@ recipes.remove(<foundry:machine:9>);
 mods.jei.JEI.hideCategory("foundry.casting");
 mods.jei.JEI.hideCategory("foundry.casting_table.rod");
 mods.jei.JEI.hideCategory("foundry.casting_table.plate");
+mods.jei.JEI.hideCategory("foundry.casting_table.block");
  
  //JEI Fluid containers
  var RefractCan = <foundry:fluidcontainer>;

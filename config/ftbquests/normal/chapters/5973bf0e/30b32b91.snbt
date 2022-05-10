@@ -1,0 +1,22 @@
+{
+	title: "More Workshops????",
+	icon: "artisanworktables:workshop 1 1",
+	x: 16.5d,
+	y: 2.0d,
+	description: "Oh No! More Macrocrafting!",
+	text: [
+		"With treated wood planks, you are now able to begin making the rest of the workshops from artisan's worktables. Well some of them at least, some others you cant do quite yet.",
+		"Most of the workshops are completely optional, and only serve to have cheaper ways of making certain recipes. However some workshops are required in progression",
+		"Carpenters isn't required, but this is going to get you an idea of where you're going from here on out."
+	],
+	dependencies: [
+		"42919049"
+	],
+	tasks: [{
+		uid: "26b6aaad",
+		type: "item",
+		items: [{
+			item: "artisanworktables:workshop 1 1"
+		}]
+	}]
+}

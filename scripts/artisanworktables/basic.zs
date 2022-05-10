@@ -72,19 +72,19 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansKnife>, 100)
   .addOutput(<artisanworktables:workshop:13>)
   .create();
-# Jeweler's Workshop
+# Farmer's Workshop
 RecipeBuilder.get("basic")
   .setShaped([
-    [<gregtech:meta_plate:41>, <minecraft:wool:14>, <minecraft:diamond_block>, <minecraft:wool:14>, <gregtech:meta_plate:41>],
-    [<minecraft:obsidian>, <gregtech:meta_plate:41>, <gregtech:meta_plate:297>, <gregtech:meta_plate:41>, <minecraft:obsidian>],
-    [<minecraft:obsidian>, <minecraft:obsidian>, <gregtech:meta_plate:297>, <minecraft:obsidian>, <minecraft:obsidian>],
-    [<gregtech:planks:1>, <gregtech:meta_block_frame_103>, <tconstruct:large_plate>.withTag({Material: "treatedwood"}), <gregtech:meta_block_frame_103>, <gregtech:planks:1>],
+    [<ore:slabWood>, <roots:elemental_soil>, <roots:elemental_soil>, <roots:elemental_soil>, <ore:slabWood>],
+    [<ore:slabWood>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <ore:slabWood>],
+    [<ore:slabWood>, <minecraft:dirt>, <pyrotech:compacting_bin>, <minecraft:dirt>, <ore:slabWood>],
+    [<gregtech:planks:1>, <gregtech:meta_block_frame_103>, <artisanworktables:workshop:5>, <gregtech:meta_block_frame_103>, <gregtech:planks:1>],
     [<gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>]])
-  .setFluid(<liquid:mercury> * 4000)
-  .addTool(<artisanworktables:artisans_cutters_neutronium>, 250)
-  .addTool(<artisanworktables:artisans_file_neutronium>, 250)
-  .addTool(<artisanworktables:artisans_gemcutter_neutronium>, 250)
-  .addOutput(<artisanworktables:workshop:4>)
+  .setFluid(<liquid:dirt> * 4000)
+  .addTool(<ore:artisansSifter>, 100)
+  .addTool(<ore:artisansKnife>, 100)
+  .addTool(<ore:artisansTrowel>, 100)
+  .addOutput(<artisanworktables:workshop:10>)
   .create();
 
 // Artisan Materials

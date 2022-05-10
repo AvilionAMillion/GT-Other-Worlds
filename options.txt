@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:120
 fboEnable:true
-difficulty:0
+difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:true
@@ -215,6 +215,7 @@ key_gui.xaero_display_all_sets:0
 key_gui.xaero_toggle_light_overlay:0
 key_gui.xaero_toggle_entity_radar:0
 key_gui.xaero_reverse_entity_radar:0
+key_gui.xaero_toggle_manual_cave_mode:0
 key_gui.xaero_minimap_settings:21
 key_gui.xaero_open_map:52
 key_gui.xaero_open_settings:27

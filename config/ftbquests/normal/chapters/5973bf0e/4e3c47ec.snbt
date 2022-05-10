@@ -1,7 +1,7 @@
 {
 	title: "Bronze Age",
 	x: 15.0d,
-	y: 6.5d,
+	y: 8.0d,
 	description: "My Little Bronze Age",
 	text: [
 		"By combining 3 copper and 1 tin in an alloying crucible you can make 4 bronze, show off what you can make!"

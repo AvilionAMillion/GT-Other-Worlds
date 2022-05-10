@@ -6,8 +6,8 @@ import crafttweaker.item.IIngredient;
 // Common materials
 global stick as IOreDictEntry = <ore:stickWood>;
 global wood as IOreDictEntry = <ore:logWood>;
-global stone as IOreDictEntry = <ore:cobblestone>;
-global cobble as IOreDictEntry = <ore:stoneCobble>;
+global stone as IOreDictEntry = <ore:stone>;
+global cobble as IOreDictEntry = <ore:cobblestone>;
 global flint as IOreDictEntry = <ore:gemFlint>;
 global gravel as IItemStack = <minecraft:gravel>;
 global plank as IOreDictEntry = <ore:plankWood>;
@@ -51,6 +51,7 @@ global rodSteel as IOreDictEntry = <ore:stickSteel>;
 // Ingots
 global ingotSteel as IOreDictEntry = <ore:ingotSteel>;
 global ingotIron as IOreDictEntry = <ore:ingotIron>;
+global ingotTin as IOreDictEntry = <ore:ingotTin>;
 global ingotAluminium as IOreDictEntry = <ore:ingotAluminium>;
 
 // GregTech Tools
@@ -62,6 +63,7 @@ global gtKnife as IItemStack = <gregtech:meta_tool:17>;
 global gtWrench as IIngredient = <gregtech:meta_tool:8> | <gregtech:meta_tool:28> | <gregtech:meta_tool:29> | <gregtech:meta_tool:30>; 
 global gtSaw as IIngredient = <gregtech:meta_tool:5> | <gregtech:meta_tool:25> | <gregtech:meta_tool:26> | <gregtech:meta_tool:27> | <gregtech:meta_tool:32>;
 global gtSoftHammer as IItemStack = <gregtech:meta_tool:7>;
+global gtBranchCutter as IItemStack = <gregtech:meta_tool:14>;
 
 // Circuits
 global circuitULV as IOreDictEntry = <ore:circuitPrimitive>;

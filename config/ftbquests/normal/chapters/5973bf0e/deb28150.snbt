@@ -1,0 +1,19 @@
+{
+	title: "Tier -1 Compressor",
+	x: 7.5d,
+	y: 5.0d,
+	description: "Hey, It Works!",
+	text: [
+		"Do you have a lot of clay balls? Do you not know what to do with them? Fear not, the compacting bin will save you! Just by putting they clay into the bin and hitting it with a shovel you can get clay blocks! Efficiency!"
+	],
+	dependencies: [
+		"2d540a25"
+	],
+	tasks: [{
+		uid: "3d7c32e5",
+		type: "item",
+		items: [{
+			item: "pyrotech:compacting_bin"
+		}]
+	}]
+}

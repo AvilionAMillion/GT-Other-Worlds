@@ -1,6 +1,7 @@
 {
 	x: 9.0d,
 	y: 2.0d,
+	shape: "gear",
 	description: "Comprehensive Mining Guide!",
 	text: [
 		"So, you're able to mine now ay? Well Mining is a little bit different here, so let's get into that",

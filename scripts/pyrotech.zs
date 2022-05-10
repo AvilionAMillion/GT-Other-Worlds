@@ -56,6 +56,7 @@ recipes.remove(<pyrotech:brick_crucible>);
 recipes.remove(<pyrotech:faucet_brick>);
 recipes.remove(<pyrotech:mechanical_bellows>);
 furnace.remove(<pyrotech:material:22>);
+recipes.remove(<pyrotech:anvil_iron_plated>);
 mods.jei.JEI.removeAndHide(<pyrotech:crude_hammer>);
 mods.jei.JEI.removeAndHide(<pyrotech:stone_hammer>);
 mods.jei.JEI.removeAndHide(<pyrotech:flint_hammer>);
@@ -84,7 +85,10 @@ recipes.addShaped(<pyrotech:faucet_brick>,
 # Pulp
 recipes.addShapeless(<pyrotech:material:25>,
 	[<contenttweaker:wetchad>,<contenttweaker:wetchad>,<contenttweaker:wetchad>,<contenttweaker:wetchad>]);
-
+# Ironclad Anvil
+recipes.addShaped(<pyrotech:anvil_iron_plated>,
+	[[<ore:blockIron>, <ore:blockIron>],
+	[<ore:slabStone>, <ore:slabStone>]]);
 
 // Worktable Recipes
 # Chopping Block

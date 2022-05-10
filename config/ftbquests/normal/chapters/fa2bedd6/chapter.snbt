@@ -1,0 +1,7 @@
+{
+	title: "Rage Against The Machine",
+	icon: "gregtech:machine 1 1001",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

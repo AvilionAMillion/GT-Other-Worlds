@@ -68,6 +68,7 @@
 	},
 	x: -3.0d,
 	y: 2.0d,
+	shape: "diamond",
 	description: "Wait... Where's The Pam Crops?",
 	text: [
 		"Not able to find enough spare flax? Need some wheat to turn into straw? Just start farming! Mattock is a simple craft, and there's not really anything more to it.",

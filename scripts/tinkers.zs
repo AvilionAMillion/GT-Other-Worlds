@@ -19,6 +19,9 @@ mods.jei.JEI.addItem(basicAxe);
 mods.jei.JEI.addItem(basicPickaxe);
 mods.jei.JEI.addItem(basicShovel);
 mods.jei.JEI.addItem(basicMattock);
+mods.jei.JEI.hideCategory("tconstruct.smeltery");
+mods.jei.JEI.hideCategory("tconstruct.alloy");
+mods.jei.JEI.hideCategory("tconstruct.casting_table");
 
 // Removal
 recipes.remove(<tconstruct:pattern>);
@@ -32,6 +35,7 @@ furnace.remove(<tconstruct:materials>);
 recipes.remove(<tconstruct:seared:3>);
 recipes.remove(<tconstruct:seared_tank>);
 recipes.remove(<tconstruct:seared_furnace_controller>);
+recipes.remove(<tconstruct:smeltery_controller>);
 
 // Kiln
 StoneKiln.addRecipe("seared", <tconstruct:materials>, <contenttweaker:unfired_searedbrick>, 9000, 0.10, [<gregtech:meta_dust_small:2063> * 2]);

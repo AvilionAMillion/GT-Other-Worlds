@@ -1,7 +1,7 @@
 {
 	title: "Hammer Time!",
 	x: -3.0d,
-	y: 8.0d,
+	y: 6.5d,
 	description: "Why Don't You Use A Hammer For This?",
 	text: [
 		"The Granite Anvil is an item that can be used to break down stone blocks. It is used to make stone slabs and mason bricks",

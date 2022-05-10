@@ -5,6 +5,8 @@ import mods.artisanworktables.builder.RecipeBuilder;
 val builder = RecipeBuilder.get("mason");
 
 // Removal
+mods.jei.JEI.removeAndHide(<artisanworktables:worktable:2>);
+mods.jei.JEI.removeAndHide(<artisanworktables:workstation:2>);
 mods.jei.JEI.hideCategory("artisanworktables_mason_worktable");
 mods.jei.JEI.hideCategory("artisanworktables_mason_workstation");
 
@@ -58,7 +60,7 @@ RecipeBuilder.get("mason")
   .addOutput(<pyrotech:refractory_brick_block>)
   .create();
 # Coke Oven Brick
-RecipeBuilder.get("basic")
+builder
   .setShaped([
     [<gregtech:meta_item_1:353>, <gregtech:meta_item_1:353>],
     [<gregtech:meta_item_1:353>, <gregtech:meta_item_1:353>]])

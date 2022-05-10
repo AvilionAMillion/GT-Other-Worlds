@@ -1,12 +1,14 @@
 {
 	x: 0.0d,
 	y: -3.0d,
+	shape: "hexagon",
 	description: "Welcome to GT - Other Worlds!",
 	text: [
 		"Hello Player and welcome to Gregtech Other Worlds! This pack is made as a collaborative effort of the GTOW team, and credit is given to each member of the team on the packs main page. ",
 		"This modpack is made mostly off the mod \"Gregtech Community Edition Unofficial\" and so there is some expertise of Gregtech recommended, however players of all skill levels can still enjoy the pack!",
 		"Check the box to begin playing!"
 	],
+	size: 1.7d,
 	tasks: [{
 		uid: "7193ab9c",
 		type: "checkmark",

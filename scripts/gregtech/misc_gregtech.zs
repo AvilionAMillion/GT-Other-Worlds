@@ -43,3 +43,13 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansHammer>, 4)
   .addOutput(<gregtech:metal_casing:8>)
   .create();
+# Compressed Coke Clay
+recipes.remove(<gregtech:meta_item_1:350>);
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
+    [<minecraft:sand>, <gregtech:meta_item_1:348>, <minecraft:sand>],
+    [<minecraft:sand>, <minecraft:sand>, <minecraft:sand>]])
+  .addTool(<ore:artisansHammer>, 2)
+  .addOutput(<gregtech:meta_item_1:350> * 3)
+  .create();

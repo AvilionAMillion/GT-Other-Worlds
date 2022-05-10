@@ -2,7 +2,7 @@
 	title: "Your First Ores!",
 	icon: "gregtech:ore_copper_0",
 	x: 9.0d,
-	y: 3.5d,
+	y: 5.0d,
 	description: "Proper Metallurgy",
 	text: [
 		"Finally finding the tools to mine, you set off, and look for the ores you can utilize... Of which there is only one. Yep, for even minor progression onwards you need to get copper.",

@@ -1,8 +1,9 @@
 {
 	title: "Light Up The Night",
 	icon: "minecraft:torch",
-	x: 1.5d,
-	y: 11.0d,
+	x: 2.5d,
+	y: 10.5d,
+	shape: "diamond",
 	description: "Finally, Freedom",
 	text: [
 		"If you've gotten to this point you may have had to live through some dark nights, worry no more! The era of dark nights are over!",

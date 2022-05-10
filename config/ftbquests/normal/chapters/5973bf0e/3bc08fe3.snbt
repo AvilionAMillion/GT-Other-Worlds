@@ -6,8 +6,9 @@
 		},
 		id: "artisanworktables:artisans_hammer_copper"
 	},
-	x: 10.5d,
+	x: 12.0d,
 	y: 3.5d,
+	shape: "diamond",
 	description: "Metallic!",
 	text: [
 		"Make Copper Artisan's Tool for more durability!"

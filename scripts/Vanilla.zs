@@ -18,6 +18,7 @@ recipes.remove(<minecraft:chest>);
 recipes.removeShapeless(<minecraft:flint>, [gravel, gravel, gravel]);
 recipes.remove(<minecraft:paper>);
 recipes.remove(<minecraft:torch>);
+recipes.remove(<minecraft:book>);
 StoneKiln.removeRecipes(<minecraft:glass>);
 BrickKiln.removeRecipes(<minecraft:glass>);
 furnace.remove(<minecraft:glass>);
@@ -31,6 +32,10 @@ recipes.addShapeless(<minecraft:torch>,
  # Glass
 StoneKiln.addRecipe("glass", <minecraft:glass>, <contenttweaker:glassy_sand>, 6000, 0.10, [<gregtech:meta_dust:2023> * 1]);
 BrickKiln.addRecipe("refrac_glass", <minecraft:glass>, <contenttweaker:glassy_sand>, 3000, 0.05, [<gregtech:meta_dust:2023> * 2]);
+
+// Furnace
+furnace.addRecipe(<minecraft:glass>, <contenttweaker:glassy_sand>);
+furnace.addRecipe(<minecraft:paper>, <pyrotech:material:25>);
 
 // Worktable
 # Flint
@@ -83,12 +88,4 @@ RecipeBuilder.get("basic")
     [<ore:plankWood>, <ore:stickWood>, <ore:plankWood>]])
   .addTool(<ore:artisansHandsaw>, 8)
   .addOutput(<minecraft:fence>)
-  .create();
-# Clay
-RecipeBuilder.get("basic")
-  .setShaped([
-    [<minecraft:clay_ball>, <minecraft:clay_ball>],
-    [<minecraft:clay_ball>, <minecraft:clay_ball>]])
-  .setFluid(<liquid:water> * 10)
-  .addOutput(<minecraft:clay>)
   .create();

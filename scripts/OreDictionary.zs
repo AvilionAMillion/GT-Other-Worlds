@@ -119,6 +119,9 @@ recipes.replaceAllOccurences(<foundry:component:1>, <pyrotech:material:4>);
 <ore:dustAsh>.add(<pyrotech:material>);
 recipes.addShapeless(<gregtech:meta_dust:254>, [<pyrotech:material>]);
 
-// Stone Plate Oredict
+// Stone Oredict
 <ore:plateStone>.add(<tconstruct:large_plate>.withTag({Material: "stone"}));
 
+// Furnace Changes
+recipes.replaceAllOccurences(<minecraft:furnace>, <ore:craftingFurnace>);
+<ore:craftingFurnace>.add(<pyrotech:stone_kiln>);

@@ -1,7 +1,7 @@
 {
 	title: "Controlled Burn",
 	icon: "pyrotech:kiln_pit",
-	x: -3.0d,
+	x: -1.5d,
 	y: 6.5d,
 	description: "Like A Furnace, But Not For Food",
 	text: [

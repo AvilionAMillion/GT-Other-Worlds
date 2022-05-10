@@ -1,7 +1,7 @@
 {
 	title: "Iron Age",
 	x: 16.5d,
-	y: 6.5d,
+	y: 5.0d,
 	description: "Faster Than The Greeks!",
 	text: [
 		"With a bronze pickaxe you can now mine iron, and there are a PLETHORA of sources to get iron from! (some you may have found already!)",

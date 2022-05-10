@@ -1,0 +1,39 @@
+{
+	title: "Iron Tools 3!",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "artisanworktables:artisans_hammer_iron"
+	},
+	x: 16.5d,
+	y: 6.5d,
+	shape: "diamond",
+	description: "The Tetraquel!",
+	text: [
+		"Ya ya iron artisan's tools, you get the idea."
+	],
+	dependencies: [
+		"6fe5d36c"
+	],
+	tasks: [{
+		uid: "5d0a054e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "artisansToolIron",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any artisansToolIron"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

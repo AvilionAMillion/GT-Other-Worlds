@@ -1,6 +1,6 @@
 {
 	title: "Bricks and Bricks and More Bricks!",
-	icon: "tconstruct:materials",
+	icon: "pyrotech:material 1 5",
 	x: 7.5d,
 	y: 9.5d,
 	description: "Construction Time!",
@@ -9,20 +9,21 @@
 		"The recipes both take fluids, and so can only be made in the basic workshop. Both take clay dust, which can be gotten from mortaring clay blocks. You can make clay blocks with a compacting bin or in a workshop as well."
 	],
 	dependencies: [
-		"8807d135"
+		"8807d135",
+		"deb28150"
 	],
 	tasks: [{
-		uid: "f2dc3375",
-		type: "item",
-		items: [{
-			item: "tconstruct:materials"
-		}]
-	},
-	{
 		uid: "19577f68",
 		type: "item",
 		items: [{
 			item: "pyrotech:material 1 5"
+		}]
+	},
+	{
+		uid: "959328da",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials"
 		}]
 	}]
 }

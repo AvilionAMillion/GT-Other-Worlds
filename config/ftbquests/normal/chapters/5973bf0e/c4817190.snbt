@@ -1,8 +1,9 @@
 {
 	title: "Insomniac",
 	icon: "rftools:nightvision_module",
-	x: -1.5d,
-	y: -3.0d,
+	x: -0.5d,
+	y: -4.5d,
+	shape: "gear",
 	description: "No melatonin will save you now!",
 	text: [
 		"Sleeping has been disabled in this pack, you should keep this in mind before having your entire base be above the ground and blown up by a stray creeper."

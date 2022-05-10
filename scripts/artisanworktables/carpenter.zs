@@ -5,6 +5,8 @@ import mods.artisanworktables.builder.RecipeBuilder;
 val builder = RecipeBuilder.get("carpenter");
 
 // Removal
+mods.jei.JEI.removeAndHide(<artisanworktables:worktable:1>);
+mods.jei.JEI.removeAndHide(<artisanworktables:workstation:1>);
 mods.jei.JEI.hideCategory("artisanworktables_carpenter_worktable");
 mods.jei.JEI.hideCategory("artisanworktables_carpenter_workstation");
 
