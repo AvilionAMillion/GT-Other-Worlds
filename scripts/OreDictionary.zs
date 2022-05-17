@@ -110,6 +110,11 @@ mods.tconstruct.Casting.removeTableRecipe(<gregtech:meta_gear:2>);
 // GregTech Stone Ingot Changes
 <ore:ingotStone>.add(<pyrotech:material:16>);
 mods.jei.JEI.removeAndHide(<gregtech:meta_ingot:1599>);
+<ore:stickStone>.add(<tconstruct:tool_rod>.withTag({Material: "stone"}));
+<ore:stickStone>.remove(<pyrotech:material:27>);
+mods.jei.JEI.removeAndHide(<pyrotech:material:27>);
+recipes.replaceAllOccurences(<pyrotech:material:27>, <ore:stickStone>);
+<ore:plateStone>.add(<tconstruct:large_plate>.withTag({Material: "stone"}));
 
 // Refractory Brick Pyrotech -> Foundry
 recipes.replaceAllOccurences(<foundry:component:2>, <pyrotech:material:5>);
@@ -118,9 +123,6 @@ recipes.replaceAllOccurences(<foundry:component:1>, <pyrotech:material:4>);
 // Ash Unification
 <ore:dustAsh>.add(<pyrotech:material>);
 recipes.addShapeless(<gregtech:meta_dust:254>, [<pyrotech:material>]);
-
-// Stone Oredict
-<ore:plateStone>.add(<tconstruct:large_plate>.withTag({Material: "stone"}));
 
 // Furnace Changes
 recipes.replaceAllOccurences(<minecraft:furnace>, <ore:craftingFurnace>);

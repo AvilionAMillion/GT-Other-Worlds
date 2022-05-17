@@ -42,12 +42,5 @@
 		items: [{
 			item: "pyrotech:faucet_stone"
 		}]
-	},
-	{
-		uid: "9a1ce0fc",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 1610"
-		}]
 	}]
 }

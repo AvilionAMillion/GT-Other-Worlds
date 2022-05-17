@@ -8,6 +8,7 @@ global stick as IOreDictEntry = <ore:stickWood>;
 global wood as IOreDictEntry = <ore:logWood>;
 global stone as IOreDictEntry = <ore:stone>;
 global cobble as IOreDictEntry = <ore:cobblestone>;
+global brick as IItemStack = <minecraft:brick_block>;
 global flint as IOreDictEntry = <ore:gemFlint>;
 global gravel as IItemStack = <minecraft:gravel>;
 global plank as IOreDictEntry = <ore:plankWood>;

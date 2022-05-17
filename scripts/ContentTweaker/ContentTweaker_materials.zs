@@ -18,8 +18,8 @@ dustSandyClay.register();
 var dustWetChad as Item = VanillaFactory.createItem("wetChad");
 dustWetChad.register();
  # Bleached Coral
-var bleachedCoral as Item = VanillaFactory.createItem("bleached_coral");
-bleachedCoral.register();
+var refractoryBlend as Item = VanillaFactory.createItem("refractoryblend");
+refractoryBlend.register();
  # Wrought Iron Heating Component
 var wroughtIron_Heater as Item = VanillaFactory.createItem("wroughtIronHeater");
 wroughtIron_Heater.register();
@@ -29,6 +29,11 @@ steel_Heater.register();
  # LV Heat Exchanger
 var heatExchangerLV as Item = VanillaFactory.createItem("heatExchanger_LV");
 heatExchangerLV.register();
+ # Bloom Hammer
+var bloomHammer as Item = VanillaFactory.createItem("hammer");
+bloomHammer.maxDamage = 120;
+bloomHammer.maxStackSize = 1;
+bloomHammer.register();
 
 // ULV Components
  # ULV Motor

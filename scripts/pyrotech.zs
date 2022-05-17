@@ -12,6 +12,8 @@
 	import mods.pyrotech.StoneCrucible;
 	import mods.pyrotech.StoneKiln;
 	import mods.pyrotech.BrickKiln;
+	import mods.pyrotech.GraniteAnvil;
+	import mods.pyrotech.IroncladAnvil;
 import mods.artisanworktables.builder.RecipeBuilder;
 val builder = RecipeBuilder.get("basic");
 
@@ -67,6 +69,9 @@ mods.jei.JEI.removeAndHide(<pyrotech:diamond_hammer>);
 mods.jei.JEI.removeAndHide(<pyrotech:obsidian_hammer>);
 StoneKiln.removeRecipes(<pyrotech:material:22>);
 BrickKiln.removeRecipes(<pyrotech:material:22>);
+GraniteAnvil.removeRecipes(<pyrotech:material:27>);
+IroncladAnvil.removeRecipes(<pyrotech:material:27>);
+
 SoakingPot.removeRecipes(<pyrotech:material:8>);
 
 // Soaking Pot

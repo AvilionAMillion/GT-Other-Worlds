@@ -3,15 +3,12 @@
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 import crafttweaker.item.IItemTransformer;
+import mods.inworldcrafting.FluidToFluid;
 import mods.artisanworktables.builder.RecipeBuilder;
 val builder = RecipeBuilder.get("basic");
 
 // Val
 val dustGlass = <gregtech:meta_dust:2000>;
-val foundryBucket = <pyrotech:bucket_clay>.withTag({durability: 32767, fluids: {FluidName: "foundry", Amount: 1000}});
-
-// JEI show
-mods.jei.JEI.addItem(foundryBucket);
 
  # Glassy Sand
 recipes.addShapeless(<contenttweaker:glassy_sand>,
@@ -32,13 +29,22 @@ RecipeBuilder.get("basic")
   .addOutput(<contenttweaker:unfired_searedbrick> * 8)
   .create();
 
-# Refractory Mortar
+# Refractory Blend
 RecipeBuilder.get("basic")
   .setShaped([
-    [<gregtech:meta_dust:2063>, <gregtech:meta_dust:275>, <gregtech:meta_dust:2063>],
-    [<gregtech:meta_dust:2063>, <pyrotech:bucket_clay>, <gregtech:meta_dust:2063>],
-    [<gregtech:meta_dust:254>, <gregtech:meta_dust:2023>, <gregtech:meta_dust:254>]])
-  .setFluid(<liquid:water> * 4000)
+    [<gregtech:meta_dust:2063>, <gregtech:meta_dust:2023>, <gregtech:meta_dust:2063>],
+    [<gregtech:meta_dust:254>, <gregtech:meta_dust:275>, <gregtech:meta_dust:254>],
+    [<gregtech:meta_dust:2063>, <gregtech:meta_dust:2023>, <gregtech:meta_dust:2063>]])
+  .setFluid(<liquid:water> * 2000)
   .addTool(<ore:artisansMortar>, 20)
-  .addOutput(foundryBucket)
+  .addOutput(<contenttweaker:refractoryblend>)
   .create();
+  
+# Refractory Mortar
+FluidToFluid.transform(<liquid:foundry>, <liquid:water>, [<contenttweaker:refractoryblend>], true);
+  
+# Mason Bloom Hammer
+recipes.addShaped(<contenttweaker:hammer>,
+	[[null, <pyrotech:stone_bricks>, <pyrotech:material:26>],
+	[<pyrotech:stone_bricks>, stick, <pyrotech:material:16>],
+	[stick, gtFile, null]]);

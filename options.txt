@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:120
 fboEnable:true
-difficulty:2
+difficulty:0
 fancyGraphics:true
 ao:2
 renderClouds:true
@@ -94,6 +94,7 @@ key_roots.keybinds.spell_library:37
 key_roots.keybinds.cycle:0
 key_roots.keybinds.delete_spell:0
 key_key.toggle_shaders:0
+key_key.betterquesting.quests:41
 key_bloodmagic.keybind.open_holding:35
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
 key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT

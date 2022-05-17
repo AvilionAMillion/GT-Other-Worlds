@@ -5,11 +5,11 @@
 
 			"distribution": "uniform",
 			"generator": {
-				"block": "dirt",
+				"block": "clay",
 				"material": "minecraft:stone",
 				"cluster-size": 33
 			},
-			"cluster-count": 0,
+			"cluster-count": 6,
 			"min-height": 0,
 			"max-height": 256,
 			"retrogen": false,

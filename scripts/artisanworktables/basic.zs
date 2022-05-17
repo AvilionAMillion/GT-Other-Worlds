@@ -86,6 +86,19 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansTrowel>, 100)
   .addOutput(<artisanworktables:workshop:10>)
   .create();
+# Scribes Workshop
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:planks>, <tconstruct:pattern>, <tconstruct:pattern>, <tconstruct:pattern>, <minecraft:planks>],
+    [<minecraft:bookshelf>, <minecraft:bookshelf>, <minecraft:bookshelf>, <minecraft:bookshelf>, <minecraft:bookshelf>],
+    [<minecraft:planks>, <minecraft:planks>, <artisanworktables:workshop:5>, <minecraft:planks>, <minecraft:planks>],
+    [<gregtech:planks:1>, <gregtech:meta_block_frame_103>, <gregtech:meta_block_frame_103>, <gregtech:meta_block_frame_103>, <gregtech:planks:1>],
+    [<gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>]])
+  .addTool(<ore:artisansGrimoire>, 200)
+  .addTool(<ore:artisansQuill>, 200)
+  .addTool(<ore:artisansPencil>, 200)
+  .addOutput(<artisanworktables:workshop:8>)
+  .create();
 
 // Artisan Materials
 # Flint Hatchet

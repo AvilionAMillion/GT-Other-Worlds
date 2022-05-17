@@ -89,3 +89,22 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansHandsaw>, 8)
   .addOutput(<minecraft:fence>)
   .create();
+# Book
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:leather>, <minecraft:paper>, <minecraft:string>],
+    [<minecraft:leather>, <minecraft:paper>, <minecraft:string>],
+    [<minecraft:leather>, <minecraft:paper>, <minecraft:string>]])
+  .setSecondaryIngredients([<ore:slimeball> * 8])
+  .addTool(<ore:artisansQuill>, 30)
+  .addOutput(<minecraft:book>)
+  .create();
+# Bookshelf
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>],
+    [<minecraft:book>, <minecraft:book>, <minecraft:book>],
+    [<gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>]])
+  .addTool(<ore:artisansHandsaw>, 20)
+  .addOutput(<minecraft:bookshelf>)
+  .create();

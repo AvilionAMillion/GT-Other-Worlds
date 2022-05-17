@@ -21,21 +21,10 @@
 		"b723647a"
 	],
 	tasks: [{
-		uid: "1d805e5b",
+		uid: "4c771b90",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "pyrotech:bucket_clay",
-			tag: {
-				durability: 32767,
-				fluids: {
-					FluidName: "foundry",
-					Amount: 1000
-				}
-			}
-		}],
-		ignore_nbt: 1b
+			item: "contenttweaker:refractoryblend"
+		}]
 	}]
 }

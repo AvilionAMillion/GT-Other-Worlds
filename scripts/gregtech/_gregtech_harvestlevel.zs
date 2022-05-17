@@ -34,6 +34,8 @@ import mods.gregtech.material.Elements;
 	<material:magnetite>.setHarvestLevel(3);
 	<material:malachite>.setHarvestLevel(2);
 	<material:pyrite>.setHarvestLevel(3);
+	<material:redstone>.setHarvestLevel(4);
+	<material:stone>.setHarvestLevel(1);
 	<material:tetrahedrite>.setHarvestLevel(2);
 	<material:tin>.setHarvestLevel(2);
 	<material:yellow_limonite>.setHarvestLevel(3);
