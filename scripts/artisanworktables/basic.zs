@@ -16,7 +16,7 @@ RecipeBuilder.get("basic")
   .setShaped([
     [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
     [<ore:string>, <artisanworktables:worktable:5>, <ore:string>],
-    [<pyrotech:material:16>, <pyrotech:material:16>, <pyrotech:material:16>]])
+    [<pyrotech:material:16>, <minecraft:chest>, <pyrotech:material:16>]])
   .addTool(<ore:artisansHammer>, 25)
   .addOutput(<artisanworktables:workstation:5>)
   .create();
