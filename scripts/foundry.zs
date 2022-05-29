@@ -122,9 +122,10 @@ RecipeBuilder.get("basic")
   .setShaped([
     [<gregtech:meta_plate:112>, <foundry:refractoryspout>, <ore:plateTin>, <foundry:refractoryspout>, <gregtech:meta_plate:112>],
     [<pyrotech:refractory_brick_block>, <ore:platePotin>, <pyrotech:brick_tank>, <ore:platePotin>, <pyrotech:refractory_brick_block>],
-    [<pyrotech:refractory_brick_block>, <ore:platePotin>, <foundry:componentblock:3>, <ore:platePotin>, <pyrotech:refractory_brick_block>],
+    [<pyrotech:refractory_brick_block>, <ore:platePotin>, <tconstruct:seared_furnace_controller>, <ore:platePotin>, <pyrotech:refractory_brick_block>],
     [<pyrotech:refractory_brick_block>, <ore:platePotin>, <ore:platePotin>, <ore:platePotin>, <pyrotech:refractory_brick_block>],
     [<ore:plateTin>, <pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <ore:plateTin>]])
+  .setFluid(<liquid:lava> * 4000)
   .addTool(<ore:artisansHammer>, 100)
   .addTool(<ore:artisansDriver>, 100)
   .addTool(<ore:artisansChisel>, 100)

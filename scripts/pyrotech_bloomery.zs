@@ -137,3 +137,31 @@ Bloomery.createBloomeryBuilder(
     .addFailureItem(<pyrotech:slag>, 1)
     .addFailureItem(<gregtech:meta_dust_tiny:51>, 1)
     .register();
+	
+// Lead
+# Lead
+Bloomery.createBloomeryBuilder(
+        "lead_bloom",
+        <gregtech:meta_nugget:55>,
+        <gregtech:ore_lead_0>
+    )
+    .setAnvilTiers(["granite", "ironclad"])
+    .setBurnTimeTicks(4000)
+    .setFailureChance(0.4)
+    .setBloomYield(12, 16)
+    .addFailureItem(<pyrotech:slag>, 2)
+    .addFailureItem(<gregtech:meta_dust_tiny:55>, 1)
+    .register();
+# Galena
+Bloomery.createBloomeryBuilder(
+        "galena_bloom",
+        <gregtech:meta_nugget:55>,
+        <gregtech:ore_galena_0>
+    )
+    .setAnvilTiers(["granite", "ironclad"])
+    .setBurnTimeTicks(5000)
+    .setFailureChance(0.55)
+    .setBloomYield(12, 14)
+    .addFailureItem(<pyrotech:slag>, 2)
+    .addFailureItem(<gregtech:meta_dust_tiny:55>, 1)
+    .register();
