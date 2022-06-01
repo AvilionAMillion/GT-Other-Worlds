@@ -1,7 +1,0 @@
-{
-	title: "Crops and Cookin'",
-	icon: "roots:wildroot",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

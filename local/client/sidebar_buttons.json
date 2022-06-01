@@ -4,9 +4,6 @@
 		"settings": true,
 		"admin_panel": true
 	},
-	"ftbquests": {
-		"quests": true
-	},
 	"ftbutilities": {
 		"toggle.gamemode": true,
 		"toggle.rain": true,

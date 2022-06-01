@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:120
 fboEnable:true
-difficulty:0
+difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:true
@@ -88,11 +88,6 @@ key_key.hotbar.9:10
 key_Change Caster Focus:33
 key_Misc Caster Toggle:34
 key_keybind.baublesinventory:48
-key_roots.keybinds.pouch:0
-key_roots.keybinds.quiver:0
-key_roots.keybinds.spell_library:37
-key_roots.keybinds.cycle:0
-key_roots.keybinds.delete_spell:0
 key_key.toggle_shaders:0
 key_key.betterquesting.quests:41
 key_bloodmagic.keybind.open_holding:35
@@ -111,7 +106,6 @@ key_key.erebus.beetleram:19
 key_key.erebus.beetlemine:56
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
-key_key.ftbquests.quests:0
 key_key.ironbackpacks.equip:35
 key_key.ironbackpacks.open:23
 key_key.moreoverlays.lightoverlay.desc:65
@@ -122,6 +116,11 @@ key_pneumaticcraft.helmet.hack:35
 key_pneumaticcraft.helmet.debugging.drone:21
 key_pneumaticcraft.boots.kick:45:CONTROL
 key_pneumaticcraft.chestplate.launcher:46:CONTROL
+key_roots.keybinds.pouch:0
+key_roots.keybinds.quiver:0
+key_roots.keybinds.spell_library:37
+key_roots.keybinds.cycle:0
+key_roots.keybinds.delete_spell:0
 key_key.open_wct.desc:0
 key_key.cycle_magnet_mode.desc:0
 key_key.open_wft.desc:0
@@ -223,6 +222,7 @@ key_gui.xaero_open_settings:27
 key_gui.xaero_map_zoom_in:0
 key_gui.xaero_map_zoom_out:0
 key_gui.xaero_quick_confirm:54
+key_gui.xaero_wm_toggle_minimap_radar:0
 key_Toggle Jetpack:45
 key_Open Rocket GUI:46
 key_Toggle RCS:19
