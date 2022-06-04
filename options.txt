@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:120
 fboEnable:true
-difficulty:2
+difficulty:0
 fancyGraphics:true
 ao:2
 renderClouds:true
@@ -254,7 +254,7 @@ key_enderio.keybind.fovminusfast:0
 soundCategory_master:0.2218543
 soundCategory_music:0.049295776
 soundCategory_record:1.0
-soundCategory_weather:1.0
+soundCategory_weather:0.43661973
 soundCategory_block:0.5492958
 soundCategory_hostile:0.24647887
 soundCategory_neutral:1.0
