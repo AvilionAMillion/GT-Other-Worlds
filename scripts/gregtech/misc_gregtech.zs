@@ -28,7 +28,7 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("basic")
   .setShaped([
     [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-    [<pyrotech:stone_bricks>, null, <pyrotech:stone_bricks>],
+    [<pyrotech:masonry_brick_block>, null, <pyrotech:masonry_brick_block>],
     [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]])
   .addTool(<ore:artisansHandsaw>, 10)
   .addTool(<ore:artisansHatchet>, 10)

@@ -196,6 +196,18 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansDriver>, 100)
   .addOutput(<tconstruct:seared_furnace_controller>)
   .create();
+# Seared Drain
+recipes.remove(<tconstruct:smeltery_io>);
+recipes.addShaped(<tconstruct:smeltery_io>,
+	[[searedBrick, gtHammer, searedBrick],
+	[<tconstruct:seared:3>, <gregtech:fluid_pipe_normal:2037>, <tconstruct:seared:3>],
+	[searedBrick, gtSaw, searedBrick]]);
+# Tank Controller
+recipes.remove(<tconstruct:tinker_tank_controller>);
+recipes.addShaped(<tconstruct:tinker_tank_controller>,
+	[[plateIron, <tconstruct:seared:3>, plateIron],
+	[<tconstruct:seared:3>, <gregtech:machine:1611>, <tconstruct:seared:3>],
+	[gtHammer, <tconstruct:seared:3>, gtSaw]]);
 
 
 // Custom Tinkers Tools

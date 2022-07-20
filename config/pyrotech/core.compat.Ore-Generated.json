@@ -27,6 +27,14 @@
       ],
       "output": [
         "gregtech:meta_nugget:2"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreArdite": {
@@ -36,6 +44,14 @@
       ],
       "output": [
         "tconstruct:nuggets:1"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreCobalt": {
@@ -45,6 +61,14 @@
       ],
       "output": [
         "gregtech:meta_nugget:23"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreCopper": {
@@ -54,6 +78,14 @@
       ],
       "output": [
         "gregtech:meta_nugget:25"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreGold": {
@@ -63,6 +95,14 @@
       ],
       "output": [
         "minecraft:gold_nugget:0"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreIron": {
@@ -72,6 +112,14 @@
       ],
       "output": [
         "minecraft:iron_nugget:0"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreLead": {
@@ -81,6 +129,14 @@
       ],
       "output": [
         "gregtech:meta_nugget:55"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreNickel": {
@@ -90,6 +146,14 @@
       ],
       "output": [
         "gregtech:meta_nugget:69"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreOsmium": {
@@ -99,6 +163,14 @@
       ],
       "output": [
         "gregtech:meta_nugget:75"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "orePlatinum": {
@@ -108,6 +180,14 @@
       ],
       "output": [
         "gregtech:meta_nugget:80"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreSilver": {
@@ -117,6 +197,14 @@
       ],
       "output": [
         "gregtech:meta_nugget:100"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreTin": {
@@ -126,6 +214,14 @@
       ],
       "output": [
         "gregtech:meta_nugget:112"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     }
   }

@@ -10,6 +10,9 @@ mods.jei.JEI.removeAndHide(<artisanworktables:workstation:2>);
 mods.jei.JEI.hideCategory("artisanworktables_mason_worktable");
 mods.jei.JEI.hideCategory("artisanworktables_mason_workstation");
 
+// Val
+val masonBrickBlock = <pyrotech:masonry_brick_block>;
+
 // Mason Worktable
  # Stone Brick
 RecipeBuilder.get("mason")
@@ -41,7 +44,7 @@ RecipeBuilder.get("mason")
     [<pyrotech:material:16>, <pyrotech:material:16>],
     [<pyrotech:material:16>, <pyrotech:material:16>]])
   .addTool(<ore:artisansHammer>, 1)
-  .addOutput(<pyrotech:stone_bricks>)
+  .addOutput(<pyrotech:masonry_brick_block>)
   .create();
 # Seared Bricks
 RecipeBuilder.get("mason")

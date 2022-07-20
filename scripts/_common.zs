@@ -31,6 +31,7 @@ global plateBronze as IOreDictEntry = <ore:plateBronze>;
 global plateAluminium as IOreDictEntry = <ore:plateAluminium>;
 global plateStainlessSteel as IOreDictEntry = <ore:plateStainlessSteel>;
 global plateTitanium as IOreDictEntry = <ore:plateTitanium>;
+global platePotin as IOreDictEntry = <ore:platePotin>;
 
 // Double Plates
 global plateIron2 as IOreDictEntry = <ore:plateDoubleIron>;
@@ -48,6 +49,9 @@ global screwBronze as IOreDictEntry = <ore:screwBronze>;
 // Rods
 global rodIron as IOreDictEntry = <ore:stickIron>;
 global rodSteel as IOreDictEntry = <ore:stickSteel>;
+
+// Rings
+global ringIron as IOreDictEntry = <ore:ringIron>;
 
 // Ingots
 global ingotSteel as IOreDictEntry = <ore:ingotSteel>;

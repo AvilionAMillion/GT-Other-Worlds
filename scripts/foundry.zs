@@ -9,6 +9,7 @@ val builder = RecipeBuilder.get("basic");
  var casingBasic = <foundry:componentblock:3>;
  var ingotTable = <foundry:castingtable>;
  var brickPT = <pyrotech:material:5>;
+ var blockTable = <foundry:castingtable:3>;
  
  
 // Removal
@@ -26,7 +27,6 @@ recipes.remove(<foundry:machine:9>);
 mods.jei.JEI.hideCategory("foundry.casting");
 mods.jei.JEI.hideCategory("foundry.casting_table.rod");
 mods.jei.JEI.hideCategory("foundry.casting_table.plate");
-mods.jei.JEI.hideCategory("foundry.casting_table.block");
  
  //JEI Fluid containers
  var RefractCan = <foundry:fluidcontainer>;
@@ -51,6 +51,10 @@ recipes.addShaped(casingBasic, [
 recipes.remove(ingotTable);
 recipes.addShaped(ingotTable,
 	[[brickPT, <foundry:mold>, brickPT],
+	[gtHammer, <minecraft:stone_slab>, gtFile]]);
+recipes.remove(blockTable);
+recipes.addShaped(blockTable,
+	[[brickPT, <foundry:mold:4>, brickPT],
 	[gtHammer, <minecraft:stone_slab>, gtFile]]);
 
 // Worktable

@@ -34,7 +34,7 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("basic")
   .setShaped([
     [<minecraft:brick_block>, <minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:brick_block>],
-    [<minecraft:brick_block>, <pyrotech:stone_bricks>, <pyrotech:stone_bricks>, <pyrotech:stone_bricks>, <minecraft:brick_block>],
+    [<minecraft:brick_block>, <pyrotech:masonry_brick_block>, <pyrotech:masonry_brick_block>, <pyrotech:masonry_brick_block>, <minecraft:brick_block>],
     [<pyrotech:material:26>, <pyrotech:material:26>, <artisanworktables:workshop:5>, <pyrotech:material:26>, <pyrotech:material:26>],
     [<pyrotech:planks_tarred>, <tconstruct:tough_binding>.withTag({Material: "wood"}), <pyrotech:material:26>, <tconstruct:tough_binding>.withTag({Material: "wood"}), <pyrotech:planks_tarred>],
     [<pyrotech:planks_tarred>, <pyrotech:planks_tarred>, <pyrotech:material:26>, <pyrotech:planks_tarred>, <pyrotech:planks_tarred>]])

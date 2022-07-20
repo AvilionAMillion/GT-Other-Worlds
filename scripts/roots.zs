@@ -10,6 +10,7 @@ val moss = <roots:terra_moss>;
 val sapling = <ore:treeSapling>;
 val cloudBerry = <roots:cloud_berry>;
 val dewgonia = <roots:dewgonia>;
+val masonBrickBlock = <pyrotech:masonry_brick_block>;
 
 // Crop Tier Tooltips
 <roots:dewgonia>.addTooltip("Tier 0 Crop");
@@ -45,7 +46,7 @@ recipes.remove(<roots:grove_stone>);
 recipes.addShaped(<roots:grove_stone>,
 	[[gtSaw, stone, gtFile],
 	[wildroot, stone, moss],
-	[<pyrotech:stone_bricks>, stone, <pyrotech:stone_bricks>]]);
+	[masonBrickBlock, stone, masonBrickBlock]]);
 # Fey Crafter
 recipes.remove(<roots:fey_crafter>);
 recipes.addShaped(<roots:fey_crafter>,

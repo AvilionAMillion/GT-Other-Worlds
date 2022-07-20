@@ -45,6 +45,6 @@ FluidToFluid.transform(<liquid:foundry>, <liquid:water>, [<contenttweaker:refrac
   
 # Mason Bloom Hammer
 recipes.addShaped(<contenttweaker:hammer>,
-	[[null, <pyrotech:stone_bricks>, <pyrotech:material:26>],
-	[<pyrotech:stone_bricks>, stick, <pyrotech:material:16>],
+	[[null, <pyrotech:masonry_brick_block>, <pyrotech:material:26>],
+	[<pyrotech:masonry_brick_block>, stick, <pyrotech:material:16>],
 	[stick, gtFile, null]]);

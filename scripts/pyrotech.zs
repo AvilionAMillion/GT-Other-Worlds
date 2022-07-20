@@ -19,6 +19,7 @@ val builder = RecipeBuilder.get("basic");
 
 // Val
 val refracBrick = <pyrotech:material:5>;
+val masonBrickBlock = <pyrotech:masonry_brick_block>;
 
 // Flint Shard Replacement
 recipes.replaceAllOccurences(<pyrotech:material:10>, <tconstruct:shard>.withTag({Material: "flint"}));
@@ -35,7 +36,7 @@ recipes.remove(<pyrotech:drying_rack:1>);
 recipes.remove(<pyrotech:stone_kiln>);
 recipes.remove(<pyrotech:stone_oven>);
 recipes.remove(<pyrotech:stone_sawmill>);
-recipes.remove(<pyrotech:stone_bricks>);
+recipes.remove(masonBrickBlock);
 recipes.remove(<pyrotech:sawmill_blade_flint>);
 recipes.remove(<pyrotech:sawmill_blade_stone>);
 recipes.remove(<pyrotech:material:24>);
@@ -122,9 +123,9 @@ RecipeBuilder.get("basic")
 # Stone Kiln
 RecipeBuilder.get("basic")
   .setShaped([
-    [<pyrotech:stone_bricks>, <pyrotech:material:16>, <pyrotech:stone_bricks>],
-    [<pyrotech:stone_bricks>, <pyrotech:kiln_pit>, <pyrotech:stone_bricks>],
-    [<pyrotech:stone_bricks>, <pyrotech:stone_bricks>, <pyrotech:stone_bricks>]])
+    [masonBrickBlock, <pyrotech:material:16>, masonBrickBlock],
+    [masonBrickBlock, <pyrotech:kiln_pit>, masonBrickBlock],
+    [masonBrickBlock, masonBrickBlock, masonBrickBlock]])
   .addTool(<ore:artisansHammer>, 10)
   .addTool(<ore:artisansFile>, 10)
   .addOutput(<pyrotech:stone_kiln>)
@@ -132,9 +133,9 @@ RecipeBuilder.get("basic")
 # Stone Oven
 RecipeBuilder.get("basic")
   .setShaped([
-    [<pyrotech:stone_bricks>, <pyrotech:material:16>, <pyrotech:stone_bricks>],
-    [<pyrotech:stone_bricks>, <pyrotech:tinder>, <pyrotech:stone_bricks>],
-    [<pyrotech:stone_bricks>, <pyrotech:stone_bricks>, <pyrotech:stone_bricks>]])
+    [masonBrickBlock, <pyrotech:material:16>, masonBrickBlock],
+    [masonBrickBlock, <pyrotech:tinder>, masonBrickBlock],
+    [masonBrickBlock, masonBrickBlock, masonBrickBlock]])
   .addTool(<ore:artisansHammer>, 10)
   .addTool(<ore:artisansFile>, 10)
   .addOutput(<pyrotech:stone_oven>)
@@ -142,9 +143,9 @@ RecipeBuilder.get("basic")
 # Stone Sawmill
 RecipeBuilder.get("basic")
   .setShaped([
-    [<pyrotech:stone_bricks>, <pyrotech:material:16>, <pyrotech:stone_bricks>],
-    [<pyrotech:stone_bricks>, <pyrotech:chopping_block>, <pyrotech:stone_bricks>],
-    [<pyrotech:stone_bricks>, <pyrotech:stone_bricks>, <pyrotech:stone_bricks>]])
+    [masonBrickBlock, <pyrotech:material:16>, masonBrickBlock],
+    [masonBrickBlock, <pyrotech:chopping_block>, masonBrickBlock],
+    [masonBrickBlock, masonBrickBlock, masonBrickBlock]])
   .addTool(<ore:artisansHammer>, 10)
   .addTool(<ore:artisansFile>, 10)
   .addOutput(<pyrotech:stone_sawmill>)
@@ -155,13 +156,13 @@ RecipeBuilder.get("basic")
     [<pyrotech:material:16>, <pyrotech:material:16>],
     [<pyrotech:material:16>, <pyrotech:material:16>]])
   .addTool(<ore:artisansHammer>, 5)
-  .addOutput(<pyrotech:stone_bricks>)
+  .addOutput(masonBrickBlock)
   .create();
 # Flint Sawmill Blade
 RecipeBuilder.get("basic")
   .setShaped([
     [<minecraft:flint>, <minecraft:flint>, <minecraft:flint>],
-    [<minecraft:flint>, <pyrotech:stone_bricks>, <minecraft:flint>],
+    [<minecraft:flint>, masonBrickBlock, <minecraft:flint>],
     [<minecraft:flint>, <minecraft:flint>, <minecraft:flint>]])
   .addTool(<ore:artisansChisel>, 8)
   .addTool(<ore:artisansFile>, 8)
@@ -188,7 +189,7 @@ RecipeBuilder.get("basic")
   .setShaped([
     [<pyrotech:material:16>, null, <pyrotech:material:16>],
     [<pyrotech:material:20>, <pyrotech:material:16>, <pyrotech:material:20>],
-    [<pyrotech:material:20>, <pyrotech:stone_bricks>, <pyrotech:material:20>]])
+    [<pyrotech:material:20>, masonBrickBlock, <pyrotech:material:20>]])
   .addTool(<ore:artisansHammer>, 15)
   .addTool(<ore:artisansFile>, 15)
   .addOutput(<pyrotech:soaking_pot>)
@@ -198,7 +199,7 @@ RecipeBuilder.get("basic")
   .setShaped([
     [<pyrotech:material:16>, null, <pyrotech:material:16>],
     [<pyrotech:material:16>, null, <pyrotech:material:16>],
-    [<pyrotech:stone_bricks>, <pyrotech:stone_bricks>, <pyrotech:stone_bricks>]])
+    [masonBrickBlock, masonBrickBlock, masonBrickBlock]])
   .addTool(<ore:artisansHammer>, 15)
   .addOutput(<pyrotech:tar_collector>)
   .create();
@@ -206,7 +207,7 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("basic")
   .setShaped([
     [<pyrotech:material:16>, null, <pyrotech:material:16>],
-    [<pyrotech:stone_bricks>, null, <pyrotech:stone_bricks>],
+    [masonBrickBlock, null, masonBrickBlock],
     [<pyrotech:material:16>, null, <pyrotech:material:16>]])
   .addTool(<ore:artisansHammer>, 10)
   .addOutput(<pyrotech:tar_drain>)
@@ -231,9 +232,9 @@ RecipeBuilder.get("basic")
 # Stone Tank
 RecipeBuilder.get("basic")
   .setShaped([
-    [<pyrotech:stone_bricks>, <ore:blockGlass>, <pyrotech:stone_bricks>],
+    [masonBrickBlock, <ore:blockGlass>, masonBrickBlock],
     [<ore:blockGlass>, <gregtech:machine:1610>, <ore:blockGlass>],
-    [<pyrotech:stone_bricks>, <ore:blockGlass>, <pyrotech:stone_bricks>]])
+    [masonBrickBlock, <ore:blockGlass>, masonBrickBlock]])
   .addTool(<ore:artisansHammer>, 15)
   .addTool(<ore:artisansFile>, 15)
   .addOutput(<pyrotech:stone_tank>)
@@ -241,9 +242,9 @@ RecipeBuilder.get("basic")
 # Stone Crucible
 RecipeBuilder.get("basic")
   .setShaped([
-    [<pyrotech:stone_bricks>, <pyrotech:material:16>, <pyrotech:stone_bricks>],
-    [<pyrotech:stone_bricks>, <pyrotech:stone_tank>, <pyrotech:stone_bricks>],
-    [<pyrotech:stone_bricks>, <pyrotech:stone_bricks>, <pyrotech:stone_bricks>]])
+    [masonBrickBlock, <pyrotech:material:16>, masonBrickBlock],
+    [masonBrickBlock, <pyrotech:stone_tank>, masonBrickBlock],
+    [masonBrickBlock, masonBrickBlock, masonBrickBlock]])
   .addTool(<ore:artisansHammer>, 20)
   .addTool(<ore:artisansFile>, 20)
   .addOutput(<pyrotech:stone_crucible>)

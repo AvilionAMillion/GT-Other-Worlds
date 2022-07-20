@@ -8,9 +8,10 @@
 val builder = RecipeBuilder.get("basic");
 
 // Removal
-recipes.remove(<minecraft:crafting_table>);
 recipes.removeByRecipeName("pyrotech:furnace");
 recipes.removeByRecipeName("gregtech:furnace");
+recipes.removeByRecipeName("pyrotech:crafting_table");
+recipes.removeByRecipeName("gregtech:crafting_table");
 recipes.removeByRecipeName("pyrotech:chest");
 recipes.removeByRecipeName("gregtech:chest");
 recipes.removeByRecipeName("enderio:tweak_chest_from_wood");
@@ -22,6 +23,7 @@ recipes.remove(<minecraft:book>);
 StoneKiln.removeRecipes(<minecraft:glass>);
 BrickKiln.removeRecipes(<minecraft:glass>);
 furnace.remove(<minecraft:glass>);
+furnace.remove(<minecraft:redstone>);
 
 // Crafting
 # Torch
