@@ -140,3 +140,29 @@ recipes.replaceAllOccurences(<minecraft:furnace>, <ore:craftingFurnace>);
 <ore:largePelt>.add(<pyrotech:pelt_llama_brown>);
 
 # Small Pelt
+<ore:smallPelt>.addItems([<pyrotech:hide_sheep_sheared>, <pyrotech:pelt_bat>, <pyrotech:pelt_wolf>, <pyrotech:hide_pig>, <minecraft:rabbit_hide>]);
+
+
+// Remove Butcher Knives
+val disabledKnives = [
+	<pyrotech:bone_butchers_knife>,
+	<pyrotech:bone_hunters_knife>,
+	<pyrotech:flint_butchers_knife>,
+	<pyrotech:flint_hunters_knife>,
+	<pyrotech:stone_butchers_knife>,
+	<pyrotech:stone_hunters_knife>,
+	<pyrotech:iron_butchers_knife>,
+	<pyrotech:iron_hunters_knife>,
+	<pyrotech:gold_butchers_knife>,
+	<pyrotech:gold_hunters_knife>,
+	<pyrotech:diamond_butchers_knife>,
+	<pyrotech:diamond_hunters_knife>,
+	<pyrotech:obsidian_butchers_knife>,
+	<pyrotech:obsidian_hunters_knife>
+	] as IItemStack[];
+
+for knife in disabledKnives {
+	mods.jei.JEI.removeAndHide(knife);
+}
+	
+	

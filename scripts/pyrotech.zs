@@ -97,7 +97,14 @@ recipes.addShaped(<pyrotech:anvil_iron_plated>,
 	[<ore:slabStone>, <ore:slabStone>]]);
 # Scraped Hide
 recipes.addShapeless(<pyrotech:hide_scraped>,
-	[<ore:artisansKnife>, <ore:largePelt>]);
+	[<ore:artisansKnife>.transformDamage(1), <ore:largePelt>]);
+recipes.addShapeless(<pyrotech:hide_scraped>,
+	[gtKnife, <ore:largePelt>]);
+# Small Scraped Hide
+recipes.addShapeless(<pyrotech:hide_small_scraped>,
+	[<ore:artisansKnife>.transformDamage(1), <ore:smallPelt>]);
+recipes.addShapeless(<pyrotech:hide_small_scraped>,
+	[gtKnife, <ore:smallPelt>]);
 
 // Worktable Recipes
 # Chopping Block
@@ -344,5 +351,30 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansHammer>, 15)
   .addTool(<ore:artisansHandsaw>, 15)
   .addOutput(<pyrotech:mechanical_bellows>)
+  .create();
+# Barrel
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<pyrotech:material:23>, null, <pyrotech:material:23>],
+    [<pyrotech:material:23>, <gregtech:machine:1610>, <pyrotech:material:23>],
+    [<pyrotech:planks_tarred>, <pyrotech:planks_tarred>, <pyrotech:planks_tarred>]])
+  .addTool(<ore:artisansHandsaw>, 25)
+  .addOutput(<pyrotech:barrel>)
+  .create();
+# Barrel Lid
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<pyrotech:material:23>, <pyrotech:planks_tarred>, <pyrotech:material:23>]])
+  .addTool(<ore:artisansHandsaw>, 5)
+  .addOutput(<pyrotech:barrel_lid>)
+  .create();
+# Butcher Table
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+    [<pyrotech:material:23>, <artisanworktables:workstation:5>, <pyrotech:material:23>],
+    [<pyrotech:material:23>, <pyrotech:material:20>, <pyrotech:material:23>]])
+  .addTool(<ore:artisansHandsaw>, 20)
+  .addOutput(<pyrotech:butchers_block>)
   .create();
   

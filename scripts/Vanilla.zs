@@ -110,3 +110,87 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansHandsaw>, 20)
   .addOutput(<minecraft:bookshelf>)
   .create();
+  
+// Pelt To Wool Crafting
+RecipeBuilder.get("basic")
+  .setShapeless([<pyrotech:pelt_sheep_white>.transformReplace(<pyrotech:hide_sheep_sheared>)])
+  .addTool(<ore:artisansShears>, 3)
+  .addOutput(<minecraft:wool>)
+  .create();
+RecipeBuilder.get("basic")
+  .setShapeless([<pyrotech:pelt_sheep_orange>.transformReplace(<pyrotech:hide_sheep_sheared>)])
+  .addTool(<ore:artisansShears>, 3)
+  .addOutput(<minecraft:wool:1>)
+  .create();
+RecipeBuilder.get("basic")
+  .setShapeless([<pyrotech:pelt_sheep_magenta>.transformReplace(<pyrotech:hide_sheep_sheared>)])
+  .addTool(<ore:artisansShears>, 3)
+  .addOutput(<minecraft:wool:2>)
+  .create();
+RecipeBuilder.get("basic")
+  .setShapeless([<pyrotech:pelt_sheep_blue_light>.transformReplace(<pyrotech:hide_sheep_sheared>)])
+  .addTool(<ore:artisansShears>, 3)
+  .addOutput(<minecraft:wool:3>)
+  .create();
+RecipeBuilder.get("basic")
+  .setShapeless([<pyrotech:pelt_sheep_yellow>.transformReplace(<pyrotech:hide_sheep_sheared>)])
+  .addTool(<ore:artisansShears>, 3)
+  .addOutput(<minecraft:wool:4>)
+  .create();
+RecipeBuilder.get("basic")
+  .setShapeless([<pyrotech:pelt_sheep_lime>.transformReplace(<pyrotech:hide_sheep_sheared>)])
+  .addTool(<ore:artisansShears>, 3)
+  .addOutput(<minecraft:wool:5>)
+  .create();
+RecipeBuilder.get("basic")
+  .setShapeless([<pyrotech:pelt_sheep_pink>.transformReplace(<pyrotech:hide_sheep_sheared>)])
+  .addTool(<ore:artisansShears>, 3)
+  .addOutput(<minecraft:wool:6>)
+  .create();
+RecipeBuilder.get("basic")
+  .setShapeless([<pyrotech:pelt_sheep_gray>.transformReplace(<pyrotech:hide_sheep_sheared>)])
+  .addTool(<ore:artisansShears>, 3)
+  .addOutput(<minecraft:wool:7>)
+  .create();
+RecipeBuilder.get("basic")
+  .setShapeless([<pyrotech:pelt_sheep_gray_light>.transformReplace(<pyrotech:hide_sheep_sheared>)])
+  .addTool(<ore:artisansShears>, 3)
+  .addOutput(<minecraft:wool:8>)
+  .create();
+RecipeBuilder.get("basic")
+  .setShapeless([<pyrotech:pelt_sheep_cyan>.transformReplace(<pyrotech:hide_sheep_sheared>)])
+  .addTool(<ore:artisansShears>, 3)
+  .addOutput(<minecraft:wool:9>)
+  .create();
+RecipeBuilder.get("basic")
+  .setShapeless([<pyrotech:pelt_sheep_purple>.transformReplace(<pyrotech:hide_sheep_sheared>)])
+  .addTool(<ore:artisansShears>, 3)
+  .addOutput(<minecraft:wool:10>)
+  .create();
+RecipeBuilder.get("basic")
+  .setShapeless([<pyrotech:pelt_sheep_blue>.transformReplace(<pyrotech:hide_sheep_sheared>)])
+  .addTool(<ore:artisansShears>, 3)
+  .addOutput(<minecraft:wool:11>)
+  .create();
+RecipeBuilder.get("basic")
+  .setShapeless([<pyrotech:pelt_sheep_brown>.transformReplace(<pyrotech:hide_sheep_sheared>)])
+  .addTool(<ore:artisansShears>, 3)
+  .addOutput(<minecraft:wool:12>)
+  .create();
+RecipeBuilder.get("basic")
+  .setShapeless([<pyrotech:pelt_sheep_green>.transformReplace(<pyrotech:hide_sheep_sheared>)])
+  .addTool(<ore:artisansShears>, 3)
+  .addOutput(<minecraft:wool:13>)
+  .create();
+RecipeBuilder.get("basic")
+  .setShapeless([<pyrotech:pelt_sheep_red>.transformReplace(<pyrotech:hide_sheep_sheared>)])
+  .addTool(<ore:artisansShears>, 3)
+  .addOutput(<minecraft:wool:14>)
+  .create();
+RecipeBuilder.get("basic")
+  .setShapeless([<pyrotech:pelt_sheep_black>.transformReplace(<pyrotech:hide_sheep_sheared>)])
+  .addTool(<ore:artisansShears>, 3)
+  .addOutput(<minecraft:wool:15>)
+  .create();
+  
+<pyrotech:hide_sheep_sheared>.addTooltip(format.aqua("Obtained by shearing sheep pelts in a crafting grid"));
