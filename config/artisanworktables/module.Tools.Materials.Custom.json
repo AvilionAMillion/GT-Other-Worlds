@@ -131,6 +131,19 @@
       "oreDictKey": "artisansToolTungstensteel"
     },
     {
+      "name": "refined_obsidian",
+      "harvestLevel": 6,
+      "maxUses": 14400,
+      "efficiency": 15.0,
+      "damage": 5.0,
+      "enchantability": 30,
+      "color": "8067AA",
+      "shiny": true,
+      "ingredient": "ore:plateRefinedObsidian",
+      "langKey": "material.athenaeum.refined_obsidian",
+      "oreDictKey": "artisansToolRefinedObsidian"
+    },
+    {
       "name": "osmium",
       "harvestLevel": 7,
       "maxUses": 20000,

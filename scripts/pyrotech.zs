@@ -95,6 +95,9 @@ recipes.addShapeless(<pyrotech:material:25>,
 recipes.addShaped(<pyrotech:anvil_iron_plated>,
 	[[<ore:blockIron>, <ore:blockIron>],
 	[<ore:slabStone>, <ore:slabStone>]]);
+# Scraped Hide
+recipes.addShapeless(<pyrotech:hide_scraped>,
+	[<ore:artisansKnife>, <ore:largePelt>]);
 
 // Worktable Recipes
 # Chopping Block

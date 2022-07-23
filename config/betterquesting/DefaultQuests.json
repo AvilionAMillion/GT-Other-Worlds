@@ -1,4 +1,5 @@
 {
+  "build:8": "4.0.5",
   "format:8": "2.0.0",
   "questDatabase:9": {
     "0:10": {
@@ -2039,7 +2040,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§bWant to carry fluids? Want to defend your house?§f You need to get into pottery.\nMaking §aunfired bricks§f are fairly easy, §ethey take clay and a wooden form.§f You can then fire them in a kiln of some kind and get the properly fired version of it.\nMake §aa clay bucket,§f you\u0027ll need it eventually.\n\n§dJust because this quest takes only the pit quest does not mean you need to do it right now, you can also make the clay buckets in the stone kiln and doing it after the stone machines quest is completely possible.",
+          "desc:8": "§bWant to carry fluids? Want to defend your house?§f You need to get into pottery.\nMaking §aunfired bricks§f are fairly easy, §ethey take clay and a wooden form.§f You can then fire them in a kiln of some kind and get the properly fired version of it.\nMake §aa clay bucket,§f you\u0027ll need it eventually. §aClay Shears §fare required as well\n\n§dJust because this quest takes only the pit quest does not mean you need to do it right now, you can also make the clay buckets in the stone kiln and do it after the stone machines quest.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2090,6 +2091,15 @@
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "pyrotech:bucket_clay"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "pyrotech:clay_shears"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -7317,6 +7327,595 @@
           "taskID:8": "bq_standard:retrieval"
         }
       }
+    },
+    "89:10": {
+      "preRequisites:11": [
+        32
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Make a barrel! Used for crafting Pryotech wines and §atannin§f.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "pyrotech:barrel"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Do A Barrel Roll!",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 89,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "pyrotech:pelt_cow"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "pyrotech:barrel"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "pyrotech:barrel_lid"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "90:10": {
+      "preRequisites:11": [
+        89
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§aLeather§f is much more arduous to obtain now, so lets work to it!\nBy now, you should already know a little bit about butchery, and you should already have some pelts of some kind. Now you put it to the test. Combine those pelts with a knife in a crafting table to get scraped hide, and then soak that in a soaking pot to get a washed hide. Soak it again for tanned hide, and finally you can put it on a tanning rack for proper leather. You\u0027ll probably want to batch craft this stuff, since it takes a lot of time to make.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:leather"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Leatherworking",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 90,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 3,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "pyrotech:bucket_clay",
+              "tag:10": {
+                "durability:3": 12,
+                "fluids:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "tannin"
+                }
+              }
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "pyrotech:hide_scraped"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "pyrotech:hide_washed"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "pyrotech:hide_tanned"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "3:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 3,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:leather"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "91:10": {
+      "preRequisiteTypes:7": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "preRequisites:11": [
+        70,
+        0,
+        1,
+        2,
+        4,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        38,
+        39,
+        37,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        71,
+        72,
+        78
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§5You have beaten the chapter, but have you bested the world? Can you truly declare yourself the greatest, or even just the king of the noobs?\n\n§a§bThis is a grind quest, there is one in every chapter and each are only available after clearing every other quest. They often have incredible rewards with an incredible cost, and are purely optional for beating the pack, but of course required for full completion.\n\n§5§5From the ground, from the surface, from your hands, and from your mind. Someday, together, we\u0027ll shine.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "biomesoplenty:earth"
+          },
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "King of the Noobs",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 91,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "tconstruct:broadsword",
+              "tag:10": {
+                "Modifiers:9": {
+                  "0:10": {
+                    "color:3": -14122284,
+                    "identifier:8": "lightweight",
+                    "level:3": 1
+                  },
+                  "1:10": {
+                    "color:3": -3487030,
+                    "identifier:8": "magnetic",
+                    "level:3": 2,
+                    "magnetic2:1": 1
+                  },
+                  "2:10": {
+                    "color:3": -10478396,
+                    "identifier:8": "duritos",
+                    "level:3": 1
+                  },
+                  "3:10": {
+                    "color:3": 5254787,
+                    "identifier:8": "reinforced",
+                    "level:3": 5
+                  },
+                  "4:10": {
+                    "color:3": 0,
+                    "identifier:8": "creative",
+                    "level:3": 3
+                  },
+                  "5:10": {
+                    "color:3": 16120748,
+                    "identifier:8": "soulbound"
+                  },
+                  "6:10": {
+                    "color:3": 4322180,
+                    "identifier:8": "emerald"
+                  }
+                },
+                "Special:10": {
+                  "Categories:9": {
+                    "0:8": "weapon",
+                    "1:8": "tool"
+                  }
+                },
+                "Stats:10": {
+                  "Attack:5": 5.0,
+                  "AttackSpeedMultiplier:5": 1.1,
+                  "Durability:3": 601,
+                  "FreeModifiers:3": 0,
+                  "HarvestLevel:3": 3,
+                  "MiningSpeed:5": 6.0
+                },
+                "StatsOriginal:10": {
+                  "Attack:5": 5.0,
+                  "AttackSpeedMultiplier:5": 1.0,
+                  "Durability:3": 401,
+                  "FreeModifiers:3": 3,
+                  "HarvestLevel:3": 3,
+                  "MiningSpeed:5": 6.0
+                },
+                "TinkerData:10": {
+                  "Materials:9": {
+                    "0:8": "cobalt",
+                    "1:8": "iron",
+                    "2:8": "obsidian"
+                  },
+                  "Modifiers:9": {
+                    "0:8": "reinforced",
+                    "1:8": "creative",
+                    "2:8": "soulbound",
+                    "3:8": "emerald"
+                  },
+                  "UsedModifiers:3": 6
+                },
+                "Traits:9": {
+                  "0:8": "lightweight",
+                  "1:8": "magnetic2",
+                  "2:8": "duritos",
+                  "3:8": "reinforced"
+                },
+                "Unbreakable:1": 1,
+                "display:10": {
+                  "Name:8": "Saving Grace"
+                }
+              }
+            },
+            "1:10": {
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nuclearcraft:moresmore"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 2048,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:cobblestone"
+            },
+            "1:10": {
+              "Count:3": 256,
+              "Damage:2": 25,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            },
+            "2:10": {
+              "Count:3": 256,
+              "Damage:2": 112,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            },
+            "3:10": {
+              "Count:3": 256,
+              "Damage:2": 55,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1024,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:log"
+            },
+            "1:10": {
+              "Count:3": 256,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:wheat"
+            },
+            "2:10": {
+              "Count:3": 256,
+              "Damage:2": 16,
+              "OreDict:8": "",
+              "id:8": "actuallyadditions:item_food"
+            },
+            "3:10": {
+              "Count:3": 256,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:reeds"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 8,
+              "Damage:2": 5,
+              "OreDict:8": "",
+              "id:8": "artisanworktables:workshop"
+            },
+            "1:10": {
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "tconstruct:seared_furnace_controller"
+            },
+            "2:10": {
+              "Count:3": 8,
+              "Damage:2": 1017,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "3:10": {
+              "Count:3": 8,
+              "Damage:2": 1648,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -7856,6 +8455,27 @@
           "sizeY:3": 24,
           "x:3": 492,
           "y:3": 240
+        },
+        "74:10": {
+          "id:3": 89,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 96,
+          "y:3": 96
+        },
+        "75:10": {
+          "id:3": 90,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 132,
+          "y:3": 96
+        },
+        "76:10": {
+          "id:3": 91,
+          "sizeX:3": 96,
+          "sizeY:3": 96,
+          "x:3": 462,
+          "y:3": -24
         }
       }
     },
@@ -7995,7 +8615,7 @@
   },
   "questSettings:10": {
     "betterquesting:10": {
-      "editmode:1": 0,
+      "editmode:1": 1,
       "hardcore:1": 0,
       "home_anchor_x:5": 0.5,
       "home_anchor_y:5": 0.0,

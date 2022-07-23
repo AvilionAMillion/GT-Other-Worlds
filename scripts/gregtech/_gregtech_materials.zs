@@ -39,17 +39,17 @@ var magic = MaterialBuilder(3012, "magic")
 	.build();
 	
 // Gregtech Materials
-# Okuurinate
-var okuurinate = MaterialBuilder(4000, "okuurinate")
-	.ingot()
-	.color(0x2C7D25)
-	.iconSet("metallic")
-	.flags(["generate_plate", "generate_rod", "generate_bolt_screw"])
-	.blastTemp(4000)
-	.components([<material:utsuhonium> * 1, <material:kaenbyonum> * 1])
+# Amber
+var amber = MaterialBuilder(4000, "amber")
+	.gem(6)
+	.color(0xE4B535)
+	.iconSet("diamond")
+	.components([<material:carbon> * 10, <material:hydrogen> * 16, <material:oxygen> * 1, <material:magic> * 1])
+	.flags(["generate_plate", "generate_rod", "generate_lens", "disable_decomposition"])
+	.ore()
 	.build();
 # Bitumous Coal
-var bitumous_coal = MaterialBuilder(4001, "bitumous_coal")
+var bitumous_coal = MaterialBuilder(4002, "bitumous_coal")
 	.gem(4, 2400)
 	.color(0x25292E)
 	.iconSet("lignite")
@@ -58,7 +58,7 @@ var bitumous_coal = MaterialBuilder(4001, "bitumous_coal")
 	.addOreByproducts(<material:coal>)
 	.build();
 # Anthracite Coal
-var anthracite_coal = MaterialBuilder(4002, "anthracite_coal")
+var anthracite_coal = MaterialBuilder(4001, "anthracite_coal")
 	.gem(5, 3200)
 	.color(0x1C1C1C)
 	.iconSet("lignite")
@@ -66,16 +66,8 @@ var anthracite_coal = MaterialBuilder(4002, "anthracite_coal")
 	.ore()
 	.addOreByproducts(<material:bitumous_coal>, <material:graphite>)
 	.build();
-# Calcium Hydroxide
-var calcium_hydroxide = MaterialBuilder(4003, "calcium_hydroxide")
-	.dust()
-	.fluid()
-	.color(0xE8F1E8)
-	.iconSet("rough")
-	.components([<material:quicklime> * 1, <material:water> * 1])
-	.build();
 # Peridot
-var peridot = MaterialBuilder(4004, "peridot")
+var peridot = MaterialBuilder(4003, "peridot")
 	.gem(5)
 	.color(0x517B22)
 	.iconSet("ruby")
@@ -83,21 +75,23 @@ var peridot = MaterialBuilder(4004, "peridot")
 	.flags(["generate_plate", "generate_rod", "generate_lens"])
 	.ore()
 	.build();
+# Refined Obsidian
+var refined_bsidian = MaterialBuilder(4004, "refined_obsidian")
+	.ingot(9)
+	.color(0x8067AA)
+	.iconSet("shiny")
+	.toolStats(14.7, 21, 1440, 6)
+	.blastTemp(4480, "HIGH", 2880)
+	.itemPipeProperties(512, 4)
+	.flags(["generate_plate", "generate_rod", "disable_decomposition", "generate_dense", "exclude_block_crafting_by_hand_recipes", "generate_gear", "generate_bolt_screw"])
+	.components([<material:obsidian> * 1, <material:diamond> * 1])
+	.build();
 # Tanzanite
 var tanzanite = MaterialBuilder(4005, "tanzanite")
 	.gem(7)
 	.color(0x7800CC)
 	.iconSet("ruby")
 	.components([<material:calcium> * 2, <material:aluminium> * 3, <material:silicon> * 3, <material:oxygen> * 12])
-	.flags(["generate_plate", "generate_rod", "generate_lens"])
-	.ore()
-	.build();
-# Amber
-var amber = MaterialBuilder(4006, "amber")
-	.gem(6)
-	.color(0xE4B535)
-	.iconSet("diamond")
-	.components([<material:carbon> * 10, <material:hydrogen> * 16, <material:oxygen> * 1, <material:magic> * 1])
 	.flags(["generate_plate", "generate_rod", "generate_lens"])
 	.ore()
 	.build();

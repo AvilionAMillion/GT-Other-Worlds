@@ -127,3 +127,16 @@ recipes.addShapeless(<gregtech:meta_dust:254>, [<pyrotech:material>]);
 // Furnace Changes
 recipes.replaceAllOccurences(<minecraft:furnace>, <ore:craftingFurnace>);
 <ore:craftingFurnace>.add(<pyrotech:stone_kiln>);
+
+// Pelt Oredictionary
+# Large Pelt
+<ore:largePelt>.add(<pyrotech:pelt_cow>);
+<ore:largePelt>.add(<pyrotech:pelt_mooshroom>);
+<ore:largePelt>.add(<pyrotech:pelt_polar_bear>);
+<ore:largePelt>.add(<pyrotech:pelt_horse>);
+<ore:largePelt>.add(<pyrotech:pelt_llama_white>);
+<ore:largePelt>.add(<pyrotech:pelt_llama_creamy>);
+<ore:largePelt>.add(<pyrotech:pelt_llama_gray>);
+<ore:largePelt>.add(<pyrotech:pelt_llama_brown>);
+
+# Small Pelt
