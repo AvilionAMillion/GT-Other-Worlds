@@ -76,7 +76,7 @@ IroncladAnvil.removeRecipes(<pyrotech:material:27>);
 SoakingPot.removeRecipes(<pyrotech:material:8>);
 
 // Soaking Pot
-SoakingPot.addRecipe("wet_chad", <contenttweaker:wetchad>, <liquid:water>, <gregtech:meta_dust:1618>, 6000);
+SoakingPot.addRecipe("wet_chad", <contenttweaker:wetchad>, <liquid:water> * 100, <gregtech:meta_dust:1618>, 6000);
 
 // Drying Rack
 DryingRack.addRecipe("driedplantfibers", <pyrotech:material:13>, <pyrotech:material:12>, 1200);

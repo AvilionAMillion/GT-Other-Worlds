@@ -48,3 +48,10 @@ recipes.addShaped(<contenttweaker:hammer>,
 	[[null, <pyrotech:masonry_brick_block>, <pyrotech:material:26>],
 	[<pyrotech:masonry_brick_block>, stick, <pyrotech:material:16>],
 	[stick, gtFile, null]]);
+
+// Heaters
+# Wrought Iron Heater
+recipes.addShaped(<contenttweaker:wroughtironheater>,
+	[[screwWroughtIron, gtWrench, screwWroughtIron],
+	[plateWroughtIron, <immersiveengineering:metal_device1:1>, plateWroughtIron],
+	[screwWroughtIron, gtScrewdriver, screwWroughtIron]]);

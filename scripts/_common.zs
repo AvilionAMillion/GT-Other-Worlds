@@ -32,6 +32,7 @@ global plateAluminium as IOreDictEntry = <ore:plateAluminium>;
 global plateStainlessSteel as IOreDictEntry = <ore:plateStainlessSteel>;
 global plateTitanium as IOreDictEntry = <ore:plateTitanium>;
 global platePotin as IOreDictEntry = <ore:platePotin>;
+global plateWroughtIron as IOreDictEntry = <ore:plateWroughtIron>;
 
 // Double Plates
 global plateIron2 as IOreDictEntry = <ore:plateDoubleIron>;
@@ -45,6 +46,7 @@ global screwIron as IOreDictEntry = <ore:screwIron>;
 global screwSteel as IOreDictEntry = <ore:screwSteel>;
 global screwTin as IOreDictEntry = <ore:screwTin>;
 global screwBronze as IOreDictEntry = <ore:screwBronze>;
+global screwWroughtIron as IOreDictEntry = <ore:screwWroughtIron>;
 
 // Rods
 global rodIron as IOreDictEntry = <ore:stickIron>;
@@ -64,7 +66,7 @@ global gtHammer as IItemStack = <gregtech:meta_tool:6>;
 global gtFile as IItemStack = <gregtech:meta_tool:9>;
 global gtScrewdriver as IIngredient = <gregtech:meta_tool:11> | <gregtech:meta_tool:31>;
 global gtMortar as IItemStack = <gregtech:meta_tool:12>;
-global gtKnife as IItemStack = <gregtech:meta_tool:17>;
+global gtKnife as IIngredient= <gregtech:meta_tool:1> | <gregtech:meta_tool:15>;
 global gtWrench as IIngredient = <gregtech:meta_tool:8> | <gregtech:meta_tool:28> | <gregtech:meta_tool:29> | <gregtech:meta_tool:30>; 
 global gtSaw as IIngredient = <gregtech:meta_tool:5> | <gregtech:meta_tool:25> | <gregtech:meta_tool:26> | <gregtech:meta_tool:27> | <gregtech:meta_tool:32>;
 global gtSoftHammer as IItemStack = <gregtech:meta_tool:7>;

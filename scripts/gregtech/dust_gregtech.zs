@@ -10,9 +10,12 @@ val builder = RecipeBuilder.get("basic");
 recipes.removeShapeless(<gregtech:meta_dust_small:2063>, [gtMortar, <minecraft:clay_ball>]);
 recipes.removeByRecipeName("gregtech:dust_bronze");
 recipes.removeByRecipeName("gregtech:potin_dust");
+recipes.removeByRecipeName("gregtech:fireclay_dust");
+recipes.removeByRecipeName("gregtech:mortar_grind_stone");
 
 // Crafting
 recipes.addShapeless(<gregtech:meta_dust:275>, [gtMortar, <pyrotech:slag>]);
+recipes.addShapeless(<gregtech:meta_dust:2525>, [<ore:dustBrick>, <ore:dustClay>]);
 
 // Furnace
 # Quicklime

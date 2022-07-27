@@ -1,7 +1,7 @@
 // GTOW ZS File
 // Made by GTOW Team
 import mods.artisanworktables.builder.RecipeBuilder;
-
+import mods.pyrotech.Barrel;
 val builder = RecipeBuilder.get("basic");
 
 // Worktables
@@ -53,3 +53,6 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansHammer>, 2)
   .addOutput(<gregtech:meta_item_1:350> * 3)
   .create();
+  
+// Barrel
+Barrel.addRecipe("concrete", <liquid:concrete>, <liquid:water>, [<ore:dustStone>, <ore:dustStone>, <ore:dustCalcite>, <ore:dustGypsum>], 12 * 60 * 20);

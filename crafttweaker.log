@@ -1,24 +1,24 @@
 [PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
 DreamThorn
-Pongo Sapiens
-MT7658
-NickT
-AdaraChristine
-SquidDev
-Angelo A
 Quaternary
-Zuniroa
 Genryu
-Belathus
-Ncc1702
-Ivy_
-Phillip Swearingain
+Pongo Sapiens
 Spencer Gilbert
-BrÃƒÂ¸nsted
+Phillip Swearingain
 Barrier
+NickT
+Zuniroa
+BrÃƒÂ¸nsted
 Robijnvogel
-NerdyWhiteGuy
 Peregrinus11
+AdaraChristine
+NerdyWhiteGuy
+Belathus
+Angelo A
+Ivy_
+Ncc1702
+SquidDev
+MT7658
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit]]
@@ -41,13 +41,13 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\ingots_gregtech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\misc_gregtech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\multiblocks_gregtech.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: oredictionary.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: OreDictionary.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: pyrotech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: pyrotech_bloomery.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: roots.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: rustic.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: tinkers.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: vanilla.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Vanilla.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 3ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
@@ -69,14 +69,14 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\ingots_gregtech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\misc_gregtech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\multiblocks_gregtech.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: oredictionary.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: OreDictionary.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: pyrotech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: pyrotech_bloomery.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: roots.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: rustic.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: tinkers.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: vanilla.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 273ms
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Vanilla.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 275ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [gregtech]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [gregtech]
 [PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: _common.zs} as we are currently loading with a different loader
@@ -97,14 +97,14 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\ingots_gregtech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\misc_gregtech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\multiblocks_gregtech.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: oredictionary.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: OreDictionary.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: pyrotech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: pyrotech_bloomery.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: roots.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: rustic.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: tinkers.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: vanilla.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 56ms
+[PREINITIALIZATION][CLIENT][INFO] [gregtech | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Vanilla.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 42ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [gregtech], [nc_preinit]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [nc_preinit]
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: _common.zs} as we are currently loading with a different loader
@@ -125,14 +125,14 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\ingots_gregtech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\misc_gregtech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\multiblocks_gregtech.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: oredictionary.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: OreDictionary.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: pyrotech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: pyrotech_bloomery.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: roots.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: rustic.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: tinkers.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: vanilla.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 1ms
+[PREINITIALIZATION][CLIENT][INFO] [nc_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Vanilla.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 0ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [gregtech], [nc_preinit], [qmd_preinit]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [qmd_preinit]
 [PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: _common.zs} as we are currently loading with a different loader
@@ -153,19 +153,20 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\ingots_gregtech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\misc_gregtech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gregtech\multiblocks_gregtech.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: oredictionary.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: OreDictionary.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: pyrotech.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: pyrotech_bloomery.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: roots.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: rustic.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: tinkers.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: vanilla.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [qmd_preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Vanilla.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 0ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [gregtech], [nc_preinit], [qmd_preinit], [recipeevent | crafttweaker]]
 [INITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: _common.zs}
+[INITIALIZATION][CLIENT][ERROR] _common.zs:69 > Cannot cast ZenTypeNative: crafttweaker.item.IIngredient to ZenTypeNative: crafttweaker.item.IItemStack
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: __copyscript.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: _tools.zs}
 [INITIALIZATION][CLIENT][INFO] Starting Tools.zs
@@ -750,6 +751,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Adding tooltip for <botania:glasspick>: "Any tools that have not been deprecated"
 [INITIALIZATION][CLIENT][INFO] Adding tooltip for <botania:glasspick>: "Must be forwarded to the Development Team"
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: artisanworktables\basic.zs}
+[INITIALIZATION][CLIENT][INFO] Liquid <liquid:calcium_hydroxide> has not been found, trying to use a ghost representative. This message will only be printed once, all subsequent missing fluids will be handled the same way.
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: artisanworktables\carpenter.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: artisanworktables\farmer.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: artisanworktables\mason.zs}
@@ -1210,7 +1212,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: gregtech\ingots_gregtech.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: gregtech\misc_gregtech.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: gregtech\multiblocks_gregtech.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: oredictionary.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: OreDictionary.zs}
 [INITIALIZATION][CLIENT][INFO] Adding Twine to ore dictionary entry string
 [INITIALIZATION][CLIENT][INFO] Adding Salt to ore dictionary entry impureSalt
 [INITIALIZATION][CLIENT][INFO] Adding Tiny Pile of Salt to ore dictionary entry impureSalt
@@ -1234,7 +1236,22 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Adding Stone Large Plate to ore dictionary entry plateStone
 [INITIALIZATION][CLIENT][INFO] Adding Ash to ore dictionary entry dustAsh
 [INITIALIZATION][CLIENT][INFO] Adding Stone Kiln to ore dictionary entry craftingFurnace
+[INITIALIZATION][CLIENT][INFO] Adding Cow Pelt to ore dictionary entry largePelt
+[INITIALIZATION][CLIENT][INFO] Adding Mooshroom Pelt to ore dictionary entry largePelt
+[INITIALIZATION][CLIENT][INFO] Adding Polar Bear Pelt to ore dictionary entry largePelt
+[INITIALIZATION][CLIENT][INFO] Adding Horse Pelt to ore dictionary entry largePelt
+[INITIALIZATION][CLIENT][INFO] Adding White Llama Pelt to ore dictionary entry largePelt
+[INITIALIZATION][CLIENT][INFO] Adding Creamy Llama Pelt to ore dictionary entry largePelt
+[INITIALIZATION][CLIENT][INFO] Adding Gray Llama Pelt to ore dictionary entry largePelt
+[INITIALIZATION][CLIENT][INFO] Adding Brown Llama Pelt to ore dictionary entry largePelt
+[INITIALIZATION][CLIENT][INFO] Adding Sheep Hide to ore dictionary entry smallPelt
+[INITIALIZATION][CLIENT][INFO] Adding Bat Pelt to ore dictionary entry smallPelt
+[INITIALIZATION][CLIENT][INFO] Adding Wolf Pelt to ore dictionary entry smallPelt
+[INITIALIZATION][CLIENT][INFO] Adding Pig Hide to ore dictionary entry smallPelt
+[INITIALIZATION][CLIENT][INFO] Adding Rabbit Hide to ore dictionary entry smallPelt
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: pyrotech.zs}
+[INITIALIZATION][CLIENT][ERROR] Null not allowed in shapeless recipes! Recipe for: <pyrotech:hide_scraped> not created!
+[INITIALIZATION][CLIENT][ERROR] Null not allowed in shapeless recipes! Recipe for: <pyrotech:hide_small_scraped> not created!
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: pyrotech_bloomery.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: roots.zs}
 [INITIALIZATION][CLIENT][INFO] Adding tooltip for <roots:dewgonia>: "Tier 0 Crop"
@@ -1247,14 +1264,17 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Adding tooltip for <roots:infernal_bulb>: "Tier 3 Crop"
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: rustic.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: tinkers.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: vanilla.zs}
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 487ms
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Vanilla.zs}
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <pyrotech:hide_sheep_sheared>: "Obtained by shearing sheep pelts in a crafting grid"
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 523ms
 [INITIALIZATION][CLIENT][INFO] Translating item.Salt.name to River Salt
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <gregtech:meta_dust_small:2063>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtech:dust_bronze"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtech:potin_dust"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtech:fireclay_dust"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtech:mortar_grind_stone"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "pyrotech:furnace"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtech:furnace"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "pyrotech:crafting_table"
@@ -1265,6 +1285,10 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <minecraft:flint>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Shapeless recipes.
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <pneumaticcraft:compressed_iron_gear> and replacing them with <ore:gearIronCompressed>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <immersiveengineering:material:20> and replacing them with <gregtech:wire_single:25>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <immersiveengineering:material:21> and replacing them with <gregtech:wire_single:277>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <immersiveengineering:material:22> and replacing them with <gregtech:wire_single:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <immersiveengineering:material:23> and replacing them with <gregtech:wire_single:324>
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <industrialforegoing:plastic> and replacing them with <gregtech:meta_plate:1012>
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <immersiveengineering:material:27> and replacing them with <ore:circuitBasic>
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <immersiveengineering:material:26> and replacing them with <gregtech:meta_item_1:516>
@@ -1280,6 +1304,13 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <foundry:component:1> and replacing them with <pyrotech:material:4>
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <minecraft:furnace> and replacing them with <ore:craftingFurnace>
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <pyrotech:material:10> and replacing them with <tconstruct:shard>.withTag({Material: "flint"})
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "immersiveengineering:wirecoils/wirecoil_structural"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "immersiveengineering:wirecoils/wirecoil_redstone2"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "immersiveengineering:wirecoils/wirecoil_redstone"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "immersiveengineering:wirecoils/wirecoil_mv"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "immersiveengineering:wirecoils/wirecoil_lv"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "immersiveengineering:wirecoils/wirecoil_hv2"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "immersiveengineering:wirecoils/wirecoil_hv"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "immersiveengineering:toolupgrades/shield_flash"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "immersiveengineering:toolupgrades/revolver_electro"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "immersiveengineering:metal_devices/turret_gun"
@@ -1287,6 +1318,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "immersiveengineering:metal_devices/powered_lantern"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "immersiveengineering:metal_devices/garden_cloche"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "immersiveengineering:metal_devices/floodlight"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "immersiveengineering:metal_decoration/razor_wire"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "immersiveengineering:conveyors/conveyor_basic_rubber"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "immersiveengineering:connectors/connector_probe"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "libvulpes:coalgenerator"
@@ -1672,8 +1704,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "pyrotech:tech/bloomery/tongs_flint"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "pyrotech:tech/bloomery/tongs_diamond"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "pyrotech:tech/bloomery/tongs_bone"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "pyrotech:hunting/hunters_knife_flint"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "pyrotech:hunting/butchers_knife_flint"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "pyrotech:hunting/arrow_flint"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "pyrotech:flint_spear"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "pyrotech:cookie_dough"
@@ -1689,10 +1719,10 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtech:electric_blast_furnace"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_hand_zest1"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_hand_zest2"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_slice_crop.onion"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_slice_crop.cucumber"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_slice_crop.tomato"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_slice_crop.olive"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_slice_crop.cucumber"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_slice_crop.onion"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_slice_crop.tomato"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_seed_tomato_extraction"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_seed_cucumber_extraction"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "gregtechfoodoption:gtfo_hand_kubide_kebab_meat"
@@ -1732,10 +1762,12 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Basic Worktable with name ct_shaped1996331005
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Glassy Sand with name ct_shapeless-611905028
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mason Bloom Hammer with name ct_shaped-2023407450
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wrought Iron Heating Component with name ct_shaped963352912
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Refractory Casing (Basic) with name ct_shaped845110080
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ingot Casting Table with name ct_shaped1327658634
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Block Casting Table with name ct_shaped1617606123
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Dark Ashes with name ct_shapeless1128614638
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Fireclay Dust with name ct_shapeless-1870406761
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pump Deck with name ct_shaped1632712696
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pump Output Hatch with name ct_shaped-1898976513
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wooden Wall with name ct_shaped650600219
@@ -1748,6 +1780,8 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Refractory Faucet with name ct_shaped1801702731
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Pulp with name ct_shapeless-1171693060
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ironclad Anvil with name ct_shaped-90294131
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Scraped Hide with name ct_shapeless-602908781
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Small Scraped Hide with name ct_shapeless-681494057
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pyre with name ct_shaped-1026162534
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Staff with name ct_shaped754706498
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Imbuer with name ct_shaped-1570589665
@@ -1760,6 +1794,13 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Seared Drain with name ct_shaped-1037827342
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tinker Tank Controller with name ct_shaped-1527899496
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Torch with name ct_shapeless1319989655
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Steel Cable Coil with name immersiveengineering_wirecoils/wirecoil_structural_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Redstone Wire Coil with name immersiveengineering_wirecoils/wirecoil_redstone2_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Redstone Wire Coil with name immersiveengineering_wirecoils/wirecoil_redstone_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for MV Wire Coil with name immersiveengineering_wirecoils/wirecoil_mv_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for LV Wire Coil with name immersiveengineering_wirecoils/wirecoil_lv_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for HV Wire Coil with name immersiveengineering_wirecoils/wirecoil_hv2_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for HV Wire Coil with name immersiveengineering_wirecoils/wirecoil_hv_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flashbulb with name immersiveengineering_toolupgrades/shield_flash_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Amplifier Electron Tubes with name immersiveengineering_toolupgrades/revolver_electro_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Gun Turret with name immersiveengineering_metal_devices/turret_gun_modified
@@ -1767,6 +1808,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Powered Lantern with name immersiveengineering_metal_devices/powered_lantern_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Garden Cloche with name immersiveengineering_metal_devices/garden_cloche_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Floodlight with name immersiveengineering_metal_devices/floodlight_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Razor Wire with name immersiveengineering_metal_decoration/razor_wire_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Conveyor Belt with name immersiveengineering_conveyors/conveyor_basic_rubber_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Redstone Probe Connector with name immersiveengineering_connectors/connector_probe_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Coal Generator with name libvulpes_coalgenerator_modified
@@ -2152,8 +2194,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flint Tongs with name pyrotech_tech/bloomery/tongs_flint_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Diamond Tongs with name pyrotech_tech/bloomery/tongs_diamond_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bone Tongs with name pyrotech_tech/bloomery/tongs_bone_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flint Hunter's Knife with name pyrotech_hunting/hunters_knife_flint_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flint Butcher's Knife with name pyrotech_hunting/butchers_knife_flint_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flint Arrow with name pyrotech_hunting/arrow_flint_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flint Spear with name pyrotech_flint_spear_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Cookie Dough with name pyrotech_cookie_dough_modified
@@ -2169,10 +2209,10 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Electric Blast Furnace with name gregtech_electric_blast_furnace_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Zest with name gregtechfoodoption_gtfo_hand_zest1_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Zest with name gregtechfoodoption_gtfo_hand_zest2_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Onion Slice with name gregtechfoodoption_gtfo_slice_crop.onion_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Cucumber Slice with name gregtechfoodoption_gtfo_slice_crop.cucumber_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Tomato Slice with name gregtechfoodoption_gtfo_slice_crop.tomato_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Olive Slice with name gregtechfoodoption_gtfo_slice_crop.olive_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Cucumber Slice with name gregtechfoodoption_gtfo_slice_crop.cucumber_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Onion Slice with name gregtechfoodoption_gtfo_slice_crop.onion_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Tomato Slice with name gregtechfoodoption_gtfo_slice_crop.tomato_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Tomato Seeds with name gregtechfoodoption_gtfo_seed_tomato_extraction_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Cucumber Seeds with name gregtechfoodoption_gtfo_seed_cucumber_extraction_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Koobideh Ingredients with name gregtechfoodoption_gtfo_hand_kubide_kebab_meat_modified
@@ -2224,13 +2264,14 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for <gregtech:meta_dust:262>
 [POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for <contenttweaker:glassy_sand>
 [POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for <pyrotech:material:25>
-[POSTINITIALIZATION][CLIENT][INFO] Removing soaking pot recipes for net.minecraft.item.crafting.Ingredient@16009f91
-[POSTINITIALIZATION][CLIENT][INFO] Removing drying rack recipes for net.minecraft.item.crafting.Ingredient@43b17391
-[POSTINITIALIZATION][CLIENT][INFO] Removing stone kiln recipes for net.minecraft.item.crafting.Ingredient@40a5a962
-[POSTINITIALIZATION][CLIENT][INFO] Removing brick kiln recipes for net.minecraft.item.crafting.Ingredient@33dcb4dc
-[POSTINITIALIZATION][CLIENT][INFO] Removing granite anvil recipes for net.minecraft.item.crafting.Ingredient@27595cdd
-[POSTINITIALIZATION][CLIENT][INFO] Removing ironclad anvil recipes for net.minecraft.item.crafting.Ingredient@46a72522
-[POSTINITIALIZATION][CLIENT][INFO] Removing soaking pot recipes for net.minecraft.item.crafting.Ingredient@39451da9
+[POSTINITIALIZATION][CLIENT][INFO] Adding barrel recipe for net.minecraftforge.fluids.FluidStack@46baac2c
+[POSTINITIALIZATION][CLIENT][INFO] Removing soaking pot recipes for net.minecraft.item.crafting.Ingredient@3cd851c1
+[POSTINITIALIZATION][CLIENT][INFO] Removing drying rack recipes for net.minecraft.item.crafting.Ingredient@fc0ce97
+[POSTINITIALIZATION][CLIENT][INFO] Removing stone kiln recipes for net.minecraft.item.crafting.Ingredient@6b2fd27
+[POSTINITIALIZATION][CLIENT][INFO] Removing brick kiln recipes for net.minecraft.item.crafting.Ingredient@2bd07db2
+[POSTINITIALIZATION][CLIENT][INFO] Removing granite anvil recipes for net.minecraft.item.crafting.Ingredient@39f8b11c
+[POSTINITIALIZATION][CLIENT][INFO] Removing ironclad anvil recipes for net.minecraft.item.crafting.Ingredient@5a8bab0b
+[POSTINITIALIZATION][CLIENT][INFO] Removing soaking pot recipes for net.minecraft.item.crafting.Ingredient@4fa4ec73
 [POSTINITIALIZATION][CLIENT][INFO] Adding soaking pot recipe for net.minecraftforge.fluids.FluidStack@46baac2c
 [POSTINITIALIZATION][CLIENT][INFO] Adding drying rack recipe for 1xitem.pyrotech.material@13, inherited=false
 [POSTINITIALIZATION][CLIENT][INFO] Registering bloomery recipe: crafttweaker:copper_bloom
@@ -2251,8 +2292,8 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding Pyre Crafting Ritual for 1xitem.cloud_berry@0
 [POSTINITIALIZATION][CLIENT][INFO] Adding stone kiln recipe for 1xitem.tconstruct.materials@0, inherited=false
 [POSTINITIALIZATION][CLIENT][INFO] Adding brick kiln recipe for 1xitem.tconstruct.materials@0
-[POSTINITIALIZATION][CLIENT][INFO] Removing stone kiln recipes for net.minecraft.item.crafting.Ingredient@57e45d48
-[POSTINITIALIZATION][CLIENT][INFO] Removing brick kiln recipes for net.minecraft.item.crafting.Ingredient@613cabbf
+[POSTINITIALIZATION][CLIENT][INFO] Removing stone kiln recipes for net.minecraft.item.crafting.Ingredient@3e623408
+[POSTINITIALIZATION][CLIENT][INFO] Removing brick kiln recipes for net.minecraft.item.crafting.Ingredient@3719805f
 [POSTINITIALIZATION][CLIENT][INFO] Adding stone kiln recipe for 1xtile.glass@0, inherited=false
 [POSTINITIALIZATION][CLIENT][INFO] Adding brick kiln recipe for 1xtile.glass@0
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
@@ -2296,6 +2337,27 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "scribe"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "scribe"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "scribe"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "basic"
@@ -2837,12 +2899,30 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <pneumaticcraft:compressed_iron_gear>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:material:289>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:material:258>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveengineering:material:20>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveengineering:material:21>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveengineering:material:22>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveengineering:material:23>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveengineering:material:27>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveengineering:material:26>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <harvestcraft:doughitem>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <harvestcraft:saltitem>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <gregtech:meta_ingot:1599>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <pyrotech:material:27>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <pyrotech:bone_butchers_knife>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <pyrotech:bone_hunters_knife>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <pyrotech:flint_butchers_knife>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <pyrotech:flint_hunters_knife>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <pyrotech:stone_butchers_knife>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <pyrotech:stone_hunters_knife>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <pyrotech:iron_butchers_knife>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <pyrotech:iron_hunters_knife>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <pyrotech:gold_butchers_knife>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <pyrotech:gold_hunters_knife>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <pyrotech:diamond_butchers_knife>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <pyrotech:diamond_hunters_knife>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <pyrotech:obsidian_butchers_knife>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <pyrotech:obsidian_hunters_knife>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <pyrotech:material:10>
 [AVAILABLE][CLIENT][INFO] Hiding category in JEI: pyrotech.worktable
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <pyrotech:crude_hammer>

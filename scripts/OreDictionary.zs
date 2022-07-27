@@ -11,13 +11,14 @@ import mods.gregtech.recipe.RecipeMap;
 import mods.tconstruct.Casting;
 
  # Immersive Engineering Wire Replacement
-#<ore:wireCopper>.add(<gregtech:cable:18>);
-#mods.jei.JEI.removeAndHide(<immersiveengineering:material:20>);
-#<ore:wireCopper>.remove(<immersiveengineering:material:20>);
-#recipes.replaceAllOccurences(<immersiveengineering:material:22>, <gregtech:cable:1>);
-#mods.jei.JEI.removeAndHide(<immersiveengineering:material:22>);
-#recipes.replaceAllOccurences(<immersiveengineering:material:23>, <gregtech:cable:184>);
-#mods.jei.JEI.removeAndHide(<immersiveengineering:material:23>);
+recipes.replaceAllOccurences(<immersiveengineering:material:20>, <gregtech:wire_single:25>);
+mods.jei.JEI.removeAndHide(<immersiveengineering:material:20>);
+recipes.replaceAllOccurences(<immersiveengineering:material:21>, <gregtech:wire_single:277>);
+mods.jei.JEI.removeAndHide(<immersiveengineering:material:21>);
+recipes.replaceAllOccurences(<immersiveengineering:material:22>, <gregtech:wire_single:2>);
+mods.jei.JEI.removeAndHide(<immersiveengineering:material:22>);
+recipes.replaceAllOccurences(<immersiveengineering:material:23>, <gregtech:wire_single:324>);
+mods.jei.JEI.removeAndHide(<immersiveengineering:material:23>);
 
  # Rubber Changes
 recipes.replaceAllOccurences(<industrialforegoing:plastic>, <gregtech:meta_plate:1012>);
