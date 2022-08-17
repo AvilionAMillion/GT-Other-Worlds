@@ -48,6 +48,25 @@ recipes.addShaped(<contenttweaker:hammer>,
 	[[null, <pyrotech:masonry_brick_block>, <pyrotech:material:26>],
 	[<pyrotech:masonry_brick_block>, stick, <pyrotech:material:16>],
 	[stick, gtFile, null]]);
+	
+# Noxious Elixir
+recipes.addShapeless(<contenttweaker:elixir>,
+	[<rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:instant_health", Duration: 1, Amplifier: 0}]}), <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:regeneration", Duration: 900, Amplifier: 0}]}), <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "mead"}}), <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 3600, Amplifier: 0}]}), <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:speed", Duration: 3600, Amplifier: 0}]})]);
+
+# Extremely Noxious Elixir
+RecipeBuilder.get("basic")
+  .setShapeless([<ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <contenttweaker:elixir>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>])
+  .setFluid(<liquid:lava> * 2000)
+  .addTool(<ore:artisansBeaker>, 100)
+  .addOutput(<contenttweaker:badelixir>)
+  .create();
+  
+# Liquour Bucket
+RecipeBuilder.get("basic")
+  .setShapeless([<contenttweaker:badelixir>])
+  .setSecondaryIngredients([<minecraft:bucket>])
+  .addOutput(<forge:bucketfilled>.withTag({FluidName: "badjuice", Amount: 1000}))
+  .create();
 
 // Heaters
 # Wrought Iron Heater

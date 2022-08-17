@@ -95,6 +95,15 @@ var tanzanite = MaterialBuilder(24006, "tanzanite")
 	.flags(["generate_plate", "generate_rod", "generate_lens"])
 	.ore()
 	.build();
+# Crude Steel
+var crudeSteel = MaterialBuilder(24007, "crude_steel")
+	.ingot(4)
+	.color(0x928C87)
+	.iconSet("metallic")
+	.components([<material:iron> * 1])
+	.flags(["generate_plate", "generate_rod", "generate_bolt_screw", "generate_frame"])
+	.blastTemp(800, "LOW", 60, 100)
+	.build();
 	
 // Prexisting
 # Stone

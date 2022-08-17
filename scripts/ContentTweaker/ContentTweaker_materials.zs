@@ -29,6 +29,12 @@ steel_Heater.register();
  # LV Heat Exchanger
 var heatExchangerLV as Item = VanillaFactory.createItem("heatExchanger_LV");
 heatExchangerLV.register();
+ # Elixir
+var elixirN as Item = VanillaFactory.createItem("elixir");
+elixirN.register();
+ # Bad Elixir
+var ouchjuice as Item = VanillaFactory.createItem("badelixir");
+ouchjuice.register();
  # Bloom Hammer
 var bloomHammer as Item = VanillaFactory.createItem("hammer");
 bloomHammer.maxDamage = 120;
@@ -64,4 +70,10 @@ var foundryliquid = VanillaFactory.createFluid("foundry", Color.fromHex("9A9A82"
 foundryliquid.stillLocation = "contenttweaker:fluids/blank_still";
 foundryliquid.flowingLocation = "contenttweaker:fluids/blank_flow";
 foundryliquid.register();
+
+var badJuice = VanillaFactory.createFluid("badjuice", Color.fromHex("2E1C2C"));
+badJuice.stillLocation = "contenttweaker:fluids/blank_still";
+badJuice.flowingLocation = "contenttweaker:fluids/blank_flow";
+badJuice.register();
+
 

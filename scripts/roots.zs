@@ -1,6 +1,7 @@
 // GTOW ZS File
 // Made by GTOW Team
 import mods.roots.Pyre;
+import mods.inworldcrafting.FluidToItem;
 
 // Val
 val treatedStick = <gregtech:meta_stick:1648>;
@@ -10,6 +11,7 @@ val moss = <roots:terra_moss>;
 val sapling = <ore:treeSapling>;
 val cloudBerry = <roots:cloud_berry>;
 val dewgonia = <roots:dewgonia>;
+val bafflecap = <roots:baffle_cap_mushroom>;
 val masonBrickBlock = <pyrotech:masonry_brick_block>;
 
 // Crop Tier Tooltips
@@ -21,6 +23,7 @@ val masonBrickBlock = <pyrotech:masonry_brick_block>;
 <roots:spirit_herb>.addTooltip(format.aqua("Tier 2 Crop"));
 <roots:stalicripe>.addTooltip(format.gold("Tier 3 Crop"));
 <roots:infernal_bulb>.addTooltip(format.gold("Tier 3 Crop"));
+<roots:baffle_cap_mushroom>.addTooltip(format.red("Multi-Tier Crop"));
 
 // Crafting
 # Pyre
@@ -61,3 +64,8 @@ Pyre.addRecipe("dew", dewgonia, [<minecraft:wheat_seeds>, <gregtech:meta_ingot:1
   # Cloud Berry
 Pyre.removeRecipe(cloudBerry);
 Pyre.addRecipe("cloud", cloudBerry, [<minecraft:wheat_seeds>, <gregtech:meta_ingot:112>, <gregtech:meta_dust:253>, moss, <minecraft:wool>]);
+  # Baffle Cap
+Pyre.removeRecipe(bafflecap);
+
+// InWorldCrafting
+FluidToItem.transform(bafflecap, <liquid:badjuice>, [<rustic:mooncap_mushroom>], true);

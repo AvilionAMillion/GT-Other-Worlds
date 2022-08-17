@@ -20,6 +20,7 @@ global glass as IOreDictEntry = <ore:blockGlass>;
 global treatedWood as IOreDictEntry = <ore:plankTreatedWood>;
 global paper as IOreDictEntry = <ore:paper>;
 global chest as IOreDictEntry = <ore:chestWood>;
+global woodSlab as IOreDictEntry = <ore:slabWood>;
 
 // Plates
 global plateIron as IOreDictEntry = <ore:plateIron>;
@@ -33,6 +34,7 @@ global plateStainlessSteel as IOreDictEntry = <ore:plateStainlessSteel>;
 global plateTitanium as IOreDictEntry = <ore:plateTitanium>;
 global platePotin as IOreDictEntry = <ore:platePotin>;
 global plateWroughtIron as IOreDictEntry = <ore:plateWroughtIron>;
+global plateCrudeSteel as IOreDictEntry = <ore:plateCrudeSteel>;
 
 // Double Plates
 global plateIron2 as IOreDictEntry = <ore:plateDoubleIron>;
@@ -47,26 +49,31 @@ global screwSteel as IOreDictEntry = <ore:screwSteel>;
 global screwTin as IOreDictEntry = <ore:screwTin>;
 global screwBronze as IOreDictEntry = <ore:screwBronze>;
 global screwWroughtIron as IOreDictEntry = <ore:screwWroughtIron>;
+global screwCrudeSteel as IOreDictEntry = <ore:screwCrudeSteel>;
 
 // Rods
 global rodIron as IOreDictEntry = <ore:stickIron>;
 global rodSteel as IOreDictEntry = <ore:stickSteel>;
+global rodCrudeSteel as IOreDictEntry = <ore:stickCrudeSteel>;
 
 // Rings
 global ringIron as IOreDictEntry = <ore:ringIron>;
 
 // Ingots
+global ingotCopper as IOreDictEntry = <ore:ingotCopper>;
 global ingotSteel as IOreDictEntry = <ore:ingotSteel>;
 global ingotIron as IOreDictEntry = <ore:ingotIron>;
 global ingotTin as IOreDictEntry = <ore:ingotTin>;
 global ingotAluminium as IOreDictEntry = <ore:ingotAluminium>;
+global ingotWroughtIron as IOreDictEntry = <ore:ingotWroughtIron>;
+global ingotCrudeSteel as IOreDictEntry = <ore:ingotCrudeSteel>;
 
 // GregTech Tools
 global gtHammer as IItemStack = <gregtech:meta_tool:6>;
 global gtFile as IItemStack = <gregtech:meta_tool:9>;
 global gtScrewdriver as IIngredient = <gregtech:meta_tool:11> | <gregtech:meta_tool:31>;
 global gtMortar as IItemStack = <gregtech:meta_tool:12>;
-global gtKnife as IIngredient= <gregtech:meta_tool:1> | <gregtech:meta_tool:15>;
+global gtKnife as IIngredient= <gregtech:meta_tool:15> | <gregtechfoodoption:gtfo_meta_tool:1>;
 global gtWrench as IIngredient = <gregtech:meta_tool:8> | <gregtech:meta_tool:28> | <gregtech:meta_tool:29> | <gregtech:meta_tool:30>; 
 global gtSaw as IIngredient = <gregtech:meta_tool:5> | <gregtech:meta_tool:25> | <gregtech:meta_tool:26> | <gregtech:meta_tool:27> | <gregtech:meta_tool:32>;
 global gtSoftHammer as IItemStack = <gregtech:meta_tool:7>;

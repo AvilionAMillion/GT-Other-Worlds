@@ -3,6 +3,8 @@ item.contenttweaker.sandyClay.name=Sandy-Clay Compound
 item.contenttweaker.wetChad.name=Soaked Chad
 item.contenttweaker.wroughtIronHeater.name=Wrought Iron Heating Component
 item.contenttweaker.steelHeater.name=Steel Heating Component
+item.contenttweaker.elixir.name=Noxious Elixir
+item.contenttweaker.badelixir.name=Extremely Noxious Elixir
 item.contenttweaker.heatExchanger_LV.name=Heat Exchanger (LV)
 item.contenttweaker.ULV_motor.name=Electric Motor (ULV)
 item.contenttweaker.ULV_piston.name=Electric Piston (ULV)
@@ -15,3 +17,4 @@ item.contenttweaker.hammer.name=Mason Bloom Hammer
 tile.contenttweaker.glassy_sand.name=Glassy Sand
 
 fluid.foundry=Refractory Mortar
+fluid.badjuice=Extremely Noxious Liquor

@@ -2,6 +2,8 @@
 // Made by GTOW Team
 
 // Val
+val woodRod = <tconstruct:tough_tool_rod>.withTag({Material: "wood"});
+val twine = <pyrotech:material:26>;
 
 // Crafting
 # Condensor
@@ -16,3 +18,27 @@ recipes.addShaped(<rustic:retort>,
 	[[null, plateIron, brick],
 	[<gregtech:fluid_pipe_normal:260>, <minecraft:bucket>, brick],
 	[null, plateIron, brick]]);
+# Apiary
+recipes.remove(<rustic:apiary>);
+recipes.addShaped(<rustic:apiary>, 
+	[[wood, wood, wood],
+	[plank, <ore:frameGtWood>, plank],
+	[wood, gtSaw, wood]]);
+# Wooden Stake
+recipes.remove(<rustic:crop_stake>);
+recipes.addShaped(<rustic:crop_stake>,
+	[[twine, woodRod, twine],
+	[gtSaw, woodRod, gtFile],
+	[twine, woodRod, twine]]);
+# Crushing Tub
+recipes.remove(<rustic:crushing_tub>);
+recipes.addShaped(<rustic:crushing_tub>,
+	[[plank, null, plank],
+	[plateIron, gtSaw, plateIron],
+	[woodSlab, woodSlab, woodSlab]]);
+# Barrel
+recipes.remove(<rustic:brewing_barrel>);
+recipes.addShaped(<rustic:brewing_barrel>,
+	[[woodSlab, woodSlab, woodSlab],
+	[plateIron, <gregtech:machine:1610>, plateIron],
+	[woodSlab, woodSlab, woodSlab]]);

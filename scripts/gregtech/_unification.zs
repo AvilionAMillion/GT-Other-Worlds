@@ -581,6 +581,14 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 		<qmd:ingot:4>
 	],
 	
+	#fuelCoke
+	<ore:fuelCoke> : [
+		<foundry:component:21>,
+		<immersiveengineering:material:6>,
+		<pyrotech:material:1>,
+		<thermalfoundation:material:802>
+	],
+	
 	#Nuclearcraft Ingots (There's a lot)
 	<ore:ingotThorium> : [
 		<nuclearcraft:ingot:3>],
@@ -625,7 +633,13 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 	<ore:ingotYttrium> : [
 		<qmd:ingot2>],
 	<ore:ingotNeodynium> : [
-		<qmd:ingot2:1>]
+		<qmd:ingot2:1>],
+		
+	# GT Material Ingots
+	<ore:ingotRefinedObsidian> : [
+		<mekanism:ingot>],
+	<ore:ingotCrudeSteel> : [
+		<enderio:item_alloy_endergy_ingot>]
 };
 
 for oreDictEntry, items in ingotsDisabled {
@@ -676,6 +690,13 @@ var blocksDisabled as IItemStack[][IOreDictEntry] = {
 		<actuallyadditions:block_misc:5>,
 		<mekanism:basicblock:3>,
 		<thermalfoundation:storage_resource>
+	],
+	
+	#blockFuelCoke
+	<ore:blockFuelCoke> : [
+		<immersiveengineering:stone_decoration:3>,
+		<pyrotech:coal_coke_block>,
+		<thermalfoundation:storage_resource:1>
 	],
 	
 	#blockConstantan
@@ -786,7 +807,13 @@ var blocksDisabled as IItemStack[][IOreDictEntry] = {
 	#blockSalt
 	<ore:blockSalt> : [
 		<mekanism:saltblock>
-	]
+	],
+	
+	# GT Material Blocks
+	<ore:blockRefinedObsidian> : [
+		<mekanism:basicblock:2>],
+	<ore:blockCrudeSteel> : [
+		<enderio:block_alloy_endergy>]
 	
 };
 
@@ -1063,7 +1090,11 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 		<appliedenergistics2:material:4>,
 		<roots:flour>,
 		<harvestcraft:flouritem>
-	]
+	],
+	
+	# GT Material Dust
+	<ore:dustRefinedObsidian> : [
+		<mekanism:otherdust:5>]
 };
 
 for oreDictEntry, items in dustsDisabled {
@@ -1227,7 +1258,13 @@ var nuggetsDisabled as IItemStack[][IOreDictEntry] = {
 	#nuggetCobalt
 	<ore:nuggetCobalt> : [
 		<tconstruct:nuggets>
-	]
+	],
+	
+	# GT Material Nuggets
+	<ore:nuggetRefinedObsidian> : [
+		<mekanism:nugget>],
+	<ore:nuggetCrudeSteel> : [
+		<enderio:item_alloy_endergy_nugget>]
 };
 
 for oreDictEntry, items in nuggetsDisabled {

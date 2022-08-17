@@ -20,10 +20,8 @@ import mods.gregtech.material.Elements;
 
 
 // Harvest Level (Will Be Done By Name)
-	<material:banded_iron>.setHarvestLevel(3);
 	<material:basaltic_mineral_sand>.setHarvestLevel(3);
 	<material:bornite>.setHarvestLevel(2);
-	<material:brown_limonite>.setHarvestLevel(3);
 	<material:calcite>.setHarvestLevel(5);
 	<material:cassiterite>.setHarvestLevel(2);
 	<material:cassiterite_sand>.setHarvestLevel(2);
@@ -44,6 +42,7 @@ import mods.gregtech.material.Elements;
 	<material:redstone>.setHarvestLevel(4);
 	<material:ruby>.setHarvestLevel(3);
 	<material:silver>.setHarvestLevel(4);
+	<material:steel>.setHarvestLevel(6);
 	<material:stone>.setHarvestLevel(1);
 	<material:tetrahedrite>.setHarvestLevel(2);
 	<material:tin>.setHarvestLevel(2);
