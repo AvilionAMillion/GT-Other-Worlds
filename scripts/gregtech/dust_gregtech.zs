@@ -2,6 +2,7 @@
 // Made by GTOW Team
 	import mods.pyrotech.StoneKiln;
 	import mods.pyrotech.BrickKiln;
+	import mods.roots.Mortar;
 import mods.artisanworktables.builder.RecipeBuilder;
 
 val builder = RecipeBuilder.get("basic");
@@ -36,6 +37,7 @@ RecipeBuilder.get("basic")
   .addOutput(<gregtech:meta_dust:2037> * 6)
   .create();
   
-// Fluid Transformation
+// Mortar (Roots)
+Mortar.addRecipe("runic_powder", <gregtech:meta_dust:24008> * 3, [<contenttweaker:bafflepowder>, <gregtech:meta_dust:1599>, <gregtech:meta_dust:2049>, <gregtech:meta_dust:324>, <gregtech:meta_dust:324>]);
 
   

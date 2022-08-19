@@ -35,6 +35,9 @@ elixirN.register();
  # Bad Elixir
 var ouchjuice as Item = VanillaFactory.createItem("badelixir");
 ouchjuice.register();
+ # Baffle Powder
+var mushroompowder as Item = VanillaFactory.createItem("bafflepowder");
+mushroompowder.register();
  # Bloom Hammer
 var bloomHammer as Item = VanillaFactory.createItem("hammer");
 bloomHammer.maxDamage = 120;

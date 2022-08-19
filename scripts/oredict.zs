@@ -167,7 +167,10 @@ for knife in disabledKnives {
 }
 
 
-# Rustic Crop Oredict
+# Rustic Oredict
 <ore:cropRustic>.addItems([<rustic:aloe_vera>,<rustic:blood_orchid>,<rustic:chamomile>,<rustic:cohosh>,<rustic:deathstalk_mushroom>,<rustic:horsetail>,<rustic:mooncap_mushroom>,<rustic:wind_thistle>,<rustic:cloudsbluff>,<rustic:core_root>,<rustic:ginseng>,<rustic:marsh_mallow>]);
-	
+
+# Roots Oredict
+<ore:dustRunic>.add(<roots:runic_dust>);
+recipes.replaceAllOccurences(<roots:runic_dust>, <ore:dustRunic>);
 	

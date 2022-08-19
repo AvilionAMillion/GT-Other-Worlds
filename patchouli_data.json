@@ -62,19 +62,19 @@
       ],
       "bookmarks": [],
       "history": [
+        "roots:rituals/ritual_spreading_forest",
+        "roots:rituals/ritual_wildroot_growth",
+        "roots:rituals/ritual_overgrowth",
         "roots:rituals/standing_stones",
         "roots:rituals/ritual_purity",
         "roots:resources/life_essence",
         "roots:rituals/ritual_summon_creatures",
-        "roots:rituals/ritual_wildroot_growth",
         "roots:rituals/tiers",
         "roots:rituals/ritual_fire_storm",
-        "roots:rituals/ritual_spreading_forest",
         "roots:rituals/ritual_heavy_storms",
         "roots:rituals/ritual_divine_protection",
         "roots:rituals/ritual_gathering",
-        "roots:rituals/ritual_grove_supplication",
-        "roots:spells/spell_second_wind"
+        "roots:rituals/ritual_grove_supplication"
       ],
       "completedManualQuests": []
     },

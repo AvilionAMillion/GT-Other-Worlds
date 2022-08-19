@@ -97,12 +97,20 @@ var tanzanite = MaterialBuilder(24006, "tanzanite")
 	.build();
 # Crude Steel
 var crudeSteel = MaterialBuilder(24007, "crude_steel")
-	.ingot(4)
+	.ingot(3)
 	.color(0x928C87)
 	.iconSet("metallic")
 	.components([<material:iron> * 1])
 	.flags(["generate_plate", "generate_rod", "generate_bolt_screw", "generate_frame"])
 	.blastTemp(800, "LOW", 60, 100)
+	.build();
+# Runic
+var runicMetal = MaterialBuilder(24008, "runic")
+	.ingot(4)
+	.color(0x696A76)
+	.iconSet("rough")
+	.components([<material:stone> * 1, <material:magic> * 1])
+	.flags(["disable_decomposition", "mortar_grindable", "exclude_block_crafting_by_hand_recipes", "generate_plate"])
 	.build();
 	
 // Prexisting

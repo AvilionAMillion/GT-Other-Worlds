@@ -1,6 +1,7 @@
 // GTOW ZS File
 // Made by GTOW Team
 import mods.roots.Pyre;
+import mods.roots.Mortar;
 import mods.inworldcrafting.FluidToItem;
 
 // Val
@@ -56,6 +57,17 @@ recipes.addShaped(<roots:fey_crafter>,
 		[[cloudBerry, sapling, cloudBerry],
 		[sapling, wildroot, sapling],
 		[gtSaw, wood, gtBranchCutter]]);
+# Mortar
+recipes.remove(<roots:mortar>);
+recipes.addShaped(<roots:mortar>,
+	[[ingotSteel, gtHammer, ingotSteel],
+	[null, plateSteel, null]]);
+# Pestle
+recipes.remove(<roots:pestle>);
+recipes.addShaped(<roots:pestle>,
+	[[null, screwIron, rodIron],
+	[plateIron, rodIron, screwIron],
+	[ingotIron, plateIron, gtScrewdriver]]);
 
 // Pyre Crafting
   # Dewgonia
@@ -66,6 +78,9 @@ Pyre.removeRecipe(cloudBerry);
 Pyre.addRecipe("cloud", cloudBerry, [<minecraft:wheat_seeds>, <gregtech:meta_ingot:112>, <gregtech:meta_dust:253>, moss, <minecraft:wool>]);
   # Baffle Cap
 Pyre.removeRecipe(bafflecap);
+
+// Mortar Crafting
+Mortar.removeRecipe(<roots:runic_dust>);
 
 // InWorldCrafting
 FluidToItem.transform(bafflecap, <liquid:badjuice>, [<rustic:mooncap_mushroom>], true);

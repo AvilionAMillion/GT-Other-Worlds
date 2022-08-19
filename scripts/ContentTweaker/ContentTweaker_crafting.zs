@@ -4,6 +4,7 @@ import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 import crafttweaker.item.IItemTransformer;
 import mods.inworldcrafting.FluidToFluid;
+import mods.roots.Mortar;
 import mods.artisanworktables.builder.RecipeBuilder;
 val builder = RecipeBuilder.get("basic");
 
@@ -67,6 +68,11 @@ RecipeBuilder.get("basic")
   .setSecondaryIngredients([<minecraft:bucket>])
   .addOutput(<forge:bucketfilled>.withTag({FluidName: "badjuice", Amount: 1000}))
   .create();
+  
+# Baffle Cap Powder
+Mortar.addRecipe("bafflepowder", <contenttweaker:bafflepowder>, [<roots:baffle_cap_mushroom>]);
+recipes.addShapeless(<contenttweaker:bafflepowder>,
+	[gtMortar, <roots:baffle_cap_mushroom>]);
 
 // Heaters
 # Wrought Iron Heater
