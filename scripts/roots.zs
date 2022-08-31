@@ -16,15 +16,15 @@ val bafflecap = <roots:baffle_cap_mushroom>;
 val masonBrickBlock = <pyrotech:masonry_brick_block>;
 
 // Crop Tier Tooltips
-<roots:dewgonia>.addTooltip("Tier 0 Crop");
-<roots:cloud_berry>.addTooltip("Tier 0 Crop");
-<roots:pereskia>.addTooltip(format.green("Tier 1 Crop"));
-<roots:moonglow_leaf>.addTooltip(format.green("Tier 1 Crop"));
-<roots:wildewheet>.addTooltip(format.aqua("Tier 2 Crop"));
-<roots:spirit_herb>.addTooltip(format.aqua("Tier 2 Crop"));
-<roots:stalicripe>.addTooltip(format.gold("Tier 3 Crop"));
-<roots:infernal_bulb>.addTooltip(format.gold("Tier 3 Crop"));
-<roots:baffle_cap_mushroom>.addTooltip(format.red("Multi-Tier Crop"));
+<roots:baffle_cap_mushroom>.addTooltip(format.green("Tier 0 Crop"));
+<roots:dewgonia>.addTooltip(format.aqua("Tier 1 Crop"));
+<roots:cloud_berry>.addTooltip(format.aqua("Tier 1 Crop"));
+<roots:pereskia>.addTooltip(format.gold("Tier 2 Crop"));
+<roots:moonglow_leaf>.addTooltip(format.gold("Tier 2 Crop"));
+<roots:wildewheet>.addTooltip(format.red("Tier 3 Crop"));
+<roots:spirit_herb>.addTooltip(format.red("Tier 3 Crop"));
+<roots:stalicripe>.addTooltip(format.lightPurple("Tier 4 Crop"));
+<roots:infernal_bulb>.addTooltip(format.lightPurple("Tier 4 Crop"));
 
 // Crafting
 # Pyre
@@ -72,10 +72,10 @@ recipes.addShaped(<roots:pestle>,
 // Pyre Crafting
   # Dewgonia
 Pyre.removeRecipe(dewgonia);
-Pyre.addRecipe("dew", dewgonia, [<minecraft:wheat_seeds>, <gregtech:meta_ingot:112>, <gregtech:meta_dust:289>, moss, <minecraft:water_bucket>]);
+Pyre.addRecipe("dew", dewgonia, [<minecraft:wheat_seeds>, <gregtech:meta_ingot:112>, <ore:dustRunic>, moss, <minecraft:water_bucket>]);
   # Cloud Berry
 Pyre.removeRecipe(cloudBerry);
-Pyre.addRecipe("cloud", cloudBerry, [<minecraft:wheat_seeds>, <gregtech:meta_ingot:112>, <gregtech:meta_dust:253>, moss, <minecraft:wool>]);
+Pyre.addRecipe("cloud", cloudBerry, [<minecraft:wheat_seeds>, <gregtech:meta_ingot:112>, <ore:dustRunic>, moss, <minecraft:wool>]);
   # Baffle Cap
 Pyre.removeRecipe(bafflecap);
 

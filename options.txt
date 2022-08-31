@@ -169,7 +169,6 @@ key_key.craftingtweaks.decompressStack:0
 key_key.craftingtweaks.decompressAll:0
 key_key.craftingtweaks.refill_last:15
 key_key.craftingtweaks.refill_last_stack:15
-key_binniecore.key.hold.for.help.tooltips:15
 key_key.blockdropstweaker.saveblockdrops:34
 key_key.blockdropstweaker.reloadblockdrops:35
 key_nei.options.keys.gui.botania_corporea_request:46
@@ -199,30 +198,6 @@ key_key.porterNextDestination:27
 key_key.porterPrevDestination:26
 key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
-key_gui.xaero_switch_waypoint_set:0
-key_gui.xaero_instant_waypoint:0
-key_gui.xaero_toggle_slime:0
-key_gui.xaero_toggle_grid:0
-key_gui.xaero_toggle_waypoints:0
-key_gui.xaero_toggle_map_waypoints:0
-key_gui.xaero_toggle_map:0
-key_gui.xaero_enlarge_map:44
-key_gui.xaero_waypoints_key:22
-key_gui.xaero_zoom_in:0
-key_gui.xaero_zoom_out:0
-key_gui.xaero_new_waypoint:78
-key_gui.xaero_display_all_sets:0
-key_gui.xaero_toggle_light_overlay:0
-key_gui.xaero_toggle_entity_radar:0
-key_gui.xaero_reverse_entity_radar:0
-key_gui.xaero_toggle_manual_cave_mode:0
-key_gui.xaero_minimap_settings:21
-key_gui.xaero_open_map:52
-key_gui.xaero_open_settings:27
-key_gui.xaero_map_zoom_in:0
-key_gui.xaero_map_zoom_out:0
-key_gui.xaero_quick_confirm:54
-key_gui.xaero_wm_toggle_minimap_radar:0
 key_Toggle Jetpack:45
 key_Open Rocket GUI:46
 key_Toggle RCS:19
@@ -230,6 +205,22 @@ key_Rotate Vehicle Right:32
 key_Rotate Vehicle Left:30
 key_Move Vehicle Up:44
 key_Move Vehicle Down:45
+key_key.journeymap.zoom_in:13
+key_key.journeymap.zoom_out:12
+key_key.journeymap.minimap_type:26
+key_key.journeymap.minimap_preset:43
+key_key.journeymap.create_waypoint:48
+key_key.journeymap.toggle_waypoints:44
+key_key.journeymap.fullscreen_create_waypoint:48
+key_key.journeymap.fullscreen_chat_position:46
+key_key.journeymap.map_toggle_alt:36
+key_key.journeymap.fullscreen_waypoints:48:CONTROL
+key_key.journeymap.minimap_toggle_alt:36:CONTROL
+key_key.journeymap.fullscreen_options:24
+key_key.journeymap.fullscreen.north:200
+key_key.journeymap.fullscreen.south:208
+key_key.journeymap.fullscreen.east:205
+key_key.journeymap.fullscreen.west:203
 key_enderio.keybind.inventory:23
 key_enderio.keybind.dsu:0
 key_enderio.keybind.glidertoggle:34

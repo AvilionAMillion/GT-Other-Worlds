@@ -377,4 +377,14 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansHandsaw>, 20)
   .addOutput(<pyrotech:butchers_block>)
   .create();
+# Tanning Rack
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:string>, <minecraft:stick>, <ore:string>],
+    [<minecraft:stick>, <pyrotech:material:26>, <minecraft:stick>],
+    [<ore:logWood>, <minecraft:stick>, <ore:logWood>]])
+  .addTool(<ore:artisansHandsaw>, 20)
+  .addTool(<ore:artisansCutters>, 10)
+  .addOutput(<pyrotech:tanning_rack>)
+  .create();
   

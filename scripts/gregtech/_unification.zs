@@ -1,4 +1,4 @@
-# priority 120
+#priority 120
 
 // GT OreDict
 // This file is to make sure each and every iteration of an ore only comes from GT
