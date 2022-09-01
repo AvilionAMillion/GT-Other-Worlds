@@ -11,6 +11,10 @@ val woodToughBinding = <tconstruct:tough_binding>.withTag({Material: "wood"});
 recipes.addShaped(<artisanworktables:worktable:5>, [
 	[wood, wood],
 	[wood, wood]]);
+recipes.addShaped(<artisanworktables:workshop:11>,[
+	[plateIron, <pyrotech:material:20>, plateIron],
+	[null, <artisanworktables:workshop:5>, null],
+	[<gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>]]);
 # Basic Workstation
 RecipeBuilder.get("basic")
   .setShaped([
@@ -75,7 +79,7 @@ RecipeBuilder.get("basic")
 # Farmer's Workshop
 RecipeBuilder.get("basic")
   .setShaped([
-    [<ore:slabWood>, <roots:elemental_soil>, <roots:elemental_soil>, <roots:elemental_soil>, <ore:slabWood>],
+    [<ore:slabWood>, <rustic:fertile_soil>, <rustic:fertile_soil>, <rustic:fertile_soil>, <ore:slabWood>],
     [<ore:slabWood>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <ore:slabWood>],
     [<ore:slabWood>, <minecraft:dirt>, <pyrotech:compacting_bin>, <minecraft:dirt>, <ore:slabWood>],
     [<gregtech:planks:1>, <gregtech:meta_block_frame_103>, <artisanworktables:workshop:5>, <gregtech:meta_block_frame_103>, <gregtech:planks:1>],

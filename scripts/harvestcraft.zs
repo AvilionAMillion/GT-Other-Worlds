@@ -4,6 +4,10 @@ import crafttweaker.recipes.ICraftingRecipe;
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.artisanworktables.builder.Copy;
 
+// Initial Removal //
+# This is to prevent Artisans Worktables from generating recipes for these items
+
+
 // CB - Cutting Board, P - Pot, S - Skillet, SP - Saucepan, B - Bakeware, MP - Mortar and Pestle, MB - Mixing Bowl, J - Juicer
 
 static hc_toolnames as string[] = ["CB", "P", "S", "SP", "B", "MP", "MB", "J"];
@@ -64,7 +68,7 @@ function detect_tool_recipe(recipe as ICraftingRecipe) {
 }
 
 for toolname in hc_toolnames {
-    hc_tools[toolname].maxDamage = 10;
+    hc_tools[toolname].maxDamage = 17;
 }
 
 val all_recipes as [ICraftingRecipe] = recipes.all;
@@ -73,3 +77,19 @@ for recipe in all_recipes {
         detect_tool_recipe(recipe);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

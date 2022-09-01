@@ -6,13 +6,13 @@
   "overrides": [
     {
       "predicate": {
-        "damage": 0.1
+        "damage": 0.4
       },
       "model": "contenttweaker:item/juiceritem_smalldirty"
     },
     {
       "predicate": {
-        "damage": 0.9
+        "damage": 0.12
       },
       "model": "contenttweaker:item/juiceritem_verydirty"
     }
