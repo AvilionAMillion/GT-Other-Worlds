@@ -1,11 +1,23 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.recipes.ICraftingRecipe;
+import mods.rustic.Condenser;
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.artisanworktables.builder.Copy;
 
+// Val
+val healElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:instant_health", Duration: 1, Amplifier: 0}]});
+
 // Initial Removal //
 # This is to prevent Artisans Worktables from generating recipes for these items
+
+// Alchemy
+mods.rustic.Condenser.addRecipe(<harvestcraft:aridgarden>, healElixir, <rustic:aloe_vera>);
+mods.rustic.Condenser.addRecipe(<harvestcraft:frostgarden>, healElixir, <rustic:cloudsbluff>);
+mods.rustic.Condenser.addRecipe(<harvestcraft:shadedgarden>, healElixir, <rustic:chamomile>);
+mods.rustic.Condenser.addRecipe(<harvestcraft:soggygarden>, healElixir, <rustic:cohosh>);
+mods.rustic.Condenser.addRecipe(<harvestcraft:tropicalgarden>, healElixir, <rustic:marsh_mallow>);
+mods.rustic.Condenser.addRecipe(<harvestcraft:windygarden>, healElixir, <rustic:wind_thistle>);
 
 
 // CB - Cutting Board, P - Pot, S - Skillet, SP - Saucepan, B - Bakeware, MP - Mortar and Pestle, MB - Mixing Bowl, J - Juicer
@@ -77,6 +89,7 @@ for recipe in all_recipes {
         detect_tool_recipe(recipe);
     }
 }
+
 
 
 
