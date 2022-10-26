@@ -38,6 +38,9 @@ ouchjuice.register();
  # Baffle Powder
 var mushroompowder as Item = VanillaFactory.createItem("bafflepowder");
 mushroompowder.register();
+ # Twilight Soil
+var dirtclump as Item = VanillaFactory.createItem("twilightsoil");
+dirtclump.register();
  # Bloom Hammer
 var bloomHammer as Item = VanillaFactory.createItem("hammer");
 bloomHammer.maxDamage = 120;
