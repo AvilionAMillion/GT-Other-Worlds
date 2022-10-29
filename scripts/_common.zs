@@ -68,6 +68,10 @@ global ingotAluminium as IOreDictEntry = <ore:ingotAluminium>;
 global ingotWroughtIron as IOreDictEntry = <ore:ingotWroughtIron>;
 global ingotCrudeSteel as IOreDictEntry = <ore:ingotCrudeSteel>;
 
+// Dusts
+global dustRedstone as IOreDictEntry = <ore:dustRedstone>;
+global dustGlowstone as IOreDictEntry = <ore:dustGlowstone>;
+
 // GregTech Tools
 global gtHammer as IItemStack = <gregtech:meta_tool:6>;
 global gtFile as IItemStack = <gregtech:meta_tool:9>;

@@ -6,7 +6,9 @@
 			"generator": {
 				"block": {
 					"name": "thermalfoundation:ore",
-					"metadata": 4
+					"properties": {
+						type:aluminum
+					},
 				},
 				"material": "minecraft:stone",
 				"cluster-size": 6

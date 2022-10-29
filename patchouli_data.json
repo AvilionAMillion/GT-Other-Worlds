@@ -68,11 +68,13 @@
         "roots:rituals/ritual_flower_growth",
         "roots:rituals/ritual_windwall",
         "roots:rituals/ritual_animal_harvest",
-        "roots:rituals/ritual_warding_protection"
+        "roots:rituals/ritual_warding_protection",
+        "roots:spells/spell_chrysopoeia"
       ],
       "bookmarks": [],
       "history": [
         "roots:rituals/ritual_transmutation",
+        "roots:spells/spell_chrysopoeia",
         "roots:rituals/tiers",
         "roots:rituals/ritual_summon_creatures",
         "roots:rituals/ritual_warding_protection",
@@ -83,8 +85,7 @@
         "roots:rituals/ritual_flower_growth",
         "roots:crafting/fey_crafter",
         "roots:rituals/ritual_grove_supplication",
-        "roots:crafting/grove_stone",
-        "roots:concepts/groves"
+        "roots:crafting/grove_stone"
       ],
       "completedManualQuests": []
     },

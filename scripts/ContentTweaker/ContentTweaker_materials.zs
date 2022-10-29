@@ -41,6 +41,9 @@ mushroompowder.register();
  # Twilight Soil
 var dirtclump as Item = VanillaFactory.createItem("twilightsoil");
 dirtclump.register();
+ # Perfect Powder
+var rootspowder as Item = VanillaFactory.createItem("perfectpowder");
+rootspowder.register();
  # Bloom Hammer
 var bloomHammer as Item = VanillaFactory.createItem("hammer");
 bloomHammer.maxDamage = 120;
@@ -70,6 +73,14 @@ glassy_sand.blockHardness = 0.4;
 glassy_sand.blockResistance = 0.4;
 glassy_sand.gravity = true;
 glassy_sand.register();
+ # Nether Block
+var nether_block = VanillaFactory.createBlock("netherBlock", <blockmaterial:iron>);
+nether_block.blockSoundType = <soundtype:metal>;
+nether_block.toolClass = "pickaxe";
+nether_block.toolLevel = 5;
+nether_block.blockHardness = 15.0;
+nether_block.blockResistance = 100.0;
+nether_block.register();
 
 // Fluids
 var foundryliquid = VanillaFactory.createFluid("foundry", Color.fromHex("9A9A82"));

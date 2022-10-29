@@ -5,8 +5,22 @@ import mods.roots.Mortar;
 import mods.inworldcrafting.FluidToItem;
 import mods.roots.Rituals;
 import mods.roots.Fey;
+import mods.roots.RunicShears;
 import mods.roots.SummonCreatures;
+import mods.roots.Spells;
+import mods.roots.Spell;
+import mods.roots.Costs;
+import mods.roots.Herbs;
+import mods.roots.Chrysopoeia;
+import crafttweaker.block.IBlockState;
+import mods.roots.predicates.Predicates;
+import mods.roots.predicates.StatePredicate;
+import mods.roots.predicates.BlockStateBelow;
+import mods.roots.predicates.PropertyPredicate;
+import mods.roots.Transmutation;
+import mods.artisanworktables.builder.RecipeBuilder;
 
+val builder = RecipeBuilder.get("basic");
 
 // Val
 val treatedStick = <gregtech:meta_stick:1648>;
@@ -19,6 +33,10 @@ val dewgonia = <roots:dewgonia>;
 val bafflecap = <roots:baffle_cap_mushroom>;
 val pereskia = <roots:pereskia>;
 val moonglow = <roots:moonglow_leaf>;
+val spiritherb = <roots:spirit_herb>;
+val wildewheet = <roots:wildewheet>;
+val stalicripe = <roots:stalicripe>;
+val infernalbulb = <roots:infernal_bulb>;
 val masonBrickBlock = <pyrotech:masonry_brick_block>;
 
 // Crop Tier Tooltips
@@ -74,7 +92,36 @@ recipes.addShaped(<roots:pestle>,
 	[[null, screwIron, rodIron],
 	[plateIron, rodIron, screwIron],
 	[ingotIron, plateIron, gtScrewdriver]]);
+# Petals
 recipes.addShapeless(<roots:petals> * 3, [gtMortar, <ore:allTallFlowers>]);
+# Chiseled Runestone
+recipes.remove(<roots:chiseled_runestone>);
+recipes.addShaped(<roots:chiseled_runestone>,
+	[[<roots:runestone_brick>, ingotIron, <roots:runestone_brick>],
+	[ingotIron, cloudberry, ingotIron],
+	[<roots:runestone_brick>, ingotIron, <roots:runestone_brick>]]);
+# Chiseled Runed Obsidian
+recipes.remove(<roots:chiseled_runed_obsidian>);
+recipes.addShaped(<roots:chiseled_runed_obsidian>,
+	[[<roots:runed_obsidian_brick>, ingotSteel, <roots:runed_obsidian_brick>],
+	[ingotSteel, pereskia, ingotSteel],
+	[<roots:runed_obsidian_brick>, ingotSteel, <roots:runed_obsidian_brick>]]);
+
+// Basic Worktable
+# Runestone Brick
+recipes.remove(<roots:runestone_brick>);
+RecipeBuilder.get("basic")
+  .setShapeless([<roots:runestone>])
+  .addTool(<ore:artisansChisel>, 5)
+  .addOutput(<roots:runestone_brick>)
+  .create();
+# Runed Obsidian Brick
+recipes.remove(<roots:runed_obsidian_brick>);
+RecipeBuilder.get("basic")
+  .setShapeless([<roots:runed_obsidian>])
+  .addTool(<ore:artisansChisel>, 25)
+  .addOutput(<roots:runed_obsidian_brick>)
+  .create();
 
 // Pyre Crafting
   # Dewgonia
@@ -83,10 +130,13 @@ Pyre.addRecipe("dew", dewgonia, [<minecraft:wheat_seeds>, <gregtech:meta_ingot:1
   # Cloud Berry
 Pyre.removeRecipe(cloudberry);
 Pyre.addRecipe("cloud", cloudberry, [<minecraft:wheat_seeds>, <gregtech:meta_ingot:112>, <ore:dustRunic>, moss, <minecraft:wool>]);
-  # Baffle Cap
+  # Removal
 Pyre.removeRecipe(bafflecap);
 Pyre.removeRecipe(pereskia);
 Pyre.removeRecipe(moonglow);
+Pyre.removeRecipe(stalicripe);
+Pyre.removeRecipe(infernalbulb);
+Pyre.addRecipe("infernal", infernalbulb * 5, [stalicripe, stalicripe, stalicripe, stalicripe, stalicripe]);
 
 // Fey Crafter
 # Runestone
@@ -98,12 +148,21 @@ Fey.addRecipe("runed_obsidian", <roots:runed_obsidian>, [<ore:dustRunic>, <roots
 # Runic Shears
 Fey.removeRecipe(<roots:runic_shears>);
 Fey.addRecipe("runic_shears", <roots:runic_shears>, [<minecraft:shears>, pereskia, pereskia, <roots:runed_obsidian>, <roots:runed_obsidian>]);
+# Elemental Soil
+Fey.removeRecipe(<roots:elemental_soil>);
+Fey.addRecipe("elemental_soil", <roots:elemental_soil>, [<rustic:fertile_soil>, <minecraft:sand>, <minecraft:gravel>, <ore:dustBone>, <ore:dustRunic>]);
 # Pereskia
 Fey.addRecipe("pereskia", <roots:pereskia>, [<roots:wildroot>, <ore:dustRunic>, <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:regeneration", Duration: 900, Amplifier: 0}]}), <roots:dewgonia>, <gregtech:meta_ingot:2517>]); 
 # Moonglow
 Fey.addRecipe("moonglow", <roots:moonglow_leaf>, [<roots:wildroot>, <ore:dustRunic>, <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 3600, Amplifier: 0}]}), cloudberry, <gregtech:meta_ingot:2517>]); 
 # Rubber Sapling
 Fey.addRecipe("rubber", <gregtech:rubber_sapling>, [<ore:treeSapling>, <ore:slimeball>, <ore:slimeball>, pereskia, wildroot]);
+# Stalicripe
+Fey.addRecipe("stalicripe", <roots:stalicripe>, [<gregtech:meta_dust:24009>, <ore:dustRunic>, <roots:spirit_herb>, <twilightforest:naga_scale>, <twilightforest:torchberries>]);
+
+// Runic Shearing
+RunicShears.removeRecipe(spiritherb);
+RunicShears.removeRecipe(wildewheet);
 
 // Mortar Crafting
 Mortar.removeRecipe(<roots:runic_dust>);
@@ -142,6 +201,7 @@ SummonCreatures.removeEntity(<entity:minecraft:donkey>);
 SummonCreatures.removeEntity(<entity:mysticalworld:entity_sprout>);
 SummonCreatures.removeEntity(<entity:minecraft:husk>);
 SummonCreatures.removeEntity(<entity:minecraft:bat>);
+SummonCreatures.removeEntity(<entity:minecraft:pig>);
 # Forest Raven
 SummonCreatures.addEntity(<entity:twilightforest:raven>, [<roots:mystic_feather>, <roots:moonglow_leaf>, <gregtech:meta_dust:55>, <pyrotech:material:45>]);
 
@@ -150,3 +210,13 @@ SummonCreatures.addEntity(<entity:twilightforest:raven>, [<roots:mystic_feather>
 Rituals.modifyRitual("ritual_grove_supplication", [<minecraft:iron_door>, <ore:dustRunic>, <roots:wildroot>, <ore:treeSapling>, <roots:petals>]);
 # Summon Creatures
 Rituals.modifyRitual("ritual_summon_creatures", [<minecraft:egg>, <ore:dustRunic>, <thaumcraft:flesh_block>, pereskia, moonglow]);
+# Transmutation
+Rituals.modifyRitual("ritual_transmutation", [<ore:craftingFurnace>, <ore:platePotin>, stalicripe, <roots:bark_wildwood>, <roots:chiseled_runed_obsidian>]);
+# Wildroot Growth
+Rituals.modifyRitual("ritual_wildroot_growth", [wildroot, <roots:elemental_soil_air>, spiritherb, <ore:rootsBark>, <ore:rootsBark>]);
+
+// Spells
+# Chrysopoeia
+Mortar.changeSpell("spell_chrysopoeia", [infernalbulb, <ore:ingotRunicmetal>, dustGlowstone, <ore:gemDiamond>, <ore:dustRunic>]);
+Chrysopoeia.removeRecipeByOutput(<minecraft:iron_nugget>);
+Chrysopoeia.removeRecipeByOutput(<minecraft:gold_nugget>);

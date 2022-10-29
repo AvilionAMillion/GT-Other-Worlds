@@ -105,12 +105,29 @@ var crudeSteel = MaterialBuilder(24007, "crude_steel")
 	.blastTemp(800, "LOW", 60, 100)
 	.build();
 # Runic
-var runicMetal = MaterialBuilder(24008, "runic")
-	.ingot(4)
+var runic = MaterialBuilder(24008, "runic")
+	.dust(1)
 	.color(0x696A76)
 	.iconSet("rough")
 	.components([<material:stone> * 1, <material:magic> * 1])
-	.flags(["disable_decomposition", "mortar_grindable", "exclude_block_crafting_by_hand_recipes", "generate_plate"])
+	.flags(["disable_decomposition"])
+	.build();
+# Ironwood
+var ironwood = MaterialBuilder(24009, "ironwood")
+	.ingot(2)
+	.color(0x83764A)
+	.iconSet("metallic")
+	.toolStats(20, 2, 960, 1)
+	.components([<material:iron> * 9, <material:gold> * 1, <material:magic> * 1])
+	.flags(["disable_decomposition", "no_smashing", "exclude_block_crafting_by_hand_recipes"])
+	.build();
+# Runic Metal
+var runicMetal = MaterialBuilder(24010, "runicmetal")
+	.ingot(3)
+	.color(0x696A76)
+	.iconSet("metallic")
+	.components([<material:ironwood> * 1, <material:runic> * 1])
+	.flags(["disable_decomposition", "exclude_block_crafting_by_hand_recipes", "generate_plate", "generate_rod"])
 	.build();
 	
 // Prexisting

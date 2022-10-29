@@ -1,0 +1,75 @@
+{
+	"populate": {
+		"spirit herb": {	
+			"distribution": "surface",
+			"generator": {
+				"block": {
+					"name": "roots:spirit_herb_crop",
+					"metadata": 7,
+				},
+				"type": "decoration",
+				"cluster-size": 10,
+				"see-sky": "true",
+				"check-stay": "false",
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"twilightforest:twilight_forest",
+							"twilightforest:dense_twilight_forest",
+							"twilightforest:firefly_forest"
+						]
+					}
+				]
+			}
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
+		
+		"wildewheet": {	
+			"distribution": "surface",
+			"generator": {
+				"block": {
+					"name": "roots:wildewheet_crop",
+					"metadata": 7,
+				},
+				"type": "decoration",
+				"cluster-size": 10,
+				"see-sky": "true",
+				"check-stay": "false",
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"twilightforest:oak_savannah",
+						]
+					}
+				]
+			}
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		}
+	}
+}

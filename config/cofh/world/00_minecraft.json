@@ -7,7 +7,7 @@
 			"generator": {
 				"block": "clay",
 				"material": "minecraft:stone",
-				"cluster-size": 33
+				"cluster-size": 22
 			},
 			"cluster-count": 6,
 			"min-height": 0,
@@ -28,9 +28,9 @@
 			"generator": {
 				"block": "gravel",
 				"material": "minecraft:stone",
-				"cluster-size": 33
+				"cluster-size": 22
 			},
-			"cluster-count": 0,
+			"cluster-count": 8,
 			"min-height": 0,
 			"max-height": 256,
 			"retrogen": false,
@@ -258,7 +258,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 9
 			},
-			"cluster-count": 20,
+			"cluster-count": 0,
 			"min-height": 32,
 			"max-height": 80,
 			"retrogen": false,
@@ -294,7 +294,7 @@
 					"name": "emerald_ore"
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 0
+				"cluster-size": 1
 			},
 			"cluster-count": {
 				"min": 0,
@@ -339,7 +339,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 9
 			},
-			"cluster-count": 7,
+			"cluster-count": 0,
 			"min-height": 0,
 			"max-height": 64,
 			"retrogen": false,

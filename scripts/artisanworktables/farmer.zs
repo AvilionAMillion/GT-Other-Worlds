@@ -54,3 +54,9 @@ RecipeBuilder.get("farmer")
   .addTool(<ore:artisansMortar>, 1)
   .addOutput(<gregtech:meta_item_1:350>)
   .create();
+# Fertile Soil
+RecipeBuilder.get("farmer")
+  .setShapeless([<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:dye:15>, <minecraft:dye:15>])
+  .setFluid(<liquid:water> * 100)
+  .addOutput(<rustic:fertile_soil> * 4)
+  .create();

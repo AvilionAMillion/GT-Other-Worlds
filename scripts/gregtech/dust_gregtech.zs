@@ -3,6 +3,7 @@
 	import mods.pyrotech.StoneKiln;
 	import mods.pyrotech.BrickKiln;
 	import mods.roots.Mortar;
+	import mods.roots.Fey;
 import mods.artisanworktables.builder.RecipeBuilder;
 
 val builder = RecipeBuilder.get("basic");
@@ -39,5 +40,9 @@ RecipeBuilder.get("basic")
   
 // Mortar (Roots)
 Mortar.addRecipe("runic_powder", <gregtech:meta_dust:24008> * 3, [<contenttweaker:bafflepowder>, <gregtech:meta_dust:1599>, <gregtech:meta_dust:2049>, <gregtech:meta_dust:324>, <gregtech:meta_dust:324>]);
+
+// Fey Crafter (Roots)
+# Runic Dust
+Fey.addRecipe("runicdust", <gregtech:meta_dust:24008> * 8, [<contenttweaker:bafflepowder>, <gregtech:meta_dust:1599>, <gregtech:meta_dust:2049>, <gregtech:meta_dust:324>, <gregtech:meta_dust:324>]);
 
   

@@ -5,6 +5,7 @@ import mods.jei.JEI.removeAndHide as rh;
 import crafttweaker.item.IItemTransformer;
 import mods.inworldcrafting.FluidToFluid;
 import mods.roots.Mortar;
+import mods.roots.Fey;
 import mods.artisanworktables.builder.RecipeBuilder;
 val builder = RecipeBuilder.get("basic");
 
@@ -73,6 +74,31 @@ RecipeBuilder.get("basic")
 Mortar.addRecipe("bafflepowder", <contenttweaker:bafflepowder>, [<roots:baffle_cap_mushroom>]);
 recipes.addShapeless(<contenttweaker:bafflepowder>,
 	[gtMortar, <roots:baffle_cap_mushroom>]);
+	
+# Twilight Soil
+Fey.addRecipe("twilightsoil", <contenttweaker:twilightsoil>, [<twilightforest:raven_feather>, <roots:moonglow_leaf>, <roots:moonglow_leaf>, <roots:elemental_soil>, <roots:wildroot>]);
+<contenttweaker:twilightsoil>.addTooltip(format.aqua("Used To Open The Twilight Forest Portal"));
+
+# Perfect Powder
+RecipeBuilder.get("basic")
+  .setShapeless([<gregtech:meta_dust:24008>, <roots:baffle_cap_mushroom>, <roots:cloud_berry>, <roots:dewgonia>, <roots:moonglow_leaf>, <roots:pereskia>, <roots:spirit_herb>, <roots:wildewheet>, <roots:stalicripe>, <roots:infernal_bulb>])
+  .addTool(<ore:artisansMortar>, 30)
+  .addOutput(<contenttweaker:perfectpowder>)
+  .create();
+
+# Nether Portal Block
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<gregtech:meta_plate:24010>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <gregtech:meta_plate:24010>],
+    [<minecraft:obsidian>, <gregtech:meta_dust:24008>, <gregtech:meta_dust:24008>, <gregtech:meta_dust:24008>, <minecraft:obsidian>],
+    [<minecraft:obsidian>, <gregtech:meta_dust:24008>, <roots:chiseled_runed_obsidian>, <gregtech:meta_dust:24008>, <minecraft:obsidian>],
+    [<minecraft:obsidian>, <gregtech:meta_dust:24008>, <gregtech:meta_dust:24008>, <gregtech:meta_dust:24008>, <minecraft:obsidian>],
+    [<gregtech:meta_plate:24010>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <gregtech:meta_plate:24010>]])
+  .setFluid(<liquid:lava> * 2000)
+  .addTool(<ore:artisansHammer>, 50)
+  .addTool(<ore:artisansBurner>, 100)
+  .addOutput(<contenttweaker:netherblock> * 2)
+  .create();
 
 // Heaters
 # Wrought Iron Heater

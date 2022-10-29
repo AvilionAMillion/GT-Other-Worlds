@@ -8226,12 +8226,12 @@
     },
     "99:10": {
       "preRequisites:11": [
-        71
+        110
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Your first roots crops (Other than Baffle Cap or Wildroot) will be gotten with runic dust. These runic crops can be used for certain spells or, also, crafting recipes. The Tier 1 Crops are required for the Tier 2 Crops",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8242,7 +8242,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "First Roots Crops",
+          "name:8": "Cloudy Dew",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -8250,12 +8250,49 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 99,
-      "rewards:9": {},
-      "tasks:9": {}
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "rustic:fertile_soil"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "roots:dewgonia"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "roots:cloud_berry"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "100:10": {
       "preRequisites:11": [
@@ -8936,6 +8973,797 @@
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "roots:baffle_cap_mushroom"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "109:10": {
+      "preRequisites:11": [
+        71,
+        95
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Some things can\u0027t be ground down by your gregtech mortar... or your artisan\u0027s mortar... You need a third mortar, a Roots mortar!\nOnce you have steel you can now make both the mortar and pestle from roots, which can be used to ground down certain items. From wheat to gravel, as a bonus, the mortar and pestle uses no durability! You can use it as much as you like.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "roots:mortar"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Mortar and Pestle",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 109,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 8,
+              "Damage:2": 324,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "roots:mortar"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "roots:pestle"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "110:10": {
+      "preRequisiteTypes:7": [
+        0,
+        1
+      ],
+      "preRequisites:11": [
+        109,
+        108
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "To progress further into Roots, you\u0027ll need a certain type of dust that can\u0027t be made normally, you need some Runic dust. For Runic dust you\u0027ll need some Baffle Cap Powder, Stone Dust, Flint Dust, and a heap of some Steel Dust. grind it all together in a Mortar, and you will have a powerfully magical dust with many unique properties.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 24008,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_dust"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Magical Dusts",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 110,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "roots:baffle_cap_mushroom"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 24008,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "111:10": {
+      "preRequisites:11": [
+        98,
+        64
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "You must be exhausted. So much crafting, so much mining, so much smelting. You want some food, but you weren\u0027t able to make anything good before... Wait a minute, now you can make good food! The §b§aChef\u0027s Workshop§f allows you to make every Pam\u0027s Harvestcraft food, exploding your potential culinary options! \nYou can\u0027t cook without utensils, so you also need to make a batch of some §ePam\u0027s cooking tools.§f But whatever, §bmore food!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 11,
+            "OreDict:8": "",
+            "id:8": "artisanworktables:workshop"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Chefs Kiss? Do They Really?",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 111,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "harvestcraft:friedfeastitem"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": "",
+              "id:8": "artisanworktables:workshop"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "harvestcraft:cuttingboarditem"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "harvestcraft:potitem"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "harvestcraft:skilletitem"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "harvestcraft:saucepanitem"
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "harvestcraft:bakewareitem"
+            },
+            "5:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "harvestcraft:mortarandpestleitem"
+            },
+            "6:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "harvestcraft:mixingbowlitem"
+            },
+            "7:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "harvestcraft:juiceritem"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "112:10": {
+      "preRequisites:11": [
+        110
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Make a Grove Stone and perform the Grove Supplication ritual! This will empower the grove stone, attracting fey to your territory. These Fey can plant flowers, but they can also help power some certain crafts...",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "roots:grove_stone"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Grove and Grove",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 112,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "roots:grove_stone"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "113:10": {
+      "preRequisites:11": [
+        99,
+        112
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Your cloud berries can be used to make a special type of crafter, suited for more magical products. Of course, you still can\u0027t just craft with it, you\u0027ll also need the Fey Crafter to be near an empowered Grove Stone, which will attract Fey to it and help build your items. Once you have all of your items in the grid, shift-right click on it with a knife in order to start crafting.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "roots:fey_crafter"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Fey Crafting",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 113,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "roots:fey_crafter"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "114:10": {
+      "preRequisites:11": [
+        113
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "With the Fey Crafter, you are now able to make the tier 2 crops! Same story with tier 1, can be planted and bonemealed and harvested just like any old crop. These crops should prove even more magical than the ones before it!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "roots:pereskia"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Even More Crops!",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 114,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "roots:pereskia"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "roots:moonglow_leaf"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "115:10": {
+      "preRequisites:11": [
+        95
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Craft a steel pickaxe or hammer! Doesn\u0027t matter to me, you just need steel tools.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_tool",
+            "tag:10": {
+              "GT.ToolStats:10": {
+                "Material:8": "steel"
+              }
+            }
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Tier 5!",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 115,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "116:10": {
+      "preRequisites:11": [
+        115
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Steel pickaxes/hammers are able to mine obsidian, find some extraneous lava and make sure to grab some of it.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:obsidian"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Lava Glass",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 116,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:obsidian"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "117:10": {
+      "preRequisites:11": [
+        113
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Elemental Soil is a block that plants can grow on, and when a plant is grown on it not only can it not be trampled it also has a special effect depending on the type of soil! Specificities of what type of soil does what can be read in JEI, as well as how to make them.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "roots:elemental_soil"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Soil Of Many Colors",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 117,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "roots:elemental_soil"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "118:10": {
+      "preRequisites:11": [
+        114,
+        119
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Some say that the Fey like those who have a special pair of shears and will reward them virtuously for using them on some animals. While Runic Shears can provide some material benefits, most often you will get either magical leather or a magical feather. With varying uses.\n\nYou can also obtain eggplants with it.\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "OreDict:8": "",
+            "id:8": "roots:runic_shears"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Shears! But Magic",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 118,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "mysticalworld:aubergine"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "roots:runic_shears"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "roots:mystic_feather"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "roots:fey_leather"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "119:10": {
+      "preRequisites:11": [
+        113,
+        116
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "With the power of the Fey you can imbue stone with the magical runic powder you made before, making a sturdy stone with very enchanting properties...\nAdditionally, you can further enhance it into a strong form of obsidian, with perhaps more magical applications.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "roots:runestone"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Runestone",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 119,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "roots:runestone"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "roots:runed_obsidian"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "120:10": {
+      "preRequisites:11": [
+        114
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Rubber is a pretty useful resource, it\u0027s stretchy and bender, and also an insulator! But rubber doesn\u0027t spawn naturally in this world... Maybe the Fey can help?\n\nNow only if you had sulfur...",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:rubber_sapling"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Gum-Gum Tree",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 121,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:rubber_sapling"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -9683,6 +10511,20 @@
           "sizeY:3": 24,
           "x:3": -60,
           "y:3": 96
+        },
+        "22:10": {
+          "id:3": 115,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -36,
+          "y:3": 120
+        },
+        "23:10": {
+          "id:3": 116,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -36,
+          "y:3": 156
         }
       }
     },
@@ -9707,87 +10549,157 @@
       "quests:9": {
         "0:10": {
           "id:3": 71,
-          "sizeX:3": 30,
-          "sizeY:3": 30,
-          "x:3": 200,
-          "y:3": -30
+          "sizeX:3": 40,
+          "sizeY:3": 40,
+          "x:3": 208,
+          "y:3": -40
         },
         "1:10": {
           "id:3": 98,
-          "sizeX:3": 30,
-          "sizeY:3": 30,
+          "sizeX:3": 40,
+          "sizeY:3": 40,
           "x:3": -200,
-          "y:3": -30
+          "y:3": -40
         },
         "2:10": {
           "id:3": 99,
-          "sizeX:3": 20,
-          "sizeY:3": 20,
-          "x:3": 160,
-          "y:3": -25
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 176,
+          "y:3": 8
         },
         "3:10": {
           "id:3": 100,
-          "sizeX:3": 20,
-          "sizeY:3": 20,
-          "x:3": -195,
-          "y:3": 10
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -192,
+          "y:3": 8
         },
         "4:10": {
           "id:3": 101,
-          "sizeX:3": 20,
-          "sizeY:3": 20,
-          "x:3": -160,
-          "y:3": 10
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -152,
+          "y:3": 8
         },
         "5:10": {
           "id:3": 102,
-          "sizeX:3": 20,
-          "sizeY:3": 20,
-          "x:3": -195,
-          "y:3": 40
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -192,
+          "y:3": 48
         },
         "6:10": {
           "id:3": 103,
-          "sizeX:3": 20,
-          "sizeY:3": 20,
-          "x:3": -160,
-          "y:3": -25
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -152,
+          "y:3": -32
         },
         "7:10": {
           "id:3": 104,
-          "sizeX:3": 20,
-          "sizeY:3": 20,
-          "x:3": -195,
-          "y:3": 70
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -192,
+          "y:3": 88
         },
         "8:10": {
           "id:3": 105,
-          "sizeX:3": 20,
-          "sizeY:3": 20,
-          "x:3": -160,
-          "y:3": 40
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -152,
+          "y:3": 48
         },
         "9:10": {
           "id:3": 106,
-          "sizeX:3": 20,
-          "sizeY:3": 20,
-          "x:3": -125,
-          "y:3": 10
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -112,
+          "y:3": 8
         },
         "10:10": {
           "id:3": 107,
-          "sizeX:3": 20,
-          "sizeY:3": 20,
-          "x:3": -125,
-          "y:3": 40
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -112,
+          "y:3": 48
         },
         "11:10": {
           "id:3": 108,
-          "sizeX:3": 20,
-          "sizeY:3": 20,
-          "x:3": 60,
-          "y:3": 40
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -112,
+          "y:3": -32
+        },
+        "12:10": {
+          "id:3": 109,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 176,
+          "y:3": -32
+        },
+        "13:10": {
+          "id:3": 110,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 136,
+          "y:3": -32
+        },
+        "14:10": {
+          "id:3": 111,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -192,
+          "y:3": 150
+        },
+        "15:10": {
+          "id:3": 112,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 136,
+          "y:3": 8
+        },
+        "16:10": {
+          "id:3": 113,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 176,
+          "y:3": 48
+        },
+        "17:10": {
+          "id:3": 114,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 176,
+          "y:3": 88
+        },
+        "18:10": {
+          "id:3": 117,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 216,
+          "y:3": 48
+        },
+        "19:10": {
+          "id:3": 118,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 136,
+          "y:3": 88
+        },
+        "20:10": {
+          "id:3": 119,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 136,
+          "y:3": 48
+        },
+        "21:10": {
+          "id:3": 121,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 216,
+          "y:3": 88
         }
       }
     }
