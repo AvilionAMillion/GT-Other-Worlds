@@ -74,6 +74,7 @@
     "oreCopper": {
       "slagColor": "ffaa1c",
       "langKey": [
+        "abyssalcraft:tile.abycopore",
         "gregtech:tile.ore_block"
       ],
       "output": [
@@ -91,6 +92,7 @@
     "oreGold": {
       "slagColor": "fcee4b",
       "langKey": [
+        "abyssalcraft:tile.abygolore",
         "gregtech:tile.ore_block"
       ],
       "output": [
@@ -108,6 +110,7 @@
     "oreIron": {
       "slagColor": "d8af93",
       "langKey": [
+        "abyssalcraft:tile.abyiroore",
         "gregtech:tile.ore_block"
       ],
       "output": [
@@ -210,6 +213,7 @@
     "oreTin": {
       "slagColor": "c3e9ff",
       "langKey": [
+        "abyssalcraft:tile.abytinore",
         "gregtech:tile.ore_block"
       ],
       "output": [

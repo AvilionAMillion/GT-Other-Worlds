@@ -129,6 +129,15 @@ var runicMetal = MaterialBuilder(24010, "runicmetal")
 	.components([<material:ironwood> * 1, <material:runic> * 1])
 	.flags(["disable_decomposition", "exclude_block_crafting_by_hand_recipes", "generate_plate", "generate_rod"])
 	.build();
+# Mana
+var mana = MaterialBuilder(24011, "mana")
+	.fluid("fluid", true)
+	.dust()
+	.color(0x33C0D6)
+	.iconSet("shiny")
+	.components([<material:magic> * 1])
+	.flags(["no_unification", "disable_decomposition"])
+	.build();
 	
 // Prexisting
 # Stone

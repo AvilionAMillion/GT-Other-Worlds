@@ -7,5 +7,7 @@ val torchberries = <twilightforest:torchberries>;
 val torch = <minecraft:torch>;
 
 // Fey Crafter
-Fey.addRecipe("liveroot", <twilightforest:liveroot>, [<roots:wildroot>, torchberries, torchberries, torchberries, torchberries]);
-Fey.addRecipe("liveroot", torchberries * 5, [torchberries, torch, torch, torch, torch]);
+Fey.addRecipe("liveroot", <twilightforest:liveroot> * 2, [<roots:wildroot>, <roots:wildroot>, torchberries, torchberries, torchberries]);
+Fey.addRecipe("torchberries", torchberries * 5, [torch, torch, torch, torch, torch]);
+Fey.addRecipe("magic map", <twilightforest:magic_map_focus>, [<twilightforest:raven_feather>, <mysticalworld:antlers>, <mysticalworld:carapace>, <mysticalworld:pelt>, torchberries]);
+ 

@@ -3,6 +3,9 @@
   "density": 1.0,
   "max_height": 40,
   "min_height": 10,
+  "dimension_filter": [
+    "dimension_id:0"
+  ],
   "priority": -100,
   "count_as_vein": false,
   "generation_predicate": "any",

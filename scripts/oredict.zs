@@ -174,3 +174,6 @@ for knife in disabledKnives {
 <ore:dustRunic>.add(<roots:runic_dust>);
 recipes.replaceAllOccurences(<roots:runic_dust>, <ore:dustRunic>);
 	
+# Mana Powder Oredict
+<ore:powderMana>.addAll(<ore:dustMana>);
+recipes.replaceAllOccurences(<ore:powderMana>, <ore:dustMana>);

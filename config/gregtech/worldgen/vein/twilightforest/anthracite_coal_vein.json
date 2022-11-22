@@ -1,0 +1,33 @@
+{
+  "weight": 20,
+  "density": 0.4,
+  "max_height": 30,
+  "min_height": 5,
+  "dimension_filter": [
+	"dimension_id:7"
+  ],
+  "generator": {
+    "type": "layered",
+    "radius": [
+      16,
+      16
+    ]
+  },
+  "filler": {
+    "type": "layered",
+    "values": [
+      {
+        "primary": "ore:bitumous_coal"
+      },
+      {
+        "secondary": "ore:diamond"
+      },
+      {
+        "between": "ore:anthracite_coal"
+      },
+      {
+        "sporadic": "ore:anthracite_coal"
+      }
+    ]
+  }
+}
