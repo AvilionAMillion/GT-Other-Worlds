@@ -7,9 +7,10 @@ import mods.immersiveengineering.Blueprint;
 
 // Val
 val vTube = <gregtech:meta_item_1:516>;
-val copperWire = <gregtech:wire_single:25>;
 
-// Engineers Workshop
+// Removal
 recipes.remove(vTube);
-mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:26>);
-mods.immersiveengineering.Blueprint.addRecipe("components", vTube, [<gregtech:meta_item_1:517>, rodCrudeSteel, rodCrudeSteel, copperWire, copperWire, copperWire]);
+recipes.addShaped(vTube,
+	[[wire1xCopper, wire1xCopper, wire1xCopper],
+	[<gregtech:meta_wire_fine:25>, <gregtech:meta_item_1:517>, <gregtech:meta_wire_fine:25>],
+	[rodSteel, <ore:boltRedAlloy>, rodSteel]]);

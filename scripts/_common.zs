@@ -88,6 +88,9 @@ global circuitULV as IOreDictEntry = <ore:circuitPrimitive>;
 global circuitLV as IOreDictEntry = <ore:circuitBasic>;
 global circuitMV as IOreDictEntry = <ore:circuitGood>;
 
+// Wires
+global wire1xCopper as IItemStack = <gregtech:wire_single:25>;
+
 // Components
 #LV Components
 

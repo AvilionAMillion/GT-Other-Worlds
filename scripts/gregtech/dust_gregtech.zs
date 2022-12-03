@@ -5,6 +5,7 @@
 	import mods.roots.Mortar;
 	import mods.roots.Fey;
 	import mods.roots.Chrysopoeia;
+	import mods.rustic.CrushingTub;
 import mods.artisanworktables.builder.RecipeBuilder;
 
 val builder = RecipeBuilder.get("basic");
@@ -39,6 +40,10 @@ RecipeBuilder.get("basic")
   .addOutput(<gregtech:meta_dust:2037> * 6)
   .create();
   
+// Crushing Tub (Rustic)
+# Raw Rubber Pulp/Glue
+mods.rustic.CrushingTub.addRecipe(<fluid:glue> * 50, <gregtech:meta_dust:1002>, <gregtech:meta_item_1:438>);
+
 // Mortar (Roots)
 Mortar.addRecipe("runic_powder", <gregtech:meta_dust:24008> * 3, [<contenttweaker:bafflepowder>, <gregtech:meta_dust:1599>, <gregtech:meta_dust:2049>, <gregtech:meta_dust:324>, <gregtech:meta_dust:324>]);
 

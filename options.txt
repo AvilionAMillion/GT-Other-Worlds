@@ -87,6 +87,11 @@ key_key.hotbar.8:9
 key_key.hotbar.9:10
 key_Change Caster Focus:33
 key_Misc Caster Toggle:34
+key_key.staff_mode.desc:50
+key_key.use_cage.desc:49
+key_key.configurator_mode.desc:47
+key_key.configurator_filter.desc:48
+key_key.configurator_path.desc:34
 key_keybind.baublesinventory:48
 key_key.toggle_shaders:0
 key_key.betterquesting.quests:41
@@ -127,7 +132,6 @@ key_key.open_wft.desc:0
 key_key.open_wit.desc:0
 key_key.open_wpt.desc:0
 key_key.xtones.scroll:42
-key_key.cofh.multimode:47
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:36:CONTROL
@@ -139,6 +143,7 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
+key_key.cofh.multimode:47
 key_key.toggleLiquids:38
 key_key.toggleVisible:0
 key_key.immersiveengineering.magnetEquip:31
@@ -172,6 +177,7 @@ key_key.craftingtweaks.refill_last_stack:15
 key_key.blockdropstweaker.saveblockdrops:34
 key_key.blockdropstweaker.reloadblockdrops:35
 key_nei.options.keys.gui.botania_corporea_request:46
+key_bqtweaker.key.pageback:14
 key_key.settings_menu:34
 key_key.range:19
 key_key.undo:22
