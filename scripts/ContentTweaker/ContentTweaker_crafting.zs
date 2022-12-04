@@ -77,7 +77,7 @@ recipes.addShapeless(<contenttweaker:bafflepowder>,
 	
 # Twilight Soil
 Fey.addRecipe("twilightsoil", <contenttweaker:twilightsoil>, [<twilightforest:raven_feather>, <roots:moonglow_leaf>, <roots:moonglow_leaf>, <roots:elemental_soil>, <roots:wildroot>]);
-<contenttweaker:twilightsoil>.addTooltip(format.aqua("Used To Open The Twilight Forest Portal"));
+<contenttweaker:twilightsoil>.addTooltip(format.aqua("Used to open the Twilight Forest Portal"));
 
 # Perfect Powder
 RecipeBuilder.get("basic")
@@ -85,6 +85,7 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansMortar>, 30)
   .addOutput(<contenttweaker:perfectpowder>)
   .create();
+<contenttweaker:perfectpowder>.addTooltip(format.aqua("Used to open the Nether Portal"));
 
 # Nether Portal Block
 RecipeBuilder.get("basic")
@@ -94,10 +95,10 @@ RecipeBuilder.get("basic")
     [<minecraft:obsidian>, <gregtech:meta_dust:24008>, <roots:chiseled_runed_obsidian>, <gregtech:meta_dust:24008>, <minecraft:obsidian>],
     [<minecraft:obsidian>, <gregtech:meta_dust:24008>, <gregtech:meta_dust:24008>, <gregtech:meta_dust:24008>, <minecraft:obsidian>],
     [<gregtech:meta_plate:24010>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <gregtech:meta_plate:24010>]])
-  .setFluid(<liquid:lava> * 2000)
-  .addTool(<ore:artisansHammer>, 50)
-  .addTool(<ore:artisansBurner>, 100)
-  .addOutput(<contenttweaker:netherblock> * 2)
+  .setFluid(<liquid:lava> * 10000)
+  .addTool(<ore:artisansHammer>, 500)
+  .addTool(<ore:artisansBurner>, 200)
+  .addOutput(<contenttweaker:netherblock> * 10)
   .create();
 
 // Heaters

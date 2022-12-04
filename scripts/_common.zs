@@ -49,12 +49,13 @@ global screwSteel as IOreDictEntry = <ore:screwSteel>;
 global screwTin as IOreDictEntry = <ore:screwTin>;
 global screwBronze as IOreDictEntry = <ore:screwBronze>;
 global screwWroughtIron as IOreDictEntry = <ore:screwWroughtIron>;
-global screwCrudeSteel as IOreDictEntry = <ore:screwCrudeSteel>;
 
 // Rods
 global rodIron as IOreDictEntry = <ore:stickIron>;
 global rodSteel as IOreDictEntry = <ore:stickSteel>;
-global rodCrudeSteel as IOreDictEntry = <ore:stickCrudeSteel>;
+
+// Gears
+global gearIron as IOreDictEntry = <ore:gearIron>;
 
 // Rings
 global ringIron as IOreDictEntry = <ore:ringIron>;
@@ -66,7 +67,6 @@ global ingotIron as IOreDictEntry = <ore:ingotIron>;
 global ingotTin as IOreDictEntry = <ore:ingotTin>;
 global ingotAluminium as IOreDictEntry = <ore:ingotAluminium>;
 global ingotWroughtIron as IOreDictEntry = <ore:ingotWroughtIron>;
-global ingotCrudeSteel as IOreDictEntry = <ore:ingotCrudeSteel>;
 
 // Dusts
 global dustRedstone as IOreDictEntry = <ore:dustRedstone>;
@@ -93,7 +93,9 @@ global wire1xCopper as IItemStack = <gregtech:wire_single:25>;
 
 // Components
 #LV Components
+global pumpLV as IItemStack = <gregtech:meta_item_1:142>;
 
 // Machine Hulls
+global hullLV as IItemStack = <gregtech:machine:986>;
 
 // Wires

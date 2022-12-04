@@ -73,6 +73,7 @@
       ],
       "bookmarks": [],
       "history": [
+        "roots:rituals/ritual_wildroot_growth",
         "roots:rituals/ritual_transmutation",
         "roots:spells/spell_chrysopoeia",
         "roots:rituals/tiers",
@@ -84,8 +85,7 @@
         "roots:rituals/ritual_heavy_storms",
         "roots:rituals/ritual_flower_growth",
         "roots:crafting/fey_crafter",
-        "roots:rituals/ritual_grove_supplication",
-        "roots:crafting/grove_stone"
+        "roots:rituals/ritual_grove_supplication"
       ],
       "completedManualQuests": []
     },

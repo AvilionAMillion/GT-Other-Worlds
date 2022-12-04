@@ -10699,6 +10699,276 @@
         }
       },
       "rewards:9": {}
+    },
+    "132:10": {
+      "questID:3": 132,
+      "preRequisites:11": [
+        130
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:perfectpowder",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "It\u0027s Perfect!",
+          "desc:8": "Combining every single crop into one powder proves to be successful venture. Perhaps nothing will ever be able to beat this powder, it is perfect."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:perfectpowder",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "133:10": {
+      "questID:3": 133,
+      "preRequisites:11": [
+        130,
+        131
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "roots:ritual_transmutation",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Transmutation",
+          "desc:8": "The transmutation ritual will turn a block or item or any other number of things into another one once every five seconds while running. To function it requires a ritual stone on a 3 block high pillar as well. Check the Almanac for more info."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_plate",
+              "Count:3": 1,
+              "Damage:2": 2037,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "roots:bark_wildwood",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "roots:chiseled_runed_obsidian",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "roots:stalicripe",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "pyrotech:stone_kiln",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "134:10": {
+      "questID:3": 134,
+      "preRequisites:11": [
+        133,
+        127
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_ingot",
+            "Count:3": 1,
+            "Damage:2": 24010,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Runic Metal",
+          "desc:8": "Runic dust is so old school. No matter what you can do it seems to stay as a dust, and will never be usable as anything but. Luckily, you\u0027ve found a potential way to make a very powerful type of ingot, something that may turn out to be quite versatile. By performing the transmutation ritual on blocks of ironwood, they turn into \"Runic Metal\", which is strong, durable, and quite magical. Go and Make some posthaste!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_block_compressed_1500",
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 1,
+              "Damage:2": 24010,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "135:10": {
+      "questID:3": 135,
+      "preRequisites:11": [
+        134,
+        132
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:netherblock",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "To The Nether!",
+          "desc:8": "Ever since seeing the Infernal Bulb you have known that a more hostile and firey dimension lies somewhere out in the ether. Finally you think you have the tools to access it. Craft the Nether Portal Blocks and travel to the nether!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:netherblock",
+              "Count:3": 10,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "contenttweaker:perfectpowder",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 1,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "The Nether",
+          "dimension:3": -1,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -11476,7 +11746,7 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 40,
-          "x:3": 208,
+          "x:3": 32,
           "y:3": -40,
           "id:3": 71,
           "sizeY:3": 40
@@ -11490,7 +11760,7 @@
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 176,
+          "x:3": -8,
           "y:3": 8,
           "id:3": 99,
           "sizeY:3": 24
@@ -11560,14 +11830,14 @@
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 176,
+          "x:3": -8,
           "y:3": -32,
           "id:3": 109,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 136,
+          "x:3": -48,
           "y:3": -32,
           "id:3": 110,
           "sizeY:3": 24
@@ -11581,94 +11851,122 @@
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 136,
+          "x:3": -48,
           "y:3": 8,
           "id:3": 112,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 176,
+          "x:3": -8,
           "y:3": 48,
           "id:3": 113,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 176,
+          "x:3": -8,
           "y:3": 88,
           "id:3": 114,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": 216,
+          "x:3": 32,
           "y:3": 48,
           "id:3": 117,
           "sizeY:3": 24
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": 136,
+          "x:3": -48,
           "y:3": 88,
           "id:3": 118,
           "sizeY:3": 24
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": 136,
+          "x:3": -48,
           "y:3": 48,
           "id:3": 119,
           "sizeY:3": 24
         },
         "21:10": {
           "sizeX:3": 24,
-          "x:3": 176,
+          "x:3": -8,
           "y:3": 128,
           "id:3": 120,
           "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": 216,
+          "x:3": 32,
           "y:3": 88,
           "id:3": 121,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 24,
-          "x:3": 136,
+          "x:3": -48,
           "y:3": 128,
           "id:3": 122,
           "sizeY:3": 24
         },
         "24:10": {
           "sizeX:3": 40,
-          "x:3": 208,
+          "x:3": 24,
           "y:3": 120,
           "id:3": 123,
           "sizeY:3": 40
         },
         "25:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 168,
+          "x:3": 72,
+          "y:3": 128,
           "id:3": 125,
           "sizeY:3": 24
         },
         "26:10": {
           "sizeX:3": 24,
-          "x:3": 256,
-          "y:3": 168,
+          "x:3": 72,
+          "y:3": 88,
           "id:3": 130,
           "sizeY:3": 24
         },
         "27:10": {
           "sizeX:3": 24,
-          "x:3": 176,
-          "y:3": 168,
+          "x:3": 112,
+          "y:3": 128,
           "id:3": 131,
           "sizeY:3": 24
+        },
+        "28:10": {
+          "sizeX:3": 24,
+          "x:3": 112,
+          "y:3": 88,
+          "id:3": 132,
+          "sizeY:3": 24
+        },
+        "29:10": {
+          "sizeX:3": 24,
+          "x:3": 152,
+          "y:3": 128,
+          "id:3": 133,
+          "sizeY:3": 24
+        },
+        "30:10": {
+          "sizeX:3": 24,
+          "x:3": 152,
+          "y:3": 88,
+          "id:3": 134,
+          "sizeY:3": 24
+        },
+        "31:10": {
+          "sizeX:3": 40,
+          "x:3": 104,
+          "y:3": 40,
+          "id:3": 135,
+          "sizeY:3": 40
         }
       },
       "lineID:3": 2,
