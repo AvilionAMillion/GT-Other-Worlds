@@ -60,3 +60,10 @@ RecipeBuilder.get("farmer")
   .setFluid(<liquid:water> * 100)
   .addOutput(<rustic:fertile_soil> * 4)
   .create();
+# Elemental Soil
+RecipeBuilder.get("farmer")
+  .setShapeless([<rustic:fertile_soil>, <minecraft:gravel>, <minecraft:sand>, <minecraft:dye:15>])
+  .addTool(<ore:artisansTrowel>, 15)
+  .addTool(<contenttweaker:perfectpowder>, 0)
+  .addOutput(<roots:elemental_soil> * 2)
+  .create();

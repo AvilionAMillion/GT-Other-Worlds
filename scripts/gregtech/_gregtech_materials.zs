@@ -117,7 +117,7 @@ var ironwood = MaterialBuilder(24009, "ironwood")
 	.ingot(2)
 	.color(0x83764A)
 	.iconSet("metallic")
-	.toolStats(20, 2, 960, 1)
+	.toolStats(14, 2, 480, 1)
 	.components([<material:iron> * 9, <material:gold> * 1, <material:magic> * 1])
 	.flags(["disable_decomposition", "no_smashing", "exclude_block_crafting_by_hand_recipes"])
 	.build();
@@ -126,7 +126,8 @@ var runicMetal = MaterialBuilder(24010, "runicmetal")
 	.ingot(3)
 	.color(0x696A76)
 	.iconSet("metallic")
-	.components([<material:ironwood> * 1, <material:runic> * 1])
+	.toolStats(21,8,1200,3)
+	.components([<material:runic> * 1])
 	.flags(["disable_decomposition", "exclude_block_crafting_by_hand_recipes", "generate_plate", "generate_rod"])
 	.build();
 # Mana

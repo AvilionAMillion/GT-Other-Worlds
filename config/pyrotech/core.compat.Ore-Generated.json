@@ -93,7 +93,8 @@
       "slagColor": "fcee4b",
       "langKey": [
         "abyssalcraft:tile.abygolore",
-        "gregtech:tile.ore_block"
+        "gregtech:tile.ore_block",
+        "mist:tile.mist.gold_ore"
       ],
       "output": [
         "minecraft:gold_nugget:0"
@@ -111,7 +112,8 @@
       "slagColor": "d8af93",
       "langKey": [
         "abyssalcraft:tile.abyiroore",
-        "gregtech:tile.ore_block"
+        "gregtech:tile.ore_block",
+        "mist:tile.mist.iron_ore"
       ],
       "output": [
         "minecraft:iron_nugget:0"
