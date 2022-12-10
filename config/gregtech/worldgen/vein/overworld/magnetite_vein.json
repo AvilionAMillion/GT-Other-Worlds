@@ -24,10 +24,10 @@
         "secondary": "ore:magnetite"
       },
       {
-        "between": "ore:vanadium_magnetite"
+        "between": "ore:magnetite"
       },
       {
-        "sporadic": "ore:gold"
+        "sporadic": "ore:vanadium_magnetite"
       }
     ]
   }

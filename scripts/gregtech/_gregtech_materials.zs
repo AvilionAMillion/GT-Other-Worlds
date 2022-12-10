@@ -11,6 +11,7 @@ import mods.gregtech.material.Elements;
 var element_utsuhonium = Elements.add(134, 201, -1, null, "Utsuhonium", "Ut", false);
 var element_kaenbyonum = Elements.add(135, 209, -1, null, "Kaenbyonum", "Ka", false);
 var element_magic = Elements.add(136, 100, -1, null, "Magic", "Ma", false);
+var element_infinity = Elements.add(999, 999, -1, null, "Infinity", "*", false);
 
 // Gregtech Pure Materials
 # Utsuhonium
@@ -36,6 +37,16 @@ var magic = MaterialBuilder(30012, "magic")
 	.color(0x400080)
 	.iconSet("shiny")
 	.flags(["disable_decomposition"])
+	.build();
+# Infinity
+var infinity = MaterialBuilder(30013, "infinity")
+	.element("Infinity")
+	.ingot()
+	.color(0xFFFFFF)
+	.iconSet("shiny")
+	.blastTemp(80000, "HIGH", 2000000)
+	.toolStats(999, 999, 2147483647, 999)
+	.flags(["disable_decomposition", "generate_plate", "generate_rod", "generate_lens", "exclude_block_crafting_by_hand_recipes"])
 	.build();
 	
 // Gregtech Materials
@@ -117,7 +128,7 @@ var ironwood = MaterialBuilder(24009, "ironwood")
 	.ingot(2)
 	.color(0x83764A)
 	.iconSet("metallic")
-	.toolStats(14, 2, 480, 1)
+	.toolStats(14, 0.6, 480, 1)
 	.components([<material:iron> * 9, <material:gold> * 1, <material:magic> * 1])
 	.flags(["disable_decomposition", "no_smashing", "exclude_block_crafting_by_hand_recipes"])
 	.build();
@@ -126,7 +137,7 @@ var runicMetal = MaterialBuilder(24010, "runicmetal")
 	.ingot(3)
 	.color(0x696A76)
 	.iconSet("metallic")
-	.toolStats(21,8,1200,3)
+	.toolStats(21, 3,1200,3)
 	.components([<material:runic> * 1])
 	.flags(["disable_decomposition", "exclude_block_crafting_by_hand_recipes", "generate_plate", "generate_rod"])
 	.build();

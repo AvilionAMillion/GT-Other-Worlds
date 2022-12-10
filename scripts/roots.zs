@@ -159,6 +159,63 @@ Fey.addRecipe("moonglow", <roots:moonglow_leaf>, [<roots:wildroot>, <ore:dustRun
 Fey.addRecipe("rubber", <gregtech:rubber_sapling>, [<ore:treeSapling>, <ore:slimeball>, <ore:slimeball>, pereskia, wildroot]);
 # Stalicripe
 Fey.addRecipe("stalicripe", <roots:stalicripe>, [<gregtech:meta_dust:24009>, <ore:dustRunic>, <roots:spirit_herb>, <twilightforest:naga_scale>, <twilightforest:torchberries>]);
+# Living Sword
+Fey.removeRecipe(<roots:living_sword>);
+Fey.addRecipe("livingsword", <roots:living_sword>, [<gregtech:meta_dust:24008>, <gregtech:meta_tool>.withTag({"GT.ToolStats": {Material: "ironwood"}}), spiritherb, <roots:wildwood_log>, <gregtech:meta_ingot:24010>]);
+# Living Pickaxe
+Fey.removeRecipe(<roots:living_pickaxe>);
+Fey.addRecipe("livingpick", <roots:living_pickaxe>, [<gregtech:meta_dust:24008>, <gregtech:meta_tool:1>.withTag({"GT.ToolStats": {Material: "ironwood"}}), spiritherb, <roots:wildwood_log>, <gregtech:meta_ingot:24010>]);
+# Living Shovel
+Fey.removeRecipe(<roots:living_shovel>);
+Fey.addRecipe("livingshovel", <roots:living_shovel>, [<gregtech:meta_dust:24008>, <gregtech:meta_tool:2>.withTag({"GT.ToolStats": {Material: "ironwood"}}), spiritherb, <roots:wildwood_log>, <gregtech:meta_ingot:24010>]);
+# Living Axe
+Fey.removeRecipe(<roots:living_axe>);
+Fey.addRecipe("livingaxe", <roots:living_axe>, [<gregtech:meta_dust:24008>, <gregtech:meta_tool:3>.withTag({"GT.ToolStats": {Material: "ironwood"}}), spiritherb, <roots:wildwood_log>, <gregtech:meta_ingot:24010>]);
+# Living Hoe
+Fey.removeRecipe(<roots:living_hoe>);
+Fey.addRecipe("livinghoe", <roots:living_hoe>, [<gregtech:meta_dust:24008>, <gregtech:meta_tool:4>.withTag({"GT.ToolStats": {Material: "ironwood"}}), spiritherb, <roots:wildwood_log>, <gregtech:meta_ingot:24010>]);
+# Wildwood Bow
+Fey.removeRecipe(<roots:wildwood_bow>);
+Fey.addRecipe("livingbow", <roots:wildwood_bow>, [<gregtech:meta_dust:24008>, <tconstruct:bow_limb>.withTag({Material: "steeleaf"}), <tconstruct:bow_limb>.withTag({Material: "steeleaf"}), spiritherb, <roots:wildwood_log>]);
+# Living Arrow
+Fey.removeRecipe(<roots:living_arrow>);
+Fey.addRecipe("livingarrow", <roots:living_arrow> * 8, [<tconstruct:arrow_head>.withTag({Material: "steeleaf"}), spiritherb, <roots:wildwood_planks>, <gregtech:meta_nugget:24009>, <gregtech:meta_nugget:324>]);
+# Wildwood Quiver
+Fey.removeRecipe(<roots:wildwood_quiver>);
+Fey.addRecipe("wildwoodquiver", <roots:wildwood_quiver>, [<mekanism:machineblock:13>, <roots:wildwood_log>, <roots:wildwood_log>, spiritherb, <gregtech:meta_ingot:24010>]);
+# Terrastone Sword
+Fey.removeRecipe(<roots:terrastone_sword>);
+Fey.addRecipe("terrastonesword", <roots:terrastone_sword>, [<roots:chiseled_runestone>, <roots:living_sword>, <tconstruct:materials:18>, <minecraft:diamond>, <gregtech:meta_gem:2006>]);
+# Terrastone Pickaxe
+Fey.removeRecipe(<roots:terrastone_pickaxe>);
+Fey.addRecipe("terrastonepick", <roots:terrastone_pickaxe>, [<roots:chiseled_runestone>, <roots:living_pickaxe>, <tconstruct:materials:18>, <minecraft:diamond>, <gregtech:meta_gem:2006>]);
+# Terrastone Shovel
+Fey.removeRecipe(<roots:terrastone_shovel>);
+Fey.addRecipe("terrastoneshovel", <roots:terrastone_shovel>, [<roots:chiseled_runestone>, <roots:living_shovel>, <tconstruct:materials:18>, <minecraft:diamond>, <gregtech:meta_gem:2006>]);
+# Terrastone Axe
+Fey.removeRecipe(<roots:terrastone_axe>);
+Fey.addRecipe("terrastoneaxe", <roots:terrastone_axe>, [<roots:chiseled_runestone>, <roots:living_axe>, <tconstruct:materials:18>, <minecraft:diamond>, <gregtech:meta_gem:2006>]);
+# Terrastone Hoe
+Fey.removeRecipe(<roots:terrastone_hoe>);
+Fey.addRecipe("terrastonehoe", <roots:terrastone_hoe>, [<roots:chiseled_runestone>, <roots:living_hoe>, <tconstruct:materials:18>, <minecraft:diamond>, <gregtech:meta_gem:2006>]);
+# Runed Longsword
+Fey.removeRecipe(<roots:runed_sword>);
+Fey.addRecipe("runedlongsword", <roots:runed_sword>, [<contenttweaker:perfectpowder>, <roots:terrastone_sword>, <gregtech:meta_tool>.withTag({"GT.ToolStats": {Material: "runicmetal"}}), <roots:chiseled_runed_obsidian>, <minecraft:gold_block>]);
+# Runed Smasher
+Fey.removeRecipe(<roots:runed_pickaxe>);
+Fey.addRecipe("runedsmasher", <roots:runed_pickaxe>, [<contenttweaker:perfectpowder>, <roots:terrastone_pickaxe>, <gregtech:meta_tool:19>.withTag({"GT.ToolStats": {Material: "runicmetal"}}), <roots:chiseled_runed_obsidian>, <minecraft:gold_block>]);
+# Runed Greataxe
+Fey.removeRecipe(<roots:runed_axe>);
+Fey.addRecipe("runedaxe", <roots:runed_axe>, [<contenttweaker:perfectpowder>, <roots:terrastone_axe>, <gregtech:meta_tool:3>.withTag({"GT.ToolStats": {Material: "runicmetal"}}), <roots:chiseled_runed_obsidian>, <minecraft:gold_block>]);
+# Runed Shovel
+Fey.removeRecipe(<roots:runed_shovel>);
+Fey.addRecipe("runedshovel", <roots:runed_shovel>, [<contenttweaker:perfectpowder>, <roots:terrastone_shovel>, <gregtech:meta_tool:2>.withTag({"GT.ToolStats": {Material: "runicmetal"}}), <roots:chiseled_runed_obsidian>, <minecraft:gold_block>]);
+# Runed Plough
+Fey.removeRecipe(<roots:runed_hoe>);
+Fey.addRecipe("runedhoe", <roots:runed_hoe>, [<contenttweaker:perfectpowder>, <roots:terrastone_hoe>, <gregtech:meta_tool:4>.withTag({"GT.ToolStats": {Material: "runicmetal"}}), <roots:chiseled_runed_obsidian>, <minecraft:gold_block>]);
+# Runed Dagger
+Fey.removeRecipe(<roots:runed_dagger>);
+Fey.addRecipe("runeddagger", <roots:runed_dagger>, [<contenttweaker:perfectpowder>, <mysticalworld:amethyst_knife>, <roots:diamond_knife>, <roots:chiseled_runed_obsidian>, <minecraft:gold_block>]);
 
 // Runic Shearing
 RunicShears.removeRecipe(spiritherb);
