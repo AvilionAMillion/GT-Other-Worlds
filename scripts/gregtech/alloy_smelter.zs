@@ -1,9 +1,9 @@
-// Assembling Machine File
+// Alloy Smelter File
 // Made by GTOW Team
 import mods.gregtech.recipe.RecipeMap;
 val alloy_smelter as RecipeMap = <recipemap:alloy_smelter>;
 
-// Assembling Machine
+// Alloy Smelter
 # Ironwood
 alloy_smelter.recipeBuilder()
 	.inputs(<gregtech:meta_ingot:324>, <twilightforest:liveroot> * 2)
@@ -18,4 +18,11 @@ alloy_smelter.recipeBuilder()
 	.outputs(<gregtech:meta_dust:1068>)
 	.EUt(7)
 	.duration(20)
+	.buildAndRegister();
+# Structural Glass
+alloy_smelter.recipeBuilder()
+	.inputs(<metaitem:plateSteel> * 2, <ore:blockGlass>)
+	.outputs(<mekanism:basicblock:10>)
+	.EUt(30)
+	.duration(200)
 	.buildAndRegister();
