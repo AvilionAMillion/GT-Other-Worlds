@@ -9430,6 +9430,47 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_door",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_dust",
+              "Count:3": 1,
+              "Damage:2": 24008,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "roots:petals",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "roots:wildroot",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "rustic:sapling_apple",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "treeSapling"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -9959,7 +10000,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "ismain:1": 0,
           "repeat_relative:1": 1,
-          "name:8": "Gomu Gomu no Sapling",
+          "name:8": "Gomu-Gomu no Sapling",
           "desc:8": "Rubber is a pretty useful resource, it\u0027s stretchy and bender, and also an insulator! But rubber doesn\u0027t spawn naturally in this world... Maybe the Fey can help?\n\nNow only if you had sulfur..."
         }
       },
@@ -10515,7 +10556,7 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Gomu Gomu no Extract?",
+          "name:8": "Gomu-Gomu no Extract?",
           "desc:8": "Put some rubber pulp through an extractor and get the rubber extract! Alternatively you can make it by a crushing tub, but to a much less effective extent\n\nStill can\u0027t make rubber though."
         }
       },
@@ -10727,7 +10768,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "It\u0027s Perfect!",
-          "desc:8": "Combining every single crop into one powder proves to be successful venture. Perhaps nothing will ever be able to beat this powder, it is perfect."
+          "desc:8": "Combining every single crop into one powder proves to be successful venture. Perhaps nothing will ever be able to beat this powder, it is perfect.\n\nIt can be used to light a Nether Portal, but additionally, it has uses in making small mana powder and, perhaps most interestingly, some Fey recipes. This dust has some inherent magical properties, and thus can be used to make some recipes that normally take Fey crafting without any Fey at all."
         }
       },
       "tasks:9": {
@@ -10899,8 +10940,8 @@
     "135:10": {
       "questID:3": 135,
       "preRequisites:11": [
-        134,
-        132
+        132,
+        134
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -10924,7 +10965,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "To The Nether!",
-          "desc:8": "Ever since seeing the Infernal Bulb you have known that a more hostile and firey dimension lies somewhere out in the ether. Finally you think you have the tools to access it. Craft the Nether Portal Blocks and travel to the nether!"
+          "desc:8": "That Twilight dimension has you thinking of worlds, other worlds. Perhaps there is a world that is the complete opposite of this one, that is a burning hell that looks inescapable.\n\nThe nether is a tough place! Bring plenty of good food and armor with you. Maybe consider the Sylvan armor from Roots? This pack has the nether portal constructed differently, instead of obsidian and flint and steel, it\u0027s now Nether Portal blocks and the previously crafted Perfect Powder.\n\nNow go to hell!"
         }
       },
       "tasks:9": {
@@ -10966,6 +11007,1097 @@
           "dimension:3": -1,
           "taxiCabDist:1": 0,
           "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "136:10": {
+      "questID:3": 136,
+      "preRequisites:11": [
+        128
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "forge:bucketfilled",
+            "Count:3": 1,
+            "tag:10": {
+              "FluidName:8": "glue",
+              "Amount:3": 1000
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Gomu-Gomu no We\u0027re Done With This Joke!",
+          "desc:8": "By crushing sticky resin in a crushing tub you can get a little bit of rubber pulp, but, more importantly, you can also get §aglue§f. Glue is a required crafting component for many circuit components, and this is the only way to get it in the early game."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "FluidName:8": "glue",
+              "Amount:3": 1000
+            }
+          },
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "taskID:8": "bq_standard:fluid"
+        }
+      },
+      "rewards:9": {}
+    },
+    "137:10": {
+      "questID:3": 137,
+      "preRequisites:11": [
+        135
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:gold_ingot",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Fortune Favors The Gold",
+          "desc:8": "Now that you can access the Nether, try getting some gold! It spawns in Nether Limonite veins sporadically, but is the only way to get native gold at this point in time."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:ore_brown_limonite_0",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:ore_yellow_limonite_0",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:ore_banded_iron_0",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:ore_gold_0",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 16,
+              "Damage:2": 324,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "138:10": {
+      "questID:3": 138,
+      "preRequisites:11": [
+        135
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_dust",
+            "Count:3": 1,
+            "Damage:2": 103,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Smells Of Rotten Eggs",
+          "desc:8": "Grab some sulfur! Sulfur veins in the nether contain itself, obviously, pyrite, and spahlerite, which is useful later but for right now can only be processed into Zinc.\nMuch like with redstone, you\u0027ll want the dust, and thus will have to do the crushing method all over again."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:ore_sulfur_0",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:ore_pyrite_0",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:ore_sphalerite_0",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "139:10": {
+      "questID:3": 139,
+      "preRequisites:11": [
+        128,
+        138
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_dust",
+            "Count:3": 1,
+            "Damage:2": 1068,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Not Bars?",
+          "desc:8": "Using Raw Resin Extract and Sulfur, you can put it in an alloy smelter to get rubber pulp! This is, a very important ingredient to coating wires, the issue is that you need it to be in a liquid form to coat wires. What a shame..."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_dust",
+              "Count:3": 1,
+              "Damage:2": 1068,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "140:10": {
+      "questID:3": 140,
+      "preRequisites:11": [
+        139
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:cable_single",
+            "Count:3": 1,
+            "Damage:2": 112,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Cable Crafting!",
+          "desc:8": "You can smelt Rubber Pulp in a Crucible, and then pick it up in a tank or drum from Gregtech, after doing that you can put it into a basic worktable, and then craft yourself some very useful covered cables! These are important for making LV machines and some circuits, and also, of course, they will transfer GTEU."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:cable_single",
+              "Count:3": 1,
+              "Damage:2": 112,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:cable_single",
+              "Count:3": 1,
+              "Damage:2": 2517,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "141:10": {
+      "questID:3": 141,
+      "preRequisites:11": [
+        95
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 17,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Mold And Form",
+          "desc:8": "Using steel plates you can make molds, these allow you to make certain things in the alloy smelter! Namely glass tubes, which take the ball mold and you\u0027ll be using a lot of eventually."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 17,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "142:10": {
+      "questID:3": 142,
+      "preRequisites:11": [
+        141
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 516,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Vacuum Power!",
+          "desc:8": "Make a Vacuum Tube! This component is vital in making your first circuits, so you\u0027ll want to make quite a few of these eventually (Maybe not yet though, wires are expensive)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 516,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "143:10": {
+      "questID:3": 143,
+      "preRequisites:11": [
+        136
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 401,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "More Circuitry!",
+          "desc:8": "Using glue, you can now make two other important circuit components, the coated circuit board and resistors! Surrounding the coated circuit board in cables will get you a proper circuit board as well, perfect for putting some components to!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 381,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 401,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 519,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "144:10": {
+      "questID:3": 144,
+      "preRequisites:11": [
+        142,
+        140,
+        143
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 621,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "The First of Many!",
+          "desc:8": "After all this time, and all this crafting, you can finally make yourself an Electronic Circuit, the first LV Circuit! Putting all the components you\u0027ve made together creates a valuable start to all your electronic futures.\n\nYou\u0027ll want to make a few of these once your wires become cheap, you go through circuits fast."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 621,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "145:10": {
+      "questID:3": 145,
+      "preRequisites:11": [
+        95
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine_casing",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Machine Casing",
+          "desc:8": "Congrats! You can make your LV Machine Casing- Wait why the hell make this but not the hull?"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine_casing",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "146:10": {
+      "questID:3": 146,
+      "preRequisites:11": [
+        145,
+        144
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "artisanworktables:workshop",
+            "Count:3": 1,
+            "Damage:2": 6,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Catch-22",
+          "desc:8": "Oops! Just because you have an Electronic Circuit doesn\u0027t mean you get electronics, dummy! No, in order to get to LV, and get the LV hull and LV components, you need an engineer\u0027s workshop. Even more of an undertaking!\n\nLuckily, none of the recipes are changed for the LV components, you just need the workshop to make them all. In fact, expect this to be a pattern. Initially, you cannot craft any of the electronic components normally, you\u0027re always going to need to do something extra for it."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "artisanworktables:workshop",
+              "Count:3": 1,
+              "Damage:2": 6,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "147:10": {
+      "questID:3": 147,
+      "preRequisites:11": [
+        146
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 127,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Welcome to LV!",
+          "desc:8": "Craft your hull and motor, and say hello to LV!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 127,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 986,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "148:10": {
+      "questID:3": 148,
+      "preRequisites:11": [
+        147
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 950,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Whrrrrrrr",
+          "desc:8": "Electricity is kind of useless without a way to make it, so make a steam turbine! This generator will turn your boiler-produced steam into fully functioning electricity! Perfect for the kids!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 950,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "149:10": {
+      "questID:3": 149,
+      "preRequisites:11": [
+        148
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 620,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "MAKE THIS FIRST!!!!!!!!!!!!",
+          "desc:8": "The wiremill is an IMMENSELY helpful machine that will allow you to turn a single ingot into two wires!!! That\u0027s some crazy increased returns right there. If you don\u0027t make this first, you\u0027re kind of an idiot. No hard feelings."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 620,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "150:10": {
+      "questID:3": 150,
+      "preRequisites:11": [
+        148
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 187,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "LV Components #1",
+          "desc:8": "You want components? I got components. The Electric Pump, Conveyor Belt, Piston, and Robot Arm are all used in quite a large amount of gregtech machines, and three of them have some useful utility purposes of their own (especially since item conduits are disabled)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 142,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 157,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 172,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 187,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "151:10": {
+      "questID:3": 151,
+      "preRequisites:11": [
+        148
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 185,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Basic Centrifuge",
+          "desc:8": "Want to get glue AND resin simultaneously? Make the centrifuge! Perfect for the amount of circuits you\u0027re going to end up needing"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 185,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "152:10": {
+      "questID:3": 152,
+      "preRequisites:11": [
+        125
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {
+                "AS_Amulet_HolderLeast:4": -4648920116963100068,
+                "AS_Amulet_HolderMost:4": 3237099140495459049
+              }
+            },
+            "id:8": "roots:living_pickaxe",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "I Want To Live!",
+          "desc:8": "Living Tools are a particularly useful set of tools from Roots! The main appeal of them is that they will automatically repair themselves overtime! They can also be tiered up to even more powerful or faster repairing tools."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "roots:living_sword",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {
+                  "AS_Amulet_HolderLeast:4": -4648920116963100068,
+                  "AS_Amulet_HolderMost:4": 3237099140495459049
+                }
+              },
+              "id:8": "roots:living_pickaxe",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "roots:living_axe",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "roots:living_shovel",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "roots:living_hoe",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "153:10": {
+      "questID:3": 153,
+      "preRequisites:11": [
+        152
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "roots:wildwood_bow",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Shooting Fish In a Forest",
+          "desc:8": "Eh?\n\nMake the Roots Bow items."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "roots:wildwood_bow",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "roots:wildwood_quiver",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "roots:living_arrow",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -11690,21 +12822,21 @@
         },
         "21:10": {
           "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": 108,
+          "x:3": -96,
+          "y:3": 72,
           "id:3": 97,
           "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": -12,
+          "x:3": -48,
           "y:3": 120,
           "id:3": 115,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 24,
-          "x:3": -12,
+          "x:3": -72,
           "y:3": 156,
           "id:3": 116,
           "sizeY:3": 24
@@ -11722,6 +12854,76 @@
           "y:3": 72,
           "id:3": 129,
           "sizeY:3": 24
+        },
+        "26:10": {
+          "sizeX:3": 24,
+          "x:3": 216,
+          "y:3": 0,
+          "id:3": 136,
+          "sizeY:3": 24
+        },
+        "27:10": {
+          "sizeX:3": 24,
+          "x:3": 180,
+          "y:3": 72,
+          "id:3": 139,
+          "sizeY:3": 24
+        },
+        "28:10": {
+          "sizeX:3": 24,
+          "x:3": 180,
+          "y:3": 108,
+          "id:3": 140,
+          "sizeY:3": 24
+        },
+        "29:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": 120,
+          "id:3": 141,
+          "sizeY:3": 24
+        },
+        "30:10": {
+          "sizeX:3": 24,
+          "x:3": 48,
+          "y:3": 156,
+          "id:3": 142,
+          "sizeY:3": 24
+        },
+        "31:10": {
+          "sizeX:3": 24,
+          "x:3": 216,
+          "y:3": 108,
+          "id:3": 143,
+          "sizeY:3": 24
+        },
+        "32:10": {
+          "sizeX:3": 24,
+          "x:3": 216,
+          "y:3": 156,
+          "id:3": 144,
+          "sizeY:3": 24
+        },
+        "33:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 204,
+          "id:3": 145,
+          "sizeY:3": 24
+        },
+        "34:10": {
+          "sizeX:3": 24,
+          "x:3": 120,
+          "y:3": 204,
+          "id:3": 146,
+          "sizeY:3": 24
+        },
+        "35:10": {
+          "sizeX:3": 48,
+          "x:3": 108,
+          "y:3": 240,
+          "id:3": 147,
+          "sizeY:3": 48
         }
       },
       "lineID:3": 1,
@@ -11967,6 +13169,20 @@
           "y:3": 40,
           "id:3": 135,
           "sizeY:3": 40
+        },
+        "32:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": 168,
+          "id:3": 152,
+          "sizeY:3": 24
+        },
+        "33:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": 208,
+          "id:3": 153,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 2,
@@ -11985,43 +13201,64 @@
           "desc:8": "Get acquantinced with plants and alchemy as you play with Roots and Rustic"
         }
       },
-      "order:3": 2
+      "order:3": 3
     },
     "3:10": {
       "quests:9": {
         "0:10": {
-          "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": -12,
+          "sizeX:3": 40,
+          "x:3": -16,
+          "y:3": -16,
           "id:3": 123,
-          "sizeY:3": 24
+          "sizeY:3": 40
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": 24,
+          "x:3": -8,
+          "y:3": 32,
           "id:3": 124,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": -12,
+          "x:3": 32,
+          "y:3": -8,
           "id:3": 125,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": 60,
+          "x:3": -8,
+          "y:3": 72,
           "id:3": 126,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 24,
+          "x:3": 32,
+          "y:3": 32,
           "id:3": 127,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 40,
+          "x:3": 224,
+          "y:3": -16,
+          "id:3": 135,
+          "sizeY:3": 40
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": 232,
+          "y:3": 32,
+          "id:3": 137,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": 232,
+          "y:3": 72,
+          "id:3": 138,
           "sizeY:3": 24
         }
       },
@@ -12041,7 +13278,63 @@
           "desc:8": "The first \"Other Worlds\" in the modpack! Travel to the Twilight Forest, burn in the Nether, dive into the Mystic, and finally end up at the End."
         }
       },
-      "order:3": 3
+      "order:3": 4
+    },
+    "4:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 48,
+          "x:3": -24,
+          "y:3": -24,
+          "id:3": 147,
+          "sizeY:3": 48
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 36,
+          "id:3": 148,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -72,
+          "y:3": 36,
+          "id:3": 149,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 84,
+          "id:3": 150,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": 48,
+          "y:3": 36,
+          "id:3": 151,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 4,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "name:8": "Tier 1: Low Voltage",
+          "icon:10": {
+            "id:8": "gregtech:machine_casing",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Welcome to electricity! Machines in this tier use 32 EU/t"
+        }
+      },
+      "order:3": 2
     }
   },
   "questSettings:10": {

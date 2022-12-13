@@ -103,6 +103,20 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansPencil>, 200)
   .addOutput(<artisanworktables:workshop:8>)
   .create();
+# Engineer's Workshop
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:plateIron>, <ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>, <ore:plateIron>],
+    [<ore:wireGtSingleCopper>, <ore:plateSteel>, <ore:circuitLv>, <ore:plateSteel>, <ore:wireGtSingleCopper>],
+    [<ore:plateIron>, <ore:plateSteel>, <gregtech:machine_casing:1>, <ore:plateSteel>, <ore:plateIron>],
+    [<roots:wildwood_planks>, <ore:frameGtTreatedWood>, <ore:frameGtTreatedWood>, <ore:frameGtTreatedWood>, <roots:wildwood_planks>],
+    [<roots:wildwood_planks>, <roots:wildwood_planks>, <roots:wildwood_planks>, <roots:wildwood_planks>, <roots:wildwood_planks>]])
+  .setFluid(<liquid:rubber> * 1440)
+  .addTool(<ore:artisansCutters>, 150)
+  .addTool(<ore:artisansHammer>, 150)
+  .addTool(<ore:artisansTSquare>, 150)
+  .addOutput(<artisanworktables:workshop:6>)
+  .create();
 
 // Artisan Materials
 # Flint Hatchet

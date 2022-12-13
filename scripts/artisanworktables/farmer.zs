@@ -67,3 +67,21 @@ RecipeBuilder.get("farmer")
   .addTool(<contenttweaker:perfectpowder>, 0)
   .addOutput(<roots:elemental_soil> * 2)
   .create();
+# Torchberries
+RecipeBuilder.get("farmer")
+  .setShapeless([<minecraft:torch>])
+  .addTool(<contenttweaker:perfectpowder>, 0)
+  .addOutput(<twilightforest:torchberries>)
+  .create();
+# Liveroot
+RecipeBuilder.get("farmer")
+  .setShapeless([<roots:wildroot>, <twilightforest:torchberries>])
+  .addTool(<contenttweaker:perfectpowder>, 0)
+  .addOutput(<twilightforest:liveroot>)
+  .create();
+# Runic Dust
+RecipeBuilder.get("farmer")
+  .setShapeless([<gregtech:meta_dust:24008>, <gregtech:meta_dust:2049>, <gregtech:meta_dust:1599>, <contenttweaker:bafflepowder>])
+  .addTool(<contenttweaker:perfectpowder>, 0)
+  .addOutput(<gregtech:meta_dust:24008> * 4)
+  .create();

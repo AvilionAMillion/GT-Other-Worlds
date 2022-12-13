@@ -49,6 +49,9 @@ import mods.gregtech.recipe.RecipeMap;
 <ore:gearAluminum>.addAll(<ore:gearAluminium>);
 <ore:dustWheat>.add(<harvestcraft:flouritem>);
 <ore:ingotChromium>.addAll(<ore:ingotChrome>);
+<ore:blockAmethyst>.add(<mysticalworld:amethyst_block>);
+<ore:gemAmethyst>.add(<mysticalworld:amethyst_gem>);
+<ore:blockIronwood>.add(<twilightforest:block_storage>);
 
 // Occurences
 recipes.replaceAllOccurences(<pneumaticcraft:compressed_iron_gear>, <ore:gearIronCompressed>);
@@ -463,7 +466,8 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 		<mysticalworld:copper_ingot>,
 		<thermalfoundation:material:128>,
 		<libvulpes:productingot:4>,
-		<nuclearcraft:ingot>
+		<nuclearcraft:ingot>,
+		<abyssalcraft:copperingot>
 	],
 	
 	#ingotElectrum
@@ -487,6 +491,11 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 		<thermalfoundation:material:135>,
 		<libvulpes:productingot:10>,
 		<qmd:ingot:9>
+	],
+
+	#ingotIronwood
+	<ore:ingotIronwood> : [
+		<twilightforest:ironwood_ingot>
 	],
 	
 	#ingotLead
@@ -549,7 +558,8 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 		<libvulpes:productingot:5>,
 		<thermalfoundation:material:129>,
 		<mekanism:ingot:6>,
-		<nuclearcraft:ingot:1>
+		<nuclearcraft:ingot:1>,
+		<abyssalcraft:tiningot>
 	],
 	
 	#ingotTitanium
@@ -589,6 +599,12 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 		<thermalfoundation:material:802>
 	],
 	
+	#gemAmethyst
+	<ore:gemAmethyst> : [
+		<biomesoplenty:gem>,
+		<mysticalworld:amethyst_gem>
+	],
+	
 	#Nuclearcraft Ingots (There's a lot)
 	<ore:ingotThorium> : [
 		<nuclearcraft:ingot:3>],
@@ -602,6 +618,8 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 		<nuclearcraft:ingot:10>],
 	<ore:ingotManganese> : [
 		<nuclearcraft:ingot:11>],
+	<ore:ingotMagnesiumDiboride> : [
+		<nuclearcraft:alloy:3> ],
 		
 	#QMD Ingots (A Lot more)
 	<ore:ingotTungstenCarbide> : [
@@ -813,7 +831,9 @@ var blocksDisabled as IItemStack[][IOreDictEntry] = {
 	<ore:blockRefinedObsidian> : [
 		<mekanism:basicblock:2>],
 	<ore:blockCrudeSteel> : [
-		<enderio:block_alloy_endergy>]
+		<enderio:block_alloy_endergy>],
+	<ore:blockIronwood> : [
+		<twilightforest:block_storage>]
 	
 };
 

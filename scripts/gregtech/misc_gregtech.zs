@@ -102,6 +102,14 @@ RecipeBuilder.get("basic")
   .setFluid(<liquid:glue> * 50)
   .addOutput(<gregtech:meta_item_1:519>)
   .create();
+# Rubber Ring
+RecipeBuilder.get("basic")
+  .setShapeless([])
+  .setFluid(<liquid:rubber> * 288)
+  .addTool(<ore:artisansKnife>, 10)
+  .addTool(<ore:artisansBeaker>, 10)
+  .addOutput(<gregtech:meta_ring:1068>)
+  .create();
   
 // Wires/Cables
 recipes.remove(<gregtech:cable_single:2517>);

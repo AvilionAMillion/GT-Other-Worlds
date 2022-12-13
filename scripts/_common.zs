@@ -84,16 +84,23 @@ global gtSoftHammer as IItemStack = <gregtech:meta_tool:7>;
 global gtBranchCutter as IItemStack = <gregtech:meta_tool:14>;
 
 // Circuits
-global circuitULV as IOreDictEntry = <ore:circuitPrimitive>;
-global circuitLV as IOreDictEntry = <ore:circuitBasic>;
-global circuitMV as IOreDictEntry = <ore:circuitGood>;
+global circuitULV as IOreDictEntry = <ore:circuitUlv>;
+global circuitLV as IOreDictEntry = <ore:circuitLv>;
+global circuitMV as IOreDictEntry = <ore:circuitMv>;
 
 // Wires
 global wire1xCopper as IItemStack = <gregtech:wire_single:25>;
 
 // Components
 #LV Components
+global motorLV as IItemStack = <gregtech:meta_item_1:127>;
 global pumpLV as IItemStack = <gregtech:meta_item_1:142>;
+global conveyorLV as IItemStack = <gregtech:meta_item_1:157>;
+global pistonLV as IItemStack = <gregtech:meta_item_1:172>;
+global robotarmLV as IItemStack = <gregtech:meta_item_1:187>;
+global fieldgenLV as IItemStack = <gregtech:meta_item_1:202>;
+global emitterLV as IItemStack = <gregtech:meta_item_1:217>;
+global sensorLV as IItemStack = <gregtech:meta_item_1:232>;
 
 // Machine Hulls
 global hullLV as IItemStack = <gregtech:machine:986>;
