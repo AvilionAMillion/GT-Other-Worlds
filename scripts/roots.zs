@@ -216,6 +216,18 @@ Fey.addRecipe("runedhoe", <roots:runed_hoe>, [<contenttweaker:perfectpowder>, <r
 # Runed Dagger
 Fey.removeRecipe(<roots:runed_dagger>);
 Fey.addRecipe("runeddagger", <roots:runed_dagger>, [<contenttweaker:perfectpowder>, <mysticalworld:amethyst_knife>, <roots:diamond_knife>, <roots:chiseled_runed_obsidian>, <minecraft:gold_block>]);
+# Sylvan Helmet
+Fey.removeRecipe(<roots:sylvan_helmet>);
+Fey.addRecipe("sylvanhelmet", <roots:sylvan_helmet>, [<minecraft:iron_helmet>, <gregtech:meta_dust:24008>, <gregtech:meta_plate:24009>, spiritherb, <ore:gemAmethyst>]);
+# Sylvan Chestplate
+Fey.removeRecipe(<roots:sylvan_chestplate>);
+Fey.addRecipe("sylvanchestplate", <roots:sylvan_chestplate>, [<minecraft:iron_chestplate>, <gregtech:meta_dust:24008>, <gregtech:meta_plate:24009>, spiritherb, <ore:gemAmethyst>]);
+# Sylvan Leggings
+Fey.removeRecipe(<roots:sylvan_leggings>);
+Fey.addRecipe("sylvanleggings", <roots:sylvan_leggings>, [<minecraft:iron_leggings>, <gregtech:meta_dust:24008>, <gregtech:meta_plate:24009>, spiritherb, <ore:gemAmethyst>]);
+# Sylvan Boots
+Fey.removeRecipe(<roots:sylvan_boots>);
+Fey.addRecipe("sylvanboots", <roots:sylvan_boots>, [<minecraft:iron_boots>, <gregtech:meta_dust:24008>, <gregtech:meta_plate:24009>, spiritherb, <ore:gemAmethyst>]);
 
 // Runic Shearing
 RunicShears.removeRecipe(spiritherb);

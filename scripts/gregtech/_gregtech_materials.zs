@@ -130,7 +130,7 @@ var ironwood = MaterialBuilder(24009, "ironwood")
 	.iconSet("metallic")
 	.toolStats(14, 0.6, 480, 1)
 	.components([<material:iron> * 9, <material:gold> * 1, <material:magic> * 1])
-	.flags(["disable_decomposition", "no_smashing", "exclude_block_crafting_by_hand_recipes"])
+	.flags(["disable_decomposition", "no_smashing", "exclude_block_crafting_by_hand_recipes", "generate_plate"])
 	.build();
 # Runic Metal
 var runicMetal = MaterialBuilder(24010, "runicmetal")
@@ -148,7 +148,7 @@ var mana = MaterialBuilder(24011, "mana")
 	.color(0x33C0D6)
 	.iconSet("shiny")
 	.components([<material:magic> * 1])
-	.flags(["no_unification", "disable_decomposition"])
+	.flags(["disable_decomposition"])
 	.build();
 	
 // Prexisting

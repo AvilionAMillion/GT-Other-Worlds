@@ -17,21 +17,18 @@ dustSandyClay.register();
  # Wet Chad
 var dustWetChad as Item = VanillaFactory.createItem("wetChad");
 dustWetChad.register();
- # Bleached Coral
-var refractoryBlend as Item = VanillaFactory.createItem("refractoryblend");
-refractoryBlend.register();
  # Wrought Iron Heating Component
 var wroughtIron_Heater as Item = VanillaFactory.createItem("wroughtIronHeater");
 wroughtIron_Heater.register();
  # Steel Heating Component
 var steel_Heater as Item = VanillaFactory.createItem("steelHeater");
 steel_Heater.register();
- # LV Heat Exchanger
-var heatExchangerLV as Item = VanillaFactory.createItem("heatExchanger_LV");
-heatExchangerLV.register();
  # Elixir
 var elixirN as Item = VanillaFactory.createItem("elixir");
 elixirN.register();
+ # Refractory Mortar
+var refrac as Item = VanillaFactory.createItem("refractoryblend");
+refrac.register();
  # Bad Elixir
 var ouchjuice as Item = VanillaFactory.createItem("badelixir");
 ouchjuice.register();
@@ -49,19 +46,14 @@ var bloomHammer as Item = VanillaFactory.createItem("hammer");
 bloomHammer.maxDamage = 120;
 bloomHammer.maxStackSize = 1;
 bloomHammer.register();
-
-// ULV Components
- # ULV Motor
-var motorULV as Item = VanillaFactory.createItem("ULV_motor");
-motorULV.register();
-var pistonULV as Item = VanillaFactory.createItem("ULV_piston");
-pistonULV.register();
-var conveyorULV as Item = VanillaFactory.createItem("ULV_conveyor");
-conveyorULV.register();
-var robotarmULV as Item = VanillaFactory.createItem("ULV_robotarm");
-robotarmULV.register();
-var pumpULV as Item = VanillaFactory.createItem("ULV_pump");
-pumpULV.register();
+ # Iron Bloom Hammer
+var bloomHammerI as Item = VanillaFactory.createItem("ironhammer");
+bloomHammerI.maxDamage = 720;
+bloomHammerI.maxStackSize = 1;
+bloomHammerI.register();
+ # Lubricated Foil
+var lubeFoil as Item = VanillaFactory.createItem("lubricatedfoil");
+lubeFoil.register();
 
 // Blocks
  # Glassy Sand

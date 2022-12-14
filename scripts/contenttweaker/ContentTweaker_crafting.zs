@@ -7,6 +7,7 @@ import mods.inworldcrafting.FluidToFluid;
 import mods.roots.Mortar;
 import mods.roots.Fey;
 import mods.artisanworktables.builder.RecipeBuilder;
+import mods.gregtech.recipe.RecipeMap;
 val builder = RecipeBuilder.get("basic");
 
 // Val
@@ -100,8 +101,17 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansBurner>, 200)
   .addOutput(<contenttweaker:netherblock> * 10)
   .create();
+  
+# Lubricated Foil
+<recipemap:chemical_bath>.recipeBuilder()
+	.inputs(<gregtech:meta_foil:122>)
+	.fluidInputs(<liquid:lubricant> * 480)
+	.outputs(<contenttweaker:lubricatedfoil>)
+	.duration(160)
+	.EUt(24)
+	.buildAndRegister();
 
-// Heaters
+
 # Wrought Iron Heater
 recipes.addShaped(<contenttweaker:wroughtironheater>,
 	[[screwWroughtIron, gtWrench, screwWroughtIron],
