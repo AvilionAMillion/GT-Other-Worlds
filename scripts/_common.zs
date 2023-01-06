@@ -59,6 +59,7 @@ global gearIron as IOreDictEntry = <ore:gearIron>;
 
 // Rings
 global ringIron as IOreDictEntry = <ore:ringIron>;
+global ringSteel as IOreDictEntry = <ore:ringSteel>;
 
 // Ingots
 global ingotCopper as IOreDictEntry = <ore:ingotCopper>;

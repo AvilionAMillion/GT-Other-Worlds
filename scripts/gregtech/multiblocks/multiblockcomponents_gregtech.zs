@@ -5,6 +5,8 @@ import mods.artisanworktables.builder.RecipeBuilder;
 val cobbSlab = <minecraft:stone_slab:3>;
 val rotorIron = <gregtech:meta_rotor:51>;
 val woodWall = <gregtech:steam_casing:5>;
+val bronzeCasing = <gregtech:metal_casing>;
+val gearGold = <gregtech:meta_gear:41>;
 val builder = RecipeBuilder.get("basic");
 
 // Coke Oven
@@ -86,4 +88,76 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansChisel>, 200)
   .addOutput(<gregtech:machine:1000>)
   .create();
+  
+// Steel Multiblock Tank
+recipes.remove(<gregtech:machine:1599>);
+recipes.remove(<gregtech:machine:1598>);
+# Controller
+recipes.addShaped(<gregtech:machine:1599>,
+	[[screwSteel, gtScrewdriver, screwSteel],
+	[ringSteel, <gregtech:metal_casing:4>, ringSteel],
+	[gtHammer, <gregtech:fluid_pipe_large:324>, gtSaw]]);
+# Valve
+recipes.addShaped(<gregtech:machine:1598>, 
+	[[null, ringSteel, null],
+	[<gregtech:fluid_pipe_small:324>, <gregtech:metal_casing:4>, <gregtech:fluid_pipe_small:324>],
+	[gtHammer, <gregtech:meta_rotor:324>, gtSaw]]);
 	
+// Steam Multiblocks
+recipes.remove(<gregtech:machine:1024>);
+recipes.remove(<gregtech:machine:1025>);
+# Steam Oven
+recipes.addShaped(<gregtech:machine:1024>,
+	[[bronzeCasing, gearGold, bronzeCasing],
+	[<gregtech:boiler_firebox_casing>, <gregtech:machine:2>, <gregtech:boiler_firebox_casing>],
+	[bronzeCasing, gearGold, bronzeCasing]]);
+# Steam Macerator
+recipes.addShaped(<gregtech:machine:1025>,
+	[[bronzeCasing, gearGold, bronzeCasing],
+	[bronzeCasing, <gregtech:machine:10>, bronzeCasing],
+	[bronzeCasing, gearGold, bronzeCasing]]);
+	
+# Electric Blast Furnace
+recipes.remove(<gregtech:machine:1001>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<gregtech:meta_screw:287>, <gregtech:meta_plate:287>, <gregtech:meta_plate_double:287>, <gregtech:meta_plate:287>, <gregtech:meta_screw:287>],
+    [<gregtech:meta_plate:287>, <gregtech:cable_single:112>, <ore:craftingFurnace>, <gregtech:cable_single:112>, <gregtech:meta_plate:287>],
+    [<gregtech:meta_plate_double:287>, <ore:craftingFurnace>, <gregtech:meta_block_frame_17:15>, <ore:craftingFurnace>, <gregtech:meta_plate_double:287>],
+    [<gregtech:meta_plate:287>, <gregtech:cable_single:112>, <contenttweaker:controllv>, <gregtech:cable_single:112>, <gregtech:meta_plate:287>],
+    [<gregtech:meta_screw:287>, <gregtech:meta_plate:287>, <gregtech:meta_plate_double:287>, <gregtech:meta_plate:287>, <gregtech:meta_screw:287>]])
+  .setSecondaryIngredients([<gregtech:machine:50>])
+  .addTool(<ore:artisansHammer>, 200)
+  .addTool(<ore:artisansSolderer>, 250)
+  .addOutput(<gregtech:machine:1001>)
+  .create();
+  
+# Industrial Steam Engine
+recipes.remove(<gregtech:machine:2027>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<gregtech:meta_screw:259>, <gregtech:meta_plate:259>, <gregtech:meta_plate_double:259>, <gregtech:meta_plate:259>, <gregtech:meta_screw:259>],
+    [<gregtech:meta_plate:259>, <gregtech:meta_gear:260>, <gregtech:fluid_pipe_large:2037>, <gregtech:meta_gear:260>, <gregtech:meta_plate:259>],
+    [<gregtech:meta_plate_double:259>, <gregtech:fluid_pipe_large:2037>, <gregtech:meta_block_frame_16:3>, <gregtech:fluid_pipe_large:2037>, <gregtech:meta_plate_double:259>],
+    [<gregtech:meta_plate:259>, <gregtech:meta_gear:324>, <contenttweaker:controllv>, <gregtech:meta_gear:324>, <gregtech:meta_plate:259>],
+    [<gregtech:meta_screw:259>, <gregtech:meta_plate:259>, <gregtech:meta_plate_double:259>, <gregtech:meta_plate:259>, <gregtech:meta_screw:259>]])
+  .setSecondaryIngredients([<gregtech:machine:950>])
+  .addTool(<ore:artisansHammer>, 200)
+  .addTool(<ore:artisansSolderer>, 250)
+  .addOutput(<gregtech:machine:2027>)
+  .create();
+  
+# Large Bronze Boiler
+recipes.remove(<gregtech:machine:1013>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<gregtech:meta_screw:260>, <gregtech:meta_plate:260>, <gregtech:meta_plate_double:260>, <gregtech:meta_plate:260>, <gregtech:meta_screw:260>],
+    [<gregtech:meta_plate:260>, <gregtech:cable_single:112>, <gregtech:meta_item_1:97>, <gregtech:cable_single:112>, <gregtech:meta_plate:260>],
+    [<gregtech:meta_plate_double:260>, <gregtech:meta_item_1:97>, <gregtech:boiler_firebox_casing>, <gregtech:meta_item_1:97>, <gregtech:meta_plate_double:260>],
+    [<gregtech:meta_plate:260>, <gregtech:cable_single:112>, <contenttweaker:controllv>, <gregtech:cable_single:112>, <gregtech:meta_plate:260>],
+    [<gregtech:meta_screw:260>, <gregtech:meta_plate:260>, <gregtech:meta_plate_double:260>, <gregtech:meta_plate:260>, <gregtech:meta_screw:260>]])
+  .setSecondaryIngredients([<gregtech:machine:2> * 4, <gregtech:machine:4> * 4, <gregtech:machine:6> * 4])
+  .addTool(<ore:artisansHammer>, 200)
+  .addTool(<ore:artisansSolderer>, 250)
+  .addOutput(<gregtech:machine:1013>)
+  .create();

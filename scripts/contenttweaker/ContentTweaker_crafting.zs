@@ -52,6 +52,12 @@ recipes.addShaped(<contenttweaker:hammer>,
 	[<pyrotech:masonry_brick_block>, stick, <pyrotech:material:16>],
 	[stick, gtFile, null]]);
 	
+# Mason Pounding Trowel
+recipes.addShaped(<contenttweaker:masontrowel>,
+	[[null, <pyrotech:material:16>, <pyrotech:masonry_brick_block>],
+	[<pyrotech:material:26>, stick, <pyrotech:material:16>],
+	[stick, gtFile, null]]);
+	
 # Noxious Elixir
 recipes.addShapeless(<contenttweaker:elixir>,
 	[<rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:instant_health", Duration: 1, Amplifier: 0}]}), <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:regeneration", Duration: 900, Amplifier: 0}]}), <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "mead"}}), <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 3600, Amplifier: 0}]}), <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:speed", Duration: 3600, Amplifier: 0}]})]);
@@ -101,19 +107,12 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansBurner>, 200)
   .addOutput(<contenttweaker:netherblock> * 10)
   .create();
-  
-# Lubricated Foil
-<recipemap:chemical_bath>.recipeBuilder()
-	.inputs(<gregtech:meta_foil:122>)
-	.fluidInputs(<liquid:lubricant> * 480)
-	.outputs(<contenttweaker:lubricatedfoil>)
-	.duration(160)
-	.EUt(24)
-	.buildAndRegister();
-
 
 # Wrought Iron Heater
 recipes.addShaped(<contenttweaker:wroughtironheater>,
 	[[screwWroughtIron, gtWrench, screwWroughtIron],
 	[plateWroughtIron, <immersiveengineering:metal_device1:1>, plateWroughtIron],
 	[screwWroughtIron, gtScrewdriver, screwWroughtIron]]);
+	
+# Centurian Bone
+<contenttweaker:ancientbone>.addTooltip(format.aqua("Dropped by the Twilight Lich"));

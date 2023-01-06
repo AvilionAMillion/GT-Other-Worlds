@@ -83,7 +83,7 @@ var peridot = MaterialBuilder(24004, "peridot")
 	.color(0x517B22)
 	.iconSet("ruby")
 	.components([<material:magnesium> * 1, <material:iron> * 2, <material:silicon> * 1, <material:oxygen> * 4])
-	.flags(["generate_plate", "generate_rod", "generate_lens"])
+	.flags(["generate_plate", "generate_rod", "generate_lens", "disable_decomposition"])
 	.ore()
 	.build();
 # Refined Obsidian
@@ -103,7 +103,7 @@ var tanzanite = MaterialBuilder(24006, "tanzanite")
 	.color(0x7800CC)
 	.iconSet("quartz")
 	.components([<material:calcium> * 2, <material:aluminium> * 3, <material:silicon> * 3, <material:oxygen> * 12])
-	.flags(["generate_plate", "generate_rod", "generate_lens"])
+	.flags(["generate_plate", "generate_rod", "generate_lens", "disable_decomposition"])
 	.ore()
 	.build();
 # Crude Steel
@@ -150,6 +150,22 @@ var mana = MaterialBuilder(24011, "mana")
 	.components([<material:magic> * 1])
 	.flags(["disable_decomposition"])
 	.build();
+# Cryolite
+var cryolite = MaterialBuilder(24012, "cryolite")
+	.gem(4)
+	.color(0xDCE6F5)
+	.iconSet("quartz")
+	.components([<material:sodium> * 3, <material:aluminium> * 1, <material:fluorine> * 6])
+	.flags(["disable_decomposition"])
+	.ore()
+	.build();
+# Alumina
+var alumina = MaterialBuilder(24013, "alumina")
+	.dust()
+	.color(0xD8F0F2)
+	.iconSet("rough")
+	.components([<material:aluminium> * 2, <material:oxygen> * 3])
+	.build();
 	
 // Prexisting
 # Stone
@@ -159,3 +175,5 @@ var peridotGT = MaterialRegistry.get("peridot");
 peridotGT.addTools(12,3,344,4,true);
 var tanzaniteGT = MaterialRegistry.get("tanzanite");
 tanzaniteGT.addTools(15,5,408,4,true);
+var goldGT = MaterialRegistry.get("gold");
+goldGT.addFlags(["generate_gear"]);

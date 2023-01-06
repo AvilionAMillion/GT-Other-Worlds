@@ -51,9 +51,26 @@ var bloomHammerI as Item = VanillaFactory.createItem("ironhammer");
 bloomHammerI.maxDamage = 720;
 bloomHammerI.maxStackSize = 1;
 bloomHammerI.register();
+var trowel1 as Item = VanillaFactory.createItem("masontrowel");
+trowel1.maxDamage = 120;
+trowel1.toolLevel = 2;
+trowel1.maxStackSize = 1;
+trowel1.register();
  # Lubricated Foil
 var lubeFoil as Item = VanillaFactory.createItem("lubricatedfoil");
 lubeFoil.register();
+ # LV Control Module
+var controller1 as Item = VanillaFactory.createItem("controllv");
+controller1.register();
+ # Mica Insulation Sheet
+var micasheet as Item = VanillaFactory.createItem("micainsulation");
+micasheet.register();
+ # Centurian Bone
+var lichbone as Item = VanillaFactory.createItem("ancientbone");
+lichbone.register();
+ # Meteoric Dust
+var notskystone as Item = VanillaFactory.createItem("meteoricdust");
+notskystone.register();
 
 // Blocks
  # Glassy Sand
@@ -84,5 +101,10 @@ var badJuice = VanillaFactory.createFluid("badjuice", Color.fromHex("2E1C2C"));
 badJuice.stillLocation = "contenttweaker:fluids/blank_still";
 badJuice.flowingLocation = "contenttweaker:fluids/blank_flow";
 badJuice.register();
+
+var micaliquid = VanillaFactory.createFluid("colloidalmica", Color.fromHex("F5ECD3"));
+micaliquid.stillLocation = "contenttweaker:fluids/blank_still";
+micaliquid.flowingLocation = "contenttweaker:fluids/blank_flow";
+micaliquid.register();
 
 

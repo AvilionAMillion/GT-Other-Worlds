@@ -228,6 +228,20 @@ Fey.addRecipe("sylvanleggings", <roots:sylvan_leggings>, [<minecraft:iron_leggin
 # Sylvan Boots
 Fey.removeRecipe(<roots:sylvan_boots>);
 Fey.addRecipe("sylvanboots", <roots:sylvan_boots>, [<minecraft:iron_boots>, <gregtech:meta_dust:24008>, <gregtech:meta_plate:24009>, spiritherb, <ore:gemAmethyst>]);
+# Wildwood Helmet
+Fey.removeRecipe(<roots:wildwood_helmet>);
+Fey.addRecipe("wildwoodhelmet", <roots:wildwood_helmet>, [<roots:sylvan_helmet>, <roots:wildwood_log>, <roots:wildwood_log>, <gregtech:meta_plate:24010>, <gregtech:meta_gem_flawless:2006>]);
+# Wildwood Chestplate
+Fey.removeRecipe(<roots:wildwood_chestplate>);
+Fey.addRecipe("wildwoodchestplate", <roots:wildwood_chestplate>, [<roots:sylvan_chestplate>, <roots:wildwood_log>, <roots:wildwood_log>, <gregtech:meta_plate:24010>, <gregtech:meta_gem_flawless:2006>]);
+# Wildwood Leggings
+Fey.removeRecipe(<roots:wildwood_leggings>);
+Fey.addRecipe("wildwoodleggings", <roots:wildwood_leggings>, [<roots:sylvan_leggings>, <roots:wildwood_log>, <roots:wildwood_log>, <gregtech:meta_plate:24010>, <gregtech:meta_gem_flawless:2006>]);
+# Wildwood Helmet
+Fey.removeRecipe(<roots:wildwood_boots>);
+Fey.addRecipe("wildwoodboots", <roots:wildwood_boots>, [<roots:sylvan_boots>, <roots:wildwood_log>, <roots:wildwood_log>, <gregtech:meta_plate:24010>, <gregtech:meta_gem_flawless:2006>]);
+
+
 
 // Runic Shearing
 RunicShears.removeRecipe(spiritherb);
@@ -286,6 +300,6 @@ Rituals.modifyRitual("ritual_wildroot_growth", [wildroot, <roots:elemental_soil_
 
 // Spells
 # Chrysopoeia
-Mortar.changeSpell("spell_chrysopoeia", [infernalbulb, <ore:ingotRunicmetal>, dustGlowstone, <ore:gemDiamond>, <ore:dustRunic>]);
+Mortar.changeSpell("spell_chrysopoeia", [infernalbulb, <ore:plateRoseGold>, dustGlowstone, <ore:gemDiamond>, <contenttweaker:ancientbone>]);
 Chrysopoeia.removeRecipeByOutput(<minecraft:iron_nugget>);
 Chrysopoeia.removeRecipeByOutput(<minecraft:gold_nugget>);

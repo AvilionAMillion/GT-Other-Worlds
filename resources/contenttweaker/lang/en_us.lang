@@ -11,9 +11,15 @@ item.contenttweaker.twilightsoil.name=Twilight Soil
 item.contenttweaker.perfectpowder.name=Perfect Powder
 item.contenttweaker.hammer.name=Mason Bloom Hammer
 item.contenttweaker.ironhammer.name=Iron Bloom Hammer
+item.contenttweaker.masontrowel.name=Mason Pounding Trowel
 item.contenttweaker.lubricatedfoil.name=Lubricated Foil
+item.contenttweaker.controllv.name=LV Control Module
+item.contenttweaker.micainsulation.name=Mica Insulation Sheet
+item.contenttweaker.ancientbone.name=Centurian Bone
+item.contenttweaker.meteoricdust.name=Meteoric Dust
 
 tile.contenttweaker.glassy_sand.name=Glassy Sand
 tile.contenttweaker.netherBlock.name=Nether Portal Block
 fluid.foundry=Refractory Mortar
 fluid.badjuice=Extremely Noxious Liquor
+fluid.colloidalmica=Colloidal Mica

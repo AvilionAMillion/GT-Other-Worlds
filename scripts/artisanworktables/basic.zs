@@ -62,29 +62,14 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansHatchet>, 100)
   .addOutput(<artisanworktables:workshop:1>)
   .create();
-# Tanner's Workshop
-RecipeBuilder.get("basic")
-  .setShaped([
-    [<minecraft:leather>, <minecraft:leather>, <minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
-    [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>, <minecraft:planks>, <minecraft:planks>],
-    [<gregtech:planks:1>, <pyrotech:material:26>, <gregtech:meta_block_frame_103>, <pyrotech:material:26>, <gregtech:planks:1>],
-    [<gregtech:planks:1>, <gregtech:meta_block_frame_103>, <pyrotech:material:26>, <gregtech:meta_block_frame_103>, <gregtech:planks:1>],
-    [<gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>]])
-  .setFluid(<liquid:calcium_hydroxide> * 4000)
-  .addTool(<ore:artisansHandsaw>, 100)
-  .addTool(<ore:artisansNeedle>, 100)
-  .addTool(<ore:artisansKnife>, 100)
-  .addOutput(<artisanworktables:workshop:13>)
-  .create();
 # Farmer's Workshop
 RecipeBuilder.get("basic")
   .setShaped([
     [<ore:slabWood>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <ore:slabWood>],
     [<ore:slabWood>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <ore:slabWood>],
     [<ore:slabWood>, plateIron, <pyrotech:compacting_bin>, plateIron, <ore:slabWood>],
-    [<gregtech:planks:1>, <gregtech:meta_block_frame_103>, <artisanworktables:workshop:5>, <gregtech:meta_block_frame_103>, <gregtech:planks:1>],
-    [<gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>]])
-  .setFluid(<liquid:dirt> * 2000)
+    [<roots:wildwood_planks>, <gregtech:meta_block_frame_103>, <artisanworktables:workshop:5>, <gregtech:meta_block_frame_103>, <roots:wildwood_planks>],
+    [<roots:wildwood_planks>, <roots:wildwood_planks>, <roots:wildwood_planks>, <roots:wildwood_planks>, <roots:wildwood_planks>]])
   .addTool(<ore:artisansSifter>, 100)
   .addTool(<ore:artisansKnife>, 100)
   .addTool(<ore:artisansTrowel>, 100)
