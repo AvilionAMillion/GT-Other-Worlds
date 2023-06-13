@@ -15,3 +15,11 @@ material.mana=Mana
 material.infinity=Infinity
 material.cryolite=Cryolite
 material.alumina=Alumina
+
+item.gt.tool.harvest_level.0=§4Wood
+item.gt.tool.harvest_level.1=§7Flint
+item.gt.tool.harvest_level.2=§6Bronze
+item.gt.tool.harvest_level.3=§FIron
+item.gt.tool.harvest_level.4=§DWrought Iron
+item.gt.tool.harvest_level.5=§8Steel
+item.gt.tool.harvest_level.6=§CArdite

@@ -170,10 +170,6 @@ var alumina = MaterialBuilder(24013, "alumina")
 // Prexisting
 # Stone
 var stoneGT = MaterialRegistry.get("stone");
-stoneGT.addTools(1,1,40,1);
-var peridotGT = MaterialRegistry.get("peridot");
-peridotGT.addTools(12,3,344,4,true);
-var tanzaniteGT = MaterialRegistry.get("tanzanite");
-tanzaniteGT.addTools(15,5,408,4,true);
+stoneGT.addTools(0, 0, 0, 40);
 var goldGT = MaterialRegistry.get("gold");
 goldGT.addFlags(["generate_gear"]);

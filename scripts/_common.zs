@@ -74,15 +74,15 @@ global dustRedstone as IOreDictEntry = <ore:dustRedstone>;
 global dustGlowstone as IOreDictEntry = <ore:dustGlowstone>;
 
 // GregTech Tools
-global gtHammer as IItemStack = <gregtech:meta_tool:6>;
-global gtFile as IItemStack = <gregtech:meta_tool:9>;
-global gtScrewdriver as IIngredient = <gregtech:meta_tool:11> | <gregtech:meta_tool:31>;
-global gtMortar as IItemStack = <gregtech:meta_tool:12>;
-global gtKnife as IIngredient= <gregtech:meta_tool:15> | <gregtechfoodoption:gtfo_meta_tool:1>;
-global gtWrench as IIngredient = <gregtech:meta_tool:8> | <gregtech:meta_tool:28> | <gregtech:meta_tool:29> | <gregtech:meta_tool:30>; 
-global gtSaw as IIngredient = <gregtech:meta_tool:5> | <gregtech:meta_tool:25> | <gregtech:meta_tool:26> | <gregtech:meta_tool:27> | <gregtech:meta_tool:32>;
-global gtSoftHammer as IItemStack = <gregtech:meta_tool:7>;
-global gtBranchCutter as IItemStack = <gregtech:meta_tool:14>;
+global gtHammer as IItemStack = <gregtech:hammer>;
+global gtFile as IItemStack = <gregtech:file>;
+global gtScrewdriver as IIngredient = <gregtech:screwdriver> | <gregtech:screwdriver_lv>;
+global gtMortar as IItemStack = <gregtech:mortar>;
+global gtKnife as IItemStack = <gregtech:knife>;
+global gtWrench as IIngredient = <gregtech:wrench> | <gregtech:wrench_lv> | <gregtech:wrench_hv> | <gregtech:wrench_iv>; 
+global gtSaw as IIngredient = <gregtech:saw> | <gregtech:buzzsaw>;
+global gtSoftHammer as IItemStack = <gregtech:mallet>;
+global gtWireCutter as IItemStack = <gregtech:wire_cutter>;
 
 // Circuits
 global circuitULV as IOreDictEntry = <ore:circuitUlv>;

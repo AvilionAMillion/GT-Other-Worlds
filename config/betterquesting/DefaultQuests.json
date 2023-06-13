@@ -3273,14 +3273,25 @@
             "ForgeCaps:10": {
               "astralsorcery:cap_item_amulet_holder:10": {}
             },
-            "id:8": "gregtech:meta_tool",
+            "id:8": "gregtech:pickaxe",
             "Count:3": 1,
             "tag:10": {
-              "GT.ToolStats:10": {
-                "Material:8": "flint"
+              "DisallowContainerItem:1": 0,
+              "GT.Behaviours:10": {
+                "TorchPlacing:1": 1
+              },
+              "HideFlags:3": 2,
+              "GT.Tool:10": {
+                "MaxDurability:3": 64,
+                "ToolSpeed:5": 4.0,
+                "AttackDamage:5": 2.0,
+                "Durability:3": 0,
+                "Material:8": "flint",
+                "HarvestLevel:3": 1,
+                "AttackSpeed:5": -2.8
               }
             },
-            "Damage:2": 1,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "ignoresview:1": 0,
@@ -3307,14 +3318,25 @@
               "ForgeCaps:10": {
                 "astralsorcery:cap_item_amulet_holder:10": {}
               },
-              "id:8": "gregtech:meta_tool",
+              "id:8": "gregtech:pickaxe",
               "Count:3": 1,
               "tag:10": {
-                "GT.ToolStats:10": {
-                  "Material:8": "flint"
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "TorchPlacing:1": 1
+                },
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 64,
+                  "ToolSpeed:5": 4.0,
+                  "AttackDamage:5": 2.0,
+                  "Durability:3": 0,
+                  "Material:8": "flint",
+                  "HarvestLevel:3": 1,
+                  "AttackSpeed:5": -2.8
                 }
               },
-              "Damage:2": 1,
+              "Damage:2": 0,
               "OreDict:8": ""
             }
           },
@@ -3412,18 +3434,23 @@
             "ForgeCaps:10": {
               "astralsorcery:cap_item_amulet_holder:10": {}
             },
-            "id:8": "gregtech:meta_tool",
+            "id:8": "gregtech:hammer",
             "Count:3": 1,
             "tag:10": {
-              "GT.ToolStats:10": {
-                "MaxDurability:3": 80,
-                "DigSpeed:5": 6.0,
+              "DisallowContainerItem:1": 0,
+              "GT.Behaviours:10": {},
+              "HideFlags:3": 2,
+              "GT.Tool:10": {
+                "MaxDurability:3": 1,
+                "ToolSpeed:5": 5.0,
                 "AttackDamage:5": 2.0,
-                "HarvestLevel:3": 1,
-                "Material:8": "flint"
+                "Durability:3": 0,
+                "Material:8": "stone",
+                "HarvestLevel:3": 0,
+                "AttackSpeed:5": 37.2
               }
             },
-            "Damage:2": 12,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "ignoresview:1": 0,
@@ -3450,60 +3477,100 @@
               "ForgeCaps:10": {
                 "astralsorcery:cap_item_amulet_holder:10": {}
               },
-              "id:8": "gregtech:meta_tool",
+              "id:8": "gregtech:mortar",
               "Count:3": 1,
               "tag:10": {
-                "GT.ToolStats:10": {
-                  "MaxDurability:3": 80,
-                  "DigSpeed:5": 6.0,
-                  "AttackDamage:5": 2.0,
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 64,
+                  "AttackDamage:5": 0.0,
+                  "Durability:3": 0,
+                  "Material:8": "flint",
                   "HarvestLevel:3": 1,
-                  "Material:8": "flint"
+                  "AttackSpeed:5": -2.4
                 }
               },
-              "Damage:2": 12,
+              "Damage:2": 0,
               "OreDict:8": ""
             },
             "1:10": {
               "ForgeCaps:10": {
                 "astralsorcery:cap_item_amulet_holder:10": {}
               },
-              "id:8": "gregtech:meta_tool",
+              "id:8": "gregtech:hammer",
               "Count:3": 1,
               "tag:10": {
-                "GT.ToolStats:10": {
-                  "Material:8": "stone"
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 40,
+                  "ToolSpeed:5": 4.0,
+                  "AttackDamage:5": 1.0,
+                  "Durability:3": 0,
+                  "Material:8": "stone",
+                  "HarvestLevel:3": 0,
+                  "AttackSpeed:5": -2.8
                 }
               },
-              "Damage:2": 19,
+              "Damage:2": 0,
               "OreDict:8": ""
             },
             "2:10": {
               "ForgeCaps:10": {
                 "astralsorcery:cap_item_amulet_holder:10": {}
               },
-              "id:8": "gregtech:meta_tool",
+              "id:8": "gregtech:file",
               "Count:3": 1,
               "tag:10": {
-                "GT.ToolStats:10": {
-                  "Material:8": "stone"
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 40,
+                  "AttackDamage:5": 0.0,
+                  "Durability:3": 0,
+                  "Material:8": "stone",
+                  "AttackSpeed:5": -2.4
                 }
               },
-              "Damage:2": 6,
+              "Damage:2": 0,
               "OreDict:8": ""
             },
             "3:10": {
               "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "gregtech:meta_tool",
-              "Count:3": 1,
-              "tag:10": {
-                "GT.ToolStats:10": {
-                  "Material:8": "stone"
+                "astralsorcery:cap_item_amulet_holder:10": {
+                  "AS_Amulet_HolderLeast:4": -4648920116963100068,
+                  "AS_Amulet_HolderMost:4": 3237099140495459049
                 }
               },
-              "Damage:2": 9,
+              "id:8": "gregtech:mining_hammer",
+              "Count:3": 1,
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "AoELayer:3": 0,
+                  "MaxAoELayer:3": 0,
+                  "TorchPlacing:1": 1,
+                  "AoERow:3": 1,
+                  "AoEColumn:3": 1,
+                  "MaxAoERow:3": 1,
+                  "MaxAoEColumn:3": 1
+                },
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 120,
+                  "ToolSpeed:5": 4.0,
+                  "AttackDamage:5": 1.5,
+                  "Durability:3": 0,
+                  "Material:8": "stone",
+                  "HarvestLevel:3": 0,
+                  "AttackSpeed:5": -3.2
+                }
+              },
+              "Damage:2": 0,
               "OreDict:8": ""
             }
           },
@@ -3863,14 +3930,23 @@
               "ForgeCaps:10": {
                 "astralsorcery:cap_item_amulet_holder:10": {}
               },
-              "id:8": "gregtech:meta_tool",
+              "id:8": "gregtech:shovel",
               "Count:3": 1,
               "tag:10": {
-                "GT.ToolStats:10": {
-                  "Material:8": "iron"
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 256,
+                  "ToolSpeed:5": 6.0,
+                  "AttackDamage:5": 3.5,
+                  "Durability:3": 0,
+                  "Material:8": "iron",
+                  "HarvestLevel:3": 2,
+                  "AttackSpeed:5": -3.0
                 }
               },
-              "Damage:2": 2,
+              "Damage:2": 0,
               "OreDict:8": ""
             }
           }
@@ -5295,14 +5371,25 @@
             "ForgeCaps:10": {
               "astralsorcery:cap_item_amulet_holder:10": {}
             },
-            "id:8": "gregtech:meta_tool",
+            "id:8": "gregtech:pickaxe",
             "Count:3": 1,
             "tag:10": {
-              "GT.ToolStats:10": {
-                "Material:8": "bronze"
+              "DisallowContainerItem:1": 0,
+              "GT.Behaviours:10": {
+                "TorchPlacing:1": 1
+              },
+              "HideFlags:3": 2,
+              "GT.Tool:10": {
+                "MaxDurability:3": 192,
+                "ToolSpeed:5": 7.0,
+                "AttackDamage:5": 3.0,
+                "Durability:3": 0,
+                "Material:8": "bronze",
+                "HarvestLevel:3": 2,
+                "AttackSpeed:5": -2.8
               }
             },
-            "Damage:2": 1,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "ignoresview:1": 0,
@@ -5329,14 +5416,25 @@
               "ForgeCaps:10": {
                 "astralsorcery:cap_item_amulet_holder:10": {}
               },
-              "id:8": "gregtech:meta_tool",
+              "id:8": "gregtech:pickaxe",
               "Count:3": 1,
               "tag:10": {
-                "GT.ToolStats:10": {
-                  "Material:8": "bronze"
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "TorchPlacing:1": 1
+                },
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 192,
+                  "ToolSpeed:5": 7.0,
+                  "AttackDamage:5": 3.0,
+                  "Durability:3": 0,
+                  "Material:8": "bronze",
+                  "HarvestLevel:3": 2,
+                  "AttackSpeed:5": -2.8
                 }
               },
-              "Damage:2": 1,
+              "Damage:2": 0,
               "OreDict:8": ""
             }
           },
@@ -5352,25 +5450,38 @@
               "ForgeCaps:10": {
                 "astralsorcery:cap_item_amulet_holder:10": {}
               },
-              "id:8": "gregtech:meta_tool",
+              "id:8": "gregtech:mining_hammer",
               "Count:3": 1,
               "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "AoELayer:3": 0,
+                  "MaxAoELayer:3": 0,
+                  "TorchPlacing:1": 1,
+                  "AoERow:3": 1,
+                  "AoEColumn:3": 1,
+                  "MaxAoERow:3": 1,
+                  "MaxAoEColumn:3": 1
+                },
                 "ench:9": {
                   "0:10": {
                     "lvl:2": 2,
                     "id:3": 34
-                  },
-                  "1:10": {
-                    "lvl:2": 4,
-                    "id:3": 32
                   }
                 },
-                "RepairCost:3": 3,
-                "GT.ToolStats:10": {
-                  "Material:8": "stone"
+                "RepairCost:3": 1,
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 3,
+                  "ToolSpeed:5": 4.4,
+                  "AttackDamage:5": 2.5,
+                  "Durability:3": 0,
+                  "Material:8": "stone",
+                  "HarvestLevel:3": 0,
+                  "AttackSpeed:5": 36.8
                 }
               },
-              "Damage:2": 19,
+              "Damage:2": 0,
               "OreDict:8": ""
             }
           }
@@ -5832,14 +5943,25 @@
             "ForgeCaps:10": {
               "astralsorcery:cap_item_amulet_holder:10": {}
             },
-            "id:8": "gregtech:meta_tool",
+            "id:8": "gregtech:pickaxe",
             "Count:3": 1,
             "tag:10": {
-              "GT.ToolStats:10": {
-                "Material:8": "iron"
+              "DisallowContainerItem:1": 0,
+              "GT.Behaviours:10": {
+                "TorchPlacing:1": 1
+              },
+              "HideFlags:3": 2,
+              "GT.Tool:10": {
+                "MaxDurability:3": 256,
+                "ToolSpeed:5": 6.0,
+                "AttackDamage:5": 3.0,
+                "Durability:3": 0,
+                "Material:8": "iron",
+                "HarvestLevel:3": 2,
+                "AttackSpeed:5": -2.8
               }
             },
-            "Damage:2": 1,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "ignoresview:1": 0,
@@ -5866,14 +5988,25 @@
               "ForgeCaps:10": {
                 "astralsorcery:cap_item_amulet_holder:10": {}
               },
-              "id:8": "gregtech:meta_tool",
+              "id:8": "gregtech:pickaxe",
               "Count:3": 1,
               "tag:10": {
-                "GT.ToolStats:10": {
-                  "Material:8": "iron"
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "TorchPlacing:1": 1
+                },
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 256,
+                  "ToolSpeed:5": 6.0,
+                  "AttackDamage:5": 3.0,
+                  "Durability:3": 0,
+                  "Material:8": "iron",
+                  "HarvestLevel:3": 2,
+                  "AttackSpeed:5": -2.8
                 }
               },
-              "Damage:2": 1,
+              "Damage:2": 0,
               "OreDict:8": ""
             }
           },
@@ -5913,14 +6046,23 @@
             "ForgeCaps:10": {
               "astralsorcery:cap_item_amulet_holder:10": {}
             },
-            "id:8": "gregtech:meta_tool",
+            "id:8": "gregtech:hammer",
             "Count:3": 1,
             "tag:10": {
-              "GT.ToolStats:10": {
-                "Material:8": "iron"
+              "DisallowContainerItem:1": 0,
+              "GT.Behaviours:10": {},
+              "HideFlags:3": 2,
+              "GT.Tool:10": {
+                "MaxDurability:3": 256,
+                "ToolSpeed:5": 6.0,
+                "AttackDamage:5": 3.0,
+                "Durability:3": 0,
+                "Material:8": "iron",
+                "HarvestLevel:3": 2,
+                "AttackSpeed:5": -2.8
               }
             },
-            "Damage:2": 6,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "ignoresview:1": 0,
@@ -5947,113 +6089,178 @@
               "ForgeCaps:10": {
                 "astralsorcery:cap_item_amulet_holder:10": {}
               },
-              "id:8": "gregtech:meta_tool",
+              "id:8": "gregtech:hammer",
               "Count:3": 1,
               "tag:10": {
-                "GT.ToolStats:10": {
-                  "Material:8": "neutronium"
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 256,
+                  "ToolSpeed:5": 6.0,
+                  "AttackDamage:5": 3.0,
+                  "Durability:3": 0,
+                  "Material:8": "iron",
+                  "HarvestLevel:3": 2,
+                  "AttackSpeed:5": -2.8
                 }
               },
-              "Damage:2": 6,
+              "Damage:2": 0,
               "OreDict:8": "craftingToolHardHammer"
             },
             "1:10": {
               "ForgeCaps:10": {
                 "astralsorcery:cap_item_amulet_holder:10": {}
               },
-              "id:8": "gregtech:meta_tool",
+              "id:8": "gregtech:file",
               "Count:3": 1,
               "tag:10": {
-                "GT.ToolStats:10": {
-                  "Material:8": "neutronium"
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 256,
+                  "AttackDamage:5": 0.0,
+                  "Durability:3": 0,
+                  "Material:8": "iron",
+                  "AttackSpeed:5": -2.4
                 }
               },
-              "Damage:2": 9,
-              "OreDict:8": "craftingToolFile"
+              "Damage:2": 0,
+              "OreDict:8": "toolFile"
             },
             "2:10": {
               "ForgeCaps:10": {
                 "astralsorcery:cap_item_amulet_holder:10": {}
               },
-              "id:8": "gregtech:meta_tool",
+              "id:8": "gregtech:mallet",
               "Count:3": 1,
               "tag:10": {
-                "GT.ToolStats:10": {
-                  "Material:8": "neutronium"
+                "GT.Behaviours:10": {},
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 48,
+                  "ToolSpeed:5": 4.0,
+                  "AttackDamage:5": 1.0,
+                  "Durability:3": 0,
+                  "Material:8": "wood",
+                  "HarvestLevel:3": 1,
+                  "AttackSpeed:5": -2.4
                 }
               },
-              "Damage:2": 7,
-              "OreDict:8": "craftingToolSoftHammer"
+              "Damage:2": 0,
+              "OreDict:8": "toolMallet"
             },
             "3:10": {
               "ForgeCaps:10": {
                 "astralsorcery:cap_item_amulet_holder:10": {}
               },
-              "id:8": "gregtech:meta_tool",
+              "id:8": "gregtech:mortar",
               "Count:3": 1,
               "tag:10": {
-                "GT.ToolStats:10": {
-                  "Material:8": "neutronium"
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 256,
+                  "AttackDamage:5": 0.0,
+                  "Durability:3": 0,
+                  "Material:8": "iron",
+                  "AttackSpeed:5": -2.4
                 }
               },
-              "Damage:2": 12,
-              "OreDict:8": "craftingToolMortar"
+              "Damage:2": 0,
+              "OreDict:8": "toolMortar"
             },
             "4:10": {
               "ForgeCaps:10": {
                 "astralsorcery:cap_item_amulet_holder:10": {}
               },
-              "id:8": "gregtech:meta_tool",
+              "id:8": "gregtech:wrench",
               "Count:3": 1,
               "tag:10": {
-                "GT.ToolStats:10": {
-                  "Material:8": "neutronium"
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 256,
+                  "ToolSpeed:5": 6.0,
+                  "AttackDamage:5": 3.0,
+                  "Durability:3": 0,
+                  "Material:8": "iron",
+                  "HarvestLevel:3": 2,
+                  "AttackSpeed:5": -2.8
                 }
               },
-              "Damage:2": 8,
-              "OreDict:8": "craftingToolWrench"
+              "Damage:2": 0,
+              "OreDict:8": "toolWrench"
             },
             "5:10": {
               "ForgeCaps:10": {
                 "astralsorcery:cap_item_amulet_holder:10": {}
               },
-              "id:8": "gregtech:meta_tool",
+              "id:8": "gregtech:saw",
               "Count:3": 1,
               "tag:10": {
-                "GT.ToolStats:10": {
-                  "Material:8": "neutronium"
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "HarvestIce:1": 1
+                },
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 256,
+                  "AttackDamage:5": 1.0,
+                  "Durability:3": 0,
+                  "Material:8": "iron",
+                  "AttackSpeed:5": -2.6
                 }
               },
-              "Damage:2": 5,
-              "OreDict:8": "craftingToolSaw"
+              "Damage:2": 0,
+              "OreDict:8": "toolSaw"
             },
             "6:10": {
               "ForgeCaps:10": {
                 "astralsorcery:cap_item_amulet_holder:10": {}
               },
-              "id:8": "gregtech:meta_tool",
+              "id:8": "gregtech:screwdriver",
               "Count:3": 1,
               "tag:10": {
-                "GT.ToolStats:10": {
-                  "Material:8": "neutronium"
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 256,
+                  "AttackDamage:5": 1.0,
+                  "Durability:3": 0,
+                  "Material:8": "iron",
+                  "AttackSpeed:5": 3.0
                 }
               },
-              "Damage:2": 11,
-              "OreDict:8": "craftingToolScrewdriver"
+              "Damage:2": 0,
+              "OreDict:8": "toolScrewdriver"
             },
             "7:10": {
               "ForgeCaps:10": {
                 "astralsorcery:cap_item_amulet_holder:10": {}
               },
-              "id:8": "gregtech:meta_tool",
+              "id:8": "gregtech:wire_cutter",
               "Count:3": 1,
               "tag:10": {
-                "GT.ToolStats:10": {
-                  "Material:8": "neutronium"
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 256,
+                  "ToolSpeed:5": 6.0,
+                  "AttackDamage:5": 1.0,
+                  "Durability:3": 0,
+                  "Material:8": "iron",
+                  "HarvestLevel:3": 2,
+                  "AttackSpeed:5": -2.4
                 }
               },
-              "Damage:2": 13,
-              "OreDict:8": "craftingToolWireCutter"
+              "Damage:2": 0,
+              "OreDict:8": "toolWireCutter"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -7371,14 +7578,25 @@
             "ForgeCaps:10": {
               "astralsorcery:cap_item_amulet_holder:10": {}
             },
-            "id:8": "gregtech:meta_tool",
+            "id:8": "gregtech:pickaxe",
             "Count:3": 1,
             "tag:10": {
-              "GT.ToolStats:10": {
-                "Material:8": "wrought_iron"
+              "DisallowContainerItem:1": 0,
+              "GT.Behaviours:10": {
+                "TorchPlacing:1": 1
+              },
+              "HideFlags:3": 2,
+              "GT.Tool:10": {
+                "MaxDurability:3": 384,
+                "ToolSpeed:5": 6.0,
+                "AttackDamage:5": 3.0,
+                "Durability:3": 0,
+                "Material:8": "wrought_iron",
+                "HarvestLevel:3": 2,
+                "AttackSpeed:5": -3.0
               }
             },
-            "Damage:2": 1,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "ignoresview:1": 0,
@@ -7405,14 +7623,25 @@
               "ForgeCaps:10": {
                 "astralsorcery:cap_item_amulet_holder:10": {}
               },
-              "id:8": "gregtech:meta_tool",
+              "id:8": "gregtech:pickaxe",
               "Count:3": 1,
               "tag:10": {
-                "GT.ToolStats:10": {
-                  "Material:8": "wrought_iron"
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "TorchPlacing:1": 1
+                },
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 384,
+                  "ToolSpeed:5": 6.0,
+                  "AttackDamage:5": 3.0,
+                  "Durability:3": 0,
+                  "Material:8": "wrought_iron",
+                  "HarvestLevel:3": 2,
+                  "AttackSpeed:5": -3.0
                 }
               },
-              "Damage:2": 1,
+              "Damage:2": 0,
               "OreDict:8": ""
             }
           },
@@ -7783,22 +8012,23 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "gregtech:meta_tool",
+              "id:8": "betterquesting:placeholder",
               "Count:3": 1,
               "tag:10": {
-                "ench:9": {
-                  "0:10": {
-                    "lvl:2": 2,
-                    "id:3": 32
+                "orig_meta:3": 19,
+                "orig_tag:10": {
+                  "ench:9": {
+                    "0:10": {
+                      "lvl:2": 2,
+                      "id:3": 32
+                    }
+                  },
+                  "RepairCost:3": 1,
+                  "GT.ToolStats:10": {
+                    "Material:8": "wrought_iron"
                   }
                 },
-                "RepairCost:3": 1,
-                "GT.ToolStats:10": {
-                  "Material:8": "wrought_iron"
-                }
+                "orig_id:8": "gregtech:meta_tool"
               },
               "Damage:2": 19,
               "OreDict:8": ""
@@ -8800,15 +9030,16 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "gregtech:meta_tool",
+              "id:8": "betterquesting:placeholder",
               "Count:3": 1,
               "tag:10": {
-                "GT.ToolStats:10": {
-                  "Material:8": "steel"
-                }
+                "orig_meta:3": 5,
+                "orig_tag:10": {
+                  "GT.ToolStats:10": {
+                    "Material:8": "steel"
+                  }
+                },
+                "orig_id:8": "gregtech:meta_tool"
               },
               "Damage:2": 5,
               "OreDict:8": ""
@@ -9604,14 +9835,25 @@
             "ForgeCaps:10": {
               "astralsorcery:cap_item_amulet_holder:10": {}
             },
-            "id:8": "gregtech:meta_tool",
+            "id:8": "gregtech:pickaxe",
             "Count:3": 1,
             "tag:10": {
-              "GT.ToolStats:10": {
-                "Material:8": "steel"
+              "DisallowContainerItem:1": 0,
+              "GT.Behaviours:10": {
+                "TorchPlacing:1": 1
+              },
+              "HideFlags:3": 2,
+              "GT.Tool:10": {
+                "MaxDurability:3": 512,
+                "ToolSpeed:5": 9.0,
+                "AttackDamage:5": 4.0,
+                "Durability:3": 0,
+                "Material:8": "steel",
+                "HarvestLevel:3": 3,
+                "AttackSpeed:5": -2.8
               }
             },
-            "Damage:2": 1,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "ignoresview:1": 0,
@@ -12936,7 +13178,8 @@
     "169:10": {
       "questID:3": 169,
       "preRequisites:11": [
-        161
+        161,
+        173
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -12967,6 +13210,934 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "170:10": {
+      "questID:3": 170,
+      "preRequisites:11": [
+        95
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 1599,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Tanked Up!",
+          "desc:8": "The Steel Multiblock Tank holds 4x the amount of liquids as the Wooden Multiblock tank, storing a total of 1000 buckets!\n\nAutomatically outputs from a valve at the bottom, same as the wooden tank."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1599,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 2,
+              "Damage:2": 1598,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:metal_casing",
+              "Count:3": 23,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:fluid_pipe_large",
+              "Count:3": 16,
+              "Damage:2": 324,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 142,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "171:10": {
+      "questID:3": 171,
+      "preRequisites:11": [
+        131
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "artisanworktables:workshop",
+            "Count:3": 1,
+            "Damage:2": 10,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Farmer\u0027s Workshop",
+          "desc:8": "Do you hate crafting clay? Want to make bricks faster? Of course you do! Using Wildwood planks you can make a farmer\u0027s workshop, which allows you to not only craft pam\u0027s seeds, finally, it also allows you to make some recipes slightly easier. It\u0027s a handy worktable."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "artisanworktables:workshop",
+              "Count:3": 1,
+              "Damage:2": 10,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "172:10": {
+      "questID:3": 172,
+      "preRequisites:11": [
+        97,
+        95,
+        137
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 1024,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Steam Multiblocks",
+          "desc:8": "The §aSteam Oven§f and §aSteam Macerator §fare two multiblocks that will process multiple items in parralel and function, effectively, as better forms of the Steam Furnace and Steam Macerator. To use them, they take Steam Input Buses and a Steam Hatch, where the steam is put into the steam hatch."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1024,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1025,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "173:10": {
+      "questID:3": 173,
+      "preRequisites:11": [
+        154,
+        166
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:controllv",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Stay In Control!",
+          "desc:8": "To make any multiblock, you obviously need a way to control it. That\u0027s why you need to make the LV Control Module! This device is used in every multiblock controller, and even though it\u0027s expensive, you\u0027ll need it!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:controllv",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "174:10": {
+      "questID:3": 174,
+      "preRequisites:11": [
+        169,
+        177
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 1001,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Big Big Furnace!",
+          "desc:8": "§3Description To Be Added"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1001,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1151,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1181,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1166,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1196,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 2,
+              "Damage:2": 1211,
+              "OreDict:8": ""
+            },
+            "6:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1657,
+              "OreDict:8": ""
+            },
+            "7:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1654,
+              "OreDict:8": ""
+            },
+            "8:10": {
+              "id:8": "gregtech:wire_coil",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "9:10": {
+              "id:8": "gregtech:metal_casing",
+              "Count:3": 9,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "175:10": {
+      "questID:3": 175,
+      "preRequisites:11": [
+        169
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 2027,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Big Big Engine!",
+          "desc:8": "§3Description To Be Added"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 2027,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 2,
+              "Damage:2": 1181,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1196,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1226,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1654,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1657,
+              "OreDict:8": ""
+            },
+            "6:10": {
+              "id:8": "gregtech:turbine_casing",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "7:10": {
+              "id:8": "gcym:large_multiblock_casing",
+              "Count:3": 20,
+              "Damage:2": 12,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "176:10": {
+      "questID:3": 176,
+      "preRequisites:11": [
+        169
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 1013,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Big Big Boiler!",
+          "desc:8": "§3Description To Be Added"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1013,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1151,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1181,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 2,
+              "Damage:2": 1196,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1657,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1654,
+              "OreDict:8": ""
+            },
+            "6:10": {
+              "id:8": "gregtech:boiler_casing",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "7:10": {
+              "id:8": "gregtech:boiler_firebox_casing",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "8:10": {
+              "id:8": "gregtech:metal_casing",
+              "Count:3": 22,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "177:10": {
+      "questID:3": 177,
+      "preRequisites:11": [
+        165
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:micainsulation",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Fullbody Coating",
+          "desc:8": "§3Description To Be Added"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_dust",
+              "Count:3": 8,
+              "Damage:2": 386,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "enderio:item_material",
+              "Count:3": 1,
+              "Damage:2": 20,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "FluidName:8": "colloidalmica",
+              "Amount:3": 144
+            }
+          },
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "taskID:8": "bq_standard:fluid"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:micainsulation",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "178:10": {
+      "questID:3": 178,
+      "preRequisites:11": [
+        174
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_ingot",
+            "Count:3": 1,
+            "Damage:2": 301,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Non-Aluminium Ingots",
+          "desc:8": "§3Description To Be Added"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 1,
+              "Damage:2": 301,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 1,
+              "Damage:2": 300,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 1,
+              "Damage:2": 99,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "179:10": {
+      "questID:3": 179,
+      "preRequisites:11": [
+        174
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_ingot",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "ALUMINIUM!!!!!!",
+          "desc:8": "§3Description To Be Added"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "180:10": {
+      "questID:3": 180,
+      "preRequisites:11": [
+        126
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "twilightforest:trophy",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "BOSS: Twilight Lich",
+          "desc:8": "What???? A Boss right after???? Well, it\u0027s not required immediately after, but soon you\u0027ll have to face the Twilight Lich in the tall towers around the forests and savannahs, kill him and take his bones!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": -2.0,
+                "Name:8": "tc.mobmod"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "tc.mobmodtaint"
+              },
+              "2:10": {
+                "Base:6": 100.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "4:10": {
+                "Base:6": 0.45000001788139343,
+                "Name:8": "generic.movementSpeed"
+              },
+              "5:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "6:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "7:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "8:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              },
+              "9:10": {
+                "Base:6": 6.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "nuclearcraft:capability_entity_rads:10": {
+                "consumed:1": 0,
+                "radawayBuffer:6": 0.0,
+                "shouldWarn:1": 0,
+                "radXUsed:1": 0,
+                "poisonBuffer:6": 0.0,
+                "radXCooldown:6": 0.0,
+                "radXWoreOff:1": 0,
+                "radawayCooldown:6": 0.0,
+                "recentRadawayAddition:6": 0.0,
+                "maxRads:6": 5000.0,
+                "setMaxRads:1": 1,
+                "radawayBufferSlow:6": 0.0,
+                "externalRadiationResistance:6": 0.0,
+                "messageCooldownTime:3": 0,
+                "totalRads:6": 0.0,
+                "radiationLevel:6": 0.0,
+                "recentPoisonAddition:6": 0.0,
+                "recentRadXAddition:6": 0.0,
+                "radiationImmunityStage:1": 0,
+                "giveGuidebook:1": 0,
+                "internalRadiationResistance:6": 0.0,
+                "radiationImmunityTime:6": 0.0
+              },
+              "enderutilities:entity_portal_cooldown:10": {
+                "LastInPortal:4": 0
+              },
+              "twilightforest:cap_shield:10": {
+                "permshields:3": 0,
+                "tempshields:3": 0
+              },
+              "pyrotech:spear:10": {
+                "seed:3": 0,
+                "itemStacks:9": {}
+              },
+              "pneumaticcraft:hacking:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "twilightforest:lich",
+            "ShadowClone:1": 0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -7577669254624882522,
+            "Health:5": 100.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "MinionsToSummon:1": 9,
+            "Rotation:9": {
+              "0:5": 2.7342553,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": -5507328778163304433,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "ShieldStrength:1": 5,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "twilightforest:lich",
+          "subtypes:1": 1
         }
       },
       "rewards:9": {}
@@ -13793,6 +14964,20 @@
           "y:3": 240,
           "id:3": 147,
           "sizeY:3": 48
+        },
+        "36:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 108,
+          "id:3": 170,
+          "sizeY:3": 24
+        },
+        "37:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": 72,
+          "id:3": 172,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 1,
@@ -14052,6 +15237,13 @@
           "y:3": 208,
           "id:3": 153,
           "sizeY:3": 24
+        },
+        "34:10": {
+          "sizeX:3": 24,
+          "x:3": 112,
+          "y:3": 168,
+          "id:3": 171,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 2,
@@ -14070,7 +15262,7 @@
           "desc:8": "Get acquantinced with plants and alchemy as you play with Roots and Rustic"
         }
       },
-      "order:3": 3
+      "order:3": 4
     },
     "3:10": {
       "quests:9": {
@@ -14129,6 +15321,13 @@
           "y:3": 72,
           "id:3": 138,
           "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -8,
+          "y:3": 112,
+          "id:3": 180,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 3,
@@ -14147,7 +15346,7 @@
           "desc:8": "The first \"Other Worlds\" in the modpack! Travel to the Twilight Forest, burn in the Nether, dive into the Mystic, and finally end up at the End."
         }
       },
-      "order:3": 4
+      "order:3": 5
     },
     "4:10": {
       "quests:9": {
@@ -14223,8 +15422,8 @@
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": -156,
-          "y:3": 180,
+          "x:3": -108,
+          "y:3": 228,
           "id:3": 159,
           "sizeY:3": 24
         },
@@ -14237,7 +15436,7 @@
         },
         "12:10": {
           "sizeX:3": 48,
-          "x:3": -168,
+          "x:3": -72,
           "y:3": 216,
           "id:3": 161,
           "sizeY:3": 48
@@ -14293,9 +15492,58 @@
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": -156,
+          "x:3": -60,
           "y:3": 276,
           "id:3": 169,
+          "sizeY:3": 24
+        },
+        "21:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 276,
+          "id:3": 173,
+          "sizeY:3": 24
+        },
+        "22:10": {
+          "sizeX:3": 48,
+          "x:3": -72,
+          "y:3": 312,
+          "id:3": 174,
+          "sizeY:3": 48
+        },
+        "23:10": {
+          "sizeX:3": 24,
+          "x:3": -156,
+          "y:3": 276,
+          "id:3": 175,
+          "sizeY:3": 24
+        },
+        "24:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": 276,
+          "id:3": 176,
+          "sizeY:3": 24
+        },
+        "25:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": 324,
+          "id:3": 177,
+          "sizeY:3": 24
+        },
+        "26:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": 324,
+          "id:3": 178,
+          "sizeY:3": 24
+        },
+        "27:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": 372,
+          "id:3": 179,
           "sizeY:3": 24
         }
       },
@@ -14342,30 +15590,72 @@
         },
         "3:10": {
           "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 0,
+          "id:3": 75,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
           "x:3": 48,
           "y:3": 0,
           "id:3": 95,
           "sizeY:3": 24
         },
-        "4:10": {
+        "5:10": {
           "sizeX:3": 24,
           "x:3": 48,
           "y:3": 48,
           "id:3": 96,
           "sizeY:3": 24
         },
-        "5:10": {
+        "6:10": {
           "sizeX:3": 48,
-          "x:3": 96,
+          "x:3": 144,
           "y:3": 0,
           "id:3": 161,
           "sizeY:3": 48
         },
-        "6:10": {
+        "7:10": {
           "sizeX:3": 24,
           "x:3": 156,
           "y:3": 60,
           "id:3": 169,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 48,
+          "id:3": 170,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": 48,
+          "y:3": 96,
+          "id:3": 172,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": 156,
+          "y:3": 96,
+          "id:3": 174,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": 216,
+          "y:3": 96,
+          "id:3": 175,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 96,
+          "id:3": 176,
           "sizeY:3": 24
         }
       },
@@ -14385,7 +15675,27 @@
           "desc:8": "Filled With every multiblock you\u0027ll ever need!"
         }
       },
-      "order:3": 5
+      "order:3": 6
+    },
+    "6:10": {
+      "quests:9": {},
+      "lineID:3": 6,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "name:8": "Tier 2: Medium Voltage",
+          "icon:10": {
+            "id:8": "gregtech:machine_casing",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Machines use 128 EU/t and things get even more expensive! Now you\u0027re really into things"
+        }
+      },
+      "order:3": 3
     }
   },
   "questSettings:10": {
