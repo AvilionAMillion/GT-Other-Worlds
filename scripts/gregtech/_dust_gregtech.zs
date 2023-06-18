@@ -49,7 +49,7 @@ Mortar.addRecipe("runic_powder", <gregtech:meta_dust:24008> * 3, [<contenttweake
 
 // Fey Crafter (Roots)
 # Runic Dust
-Fey.addRecipe("runicdust", <gregtech:meta_dust:24008> * 8, [<contenttweaker:bafflepowder>, <gregtech:meta_dust:1599>, <gregtech:meta_dust:2049>, <gregtech:meta_dust:324>, <gregtech:meta_dust:324>]);
+Fey.addRecipe("runicdust", <gregtech:meta_dust:24008> * 5, [<contenttweaker:bafflepowder>, <gregtech:meta_dust:1599>, <gregtech:meta_dust:2049>, <gregtech:meta_dust:324>, <gregtech:meta_dust:324>]);
 
 // Chrysopoeia (Roots)
 Chrysopoeia.addRecipe("mana", <contenttweaker:perfectpowder>, <gregtech:meta_dust_tiny:24011>);

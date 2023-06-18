@@ -9,7 +9,7 @@
       "enchantability": 5,
       "color": "1a1a1a",
       "shiny": true,
-      "ingredient": "minecraft:flint",
+      "ingredient": "tconstruct:shard",
       "langKey": "material.athenaeum.flint",
       "oreDictKey": "artisansToolFlint"
     },

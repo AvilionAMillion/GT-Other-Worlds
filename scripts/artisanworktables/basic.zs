@@ -104,66 +104,6 @@ RecipeBuilder.get("basic")
   .create();
 
 // Artisan Materials
-# Flint Hatchet
-RecipeBuilder.get("basic")
-  .setShaped([
-    [null, flintShard, <ore:string>],
-    [flintShard, <ore:stickWood>, null],
-    [<ore:stickWood>, null, null]])
-  .addOutput(<artisanworktables:artisans_hatchet_flint>)
-  .create();
-# Flint File
-RecipeBuilder.get("basic")
-  .setShaped([
-    [null, <ore:string>, flintShard],
-    [<ore:string>, flintShard, null],
-    [<ore:stickWood>, null, null]])
-  .addOutput(<artisanworktables:artisans_file_flint>)
-  .create();
-# Flint Handsaw
-RecipeBuilder.get("basic")
-  .setShaped([
-    [<ore:stickWood>, <ore:string>, <ore:stickWood>],
-    [flintShard, flintShard, <ore:stickWood>]])
-  .addOutput(<artisanworktables:artisans_handsaw_flint>)
-  .create();
-# Flint Mortar
-RecipeBuilder.get("basic")
-  .setShapeless([<ore:stickWood>, flintShard, <minecraft:bowl>])
-  .addOutput(<artisanworktables:artisans_mortar_flint>)
-  .create();
-# Flint Knife
-RecipeBuilder.get("basic")
-  .setShaped([
-    [null, null, flintShard],
-    [<ore:string>, flintShard, null],
-    [<ore:stickWood>, <ore:string>, null]])
-  .addOutput(<artisanworktables:artisans_knife_flint>)
-  .create();
-# Flint Hammer
-RecipeBuilder.get("basic")
-  .setShaped([
-    [null, <minecraft:flint>, <ore:string>],
-    [null, <ore:stickWood>, <minecraft:flint>],
-    [<ore:stickWood>, null, null]])
-  .addOutput(<artisanworktables:artisans_hammer_flint>)
-  .create();
-# Flint Chisel
-RecipeBuilder.get("basic")
-  .setShaped([
-    [null, null, <minecraft:flint>],
-    [null, <minecraft:flint>, null],
-    [<ore:stickWood>, null, null]])
-  .addOutput(<artisanworktables:artisans_chisel_flint>)
-  .create();
-# Flint Needle
-RecipeBuilder.get("basic")
-  .setShaped([
-    [null, null, <minecraft:flint>],
-    [null, <minecraft:flint>, <minecraft:string>],
-    [<ore:stickWood>, null, null]])
-  .addOutput(<artisanworktables:artisans_needle_flint>)
-  .create();
 # Mason Hammer
 RecipeBuilder.get("basic")
   .setShaped([
@@ -172,3 +112,19 @@ RecipeBuilder.get("basic")
     [<minecraft:stick>, null, null]])
   .addOutput(<artisanworktables:artisans_hammer_mason>)
   .create();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
