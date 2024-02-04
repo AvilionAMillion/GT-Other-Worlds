@@ -22,7 +22,7 @@ val refracBrick = <pyrotech:material:5>;
 val masonBrickBlock = <pyrotech:masonry_brick_block>;
 
 // Flint Shard Replacement
-recipes.replaceAllOccurences(<pyrotech:material:10>, <tconstruct:shard>.withTag({Material: "flint"}));
+recipes.replaceAllOccurences(<pyrotech:material:10>, <contenttweaker:flintshard>);
 mods.jei.JEI.removeAndHide(<pyrotech:material:10>);
 // JEI Removal
 mods.jei.JEI.hideCategory("pyrotech.worktable");

@@ -25,6 +25,44 @@ assembler.recipeBuilder()
 	.EUt(32)
 	.duration(200)
 	.buildAndRegister();
+# Wood Casing
+recipes.remove(<actuallyadditions:block_misc:4>);
+assembler.recipeBuilder()
+	.inputs(<ore:logWood> * 16)
+	.fluidInputs(<fluid:creosote> * 2000)
+	.outputs(<actuallyadditions:block_misc:4>)
+	.EUt(20)
+	.duration(400)
+	.buildAndRegister();
+# Chemist Workshop
+assembler.recipeBuilder()
+	.inputs(<artisanworktables:workshop:5>, circuitLV * 4, <gregtech:machine:215> * 2, <actuallyadditions:block_misc:4>)
+	.fluidInputs(<fluid:soldering_alloy> * 288)
+	.outputs(<artisanworktables:workshop:9>)
+	.EUt(32)
+	.duration(1600)
+	.buildAndRegister();
+# Coated Circuit Board
+assembler.recipeBuilder()
+	.inputs(<gregtech:meta_plate:1648>)
+	.fluidInputs(<fluid:glue> * 50)
+	.circuit(1)
+	.outputs(<gregtech:meta_item_1:381>)
+	.EUt(24)
+	.duration(150)
+	.buildAndRegister();
+
+// MV
+# Phenolic Circuit Board
+<recipemap:assembler>.findRecipe(30, [<metaitem:dustWood>, <metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:glue> * 50]).remove();
+assembler.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:381>)
+	.fluidInputs(<fluid:phenol> * 100)
+	.circuit(1)
+	.outputs(<gregtech:meta_item_1:382>)
+	.EUt(48)
+	.duration(150)
+	.buildAndRegister();
 	
 // HV
 # Blacksmiths Workshop

@@ -106,15 +106,6 @@ var tanzanite = MaterialBuilder(24006, "tanzanite")
 	.flags(["generate_plate", "generate_rod", "generate_lens", "disable_decomposition"])
 	.ore()
 	.build();
-# Crude Steel
-var crudeSteel = MaterialBuilder(24007, "crude_steel")
-	.ingot(3)
-	.color(0x928C87)
-	.iconSet("metallic")
-	.components([<material:iron> * 1])
-	.flags(["generate_plate", "generate_rod", "generate_bolt_screw", "generate_frame"])
-	.blastTemp(800, "LOW", 60, 100)
-	.build();
 # Runic
 var runic = MaterialBuilder(24008, "runic")
 	.dust(1)
@@ -169,7 +160,8 @@ var alumina = MaterialBuilder(24013, "alumina")
 	
 // Prexisting
 # Stone
-var stoneGT = MaterialRegistry.get("stone");
-stoneGT.addTools(0, 0, 0, 40);
-var goldGT = MaterialRegistry.get("gold");
-goldGT.addFlags(["generate_gear"]);
+<material:stone>.addTools(0, 0, 0, 40);
+# Gold
+<material:gold>.addFlags("generate_gear");
+# Invar
+<material:invar>.addFlags("generate_double_plate");

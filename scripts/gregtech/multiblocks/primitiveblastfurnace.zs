@@ -12,7 +12,7 @@ val pbfWroughtIron = <gregtech:meta_ingot:335>;
 val pbfIronBlock = <minecraft:iron_block>;
 val pbfWIronBlock = <gregtech:meta_block_compressed_20:15>;
 val pbfSteel = <gregtech:meta_ingot:24007>;
-val pbfSteelBlock = <gregtech:meta_block_compressed_1500:7>;
+val pbfSteelBlock = <gregtech:meta_block_compressed_20:4>;
 
 // Removal
 # This is all the recipes

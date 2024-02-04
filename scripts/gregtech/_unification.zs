@@ -655,9 +655,7 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 		
 	# GT Material Ingots
 	<ore:ingotRefinedObsidian> : [
-		<mekanism:ingot>],
-	<ore:ingotCrudeSteel> : [
-		<enderio:item_alloy_endergy_ingot>]
+		<mekanism:ingot>]
 };
 
 for oreDictEntry, items in ingotsDisabled {
@@ -830,8 +828,6 @@ var blocksDisabled as IItemStack[][IOreDictEntry] = {
 	# GT Material Blocks
 	<ore:blockRefinedObsidian> : [
 		<mekanism:basicblock:2>],
-	<ore:blockCrudeSteel> : [
-		<enderio:block_alloy_endergy>],
 	<ore:blockIronwood> : [
 		<twilightforest:block_storage>]
 	
@@ -1282,9 +1278,7 @@ var nuggetsDisabled as IItemStack[][IOreDictEntry] = {
 	
 	# GT Material Nuggets
 	<ore:nuggetRefinedObsidian> : [
-		<mekanism:nugget>],
-	<ore:nuggetCrudeSteel> : [
-		<enderio:item_alloy_endergy_nugget>]
+		<mekanism:nugget>]
 };
 
 for oreDictEntry, items in nuggetsDisabled {
