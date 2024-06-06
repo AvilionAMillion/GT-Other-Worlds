@@ -21,9 +21,6 @@ val builder = RecipeBuilder.get("basic");
 val refracBrick = <pyrotech:material:5>;
 val masonBrickBlock = <pyrotech:masonry_brick_block>;
 
-// Flint Shard Replacement
-recipes.replaceAllOccurences(<pyrotech:material:10>, <contenttweaker:flintshard>);
-mods.jei.JEI.removeAndHide(<pyrotech:material:10>);
 // JEI Removal
 mods.jei.JEI.hideCategory("pyrotech.worktable");
 
@@ -84,7 +81,7 @@ DryingRack.addRecipe("driedplantfibers", <pyrotech:material:13>, <pyrotech:mater
 
 // Crafting
 recipes.addShapeless(<pyrotech:flint_and_tinder>, 
-	[<tconstruct:shard>.withTag({Material: "flint"}), <pyrotech:material:13>, <minecraft:cobblestone>]);
+	[<pyrotech:material:10>, <pyrotech:material:13>, <minecraft:cobblestone>]);
 # Refractory Faucet
 recipes.addShaped(<pyrotech:faucet_brick>,
 	[[refracBrick, <pyrotech:faucet_stone>, refracBrick],

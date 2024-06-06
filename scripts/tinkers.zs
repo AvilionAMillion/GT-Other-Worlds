@@ -11,8 +11,7 @@ val basicPickaxe = <tconstruct:pickaxe>.withTag({StatsOriginal: {AttackSpeedMult
 val basicAxe = <tconstruct:hatchet>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 120, HarvestLevel: 0, Attack: 3.4 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 120, HarvestLevel: 0, Attack: 3.4 as float}, Special: {Categories: ["harvest", "aoe", "tool", "weapon"]}, TinkerData: {Materials: ["wood", "flint", "wood"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "crude", color: -9868951, level: 2, crude2: 1 as byte}, {identifier: "toolleveling", color:  16777215, level: 1}], Traits: ["ecological", "crude2", "toolleveling"]});
 val basicShovel = <tconstruct:shovel>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 120, HarvestLevel: 0, Attack: 2.9 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 120, HarvestLevel: 0, Attack: 2.9 as float}, Special: {Categories: ["harvest", "aoe", "tool"]}, TinkerData: {Materials: ["wood", "flint", "wood"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "crude", color: -9868951, level: 2, crude2: 1 as byte}, {identifier: "toolleveling", color:  16777215, level: 1}], Traits: ["ecological", "crude2", "toolleveling"]});
 val basicMattock = <tconstruct:mattock>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, HarvestLevelAxe: 0, MiningSpeed: 5.0 as float, FreeModifiers: 3, HarvestLevelShovel: 0, Durability: 120, HarvestLevel: 0, Attack: 5.9 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, HarvestLevelAxe: 0, MiningSpeed: 5.0 as float, FreeModifiers: 0, HarvestLevelShovel: 0, Durability: 120, HarvestLevel: 0, Attack: 5.9 as float}, Special: {Categories: ["harvest", "tool", "aoe"]}, TinkerData: {Materials: ["wood", "flint", "flint"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "crude", color: -9868951, level: 2, crude2: 1 as byte}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["ecological", "crude2", "toolleveling"]});
-val flintAxe = <tconstruct:lumberaxe>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 2.0 as float, FreeModifiers: 0, Durability: 160, HarvestLevel: 0, Attack: 3.9 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 2.0 as float, FreeModifiers: 0, Durability: 160, HarvestLevel: 0, Attack: 3.9 as float}, Special: {Categories: ["aoe", "harvest", "tool"]}, TinkerData: {Materials: ["wood", "flint", "flint", "wood"], Modifiers: []}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "crude", color: -9868951, level: 2, crude2: 1 as byte}], Traits: ["ecological", "crude2"]});
-val flintShard = <contenttweaker:flintshard>;
+val flintShard = <pyrotech:material:10>;
 val searedBrick = <tconstruct:materials>;
 
 // JEI
@@ -20,7 +19,6 @@ mods.jei.JEI.addItem(basicAxe);
 mods.jei.JEI.addItem(basicPickaxe);
 mods.jei.JEI.addItem(basicShovel);
 mods.jei.JEI.addItem(basicMattock);
-mods.jei.JEI.addItem(flintAxe);
 mods.jei.JEI.hideCategory("tconstruct.smeltery");
 mods.jei.JEI.hideCategory("tconstruct.alloy");
 mods.jei.JEI.hideCategory("tconstruct.casting_table");
@@ -60,8 +58,8 @@ RecipeBuilder.get("basic")
 # Flint Hatchet Head
 RecipeBuilder.get("basic")
   .setShaped([
-    [<tconstruct:shard>.withTag({Material: "flint"}), <tconstruct:shard>.withTag({Material: "flint"}), <ore:string>],
-    [<tconstruct:shard>.withTag({Material: "flint"}), <ore:string>, null]])
+    [<pyrotech:material:10>, <pyrotech:material:10>, <ore:string>],
+    [<pyrotech:material:10>, <ore:string>, null]])
   .addTool(<ore:artisansFile>, 16)
   .addOutput(<tconstruct:axe_head>.withTag({Material: "flint"}))
   .create();
@@ -208,20 +206,3 @@ recipes.addShaped(<tconstruct:tinker_tank_controller>,
 	[[plateIron, <tconstruct:seared:3>, plateIron],
 	[<tconstruct:seared:3>, <gregtech:machine:1611>, <tconstruct:seared:3>],
 	[gtHammer, <tconstruct:seared:3>, gtSaw]]);
-
-
-// Custom Tinkers Tools
-# Flint Lumberaxe
-RecipeBuilder.get("basic")
-  .setShaped([
-    [null, <tconstruct:large_plate>.withTag({Material: "flint"}), <tconstruct:large_plate>.withTag({Material: "flint"}), <gregtech:planks:1>, null],
-    [<tconstruct:large_plate>.withTag({Material: "flint"}), <tconstruct:large_plate>.withTag({Material: "flint"}), <tconstruct:large_plate>.withTag({Material: "flint"}), <pyrotech:material:26>, <gregtech:planks:1>],
-    [<tconstruct:large_plate>.withTag({Material: "flint"}), <tconstruct:large_plate>.withTag({Material: "flint"}), <pyrotech:material:26>, <gregtech:planks:1>, <gregtech:planks:1>],
-    [null, null, <gregtech:planks:1>, <gregtech:planks:1>, null],
-    [null, <gregtech:planks:1>, <gregtech:planks:1>, null, null]])
-  .setSecondaryIngredients([<tconstruct:broad_axe_head>.withTag({Material: "flint"}), <tconstruct:tough_binding>.withTag({Material: "wood"}), <tconstruct:tough_tool_rod>.withTag({Material: "wood"})])
-  .addTool(<ore:artisansHandsaw>, 200)
-  .addTool(<ore:artisansHammer>, 200)
-  .addTool(<ore:artisansHatchet>, 200)
-  .addOutput(flintAxe)
-  .create();

@@ -34,14 +34,6 @@ assembler.recipeBuilder()
 	.EUt(20)
 	.duration(400)
 	.buildAndRegister();
-# Chemist Workshop
-assembler.recipeBuilder()
-	.inputs(<artisanworktables:workshop:5>, circuitLV * 4, <gregtech:machine:215> * 2, <actuallyadditions:block_misc:4>)
-	.fluidInputs(<fluid:soldering_alloy> * 288)
-	.outputs(<artisanworktables:workshop:9>)
-	.EUt(32)
-	.duration(1600)
-	.buildAndRegister();
 # Coated Circuit Board
 assembler.recipeBuilder()
 	.inputs(<gregtech:meta_plate:1648>)
@@ -65,11 +57,3 @@ assembler.recipeBuilder()
 	.buildAndRegister();
 	
 // HV
-# Blacksmiths Workshop
-assembler.recipeBuilder()
-	.inputs(<metaitem:blockStainlessSteel> * 4, <artisanworktables:workshop:5>, <actuallyadditions:block_misc:4> * 4, <enderio:block_dark_steel_anvil>)
-	.fluidInputs(<fluid:soldering_alloy> * 4000)
-	.outputs(<artisanworktables:workshop:3>)
-	.EUt(120)
-	.duration(1600)
-	.buildAndRegister();

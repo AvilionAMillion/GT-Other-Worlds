@@ -1,6 +1,10 @@
 // GTOW ZS File
 // Made by GTOW Team
 import mods.artisanworktables.builder.RecipeBuilder;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.recipes.ICraftingRecipe;
+import mods.artisanworktables.builder.Copy;
 
 val builder = RecipeBuilder.get("basic");
 val flintShard = <tconstruct:shard>.withTag({Material: "flint"});
@@ -48,20 +52,6 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansTSquare>, 50)
   .addOutput(<artisanworktables:workshop:2>)
   .create();
-# Carpenter's Workshop
-RecipeBuilder.get("basic")
-  .setShaped([
-    [<ore:plankWood>, <pyrotech:chopping_block>, <pyrotech:chopping_block>, <pyrotech:chopping_block>, <ore:plankWood>],
-    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-    [<gregtech:planks:1>, <pyrotech:material:26>, <gregtech:meta_block_frame_103>, <pyrotech:material:26>, <gregtech:planks:1>],
-    [<gregtech:planks:1>, <gregtech:meta_block_frame_103>, <pyrotech:material:26>, <gregtech:meta_block_frame_103>, <gregtech:planks:1>],
-    [<gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>]])
-  .setFluid(<liquid:wood_tar> * 4000)
-  .addTool(<ore:artisansHandsaw>, 100)
-  .addTool(<ore:artisansFramingHammer>, 100)
-  .addTool(<ore:artisansHatchet>, 100)
-  .addOutput(<artisanworktables:workshop:1>)
-  .create();
 # Farmer's Workshop
 RecipeBuilder.get("basic")
   .setShaped([
@@ -74,19 +64,6 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansKnife>, 100)
   .addTool(<ore:artisansTrowel>, 100)
   .addOutput(<artisanworktables:workshop:10>)
-  .create();
-# Scribes Workshop
-RecipeBuilder.get("basic")
-  .setShaped([
-    [<minecraft:planks>, <tconstruct:pattern>, <tconstruct:pattern>, <tconstruct:pattern>, <minecraft:planks>],
-    [<minecraft:bookshelf>, <minecraft:bookshelf>, <minecraft:bookshelf>, <minecraft:bookshelf>, <minecraft:bookshelf>],
-    [<minecraft:planks>, <minecraft:planks>, <artisanworktables:workshop:5>, <minecraft:planks>, <minecraft:planks>],
-    [<gregtech:planks:1>, <gregtech:meta_block_frame_103>, <gregtech:meta_block_frame_103>, <gregtech:meta_block_frame_103>, <gregtech:planks:1>],
-    [<gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>, <gregtech:planks:1>]])
-  .addTool(<ore:artisansGrimoire>, 200)
-  .addTool(<ore:artisansQuill>, 200)
-  .addTool(<ore:artisansPencil>, 200)
-  .addOutput(<artisanworktables:workshop:8>)
   .create();
 # Engineer's Workshop
 RecipeBuilder.get("basic")
@@ -102,16 +79,25 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansTSquare>, 150)
   .addOutput(<artisanworktables:workshop:6>)
   .create();
+  
+// Flint And Mason Tool Replacement
+function tool_recipe_replace(recipe as ICraftingRecipe) {
 
-// Artisan Materials
-# Mason Hammer
-RecipeBuilder.get("basic")
-  .setShaped([
-    [null, <pyrotech:material:16>, <ore:string>],
-    [null, <minecraft:stick>, <pyrotech:material:16>],
-    [<minecraft:stick>, null, null]])
-  .addOutput(<artisanworktables:artisans_hammer_mason>)
-  .create();
+    if (<ore:artisansToolFlint> has recipe.output | <ore:artisansToolMason> has recipe.output) {
+	var rb = RecipeBuilder.get("basic");
+    var copy = Copy.byRecipe(recipe);
+    rb = rb.setCopy(copy);
+    rb.create();
+    recipes.removeByRecipeName(recipe.resourceDomain + ":" +recipe.name);
+	}
+}
+
+val all_recipes as [ICraftingRecipe] = recipes.all;
+for recipe in all_recipes {
+    if ("artisanworktables" == recipe.resourceDomain) {
+        tool_recipe_replace(recipe);
+    }
+}
 
 
 

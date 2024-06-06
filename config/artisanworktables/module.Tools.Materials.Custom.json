@@ -9,7 +9,7 @@
       "enchantability": 5,
       "color": "1a1a1a",
       "shiny": true,
-      "ingredient": "contenttweaker:flintshard",
+      "ingredient": "minecraft:flint",
       "langKey": "material.athenaeum.flint",
       "oreDictKey": "artisansToolFlint"
     },

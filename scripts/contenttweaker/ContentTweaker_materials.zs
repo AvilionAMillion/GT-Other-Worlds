@@ -71,8 +71,6 @@ lichbone.register();
  # Meteoric Dust
 var notskystone as Item = VanillaFactory.createItem("meteoricdust");
 notskystone.register();
-var flintshard as Item = VanillaFactory.createItem("flintShard");
-flintshard.register();
 
 // Petals
 var munching_petal = VanillaFactory.createItem("munching_petal");
