@@ -58,7 +58,7 @@ RecipeBuilder.get("basic")
 # Bowl
 RecipeBuilder.get("basic")
   .setShapeless([<ore:plankWood>])
-  .addTool(<ore:artisansKnife>, 1)
+  .addTool(<ore:artisansFile>, 1)
   .addOutput(<minecraft:bowl>)
   .create();
 # Chest

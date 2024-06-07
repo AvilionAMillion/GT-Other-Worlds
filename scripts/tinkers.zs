@@ -66,7 +66,7 @@ RecipeBuilder.get("basic")
 # Basic Axe
 RecipeBuilder.get("basic")
   .setShapeless([<tconstruct:axe_head>.withTag({Material: "flint"}), <tconstruct:binding>.withTag({Material: "wood"}), <ore:stickWood>])
-  .addTool(<ore:artisansHatchet>, 20)
+  .addTool(<ore:artisansHatchet>, 8)
   .addOutput(basicAxe)
   .create();
 # Basic Pickaxe
