@@ -118,6 +118,33 @@ recipes.addShaped(<contenttweaker:wroughtironheater>,
 # Centurian Bone
 <contenttweaker:ancientbone>.addTooltip(format.aqua("Dropped by the Twilight Lich"));
 
+# Small Flint Hatchet
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<pyrotech:material:10>, <ore:string>],
+    [<pyrotech:material:10>, <ore:stickWood>],
+    [null, <ore:stickWood>]])
+  .addOutput(<contenttweaker:flintaxe>)
+  .create();
+# Small Flint File
+RecipeBuilder.get("basic")
+  .setShaped([
+    [null, null, <pyrotech:material:10>],
+    [<ore:string>, <pyrotech:material:10>, null],
+    [<ore:stickWood>, <ore:string>, null]])
+  .addOutput(<contenttweaker:flintfile>)
+  .create();
+# Small Flint Mortar
+RecipeBuilder.get("basic")
+  .setShapeless([<ore:stickWood>, <pyrotech:material:10>, <minecraft:bowl>])
+  .addOutput(<contenttweaker:flintmortar>)
+  .create();
+
+<ore:artisansHatchet>.add(<contenttweaker:flintaxe>);
+<ore:artisansFile>.add(<contenttweaker:flintfile>);
+<ore:artisansMortar>.add(<contenttweaker:flintmortar>);
+
+
 // Petals
 mods.botania.Apothecary.addRecipe(<contenttweaker:petal_of_the_daisy>, [<ore:petalWhite>,<ore:petalWhite>,<ore:petalWhite>,<ore:petalYellow>]);
 mods.botania.Apothecary.addRecipe(<contenttweaker:hydrating_petal>, [<ore:petalLightBlue>,<ore:petalLightBlue>,<ore:petalCyan>,<ore:petalBlue>]);

@@ -108,7 +108,7 @@ recipes.addShapeless(<pyrotech:hide_small_scraped>,
 # Chopping Block
 RecipeBuilder.get("basic")
   .setShapeless([<ore:logWood>])
-  .addTool(<ore:artisansHatchet>, 8)
+  .addTool(<ore:artisansHatchet>, 2)
   .addOutput(<pyrotech:chopping_block>)
   .create();
 # Drying Rack

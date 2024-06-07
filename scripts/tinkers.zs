@@ -52,7 +52,7 @@ recipes.addShapeless(flintShard, [gravel, gravel, gravel]);
 # Wood Binding
 RecipeBuilder.get("basic")
   .setShapeless([<ore:logWood>])
-  .addTool(<ore:artisansFile>, 4)
+  .addTool(<ore:artisansFile>, 2)
   .addOutput(<tconstruct:binding>.withTag({Material: "wood"}))
   .create();
 # Flint Hatchet Head
@@ -60,31 +60,31 @@ RecipeBuilder.get("basic")
   .setShaped([
     [<pyrotech:material:10>, <pyrotech:material:10>, <ore:string>],
     [<pyrotech:material:10>, <ore:string>, null]])
-  .addTool(<ore:artisansFile>, 16)
+  .addTool(<ore:artisansFile>, 8)
   .addOutput(<tconstruct:axe_head>.withTag({Material: "flint"}))
   .create();
 # Basic Axe
 RecipeBuilder.get("basic")
   .setShapeless([<tconstruct:axe_head>.withTag({Material: "flint"}), <tconstruct:binding>.withTag({Material: "wood"}), <ore:stickWood>])
-  .addTool(<ore:artisansHatchet>, 25)
+  .addTool(<ore:artisansHatchet>, 20)
   .addOutput(basicAxe)
   .create();
 # Basic Pickaxe
 RecipeBuilder.get("basic")
   .setShapeless([<tconstruct:pick_head>.withTag({Material: "flint"}), <tconstruct:binding>.withTag({Material: "wood"}), <ore:stickWood>])
-  .addTool(<ore:artisansHatchet>, 25)
+  .addTool(<ore:artisansHatchet>, 20)
   .addOutput(basicPickaxe)
   .create();
 # Basic Shovel
 RecipeBuilder.get("basic")
   .setShapeless([<tconstruct:shovel_head>.withTag({Material: "flint"}), <tconstruct:binding>.withTag({Material: "wood"}), <ore:stickWood>])
-  .addTool(<ore:artisansHatchet>, 25)
+  .addTool(<ore:artisansHatchet>, 20)
   .addOutput(basicShovel)
   .create();
 # Basic Mattock
 RecipeBuilder.get("basic")
 	.setShapeless([<tconstruct:shovel_head>.withTag({Material: "flint"}), <tconstruct:axe_head>.withTag({Material: "flint"}), stick])
-	.addTool(<ore:artisansHammer>, 25)
+	.addTool(<ore:artisansHammer>, 20)
 	.addOutput(basicMattock)
 	.create();
 # Sharpening Kit

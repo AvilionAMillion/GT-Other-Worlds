@@ -71,6 +71,21 @@ lichbone.register();
  # Meteoric Dust
 var notskystone as Item = VanillaFactory.createItem("meteoricdust");
 notskystone.register();
+ # Flint Axe
+var flintaxe as Item = VanillaFactory.createItem("flintAxe");
+flintaxe.maxDamage = 10;
+flintaxe.maxStackSize = 1;
+flintaxe.register();
+ # Flint File
+var flintfile as Item = VanillaFactory.createItem("flintFile");
+flintfile.maxDamage = 10;
+flintfile.maxStackSize = 1;
+flintfile.register();
+ # Flint Mortar
+var flintmortar as Item = VanillaFactory.createItem("flintMortar");
+flintmortar.maxDamage = 10;
+flintmortar.maxStackSize = 1;
+flintmortar.register();
 
 // Petals
 var munching_petal = VanillaFactory.createItem("munching_petal");
