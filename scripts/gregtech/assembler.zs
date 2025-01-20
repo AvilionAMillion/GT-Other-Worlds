@@ -4,8 +4,24 @@ import mods.gregtech.recipe.RecipeMap;
 val assembler as RecipeMap = <recipemap:assembler>;
 
 // Removal
-// Cupronickel Coil Block * 1
 <recipemap:assembler>.findRecipe(30, [<metaitem:wireGtDoubleCupronickel> * 8, <metaitem:foilBronze> * 8], [<liquid:tin_alloy> * 144]).remove();
+<recipemap:assembler>.findRecipe(30, [<metaitem:hull.lv>, <minecraft:chest:0>, <metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:glue> * 500]).remove();
+<recipemap:assembler>.findRecipe(30, [<metaitem:hull.lv>, <minecraft:chest:0>, <metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:plastic> * 144]).remove();
+<recipemap:assembler>.findRecipe(30, [<metaitem:hull.lv>, <minecraft:chest:0>, <metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:polytetrafluoroethylene> * 72]).remove();
+<recipemap:assembler>.findRecipe(30, [<metaitem:hull.lv>, <minecraft:chest:0>, <metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:polybenzimidazole> * 9]).remove();
+<recipemap:assembler>.findRecipe(30, [<metaitem:hull.lv>, <minecraft:chest:0>, <metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:glue> * 500]).remove();
+<recipemap:assembler>.findRecipe(30, [<metaitem:hull.lv>, <minecraft:chest:0>, <metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:plastic> * 144]).remove();
+<recipemap:assembler>.findRecipe(30, [<metaitem:hull.lv>, <minecraft:chest:0>, <metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:polytetrafluoroethylene> * 72]).remove();
+<recipemap:assembler>.findRecipe(30, [<metaitem:hull.lv>, <minecraft:chest:0>, <metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:polybenzimidazole> * 9]).remove();
+<recipemap:assembler>.findRecipe(30, [<metaitem:hull.lv>, <minecraft:glass:0>, <metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:glue> * 500]).remove();
+<recipemap:assembler>.findRecipe(30, [<metaitem:hull.lv>, <minecraft:glass:0>, <metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:plastic> * 144]).remove();
+<recipemap:assembler>.findRecipe(30, [<metaitem:hull.lv>, <minecraft:glass:0>, <metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:polytetrafluoroethylene> * 72]).remove();
+<recipemap:assembler>.findRecipe(30, [<metaitem:hull.lv>, <minecraft:glass:0>, <metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:polybenzimidazole> * 9]).remove();
+<recipemap:assembler>.findRecipe(30, [<metaitem:hull.lv>, <minecraft:glass:0>, <metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:glue> * 500]).remove();
+<recipemap:assembler>.findRecipe(30, [<metaitem:hull.lv>, <minecraft:glass:0>, <metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:plastic> * 144]).remove();
+<recipemap:assembler>.findRecipe(30, [<metaitem:hull.lv>, <minecraft:glass:0>, <metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:polytetrafluoroethylene> * 72]).remove();
+<recipemap:assembler>.findRecipe(30, [<metaitem:hull.lv>, <minecraft:glass:0>, <metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:polybenzimidazole> * 9]).remove();
+
 
 
 // LV
@@ -43,7 +59,24 @@ assembler.recipeBuilder()
 	.EUt(24)
 	.duration(150)
 	.buildAndRegister();
-
+# Thermal Evaporation Casing
+assembler.recipeBuilder()
+	.inputs(plateBronze * 6, <gregtech:meta_block_frame_20:4>)
+	.circuit(6)
+	.outputs(<mekanism:basicblock2> * 3)
+	.EUt(24)
+	.duration(100)
+	.buildAndRegister();
+# Thermal Evaporation Valve
+assembler.recipeBuilder()
+	.inputs(<mekanism:basicblock2>, pumpLV, <gregtech:meta_rotor:324>)
+	.circuit(1)
+	.outputs(<mekanism:basicblock:15>)
+	.EUt(24)
+	.duration(100)
+	.buildAndRegister();
+	
+	
 // MV
 # Phenolic Circuit Board
 <recipemap:assembler>.findRecipe(30, [<metaitem:dustWood>, <metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:glue> * 50]).remove();

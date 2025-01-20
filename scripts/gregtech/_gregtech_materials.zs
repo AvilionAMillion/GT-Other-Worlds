@@ -157,6 +157,15 @@ var alumina = MaterialBuilder(24013, "alumina")
 	.iconSet("rough")
 	.components([<material:aluminium> * 2, <material:oxygen> * 3])
 	.build();
+# Polycaprolactam
+var polycaprolactam = MaterialBuilder(24014, "polycaprolactam")
+	.fluid("fluid", true)
+	.ingot()
+	.color(0x3C3A3A)
+	.iconSet("DULL")
+	.components([<material:carbon> * 6, <material:hydrogen> * 11, <material:nitrogen> * 1, <material:oxygen> * 1])
+	.flags(["no_working", "generate_plate", "exclude_block_crafting_recipes", "disable_decomposition", "no_smelting", "generate_ring"])
+	.build();
 	
 // Prexisting
 # Stone

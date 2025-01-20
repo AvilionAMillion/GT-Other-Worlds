@@ -86,6 +86,30 @@ var flintmortar as Item = VanillaFactory.createItem("flintMortar");
 flintmortar.maxDamage = 10;
 flintmortar.maxStackSize = 1;
 flintmortar.register();
+ # MV Motor
+var motorMV as Item = VanillaFactory.createItem("mvmotor");
+motorMV.register();
+ # MV Piston
+var pistonMV as Item = VanillaFactory.createItem("mvpiston");
+pistonMV.register();
+ # MV Pump
+var pumpMV as Item = VanillaFactory.createItem("mvpump");
+pumpMV.register();
+ # MV Conveyer
+var conveyerMV as Item = VanillaFactory.createItem("mvconveyer");
+conveyerMV.register();
+ # MV Robot Arm
+var armMV as Item = VanillaFactory.createItem("mvrobotarm");
+armMV.register();
+ # MV Emitter
+var emitterMV as Item = VanillaFactory.createItem("mvemitter");
+emitterMV.register();
+ # MV Sensor
+var sensorMV as Item = VanillaFactory.createItem("mvsensor");
+sensorMV.register();
+ # MV Field Generator
+var fieldMV as Item = VanillaFactory.createItem("mvfieldgenerator");
+fieldMV.register();
 
 // Petals
 var munching_petal = VanillaFactory.createItem("munching_petal");

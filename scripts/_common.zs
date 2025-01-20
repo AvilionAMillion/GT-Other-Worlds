@@ -74,15 +74,15 @@ global dustRedstone as IOreDictEntry = <ore:dustRedstone>;
 global dustGlowstone as IOreDictEntry = <ore:dustGlowstone>;
 
 // GregTech Tools
-global gtHammer as IItemStack = <gregtech:hammer>;
-global gtFile as IItemStack = <gregtech:file>;
-global gtScrewdriver as IIngredient = <gregtech:screwdriver> | <gregtech:screwdriver_lv>;
-global gtMortar as IItemStack = <gregtech:mortar>;
-global gtKnife as IItemStack = <gregtech:knife>;
-global gtWrench as IIngredient = <gregtech:wrench> | <gregtech:wrench_lv> | <gregtech:wrench_hv> | <gregtech:wrench_iv>; 
-global gtSaw as IIngredient = <gregtech:saw> | <gregtech:buzzsaw>;
-global gtSoftHammer as IItemStack = <gregtech:mallet>;
-global gtWireCutter as IItemStack = <gregtech:wire_cutter>;
+global gtHammer as IOreDictEntry = <ore:toolHammer>;
+global gtFile as IOreDictEntry = <ore:toolFile>;
+global gtScrewdriver as IOreDictEntry = <ore:toolScrewdriver>;
+global gtMortar as IOreDictEntry = <ore:toolMortar>;
+global gtKnife as IOreDictEntry = <ore:toolKnife>;
+global gtWrench as IOreDictEntry = <ore:toolWrench>;
+global gtSaw as IOreDictEntry = <ore:toolSaw>;
+global gtSoftHammer as IOreDictEntry = <ore:toolMallet>;
+global gtWireCutter as IOreDictEntry = <ore:toolWireCutter>;
 
 // Circuits
 global circuitULV as IOreDictEntry = <ore:circuitUlv>;
@@ -91,6 +91,7 @@ global circuitMV as IOreDictEntry = <ore:circuitMv>;
 
 // Wires
 global wire1xCopper as IItemStack = <gregtech:wire_single:25>;
+global cable1xTin as IItemStack = <gregtech:cable_single:112>;
 
 // Components
 #LV Components
@@ -102,6 +103,15 @@ global robotarmLV as IItemStack = <gregtech:meta_item_1:187>;
 global fieldgenLV as IItemStack = <gregtech:meta_item_1:202>;
 global emitterLV as IItemStack = <gregtech:meta_item_1:217>;
 global sensorLV as IItemStack = <gregtech:meta_item_1:232>;
+#MV Components
+global motorMV as IItemStack = <gregtech:meta_item_1:128>;
+global pumpMV as IItemStack = <gregtech:meta_item_1:143>;
+global conveyorMV as IItemStack = <gregtech:meta_item_1:158>;
+global pistonMV as IItemStack = <gregtech:meta_item_1:173>;
+global robotarmMV as IItemStack = <gregtech:meta_item_1:188>;
+global fieldgenMV as IItemStack = <gregtech:meta_item_1:203>;
+global emitterMV as IItemStack = <gregtech:meta_item_1:218>;
+global sensorMV as IItemStack = <gregtech:meta_item_1:233>;
 
 // Machine Hulls
 global hullLV as IItemStack = <gregtech:machine:986>;

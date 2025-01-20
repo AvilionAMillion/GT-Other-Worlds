@@ -20,6 +20,14 @@ item.contenttweaker.meteoricdust.name=Meteoric Dust
 item.contenttweaker.flintAxe.name=Small Flint Hatchet
 item.contenttweaker.flintFile.name=Small Flint File
 item.contenttweaker.flintMortar.name=Small Flint Mortar
+item.contenttweaker.mvmotor.name=Unpowered MV Electric Motor
+item.contenttweaker.mvpiston.name=Unpowered MV Electric Piston
+item.contenttweaker.mvpump.name=Unpowered MV Electric Pump
+item.contenttweaker.mvconveyer.name=Unpowered MV Conveyor Module
+item.contenttweaker.mvrobotarm.name=Unpowered MV Robot Arm
+item.contenttweaker.mvemitter.name=Unpowered MV Emitter
+item.contenttweaker.mvsensor.name=Unpowered MV Sensor
+item.contenttweaker.mvfieldgenerator.name=Unpowered MV Field Generator
 
 item.contenttweaker.petal_of_the_daisy.name=Petal of the Daisy
 item.contenttweaker.hydrating_petal.name=Hydrating Petal

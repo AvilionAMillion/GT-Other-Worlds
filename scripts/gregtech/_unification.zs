@@ -1003,7 +1003,8 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 	
 	#dustOsmium
 	<ore:dustOsmium> : [
-		<mekanism:dust:2>
+		<mekanism:dust:2>,
+		<qmd:dust:8>
 	],
 	
 	#dustGold
@@ -1016,7 +1017,8 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 		<mysticalworld:gold_dust>,
 		<enderio:item_material:25>,
 		<libvulpes:productdust:2>,
-		<bloodmagic:component:20>
+		<bloodmagic:component:20>,
+		<rustic:dust_gold>	
 	],
 	
 	#dustDiamond
