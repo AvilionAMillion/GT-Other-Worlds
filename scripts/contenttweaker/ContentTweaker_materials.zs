@@ -110,6 +110,9 @@ sensorMV.register();
  # MV Field Generator
 var fieldMV as Item = VanillaFactory.createItem("mvfieldgenerator");
 fieldMV.register();
+ # Doped Rubber
+var dopedRubber as Item = VanillaFactory.createItem("dopedrubber");
+dopedRubber.register();
 
 // Petals
 var munching_petal = VanillaFactory.createItem("munching_petal");

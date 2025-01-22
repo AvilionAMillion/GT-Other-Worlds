@@ -11415,19 +11415,19 @@
             "0:10": {
               "id:8": "gregtech:ore_sulfur_0",
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 1,
               "OreDict:8": ""
             },
             "1:10": {
               "id:8": "gregtech:ore_pyrite_0",
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 1,
               "OreDict:8": ""
             },
             "2:10": {
               "id:8": "gregtech:ore_sphalerite_0",
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 1,
               "OreDict:8": ""
             }
           },
@@ -12928,7 +12928,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:meta_plate",
-              "Count:3": 1,
+              "Count:3": 63,
               "Damage:2": 1068,
               "OreDict:8": ""
             }
@@ -14281,6 +14281,506 @@
         181
       ],
       "questID:3": 182
+    },
+    "183:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Thermal Evaporation Tower",
+          "desc:8": "§9§3Description To Be Added",
+          "icon:10": {
+            "id:8": "mekanism:basicblock",
+            "Count:3": 1,
+            "Damage:2": 14,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:basicblock",
+              "Count:3": 1,
+              "Damage:2": 14,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "mekanism:basicblock",
+              "Count:3": 2,
+              "Damage:2": 15,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "mekanism:basicblock2",
+              "Count:3": 37,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        169
+      ],
+      "questID:3": 183
+    },
+    "184:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Metallurgic Infusion",
+          "desc:8": "§3Description To Be Added",
+          "icon:10": {
+            "id:8": "mekanism:machineblock",
+            "Count:3": 1,
+            "Damage:2": 8,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:machineblock",
+              "Count:3": 1,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        159
+      ],
+      "questID:3": 184
+    },
+    "185:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "MOAR ALLOYS!",
+          "desc:8": "§3Description To Be Added",
+          "icon:10": {
+            "id:8": "mekanism:enrichedalloy",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:enrichedalloy",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "mekanism:reinforcedalloy",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        184
+      ],
+      "questID:3": 185
+    },
+    "186:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Basic Autoclave",
+          "desc:8": "§3Description To Be Added",
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 125,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 125,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        150
+      ],
+      "questID:3": 186
+    },
+    "187:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Under Pressure (ized Reaction)",
+          "desc:8": "§3Description To Be Added",
+          "icon:10": {
+            "id:8": "mekanism:machineblock2",
+            "Count:3": 1,
+            "Damage:2": 10,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:machineblock2",
+              "Count:3": 1,
+              "Damage:2": 10,
+              "tag:10": {
+                "mekData:10": {}
+              },
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        185,
+        186
+      ],
+      "questID:3": 187
+    },
+    "188:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Electrolysis! (Again)",
+          "desc:8": "§3Description To Be Added",
+          "icon:10": {
+            "id:8": "mekanism:machineblock2",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:machineblock2",
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        189,
+        185
+      ],
+      "questID:3": 188
+    },
+    "189:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Electrolysis!",
+          "desc:8": "§3Description To Be Added",
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 275,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 275,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        148
+      ],
+      "questID:3": 189
+    },
+    "190:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Injection Insurrection",
+          "desc:8": "§3Description To Be Added",
+          "icon:10": {
+            "id:8": "mekanism:machineblock2",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:machineblock2",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        185
+      ],
+      "questID:3": 190
+    },
+    "191:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Black Gold!",
+          "desc:8": "§3Description To Be Added",
+          "icon:10": {
+            "id:8": "forge:bucketfilled",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "tag:10": {
+              "FluidName:8": "oil_medium",
+              "Amount:3": 1000
+            },
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1530,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        },
+        "1:10": {
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "FluidName:8": "oil",
+              "Amount:3": 1000
+            }
+          },
+          "taskID:8": "bq_standard:fluid",
+          "index:3": 1
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        150
+      ],
+      "questID:3": 191
     }
   },
   "questLines:9": {
@@ -15714,6 +16214,69 @@
           "x:3": -60,
           "y:3": 372,
           "id:3": 179
+        },
+        "28:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -204,
+          "y:3": 276,
+          "id:3": 183
+        },
+        "29:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -156,
+          "y:3": 228,
+          "id:3": 184
+        },
+        "30:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -252,
+          "y:3": 228,
+          "id:3": 185
+        },
+        "31:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -204,
+          "y:3": 132,
+          "id:3": 186
+        },
+        "32:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -204,
+          "y:3": 180,
+          "id:3": 187
+        },
+        "33:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -252,
+          "y:3": 180,
+          "id:3": 188
+        },
+        "34:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -252,
+          "y:3": 36,
+          "id:3": 189
+        },
+        "35:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -300,
+          "y:3": 180,
+          "id:3": 190
+        },
+        "36:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -300,
+          "y:3": 132,
+          "id:3": 191
         }
       },
       "lineID:3": 4,
@@ -15826,6 +16389,13 @@
           "x:3": 96,
           "y:3": 96,
           "id:3": 176
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 216,
+          "y:3": 60,
+          "id:3": 183
         }
       },
       "lineID:3": 5,

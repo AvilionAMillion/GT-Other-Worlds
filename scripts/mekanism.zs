@@ -5,6 +5,8 @@
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.jei.JEI.removeAndHide as rh;
 import mods.mekanism.infuser;
+import mods.mekanism.reaction;
+import mods.mekanism.chemical.injection;
 
 // Removal
 recipes.remove(<mekanism:basicblock:9>);
@@ -17,6 +19,7 @@ recipes.remove(<mekanism:basicblock:15>);
 recipes.remove(<mekanism:basicblock:14>);
 recipes.remove(<mekanism:gastank>);
 recipes.remove(<mekanism:machineblock2:10>);
+recipes.remove(<mekanism:machineblock2:3>);
 recipes.removeByRecipeName("mekanism:machineblock_5");
 recipes.removeByRecipeName("mekanism:machineblock_5_alt");
 recipes.removeByRecipeName("mekanism:machineblock_5_alt_alt");
@@ -46,6 +49,7 @@ recipes.removeByRecipeName("mekanism:machineblock_7_alt_alt_alt_alt_alt_alt_alt"
 recipes.removeByRecipeName("mekanism:machineblock_7_alt_alt_alt_alt_alt_alt_alt_alt");
 mods.mekanism.infuser.removeAllRecipes();
 mods.mekanism.reaction.removeAllRecipes();
+mods.mekanism.chemical.injection.removeAllRecipes();
 
 // Crafting
 # Dynamic Tank
@@ -65,9 +69,9 @@ recipes.addShaped(<mekanism:machineblock:8>, [
 	[<contenttweaker:lubricatedfoil>, circuitLV, plateSteel2]]);
 # Electrolyzer
 recipes.addShaped(<mekanism:machineblock2:4>, [
-	[plateSteel2, cable1xTin, plateSteel2],
+	[plateSteel, <mekanism:enrichedalloy>, plateSteel],
 	[<mekanism:gastank>, <gregtech:machine:275>, <mekanism:gastank>],
-	[plateSteel2, cable1xTin, plateSteel2]]);
+	[plateSteel, <mekanism:enrichedalloy>, plateSteel]]);
 # Basic Gas Tank
 recipes.addShaped(<mekanism:gastank>, [
 	[plateSteel, <gregtech:fluid_pipe_normal:260>, plateSteel],
@@ -88,6 +92,11 @@ recipes.addShaped(<mekanism:machineblock2:10>, [
 	[plateSteel, <mekanism:enrichedalloy>, plateSteel],
 	[circuitLV, <gregtech:machine:125>, circuitLV],
 	[<mekanism:gastank>, <mekanism:basicblock:9>, <mekanism:gastank>]]);
+# Chemical Injection Chamber
+recipes.addShaped(<mekanism:machineblock2:3>, [
+	[plateSteel, <mekanism:reinforcedalloy>, plateSteel],
+	[cable1xTin, <gregtech:machine:215>, cable1xTin],
+	[plateSteel, <mekanism:gastank>, plateSteel]]);
 	
 // Metallurgic Infuser
 mods.mekanism.infuser.addRecipe("REDSTONE", 20, <minecraft:iron_ingot>, <mekanism:enrichedalloy>);
