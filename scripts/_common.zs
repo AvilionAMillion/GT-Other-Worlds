@@ -34,7 +34,7 @@ global plateStainlessSteel as IOreDictEntry = <ore:plateStainlessSteel>;
 global plateTitanium as IOreDictEntry = <ore:plateTitanium>;
 global platePotin as IOreDictEntry = <ore:platePotin>;
 global plateWroughtIron as IOreDictEntry = <ore:plateWroughtIron>;
-global plateCrudeSteel as IOreDictEntry = <ore:plateCrudeSteel>;
+global platePolycaprolactam as IOreDictEntry = <ore:platePolycaprolactam>;
 
 // Double Plates
 global plateIron2 as IOreDictEntry = <ore:plateDoubleIron>;
@@ -53,6 +53,7 @@ global screwWroughtIron as IOreDictEntry = <ore:screwWroughtIron>;
 // Rods
 global rodIron as IOreDictEntry = <ore:stickIron>;
 global rodSteel as IOreDictEntry = <ore:stickSteel>;
+global rodAluminium as IOreDictEntry = <ore:stickAluminium>;
 
 // Gears
 global gearIron as IOreDictEntry = <ore:gearIron>;
@@ -92,6 +93,7 @@ global circuitMV as IOreDictEntry = <ore:circuitMv>;
 // Wires
 global wire1xCopper as IItemStack = <gregtech:wire_single:25>;
 global cable1xTin as IItemStack = <gregtech:cable_single:112>;
+global cable1xCopper as IItemStack = <gregtech:cable_single:25>;
 
 // Components
 #LV Components

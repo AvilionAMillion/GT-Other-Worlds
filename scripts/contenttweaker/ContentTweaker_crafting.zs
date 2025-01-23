@@ -13,6 +13,7 @@ val builder = RecipeBuilder.get("basic");
 
 // Val
 val dustGlass = <gregtech:meta_dust:2000>;
+val md4xwire = <gregtech:wire_quadruple:425>;
 
  # Glassy Sand
 recipes.addShapeless(<contenttweaker:glassy_sand>,
@@ -144,6 +145,39 @@ RecipeBuilder.get("basic")
 <ore:artisansFile>.add(<contenttweaker:flintfile>);
 <ore:artisansMortar>.add(<contenttweaker:flintmortar>);
 
+// MV Unpowered Components
+recipes.addShaped(<contenttweaker:mvmotor>, [
+	[cable1xCopper, <gregtech:wire_double:274>, rodAluminium],
+	[<gregtech:wire_double:274>, <gregtech:meta_stick:2035>, <gregtech:wire_double:274>],
+	[rodAluminium, <gregtech:wire_double:274>, cable1xCopper]]);
+recipes.addShaped(<contenttweaker:mvpiston>, [
+	[plateAluminium, plateAluminium, plateAluminium],
+	[cable1xCopper, rodAluminium, rodAluminium],
+	[cable1xCopper, <contenttweaker:mvmotor>, <gregtech:meta_gear_small:2>]]);
+recipes.addShaped(<contenttweaker:mvpump>, [
+	[screwBronze, <ore:rotorBronze>, <ore:ringPolycaprolactam>],
+	[gtScrewdriver, <gregtech:fluid_pipe_normal:324>, gtWrench],
+	[<ore:ringPolycaprolactam>, <contenttweaker:mvmotor>, cable1xCopper]]);
+recipes.addShaped(<contenttweaker:mvconveyer>, [
+	[platePolycaprolactam, platePolycaprolactam, platePolycaprolactam],
+	[<contenttweaker:mvmotor>, cable1xCopper, <contenttweaker:mvmotor>],
+	[platePolycaprolactam, platePolycaprolactam, platePolycaprolactam]]);
+recipes.addShaped(<contenttweaker:mvrobotarm>, [
+	[cable1xCopper, cable1xCopper, cable1xCopper],
+	[<contenttweaker:mvmotor>, rodAluminium, <contenttweaker:mvmotor>],
+	[<contenttweaker:mvpiston>, circuitMV, rodAluminium]]);
+recipes.addShaped(<contenttweaker:mvemitter>, [
+	[cable1xCopper, <ore:stickElectrum>, circuitMV],
+	[<ore:stickElectrum>, <ore:gemFlawlessEmerald>, <ore:stickElectrum>],
+	[circuitMV, <ore:stickElectrum>, cable1xCopper]]);
+recipes.addShaped(<contenttweaker:mvsensor>, [
+	[plateAluminium, null, <ore:gemFlawlessEmerald>],
+	[plateAluminium, <ore:stickElectrum>, null],
+	[circuitMV, plateAluminium, plateAluminium]]);
+recipes.addShaped(<contenttweaker:mvfieldgenerator>, [
+	[md4xwire, plateAluminium, md4xwire],
+	[circuitMV, <minecraft:ender_eye>, circuitMV],
+	[md4xwire, plateAluminium, md4xwire]]);
 
 // Petals
 mods.botania.Apothecary.addRecipe(<contenttweaker:petal_of_the_daisy>, [<ore:petalWhite>,<ore:petalWhite>,<ore:petalWhite>,<ore:petalYellow>]);

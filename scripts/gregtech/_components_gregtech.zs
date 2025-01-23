@@ -8,6 +8,14 @@ import mods.mekanism.chemical.injection;
 // Val
 
 // Removal
+recipes.remove(<gregtech:meta_item_1:128>);
+recipes.remove(<gregtech:meta_item_1:173>);
+recipes.remove(<gregtech:meta_item_1:143>);
+recipes.remove(<gregtech:meta_item_1:158>);
+recipes.remove(<gregtech:meta_item_1:188>);
+recipes.remove(<gregtech:meta_item_1:218>);
+recipes.remove(<gregtech:meta_item_1:233>);
+recipes.remove(<gregtech:meta_item_1:203>);
 
 // MV Components
 mods.mekanism.chemical.injection.addRecipe(<contenttweaker:mvmotor>, <gas:hydrogen> * 100, <gregtech:meta_item_1:128>);
