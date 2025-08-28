@@ -177,3 +177,7 @@ recipes.replaceAllOccurences(<roots:runic_dust>, <ore:dustRunic>);
 # Mana Powder Oredict
 <ore:powderMana>.addAll(<ore:dustMana>);
 recipes.replaceAllOccurences(<ore:powderMana>, <ore:dustMana>);
+
+# Carminite Oredict
+<ore:gemCarminite>.add(<twilightforest:carminite>);
+recipes.replaceAllOccurences(<twilightforest:carminite>, <ore:gemCarminite>);

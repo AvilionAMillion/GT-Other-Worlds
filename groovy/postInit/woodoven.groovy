@@ -1,0 +1,7 @@
+mods.gregtech.woodoven.recipeBuilder()
+        .inputs(ore('logWood') * 16)
+        .outputs(item('minecraft:coal:1') * 20)
+        .fluidOutputs(fluid('wood_tar') * 500)
+        .duration(3000)
+        .EUt(1)
+        .buildAndRegister()

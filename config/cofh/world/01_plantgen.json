@@ -12,7 +12,7 @@
 				"see-sky": "true",
 				"check-stay": "false",
 			},
-			"cluster-count": 1,
+			"cluster-count": 4,
 			"min-height": 0,
 			"max-height": 255,
 			"retrogen": "true",
@@ -49,7 +49,7 @@
 				"see-sky": "true",
 				"check-stay": "false",
 			},
-			"cluster-count": 1,
+			"cluster-count": 4,
 			"min-height": 0,
 			"max-height": 255,
 			"retrogen": "true",
@@ -60,6 +60,7 @@
 						"type": "id",
 						"entry": [
 							"twilightforest:oak_savannah",
+							"twilightforest:twilight_clearing"
 						]
 					}
 				]

@@ -1,0 +1,643 @@
+{
+	"populate": {
+		"white_flower": {	
+			"distribution": "surface",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 0,
+				},
+				"type": "decoration",
+				"cluster-size": 1,
+				"see-sky": "true",
+				"check-stay": "true",
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"twilightforest:enchanted_forest",
+							"twilightforest:twilight_lake",
+							"twilightforest:twilight_forest",
+							"twilightforest:mushroom_forest",
+							"twilightforest:twilight_clearing",
+							"twilightforest:firefly_forest"
+						]
+					}
+				]
+			}
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
+		
+		"orange_flower": {	
+			"distribution": "surface",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 1,
+				},
+				"type": "decoration",
+				"cluster-size": 1,
+				"see-sky": "true",
+				"check-stay": "true",
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"twilightforest:enchanted_forest",
+							"twilightforest:twilight_lake",
+							"twilightforest:twilight_forest",
+							"twilightforest:mushroom_forest",
+							"twilightforest:twilight_clearing",
+							"twilightforest:firefly_forest"
+						]
+					}
+				]
+			}
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
+		
+		"magenta_flower": {	
+			"distribution": "surface",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 2,
+				},
+				"type": "decoration",
+				"cluster-size": 1,
+				"see-sky": "true",
+				"check-stay": "true",
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"twilightforest:enchanted_forest",
+							"twilightforest:twilight_lake",
+							"twilightforest:twilight_forest",
+							"twilightforest:mushroom_forest",
+							"twilightforest:twilight_clearing",
+							"twilightforest:firefly_forest"
+						]
+					}
+				]
+			}
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
+		
+		"light_blue_flower": {	
+			"distribution": "surface",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 3,
+				},
+				"type": "decoration",
+				"cluster-size": 1,
+				"see-sky": "true",
+				"check-stay": "true",
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"twilightforest:enchanted_forest",
+							"twilightforest:twilight_lake",
+							"twilightforest:twilight_forest",
+							"twilightforest:mushroom_forest",
+							"twilightforest:twilight_clearing",
+							"twilightforest:firefly_forest"
+						]
+					}
+				]
+			}
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
+		
+		"yellow_flower": {	
+			"distribution": "surface",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 4,
+				},
+				"type": "decoration",
+				"cluster-size": 1,
+				"see-sky": "true",
+				"check-stay": "true",
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"twilightforest:enchanted_forest",
+							"twilightforest:twilight_lake",
+							"twilightforest:twilight_forest",
+							"twilightforest:mushroom_forest",
+							"twilightforest:twilight_clearing",
+							"twilightforest:firefly_forest"
+						]
+					}
+				]
+			}
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
+		
+		"lime_flower": {	
+			"distribution": "surface",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 5,
+				},
+				"type": "decoration",
+				"cluster-size": 1,
+				"see-sky": "true",
+				"check-stay": "true",
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"twilightforest:enchanted_forest",
+							"twilightforest:twilight_lake",
+							"twilightforest:twilight_forest",
+							"twilightforest:mushroom_forest",
+							"twilightforest:twilight_clearing",
+							"twilightforest:firefly_forest"
+						]
+					}
+				]
+			}
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
+		
+		"pink_flower": {	
+			"distribution": "surface",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 6,
+				},
+				"type": "decoration",
+				"cluster-size": 1,
+				"see-sky": "true",
+				"check-stay": "true",
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"twilightforest:enchanted_forest",
+							"twilightforest:twilight_lake",
+							"twilightforest:twilight_forest",
+							"twilightforest:mushroom_forest",
+							"twilightforest:twilight_clearing",
+							"twilightforest:firefly_forest"
+						]
+					}
+				]
+			}
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
+		
+		"gray_flower": {	
+			"distribution": "surface",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 7,
+				},
+				"type": "decoration",
+				"cluster-size": 1,
+				"see-sky": "true",
+				"check-stay": "true",
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"twilightforest:enchanted_forest",
+							"twilightforest:twilight_lake",
+							"twilightforest:twilight_forest",
+							"twilightforest:mushroom_forest",
+							"twilightforest:twilight_clearing",
+							"twilightforest:firefly_forest"
+						]
+					}
+				]
+			}
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
+		
+		"light_gray_flower": {	
+			"distribution": "surface",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 8,
+				},
+				"type": "decoration",
+				"cluster-size": 1,
+				"see-sky": "true",
+				"check-stay": "true",
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"twilightforest:enchanted_forest",
+							"twilightforest:twilight_lake",
+							"twilightforest:twilight_forest",
+							"twilightforest:mushroom_forest",
+							"twilightforest:twilight_clearing",
+							"twilightforest:firefly_forest"
+						]
+					}
+				]
+			}
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
+		
+		"cyan_flower": {	
+			"distribution": "surface",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 9,
+				},
+				"type": "decoration",
+				"cluster-size": 1,
+				"see-sky": "true",
+				"check-stay": "true",
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"twilightforest:enchanted_forest",
+							"twilightforest:twilight_lake",
+							"twilightforest:twilight_forest",
+							"twilightforest:mushroom_forest",
+							"twilightforest:twilight_clearing",
+							"twilightforest:firefly_forest"
+						]
+					}
+				]
+			}
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
+		
+		"purple_flower": {	
+			"distribution": "surface",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 10,
+				},
+				"type": "decoration",
+				"cluster-size": 1,
+				"see-sky": "true",
+				"check-stay": "true",
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"twilightforest:enchanted_forest",
+							"twilightforest:twilight_lake",
+							"twilightforest:twilight_forest",
+							"twilightforest:mushroom_forest",
+							"twilightforest:twilight_clearing",
+							"twilightforest:firefly_forest"
+						]
+					}
+				]
+			}
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
+		
+		"blue_flower": {	
+			"distribution": "surface",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 11,
+				},
+				"type": "decoration",
+				"cluster-size": 1,
+				"see-sky": "true",
+				"check-stay": "true",
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"twilightforest:enchanted_forest",
+							"twilightforest:twilight_lake",
+							"twilightforest:twilight_forest",
+							"twilightforest:mushroom_forest",
+							"twilightforest:twilight_clearing",
+							"twilightforest:firefly_forest"
+						]
+					}
+				]
+			}
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
+		
+		"brown_flower": {	
+			"distribution": "surface",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 12,
+				},
+				"type": "decoration",
+				"cluster-size": 1,
+				"see-sky": "true",
+				"check-stay": "true",
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"twilightforest:enchanted_forest",
+							"twilightforest:twilight_lake",
+							"twilightforest:twilight_forest",
+							"twilightforest:mushroom_forest",
+							"twilightforest:twilight_clearing",
+							"twilightforest:firefly_forest"
+						]
+					}
+				]
+			}
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
+		
+		"green_flower": {	
+			"distribution": "surface",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 13,
+				},
+				"type": "decoration",
+				"cluster-size": 1,
+				"see-sky": "true",
+				"check-stay": "true",
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"twilightforest:enchanted_forest",
+							"twilightforest:twilight_lake",
+							"twilightforest:twilight_forest",
+							"twilightforest:mushroom_forest",
+							"twilightforest:twilight_clearing",
+							"twilightforest:firefly_forest"
+						]
+					}
+				]
+			}
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
+		
+		"red_flower": {	
+			"distribution": "surface",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 14,
+				},
+				"type": "decoration",
+				"cluster-size": 1,
+				"see-sky": "true",
+				"check-stay": "true",
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"twilightforest:enchanted_forest",
+							"twilightforest:twilight_lake",
+							"twilightforest:twilight_forest",
+							"twilightforest:mushroom_forest",
+							"twilightforest:twilight_clearing",
+							"twilightforest:firefly_forest"
+						]
+					}
+				]
+			}
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
+		
+		"black_flower": {	
+			"distribution": "surface",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 15,
+				},
+				"type": "decoration",
+				"cluster-size": 1,
+				"see-sky": "true",
+				"check-stay": "true",
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"twilightforest:enchanted_forest",
+							"twilightforest:twilight_lake",
+							"twilightforest:twilight_forest",
+							"twilightforest:mushroom_forest",
+							"twilightforest:twilight_clearing",
+							"twilightforest:firefly_forest"
+						]
+					}
+				]
+			}
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		}
+	}
+}

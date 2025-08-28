@@ -150,8 +150,6 @@ val toolsToNerf = [
 		
 	for tool in toolsToNerf {
 		tool.maxDamage = 1;
-		tool.addTooltip(format.red("Most standard tools have been deprecated"));	
-		tool.addTooltip(format.red("Tinker's must be used in most circumstances"));
-		tool.addTooltip(format.red("Any tools that have not been deprecated"));
-		tool.addTooltip(format.red("Must be forwarded to the Development Team"));	
+		tool.addTooltip(format.red("These tools are deprecated"));	
+		tool.addTooltip(format.red("Use Gregtech Tools instead."));			
 	}

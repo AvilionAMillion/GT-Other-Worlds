@@ -123,12 +123,16 @@
         "pyrotech:innovate/stone_drain",
         "pyrotech:innovate/log_pile",
         "pyrotech:innovate/pit_burn",
-        "pyrotech:accelerate/bloomery"
+        "pyrotech:accelerate/bloomery",
+        "pyrotech:accelerate/refractory_burn",
+        "pyrotech:innovate/refractory_brick"
       ],
       "bookmarks": [],
       "history": [
-        "pyrotech:accelerate/bloomery",
+        "pyrotech:accelerate/refractory_burn",
         "pyrotech:innovate/pit_burn",
+        "pyrotech:innovate/refractory_brick",
+        "pyrotech:accelerate/bloomery",
         "pyrotech:innovate/log_pile",
         "pyrotech:innovate/stone_drain",
         "pyrotech:innovate/stone_collector",
@@ -137,9 +141,7 @@
         "pyrotech:survive/campfire_effects",
         "pyrotech:survive/chopping_block",
         "pyrotech:gather/stone_cobbled",
-        "pyrotech:survive/food_raw",
-        "pyrotech:survive/worktable",
-        "pyrotech:survive/fiber_torch"
+        "pyrotech:survive/food_raw"
       ],
       "completedManualQuests": []
     }

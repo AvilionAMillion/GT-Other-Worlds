@@ -2,7 +2,6 @@
 // Made by GTOW Team
 import mods.roots.Pyre;
 import mods.roots.Mortar;
-import mods.inworldcrafting.FluidToItem;
 import mods.roots.Rituals;
 import mods.roots.Fey;
 import mods.roots.RunicShears;
@@ -249,9 +248,6 @@ RunicShears.removeRecipe(wildewheet);
 
 // Mortar Crafting
 Mortar.removeRecipe(<roots:runic_dust>);
-
-// InWorldCrafting
-FluidToItem.transform(bafflecap, <liquid:badjuice>, [<rustic:mooncap_mushroom>], true);
 
 // Summon Creatures
 SummonCreatures.clearLifeEssence();

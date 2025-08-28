@@ -1,0 +1,11 @@
+gtow.machine.woodoven.name=Primitive Pyrolyse Oven
+
+recipemap.woodoven.name=Wood Oven Recipes
+recipemap.COMPONENTASSEMBLER.name=Component Assembler Recipes
+
+gregtech.machine.componentassembler.lv.name=Basic Component Assembling Machine
+gregtech.machine.componentassembler.mv.name=Advanced Component Assembling Machine
+gregtech.machine.componentassembler.hv.name=Advanced Component Assembling Machine II
+gregtech.machine.componentassembler.ev.name=Advanced Component Assembling Machine III
+gregtech.machine.componentassembler.iv.name=Elite Component Assembling Machine
+gregtech.machine.componentassembler.luv.name=Elite Component Assembling Machine II

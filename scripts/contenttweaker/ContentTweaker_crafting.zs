@@ -3,7 +3,6 @@
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 import crafttweaker.item.IItemTransformer;
-import mods.inworldcrafting.FluidToFluid;
 import mods.roots.Mortar;
 import mods.roots.Fey;
 import mods.botania.Apothecary;
@@ -44,9 +43,6 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansMortar>, 20)
   .addOutput(<contenttweaker:refractoryblend>)
   .create();
-  
-# Refractory Mortar
-FluidToFluid.transform(<liquid:foundry>, <liquid:water>, [<contenttweaker:refractoryblend>], true);
   
 # Mason Bloom Hammer
 recipes.addShaped(<contenttweaker:hammer>,

@@ -19,3 +19,11 @@ mixer.recipeBuilder()
 	.duration(600)
 	.EUt(20)
 	.buildAndRegister();
+# Refractory Clay
+mixer.recipeBuilder()
+	.inputs(<gregtech:meta_dust:2023>, <gregtech:meta_dust:2049>, <gregtech:meta_dust:2063> * 8, <gregtech:meta_dust:254> * 8)
+	.fluidInputs(<fluid:water> * 1000)
+	.outputs(<pyrotech:material:4> * 16)
+	.duration(300)
+	.EUt(4)
+	.buildAndRegister();

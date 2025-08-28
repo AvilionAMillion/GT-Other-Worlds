@@ -15,6 +15,9 @@ gregtech.material.infinity=Infinity
 gregtech.material.cryolite=Cryolite
 gregtech.material.alumina=Alumina
 gregtech.material.polycaprolactam=Polycaprolactam
+gregtech.material.knightmetal=Knightmetal
+gregtech.material.carminite=Carminite
+gregtech.material.manasteel=Manasteel
 
 item.gt.tool.harvest_level.0=§4Wood
 item.gt.tool.harvest_level.1=§7Flint

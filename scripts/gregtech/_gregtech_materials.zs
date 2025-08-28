@@ -157,6 +157,31 @@ var alumina = MaterialBuilder(24013, "alumina")
 	.iconSet("rough")
 	.components([<material:aluminium> * 2, <material:oxygen> * 3])
 	.build();
+# Knightmetal
+var knightmetal = MaterialBuilder(24014, "knightmetal")
+	.ingot()
+	.color(0xD8F2DD)
+	.iconSet("shiny")
+	.toolStats(30, 6, 3000,7)
+	.components([<material:iron> * 1])
+	.flags(["disable_decomposition", "exclude_block_crafting_by_hand_recipes", "generate_plate", "generate_rod"])
+	.build();
+# Carminite
+var carminite = MaterialBuilder(24015, "carminite")
+	.gem(6)
+	.color(0x820505)
+	.iconSet("quartz")
+	.ore()
+	.build();
+# Manasteel
+var manasteel = MaterialBuilder(24016, "manasteel")
+	.ingot(7)
+	.color(0x2869EB)
+	.iconSet("shiny")
+	.toolStats(25, 7.7,2000,7)
+	.components([<material:stainless_steel> * 1, <material:mana> * 1])
+	.flags(["disable_decomposition", "exclude_block_crafting_by_hand_recipes", "generate_plate", "generate_rod"])
+	.build();
 	
 // Prexisting
 # Stone
@@ -167,3 +192,5 @@ var alumina = MaterialBuilder(24013, "alumina")
 <material:invar>.addFlags("generate_double_plate");
 # Polycaprolactam
 <material:polycaprolactam>.addFlags("generate_ring");
+# Carminite
+<material:carminite>.setFormula("(PbFe2(AsO4)2(OH)2)Ma", true);

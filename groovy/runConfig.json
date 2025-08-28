@@ -1,0 +1,16 @@
+{
+  "packName": "GT - Other Worlds",
+  "packId": "gtow",
+  "version": "1.0.0",
+  "debug": false,
+  "loaders": {
+    "preInit": [
+	  "classes/",
+      "preInit/"
+    ],
+    "postInit": [
+      "postInit/machines.groovy",
+      "postInit/"
+    ]
+  }
+}

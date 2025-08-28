@@ -55,7 +55,9 @@ import mods.gregtech.recipe.RecipeMap;
 
 // Occurences
 recipes.replaceAllOccurences(<pneumaticcraft:compressed_iron_gear>, <ore:gearIronCompressed>);
-
+recipes.addShapeless(<gregtech:meta_gem:319>, [<pyrotech:material:1>]);
+<pyrotech:material:1>.addTooltip(format.red("Hey! This Isn't Gregtech!"));
+<pyrotech:material:1>.addTooltip(format.red("Tell Avi to fix this later or come up with something better"));
 print("Ore Removal");
 
 var oresDisabled as IItemStack[][IOreDictEntry] = {
