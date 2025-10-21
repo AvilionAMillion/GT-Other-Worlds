@@ -9,6 +9,11 @@
       "lm": 1755920620366
     },
     {
+      "name": "postInit.fluidcrafting",
+      "path": "postInit/fluidcrafting.groovy",
+      "lm": 1760048839165
+    },
+    {
       "name": "postInit.componentassembler",
       "path": "postInit/componentassembler.groovy",
       "lm": 1756097481713
@@ -32,6 +37,11 @@
       "name": "preInit.gregtech",
       "path": "preInit/gregtech.groovy",
       "lm": 1756042591042
+    },
+    {
+      "name": "preInit.item_register",
+      "path": "preInit/item_register.groovy",
+      "lm": 1757111455838
     },
     {
       "name": "postInit.machines",

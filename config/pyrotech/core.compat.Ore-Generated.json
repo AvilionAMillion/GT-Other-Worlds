@@ -20,23 +20,6 @@
     "Output item strings are in the format: (domain):(path):(meta)"
   ],
   "oredict": {
-    "oreAluminum": {
-      "slagColor": "e2e2e3",
-      "langKey": [
-        "immersiveengineering:tile.immersiveengineering.ore.aluminum"
-      ],
-      "output": [
-        "gregtech:meta_nugget:2"
-      ],
-      "bloomYieldMinMax": [
-        12,
-        15
-      ],
-      "slagBloomYieldMinMax": [
-        12,
-        15
-      ]
-    },
     "oreArdite": {
       "slagColor": "e85e17",
       "langKey": [

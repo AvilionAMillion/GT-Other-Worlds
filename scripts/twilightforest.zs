@@ -18,3 +18,6 @@ lich.addDrop(<contenttweaker:ancientbone>, 1, 1, 1.0);
 // Crafting
 recipes.removeByRecipeName("twilightforest:materials/carminite");
 recipes.removeByRecipeName("twilightforest:materials/carminite_alt");
+
+// Furnace
+furnace.remove(<twilightforest:knightmetal_ingot>);

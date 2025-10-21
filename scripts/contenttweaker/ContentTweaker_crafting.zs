@@ -8,6 +8,7 @@ import mods.roots.Fey;
 import mods.botania.Apothecary;
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.gregtech.recipe.RecipeMap;
+import mods.botania.RuneAltar;
 val builder = RecipeBuilder.get("basic");
 
 // Val
@@ -91,6 +92,7 @@ RecipeBuilder.get("basic")
   .addOutput(<contenttweaker:perfectpowder>)
   .create();
 <contenttweaker:perfectpowder>.addTooltip(format.aqua("Used to open the Nether Portal"));
+<gtow:foggystone>.addTooltip(format.aqua("Used to open the Misty World Portal"));
 
 # Nether Portal Block
 RecipeBuilder.get("basic")
@@ -109,7 +111,7 @@ RecipeBuilder.get("basic")
 # Wrought Iron Heater
 recipes.addShaped(<contenttweaker:wroughtironheater>,
 	[[screwWroughtIron, gtWrench, screwWroughtIron],
-	[plateWroughtIron, <immersiveengineering:metal_device1:1>, plateWroughtIron],
+	[plateWroughtIron, <gregtech:wire_quadruple:25>, plateWroughtIron],
 	[screwWroughtIron, gtScrewdriver, screwWroughtIron]]);
 	
 # Centurian Bone
@@ -174,6 +176,10 @@ recipes.addShaped(<contenttweaker:mvfieldgenerator>, [
 	[md4xwire, plateAluminium, md4xwire],
 	[circuitMV, <minecraft:ender_eye>, circuitMV],
 	[md4xwire, plateAluminium, md4xwire]]);
+
+// Foggy Stone and Misty Portal Block
+mods.botania.RuneAltar.addRecipe(<gtow:foggystone>,[<roots:chiseled_runestone>, <roots:mystic_feather>, <roots:cloud_berry>, <gregtech:meta_dust:24011>, <gregtech:meta_dust:24011>], 50000);
+mods.botania.RuneAltar.addRecipe(<gtow:mistyblock>,[<botania:livingrock>, <twilightforest:aurora_block>, <gregtech:meta_plate:24014>, <gregtech:meta_plate:300>], 10000);
 
 // Petals
 mods.botania.Apothecary.addRecipe(<contenttweaker:petal_of_the_daisy>, [<ore:petalWhite>,<ore:petalWhite>,<ore:petalWhite>,<ore:petalYellow>]);

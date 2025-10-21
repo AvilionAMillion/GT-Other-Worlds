@@ -3,8 +3,6 @@
 
 // This File is pertaining to all gregtech circuit crafting recipes
 
-import mods.immersiveengineering.Blueprint;
-
 // Val
 val vTube = <gregtech:meta_item_1:516>;
 

@@ -8,6 +8,7 @@ import mods.roots.predicates.PropertyPredicate;
 import mods.roots.Transmutation;
 import mods.roots.Chrysopoeia;
 import mods.mekanism.reaction;
+import mods.botania.ManaInfusion;
 
 // Furnace
 furnace.remove(<gregtech:meta_nugget:335>);
@@ -21,3 +22,7 @@ Chrysopoeia.addRecipe("runicmetal", <gregtech:meta_dust:24008>, <gregtech:meta_i
 
 // PRC
 mods.mekanism.reaction.addRecipe(<contenttweaker:dopedrubber> * 2, <liquid:oil> * 500, <gas:hydrogen> * 200, <gregtech:meta_dust:1015>, <gas:hydrogen> * 20, 50000, 800);
+
+// Mana Pool
+mods.botania.ManaInfusion.addInfusion(<gregtech:meta_gem:24011>, <gregtech:meta_gem_exquisite:24015>, 30000);
+mods.botania.ManaInfusion.addInfusion(<gregtech:meta_dust:24011>, <gregtech:meta_dust:24015>, 1500);

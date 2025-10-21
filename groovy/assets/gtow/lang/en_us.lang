@@ -9,3 +9,7 @@ gregtech.machine.componentassembler.hv.name=Advanced Component Assembling Machin
 gregtech.machine.componentassembler.ev.name=Advanced Component Assembling Machine III
 gregtech.machine.componentassembler.iv.name=Elite Component Assembling Machine
 gregtech.machine.componentassembler.luv.name=Elite Component Assembling Machine II
+
+item.gtow.foggystone.name=Foggy Stone
+
+tile.gtow.mistyblock.name=Misty World Portal Block

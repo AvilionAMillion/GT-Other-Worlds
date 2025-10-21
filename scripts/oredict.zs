@@ -10,25 +10,9 @@ import mods.gregtech.recipe.RecipeMaps;
 import mods.gregtech.recipe.RecipeMap;
 import mods.tconstruct.Casting;
 
- # Immersive Engineering Wire Replacement
-recipes.replaceAllOccurences(<immersiveengineering:material:20>, <gregtech:wire_single:25>);
-mods.jei.JEI.removeAndHide(<immersiveengineering:material:20>);
-recipes.replaceAllOccurences(<immersiveengineering:material:21>, <gregtech:wire_single:277>);
-mods.jei.JEI.removeAndHide(<immersiveengineering:material:21>);
-recipes.replaceAllOccurences(<immersiveengineering:material:22>, <gregtech:wire_single:2>);
-mods.jei.JEI.removeAndHide(<immersiveengineering:material:22>);
-recipes.replaceAllOccurences(<immersiveengineering:material:23>, <gregtech:wire_single:324>);
-mods.jei.JEI.removeAndHide(<immersiveengineering:material:23>);
 
  # Rubber Changes
 recipes.replaceAllOccurences(<industrialforegoing:plastic>, <gregtech:meta_plate:1012>);
-
-// Disabled Circuits
- # Circuit Replace
-recipes.replaceAllOccurences(<immersiveengineering:material:27>, <ore:circuitBasic>);
-mods.jei.JEI.removeAndHide(<immersiveengineering:material:27>);
-recipes.replaceAllOccurences(<immersiveengineering:material:26>, <gregtech:meta_item_1:516>);
-mods.jei.JEI.removeAndHide(<immersiveengineering:material:26>);
 
 
 #print("Start Circuit Removal");
@@ -181,3 +165,6 @@ recipes.replaceAllOccurences(<ore:powderMana>, <ore:dustMana>);
 # Carminite Oredict
 <ore:gemCarminite>.add(<twilightforest:carminite>);
 recipes.replaceAllOccurences(<twilightforest:carminite>, <ore:gemCarminite>);
+
+# Mana Diamond Replacement
+recipes.replaceAllOccurences(<ore:manaDiamond>, <gregtech:meta_gem:24011>);

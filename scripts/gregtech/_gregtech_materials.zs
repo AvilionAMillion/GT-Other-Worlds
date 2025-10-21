@@ -135,11 +135,11 @@ var runicMetal = MaterialBuilder(24010, "runicmetal")
 # Mana
 var mana = MaterialBuilder(24011, "mana")
 	.fluid("fluid", true)
-	.dust()
+	.gem()
 	.color(0x33C0D6)
-	.iconSet("shiny")
+	.iconSet("diamond")
 	.components([<material:magic> * 1])
-	.flags(["disable_decomposition"])
+	.flags(["disable_decomposition", "exclude_block_crafting_by_hand_recipes"])
 	.build();
 # Cryolite
 var cryolite = MaterialBuilder(24012, "cryolite")
@@ -156,6 +156,7 @@ var alumina = MaterialBuilder(24013, "alumina")
 	.color(0xD8F0F2)
 	.iconSet("rough")
 	.components([<material:aluminium> * 2, <material:oxygen> * 3])
+	.flags(["disable_decomposition"])
 	.build();
 # Knightmetal
 var knightmetal = MaterialBuilder(24014, "knightmetal")
@@ -182,6 +183,12 @@ var manasteel = MaterialBuilder(24016, "manasteel")
 	.components([<material:stainless_steel> * 1, <material:mana> * 1])
 	.flags(["disable_decomposition", "exclude_block_crafting_by_hand_recipes", "generate_plate", "generate_rod"])
 	.build();
+# Aluminium Hydroxide
+var aloh = MaterialBuilder(24017, "aloh")
+	.dust()
+	.color(0xB4E9ED)
+	.iconSet("sand")
+	.build();
 	
 // Prexisting
 # Stone
@@ -194,3 +201,6 @@ var manasteel = MaterialBuilder(24016, "manasteel")
 <material:polycaprolactam>.addFlags("generate_ring");
 # Carminite
 <material:carminite>.setFormula("(PbFe2(AsO4)2(OH)2)Ma", true);
+# Aluminium Hydroxide
+<material:aloh>.setFormula("Al(OH)3", true);
+
