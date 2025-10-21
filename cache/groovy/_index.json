@@ -36,17 +36,27 @@
     {
       "name": "preInit.gregtech",
       "path": "preInit/gregtech.groovy",
-      "lm": 1756042591042
+      "lm": 1761084133435
     },
     {
       "name": "preInit.item_register",
       "path": "preInit/item_register.groovy",
-      "lm": 1757111455838
+      "lm": 1761063288809
+    },
+    {
+      "name": "postInit.removal",
+      "path": "postInit/removal.groovy",
+      "lm": 1761027118087
     },
     {
       "name": "postInit.machines",
       "path": "postInit/machines.groovy",
       "lm": 1755924596444
+    },
+    {
+      "name": "preInit.fluid_register",
+      "path": "preInit/fluid_register.groovy",
+      "lm": 1761082310529
     }
   ]
 }

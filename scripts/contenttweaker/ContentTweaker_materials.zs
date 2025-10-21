@@ -11,9 +11,6 @@ import mods.contenttweaker.Color;
  # Unfired Seared Brick
 var unfiredSearedBrick as Item = VanillaFactory.createItem("unfired_searedBrick");
 unfiredSearedBrick.register();
- # Sandy-Clay Compound
-var dustSandyClay as Item = VanillaFactory.createItem("sandyClay");
-dustSandyClay.register();
  # Wet Chad
 var dustWetChad as Item = VanillaFactory.createItem("wetChad");
 dustWetChad.register();

@@ -37,3 +37,12 @@ ebf.recipeBuilder()
 	.property("temperature", 1200)
 	.duration(100)
 	.buildAndRegister();
+# Alumina
+ebf.recipeBuilder()
+	.inputs(<gregtech:meta_dust:24017> * 8)
+	.outputs(<gregtech:meta_dust:24013> * 5)
+	.EUt(60)
+	.circuit(1)
+	.property("temperature", 800)
+	.duration(30)
+	.buildAndRegister();

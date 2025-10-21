@@ -6,7 +6,7 @@ val mixer as RecipeMap = <recipemap:mixer>;
 // LV Mixer
 # Colloidal Mica
 mixer.recipeBuilder()
-	.inputs(<gregtech:meta_dust:386> * 8, <enderio:item_material:20>)
+	.inputs(<gregtech:meta_dust:386> * 8, <gregtech:meta_dust_tiny:377>)
 	.fluidInputs(<liquid:water> * 2000)
 	.fluidOutputs(<liquid:colloidalmica> * 144)
 	.duration(560)
@@ -26,4 +26,12 @@ mixer.recipeBuilder()
 	.outputs(<pyrotech:material:4> * 16)
 	.duration(300)
 	.EUt(4)
+	.buildAndRegister();
+# Clay Mud
+mixer.recipeBuilder()
+	.inputs(<gregtech:meta_dust:2063> * 52)
+	.fluidInputs(<liquid:water> * 8000)
+	.fluidOutputs(<liquid:claymud> * 1000)
+	.duration(720)
+	.EUt(16)
 	.buildAndRegister();

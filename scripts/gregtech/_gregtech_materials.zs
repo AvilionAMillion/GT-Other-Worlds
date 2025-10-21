@@ -148,7 +148,8 @@ var cryolite = MaterialBuilder(24012, "cryolite")
 	.iconSet("quartz")
 	.components([<material:sodium> * 3, <material:aluminium> * 1, <material:fluorine> * 6])
 	.flags(["disable_decomposition"])
-	.ore()
+	.ore(8, 2, false)
+	.addOreByproducts(<material:silver>, <material:sapphire>)
 	.build();
 # Alumina
 var alumina = MaterialBuilder(24013, "alumina")
