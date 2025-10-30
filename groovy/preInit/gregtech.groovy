@@ -16,7 +16,7 @@ RecipeMap<SimpleRecipeBuilder> COMPONENTASSEMBLER_RECIPES = new RecipeMap<>("COM
         new SimpleRecipeBuilder(), false)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, MoveType.HORIZONTAL)
         .setSound(GTSoundEvents.MOTOR)
-RecipeMap<SimpleRecipeBuilder> EVAPORATOR_RECIPES = new RecipeMap<>("EVAPORATOR", 1, 6, 2, 0,
+RecipeMap<SimpleRecipeBuilder> EVAPORATOR_RECIPES = new RecipeMap<>("EVAPORATOR", 2, 6, 2, 0,
         new SimpleRecipeBuilder(), false)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, MoveType.HORIZONTAL)
         .setSound(GTSoundEvents.MOTOR)

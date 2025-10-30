@@ -1,0 +1,35 @@
+{
+	"populate": {
+		"nitroice": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "gtow:nitroice",
+				},
+				"material": "minecraft:ice",
+				"cluster-size": 70
+			},
+			"cluster-count": 4,
+			"min-height": 0,
+			"max-height": 60,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"twilightforest:twilight_glacier"
+						]
+					}
+				]
+			}
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		}
+	}
+}

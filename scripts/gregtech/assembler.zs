@@ -88,5 +88,21 @@ assembler.recipeBuilder()
 	.EUt(48)
 	.duration(150)
 	.buildAndRegister();
+# Thermal Insulation
+assembler.recipeBuilder()
+	.inputs(<contenttweaker:micainsulation>, <gtow:yeticlippings> * 2, <gregtech:meta_foil:2> * 4)
+	.fluidInputs(<fluid:plastic> * 288)
+	.outputs(<gtow:yetiinsulation>)
+	.EUt(120)
+	.duration(400)
+	.buildAndRegister();
+# Kanthal Coil Block
+assembler.recipeBuilder()
+	.inputs(<gregtech:wire_double:288> * 8, <gtow:yetiinsulation> * 4)
+	.fluidInputs(<fluid:cupronickel> * 288)
+	.outputs(<gregtech:wire_coil:1>)
+	.EUt(128)
+	.duration(200)
+	.buildAndRegister();
 	
 // HV

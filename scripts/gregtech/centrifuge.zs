@@ -21,3 +21,11 @@ centrifuge.recipeBuilder()
 	.EUt(40)
 	.duration(120)
 	.buildAndRegister();
+	
+# Nitrogenated Ice
+centrifuge.recipeBuilder()
+	.inputs(<gtow:nitroice> * 8)
+	.fluidOutputs(<liquid:water> * 7000, <liquid:nitrogen> * 700, <liquid:liquid_nitrogen> * 300)
+	.EUt(80)
+	.duration(300)
+	.buildAndRegister();

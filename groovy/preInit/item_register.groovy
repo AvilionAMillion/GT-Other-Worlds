@@ -1,8 +1,16 @@
 content.createItem('foggystone').register()
 content.createItem('alkalisalt').register()
+content.createItem('yeticlippings').register()
+content.createItem('yetiinsulation').register()
 
 content.createBlock('mistyblock')
         .setHardness(1.0F)
         .setResistance(1.0F)
         .setSoundType(SoundType.STONE)
+        .register()
+
+content.createBlock('nitroice')
+        .setHardness(2.0F)
+        .setResistance(1.0F)
+        .setSoundType(SoundType.GLASS)
         .register()

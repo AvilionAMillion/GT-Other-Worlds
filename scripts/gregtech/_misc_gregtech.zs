@@ -60,12 +60,6 @@ RecipeBuilder.get("basic")
   .setFluid(<liquid:glue> * 500)
   .addOutput(<gregtech:meta_item_1:381>)
   .create();
-# Phenolic Circuit Board
-RecipeBuilder.get("basic")
-  .setShapeless([<gregtech:meta_item_1:381>])
-  .setFluid(<liquid:phenol> * 200)
-  .addOutput(<gregtech:meta_item_1:382>)
-  .create();
 # Resistor
 recipes.remove(<gregtech:meta_item_1:519>);
 RecipeBuilder.get("basic")
