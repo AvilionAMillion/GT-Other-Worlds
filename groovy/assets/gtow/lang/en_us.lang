@@ -1,8 +1,10 @@
 gtow.machine.woodoven.name=Primitive Pyrolyse Oven
+gtow.machine.flotation_tank.name=Flotation Tank
 
-recipemap.woodoven.name=Wood Oven Recipes
-recipemap.COMPONENTASSEMBLER.name=Component Assembler Recipes
-recipemap.EVAPORATOR.name=Evaporator Recipes
+recipemap.woodoven.name=Wood Oven
+recipemap.flottank.name=Flotation Tank
+recipemap.COMPONENTASSEMBLER.name=Component Assembler
+recipemap.EVAPORATOR.name=Evaporator
 
 gregtech.machine.componentassembler.lv.name=Basic Component Assembling Machine
 gregtech.machine.componentassembler.mv.name=Advanced Component Assembling Machine
@@ -23,6 +25,12 @@ item.gtow.yetiinsulation.name=Basic Thermally Regulated Insulation
 
 tile.gtow.mistyblock.name=Misty World Portal Block
 tile.gtow.nitroice.name=Nitrogenated Ice
+
+tile.gtow.casing_lightsteel.name=Light Steel Machine Casing
+
+tile.gtow.component_motorlv.name=LV Electric Motor Block
+tile.gtow.component_motormv.name=MV Electric Motor Block
+tile.gtow.component_motorhv.name=HV Electric Motor Block
 
 fluid.gtow.claymud.name=Clay Mud
 fluid.gtow.thickclaymud.name=Heavy Clay Mud

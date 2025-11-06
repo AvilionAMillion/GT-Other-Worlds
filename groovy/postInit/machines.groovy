@@ -1,7 +1,7 @@
  import gregtech.common.metatileentities.MetaTileEntities
 
- import classes.MetaTileEntityWoodOven
+ import classes.MetaTileEntityFlotationTank
 
  if (isReloading()) return
 
- MetaTileEntities.registerMetaTileEntity(32000, new MetaTileEntityWoodOven(new ResourceLocation("gtow", "woodoven")))
+ MetaTileEntities.registerMetaTileEntity(32001, new MetaTileEntityFlotationTank(new ResourceLocation("gtow", "flotation_tank")))

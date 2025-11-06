@@ -4,14 +4,14 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": {
-					"name": "gtow:nitroice",
+					"name": "gtow:nitroice"
 				},
 				"material": "minecraft:ice",
 				"cluster-size": 70
 			},
-			"cluster-count": 4,
+			"cluster-count": 1,
 			"min-height": 0,
-			"max-height": 60,
+			"max-height": 70,
 			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",

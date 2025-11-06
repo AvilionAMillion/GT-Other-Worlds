@@ -1,6 +1,6 @@
 {
   "weight": 50,
-  "density": 0.7,
+  "density": 0.5,
   "min_height": 90,
   "max_height": 160,
   "generation_predicate":["block:mist:stone", "block:mist:stone_porous"],
@@ -21,13 +21,13 @@
         "primary": "ore:coal"
       },
       {
-        "secondary": "ore:coal"
+        "secondary": "ore:bitumous_coal"
       },
       {
-        "between": "ore:coal"
+        "between": "ore:anthracite_coal"
       },
       {
-        "sporadic": "ore:coal"
+        "sporadic": "ore:diamond"
       }
     ]
   }

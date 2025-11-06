@@ -1,0 +1,24 @@
+{
+	"populate": {
+		"ore fix": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "mist:stone"
+				},
+				"material": ["mist:filter_coal_ore", "mist:iron_ore", "mist:gold_ore", "mist:niobium_ore", "mist:lapis_ore", "mist:sulfur_ore", "mist:saltpeter_ore"],
+				"cluster-size": 1000
+			},
+			"cluster-count": 6000,
+			"min-height": 0,
+			"max-height": 255,
+			"retrogen": "true",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					500
+				]
+			}
+		}
+	}
+}

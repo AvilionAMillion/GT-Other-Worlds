@@ -1,5 +1,4 @@
 {
-	"dependencies": "foundry",
 	"populate": {
 		"aluminium": {
 			"distribution": "uniform",

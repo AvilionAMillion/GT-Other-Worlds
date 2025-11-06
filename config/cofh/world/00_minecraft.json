@@ -7,7 +7,7 @@
 			"generator": {
 				"block": "clay",
 				"material": "minecraft:stone",
-				"cluster-size": 22
+				"cluster-size": 33
 			},
 			"cluster-count": 6,
 			"min-height": 0,
