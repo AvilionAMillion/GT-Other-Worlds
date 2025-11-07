@@ -2,6 +2,8 @@ content.createItem('foggystone').register()
 content.createItem('alkalisalt').register()
 content.createItem('yeticlippings').register()
 content.createItem('yetiinsulation').register()
+content.createItem('philipscatalyst').register()
+content.createItem('controlmv').register()
 
 // Custom Casings
 content.createBlock('casing_lightsteel')

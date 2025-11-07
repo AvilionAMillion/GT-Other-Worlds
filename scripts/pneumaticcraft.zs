@@ -9,10 +9,16 @@ mods.pneumaticcraft.refinery.removeAllRecipes();
 mods.pneumaticcraft.thermopneumaticprocessingplant.removeAllRecipes();
 
 // Crafting
+# Refinery
 recipes.addShaped(<pneumaticcraft:refinery>,
 	[[plateSteel, <gregtech:fluid_pipe_normal:324>, plateSteel],
-	[<gregtech:transparent_casing>, pumpMV, <gregtech:transparent_casing>],
+	[<minecraft:glass>, pumpMV, <minecraft:glass>],
 	[plateSteel, <gregtech:machine:260>, plateSteel]]);
+# Thermopneumatic Processing Plant
+recipes.addShaped(<pneumaticcraft:thermopneumatic_processing_plant>,
+	[[<minecraft:glass>, null, <minecraft:glass>],
+	[<minecraft:glass>, <pneumaticcraft:thermal_compressor>, <minecraft:glass>],
+	[pumpMV, <gregtech:machine:216>, pumpMV]]);
 
 // Refinery
 mods.pneumaticcraft.refinery.addRecipe(473, <liquid:oil> * 50, [<liquid:sulfuric_heavy_fuel> * 15, <liquid:sulfuric_light_fuel> * 50, <liquid:sulfuric_naphtha> * 20, <liquid:sulfuric_gas> * 60]);

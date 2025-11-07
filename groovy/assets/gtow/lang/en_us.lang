@@ -22,6 +22,8 @@ item.gtow.foggystone.name=Foggy Stone
 item.gtow.alkalisalt.name=Alkali Metal Salts
 item.gtow.yeticlippings.name=Alpha Yeti Clippings
 item.gtow.yetiinsulation.name=Basic Thermally Regulated Insulation
+item.gtow.philipscatalyst.name=Philips Catalyst
+item.gtow.controlmv.name=MV Control Module
 
 tile.gtow.mistyblock.name=Misty World Portal Block
 tile.gtow.nitroice.name=Nitrogenated Ice

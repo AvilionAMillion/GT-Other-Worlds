@@ -45,7 +45,7 @@ public class MetaTileEntityFlotationTank extends RecipeMapMultiblockController {
                 .where('F' as char, states(blockstate('gregtech:meta_block_frame_20', 'variant=gregtech__steel')))
                 .where('P' as char, states(blockstate('gregtech:boiler_casing', 'variant=steel_pipe')))
                 .where('X' as char, states(MetaBlocks.METAL_CASING.getState(BlockMetalCasing.MetalCasingType.STEEL_SOLID))
-                        .setMinGlobalLimited(20)
+                        .setMinGlobalLimited(16)
                         .or(autoAbilities()))
                 .where('#' as char, air())
                 .build()

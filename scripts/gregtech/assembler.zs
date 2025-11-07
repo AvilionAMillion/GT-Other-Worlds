@@ -75,6 +75,15 @@ assembler.recipeBuilder()
 	.EUt(24)
 	.duration(100)
 	.buildAndRegister();
+# Light Steel Machine Casing
+assembler.recipeBuilder()
+	.inputs(<gregtech:meta_block_frame_20:4>, plateSteel * 2)
+	.fluidInputs(<liquid:plastic> * 576)
+	.outputs(<gtow:casing_lightsteel> * 2)
+	.circuit(6)
+	.EUt(16)
+	.duration(50)
+	.buildAndRegister();
 	
 	
 // MV
