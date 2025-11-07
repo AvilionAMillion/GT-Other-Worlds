@@ -81,7 +81,7 @@ RecipeBuilder.get("farmer")
   .create();
 # Runic Dust
 RecipeBuilder.get("farmer")
-  .setShapeless([<gregtech:meta_dust:24008>, <gregtech:meta_dust:2049>, <gregtech:meta_dust:1599>, <contenttweaker:bafflepowder>])
+  .setShapeless([<gregtech:meta_dust:24008>, <gregtech:meta_dust:2049>, <gregtech:meta_dust:1599>])
   .addTool(<contenttweaker:perfectpowder>, 0)
-  .addOutput(<gregtech:meta_dust:24008> * 4)
+  .addOutput(<gregtech:meta_dust:24008> * 3)
   .create();

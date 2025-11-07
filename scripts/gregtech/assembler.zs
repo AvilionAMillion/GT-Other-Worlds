@@ -99,9 +99,9 @@ assembler.recipeBuilder()
 	.buildAndRegister();
 # Thermal Insulation
 assembler.recipeBuilder()
-	.inputs(<contenttweaker:micainsulation>, <gtow:yeticlippings> * 2, <gregtech:meta_foil:2> * 4)
-	.fluidInputs(<fluid:plastic> * 288)
-	.outputs(<gtow:yetiinsulation>)
+	.inputs(<contenttweaker:micainsulation> * 3, <gtow:yeticlippings> * 1, <gregtech:meta_foil:2> * 6)
+	.fluidInputs(<fluid:plastic> * 432)
+	.outputs(<gtow:yetiinsulation> * 3)
 	.EUt(120)
 	.duration(400)
 	.buildAndRegister();

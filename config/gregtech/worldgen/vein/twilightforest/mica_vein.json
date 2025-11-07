@@ -23,7 +23,7 @@
         "secondary": "ore:mica"
       },
       {
-        "between": "ore:bauxite"
+        "between": "ore:cryolite"
       },
       {
         "sporadic": "ore:pollucite"

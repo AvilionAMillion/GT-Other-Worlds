@@ -45,11 +45,8 @@ RecipeBuilder.get("basic")
 mods.rustic.CrushingTub.addRecipe(<fluid:glue> * 50, <gregtech:meta_dust:1002>, <gregtech:meta_item_1:438>);
 
 // Mortar (Roots)
-Mortar.addRecipe("runic_powder", <gregtech:meta_dust:24008> * 3, [<contenttweaker:bafflepowder>, <gregtech:meta_dust:1599>, <gregtech:meta_dust:2049>, <gregtech:meta_dust:324>, <gregtech:meta_dust:324>]);
-
-// Fey Crafter (Roots)
-# Runic Dust
-Fey.addRecipe("runicdust", <gregtech:meta_dust:24008> * 5, [<contenttweaker:bafflepowder>, <gregtech:meta_dust:1599>, <gregtech:meta_dust:2049>, <gregtech:meta_dust:324>, <gregtech:meta_dust:324>]);
+Mortar.addRecipe("runic_powder", <gregtech:meta_dust:24008> * 5, [<contenttweaker:bafflepowder>, <gregtech:meta_dust:1599>, <gregtech:meta_dust:2049>, <gregtech:meta_dust:324>, <gregtech:meta_dust:324>]);
+Mortar.addRecipe("runic_powder2", <gregtech:meta_dust:24008> * 3, [<gregtech:meta_dust:24008>, <gregtech:meta_dust:1599>, <gregtech:meta_dust:2049>, <gregtech:meta_dust:324>, <gregtech:meta_dust:324>]);
 
 // Chrysopoeia (Roots)
 Chrysopoeia.addRecipe("mana", <contenttweaker:perfectpowder>, <gregtech:meta_dust_tiny:24011>);

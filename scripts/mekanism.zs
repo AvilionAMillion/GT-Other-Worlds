@@ -7,6 +7,7 @@ import mods.jei.JEI.removeAndHide as rh;
 import mods.mekanism.infuser;
 import mods.mekanism.reaction;
 import mods.mekanism.chemical.injection;
+import mods.mekanism.thermalevaporation;
 
 // Removal
 recipes.remove(<mekanism:basicblock:9>);
@@ -20,6 +21,7 @@ recipes.remove(<mekanism:basicblock:14>);
 recipes.remove(<mekanism:gastank>);
 recipes.remove(<mekanism:machineblock2:10>);
 recipes.remove(<mekanism:machineblock2:3>);
+recipes.remove(<mekanism:machineblock3:4>);
 recipes.removeByRecipeName("mekanism:machineblock_5");
 recipes.removeByRecipeName("mekanism:machineblock_5_alt");
 recipes.removeByRecipeName("mekanism:machineblock_5_alt_alt");
@@ -97,11 +99,19 @@ recipes.addShaped(<mekanism:machineblock2:3>, [
 	[plateSteel, <mekanism:reinforcedalloy>, plateSteel],
 	[cable1xTin, <gregtech:machine:215>, cable1xTin],
 	[plateSteel, <mekanism:gastank>, plateSteel]]);
+# Resistive Heater
+recipes.addShaped(<mekanism:machineblock3:4>, [
+	[plateSteel, <gregtech:wire_coil>, plateSteel],
+	[<gregtech:meta_item_1:97>, <gregtech:metal_casing:2>, <gregtech:meta_item_1:97>],
+	[plateSteel, <gregtech:cable_quadruple:112>, plateSteel]]);
 	
 // Metallurgic Infuser
 mods.mekanism.infuser.addRecipe("REDSTONE", 20, <minecraft:iron_ingot>, <mekanism:enrichedalloy>);
 mods.mekanism.infuser.addRecipe("DIAMOND", 20, <mekanism:enrichedalloy>, <mekanism:reinforcedalloy>);
 
+// Thermal Tower Recipes
+mods.mekanism.thermalevaporation.removeAllRecipes();
+mods.mekanism.thermalevaporation.addRecipe(<liquid:water> * 10, <liquid:salt_water> * 1);
 
 # Thermal Evaporation Controller
 RecipeBuilder.get("basic")

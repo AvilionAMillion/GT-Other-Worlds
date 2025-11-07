@@ -20,13 +20,13 @@
         "primary": "ore:almandine"
       },
       {
-        "secondary": "ore:pyrope"
+        "secondary": "ore:green_sapphire"
       },
       {
         "between": "ore:sapphire"
       },
       {
-        "sporadic": "ore:green_sapphire"
+        "sporadic": "ore:cryolite"
       }
     ]
   }
