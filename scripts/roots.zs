@@ -149,7 +149,7 @@ Fey.removeRecipe(<roots:runic_shears>);
 Fey.addRecipe("runic_shears", <roots:runic_shears>, [<minecraft:shears>, pereskia, pereskia, <roots:runed_obsidian>, <roots:runed_obsidian>]);
 # Elemental Soil
 Fey.removeRecipe(<roots:elemental_soil>);
-Fey.addRecipe("elemental_soil", <roots:elemental_soil>, [<rustic:fertile_soil>, <minecraft:sand>, <minecraft:gravel>, <ore:dustBone>, <ore:dustRunic>]);
+Fey.addRecipe("elemental_soil", <roots:elemental_soil> * 3, [<rustic:fertile_soil>, <minecraft:sand>, <minecraft:gravel>, <ore:dustBone>, <ore:dustRunic>]);
 # Pereskia
 Fey.addRecipe("pereskia", <roots:pereskia>, [<roots:wildroot>, <ore:dustRunic>, <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:regeneration", Duration: 900, Amplifier: 0}]}), <roots:dewgonia>, <gregtech:meta_ingot:2517>]); 
 # Moonglow
@@ -239,7 +239,8 @@ Fey.addRecipe("wildwoodleggings", <roots:wildwood_leggings>, [<roots:sylvan_legg
 # Wildwood Helmet
 Fey.removeRecipe(<roots:wildwood_boots>);
 Fey.addRecipe("wildwoodboots", <roots:wildwood_boots>, [<roots:sylvan_boots>, <roots:wildwood_log>, <roots:wildwood_log>, <gregtech:meta_plate:24010>, <gregtech:meta_gem_flawless:2006>]);
-
+# Twilight Forest Portal Block
+Fey.addRecipe("twiforestportal", <gtow:twilightblock>, [<roots:elemental_soil>, <gregtech:meta_gem:311>, <roots:pereskia>, <roots:pereskia>, <gregtech:meta_dust:24008>]);
 
 
 // Runic Shearing

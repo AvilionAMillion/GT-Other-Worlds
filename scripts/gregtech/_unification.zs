@@ -1047,7 +1047,23 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 	
 	# GT Material Dust
 	<ore:dustRefinedObsidian> : [
-		<mekanism:otherdust:5>]
+		<mekanism:otherdust:5>
+	],
+
+	#Nuclearcraft Dusts (There's a lot)
+	<ore:dustGraphite> : [
+		<nuclearcraft:dust:8>],
+	<ore:dustBerrylium> : [
+		<nuclearcraft:dust:9>],
+	<ore:dustZirconium> : [
+		<nuclearcraft:dust:10>],
+	<ore:dustManganese> : [
+		<nuclearcraft:dust:11>],
+	<ore:dustBismuth> : [
+		<nuclearcraft:fission_dust>],
+	<ore:dustMolybdenum> : [
+		<nuclearcraft:fission_dust:6>
+	]
 };
 
 for oreDictEntry, items in dustsDisabled {

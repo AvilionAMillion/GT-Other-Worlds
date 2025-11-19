@@ -48,6 +48,9 @@ recipes.addShaped(<tconstruct:seared_tank>,
 	[searedBrick, searedBrick, searedBrick]]);
 recipes.addShapeless(flintShard, [gravel, gravel, gravel]);
 
+// Furnace
+furnace.addRecipe(<tconstruct:materials>, <contenttweaker:unfired_searedbrick>);
+
 // Artisan Worktables
 # Wood Binding
 RecipeBuilder.get("basic")

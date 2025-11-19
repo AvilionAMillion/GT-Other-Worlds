@@ -44,5 +44,5 @@ recipes.addShaped(<rustic:brewing_barrel>,
 	[woodSlab, woodSlab, woodSlab]]);
 # Fertile Soil
 recipes.remove(<rustic:fertile_soil>);
-recipes.addShapeless(<rustic:fertile_soil>,
-	[<ore:dustBone>, <ore:dustBone>, <ore:dustBone>, <ore:dustBone>, <minecraft:dirt>]);
+recipes.addShapeless(<rustic:fertile_soil> * 2,
+	[<ore:dustBone>, <ore:dustBone>, <minecraft:dirt>, <minecraft:dirt>, <fluid:water>*1000]);

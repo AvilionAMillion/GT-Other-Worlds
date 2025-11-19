@@ -29,6 +29,11 @@ furnace.remove(<minecraft:redstone>);
 # Torch
 recipes.addShapeless(<minecraft:torch>, 
 	[stick, <pyrotech:material:15>]);
+# Furnace
+recipes.addShaped(<minecraft:furnace>,
+	[[ingotSteel, ingotSteel, ingotSteel],
+	[ingotSteel, null, ingotSteel],
+	[ingotSteel, ingotSteel, ingotSteel]]);
 	
 // Pyrotech Kilns
  # Glass

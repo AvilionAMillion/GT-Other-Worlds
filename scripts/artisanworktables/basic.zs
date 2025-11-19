@@ -52,19 +52,6 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansTSquare>, 50)
   .addOutput(<artisanworktables:workshop:2>)
   .create();
-# Farmer's Workshop
-RecipeBuilder.get("basic")
-  .setShaped([
-    [<ore:slabWood>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <ore:slabWood>],
-    [<ore:slabWood>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <ore:slabWood>],
-    [<ore:slabWood>, plateIron, <pyrotech:compacting_bin>, plateIron, <ore:slabWood>],
-    [<roots:wildwood_planks>, <gregtech:meta_block_frame_103>, <artisanworktables:workshop:5>, <gregtech:meta_block_frame_103>, <roots:wildwood_planks>],
-    [<roots:wildwood_planks>, <roots:wildwood_planks>, <roots:wildwood_planks>, <roots:wildwood_planks>, <roots:wildwood_planks>]])
-  .addTool(<ore:artisansSifter>, 100)
-  .addTool(<ore:artisansKnife>, 100)
-  .addTool(<ore:artisansTrowel>, 100)
-  .addOutput(<artisanworktables:workshop:10>)
-  .create();
 # Engineer's Workshop
 RecipeBuilder.get("basic")
   .setShaped([

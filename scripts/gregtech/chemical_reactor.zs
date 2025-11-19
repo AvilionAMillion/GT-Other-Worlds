@@ -22,3 +22,23 @@ chem.recipeBuilder()
 	.duration(160)
 	.EUt(30)
 	.buildAndRegister();
+	
+// MV Chemical Reactor
+# Polycaprolactam x1008
+chem.recipeBuilder()
+	.fluidInputs(<liquid:naphtha> * 576, <liquid:air> * 1000)
+	.inputs(<ore:dustSaltpeter>)
+	.fluidOutputs(<liquid:polycaprolactam> * 1008)
+	.circuit(1)
+	.duration(320)
+	.EUt(120)
+	.buildAndRegister();
+# Polycaprolactam x1296
+chem.recipeBuilder()
+	.fluidInputs(<liquid:naphtha> * 576, <liquid:oxygen> * 1000)
+	.inputs(<ore:dustSaltpeter>)
+	.fluidOutputs(<liquid:polycaprolactam> * 1296)
+	.circuit(1)
+	.duration(320)
+	.EUt(120)
+	.buildAndRegister();

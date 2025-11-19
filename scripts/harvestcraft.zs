@@ -40,7 +40,7 @@ function detect_tool_recipe(recipe as ICraftingRecipe) {
     var copy = Copy.byRecipe(recipe);
 
     if (<ore:listAllseed> has recipe.output | <ore:treeSapling> has recipe.output) {
-        rb = RecipeBuilder.get("farmer");
+        rb = RecipeBuilder.get("basic");
     } else {
         rb = RecipeBuilder.get("chef");
     }

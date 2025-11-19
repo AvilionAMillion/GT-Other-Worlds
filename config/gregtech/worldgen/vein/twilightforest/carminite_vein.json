@@ -12,7 +12,7 @@
     "twilightforest:dense_twilight_forest": -200,
     "twilightforest:twilight_clearing": -200,
     "twilightforest:oak_savannah": -200,
-    "twilightforest:dark_forest": 100
+    "twilightforest:dark_forest": 400
   },
   "generator": {
     "type": "layered",

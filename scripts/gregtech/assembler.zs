@@ -84,6 +84,14 @@ assembler.recipeBuilder()
 	.EUt(16)
 	.duration(50)
 	.buildAndRegister();
+# Pressure Gauge
+assembler.recipeBuilder()
+	.inputs(<gregtech:meta_plate:1068>, <gregtech:meta_item_1:301>)
+	.outputs(<pneumaticcraft:pressure_gauge>)
+	.circuit(2)
+	.EUt(16)
+	.duration(400)
+	.buildAndRegister();
 	
 	
 // MV
@@ -111,6 +119,14 @@ assembler.recipeBuilder()
 	.fluidInputs(<fluid:cupronickel> * 288)
 	.outputs(<gregtech:wire_coil:1>)
 	.EUt(128)
+	.duration(200)
+	.buildAndRegister();
+# Pressure Chamber Wall
+assembler.recipeBuilder()
+	.inputs(<gregtech:meta_block_frame_125:11>, <gregtech:meta_plate:2011> * 6)
+	.fluidInputs(<fluid:plastic> * 288)
+	.outputs(<pneumaticcraft:pressure_chamber_wall> * 2)
+	.EUt(90)
 	.duration(200)
 	.buildAndRegister();
 	

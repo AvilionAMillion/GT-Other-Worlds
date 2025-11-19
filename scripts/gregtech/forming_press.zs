@@ -1,4 +1,4 @@
-// Assembling Machine File
+// Forming Press File
 // Made by GTOW Team
 import mods.gregtech.recipe.RecipeMap;
 val forming_press as RecipeMap = <recipemap:forming_press>;
