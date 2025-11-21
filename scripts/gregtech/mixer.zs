@@ -35,3 +35,13 @@ mixer.recipeBuilder()
 	.duration(720)
 	.EUt(16)
 	.buildAndRegister();
+	
+// MV Mixer
+# Assembly Line Steel Dust
+mixer.recipeBuilder()
+	.inputs(<ore:dustSteel> * 4, <ore:dustCopper> * 4, <ore:dustChrome>)
+	.outputs(<gregtech:meta_dust:24018> * 9)
+	.circuit(1)
+	.duration(580)
+	.EUt(56)
+	.buildAndRegister();

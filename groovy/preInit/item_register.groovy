@@ -4,6 +4,7 @@ content.createItem('yeticlippings').register()
 content.createItem('yetiinsulation').register()
 content.createItem('philipscatalyst').register()
 content.createItem('controlmv').register()
+content.createItem('laser').register()
 
 // Custom Casings
 content.createBlock('casing_lightsteel')

@@ -129,5 +129,60 @@ assembler.recipeBuilder()
 	.EUt(90)
 	.duration(200)
 	.buildAndRegister();
-	
+# MV Control Module
+assembler.recipeBuilder()
+	.inputs(circuitMV * 4, plateAluminium * 4, <gregtech:cable_single:25> * 4, <gregtech:meta_item_1:301>)
+	.fluidInputs(<fluid:soldering_alloy> * 288)
+	.outputs(<gtow:controlmv>)
+	.EUt(128)
+	.duration(860)
+	.buildAndRegister();
+# Assembly Line Controller
+assembler.recipeBuilder()
+	.inputs(<rftools:machine_base>, <gtow:controlmv>, <pneumaticcraft:pressure_tube> * 2, <gregtech:meta_block_frame_125:11>)
+	.fluidInputs(<fluid:soldering_alloy> * 288)
+	.outputs(<pneumaticcraft:assembly_controller>)
+	.EUt(90)
+	.duration(800)
+	.buildAndRegister();
+# Assembly Line IO Unit
+assembler.recipeBuilder()
+	.inputs(<rftools:machine_base>, <gregtech:meta_item_1:188>, <gregtech:meta_plate:24018> * 6, <gregtech:meta_screw:24018> * 4)
+	.fluidInputs(<fluid:soldering_alloy> * 288)
+	.outputs(<pneumaticcraft:assembly_io_unit>)
+	.EUt(90)
+	.duration(800)
+	.buildAndRegister();
+# Assembly Line Drill Unit
+assembler.recipeBuilder()
+	.inputs(<rftools:machine_base>, <gregtech:meta_tool_head_drill:276>, <gregtech:meta_item_1:188>, <gregtech:meta_plate:24018> * 6, <gregtech:meta_screw:24018> * 4)
+	.fluidInputs(<fluid:soldering_alloy> * 288)
+	.outputs(<pneumaticcraft:assembly_drill>)
+	.EUt(90)
+	.duration(800)
+	.buildAndRegister();
+# Assembly Line Laser
+assembler.recipeBuilder()
+	.inputs(<rftools:machine_base>, <gtow:laser>, <gregtech:meta_item_1:188>, <gregtech:meta_plate:24018> * 6, <gregtech:meta_screw:24018> * 4)
+	.fluidInputs(<fluid:soldering_alloy> * 288)
+	.outputs(<pneumaticcraft:assembly_laser>)
+	.EUt(90)
+	.duration(800)
+	.buildAndRegister();
+# Assembly Platform
+assembler.recipeBuilder()
+	.inputs(<rftools:machine_base>, <gregtech:meta_plate:24018> * 8, <gregtech:meta_stick:24018> * 4)
+	.fluidInputs(<fluid:soldering_alloy> * 288)
+	.outputs(<pneumaticcraft:assembly_platform>)
+	.EUt(90)
+	.duration(800)
+	.buildAndRegister();
+# Low Frequency Laser
+assembler.recipeBuilder()
+	.inputs(emitterMV, <ore:craftingLensRed>, plateSteel * 4, <gregtech:meta_item_1:521> * 2, <gregtech:meta_item_1:517>)
+	.outputs(<gtow:laser>)
+	.EUt(60)
+	.duration(2000)
+	.buildAndRegister();
+
 // HV

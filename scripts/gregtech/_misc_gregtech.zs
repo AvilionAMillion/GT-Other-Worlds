@@ -4,6 +4,23 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import mods.pyrotech.Barrel;
 val builder = RecipeBuilder.get("basic");
 
+// Crafting
+# LV Motor Block
+recipes.addShaped(<gtow:component_motorlv>,
+	[[plateSteel, motorLV, plateSteel],
+	[motorLV, <gregtech:meta_block_frame_20:4>, motorLV],
+	[plateSteel, motorLV, plateSteel]]);
+# MV Motor Block
+recipes.addShaped(<gtow:component_motormv>,
+	[[plateAluminium, motorMV, plateAluminium],
+	[motorMV, <gregtech:meta_block_frame_0:2>, motorMV],
+	[plateAluminium, motorMV, plateAluminium]]);
+# HV Motor Block
+recipes.addShaped(<gtow:component_motorhv>,
+	[[plateStainlessSteel, motorHV, plateStainlessSteel],
+	[motorHV, <gregtech:meta_block_frame_20:3>, motorHV],
+	[plateStainlessSteel, motorHV, plateStainlessSteel]]);
+
 // Worktables
 # Short Wood Stick
 RecipeBuilder.get("basic")

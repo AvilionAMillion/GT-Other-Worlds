@@ -115,8 +115,19 @@ global robotarmMV as IItemStack = <gregtech:meta_item_1:188>;
 global fieldgenMV as IItemStack = <gregtech:meta_item_1:203>;
 global emitterMV as IItemStack = <gregtech:meta_item_1:218>;
 global sensorMV as IItemStack = <gregtech:meta_item_1:233>;
+#HV Components
+global motorHV as IItemStack = <gregtech:meta_item_1:129>;
+global pumpHV as IItemStack = <gregtech:meta_item_1:144>;
+global conveyorHV as IItemStack = <gregtech:meta_item_1:159>;
+global pistonHV as IItemStack = <gregtech:meta_item_1:174>;
+global robotarmHV as IItemStack = <gregtech:meta_item_1:189>;
+global fieldgenHV as IItemStack = <gregtech:meta_item_1:204>;
+global emitterHV as IItemStack = <gregtech:meta_item_1:219>;
+global sensorHV as IItemStack = <gregtech:meta_item_1:234>;
 
 // Machine Hulls
 global hullLV as IItemStack = <gregtech:machine:986>;
+global hullMV as IItemStack = <gregtech:machine:987>;
+global hullHV as IItemStack = <gregtech:machine:988>;
 
 // Wires

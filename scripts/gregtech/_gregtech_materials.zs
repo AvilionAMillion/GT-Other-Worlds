@@ -190,7 +190,16 @@ var aloh = MaterialBuilder(24017, "aloh")
 	.color(0xB4E9ED)
 	.iconSet("sand")
 	.build();
-	
+# Assembly Steel
+var asssteel = MaterialBuilder(24018, "asssteel")
+	.ingot()
+	.color(0xFA7600)
+	.iconSet("shiny")
+	.blastTemp(1300)
+	.components([<material:steel> * 4, <material:copper> * 4, <material:chrome> * 1])
+	.flags("generate_plate", "generate_bolt_screw", "generate_rod")
+	.build();
+
 // Prexisting
 # Stone
 <material:stone>.addTools(0, 0, 0, 40);

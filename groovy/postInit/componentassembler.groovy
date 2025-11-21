@@ -3,20 +3,24 @@ crafting.addShaped('cassLV', item('gregtech:machine:29001'), [
         [item('gregtech:meta_item_1:188'), ore('circuitLv'), item('gregtech:meta_item_1:188')],
         [item('gregtech:meta_item_1:158'), item('gregtech:machine:986'), item('gregtech:meta_item_1:158')],
         [item('gregtech:cable_single:112'), ore('circuitLv'), item('gregtech:cable_single:112')]])
+crafting.addShaped('cassMV', item('gregtech:machine:29001'), [
+        [item('gregtech:meta_item_1:189'), ore('circuitMv'), item('gregtech:meta_item_1:189')],
+        [item('gregtech:meta_item_1:159'), item('gregtech:machine:987'), item('gregtech:meta_item_1:159')],
+        [item('gregtech:cable_single:25'), ore('circuitMv'), item('gregtech:cable_single:25')]])
 
 
 
 
 // LV Components
 mods.gregtech.componentassembler.recipeBuilder()
-        .inputs(item('gregtech:cable_single:112') * 2, item('gregtech:meta_stick:324') * 2, item('gregtech:meta_stick:2035'), item('gregtech:wire_single:25') * 4)
+        .inputs(item('gregtech:cable_single:112') * 2, item('gregtech:meta_stick:51') * 2, item('gregtech:meta_stick:395'), item('gregtech:wire_single:25') * 4)
         .fluidInputs(fluid('soldering_alloy') * 72)
         .outputs(item('gregtech:meta_item_1:127'))
         .duration(100)
         .EUt(30)
         .buildAndRegister()
 mods.gregtech.componentassembler.recipeBuilder()
-        .inputs(item('gregtech:cable_single:112') * 2, item('gregtech:meta_stick:324') * 2, item('gregtech:meta_stick:2035'), item('gregtech:wire_single:25') * 4)
+        .inputs(item('gregtech:cable_single:112') * 2, item('gregtech:meta_stick:51') * 2, item('gregtech:meta_stick:395'), item('gregtech:wire_single:25') * 4)
         .fluidInputs(fluid('tin') * 144)
         .outputs(item('gregtech:meta_item_1:127'))
         .duration(100)

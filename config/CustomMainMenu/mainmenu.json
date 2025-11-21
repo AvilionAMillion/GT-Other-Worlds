@@ -1,23 +1,13 @@
 {
     "images":
     {
-        "title":
+        "modpack":
         {
-            "image" : "custommainmenu:textures/gui/minecraft.png",
-            "posX" : -137,
+            "image" : "mainmenu:title.png",
+            "posX" : -100,
             "posY" : 30,
-            "width" : 512,
-            "height" : 512,
-            "alignment" : "top_center"
-        },
-        
-        "edition":
-        {
-            "image" : "custommainmenu:textures/gui/edition.png",
-            "posX" : -49,
-            "posY" : 67,
-            "width" : 128,
-            "height" : 16,
+            "width" : 540,
+            "height" : 300,
             "alignment" : "top_center"
         }
     },
@@ -26,11 +16,16 @@
     {
         "singleplayer":
         {
-            "text" : "menu.singleplayer",
-            "posX" : -100,
-            "posY" : 48,
+            "text" : "Singleplayer",
+			"hoverText": "Enter another world",
+			"fontSize": 0.9,			
+			"texture": "mainmenu:button.png",
+            "posX" : -400,
+            "posY" : 0,
             "width" : 200,
-            "height" : 20,
+            "height" : 40,
+			"imageWidth": 652,
+			"imageHeight": 170,
             "action" : 
             {
                 "type" : "openGui",
@@ -40,11 +35,16 @@
         
         "multiplayer":
         {
-            "text" : "menu.multiplayer",
-            "posX" : -100,
-            "posY" : 72,
+            "text" : "Multiplayer",
+			"hoverText": "Enter another world, with friends!",
+			"fontSize": 0.9,
+			"texture": "mainmenu:button.png",
+            "posX" : -400,
+            "posY" : 40,
             "width" : 200,
-            "height" : 20,
+            "height" : 40,
+			"imageWidth": 652,
+			"imageHeight": 170,
             "action" : 
             {
                 "type" : "openGui",
@@ -54,11 +54,16 @@
         
         "mods":
         {
-            "text" : "fml.menu.mods",
-            "posX" : -100,
-            "posY" : 96,
+            "text" : "Mods",
+			"hoverText": "Yep, this has Gregtech",
+			"fontSize": 0.9,
+			"texture": "mainmenu:button.png",
+            "posX" : -400,
+            "posY" : 80,
             "width" : 200,
-            "height" : 20,
+            "height" : 40,
+			"imageWidth": 652,
+			"imageHeight": 170,
             "action" : 
             {
                 "type" : "openGui",
@@ -68,11 +73,16 @@
             
         "options":
         {
-            "text" : "menu.options",
-            "posX" : -100,
-            "posY" : 132,
-            "width" : 98,
-            "height" : 20,
+            "text" : "Options",
+			"hoverText": "No VeinMiner, grow up",
+			"fontSize": 0.9,			
+			"texture": "mainmenu:button.png",			
+            "posX" : -400,
+            "posY" : 120,
+            "width" : 200,
+            "height" : 40,
+			"imageWidth": 652,
+			"imageHeight": 170,
             "action" : 
             {
                 "type" : "openGui",
@@ -82,11 +92,16 @@
         
         "quit":
         {
-            "text" : "menu.quit",
-            "posX" : 2,
-            "posY" : 132,
-            "width" : 98,
-            "height" : 20,
+            "text" : "Quit",
+			"hoverText": "I want out!",
+			"fontSize": 0.9,			
+			"texture": "mainmenu:button.png",
+            "posX" : -400,
+            "posY" : 160,
+            "width" : 200,
+            "height" : 40,
+			"imageWidth": 652,
+			"imageHeight": 170,
             "action" : 
             {
                 "type" : "quit"
@@ -96,8 +111,8 @@
         "language":
         {
             "text" : "",
-            "posX" : -124,
-            "posY" : 132,
+            "posX" : -200,
+            "posY" : 120,
             "width" : 20,
             "height" : 20,
             "action" : 
@@ -126,9 +141,9 @@
     {
         "mojang":
         {
-            "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
-            "posX" : -197,
+            "text" : "Copyright Mojang AB.",
+            "hoverText" : "§nCopyright Mojang AB.",
+            "posX" : -110,
             "posY" : -10,
             "color" : -1,
             "alignment" : "bottom_right",
@@ -137,36 +152,39 @@
                 "type" : "openGui",
                 "gui" : "credits"
             }
-        },
-        
-        "fml":
-        {
-            "text" : "",
-            "posX" : 2,
-            "posY" : -40,
-            "color" : -1,
-            "alignment" : "bottom_left"
-        }
+        }, 
+    "forge": {
+      "text": "Forge #forgeversion#",
+      "posX": 2,
+      "posY": -40,
+      "fontSize": 0.9,
+      "color": -1,
+      "hoverColor": -1,
+      "alignment": "bottom_left"
+    },
+    "modsloaded": {
+      "text": "#modsloaded# Mods Loaded",
+      "posX": 2,
+      "posY": -30,
+      "fontSize": 0.9,
+      "color": -1,
+      "hoverColor": -1,
+      "alignment": "bottom_left"
+    }
     },
     
-    "other":
-    {
-        "splash-text":
+    "other": {
+    "splash-text": {
+      "posX": 50,
+      "posY": 240,
+      "color": 50100,
+      "alignment": "top_center",
+      "texts": "file:gtow:texts/splashes.txt"
+    },
+    "background":
         {
-            "posX" : 90,
-            "posY" : 70,
-            "color" : -256,
-            "alignment" : "top_center",
-            "texts" : "file:minecraft:texts/splashes.txt"
-        },
-        
-        "panorama":
-        {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
+            "image" : "mainmenu:background2.png",
+            "mode" : "center"
         }
-    }
+	}
 }

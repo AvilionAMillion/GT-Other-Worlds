@@ -3,10 +3,14 @@
 	
 import mods.pneumaticcraft.refinery;
 import mods.pneumaticcraft.thermopneumaticprocessingplant;
+import mods.pneumaticcraft.assembly;
 
 // Removal
 mods.pneumaticcraft.refinery.removeAllRecipes();
 mods.pneumaticcraft.thermopneumaticprocessingplant.removeAllRecipes();
+mods.pneumaticcraft.assembly.removeAllLaserRecipes();
+mods.pneumaticcraft.assembly.removeAllDrillRecipes();
+mods.pneumaticcraft.assembly.removeAllDrillLaserRecipes();
 
 // Val
 val pneuTube = <pneumaticcraft:pressure_tube>;
@@ -60,3 +64,5 @@ mods.pneumaticcraft.refinery.addRecipe(473, <liquid:oil_medium> * 100, [<liquid:
 
 // Thermopneumatic Processing Plant
 mods.pneumaticcraft.thermopneumaticprocessingplant.addRecipe(<liquid:lpg> * 250, <minecraft:coal>, 2.0, 373, <liquid:plastic> * 576);
+
+// Assembly Line
