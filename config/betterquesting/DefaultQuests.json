@@ -5,12 +5,12 @@
       "home_anchor_x:5": 0.5,
       "home_offset_x:3": -128,
       "livesmax:3": 10,
-      "home_image:8": "betterquesting:textures/gui/default_title.png",
+      "home_image:8": "gtow:textures/gui/title_card.png",
       "pack_name:8": "GregTech - Other Worlds",
       "hardcore:1": 0,
       "editmode:1": 1,
-      "pack_version:3": 0,
       "party_enable:1": 1,
+      "pack_version:3": 0,
       "home_anchor_y:5": 0.0,
       "home_offset_y:3": 0
     }
