@@ -5,9 +5,9 @@
         {
             "image" : "mainmenu:title.png",
             "posX" : -100,
-            "posY" : 30,
-            "width" : 540,
-            "height" : 300,
+            "posY" : 40,
+            "width" : 400,
+            "height" : 230,
             "alignment" : "top_center"
         }
     },
@@ -74,7 +74,7 @@
         "options":
         {
             "text" : "Options",
-			"hoverText": "No VeinMiner, grow up",
+			"hoverText": "Turn Off Autojump",
 			"fontSize": 0.9,			
 			"texture": "mainmenu:button.png",			
             "posX" : -400,
@@ -111,8 +111,8 @@
         "language":
         {
             "text" : "",
-            "posX" : -200,
-            "posY" : 120,
+            "posX" : -400,
+            "posY" : 200,
             "width" : 20,
             "height" : 20,
             "action" : 
@@ -125,8 +125,8 @@
         "refresh":
         {
             "text" : "",
-            "posX" : -154,
-            "posY" : 132,
+            "posX" : -360,
+            "posY" : 200,
             "width" : 20,
             "height" : 20,
             "texture" : "custommainmenu:textures/gui/buttons.png",
@@ -156,8 +156,7 @@
     "forge": {
       "text": "Forge #forgeversion#",
       "posX": 2,
-      "posY": -40,
-      "fontSize": 0.9,
+      "posY": -10,
       "color": -1,
       "hoverColor": -1,
       "alignment": "bottom_left"
@@ -165,18 +164,25 @@
     "modsloaded": {
       "text": "#modsloaded# Mods Loaded",
       "posX": 2,
-      "posY": -30,
-      "fontSize": 0.9,
+      "posY": -20,
       "color": -1,
       "hoverColor": -1,
       "alignment": "bottom_left"
+    },
+    "title": {
+      "text": "Main Menu Music Copyright by ZUN.",
+      "posX": -173,
+      "posY": -20,
+      "color": -1,
+      "hoverColor": -1,
+      "alignment": "bottom_right"
     }
     },
     
     "other": {
     "splash-text": {
-      "posX": 50,
-      "posY": 240,
+      "posX": 0,
+      "posY": 200,
       "color": 50100,
       "alignment": "top_center",
       "texts": "file:gtow:texts/splashes.txt"

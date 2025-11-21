@@ -34,14 +34,14 @@
       "lm": 1761096818079
     },
     {
-      "name": "classes.MetaTileEntityFlotationTank",
-      "path": "classes/MetaTileEntityFlotationTank.groovy",
-      "lm": 1762488857828
-    },
-    {
       "name": "preInit.item_register",
       "path": "preInit/item_register.groovy",
       "lm": 1763617224380
+    },
+    {
+      "name": "classes.MetaTileEntityFlotationTank",
+      "path": "classes/MetaTileEntityFlotationTank.groovy",
+      "lm": 1762488857828
     },
     {
       "name": "postInit.removal",
