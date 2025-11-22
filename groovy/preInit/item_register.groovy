@@ -5,6 +5,12 @@ content.createItem('yetiinsulation').register()
 content.createItem('philipscatalyst').register()
 content.createItem('controlmv').register()
 content.createItem('laser').register()
+content.createItem('motorhv').register()
+content.createItem('pistonhv').register()
+content.createItem('pumphv').register()
+content.createItem('conveyorhv').register()
+content.createItem('armhv').register()
+content.createItem('etchedsilicon').register()
 
 // Custom Casings
 content.createBlock('casing_lightsteel')

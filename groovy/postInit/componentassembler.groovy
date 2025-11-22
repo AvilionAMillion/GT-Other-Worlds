@@ -3,7 +3,7 @@ crafting.addShaped('cassLV', item('gregtech:machine:29001'), [
         [item('gregtech:meta_item_1:188'), ore('circuitLv'), item('gregtech:meta_item_1:188')],
         [item('gregtech:meta_item_1:158'), item('gregtech:machine:986'), item('gregtech:meta_item_1:158')],
         [item('gregtech:cable_single:112'), ore('circuitLv'), item('gregtech:cable_single:112')]])
-crafting.addShaped('cassMV', item('gregtech:machine:29001'), [
+crafting.addShaped('cassMV', item('gregtech:machine:29002'), [
         [item('gregtech:meta_item_1:189'), ore('circuitMv'), item('gregtech:meta_item_1:189')],
         [item('gregtech:meta_item_1:159'), item('gregtech:machine:987'), item('gregtech:meta_item_1:159')],
         [item('gregtech:cable_single:25'), ore('circuitMv'), item('gregtech:cable_single:25')]])

@@ -92,6 +92,43 @@ assembler.recipeBuilder()
 	.EUt(16)
 	.duration(400)
 	.buildAndRegister();
+# Drill Program
+assembler.recipeBuilder()
+	.inputs(<gregtech:meta_plate:24018>, circuitLV)
+	.outputs(<pneumaticcraft:assembly_program>)
+	.circuit(1)
+	.EUt(20)
+	.duration(400)
+	.buildAndRegister();
+assembler.recipeBuilder()
+	.inputs(<pneumaticcraft:assembly_program:1>)
+	.outputs(<pneumaticcraft:assembly_program>)
+	.circuit(1)
+	.EUt(20)
+	.duration(400)
+	.buildAndRegister();
+# Laser Program
+assembler.recipeBuilder()
+	.inputs(<gregtech:meta_plate:24018>, circuitLV)
+	.outputs(<pneumaticcraft:assembly_program:1>)
+	.circuit(2)
+	.EUt(20)
+	.duration(400)
+	.buildAndRegister();
+assembler.recipeBuilder()
+	.inputs(<pneumaticcraft:assembly_program>)
+	.outputs(<pneumaticcraft:assembly_program:1>)
+	.circuit(1)
+	.EUt(20)
+	.duration(400)
+	.buildAndRegister();
+# Dual Program
+assembler.recipeBuilder()
+	.inputs(<pneumaticcraft:assembly_program>, <pneumaticcraft:assembly_program:1>)
+	.outputs(<pneumaticcraft:assembly_program:2>)
+	.EUt(32)
+	.duration(1000)
+	.buildAndRegister();
 	
 	
 // MV
@@ -183,6 +220,41 @@ assembler.recipeBuilder()
 	.outputs(<gtow:laser>)
 	.EUt(60)
 	.duration(2000)
+	.buildAndRegister();
+# Diss. HV Motor
+assembler.recipeBuilder()
+	.inputs(<gregtech:cable_double:100> * 2, <gregtech:meta_stick:323> * 2, <gregtech:meta_stick:2035>, <gregtech:wire_double:277> * 4)
+	.outputs(<gtow:motorhv>)
+	.EUt(90)
+	.duration(100)
+	.buildAndRegister();
+# Diss. HV Piston
+assembler.recipeBuilder()
+	.inputs(<gregtech:meta_stick:323> * 2, <gregtech:cable_single:41> * 2, plateStainlessSteel * 3, <gregtech:meta_gear_small:323>, <gregtech:meta_item_1:129>)
+	.outputs(<gtow:pistonhv>)
+	.EUt(90)
+	.duration(100)
+	.buildAndRegister();
+# Diss. HV Pump
+assembler.recipeBuilder()
+	.inputs(<gregtech:cable_single:41>, <gregtech:fluid_pipe_normal:323>, <gregtech:meta_screw:324>, <gregtech:meta_rotor:324>, <gregtech:meta_ring:1012>, <gregtech:meta_item_1:144>)
+	.outputs(<gtow:pumphv>)
+	.EUt(90)
+	.duration(100)
+	.buildAndRegister();
+# Diss. HV Conveyor
+assembler.recipeBuilder()
+	.inputs(<gregtech:cable_single:41>, <gregtech:meta_item_1:144> * 2, <gregtech:meta_plate:1012> * 6)
+	.outputs(<gtow:conveyorhv>)
+	.EUt(90)
+	.duration(100)
+	.buildAndRegister();
+# Diss. HV Arm
+assembler.recipeBuilder()
+	.inputs(<gregtech:cable_single:41> * 3, <gregtech:meta_stick:323> * 2, <gregtech:meta_item_1:129> * 2, <gregtech:meta_item_1:174>, circuitHV)
+	.outputs(<gtow:armhv>)
+	.EUt(90)
+	.duration(100)
 	.buildAndRegister();
 
 // HV

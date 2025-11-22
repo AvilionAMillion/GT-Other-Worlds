@@ -15,9 +15,13 @@ centrifuge.recipeBuilder()
 // MV Tier
 # Aluminium Hydroxide
 centrifuge.recipeBuilder()
-	.fluidInputs(<liquid:claymud> * 250)
-	.outputs(<gregtech:meta_dust:24017> * 8)
-	.fluidOutputs(<liquid:thickclaymud> * 100)
+	.fluidInputs(<liquid:claymud> * 1000)
+	.outputs(<gregtech:meta_dust:24017> * 20)
+	.chancedOutput(<gregtech:meta_dust:24017> * 5, 8500, 500)
+	.chancedOutput(<gregtech:meta_dust:24017> * 3, 7500, 300)
+	.chancedOutput(<gregtech:meta_dust:24017> * 2, 5000, 300)
+	.chancedOutput(<gregtech:meta_dust:24017>, 5000, 300)
+	.fluidOutputs(<liquid:thickclaymud> * 300)
 	.EUt(40)
 	.duration(120)
 	.buildAndRegister();

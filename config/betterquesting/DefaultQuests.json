@@ -9,8 +9,8 @@
       "pack_name:8": "GregTech - Other Worlds",
       "hardcore:1": 0,
       "editmode:1": 1,
-      "party_enable:1": 1,
       "pack_version:3": 0,
+      "party_enable:1": 1,
       "home_anchor_y:5": 0.0,
       "home_offset_y:3": 0
     }
@@ -10274,6 +10274,12 @@
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gtow:twilightblock",
+              "Count:3": 10,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "partialMatch:1": 1,
@@ -13217,57 +13223,6 @@
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
           "icon:10": {
-            "id:8": "artisanworktables:workshop",
-            "Count:3": 1,
-            "Damage:2": 10,
-            "OreDict:8": ""
-          },
-          "lockedprogress:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "issilent:1": 0,
-          "repeattime:3": -1,
-          "name:8": "Farmer\u0027s Workshop",
-          "autoclaim:1": 0,
-          "globalshare:1": 0,
-          "simultaneous:1": 0,
-          "tasklogic:8": "AND",
-          "desc:8": "Do you hate crafting clay? Want to make bricks faster? Of course you do! Using Wildwood planks you can make a farmer\u0027s workshop, which allows you to not only craft pam\u0027s seeds, finally, it also allows you to make some recipes slightly easier. It\u0027s a handy worktable."
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "groupDetect:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "artisanworktables:workshop",
-              "Count:3": 1,
-              "Damage:2": 10,
-              "OreDict:8": ""
-            }
-          },
-          "partialMatch:1": 1,
-          "consume:1": 0,
-          "autoConsume:1": 0,
-          "taskID:8": "bq_standard:retrieval",
-          "ignoreNBT:1": 0
-        }
-      },
-      "rewards:9": {},
-      "preRequisites:11": [
-        131
-      ],
-      "questID:3": 171
-    },
-    "171:10": {
-      "properties:10": {
-        "betterquesting:10": {
-          "visibility:8": "ALWAYS",
-          "icon:10": {
             "id:8": "gregtech:machine",
             "Count:3": 1,
             "Damage:2": 1024,
@@ -13322,7 +13277,7 @@
       ],
       "questID:3": 172
     },
-    "172:10": {
+    "171:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -13374,7 +13329,7 @@
       ],
       "questID:3": 173
     },
-    "173:10": {
+    "172:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -13480,7 +13435,7 @@
       ],
       "questID:3": 174
     },
-    "174:10": {
+    "173:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -13573,7 +13528,7 @@
       ],
       "questID:3": 175
     },
-    "175:10": {
+    "174:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -13672,7 +13627,7 @@
       ],
       "questID:3": 176
     },
-    "176:10": {
+    "175:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -13760,7 +13715,7 @@
       ],
       "questID:3": 177
     },
-    "177:10": {
+    "176:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -13823,7 +13778,7 @@
       ],
       "questID:3": 178
     },
-    "178:10": {
+    "177:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -13874,7 +13829,7 @@
       ],
       "questID:3": 179
     },
-    "179:10": {
+    "178:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14058,7 +14013,7 @@
       ],
       "questID:3": 180
     },
-    "180:10": {
+    "179:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14159,7 +14114,7 @@
       ],
       "questID:3": 181
     },
-    "181:10": {
+    "180:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14210,7 +14165,7 @@
       ],
       "questID:3": 182
     },
-    "182:10": {
+    "181:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14273,7 +14228,7 @@
       ],
       "questID:3": 183
     },
-    "183:10": {
+    "182:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14324,7 +14279,7 @@
       ],
       "questID:3": 184
     },
-    "184:10": {
+    "183:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14381,7 +14336,7 @@
       ],
       "questID:3": 185
     },
-    "185:10": {
+    "184:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14432,7 +14387,7 @@
       ],
       "questID:3": 186
     },
-    "186:10": {
+    "185:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14487,7 +14442,7 @@
       ],
       "questID:3": 187
     },
-    "187:10": {
+    "186:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14539,7 +14494,7 @@
       ],
       "questID:3": 188
     },
-    "188:10": {
+    "187:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14590,7 +14545,7 @@
       ],
       "questID:3": 189
     },
-    "189:10": {
+    "188:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14641,7 +14596,7 @@
       ],
       "questID:3": 190
     },
-    "190:10": {
+    "189:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14710,7 +14665,7 @@
       ],
       "questID:3": 191
     },
-    "191:10": {
+    "190:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14761,7 +14716,7 @@
       ],
       "questID:3": 192
     },
-    "192:10": {
+    "191:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14849,7 +14804,7 @@
       ],
       "questID:3": 193
     },
-    "193:10": {
+    "192:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14915,7 +14870,7 @@
       ],
       "questID:3": 194
     },
-    "194:10": {
+    "193:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14966,7 +14921,7 @@
       ],
       "questID:3": 195
     },
-    "195:10": {
+    "194:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -15058,7 +15013,7 @@
       ],
       "questID:3": 196
     },
-    "196:10": {
+    "195:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -15134,7 +15089,7 @@
       ],
       "questID:3": 197
     },
-    "197:10": {
+    "196:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -15185,7 +15140,7 @@
       ],
       "questID:3": 198
     },
-    "198:10": {
+    "197:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -15254,7 +15209,7 @@
       ],
       "questID:3": 199
     },
-    "199:10": {
+    "198:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -15305,7 +15260,7 @@
       ],
       "questID:3": 200
     },
-    "200:10": {
+    "199:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -15481,7 +15436,7 @@
       ],
       "questID:3": 201
     },
-    "201:10": {
+    "200:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -15662,7 +15617,7 @@
       ],
       "questID:3": 202
     },
-    "202:10": {
+    "201:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -15857,7 +15812,7 @@
       ],
       "questID:3": 203
     },
-    "203:10": {
+    "202:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -15908,7 +15863,7 @@
       ],
       "questID:3": 204
     },
-    "204:10": {
+    "203:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -15959,7 +15914,7 @@
       ],
       "questID:3": 205
     },
-    "205:10": {
+    "204:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -16010,7 +15965,7 @@
       ],
       "questID:3": 206
     },
-    "206:10": {
+    "205:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -16061,7 +16016,7 @@
       ],
       "questID:3": 207
     },
-    "207:10": {
+    "206:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -16112,7 +16067,7 @@
       ],
       "questID:3": 208
     },
-    "208:10": {
+    "207:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -16170,7 +16125,7 @@
       ],
       "questID:3": 209
     },
-    "209:10": {
+    "208:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -16227,7 +16182,7 @@
       ],
       "questID:3": 210
     },
-    "210:10": {
+    "209:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -16279,7 +16234,7 @@
       ],
       "questID:3": 211
     },
-    "211:10": {
+    "210:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -16416,7 +16371,7 @@
       ],
       "questID:3": 212
     },
-    "212:10": {
+    "211:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -16475,7 +16430,7 @@
       ],
       "questID:3": 213
     },
-    "213:10": {
+    "212:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -16526,7 +16481,7 @@
       ],
       "questID:3": 214
     },
-    "214:10": {
+    "213:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -16578,7 +16533,7 @@
       ],
       "questID:3": 215
     },
-    "215:10": {
+    "214:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -16629,7 +16584,7 @@
       ],
       "questID:3": 216
     },
-    "216:10": {
+    "215:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -17795,17 +17750,10 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 152,
-          "y:3": 88,
-          "id:3": 171
-        },
-        "35:10": {
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 152,
           "y:3": -32,
           "id:3": 181
         },
-        "36:10": {
+        "35:10": {
           "sizeX:3": 40,
           "sizeY:3": 40,
           "x:3": 200,

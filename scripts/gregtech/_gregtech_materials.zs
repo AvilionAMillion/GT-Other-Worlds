@@ -213,4 +213,6 @@ var asssteel = MaterialBuilder(24018, "asssteel")
 <material:carminite>.setFormula("(PbFe2(AsO4)2(OH)2)Ma", true);
 # Aluminium Hydroxide
 <material:aloh>.setFormula("Al(OH)3", true);
+# Plastic
+<material:plastic>.addFlags("generate_ring");
 

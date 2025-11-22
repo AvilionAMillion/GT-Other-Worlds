@@ -66,3 +66,9 @@ mods.pneumaticcraft.refinery.addRecipe(473, <liquid:oil_medium> * 100, [<liquid:
 mods.pneumaticcraft.thermopneumaticprocessingplant.addRecipe(<liquid:lpg> * 250, <minecraft:coal>, 2.0, 373, <liquid:plastic> * 576);
 
 // Assembly Line
+mods.pneumaticcraft.assembly.addDrillRecipe(<gtow:motorhv>, <gregtech:meta_item_1:129>);
+mods.pneumaticcraft.assembly.addDrillRecipe(<gtow:pistonhv>, <gregtech:meta_item_1:174>);
+mods.pneumaticcraft.assembly.addDrillRecipe(<gtow:pumphv>, <gregtech:meta_item_1:144>);
+mods.pneumaticcraft.assembly.addDrillRecipe(<gtow:conveyorhv>, <gregtech:meta_item_1:159>);
+mods.pneumaticcraft.assembly.addDrillRecipe(<gtow:armhv>, <gregtech:meta_item_1:189>);
+mods.pneumaticcraft.assembly.addLaserRecipe(<gregtech:meta_plate:99>, <gtow:etchedsilicon>);

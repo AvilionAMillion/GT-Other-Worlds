@@ -42,3 +42,12 @@ chem.recipeBuilder()
 	.duration(320)
 	.EUt(120)
 	.buildAndRegister();
+# Silicon Dust (Low Quality)
+chem.recipeBuilder()
+	.inputs(<gregtech:meta_dust:356> * 3)
+	.fluidInputs(<liquid:hydrochloric_acid> * 2000)
+	.chancedOutput(<gregtech:meta_dust:99>, 9000, 0)
+	.fluidOutputs(<liquid:hypochlorous_acid> * 2000)
+	.duration(400)
+	.EUt(60)
+	.buildAndRegister();
