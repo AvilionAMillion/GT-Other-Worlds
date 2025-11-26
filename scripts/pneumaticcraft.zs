@@ -11,11 +11,20 @@ mods.pneumaticcraft.thermopneumaticprocessingplant.removeAllRecipes();
 mods.pneumaticcraft.assembly.removeAllLaserRecipes();
 mods.pneumaticcraft.assembly.removeAllDrillRecipes();
 mods.pneumaticcraft.assembly.removeAllDrillLaserRecipes();
+recipes.remove(<pneumaticcraft:pressure_chamber_interface>);
 
 // Val
 val pneuTube = <pneumaticcraft:pressure_tube>;
 
 // Crafting
+# Pressure Chamber Glass
+recipes.remove(<pneumaticcraft:pressure_chamber_glass>);
+recipes.addShapeless(<pneumaticcraft:pressure_chamber_glass>,
+	[<pneumaticcraft:pressure_chamber_wall>, <gregtech:transparent_casing>]);
+# Pressure Chamber Valve
+recipes.remove(<pneumaticcraft:pressure_chamber_valve>);
+recipes.addShapeless(<pneumaticcraft:pressure_chamber_valve>,
+	[<pneumaticcraft:pressure_chamber_wall>, pumpMV]);
 # Refinery
 recipes.addShaped(<pneumaticcraft:refinery>,
 	[[plateSteel, <pneumaticcraft:pressure_tube>, plateSteel],

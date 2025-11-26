@@ -256,5 +256,12 @@ assembler.recipeBuilder()
 	.EUt(90)
 	.duration(100)
 	.buildAndRegister();
+# Pressure Chamber Interface
+assembler.recipeBuilder()
+	.inputs(<pneumaticcraft:pressure_chamber_wall> * 4, circuitMV, conveyorMV)
+	.outputs(<pneumaticcraft:pressure_chamber_interface>)
+	.EUt(60)
+	.duration(240)
+	.buildAndRegister();
 
 // HV
