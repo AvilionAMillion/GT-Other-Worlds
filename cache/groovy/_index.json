@@ -34,9 +34,9 @@
       "lm": 1761096818079
     },
     {
-      "name": "classes.MetaTileEntityFlotationTank",
-      "path": "classes/MetaTileEntityFlotationTank.groovy",
-      "lm": 1762488857828
+      "name": "preInit.item_register",
+      "path": "preInit/item_register.groovy",
+      "lm": 1763830077095
     },
     {
       "name": "postInit.oreproc",
@@ -44,9 +44,9 @@
       "lm": 1764230145650
     },
     {
-      "name": "preInit.item_register",
-      "path": "preInit/item_register.groovy",
-      "lm": 1763830077095
+      "name": "classes.MetaTileEntityFlotationTank",
+      "path": "classes/MetaTileEntityFlotationTank.groovy",
+      "lm": 1762488857828
     },
     {
       "name": "postInit.removal",

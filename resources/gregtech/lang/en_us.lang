@@ -29,3 +29,12 @@ item.gt.tool.harvest_level.4=§DWrought Iron
 item.gt.tool.harvest_level.5=§8Steel
 item.gt.tool.harvest_level.6=§CArdite
 item.gt.tool.harvest_level.7=§3UHHHH
+
+metaitem.gemMana.name=Mana Diamond
+metaitem.circuit.electronic.name=Primitive Processer
+metaitem.circuit.good_electronic.name=Primitive Processer Assembly
+metaitem.circuit.basic_integrated.name=Basic Processor
+metaitem.circuit.good_integrated.name=Basic Processor Assembly
+metaitem.circuit.advanced_integrated.name=Basic Supercomputer
+metaitem.circuit.processor.name=Processor
+metaitem.circuit.workstation.name=Supercomputer
