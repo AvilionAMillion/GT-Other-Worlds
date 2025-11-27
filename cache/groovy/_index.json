@@ -16,7 +16,7 @@
     {
       "name": "postInit.componentassembler",
       "path": "postInit/componentassembler.groovy",
-      "lm": 1763829789152
+      "lm": 1764177988607
     },
     {
       "name": "postInit.evaporator",
@@ -34,19 +34,24 @@
       "lm": 1761096818079
     },
     {
-      "name": "preInit.item_register",
-      "path": "preInit/item_register.groovy",
-      "lm": 1763830077095
-    },
-    {
       "name": "classes.MetaTileEntityFlotationTank",
       "path": "classes/MetaTileEntityFlotationTank.groovy",
       "lm": 1762488857828
     },
     {
+      "name": "postInit.oreproc",
+      "path": "postInit/oreproc.groovy",
+      "lm": 1764230145650
+    },
+    {
+      "name": "preInit.item_register",
+      "path": "preInit/item_register.groovy",
+      "lm": 1763830077095
+    },
+    {
       "name": "postInit.removal",
       "path": "postInit/removal.groovy",
-      "lm": 1764119817591
+      "lm": 1764140366406
     },
     {
       "name": "postInit.machines",
