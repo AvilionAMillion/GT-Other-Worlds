@@ -52,16 +52,16 @@ recipes.replaceAllOccurences(<industrialforegoing:plastic>, <gregtech:meta_plate
 
  # Food Changes
 //// Dough
-var gtfoDough = <gregtechfoodoption:gtfo_meta_item:50>;
+#var gtfoDough = <gregtechfoodoption:gtfo_meta_item:50>;
 var dustWheat = <gregtech:meta_dust:1615>;
-recipes.replaceAllOccurences(<harvestcraft:doughitem>, <gregtechfoodoption:gtfo_meta_item:50>);
-mods.jei.JEI.removeAndHide(<harvestcraft:doughitem>);
+#recipes.replaceAllOccurences(<harvestcraft:doughitem>, <gregtechfoodoption:gtfo_meta_item:50>);
+#mods.jei.JEI.removeAndHide(<harvestcraft:doughitem>);
 <ore:impureSalt>.add(<mekanism:salt>);
 <ore:impureSalt>.add(<gregtech:meta_dust_tiny:312>);
-	recipes.remove(gtfoDough);
-	recipes.addShapeless(gtfoDough * 2,
+#	recipes.remove(gtfoDough);
+	recipes.addShapeless(<harvestcraft:doughitem> * 2,
 		[dustWheat, dustWheat, dustWheat, dustWheat, <ore:impureSalt>, <fluid:water>*1000]);
-	recipes.addShapeless(gtfoDough * 4,
+	recipes.addShapeless(<harvestcraft:doughitem> * 4,
 		[dustWheat, dustWheat, dustWheat, dustWheat, <ore:impureSalt>, <gregtech:meta_dust_tiny:353>, <fluid:water>*1000]);
 // Rest of dough recipes for the mixer continued in mixer file
 
@@ -74,18 +74,18 @@ mods.jei.JEI.removeAndHide(<harvestcraft:saltitem>);
 
 //// Food Oredicts
 // Foods won't be removed, just oredicted
-<ore:cropTomato>.add(<gregtechfoodoption:gtfo_meta_item:76>);
-recipes.replaceAllOccurences(<gregtechfoodoption:gtfo_meta_item:76>, <ore:cropTomato>);
-<ore:cropOnion>.add(<gregtechfoodoption:gtfo_meta_item:77>);
-recipes.replaceAllOccurences(<gregtechfoodoption:gtfo_meta_item:77>, <ore:cropOnion>);
-<ore:cropCucumber>.add(<gregtechfoodoption:gtfo_meta_item:78>);
-recipes.replaceAllOccurences(<gregtechfoodoption:gtfo_meta_item:78>, <ore:cropCucumber>);
-<ore:cropOlive>.add(<gregtechfoodoption:gtfo_meta_item:73>);
-recipes.replaceAllOccurences(<gregtechfoodoption:gtfo_meta_item:73>, <ore:cropOlive>);
-<ore:cropLime>.add(<gregtechfoodoption:gtfo_meta_item:18>);
-recipes.replaceAllOccurences(<gregtechfoodoption:gtfo_meta_item:18>, <ore:cropOlive>);
-<ore:cropLemon>.add(<gregtechfoodoption:gtfo_meta_item:17>);
-recipes.replaceAllOccurences(<gregtechfoodoption:gtfo_meta_item:17>, <ore:cropLemon>);
+#<ore:cropTomato>.add(<gregtechfoodoption:gtfo_meta_item:76>);
+#recipes.replaceAllOccurences(<gregtechfoodoption:gtfo_meta_item:76>, <ore:cropTomato>);
+#<ore:cropOnion>.add(<gregtechfoodoption:gtfo_meta_item:77>);
+#recipes.replaceAllOccurences(<gregtechfoodoption:gtfo_meta_item:77>, <ore:cropOnion>);
+#<ore:cropCucumber>.add(<gregtechfoodoption:gtfo_meta_item:78>);
+#recipes.replaceAllOccurences(<gregtechfoodoption:gtfo_meta_item:78>, <ore:cropCucumber>);
+#<ore:cropOlive>.add(<gregtechfoodoption:gtfo_meta_item:73>);
+#recipes.replaceAllOccurences(<gregtechfoodoption:gtfo_meta_item:73>, <ore:cropOlive>);
+#<ore:cropLime>.add(<gregtechfoodoption:gtfo_meta_item:18>);
+#recipes.replaceAllOccurences(<gregtechfoodoption:gtfo_meta_item:18>, <ore:cropOlive>);
+#<ore:cropLemon>.add(<gregtechfoodoption:gtfo_meta_item:17>);
+#recipes.replaceAllOccurences(<gregtechfoodoption:gtfo_meta_item:17>, <ore:cropLemon>);
 
 // Remove Aluminium Smelting
 mods.tconstruct.Casting.removeTableRecipe(<gregtech:meta_nugget:2>);

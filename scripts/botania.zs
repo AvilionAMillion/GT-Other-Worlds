@@ -115,7 +115,7 @@ mods.botania.ManaInfusion.removeRecipe(<botania:manaresource:23>);
 
 // Fey Crafter
 Fey.addRecipe("puredaisy", <botania:specialflower>.withTag({type: "puredaisy"}), [<contenttweaker:petal_of_the_daisy>, <contenttweaker:petal_of_the_daisy>, <roots:spirit_herb>, <rustic:marsh_mallow>, <gregtech:meta_dust_tiny:24011>]);
-Fey.addRecipe("gourmaryllis", <botania:specialflower>.withTag({type: "gourmaryllis"}), [<contenttweaker:petal_of_the_gourmaryllis>, <contenttweaker:petal_of_the_gourmaryllis>, <artisanworktables:artisans_cutting_board_steel>, <gregtechfoodoption:gtfo_meta_item:71>, <roots:stalicripe>]);
+Fey.addRecipe("gourmaryllis", <botania:specialflower>.withTag({type: "gourmaryllis"}), [<contenttweaker:petal_of_the_gourmaryllis>, <contenttweaker:petal_of_the_gourmaryllis>, <artisanworktables:artisans_cutting_board_steel>, <harvestcraft:ploughmanslunchitem>, <roots:stalicripe>]);
 Fey.addRecipe("endoflame", <botania:specialflower>.withTag({type: "endoflame"}), [<contenttweaker:petal_of_the_inner_flame>, <contenttweaker:petal_of_the_inner_flame>, <gregtech:machine:2>, <gregtech:meta_block_compressed_1500:2>, <roots:infernal_bulb>]);
 Fey.addRecipe("munchdew", <botania:specialflower>.withTag({type: "munchdew"}), [<contenttweaker:munching_petal>, <contenttweaker:munching_petal>, <artisanworktables:artisans_shears_steel>, <gregtech:rubber_sapling>, <integrateddynamics:menril_sapling>]);
 Fey.addRecipe("hydroangeas", <botania:specialflower>.withTag({type: "hydroangeas"}), [<contenttweaker:hydrating_petal>, <contenttweaker:hydrating_petal>, <gregtech:meta_item_1:142>, <roots:elemental_soil_water>, <roots:spirit_herb>]);

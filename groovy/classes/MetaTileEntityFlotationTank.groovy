@@ -18,7 +18,7 @@ import net.minecraft.util.ResourceLocation
 
 public class MetaTileEntityFlotationTank extends RecipeMapMultiblockController {
 
-    private static final RecipeMap<SimpleRecipeBuilder> FLOTTANK_RECIPES = new RecipeMap<>("flottank", 3, 3, 6, 6, new SimpleRecipeBuilder(), false)
+    private static final RecipeMap<SimpleRecipeBuilder> FLOTTANK_RECIPES = new RecipeMap<>("flottank", 6, 6, 3, 3, new SimpleRecipeBuilder(), false)
 
 
     public MetaTileEntityFlotationTank(ResourceLocation metaTileEntityId) {
