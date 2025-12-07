@@ -1,6 +1,8 @@
 // GTOW ZS File
 // Made by GTOW Team
 import mods.artisanworktables.builder.RecipeBuilder;
+import mods.gregtech.recipe.RecipeMap;
+val assembler as RecipeMap = <recipemap:assembler>;
 
 val cobbSlab = <minecraft:stone_slab:3>;
 val rotorIron = <gregtech:meta_rotor:51>;
@@ -126,7 +128,6 @@ RecipeBuilder.get("engineer")
     [<gregtech:meta_plate_double:287>, <ore:craftingFurnace>, <gregtech:meta_block_frame_17:15>, <ore:craftingFurnace>, <gregtech:meta_plate_double:287>],
     [<gregtech:meta_plate:287>, <gregtech:cable_single:112>, <contenttweaker:controllv>, <gregtech:cable_single:112>, <gregtech:meta_plate:287>],
     [<gregtech:meta_screw:287>, <gregtech:meta_plate:287>, <gregtech:meta_plate_double:287>, <gregtech:meta_plate:287>, <gregtech:meta_screw:287>]])
-  .setSecondaryIngredients([<gregtech:machine:50>])
   .addTool(<ore:artisansHammer>, 200)
   .addTool(<ore:artisansSolderer>, 250)
   .addOutput(<gregtech:machine:1001>)
@@ -141,7 +142,6 @@ RecipeBuilder.get("engineer")
     [<gregtech:meta_plate_double:259>, <gregtech:fluid_pipe_large:2037>, <gregtech:meta_block_frame_16:3>, <gregtech:fluid_pipe_large:2037>, <gregtech:meta_plate_double:259>],
     [<gregtech:meta_plate:259>, <gregtech:meta_gear:324>, <contenttweaker:controllv>, <gregtech:meta_gear:324>, <gregtech:meta_plate:259>],
     [<gregtech:meta_screw:259>, <gregtech:meta_plate:259>, <gregtech:meta_plate_double:259>, <gregtech:meta_plate:259>, <gregtech:meta_screw:259>]])
-  .setSecondaryIngredients([<gregtech:machine:950>])
   .addTool(<ore:artisansHammer>, 200)
   .addTool(<ore:artisansSolderer>, 250)
   .addOutput(<gregtech:machine:2027>)
@@ -156,8 +156,18 @@ RecipeBuilder.get("engineer")
     [<gregtech:meta_plate_double:260>, <gregtech:meta_item_1:97>, <gregtech:boiler_firebox_casing>, <gregtech:meta_item_1:97>, <gregtech:meta_plate_double:260>],
     [<gregtech:meta_plate:260>, <gregtech:cable_single:112>, <contenttweaker:controllv>, <gregtech:cable_single:112>, <gregtech:meta_plate:260>],
     [<gregtech:meta_screw:260>, <gregtech:meta_plate:260>, <gregtech:meta_plate_double:260>, <gregtech:meta_plate:260>, <gregtech:meta_screw:260>]])
-  .setSecondaryIngredients([<gregtech:machine:2> * 4, <gregtech:machine:4> * 4, <gregtech:machine:6> * 4])
   .addTool(<ore:artisansHammer>, 200)
   .addTool(<ore:artisansSolderer>, 250)
   .addOutput(<gregtech:machine:1013>)
   .create();
+  
+// Assembler
+# Pyrolyse Oven
+recipes.remove(<gregtech:machine:1004>);
+assembler.recipeBuilder()
+	.inputs(<gtow:controlmv>, pistonMV * 2, pumpMV * 2, <gregtech:wire_quadruple:274> * 4, <gregtech:meta_item_1:98> * 4, hullMV)
+	.fluidInputs(<fluid:soldering_alloy> * 288)
+	.outputs(<gregtech:machine:1004>)
+	.EUt(64)
+	.duration(600)
+	.buildAndRegister();

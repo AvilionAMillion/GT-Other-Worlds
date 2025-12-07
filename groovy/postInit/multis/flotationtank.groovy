@@ -6,13 +6,6 @@ mods.gregtech.assembler.recipeBuilder()
     .duration(1600)
     .EUt(80)
     .buildAndRegister()
-mods.gregtech.assembler.recipeBuilder()
-        .inputs(item('gtow:controlmv'), item('gregtech:meta_plate', 324) * 16, item('gregtech:meta_item_1', 143) * 2, item('gregtech:fluid_pipe_large', 1012) * 4, item('gregtech:machine', 987))
-        .outputs(item('gregtech:machine', 32001))
-        .fluidInputs(fluid('tin') * 576)
-        .duration(1600)
-        .EUt(80)
-        .buildAndRegister()
 
 
 

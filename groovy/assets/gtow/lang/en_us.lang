@@ -32,6 +32,8 @@ item.gtow.conveyorhv.name=HV Conveyor Module Parts
 item.gtow.armhv.name=HV Robot Arm Parts
 item.gtow.etchedsilicon.name=Etched Silicon Plate
 
+tile.gtow.ow_icon.name=Overworld Dimension
+
 tile.gtow.mistyblock.name=Misty World Portal Block
 tile.gtow.twilightblock.name=Twilight Forest Portal Block
 tile.gtow.nitroice.name=Nitrogenated Ice

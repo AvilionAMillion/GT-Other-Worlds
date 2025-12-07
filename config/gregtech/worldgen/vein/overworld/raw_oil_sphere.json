@@ -3,6 +3,14 @@
   "density": 1.0,
   "max_height": 40,
   "min_height": 10,
+  "vein_populator": {
+    "type": "surface_block",
+    "block": {
+      "block": "gtow:ow_icon"
+    },
+    "min_amount": 0,
+    "max_amount": 0
+  },
   "dimension_filter": [
     "dimension_id:0"
   ],
