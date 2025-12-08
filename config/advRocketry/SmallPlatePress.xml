@@ -130,14 +130,6 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
-			<oreDict>oreAluminum</oreDict>
-		</input>
-		<output>
-			<itemStack>libvulpes:productdust;2;9</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
 			<oreDict>blockIridium</oreDict>
 		</input>
 		<output>
@@ -146,23 +138,6 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
-			<oreDict>oreIridium</oreDict>
-		</input>
-		<output>
-			<itemStack>libvulpes:productdust;2;10</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockTitaniumAluminide</oreDict>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:productplate;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>blockTitaniumIridium</oreDict>
 		</input>
 		<output>
 			<itemStack>advancedrocketry:productplate;4;1</itemStack>

@@ -51,7 +51,7 @@
     {
       "name": "preInit.item_register",
       "path": "preInit/item_register.groovy",
-      "lm": 1765098870293
+      "lm": 1765134975535
     },
     {
       "name": "postInit.removal",

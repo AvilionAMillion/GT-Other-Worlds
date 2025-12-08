@@ -1,0 +1,16 @@
+// Icon
+setIcon(<biomesoplenty:earth>)
+// Title
+setTitle("GT - Other Worlds")
+// Description
+setDescription("Welcome to the Other World, may you have much luck in your adventures.")
+// Background
+setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(false)
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+//Set the position
+setPos(-281,-25)
+//Adds a single location criteria. Since this has nothing specific set, it will be completed the instant the player is added to the world, thus unlocking the page instantly.
+addCriteria("location", "minecraft:location")

@@ -1,0 +1,16 @@
+filename = 'BetterAdvancements-1.12.2-0.1.0.77.jar'
+name = 'Better Advancements'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '4eec713ab56eb4c66edd28e828ed47099dbe4987b2710dfc38df8a00d3c617901fcc07c0693002357ac0abf571246ee0e6f59af6687f32686b0228f6930279ad'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Q2OqKxDG/versions/TanCG0k3/BetterAdvancements-1.12.2-0.1.0.77.jar'
+
+[update.modrinth]
+mod-id = 'Q2OqKxDG'
+version = 'TanCG0k3'

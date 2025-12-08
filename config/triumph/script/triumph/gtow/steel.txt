@@ -1,0 +1,10 @@
+setIcon(<gregtech:meta_ingot:324>)
+setTranslatedTitle("Forged In Steel")
+setTranslatedDescription("Overworld mobs have developed weapons to combat your expansion.")
+
+addParent("triumph:gtow/bronze")
+
+criteria = addCriteria("steel", "minecraft:inventory_changed")
+criteria.addItem("gregtech:meta_ingot", 324)
+
+setPos(-148,-111)
