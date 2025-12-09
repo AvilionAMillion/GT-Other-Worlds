@@ -1,20 +1,20 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "harvestcraft:items/potitem"
+    "layer0": "harvestcraft:items/cuttingboarditem"
   },
   "overrides": [
     {
       "predicate": {
         "damage": 0.12
       },
-      "model": "contenttweaker:item/potitem_smalldirty"
+      "model": "gtow:item/cuttingboarditem_smalldirty"
     },
     {
       "predicate": {
         "damage": 0.4
       },
-      "model": "contenttweaker:item/potitem_verydirty"
+      "model": "gtow:item/cuttingboarditem_verydirty"
     }
   ]
 }

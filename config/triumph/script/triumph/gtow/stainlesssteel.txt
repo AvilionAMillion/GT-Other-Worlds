@@ -1,0 +1,10 @@
+setIcon(<gregtech:meta_ingot:323>)
+setTranslatedTitle("Purity")
+setTranslatedDescription("Your machines may be cleaner on the outside but the darkness knows better. Enemies have gotten stronger and more numerous, your defenses will be put to their limit")
+addParent("triumph:gtow/root")
+hideLines()
+
+criteria = addCriteria("stainlesssteel", "minecraft:inventory_changed")
+criteria.addItem("gregtech:meta_ingot", 323)
+
+setPos(-94,-25)

@@ -1,10 +1,11 @@
 setIcon(<gregtech:meta_ingot:260>)
 setTranslatedTitle("Bronze Age")
 setTranslatedDescription("As you advance your machinery, the mobs too become more advanced. Things will only get harder from here.")
-
-addParent("triumph:gtow/fire")
+addParent("triumph:gtow/root")
+hideLines()
+addRewardFunction("gtow:bronzestage")
 
 criteria = addCriteria("bronze", "minecraft:inventory_changed")
 criteria.addItem("gregtech:meta_ingot", 260)
 
-setPos(-195,-111)
+setPos(-192,-25)

@@ -1,18 +1,48 @@
 [
   {
-    "mob": ["minecraft:zombie", "minecraft:skeleton", "minecraft:spider"],
-	"gamestage": "Beginning",
+    "mob": ["minecraft:zombie"],
+	"helditem": [null],
+	"gamestage": "Fire",
+	"groupcountmin": 1,
+	"groupcountmax": 2,
+	"healthadd": -10.0,
     "result": "default"
   },
   {
-	"mob": ["minecraft:creeper", "minecraft:witch", "minecraft:cave_spider", "minecraft:zombie_villager", "minecraft:zombie_pigman", "minecraft:ghast"],
-	"gamestage": "SteamAge",
+    "mob": ["minecraft:skeleton"],
+	"helditem": [null],
+	"gamestage": "Fire",
+	"groupcountmin": 1,
+	"groupcountmax": 2,
+	"healthadd": -10.0,
+    "result": "default"
+  },
+  {
+    "mob": ["minecraft:spider"],
+	"gamestage": "Fire",
+	"groupcountmin": 1,
+	"groupcountmax": 1,
+	"healthadd": -8.0,
+    "result": "default"
+  },
+  {
+	"mob": ["minecraft:creeper", "minecraft:witch", "minecraft:cave_spider", "minecraft:zombie_villager"],
+	"gamestage": "Bronze",
 	"result": "default"
   },
   {
     "mob": ["minecraft:skeleton","minecraft:zombie"],
-    "playerhelditem": ["minecraft:stone_sword", "minecraft:wooden_axe"],
-	"gamestage": "SteamAge"	
+    "helditem": ["1=minecraft:stone_sword", "3=minecraft:wooden_axe"],
+	"gamestage": "Bronze",
+	"result": "default"
+  },
+  {
+    "mob": ["minecraft:zombie"],
+    "helditem": ["minecraft:iron_sword"],
+	"healthadd": 5.0,
+	"random": 0.2,
+	"gamestage": "Bronze",
+	"result": "default"
   },
   {
     "passive": true,

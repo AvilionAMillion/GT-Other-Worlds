@@ -1,10 +1,11 @@
 setIcon(<pyrotech:campfire>)
 setTranslatedTitle("To Build A Fire")
 setTranslatedDescription("The era of peace is over, hostile mobs will now spawn in the Overworld.")
-
 addParent("triumph:gtow/root")
+hideLines()
+addRewardFunction("gtow:firestage")
 
 criteria = addCriteria("tinder", "minecraft:inventory_changed")
 criteria.addItem("pyrotech:tinder")
 
-setPos(-242,-111)
+setPos(-226,-25)
