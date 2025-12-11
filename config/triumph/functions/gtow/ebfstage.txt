@@ -1,0 +1,2 @@
+gamestage add @p ebf
+title @p title {"text":"EBF Stage is Unlocked!","color":"dark_green","bold":true}

@@ -8,9 +8,6 @@ import mods.artisanworktables.builder.Copy;
 // Val
 val healElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:instant_health", Duration: 1, Amplifier: 0}]});
 
-// Initial Removal //
-# This is to prevent Artisans Worktables from generating recipes for these items
-
 // Alchemy
 mods.rustic.Condenser.addRecipe(<harvestcraft:aridgarden>, healElixir, <rustic:aloe_vera>);
 mods.rustic.Condenser.addRecipe(<harvestcraft:frostgarden>, healElixir, <rustic:cloudsbluff>);
@@ -89,6 +86,7 @@ for recipe in all_recipes {
         detect_tool_recipe(recipe);
     }
 }
+ 
 
 
 

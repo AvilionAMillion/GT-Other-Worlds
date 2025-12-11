@@ -1,2 +1,2 @@
-gamestage add @a Bronze
-title @a title {"text":"Bronze Stage is Unlocked!","color":"gold","bold":true}
+gamestage add @p Bronze
+title @p title {"text":"Bronze Stage is Unlocked!","color":"gold","bold":true}

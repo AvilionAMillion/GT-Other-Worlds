@@ -1,48 +1,175 @@
-[
+[  
   {
-    "mob": ["minecraft:zombie"],
-	"helditem": [null],
-	"gamestage": "Fire",
-	"groupcountmin": 1,
-	"groupcountmax": 2,
-	"healthadd": -10.0,
-    "result": "default"
+	"mob": ["minecraft:witch"],
+	"weight": 20,
+	"gamestage": "Steel",
+    "maxcount": {
+      "amount": 50,
+      "hostile": true,
+      "perplayer": true
+    },
+	"onjoin": true,
+	"result": "default"
+  },
+  {
+	"mob": ["minecraft:creeper"],
+	"weight": 50,
+	"gamestage": "Steel",
+    "maxcount": {
+      "amount": 50,
+      "hostile": true,
+      "perplayer": true
+    },
+	"onjoin": true,
+	"result": "default"
   },
   {
     "mob": ["minecraft:skeleton"],
-	"helditem": [null],
-	"gamestage": "Fire",
-	"groupcountmin": 1,
-	"groupcountmax": 2,
-	"healthadd": -10.0,
+	"helditem": ["4=minecraft:stone_sword", "1=minecraft:iron_sword"],
+	"armorhelmet": ["minecraft:leather_helmet"],
+	"gamestage": "Steel",
+	"weight": 80,
+	"groupcountmin": 2,
+	"groupcountmax": 3,
+    "maxcount": {
+      "amount": 50,
+      "hostile": true,
+      "perplayer": true
+    },
+	"onjoin": true,
+	"healthadd": 5.0,
+    "result": "default"
+  },
+  {
+    "mob": ["minecraft:zombie"],
+	"helditem": ["4=minecraft:stone_sword", "1=minecraft:iron_sword"],
+	"armorhelmet": ["minecraft:leather_helmet"],
+	"gamestage": "Steel",
+	"weight": 80,
+	"groupcountmin": 2,
+	"groupcountmax": 3,
+    "maxcount": {
+      "amount": 50,
+      "hostile": true,
+      "perplayer": true
+    },
+	"onjoin": true,
+	"healthadd": 5.0,
     "result": "default"
   },
   {
     "mob": ["minecraft:spider"],
-	"gamestage": "Fire",
-	"groupcountmin": 1,
-	"groupcountmax": 1,
-	"healthadd": -8.0,
-    "result": "default"
+	"weight": 30,
+	"gamestage": "Steel",
+	"groupcountmin": 2,
+	"groupcountmax": 3,
+    "maxcount": {
+      "amount": 50,
+      "hostile": true,
+      "perplayer": true
+	},
+	"result": "default"
   },
   {
 	"mob": ["minecraft:creeper", "minecraft:witch", "minecraft:cave_spider", "minecraft:zombie_villager"],
+	"weight": 60,
 	"gamestage": "Bronze",
+    "maxcount": {
+      "amount": 35,
+      "hostile": true,
+      "perplayer": true
+    },
+	"onjoin": true,
 	"result": "default"
   },
   {
-    "mob": ["minecraft:skeleton","minecraft:zombie"],
-    "helditem": ["1=minecraft:stone_sword", "3=minecraft:wooden_axe"],
+    "mob": ["minecraft:skeleton"],
+	"helditem": ["1=minecraft:stone_sword", "3=minecraft:wooden_axe"],
 	"gamestage": "Bronze",
-	"result": "default"
+	"weight": 60,
+	"groupcountmin": 1,
+	"groupcountmax": 2,
+    "maxcount": {
+      "amount": 35,
+      "hostile": true,
+      "perplayer": true
+    },
+	"onjoin": true,
+    "result": "default"
   },
   {
     "mob": ["minecraft:zombie"],
-    "helditem": ["minecraft:iron_sword"],
-	"healthadd": 5.0,
-	"random": 0.2,
+	"helditem": ["1=minecraft:stone_sword", "3=minecraft:wooden_axe"],
 	"gamestage": "Bronze",
+	"weight": 60,
+	"groupcountmin": 1,
+	"groupcountmax": 2,
+    "maxcount": {
+      "amount": 35,
+      "hostile": true,
+      "perplayer": true
+    },
+	"onjoin": true,
+    "result": "default"
+  },
+  {
+    "mob": ["minecraft:zombie"],
+	"helditem": ["minecraft:air"],
+	"gamestage": "Fire",
+	"weight": 60,
+	"groupcountmin": 1,
+	"groupcountmax": 2,
+    "maxcount": {
+      "amount": 25,
+      "hostile": true,
+      "perplayer": true
+    },
+	"healthadd": -5.0,
+	"onjoin": true,
+    "result": "default"
+  },
+  {
+    "mob": ["minecraft:spider"],
+	"weight": 20,
+	"gamestage": "Bronze",
+	"groupcountmin": 1,
+	"groupcountmax": 2,
+    "maxcount": {
+      "amount": 35,
+      "hostile": true,
+      "perplayer": true
+	},
 	"result": "default"
+  },
+  {
+    "mob": ["minecraft:skeleton"],
+	"helditem": ["pyrotech:material@11"],
+	"gamestage": "Fire",
+	"weight": 40,
+	"groupcountmin": 1,
+	"groupcountmax": 2,
+    "maxcount": {
+      "amount": 25,
+      "hostile": true,
+      "perplayer": true
+    },
+	"healthadd": -5.0,
+	"onjoin": true,
+    "result": "default"
+  },
+  {
+    "mob": ["minecraft:spider"],
+	"weight": 10,
+	"gamestage": "Fire",
+	"groupcountmin": 1,
+	"groupcountmax": 1,
+    "maxcount": {
+      "amount": 25,
+      "hostile": true,
+      "perplayer": true
+    },
+	"healthadd": -8.0,
+    "result": "default"
   },
   {
     "passive": true,

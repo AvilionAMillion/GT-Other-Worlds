@@ -1,1 +1,6 @@
-[]
+[
+  {
+	"mob": ["minecraft:zombie"],
+	"result": "deny"
+  }
+]

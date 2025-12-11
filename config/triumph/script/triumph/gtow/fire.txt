@@ -8,4 +8,4 @@ addRewardFunction("gtow:firestage")
 criteria = addCriteria("tinder", "minecraft:inventory_changed")
 criteria.addItem("pyrotech:tinder")
 
-setPos(-226,-25)
+setPos(-214,-25)

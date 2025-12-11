@@ -37,7 +37,7 @@ content.createBlock('component_motorhv')
         .register()
 
 
-
+// Portal Blocks
 content.createBlock('mistyblock')
         .setHardness(1.0F)
         .setResistance(1.0F)
@@ -55,12 +55,18 @@ content.createBlock('nitroice')
         .setSoundType(SoundType.GLASS)
         .register()
 
+// Dimensions
 content.createBlock('ow_icon')
         .setHardness(1.0F)
         .setResistance(1.0F)
         .setSoundType(SoundType.STONE)
         .register()
 content.createBlock('tf_icon')
+        .setHardness(1.0F)
+        .setResistance(1.0F)
+        .setSoundType(SoundType.STONE)
+        .register()
+content.createBlock('mw_icon')
         .setHardness(1.0F)
         .setResistance(1.0F)
         .setSoundType(SoundType.STONE)

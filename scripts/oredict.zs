@@ -163,8 +163,8 @@ recipes.replaceAllOccurences(<roots:runic_dust>, <ore:dustRunic>);
 recipes.replaceAllOccurences(<ore:powderMana>, <ore:dustMana>);
 
 # Carminite Oredict
-<ore:gemCarminite>.add(<twilightforest:carminite>);
-recipes.replaceAllOccurences(<twilightforest:carminite>, <ore:gemCarminite>);
+<ore:gemExquisiteCarminite>.add(<twilightforest:carminite>);
+recipes.replaceAllOccurences(<twilightforest:carminite>, <ore:gemExquisiteCarminite>);
 
 # Mana Diamond Replacement
 recipes.replaceAllOccurences(<ore:manaDiamond>, <gregtech:meta_gem:24011>);

@@ -3,8 +3,9 @@ setTranslatedTitle("The Smell of Industry")
 setTranslatedDescription("Your machines emit even more pollution, and the monsters in the dark and in different worlds have become stronger")
 addParent("triumph:gtow/root")
 hideLines()
+addRewardFunction("gtow:ebfstage")
 
 criteria = addCriteria("ebf", "minecraft:inventory_changed")
 criteria.addItem("gregtech:machine", 1001)
 
-setPos(-128,-25)
+setPos(-76,-25)

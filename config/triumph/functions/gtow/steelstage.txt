@@ -1,0 +1,2 @@
+gamestage add @p Steel
+title @p title {"text":"Steel Stage is Unlocked!","color":"dark_gray","bold":true}

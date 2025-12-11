@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "harvestcraft:items/mixingbowlitem"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "damage": 0.12
+      },
+      "model": "gtow:item/mixingbowlitem_smalldirty"
+    },
+    {
+      "predicate": {
+        "damage": 0.4
+      },
+      "model": "gtow:item/mixingbowlitem_verydirty"
+    }
+  ]
+}

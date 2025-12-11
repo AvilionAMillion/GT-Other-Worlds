@@ -1,2 +1,2 @@
-gamestage add @a Fire
-title @a title {"text":"Fire Stage is Unlocked!","color":"red","bold":true}
+gamestage add @p Fire
+title @p title {"text":"Fire Stage is Unlocked!","color":"red","bold":true}

@@ -9,8 +9,8 @@
       "pack_name:8": "GregTech - Other Worlds",
       "hardcore:1": 0,
       "editmode:1": 1,
-      "pack_version:3": 0,
       "party_enable:1": 1,
+      "pack_version:3": 0,
       "home_anchor_y:5": 0.0,
       "home_offset_y:3": 0
     }
@@ -6417,6 +6417,57 @@
           "icon:10": {
             "id:8": "gregtech:machine",
             "Count:3": 1,
+            "Damage:2": 111,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "issilent:1": 0,
+          "repeattime:3": -1,
+          "name:8": "MV Assembling Machine",
+          "autoclaim:1": 0,
+          "desc:8": "§3Description To Be Added",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 111,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        199
+      ],
+      "questID:3": 72
+    },
+    "73:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
             "Damage:2": 17,
             "OreDict:8": ""
           },
@@ -6481,7 +6532,7 @@
       ],
       "questID:3": 73
     },
-    "73:10": {
+    "74:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -6546,7 +6597,7 @@
       ],
       "questID:3": 74
     },
-    "74:10": {
+    "75:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -6664,7 +6715,7 @@
       ],
       "questID:3": 75
     },
-    "75:10": {
+    "76:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -6753,7 +6804,7 @@
       ],
       "questID:3": 76
     },
-    "76:10": {
+    "77:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -6825,7 +6876,7 @@
       ],
       "questID:3": 77
     },
-    "77:10": {
+    "78:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -6901,7 +6952,7 @@
       ],
       "questID:3": 78
     },
-    "78:10": {
+    "79:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -6972,7 +7023,7 @@
       ],
       "questID:3": 79
     },
-    "79:10": {
+    "80:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -7022,9 +7073,13 @@
         "0:10": {
           "rewards:9": {
             "0:10": {
-              "id:8": "gregtechfoodoption:gtfo_meta_item",
+              "id:8": "betterquesting:placeholder",
               "Count:3": 2,
               "Damage:2": 71,
+              "tag:10": {
+                "orig_id:8": "gregtechfoodoption:gtfo_meta_item",
+                "orig_meta:3": 71
+              },
               "OreDict:8": ""
             }
           },
@@ -7037,7 +7092,7 @@
       ],
       "questID:3": 80
     },
-    "80:10": {
+    "81:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -7102,7 +7157,7 @@
       ],
       "questID:3": 81
     },
-    "81:10": {
+    "82:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -7167,7 +7222,7 @@
       ],
       "questID:3": 82
     },
-    "82:10": {
+    "83:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -7232,7 +7287,7 @@
       ],
       "questID:3": 83
     },
-    "83:10": {
+    "84:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -7297,7 +7352,7 @@
       ],
       "questID:3": 84
     },
-    "84:10": {
+    "85:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -7362,7 +7417,7 @@
       ],
       "questID:3": 85
     },
-    "85:10": {
+    "86:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -7414,7 +7469,7 @@
       ],
       "questID:3": 86
     },
-    "86:10": {
+    "87:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -7479,7 +7534,7 @@
       ],
       "questID:3": 87
     },
-    "87:10": {
+    "88:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -7582,7 +7637,7 @@
       ],
       "questID:3": 88
     },
-    "88:10": {
+    "89:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -7653,7 +7708,7 @@
       ],
       "questID:3": 89
     },
-    "89:10": {
+    "90:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -7777,7 +7832,7 @@
       ],
       "questID:3": 90
     },
-    "90:10": {
+    "91:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
@@ -7866,7 +7921,7 @@
       ],
       "questID:3": 91
     },
-    "91:10": {
+    "92:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -7953,7 +8008,7 @@
       ],
       "questID:3": 92
     },
-    "92:10": {
+    "93:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -8064,7 +8119,7 @@
       ],
       "questID:3": 93
     },
-    "93:10": {
+    "94:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -8163,7 +8218,7 @@
       ],
       "questID:3": 94
     },
-    "94:10": {
+    "95:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -8264,7 +8319,7 @@
       ],
       "questID:3": 95
     },
-    "95:10": {
+    "96:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -8335,7 +8390,7 @@
       ],
       "questID:3": 96
     },
-    "96:10": {
+    "97:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -8387,7 +8442,7 @@
       ],
       "questID:3": 97
     },
-    "97:10": {
+    "98:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -8473,7 +8528,7 @@
       ],
       "questID:3": 98
     },
-    "98:10": {
+    "99:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -8544,7 +8599,7 @@
       ],
       "questID:3": 99
     },
-    "99:10": {
+    "100:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -8638,7 +8693,7 @@
       ],
       "questID:3": 100
     },
-    "100:10": {
+    "101:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -8754,7 +8809,7 @@
       ],
       "questID:3": 101
     },
-    "101:10": {
+    "102:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -8825,7 +8880,7 @@
       ],
       "questID:3": 102
     },
-    "102:10": {
+    "103:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -8890,7 +8945,7 @@
       ],
       "questID:3": 103
     },
-    "103:10": {
+    "104:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -8970,7 +9025,7 @@
       ],
       "questID:3": 104
     },
-    "104:10": {
+    "105:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -9042,7 +9097,7 @@
       ],
       "questID:3": 105
     },
-    "105:10": {
+    "106:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -9092,9 +9147,13 @@
         "0:10": {
           "rewards:9": {
             "0:10": {
-              "id:8": "gregtechfoodoption:gtfo_meta_item",
+              "id:8": "betterquesting:placeholder",
               "Count:3": 64,
               "Damage:2": 134,
+              "tag:10": {
+                "orig_id:8": "gregtechfoodoption:gtfo_meta_item",
+                "orig_meta:3": 134
+              },
               "OreDict:8": ""
             }
           },
@@ -9108,7 +9167,7 @@
       ],
       "questID:3": 106
     },
-    "106:10": {
+    "107:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -9174,7 +9233,7 @@
       ],
       "questID:3": 107
     },
-    "107:10": {
+    "108:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -9239,7 +9298,7 @@
       ],
       "questID:3": 108
     },
-    "108:10": {
+    "109:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -9314,7 +9373,7 @@
       ],
       "questID:3": 109
     },
-    "109:10": {
+    "110:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -9380,7 +9439,7 @@
       ],
       "questID:3": 110
     },
-    "110:10": {
+    "111:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -9529,7 +9588,7 @@
       ],
       "questID:3": 111
     },
-    "111:10": {
+    "112:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -9622,7 +9681,7 @@
       ],
       "questID:3": 112
     },
-    "112:10": {
+    "113:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -9675,7 +9734,7 @@
       ],
       "questID:3": 113
     },
-    "113:10": {
+    "114:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -9733,7 +9792,7 @@
       ],
       "questID:3": 114
     },
-    "114:10": {
+    "115:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -9791,7 +9850,7 @@
       ],
       "questID:3": 115
     },
-    "115:10": {
+    "116:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -9843,7 +9902,7 @@
       ],
       "questID:3": 116
     },
-    "116:10": {
+    "117:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -9895,7 +9954,7 @@
       ],
       "questID:3": 117
     },
-    "117:10": {
+    "118:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -9979,7 +10038,7 @@
       ],
       "questID:3": 118
     },
-    "118:10": {
+    "119:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -10038,7 +10097,7 @@
       ],
       "questID:3": 119
     },
-    "119:10": {
+    "120:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -10131,7 +10190,7 @@
       ],
       "questID:3": 120
     },
-    "120:10": {
+    "121:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -10183,7 +10242,7 @@
       ],
       "questID:3": 121
     },
-    "121:10": {
+    "122:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -10237,7 +10296,7 @@
       ],
       "questID:3": 122
     },
-    "122:10": {
+    "123:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -10312,7 +10371,7 @@
       ],
       "questID:3": 123
     },
-    "123:10": {
+    "124:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -10384,7 +10443,7 @@
       ],
       "questID:3": 124
     },
-    "124:10": {
+    "125:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -10442,7 +10501,7 @@
       ],
       "questID:3": 125
     },
-    "125:10": {
+    "126:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -10641,7 +10700,7 @@
       ],
       "questID:3": 126
     },
-    "126:10": {
+    "127:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -10693,7 +10752,7 @@
       ],
       "questID:3": 127
     },
-    "127:10": {
+    "128:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -10745,7 +10804,7 @@
       ],
       "questID:3": 128
     },
-    "128:10": {
+    "129:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -10796,7 +10855,7 @@
       ],
       "questID:3": 129
     },
-    "129:10": {
+    "130:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -10854,7 +10913,7 @@
       ],
       "questID:3": 130
     },
-    "130:10": {
+    "131:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -10905,7 +10964,7 @@
       ],
       "questID:3": 131
     },
-    "131:10": {
+    "132:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -10956,7 +11015,7 @@
       ],
       "questID:3": 132
     },
-    "132:10": {
+    "133:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -11032,7 +11091,7 @@
       ],
       "questID:3": 133
     },
-    "133:10": {
+    "134:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -11101,7 +11160,7 @@
       ],
       "questID:3": 134
     },
-    "134:10": {
+    "135:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -11175,7 +11234,7 @@
       ],
       "questID:3": 135
     },
-    "135:10": {
+    "136:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -11230,7 +11289,7 @@
       ],
       "questID:3": 136
     },
-    "136:10": {
+    "137:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -11312,7 +11371,7 @@
       ],
       "questID:3": 137
     },
-    "137:10": {
+    "138:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -11375,7 +11434,7 @@
       ],
       "questID:3": 138
     },
-    "138:10": {
+    "139:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -11427,7 +11486,7 @@
       ],
       "questID:3": 139
     },
-    "139:10": {
+    "140:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -11484,7 +11543,7 @@
       ],
       "questID:3": 140
     },
-    "140:10": {
+    "141:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -11535,7 +11594,7 @@
       ],
       "questID:3": 141
     },
-    "141:10": {
+    "142:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -11586,7 +11645,7 @@
       ],
       "questID:3": 142
     },
-    "142:10": {
+    "143:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -11660,7 +11719,7 @@
       ],
       "questID:3": 143
     },
-    "143:10": {
+    "144:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -11713,7 +11772,7 @@
       ],
       "questID:3": 144
     },
-    "144:10": {
+    "145:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -11764,7 +11823,7 @@
       ],
       "questID:3": 145
     },
-    "145:10": {
+    "146:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -11816,7 +11875,7 @@
       ],
       "questID:3": 146
     },
-    "146:10": {
+    "147:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -11873,7 +11932,7 @@
       ],
       "questID:3": 147
     },
-    "147:10": {
+    "148:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -11924,7 +11983,7 @@
       ],
       "questID:3": 148
     },
-    "148:10": {
+    "149:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
@@ -11975,7 +12034,7 @@
       ],
       "questID:3": 149
     },
-    "149:10": {
+    "150:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -12044,7 +12103,7 @@
       ],
       "questID:3": 150
     },
-    "150:10": {
+    "151:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -12095,7 +12154,7 @@
       ],
       "questID:3": 151
     },
-    "151:10": {
+    "152:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -12194,7 +12253,7 @@
       ],
       "questID:3": 152
     },
-    "152:10": {
+    "153:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -12266,7 +12325,7 @@
       ],
       "questID:3": 153
     },
-    "153:10": {
+    "154:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -12317,7 +12376,7 @@
       ],
       "questID:3": 154
     },
-    "154:10": {
+    "155:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
@@ -12368,7 +12427,7 @@
       ],
       "questID:3": 155
     },
-    "155:10": {
+    "156:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -12419,7 +12478,7 @@
       ],
       "questID:3": 156
     },
-    "156:10": {
+    "157:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -12470,7 +12529,7 @@
       ],
       "questID:3": 157
     },
-    "157:10": {
+    "158:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -12526,7 +12585,7 @@
       ],
       "questID:3": 158
     },
-    "158:10": {
+    "159:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -12578,7 +12637,7 @@
       ],
       "questID:3": 159
     },
-    "159:10": {
+    "160:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -12629,7 +12688,7 @@
       ],
       "questID:3": 160
     },
-    "160:10": {
+    "161:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
@@ -12724,7 +12783,7 @@
       ],
       "questID:3": 161
     },
-    "161:10": {
+    "162:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -12775,7 +12834,7 @@
       ],
       "questID:3": 162
     },
-    "162:10": {
+    "163:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -12826,7 +12885,7 @@
       ],
       "questID:3": 163
     },
-    "163:10": {
+    "164:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -12878,7 +12937,7 @@
       ],
       "questID:3": 164
     },
-    "164:10": {
+    "165:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -12929,7 +12988,7 @@
       ],
       "questID:3": 165
     },
-    "165:10": {
+    "166:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -12995,7 +13054,7 @@
       ],
       "questID:3": 166
     },
-    "166:10": {
+    "167:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -13046,7 +13105,7 @@
       ],
       "questID:3": 167
     },
-    "167:10": {
+    "168:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -13097,7 +13156,7 @@
       ],
       "questID:3": 168
     },
-    "168:10": {
+    "169:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -13136,7 +13195,7 @@
       ],
       "questID:3": 169
     },
-    "169:10": {
+    "170:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -13218,7 +13277,58 @@
       ],
       "questID:3": 170
     },
-    "170:10": {
+    "171:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 95,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "issilent:1": 0,
+          "repeattime:3": -1,
+          "name:8": "LV Arc Furnace",
+          "autoclaim:1": 0,
+          "desc:8": "§3Description To Be Added",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 95,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        147
+      ],
+      "questID:3": 171
+    },
+    "172:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -13277,7 +13387,7 @@
       ],
       "questID:3": 172
     },
-    "171:10": {
+    "173:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -13329,7 +13439,7 @@
       ],
       "questID:3": 173
     },
-    "172:10": {
+    "174:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -13435,7 +13545,7 @@
       ],
       "questID:3": 174
     },
-    "173:10": {
+    "175:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -13528,7 +13638,7 @@
       ],
       "questID:3": 175
     },
-    "174:10": {
+    "176:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -13627,7 +13737,7 @@
       ],
       "questID:3": 176
     },
-    "175:10": {
+    "177:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -13715,7 +13825,7 @@
       ],
       "questID:3": 177
     },
-    "176:10": {
+    "178:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -13761,7 +13871,7 @@
             "2:10": {
               "id:8": "gregtech:meta_ingot",
               "Count:3": 1,
-              "Damage:2": 99,
+              "Damage:2": 2011,
               "OreDict:8": ""
             }
           },
@@ -13778,7 +13888,7 @@
       ],
       "questID:3": 178
     },
-    "177:10": {
+    "179:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -13825,11 +13935,12 @@
       },
       "rewards:9": {},
       "preRequisites:11": [
-        174
+        174,
+        171
       ],
       "questID:3": 179
     },
-    "178:10": {
+    "180:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14013,7 +14124,7 @@
       ],
       "questID:3": 180
     },
-    "179:10": {
+    "181:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14114,7 +14225,7 @@
       ],
       "questID:3": 181
     },
-    "180:10": {
+    "182:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14165,7 +14276,7 @@
       ],
       "questID:3": 182
     },
-    "181:10": {
+    "183:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14228,7 +14339,7 @@
       ],
       "questID:3": 183
     },
-    "182:10": {
+    "184:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14279,7 +14390,7 @@
       ],
       "questID:3": 184
     },
-    "183:10": {
+    "185:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14336,7 +14447,7 @@
       ],
       "questID:3": 185
     },
-    "184:10": {
+    "186:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14387,7 +14498,7 @@
       ],
       "questID:3": 186
     },
-    "185:10": {
+    "187:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14442,7 +14553,7 @@
       ],
       "questID:3": 187
     },
-    "186:10": {
+    "188:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14494,7 +14605,7 @@
       ],
       "questID:3": 188
     },
-    "187:10": {
+    "189:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14545,7 +14656,7 @@
       ],
       "questID:3": 189
     },
-    "188:10": {
+    "190:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14596,7 +14707,7 @@
       ],
       "questID:3": 190
     },
-    "189:10": {
+    "191:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14665,7 +14776,7 @@
       ],
       "questID:3": 191
     },
-    "190:10": {
+    "192:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14716,7 +14827,7 @@
       ],
       "questID:3": 192
     },
-    "191:10": {
+    "193:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14804,7 +14915,7 @@
       ],
       "questID:3": 193
     },
-    "192:10": {
+    "194:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14870,7 +14981,7 @@
       ],
       "questID:3": 194
     },
-    "193:10": {
+    "195:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -14921,7 +15032,7 @@
       ],
       "questID:3": 195
     },
-    "194:10": {
+    "196:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -15013,7 +15124,7 @@
       ],
       "questID:3": 196
     },
-    "195:10": {
+    "197:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -15089,7 +15200,7 @@
       ],
       "questID:3": 197
     },
-    "196:10": {
+    "198:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -15140,7 +15251,7 @@
       ],
       "questID:3": 198
     },
-    "197:10": {
+    "199:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -15209,7 +15320,7 @@
       ],
       "questID:3": 199
     },
-    "198:10": {
+    "200:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -15260,7 +15371,7 @@
       ],
       "questID:3": 200
     },
-    "199:10": {
+    "201:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -15436,7 +15547,7 @@
       ],
       "questID:3": 201
     },
-    "200:10": {
+    "202:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -15617,7 +15728,7 @@
       ],
       "questID:3": 202
     },
-    "201:10": {
+    "203:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -15812,7 +15923,7 @@
       ],
       "questID:3": 203
     },
-    "202:10": {
+    "204:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -15863,7 +15974,7 @@
       ],
       "questID:3": 204
     },
-    "203:10": {
+    "205:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -15914,7 +16025,7 @@
       ],
       "questID:3": 205
     },
-    "204:10": {
+    "206:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -15965,7 +16076,7 @@
       ],
       "questID:3": 206
     },
-    "205:10": {
+    "207:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -16016,7 +16127,7 @@
       ],
       "questID:3": 207
     },
-    "206:10": {
+    "208:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -16067,7 +16178,7 @@
       ],
       "questID:3": 208
     },
-    "207:10": {
+    "209:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -16125,7 +16236,7 @@
       ],
       "questID:3": 209
     },
-    "208:10": {
+    "210:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -16182,7 +16293,7 @@
       ],
       "questID:3": 210
     },
-    "209:10": {
+    "211:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -16234,7 +16345,7 @@
       ],
       "questID:3": 211
     },
-    "210:10": {
+    "212:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -16371,7 +16482,7 @@
       ],
       "questID:3": 212
     },
-    "211:10": {
+    "213:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -16430,7 +16541,7 @@
       ],
       "questID:3": 213
     },
-    "212:10": {
+    "214:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -16481,7 +16592,7 @@
       ],
       "questID:3": 214
     },
-    "213:10": {
+    "215:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -16529,11 +16640,12 @@
       "rewards:9": {},
       "preRequisites:11": [
         214,
-        217
+        217,
+        225
       ],
       "questID:3": 215
     },
-    "214:10": {
+    "216:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -16584,7 +16696,7 @@
       ],
       "questID:3": 216
     },
-    "215:10": {
+    "217:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -16634,6 +16746,474 @@
         216
       ],
       "questID:3": 217
+    },
+    "218:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gtow:controlmv",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "issilent:1": 0,
+          "repeattime:3": -1,
+          "name:8": "MV Multiblocks!",
+          "autoclaim:1": 0,
+          "desc:8": "§3Description To Be Added",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gtow:controlmv",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        72
+      ],
+      "questID:3": 218
+    },
+    "219:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 216,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "issilent:1": 0,
+          "repeattime:3": -1,
+          "name:8": "MV Chemical Reactor",
+          "autoclaim:1": 0,
+          "desc:8": "§3Description To Be Added",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 216,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        199
+      ],
+      "questID:3": 219
+    },
+    "220:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "pneumaticcraft:air_compressor",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Pneuma Pneuma",
+          "repeattime:3": -1,
+          "desc:8": "§3Description To Be Added",
+          "simultaneous:1": 0,
+          "tasklogic:8": "OR",
+          "globalshare:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "pneumaticcraft:air_compressor",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "pneumaticcraft:liquid_compressor",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        199
+      ],
+      "questID:3": 220
+    },
+    "221:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "pneumaticcraft:refinery",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Refining, With Heat!",
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "§3Description To Be Added"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "pneumaticcraft:refinery",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        199
+      ],
+      "questID:3": 221
+    },
+    "222:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:meta_dust",
+            "Count:3": 1,
+            "Damage:2": 99,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "A Start To Semiconductors!",
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "§3Description To Be Added"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_dust",
+              "Count:3": 1,
+              "Damage:2": 99,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        219
+      ],
+      "questID:3": 222
+    },
+    "223:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 1004,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Big Big Coke Oven!",
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "§3Description To Be Added"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1004,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        218
+      ],
+      "questID:3": 223
+    },
+    "224:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "pneumaticcraft:thermopneumatic_processing_plant",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Processing, With Air!",
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "§3Description To Be Added"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "pneumaticcraft:thermopneumatic_processing_plant",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        220,
+        219
+      ],
+      "questID:3": 224
+    },
+    "225:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:meta_plate",
+            "Count:3": 1,
+            "Damage:2": 1012,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "PLASTIC!!!!!!!",
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "§3Description To Be Added"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_plate",
+              "Count:3": 1,
+              "Damage:2": 1012,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        224,
+        221
+      ],
+      "questID:3": 225
+    },
+    "226:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 32001,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Improved Ore Processing",
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "§3Description To Be Added"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 32001,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        218,
+        225
+      ],
+      "questID:3": 226
     }
   },
   "questLines:9": {
@@ -18099,144 +18679,151 @@
         "21:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": 372,
+          "id:3": 171
+        },
+        "22:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
           "x:3": 36,
           "y:3": 276,
           "id:3": 173
         },
-        "22:10": {
+        "23:10": {
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -72,
           "y:3": 312,
           "id:3": 174
         },
-        "23:10": {
+        "24:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -156,
           "y:3": 276,
           "id:3": 175
         },
-        "24:10": {
+        "25:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -108,
           "y:3": 276,
           "id:3": 176
         },
-        "25:10": {
+        "26:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": 324,
           "id:3": 177
         },
-        "26:10": {
+        "27:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -108,
           "y:3": 324,
           "id:3": 178
         },
-        "27:10": {
+        "28:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
           "y:3": 372,
           "id:3": 179
         },
-        "28:10": {
+        "29:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -204,
           "y:3": 276,
           "id:3": 183
         },
-        "29:10": {
+        "30:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -156,
           "y:3": 228,
           "id:3": 184
         },
-        "30:10": {
+        "31:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -252,
           "y:3": 228,
           "id:3": 185
         },
-        "31:10": {
+        "32:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -252,
           "y:3": 132,
           "id:3": 186
         },
-        "32:10": {
+        "33:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -300,
           "y:3": 180,
           "id:3": 187
         },
-        "33:10": {
+        "34:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -252,
           "y:3": 180,
           "id:3": 188
         },
-        "34:10": {
+        "35:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -252,
           "y:3": 36,
           "id:3": 189
         },
-        "35:10": {
+        "36:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -252,
           "y:3": 276,
           "id:3": 190
         },
-        "36:10": {
+        "37:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -300,
           "y:3": 132,
           "id:3": 191
         },
-        "37:10": {
+        "38:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -348,
           "y:3": 180,
           "id:3": 193
         },
-        "38:10": {
+        "39:10": {
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -360,
           "y:3": 360,
           "id:3": 194
         },
-        "39:10": {
+        "40:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -396,
           "y:3": 372,
           "id:3": 195
         },
-        "40:10": {
+        "41:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -348,
           "y:3": 36,
           "id:3": 196
         },
-        "41:10": {
+        "42:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -348,
@@ -18361,6 +18948,27 @@
           "x:3": 216,
           "y:3": 60,
           "id:3": 183
+        },
+        "14:10": {
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 312,
+          "y:3": 0,
+          "id:3": 218
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 264,
+          "y:3": 12,
+          "id:3": 223
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 384,
+          "y:3": 12,
+          "id:3": 226
         }
       },
       "lineID:3": 5,
@@ -18386,16 +18994,86 @@
         "0:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 0,
-          "y:3": 0,
-          "id:3": 194
+          "x:3": 84,
+          "y:3": 48,
+          "id:3": 72
         },
         "1:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
+          "y:3": 0,
+          "id:3": 194
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
           "y:3": 48,
           "id:3": 199
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 168,
+          "y:3": 48,
+          "id:3": 218
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": 120,
+          "id:3": 219
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -72,
+          "y:3": 48,
+          "id:3": 220
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 84,
+          "id:3": 221
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": 168,
+          "id:3": 222
+        },
+        "8:10": {
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 228,
+          "y:3": 36,
+          "id:3": 223
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -72,
+          "y:3": 120,
+          "id:3": 224
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 72,
+          "y:3": 120,
+          "id:3": 225
+        },
+        "11:10": {
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 156,
+          "y:3": 108,
+          "id:3": 226
         }
       },
       "lineID:3": 6,

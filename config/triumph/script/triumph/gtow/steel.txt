@@ -3,8 +3,9 @@ setTranslatedTitle("Forged In Steel")
 setTranslatedDescription("Overworld mobs have developed weapons to combat your expansion.")
 addParent("triumph:gtow/root")
 hideLines()
+addRewardFunction("gtow:steelstage")
 
 criteria = addCriteria("steel", "minecraft:inventory_changed")
 criteria.addItem("gregtech:meta_ingot", 324)
 
-setPos(-161,-25)
+setPos(-122,-25)

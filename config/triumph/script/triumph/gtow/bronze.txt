@@ -8,4 +8,4 @@ addRewardFunction("gtow:bronzestage")
 criteria = addCriteria("bronze", "minecraft:inventory_changed")
 criteria.addItem("gregtech:meta_ingot", 260)
 
-setPos(-192,-25)
+setPos(-168,-25)
