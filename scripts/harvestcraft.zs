@@ -33,14 +33,8 @@ static hc_tools as IItemStack[string] = {
 };
 
 function detect_tool_recipe(recipe as ICraftingRecipe) {
-    var rb as RecipeBuilder = null;
+    var rb as RecipeBuilder = RecipeBuilder.get("chef");
     var copy = Copy.byRecipe(recipe);
-
-    if (<ore:listAllseed> has recipe.output | <ore:treeSapling> has recipe.output) {
-        rb = RecipeBuilder.get("basic");
-    } else {
-        rb = RecipeBuilder.get("chef");
-    }
 
     var ingredients as IIngredient[] = recipe.ingredients1D;
     var is_tool_recipe = false;
@@ -71,9 +65,9 @@ function detect_tool_recipe(recipe as ICraftingRecipe) {
             return out;
             }
         );
+        rb.create();
+        recipes.removeByRecipeName(recipe.resourceDomain + ":" +recipe.name);
     }
-    rb.create();
-    recipes.removeByRecipeName(recipe.resourceDomain + ":" +recipe.name);
 }
 
 for toolname in hc_toolnames {
@@ -87,8 +81,59 @@ for recipe in all_recipes {
     }
 }
  
-
-
+// Crafting
+recipes.remove(<harvestcraft:market>);
+recipes.remove(<harvestcraft:shippingbin>);
+recipes.remove(<harvestcraft:well>);
+recipes.remove(<harvestcraft:waterfilter>);
+recipes.remove(<harvestcraft:grinder>);
+recipes.remove(<harvestcraft:presser>);
+# Cutting Board
+recipes.remove(<harvestcraft:cuttingboarditem>);
+recipes.addShaped(<harvestcraft:cuttingboarditem>,
+	[[plateIron, gtFile, null],
+	[plateIron, plateIron, null],
+	[<ore:slabWood>, stick, gtHammer]]);
+# Pot
+recipes.remove(<harvestcraft:potitem>);
+recipes.addShaped(<harvestcraft:potitem>,
+	[[plateIron, gtHammer, plateIron],
+	[screwIron, plateIron, screwIron]]);
+# Skillet
+recipes.remove(<harvestcraft:skilletitem>);
+recipes.addShaped(<harvestcraft:skilletitem>,
+	[[null, plateIron, plateIron],
+	[gtFile, plateIron, plateIron],
+	[stick, gtHammer, null]]);
+# Saucepan
+recipes.remove(<harvestcraft:saucepanitem>);
+recipes.addShaped(<harvestcraft:saucepanitem>,
+	[[null, null, stick],
+	[gtFile, plateIron, screwIron],
+	[plateIron, plateIron, gtHammer]]);
+# Bakeware
+recipes.remove(<harvestcraft:bakewareitem>);
+recipes.addShaped(<harvestcraft:bakewareitem>,
+	[[plateIron, null, plateIron],
+	[plateIron, gtHammer, plateIron],
+	[screwIron, plateIron, screwIron]]);
+# Mortar and Pestle
+recipes.remove(<harvestcraft:mortarandpestleitem>);
+recipes.addShaped(<harvestcraft:mortarandpestleitem>, 
+	[[null, null, stick],
+	[<pyrotech:material:16>, ringIron, <pyrotech:material:16>],
+	[null, <pyrotech:material:16>, gtFile]]);
+# Mixing Bowl
+recipes.remove(<harvestcraft:mixingbowlitem>);
+recipes.addShaped(<harvestcraft:mixingbowlitem>,
+	[[null, null, stick],
+	[<gregtech:planks:1>, ringIron, <gregtech:planks:1>],
+	[null, <gregtech:planks:1>, gtFile]]);
+# Juicer
+recipes.remove(<harvestcraft:juiceritem>);
+recipes.addShaped(<harvestcraft:juiceritem>,
+	[[gtFile, plateIron],
+	[plateIron, screwIron]]);
 
 
 

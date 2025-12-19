@@ -6,6 +6,14 @@
   "dimension_filter": [
 	"dimension_id:7"
   ],
+  "vein_populator": {
+    "type": "surface_block",
+    "block": {
+      "block": "gtow:tf_icon"
+    },
+    "min_amount": 0,
+    "max_amount": 0
+  },
   "generator": {
     "type": "layered",
     "radius": [
