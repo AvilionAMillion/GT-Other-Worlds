@@ -1,0 +1,16 @@
+filename = 'AppleSkin-mc1.12-1.0.14.jar'
+name = 'AppleSkin'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f5dad2a4fe9034e7db01e3484b27bd11711019ba8b1962b8ed506a15ccf3563aec515beb093106381f25c240e4f6a16df23ab99246b729fcccf16391d1ec1b52'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/EsAfCjCV/versions/Tsz4BT2X/AppleSkin-mc1.12-1.0.14.jar'
+
+[update.modrinth]
+mod-id = 'EsAfCjCV'
+version = 'Tsz4BT2X'

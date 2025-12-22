@@ -1,0 +1,16 @@
+filename = 'ThaumicAdditions-1.12.2-12.7.9.jar'
+name = 'Thaumic Additions: Reconstructed'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c7bd5d1facaa2d463a006ff367d390d165ba4bc5160ff424911aebcbc7739948e56b15b482c41a1ae2fb8c44745c1cb08a5d04ece0beb72959e822820ea8fd09'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Fi4BbtaL/versions/MioQD5tg/ThaumicAdditions-1.12.2-12.7.9.jar'
+
+[update.modrinth]
+mod-id = 'Fi4BbtaL'
+version = 'MioQD5tg'

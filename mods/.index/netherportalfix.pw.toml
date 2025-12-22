@@ -1,0 +1,16 @@
+filename = 'NetherPortalFix_1.12.1-5.3.17.jar'
+name = 'NetherPortalFix'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ac7ff9a12dae40854468766c6e86b0bf4e9014141c35b477b8c83fec5c36a40aa38a776705924d67e5d8b1cf2ea22b51ba57ca8f6a1208b1c1f44adafc707d94'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nPZr02ET/versions/BrV6KDNp/NetherPortalFix_1.12.1-5.3.17.jar'
+
+[update.modrinth]
+mod-id = 'nPZr02ET'
+version = 'BrV6KDNp'

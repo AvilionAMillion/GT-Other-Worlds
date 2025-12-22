@@ -1,0 +1,16 @@
+filename = 'Foundry-1.12.2-3.3.7.jar'
+name = 'Ignition: Foundry'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8b3ff4f6575138e3bfde46aab77605436c07f5b0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2719054
+project-id = 283807

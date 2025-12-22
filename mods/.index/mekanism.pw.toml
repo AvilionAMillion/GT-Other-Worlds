@@ -1,0 +1,16 @@
+filename = 'Mekanism-1.12.2-9.8.3.390.jar'
+name = 'Mekanism'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '24eeeb284334e4dc98a971a22e7d3267fda843fe17deecbca4715164f39017051ce3ca7e65a49fbd9a6c4e738d808457577e0b8a8e75477bdf897891389dd9af'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Ce6I4WUE/versions/9.8.3/Mekanism-1.12.2-9.8.3.390.jar'
+
+[update.modrinth]
+mod-id = 'Ce6I4WUE'
+version = 'KIzASRO5'

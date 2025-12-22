@@ -1,0 +1,16 @@
+filename = 'TipTheScales-1.12.2-1.0.4.jar'
+name = 'TipTheScales'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd4d66847c79ac22ace5e13b17c782f2658c1ba8cfefabb3fa541744a362d3d864c8ffcda4763581d20728c50a9a5154064f120a764a00cd7d4a486202ddfb22b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/FIxDGxJl/versions/QkHfjGjp/TipTheScales-1.12.2-1.0.4.jar'
+
+[update.modrinth]
+mod-id = 'FIxDGxJl'
+version = 'QkHfjGjp'

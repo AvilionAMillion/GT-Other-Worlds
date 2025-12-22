@@ -1,0 +1,16 @@
+filename = 'NCOLegacyLib-1.12.2-1.2.jar'
+name = 'NCO Java Legacy Lib'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e42f9769a2ce4b9c0a51f963af1e8d5b7906cebe'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5414463
+project-id = 1032769

@@ -1,0 +1,16 @@
+filename = 'ThaumcraftResearchPatcher-1.12.2-1.1.3.jar'
+name = 'Thaumcraft Research Patcher'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ab14b666124fbc8165b31c98ed6571918be720ff'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3378132
+project-id = 436513

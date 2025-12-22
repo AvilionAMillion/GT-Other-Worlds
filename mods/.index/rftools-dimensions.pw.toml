@@ -1,0 +1,16 @@
+filename = 'rftoolsdim-1.12-5.71.jar'
+name = 'RFTools Dimensions'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f15a52786aa0ec768216c143280521f10275f2be4dc39e3d13f7076b1220f05beaa1beda653c8db019ca72d25108ffb1502cf2e4ab855426d18d7e9299f57e7d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/N4D9AicU/versions/AiNwflHn/rftoolsdim-1.12-5.71.jar'
+
+[update.modrinth]
+mod-id = 'N4D9AicU'
+version = 'AiNwflHn'

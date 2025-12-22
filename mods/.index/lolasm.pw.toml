@@ -1,0 +1,16 @@
+filename = 'loliasm-5.30.jar'
+name = 'LoliASM'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9f1fa93f44e10c095f826dd25c537b42afd3f4aa'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7267368
+project-id = 460609

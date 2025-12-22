@@ -1,0 +1,16 @@
+filename = 'enderutilities-1.12.2-0.7.15.jar'
+name = 'Ender Utilities'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0bf2da07408cc03bd48b64d3913f5f67b5f80587dae161432f806440a10c39aed5c2d4931acd97a063b5fa7e4819bfb91a9985524f469920ee54e3f74cd52edb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ALKGFBqb/versions/6AWXd1S8/enderutilities-1.12.2-0.7.15.jar'
+
+[update.modrinth]
+mod-id = 'ALKGFBqb'
+version = '6AWXd1S8'

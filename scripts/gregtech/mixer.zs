@@ -35,6 +35,13 @@ mixer.recipeBuilder()
 	.duration(720)
 	.EUt(16)
 	.buildAndRegister();
+# Ironwood
+mixer.recipeBuilder()
+	.inputs(<gregtech:meta_dust:51> * 9, <gregtech:meta_dust:41>, <gtow:liveroot_dust>)
+	.outputs(<gregtech:meta_dust:24009> * 11)
+	.duration(300)
+	.EUt(20)
+	.buildAndRegister();
 	
 // MV Mixer
 # Assembly Line Steel Dust

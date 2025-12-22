@@ -1,0 +1,16 @@
+filename = 'Bloodmoon-MC1.12.2-1.5.3.jar'
+name = 'Bloodmoon'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '181062c89f2016f06e73864eab7c2ff016ccc754'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2537917
+project-id = 226321

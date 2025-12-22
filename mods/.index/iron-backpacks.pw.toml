@@ -1,0 +1,16 @@
+filename = 'IronBackpacks-1.12.2-3.0.8-12.jar'
+name = 'Iron Backpacks'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '50758105dabe8f0d4c6e311e14ad2c1f5673d2cd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2564573
+project-id = 227049

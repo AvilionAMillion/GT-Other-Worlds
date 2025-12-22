@@ -1,0 +1,16 @@
+filename = 'Apotheosis-1.12.2-1.12.5.jar'
+name = 'Apotheosis'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '71b7f07f7608019209cf8293aac806f3a1599799'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2906487
+project-id = 313970

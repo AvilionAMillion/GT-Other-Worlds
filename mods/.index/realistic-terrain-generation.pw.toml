@@ -1,0 +1,16 @@
+filename = 'RTG-1.12.2-6.1.0.0-snapshot.1.jar'
+name = 'Realistic Terrain Generation'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'c91302fbb29f7c34cdf930eb90a847ccaf48f5a2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2782568
+project-id = 237989

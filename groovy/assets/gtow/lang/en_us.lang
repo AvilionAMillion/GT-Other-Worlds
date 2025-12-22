@@ -31,9 +31,11 @@ item.gtow.pumphv.name=HV Electric Pump Parts
 item.gtow.conveyorhv.name=HV Conveyor Module Parts
 item.gtow.armhv.name=HV Robot Arm Parts
 item.gtow.etchedsilicon.name=Etched Silicon Plate
+item.gtow.liveroot_dust.name=Liveroot Dust
 
 tile.gtow.ow_icon.name=Overworld Dimension
 tile.gtow.tf_icon.name=Twilight Forest Dimension
+tile.gtow.nether_icon.name=Nether Dimension
 tile.gtow.mw_icon.name=Misty World Dimension
 
 tile.gtow.mistyblock.name=Misty World Portal Block

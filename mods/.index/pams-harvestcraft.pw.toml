@@ -1,0 +1,16 @@
+filename = "Pam's HarvestCraft 1.12.2zg.jar"
+name = 'Pams HarvestCraft'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '6f1d9c2bc96f4fea68d51afbb765be61167b465114b485087a05e2af0b964cc2c3af7f705699a32eadc5e1ed198a914517d7be28813577d72a5e893cd37de9e8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/FK1iFY2x/versions/b6ju2GsH/Pam%27s%2BHarvestCraft%2B1.12.2zg.jar'
+
+[update.modrinth]
+mod-id = 'FK1iFY2x'
+version = 'b6ju2GsH'

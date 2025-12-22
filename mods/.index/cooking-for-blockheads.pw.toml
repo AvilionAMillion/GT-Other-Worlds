@@ -1,0 +1,16 @@
+filename = 'CookingForBlockheads_1.12.2-6.5.0.jar'
+name = 'Cooking for Blockheads'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8e7b73b39c0bdae84a4be445027747c9bae935c4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2862651
+project-id = 231484

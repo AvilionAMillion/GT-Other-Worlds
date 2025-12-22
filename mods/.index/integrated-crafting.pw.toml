@@ -1,0 +1,16 @@
+filename = 'IntegratedCrafting-1.12.2-1.0.10.jar'
+name = 'Integrated Crafting'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '6ab247bd91f99ebfc0f7f97ca39ca77c3ed2c125'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3010631
+project-id = 287357

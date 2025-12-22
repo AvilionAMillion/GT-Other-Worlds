@@ -1,0 +1,16 @@
+filename = 'RoguelikeDungeons-1.12.2-1.8.0.jar'
+name = 'Roguelike Dungeons'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b62a39f5313fe3e2bd324cf2371ec472d3e3e15c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2492586
+project-id = 221585

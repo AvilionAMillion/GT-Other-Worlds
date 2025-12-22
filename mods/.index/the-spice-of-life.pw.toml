@@ -1,0 +1,16 @@
+filename = 'SpiceOfLife-mc1.12-1.3.12.jar'
+name = 'The Spice of Life'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'da39b2da1652729294e15bcb384915f409eb12f4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2571951
+project-id = 220811

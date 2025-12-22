@@ -1,0 +1,16 @@
+filename = 'NaturesCompass-1.12.2-1.8.5.jar'
+name = "Nature's Compass"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'add85fc96ff5a6b1624be5d9330ea921bf81061f600b2beef197bb172e44efa51eebf2e1dff90406932577406cc96387d8b30bf3214e11b1f0d60cd400059ec6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fPetb5Kh/versions/kMPLisZs/NaturesCompass-1.12.2-1.8.5-forge.jar'
+
+[update.modrinth]
+mod-id = 'fPetb5Kh'
+version = 'kMPLisZs'

@@ -1,0 +1,16 @@
+filename = 'AbyssalCraft Integration-1.12.2-1.11.3.jar'
+name = 'AbyssalCraft Integration'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '70804ed080b7328995ce9e53c396717be49a5ff1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3425537
+project-id = 234851

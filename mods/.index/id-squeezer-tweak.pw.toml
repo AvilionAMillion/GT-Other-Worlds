@@ -1,0 +1,16 @@
+filename = 'SqueezerPatch-1.12.2-1.0.0.jar'
+name = 'ID Squeezer Tweak'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7a20f9c3b1f3374574ed4bc4f2552ed89bf2a633'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2693506
+project-id = 318453

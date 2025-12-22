@@ -4,14 +4,14 @@
   "java": "1.8",
   "index": [
     {
-      "name": "postInit.multis.flotationtank",
-      "path": "postInit/multis/flotationtank.groovy",
-      "lm": 1765097629886
-    },
-    {
       "name": "classes.globals",
       "path": "classes/globals.groovy",
       "lm": 1755920620366
+    },
+    {
+      "name": "postInit.multis.flotationtank",
+      "path": "postInit/multis/flotationtank.groovy",
+      "lm": 1765097629886
     },
     {
       "name": "postInit.fluidcrafting",
@@ -39,9 +39,9 @@
       "lm": 1761096818079
     },
     {
-      "name": "preInit.item_register",
-      "path": "preInit/item_register.groovy",
-      "lm": 1765335677993
+      "name": "classes.MetaTileEntityFlotationTank",
+      "path": "classes/MetaTileEntityFlotationTank.groovy",
+      "lm": 1764300496408
     },
     {
       "name": "postInit.oreproc",
@@ -49,9 +49,9 @@
       "lm": 1764230145650
     },
     {
-      "name": "classes.MetaTileEntityFlotationTank",
-      "path": "classes/MetaTileEntityFlotationTank.groovy",
-      "lm": 1764300496408
+      "name": "preInit.item_register",
+      "path": "preInit/item_register.groovy",
+      "lm": 1766391847996
     },
     {
       "name": "postInit.removal",

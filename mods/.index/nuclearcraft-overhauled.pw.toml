@@ -1,0 +1,16 @@
+filename = 'nuclearcraft-1.12.2-2o.7.7.jar'
+name = 'NuclearCraft: Overhauled'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '4a63cb8e7adf12d9ccccd28eed17f69772a09028493b4a0fa66bde640d3828159a3ca255bcb5ac230b38a9c57ce5e1767695d71b650327a21d358f14752529c8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/EcProx3V/versions/uO8w4doK/nuclearcraft-1.12.2-2o.7.7.jar'
+
+[update.modrinth]
+mod-id = 'EcProx3V'
+version = 'uO8w4doK'

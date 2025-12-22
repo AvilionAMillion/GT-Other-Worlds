@@ -1,0 +1,16 @@
+filename = 'WanionLib-1.12.2-2.91.jar'
+name = 'WanionLib'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '887255944be7b87939c7e77efbe445caf9a36ddf74c5cde0bb8837956d442e7e315b79c2d7537c4c247b4390e42ec19405f6e81cfabbeadcb507077f47a91ef5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/U90pf4L4/versions/3a3PhVbx/WanionLib-1.12.2-2.91.jar'
+
+[update.modrinth]
+mod-id = 'U90pf4L4'
+version = '3a3PhVbx'

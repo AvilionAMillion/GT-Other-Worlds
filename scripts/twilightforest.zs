@@ -16,6 +16,7 @@ Fey.addRecipe("magic map", <twilightforest:magic_map_focus>, [<twilightforest:ra
 lich.addDrop(<contenttweaker:ancientbone>, 1, 1, 1.0);
 
 // Crafting
+recipes.remove(<twilightforest:ironwood_raw>);
 recipes.removeByRecipeName("twilightforest:materials/carminite");
 recipes.removeByRecipeName("twilightforest:materials/carminite_alt");
 

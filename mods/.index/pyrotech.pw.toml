@@ -1,0 +1,16 @@
+filename = 'pyrotech-1.12.2-1.6.19.jar'
+name = 'Pyrotech'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '117ce9f4b28349e39d3d8020d6920f3b66262b0c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6253355
+project-id = 306676

@@ -1,0 +1,16 @@
+filename = 'StandardExpansion-3.4.173.jar'
+name = 'Better Questing - Standard Expansion'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'aeea1502862382cf9859c495f1494e2bc7cc1d33'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2863771
+project-id = 238857

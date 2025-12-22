@@ -1,0 +1,16 @@
+filename = 'FTBLib-5.4.7.2.jar'
+name = 'FTB Library (Forge) (Legacy)'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7c20cd223bc2334edf153e074f35acdbcab3c976'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2985811
+project-id = 237167

@@ -1,0 +1,16 @@
+filename = 'Avaritia-1.12.2-3.3.0.37-universal.jar'
+name = 'Avaritia 1.1x'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7b60729ab6e144803160c955fcb1e6d695a1aba6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3143349
+project-id = 261348

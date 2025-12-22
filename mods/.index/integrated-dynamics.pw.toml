@@ -1,0 +1,16 @@
+filename = 'IntegratedDynamics-1.12.2-1.1.11.jar'
+name = 'Integrated Dynamics'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f487ae4ec3455e5bc9e3e771db0056590c906d34'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3159505
+project-id = 236307

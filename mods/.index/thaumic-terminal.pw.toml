@@ -1,0 +1,16 @@
+filename = 'ThaumicTerminal-1.0.12.jar'
+name = 'Thaumic Terminal'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b78f45e0aed9c3d17767a23c4d96e0ce1562d6f8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2702806
+project-id = 297365

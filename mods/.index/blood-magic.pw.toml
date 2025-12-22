@@ -1,0 +1,16 @@
+filename = 'BloodMagic-1.12.2-2.4.3-105.jar'
+name = 'Blood Magic'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '64e8439ce33fa654ba8c20027afea16e00df26459dfa5530df74359c2faa73a6d088d243b9e4b687fb952f0c9380f164b7655209a42f1331bd901877a5f6555b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/PbNc6qBY/versions/GtMIuGOR/BloodMagic-1.12.2-2.4.3-105.jar'
+
+[update.modrinth]
+mod-id = 'PbNc6qBY'
+version = 'GtMIuGOR'

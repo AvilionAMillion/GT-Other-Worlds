@@ -1,0 +1,16 @@
+filename = 'BuildingGadgets-2.8.4.jar'
+name = 'Building Gadgets'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7f33f2343bf0af70d5d853378d465657beea3740'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3005950
+project-id = 298187

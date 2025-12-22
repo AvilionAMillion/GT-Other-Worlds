@@ -1,0 +1,16 @@
+filename = 'Erebus-1.0.32.jar'
+name = 'The Erebus'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '2f221490de05b10932e88bc4c2ce412eefe4207d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3211974
+project-id = 220698

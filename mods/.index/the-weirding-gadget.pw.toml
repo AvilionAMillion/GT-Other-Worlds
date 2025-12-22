@@ -1,0 +1,16 @@
+filename = 'weirdinggadget-1.12.2-2.1.16-universal.jar'
+name = 'The Weirding Gadget'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b21a3cbb5bcecac448c471a438c17febe8d1f953'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2708729
+project-id = 258914

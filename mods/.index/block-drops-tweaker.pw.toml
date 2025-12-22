@@ -1,0 +1,16 @@
+filename = 'BlockDropsTweaker-1.12.2-2.4.jar'
+name = 'Block Drops Tweaker'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a167dc07bf8c54fcf2676f868cc0caa874d394d0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2524304
+project-id = 284071

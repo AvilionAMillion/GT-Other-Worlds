@@ -1,0 +1,16 @@
+filename = 'ThaumicJEI-1.12.2-1.7.0.jar'
+name = 'Thaumic JEI'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '10a31000f5e115fabc8ecd9af34e5a3a6dbf845f6a16de2d6eeeecac448a3171862765cdf996a8426bf840d64bf92166d677749260b78c42c30b726baca8aad6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/5eheMGzC/versions/jSmN1aeH/ThaumicJEI-1.12.2-1.7.0.jar'
+
+[update.modrinth]
+mod-id = '5eheMGzC'
+version = 'jSmN1aeH'

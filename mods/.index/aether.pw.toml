@@ -1,0 +1,16 @@
+filename = 'aether-1.12.2-v1.5.4.1.jar'
+name = 'The Aether'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7ed32d92b0959cbfaf4d088c736591b14a1facfef78b7f553a7426a9103a4820a49776e97e67b3a13431928a97f0b6d20f842b9890726e24d5603ee73084cd19'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/YhmgMVyu/versions/y1tzlBx9/aether-1.12.2-v1.5.4.1.jar'
+
+[update.modrinth]
+mod-id = 'YhmgMVyu'
+version = 'y1tzlBx9'

@@ -1,9 +1,17 @@
 {
   "weight": 50,
-  "density": 0.5,
+  "density": 0.43,
   "min_height": 90,
   "max_height": 160,
   "generation_predicate":["block:mist:stone", "block:mist:stone_porous"],
+  "vein_populator": {
+    "type": "surface_block",
+    "block": {
+      "block": "gtow:mw_icon"
+    },
+    "min_amount": 0,
+    "max_amount": 0
+  },
   "dimension_filter": [
     "dimension_id:500"
   ],

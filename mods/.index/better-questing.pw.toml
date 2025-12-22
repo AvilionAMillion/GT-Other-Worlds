@@ -1,0 +1,16 @@
+filename = 'BetterQuesting-3.5.329.jar'
+name = 'Better Questing'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '45b1b20dfbd79c64f226625076f228e4efec4586'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2950248
+project-id = 238856

@@ -1,0 +1,16 @@
+filename = 'CodeChickenLib-1.12.2-3.2.3.358-universal.jar'
+name = 'CodeChicken Lib'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7d80d3cd39cb16c0dd16b88a66b809ab60ee468a25ec427ef2f7a8bde1f170a71ddf99b82d44bebeacc6bfa5e76450b18c476e8067fb1f9de35f743b920622ac'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2gq0ALnz/versions/QO8CBeNu/CodeChickenLib-1.12.2-3.2.3.358-universal.jar'
+
+[update.modrinth]
+mod-id = '2gq0ALnz'
+version = 'QO8CBeNu'

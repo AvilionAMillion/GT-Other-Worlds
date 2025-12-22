@@ -1,0 +1,16 @@
+filename = 'Thaumcraft-1.12.2-6.1.BETA26.jar'
+name = 'Thaumcraft'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'fe0899048f1796df04e9727bbf1898df30492a00'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2629023
+project-id = 223628

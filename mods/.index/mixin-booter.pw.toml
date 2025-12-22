@@ -1,0 +1,41 @@
+filename = '!mixinbooter-10.7.jar'
+name = 'MixinBooter'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [
+    '1.10',
+    '1.10.1',
+    '1.10.2',
+    '1.11',
+    '1.11.1',
+    '1.11.2',
+    '1.12',
+    '1.12.1',
+    '1.12.2',
+    '1.8',
+    '1.8.1',
+    '1.8.2',
+    '1.8.3',
+    '1.8.4',
+    '1.8.5',
+    '1.8.6',
+    '1.8.7',
+    '1.8.8',
+    '1.8.9',
+    '1.9',
+    '1.9.1',
+    '1.9.2',
+    '1.9.3',
+    '1.9.4'
+]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3fdfffe4fd446461ea9c3cb044484588997b9dbc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7049694
+project-id = 419286

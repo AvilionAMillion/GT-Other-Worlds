@@ -129,6 +129,27 @@ assembler.recipeBuilder()
 	.EUt(32)
 	.duration(1000)
 	.buildAndRegister();
+# Copper Chest
+assembler.recipeBuilder()
+	.inputs(<ore:chestWood>, <ore:plateDoubleCopper> * 2)
+	.outputs(<ironchest:iron_chest:3>)
+	.EUt(15)
+	.duration(500)
+	.buildAndRegister();
+# Iron Chest
+assembler.recipeBuilder()
+	.inputs(<ironchest:iron_chest:3>, <ore:plateDoubleIron> * 2)
+	.outputs(<ironchest:iron_chest>)
+	.EUt(30)
+	.duration(500)
+	.buildAndRegister();
+# Personal Chest
+assembler.recipeBuilder()
+	.inputs(<ironchest:iron_chest>, circuitLV, plateSteel * 4)
+	.outputs(<mekanism:machineblock:13>)
+	.EUt(30)
+	.duration(150)
+	.buildAndRegister();
 	
 	
 // MV
@@ -263,5 +284,49 @@ assembler.recipeBuilder()
 	.EUt(60)
 	.duration(240)
 	.buildAndRegister();
+# RFTools Machine Hull
+assembler.recipeBuilder()
+	.inputs(hullMV, plateSteel * 4, <gregtech:meta_stick:2011> * 4)
+	.outputs(<rftools:machine_frame>)
+	.circuit(8)
+	.EUt(48)
+	.duration(40)
+	.buildAndRegister();
+# RFTools Machine Base
+assembler.recipeBuilder()
+	.inputs(hullMV, <gregtech:meta_plate:2011> * 5)
+	.outputs(<rftools:machine_base>)
+	.circuit(13)
+	.EUt(48)
+	.duration(40)
+	.buildAndRegister();
+# Silver Chest
+assembler.recipeBuilder()
+	.inputs(<ironchest:iron_chest>, <ore:plateDoubleSilver> * 2)
+	.outputs(<ironchest:iron_chest:4>)
+	.EUt(60)
+	.duration(500)
+	.buildAndRegister();
+# Gold Chest
+assembler.recipeBuilder()
+	.inputs(<ironchest:iron_chest:4>, <ore:plateDoubleGold> * 2)
+	.outputs(<ironchest:iron_chest:1>)
+	.EUt(120)
+	.duration(500)
+	.buildAndRegister();
+# Modular Storage
+assembler.recipeBuilder()
+	.inputs(<rftools:machine_frame>, <mekanism:machineblock:13>, <gregtech:meta_item_1:291> * 2, <gregtech:meta_item_1:591> * 2, platePlastic * 4)
+	.outputs(<rftools:modular_storage>)
+	.EUt(100)
+	.duration(800)
+	.buildAndRegister();
 
 // HV
+# Diamond Chest
+assembler.recipeBuilder()
+	.inputs(<ironchest:iron_chest:1>, <ore:plateDiamond> * 2)
+	.outputs(<ironchest:iron_chest:2>)
+	.EUt(240)
+	.duration(500)
+	.buildAndRegister();

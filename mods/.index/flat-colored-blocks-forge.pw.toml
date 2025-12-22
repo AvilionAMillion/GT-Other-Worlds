@@ -1,0 +1,16 @@
+filename = 'flatcoloredblocks-mc1.12-6.8.jar'
+name = 'Flat Colored Blocks - For Forge'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0b6ae9ad1b622a65f988c887b34f7d64a5e2562a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2715827
+project-id = 238590

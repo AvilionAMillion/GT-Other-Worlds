@@ -1,0 +1,16 @@
+filename = 'EnderIO-endergy-1.12.2-5.3.72.jar'
+name = 'Ender IO - Endergy'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '32962958e3de4917df031d67e16d8a06805f7708188388d731bd46b71f7b5fd9f940ba7ac1a32840e0b200c89afa0378af5bc87975bae2a85bf88b268056c3f7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/TcYlOhqA/versions/RC5C4fCd/EnderIO-endergy-1.12.2-5.3.72.jar'
+
+[update.modrinth]
+mod-id = 'TcYlOhqA'
+version = 'RC5C4fCd'

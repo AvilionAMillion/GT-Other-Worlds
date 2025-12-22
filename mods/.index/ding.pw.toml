@@ -1,0 +1,16 @@
+filename = 'Ding-1.12.2-1.0.2.jar'
+name = 'Ding (Forge)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1939ac649c1d6ed0cd9fca8afefc48795fbdb18f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2801170
+project-id = 231275

@@ -22,6 +22,7 @@ recipes.remove(<mekanism:gastank>);
 recipes.remove(<mekanism:machineblock2:10>);
 recipes.remove(<mekanism:machineblock2:3>);
 recipes.remove(<mekanism:machineblock3:4>);
+recipes.remove(<mekanism:machineblock:13>);
 recipes.removeByRecipeName("mekanism:machineblock_5");
 recipes.removeByRecipeName("mekanism:machineblock_5_alt");
 recipes.removeByRecipeName("mekanism:machineblock_5_alt_alt");

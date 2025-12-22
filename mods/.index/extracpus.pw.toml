@@ -1,0 +1,16 @@
+filename = 'extracpus-1.12.2-1.2.1.jar'
+name = 'Extra CPUs'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '6d3b6035279883f42c247ca0c3ad7f392170a6a8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3479639
+project-id = 408089

@@ -28,13 +28,13 @@
         "primary": "ore:magnetite"
       },
       {
-        "secondary": "ore:magnetite"
+        "secondary": "ore:vanadium_magnetite"
       },
       {
         "between": "ore:magnetite"
       },
       {
-        "sporadic": "ore:vanadium_magnetite"
+        "sporadic": "ore:precious_metal"
       }
     ]
   }

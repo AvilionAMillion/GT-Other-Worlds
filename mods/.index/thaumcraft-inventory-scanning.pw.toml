@@ -1,0 +1,16 @@
+filename = 'ThaumicInventoryScanning_1.12.2-2.0.10.jar'
+name = 'Thaumic Inventory Scanning (Thaumcraft Addon)'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '639253ac9c8aa30efaadeb9893ebb77d1b96a64c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2559089
+project-id = 238003

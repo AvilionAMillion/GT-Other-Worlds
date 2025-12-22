@@ -116,12 +116,10 @@ var runic = MaterialBuilder(24008, "runic")
 	.build();
 # Ironwood
 var ironwood = MaterialBuilder(24009, "ironwood")
-	.ingot(2)
 	.color(0x83764A)
 	.iconSet("metallic")
 	.toolStats(14, 0.6, 480, 1)
-	.components([<material:iron> * 9, <material:gold> * 1, <material:magic> * 1])
-	.flags(["disable_decomposition", "no_smashing", "exclude_block_crafting_by_hand_recipes", "generate_plate"])
+	.flags(["no_smashing", "exclude_block_crafting_by_hand_recipes", "generate_plate"])
 	.build();
 # Runic Metal
 var runicMetal = MaterialBuilder(24010, "runicmetal")
@@ -199,14 +197,26 @@ var asssteel = MaterialBuilder(24018, "asssteel")
 	.components([<material:steel> * 4, <material:copper> * 4, <material:chrome> * 1])
 	.flags("generate_plate", "generate_bolt_screw", "generate_rod")
 	.build();
+# Precious Metal
+var precious_metal = MaterialBuilder(24019, "precious_metal")
+	.dust()
+	.color(0x403921)
+	.iconSet("shiny")
+	.ore(2, 1, false)
+	.addOreByproducts(<material:gold>)
+	.build();
 
 // Prexisting
 # Stone
 <material:stone>.addTools(0, 0, 0, 40);
 # Gold
 <material:gold>.addFlags("generate_gear");
+# Copper
+<material:copper>.addFlags("generate_bolt_screw");
 # Invar
 <material:invar>.addFlags("generate_double_plate");
+# Iron
+<material:iron>.addFlags("generate_double_plate");
 # Polycaprolactam
 <material:polycaprolactam>.addFlags("generate_ring");
 # Carminite
@@ -215,4 +225,8 @@ var asssteel = MaterialBuilder(24018, "asssteel")
 <material:aloh>.setFormula("Al(OH)3", true);
 # Plastic
 <material:plastic>.addFlags("generate_ring");
+# Ironwood
+<material:ironwood>.setFormula("Fe9(Au(Ma?))", true);
+# Precious Metal
+<material:precious_metal>.setFormula("?(Au)", true);
 

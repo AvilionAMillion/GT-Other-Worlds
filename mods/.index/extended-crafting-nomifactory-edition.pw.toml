@@ -1,0 +1,16 @@
+filename = 'extendedcrafting-nomifactory-edition-1.7.0.7.jar'
+name = 'ExtendedCrafting: Nomifactory Edition'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'c2e72c5baeb4dbe9d6b89bb1d79b330813a82457'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5778512
+project-id = 398267

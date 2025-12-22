@@ -1,0 +1,16 @@
+filename = 'coroutil-1.12.1-1.2.37.jar'
+name = 'CoroUtil'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '90392789dfbcadf440415a775d3ec81326deee2f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2902920
+project-id = 237749

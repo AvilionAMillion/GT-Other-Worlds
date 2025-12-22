@@ -1,0 +1,16 @@
+filename = 'GameStages-1.12.2-2.0.123.jar'
+name = 'Game Stages'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7c2a834f148c89d475bd286e1fc9e5a5632be7409edae5426cc50887da84eab67c8785252349e1abd53f61a3b506f116d4699bbaa485901437b14ec4cd9e33e0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/iAlZk5aS/versions/yZOGAZFy/GameStages-1.12.2-2.0.123.jar'
+
+[update.modrinth]
+mod-id = 'iAlZk5aS'
+version = 'yZOGAZFy'

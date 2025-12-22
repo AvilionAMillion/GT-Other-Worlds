@@ -1,0 +1,16 @@
+filename = 'The Beneath-1.12.2-1.7.1.jar'
+name = 'The Beneath'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1d14c60730c947fb261218649e32d9d38b2f2db3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3425551
+project-id = 254629

@@ -1,0 +1,16 @@
+filename = 'mysticallib-1.12.2-1.13.0.jar'
+name = 'MysticalLib'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '015d2d3768a3937e64af8bd93b59436603ad790d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3483816
+project-id = 277064

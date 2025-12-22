@@ -1,0 +1,16 @@
+filename = 'ae2-uel-v0.56.7.jar'
+name = 'AE2 Unofficial Extended Life'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '972169ccbb3c214108f7775fc9ffe9edea66a118'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6302098
+project-id = 570458

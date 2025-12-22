@@ -1,0 +1,16 @@
+filename = 'MistyWorld-1.12.2-1.2.5.3.jar'
+name = 'Misty World'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'cb15f58c88cf0e936a2fb61541337fee985cec52bdd4b6180b7cd95a04c9f9c6a9b1ecd43def382b785ddca9afd64ca62d9e8b7c925777b164004891b6c27889'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uSUjKdPd/versions/tG707yJ0/MistyWorld-1.12.2-1.2.5.3.jar'
+
+[update.modrinth]
+mod-id = 'uSUjKdPd'
+version = 'tG707yJ0'

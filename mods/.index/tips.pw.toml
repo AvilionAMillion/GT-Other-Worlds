@@ -1,0 +1,16 @@
+filename = 'Tips-1.12.2-1.0.9.jar'
+name = 'Tips'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3ff428af541859332347055a13e24a393a7165e91b2300a98057db1a7aca1c34ea27dd2c772693ca26b1497c572f3027cefee3778dcdaa62f6333e74c18adff3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/AMCbgyVw/versions/pPMwq1zD/Tips-1.12.2-1.0.9.jar'
+
+[update.modrinth]
+mod-id = 'AMCbgyVw'
+version = 'pPMwq1zD'

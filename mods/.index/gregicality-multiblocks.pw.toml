@@ -1,0 +1,16 @@
+filename = 'GregicalityMultiblocks-1.2.11.jar'
+name = 'Gregicality Multiblocks'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'dc66d6470079e33695181825bf540f61b07d586eae012d92bc15efa1b6630023c92aac8ae387f7e316733ce4ff927116bff758985dd8830554e97473e5ed6dcd'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/tZiutdLG/versions/MeXYT7nJ/GregicalityMultiblocks-1.2.11.jar'
+
+[update.modrinth]
+mod-id = 'tZiutdLG'
+version = 'MeXYT7nJ'

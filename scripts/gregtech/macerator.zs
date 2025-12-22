@@ -11,3 +11,10 @@ macerator.recipeBuilder()
 	.duration(24)
 	.EUt(8)
 	.buildAndRegister();
+# Liveroot Dust
+macerator.recipeBuilder()
+	.inputs(<twilightforest:liveroot>)
+	.outputs(<gtow:liveroot_dust>)
+	.duration(12)
+	.EUt(8)
+	.buildAndRegister();

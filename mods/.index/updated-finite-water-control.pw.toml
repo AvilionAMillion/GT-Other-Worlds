@@ -1,0 +1,16 @@
+filename = 'watercontrol-1.0.jar'
+name = 'Updated Finite Water Control'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '51b51de416f63f9b6fd97b3ae04cf170b1683b58'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2974111
+project-id = 388180

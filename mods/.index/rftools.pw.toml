@@ -1,0 +1,16 @@
+filename = 'rftools-1.12-7.73.jar'
+name = 'RFTools (Legacy)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd1e169efd1ace4065f53d3038ced36e5fed881c58513d1692295e823158b3bd4d368386999171c32f6fcc0d3de064af9c7ac5800d48e613c5f26d00d2aae2c05'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/FwyGRcXc/versions/xRnNLLgU/rftools-1.12-7.73.jar'
+
+[update.modrinth]
+mod-id = 'FwyGRcXc'
+version = 'xRnNLLgU'

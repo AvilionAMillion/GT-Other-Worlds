@@ -1,0 +1,16 @@
+filename = 'IntegratedTerminals-1.12.2-1.0.14.jar'
+name = 'Integrated Terminals'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '716c6643907e2ef2d0721e26c388b526319987bf'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3010622
+project-id = 295910

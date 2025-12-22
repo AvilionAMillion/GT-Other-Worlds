@@ -1,0 +1,16 @@
+filename = 'CraftingTweaks_1.12.2-8.1.9.jar'
+name = 'Crafting Tweaks'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b0940ce9c3be1259b7b94723cbc043caeb2a0c53e191bbbc952b75a77f18f46fc75fe61ae68b700f34c11e823f4633767e62d8a134204f08cfe54c5480e16f28'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/DMu0oBKf/versions/wTjRHejU/CraftingTweaks_1.12.2-8.1.9.jar'
+
+[update.modrinth]
+mod-id = 'DMu0oBKf'
+version = 'wTjRHejU'

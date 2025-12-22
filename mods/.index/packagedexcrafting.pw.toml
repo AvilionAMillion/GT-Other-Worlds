@@ -1,0 +1,16 @@
+filename = 'PackagedExCrafting-1.12.2-1.0.3.33.jar'
+name = 'PackagedExCrafting'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '53cd15f0eb89d30021c83186c5b0033353c3f0a9ed5a36758bcc41900f142fed9f531e00de82c4c7fd5a88e7cc3b406728f1c4e193d7ee777403acd94b35d21d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qO33ACjS/versions/Hj7ZWWKz/PackagedExCrafting-1.12.2-1.0.3.33.jar'
+
+[update.modrinth]
+mod-id = 'qO33ACjS'
+version = 'Hj7ZWWKz'

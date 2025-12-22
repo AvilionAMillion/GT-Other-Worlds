@@ -1,0 +1,16 @@
+filename = 'justenoughdimensions-1.12.2-1.6.0-dev.20211009.214847.jar'
+name = 'Just Enough Dimensions'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '4572cacd310a5b9e3446a787e8996ab660ef0658ae456a757d75425aa60b7ae8b41b90664c6d6d883a27c95398e2cbb535bef65365103d1f1cc7f3e4d1803d46'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/SG4FX30b/versions/NgxVBfzW/justenoughdimensions-1.12.2-1.6.0-dev.20211009.214847.jar'
+
+[update.modrinth]
+mod-id = 'SG4FX30b'
+version = 'NgxVBfzW'

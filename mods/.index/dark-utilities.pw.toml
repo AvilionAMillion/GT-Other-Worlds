@@ -1,0 +1,16 @@
+filename = 'DarkUtils-1.12.2-1.8.230.jar'
+name = 'Dark Utilities'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '30aaa998554a2135e706dc9dd19b899f6bb974eb09f193a8e63ee710219bf3c47aa6bf3e2be19f4fc0b7fc659784771547f1d2183cb20be9aec0a91998450422'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/CkqTAIaP/versions/NYqAjxPp/DarkUtils-1.12.2-1.8.230.jar'
+
+[update.modrinth]
+mod-id = 'CkqTAIaP'
+version = 'NYqAjxPp'

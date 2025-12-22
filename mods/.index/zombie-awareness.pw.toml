@@ -1,0 +1,16 @@
+filename = 'zombieawareness-1.12.1-1.11.16.jar'
+name = 'Zombie Awareness'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '628f0f951d97efd73000e556e961964519eed5facef046252291a2ff3f5f1bc2c14fbf029f45d18632a420b99e0f4401e0848575b2456b890727fb829af3d9ca'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/mMTOWOaA/versions/tNXYjxK6/zombieawareness-1.12.1-1.11.16.jar'
+
+[update.modrinth]
+mod-id = 'mMTOWOaA'
+version = 'tNXYjxK6'

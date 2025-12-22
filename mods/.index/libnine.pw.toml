@@ -1,0 +1,16 @@
+filename = 'libnine-1.12.2-1.2.2.jar'
+name = 'libnine'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f6eef70a4414ec55ee16ac98cb7df4afdf69a98f5a75a7cd358efa404dd657dc2aefe5868a02d1dc17401ffefcebd5a682fd79a577b8efab8e931b91217004e3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/8i88guf3/versions/su0Bynd8/libnine-1.12.2-1.2.2.jar'
+
+[update.modrinth]
+mod-id = '8i88guf3'
+version = 'su0Bynd8'
