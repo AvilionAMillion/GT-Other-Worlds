@@ -874,7 +874,8 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 	#dustIridium
 	<ore:dustIridium> : [
 		<libvulpes:productdust:10>,
-		<thermalfoundation:material:71>
+		<thermalfoundation:material:71>,
+		<qmd:dust:9>
 	],
 	
 	#dustIron
@@ -902,12 +903,14 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 	
 	#dustNickel
 	<ore:dustNickel> : [
-		<thermalfoundation:material:69>
+		<thermalfoundation:material:69>,
+		<qmd:dust:5>
 	],
 	
 	#dustPlatinum
 	<ore:dustPlatinum> : [
-		<thermalfoundation:material:70>
+		<thermalfoundation:material:70>,
+		<qmd:dust:10>
 	],
 	
 	#dustSilicon
@@ -941,7 +944,8 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 	
 	#dustTitanium
 	<ore:dustTitanium> : [
-		<libvulpes:productdust:7>
+		<libvulpes:productdust:7>,
+		<qmd:dust:3>
 	],
 	
 	#dustOsmium
@@ -1028,16 +1032,6 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 		<mekanism:otherdust:4>
 	],
 	
-	#dustPyrotheum
-	<ore:dustPyrotheum> : [
-		<thermalfoundation:material:1024>
-	],
-	
-	#dustCryotheum
-	<ore:dustCryotheum> : [
-		<thermalfoundation:material:1025>
-	],
-	
 	#dustWheat
 	<ore:dustWheat> : [
 		<appliedenergistics2:material:4>,
@@ -1063,7 +1057,29 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 		<nuclearcraft:fission_dust>],
 	<ore:dustMolybdenum> : [
 		<nuclearcraft:fission_dust:6>
-	]
+	],
+	
+	# QMD Dusts (guess what)
+	<ore:dustTungsten> : [
+		<qmd:dust>],
+	<ore:dustSamarium> : [
+		<qmd:dust2:3>],
+	<ore:dustNiobium> : [
+		<qmd:dust:1>],
+	<ore:dustCobalt> : [
+		<qmd:dust:4>],
+	<ore:dustZinc> : [
+		<qmd:dust:7>],
+	<ore:dustSodium> : [
+		<qmd:dust:11>],
+	<ore:dustPotassium> : [
+		<qmd:dust:12>],
+	<ore:dustCalcium> : [
+		<qmd:dust:13>],
+	<ore:dustNeodynium> : [
+		<qmd:dust2:1>],
+	<ore:dustYttrium> : [
+		<qmd:dust2>]
 };
 
 for oreDictEntry, items in dustsDisabled {

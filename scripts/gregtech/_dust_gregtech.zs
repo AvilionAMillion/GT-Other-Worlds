@@ -20,7 +20,7 @@ recipes.removeByRecipeName("gregtech:mortar_grind_stone");
 // Crafting
 recipes.addShapeless(<gregtech:meta_dust:275>, [gtMortar, <pyrotech:slag>]);
 recipes.addShapeless(<gregtech:meta_dust:2525>, [<ore:dustBrick>, <ore:dustClay>]);
-recipes.addShapeless(<gregtech:meta_dust:24009>, [<gregtech:meta_dust:51>, <gregtech:meta_dust:24019>, <gtow:liveroot_dust>]);
+recipes.addShapeless(<gregtech:meta_dust:24009> * 2, [<gregtech:meta_dust:51>, <gregtech:meta_dust:24019>, <gtow:liveroot_dust>]);
 recipes.addShapeless(<gtow:liveroot_dust>, [<twilightforest:liveroot>, gtMortar]);
 
 // Furnace

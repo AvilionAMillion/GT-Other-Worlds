@@ -91,6 +91,7 @@ global circuitULV as IOreDictEntry = <ore:circuitUlv>;
 global circuitLV as IOreDictEntry = <ore:circuitLv>;
 global circuitMV as IOreDictEntry = <ore:circuitMv>;
 global circuitHV as IOreDictEntry = <ore:circuitHv>;
+global circuitEV as IOreDictEntry = <ore:circuitEv>;
 
 // Wires
 global wire1xCopper as IItemStack = <gregtech:wire_single:25>;

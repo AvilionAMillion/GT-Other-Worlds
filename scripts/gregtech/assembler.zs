@@ -321,6 +321,22 @@ assembler.recipeBuilder()
 	.EUt(100)
 	.duration(800)
 	.buildAndRegister();
+# Storage 1 Module
+assembler.recipeBuilder()
+	.inputs(circuitMV * 2, plateAluminium, <gregtech:meta_wire_fine:277> * 8)
+	.fluidInputs(<fluid:plastic> * 288)
+	.outputs(<rftools:storage_module>)
+	.EUt(90)
+	.duration(240)
+	.buildAndRegister();
+# Storage 2 Module
+assembler.recipeBuilder()
+	.inputs(circuitHV * 2, plateStainlessSteel, <gregtech:meta_wire_fine:277> * 16)
+	.fluidInputs(<fluid:plastic> * 576)
+	.outputs(<rftools:storage_module:1>)
+	.EUt(120)
+	.duration(240)
+	.buildAndRegister();
 
 // HV
 # Diamond Chest
@@ -329,4 +345,12 @@ assembler.recipeBuilder()
 	.outputs(<ironchest:iron_chest:2>)
 	.EUt(240)
 	.duration(500)
+	.buildAndRegister();
+# Storage 3 Module
+assembler.recipeBuilder()
+	.inputs(circuitEV * 2, plateTitanium, <gregtech:meta_wire_fine:104> * 8)
+	.fluidInputs(<fluid:polytetrafluoroethylene> * 288)
+	.outputs(<rftools:storage_module:2>)
+	.EUt(240)
+	.duration(240)
 	.buildAndRegister();
