@@ -3,6 +3,7 @@
 	import mods.artisanworktables.builder.RecipeBuilder;
 	import mods.pyrotech.StoneKiln;
 	import mods.pyrotech.BrickKiln;
+	import mods.botania.RuneAltar;
 	
 // Val
 val builder = RecipeBuilder.get("basic");
@@ -20,6 +21,8 @@ recipes.removeShapeless(<minecraft:flint>, [gravel, gravel, gravel]);
 recipes.remove(<minecraft:paper>);
 recipes.remove(<minecraft:torch>);
 recipes.remove(<minecraft:book>);
+recipes.remove(<minecraft:piston>);
+recipes.remove(<minecraft:enchanting_table>);
 StoneKiln.removeRecipes(<minecraft:glass>);
 BrickKiln.removeRecipes(<minecraft:glass>);
 furnace.remove(<minecraft:glass>);
@@ -28,12 +31,23 @@ furnace.remove(<minecraft:redstone>);
 // Crafting
 # Torch
 recipes.addShapeless(<minecraft:torch>, 
-	[stick, <pyrotech:material:15>]);
+	[stick, <pyrotech:material:15>, <pyrotech:material:15>]);
+recipes.addShapeless(<minecraft:torch> * 2, 
+	[stick, <ore:gemCoal>]);
 # Furnace
 recipes.addShaped(<minecraft:furnace>,
 	[[ingotSteel, ingotSteel, ingotSteel],
 	[ingotSteel, null, ingotSteel],
 	[ingotSteel, ingotSteel, ingotSteel]]);
+// Crafting
+recipes.addShaped(<minecraft:piston>, [
+	[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
+	[<ore:fenceWood>, <gregtech:wire_single:2517>, <ore:fenceWood>],
+	[<ore:cobblestone>, <ore:gearIron>, <ore:cobblestone>]]);
+recipes.addShaped(<minecraft:piston> * 2, [
+	[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
+	[<ore:fenceWood>, <gregtech:wire_single:2517>, <ore:fenceWood>],
+	[<ore:cobblestone>, <ore:gearSteel>, <ore:cobblestone>]]);
 	
 // Pyrotech Kilns
  # Glass
@@ -43,6 +57,7 @@ BrickKiln.addRecipe("refrac_glass", <minecraft:glass>, <contenttweaker:glassy_sa
 // Furnace
 furnace.addRecipe(<minecraft:glass>, <contenttweaker:glassy_sand>);
 furnace.addRecipe(<minecraft:paper>, <pyrotech:material:25>);
+
 
 // Worktable
 # Flint
@@ -100,9 +115,8 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("basic")
   .setShaped([
     [<minecraft:leather>, <minecraft:paper>, <minecraft:string>],
-    [<minecraft:leather>, <minecraft:paper>, <minecraft:string>],
+    [<minecraft:leather>, <minecraft:paper>, <ore:slimeball>],
     [<minecraft:leather>, <minecraft:paper>, <minecraft:string>]])
-  .setSecondaryIngredients([<ore:slimeball> * 8])
   .addTool(<ore:artisansQuill>, 30)
   .addOutput(<minecraft:book>)
   .create();
@@ -115,6 +129,9 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansHandsaw>, 20)
   .addOutput(<minecraft:bookshelf>)
   .create();
+  
+// Runic Altar
+mods.botania.RuneAltar.addRecipe(<minecraft:enchanting_table>,[<minecraft:book>, <minecraft:carpet:14>, <roots:chiseled_runed_obsidian>, <roots:chiseled_runed_obsidian>, <gregtech:meta_gem_exquisite:276>, <gregtech:meta_gem_exquisite:276>, <minecraft:ender_pearl>], 50000);
   
 // Pelt To Wool Crafting
 RecipeBuilder.get("basic")

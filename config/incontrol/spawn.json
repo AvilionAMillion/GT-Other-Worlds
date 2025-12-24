@@ -1,5 +1,54 @@
 [  
   {
+	"mob": ["minecraft:magma_cube"],
+	"weight": 20,
+	"gamestage": "Steel",
+    "maxcount": {
+      "amount": 50,
+      "hostile": true,
+      "perplayer": true
+    },
+	"result": "default"
+  },
+  {
+	"mob": ["minecraft:blaze"],
+	"weight": 40,
+	"gamestage": "Steel",
+    "maxcount": {
+      "amount": 50,
+      "hostile": true,
+      "perplayer": true
+    },
+	"result": "default"
+  },
+  {
+	"mob": ["minecraft:wither_skeleton"],
+	"weight": 60,
+	"gamestage": "Steel",
+	"healthadd": 10.0,
+	"groupcountmin": 2,
+	"groupcountmax": 3,
+    "maxcount": {
+      "amount": 50,
+      "hostile": true,
+      "perplayer": true
+    },
+	"result": "default"
+  },
+  {
+	"mob": ["minecraft:zombie_pigman"],
+	"weight": 80,
+	"gamestage": "Steel",
+	"groupcountmin": 4,
+	"groupcountmax": 5,
+    "maxcount": {
+      "amount": 50,
+      "hostile": true,
+      "perplayer": true
+    },
+	"result": "default"
+  },
+  {
 	"mob": ["minecraft:witch"],
 	"weight": 20,
 	"gamestage": "Steel",

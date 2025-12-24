@@ -22,7 +22,22 @@ mods.gregtech.assembler.removeByInput(30, [metaitem('stickSteel') * 2, metaitem(
 mods.gregtech.assembler.removeByInput(30, [metaitem('cableGtSingleTin') * 3, metaitem('stickSteel') * 2, metaitem('electric.motor.lv') * 2, metaitem('electric.piston.lv'), metaitem('circuit.electronic')], null)
 mods.gregtech.assembler.removeByInput(120, [metaitem('plateSilicon'), metaitem('wireFineTin') * 6], [fluid('plastic') * 144 * 144])
 mods.gregtech.assembler.removeByInput(120, [metaitem('foilPlastic'), metaitem('foilAluminium') * 2], [fluid('plastic') * 144 * 144])
-
+mods.gregtech.assembler.removeByInput(7, [item('minecraft:obsidian') * 4 * 4, item('minecraft:diamond') * 2 * 2, item('minecraft:book')], null)
+mods.gregtech.assembler.removeByInput(120, [metaitem('hull.mv'), metaitem('frameSteel') * 4, metaitem('circuit.good_electronic') * 4, metaitem('electric.motor.mv') * 4, metaitem('electric.pump.mv') * 4, metaitem('gearVanadiumSteel') * 4, metaitem('circuit.integrated').withNbt(['Configuration': 2])], null)
+mods.gregtech.assembler.removeByInput(120, [metaitem('hull.mv'), metaitem('crate.bronze'), metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('plastic') * 288 * 288])
+mods.gregtech.assembler.removeByInput(120, [metaitem('hull.mv'), metaitem('crate.bronze'), metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('plastic') * 288 * 288])
+mods.gregtech.assembler.removeByInput(120, [metaitem('hull.mv'), metaitem('drum.bronze'), metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('plastic') * 288 * 288])
+mods.gregtech.assembler.removeByInput(120, [metaitem('hull.mv'), metaitem('drum.bronze'), metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('plastic') * 288 * 288])
+mods.gregtech.assembler.removeByInput(120, [metaitem('hull.mv'), metaitem('cableGtSingleCopper') * 2, metaitem('plate.ultra_low_power_integrated_circuit'), metaitem('voltage_coil.mv')], null)
+mods.gregtech.assembler.removeByInput(120, [metaitem('hull.mv'), metaitem('springCopper') * 2, metaitem('plate.ultra_low_power_integrated_circuit'), metaitem('voltage_coil.mv')], null)
+mods.gregtech.assembler.removeByInput(120, [metaitem('hull.mv'), metaitem('crate.bronze'), metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('polytetrafluoroethylene') * 144 * 144])
+mods.gregtech.assembler.removeByInput(120, [metaitem('hull.mv'), metaitem('crate.bronze'), metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('polybenzimidazole') * 18 * 18])
+mods.gregtech.assembler.removeByInput(120, [metaitem('hull.mv'), metaitem('crate.bronze'), metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('polytetrafluoroethylene') * 144 * 144])
+mods.gregtech.assembler.removeByInput(120, [metaitem('hull.mv'), metaitem('crate.bronze'), metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('polybenzimidazole') * 18 * 18])
+mods.gregtech.assembler.removeByInput(120, [metaitem('hull.mv'), metaitem('drum.bronze'), metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('polytetrafluoroethylene') * 144 * 144])
+mods.gregtech.assembler.removeByInput(120, [metaitem('hull.mv'), metaitem('drum.bronze'), metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('polybenzimidazole') * 18 * 18])
+mods.gregtech.assembler.removeByInput(120, [metaitem('hull.mv'), metaitem('drum.bronze'), metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('polytetrafluoroethylene') * 144 * 144])
+mods.gregtech.assembler.removeByInput(120, [metaitem('hull.mv'), metaitem('drum.bronze'), metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('polybenzimidazole') * 18 * 18])
 
 
 

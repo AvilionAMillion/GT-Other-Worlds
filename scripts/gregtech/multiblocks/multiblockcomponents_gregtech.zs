@@ -171,3 +171,12 @@ assembler.recipeBuilder()
 	.EUt(64)
 	.duration(600)
 	.buildAndRegister();
+# Fluid Drilling Rig
+assembler.recipeBuilder()
+	.inputs(<gtow:controlmv>, hullMV, motorMV * 4, pumpMV * 4, <gregtech:meta_block_frame_20:4> * 4, <gregtech:meta_gear:2036> * 4)
+	.fluidInputs(<fluid:soldering_alloy> * 288)
+	.circuit(2)
+	.outputs(<gregtech:machine:1032>)
+	.EUt(120)
+	.duration(400)
+	.buildAndRegister();
