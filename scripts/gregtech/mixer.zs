@@ -38,9 +38,17 @@ mixer.recipeBuilder()
 # Ironwood
 mixer.recipeBuilder()
 	.inputs(<gregtech:meta_dust:51> * 9, <gregtech:meta_dust:41>, <gtow:liveroot_dust>)
-	.outputs(<gregtech:meta_dust:24009> * 11)
+	.outputs(<gregtech:meta_dust:24009> * 10)
 	.duration(300)
 	.EUt(20)
+	.buildAndRegister();
+# Soap
+mixer.recipeBuilder()
+	.inputs(<gregtech:meta_dust:377>, <pyrotech:material:49>)
+	.fluidInputs(<liquid:water> * 500)
+	.fluidOutputs(<liquid:soap> * 2000)
+	.duration(150)
+	.EUt(5)
 	.buildAndRegister();
 	
 // MV Mixer

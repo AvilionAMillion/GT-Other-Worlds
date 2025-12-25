@@ -24,7 +24,7 @@ import mods.gregtech.material.Elements;
 	<material:basaltic_mineral_sand>.setHarvestLevel(3);
 	<material:bornite>.setHarvestLevel(2);
 	<material:brown_limonite>.setHarvestLevel(3);
-	<material:calcite>.setHarvestLevel(5);
+	<material:calcite>.setHarvestLevel(2);
 	<material:cassiterite>.setHarvestLevel(2);
 	<material:cassiterite_sand>.setHarvestLevel(2);
 	<material:chalcocite>.setHarvestLevel(2);

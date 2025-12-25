@@ -51,5 +51,4 @@ tile.gtow.component_motorhv.name=HV Electric Motor Block
 fluid.gtow.claymud.name=Clay Mud
 fluid.gtow.thickclaymud.name=Heavy Clay Mud
 fluid.gtow.hotclaymud.name=Boiling Clay Mud
-fluid.gtow.basicsol1.name=Slightly Basic Solution
-fluid.gtow.acidsol1.name=Slightly Acidic Solution
+fluid.gtow.soap.name=Soap
