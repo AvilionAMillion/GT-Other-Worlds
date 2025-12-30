@@ -63,3 +63,6 @@ mods.gregtech.circuit_assembler.removeByInput(16, [metaitem('circuit_board.basic
 mods.gregtech.circuit_assembler.removeByInput(16, [metaitem('circuit_board.basic'), metaitem('component.resistor') * 2, metaitem('wireGtSingleRedAlloy') * 2, metaitem('circuit.vacuum_tube') * 2], [fluid('soldering_alloy') * 72 * 72])
 mods.gregtech.circuit_assembler.removeByInput(16, [metaitem('circuit_board.basic'), metaitem('component.resistor') * 2, metaitem('wireGtSingleRedAlloy') * 2, metaitem('circuit.vacuum_tube') * 2], [fluid('tin') * 144 * 144])
 
+// EBF
+mods.gregtech.electric_blast_furnace.removeByInput(480, [metaitem('dustStainlessSteel'), metaitem('circuit.integrated').withNbt(['Configuration': 1])], null)
+mods.gregtech.electric_blast_furnace.removeByInput(480, [metaitem('dustStainlessSteel'), metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('nitrogen') * 1000 * 1000])

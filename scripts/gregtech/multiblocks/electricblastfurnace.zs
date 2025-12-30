@@ -46,3 +46,24 @@ ebf.recipeBuilder()
 	.property("temperature", 800)
 	.duration(30)
 	.buildAndRegister();
+	
+// Kanthal Coil
+# Stainless Steel
+ebf.recipeBuilder()
+	.inputs(<gregtech:meta_dust:323>)
+	.outputs(<gregtech:meta_ingot:323>)
+	.EUt(480)
+	.circuit(1)
+	.property("temperature", 2100)
+	.duration(55 * 20)
+	.buildAndRegister();
+ebf.recipeBuilder()
+	.inputs(<gregtech:meta_dust:323>)
+	.fluidInputs(<fluid:nitrogen> * 1000)
+	.outputs(<gregtech:meta_ingot:323>)
+	.EUt(480)
+	.circuit(2)
+	.property("temperature", 2100)
+	.duration(36.85 * 20)
+	.buildAndRegister();
+

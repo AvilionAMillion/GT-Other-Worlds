@@ -6,8 +6,8 @@
       "home_offset_x:3": -128,
       "livesmax:3": 10,
       "home_image:8": "gtow:textures/gui/title_card.png",
-      "pack_version:3": 0,
       "party_enable:1": 1,
+      "pack_version:3": 0,
       "editmode:1": 1,
       "hardcore:1": 0,
       "pack_name:8": "GregTech - Other Worlds",
@@ -11321,24 +11321,18 @@
           "groupDetect:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "gregtech:ore_brown_limonite_0",
+              "id:8": "gregtech:ore_magnetite_0",
               "Count:3": 1,
               "Damage:2": 1,
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "gregtech:ore_yellow_limonite_0",
+              "id:8": "gregtech:ore_precious_metal_0",
               "Count:3": 1,
               "Damage:2": 1,
               "OreDict:8": ""
             },
             "2:10": {
-              "id:8": "gregtech:ore_banded_iron_0",
-              "Count:3": 1,
-              "Damage:2": 1,
-              "OreDict:8": ""
-            },
-            "3:10": {
               "id:8": "gregtech:ore_gold_0",
               "Count:3": 1,
               "Damage:2": 1,
@@ -11454,7 +11448,7 @@
           "repeattime:3": -1,
           "issilent:1": 0,
           "autoclaim:1": 0,
-          "desc:8": "Using Raw Resin Extract and Sulfur, you can put it in an alloy smelter to get rubber pulp! This is, a very important ingredient to coating wires, the issue is that you need it to be in a liquid form to coat wires. What a shame...",
+          "desc:8": "Using Raw Resin Extract and Sulfur, you can put it in an alloy smelter to get rubber pulp! This is, a very important ingredient to coating wires, the issue is that you need it to be in a liquid form to coat wires. What a shame...\n\n§eYou can get small amounts of sulfer from chalcopyrite veins in the Twilight Forest.",
           "simultaneous:1": 0,
           "tasklogic:8": "AND",
           "globalshare:1": 0
@@ -11482,7 +11476,7 @@
       "rewards:9": {},
       "preRequisites:11": [
         128,
-        138
+        123
       ],
       "questID:3": 139
     },
@@ -17334,6 +17328,1376 @@
         111
       ],
       "questID:3": 228
+    },
+    "229:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gtow:nitroice",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "issilent:1": 0,
+          "repeattime:3": -1,
+          "name:8": "Colder than Cold",
+          "autoclaim:1": 0,
+          "desc:8": "§3Description To Be Added",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gtow:nitroice",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        203
+      ],
+      "questID:3": 229
+    },
+    "230:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 1032,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "issilent:1": 0,
+          "repeattime:3": -1,
+          "name:8": "Getting Oil The EPIC Way!",
+          "autoclaim:1": 0,
+          "desc:8": "§3Description To Be Added",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1032,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        218
+      ],
+      "questID:3": 230
+    },
+    "231:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "pneumaticcraft:assembly_controller",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "issilent:1": 0,
+          "repeattime:3": -1,
+          "name:8": "Pneumaticcraft Assembly Line",
+          "autoclaim:1": 0,
+          "desc:8": "§3Description To Be Added",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "pneumaticcraft:assembly_controller",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "pneumaticcraft:assembly_io_unit",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "pneumaticcraft:assembly_drill",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "pneumaticcraft:assembly_laser",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "pneumaticcraft:assembly_platform",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        218
+      ],
+      "questID:3": 231
+    },
+    "232:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:meta_dust",
+            "Count:3": 1,
+            "Damage:2": 22,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "issilent:1": 0,
+          "repeattime:3": -1,
+          "name:8": "Ruby and Chrome",
+          "autoclaim:1": 0,
+          "desc:8": "§eChrome §fis a very important material, it is used in primarilly Stainless Steel, however it is also used in Assembly Line Steel and various other alloys and recipes. Point is, you need chrome, and there is really only one effective way of obtaining it this early in progression.\n§W§b§b§f§bChrome can be obtained as a minor byproduct of Ruby Ore§b. §fWithout the Ruby Juice method, ruby ore still yields a decent amount of chrome, more than enough to subsist you through MV. Electrolyzing ruby dust also nets you some occasional chrome, it\u0027s no definite source though.§b §a§fOnce you obtain the §aFlotation Tank §fhowever; ruby goes from a mild source of chrome to a major source, as well as netting some other byproducts along the way. The Flotation Tank is really good!\n",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_dust",
+              "Count:3": 16,
+              "Damage:2": 22,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        239
+      ],
+      "questID:3": 232
+    },
+    "233:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "pneumaticcraft:pressure_chamber_wall",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "issilent:1": 0,
+          "repeattime:3": -1,
+          "name:8": "Big Chamber Go BOOM!",
+          "autoclaim:1": 0,
+          "desc:8": "§3Description To Be Added",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "pneumaticcraft:pressure_chamber_wall",
+              "Count:3": 22,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "pneumaticcraft:pressure_chamber_interface",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "pneumaticcraft:pressure_chamber_valve",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "pneumaticcraft:pressure_chamber_glass",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        72
+      ],
+      "questID:3": 233
+    },
+    "234:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 246,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "issilent:1": 0,
+          "repeattime:3": -1,
+          "name:8": "MV Cutting Machine",
+          "autoclaim:1": 0,
+          "desc:8": "§3Description To Be Added",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 246,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        199
+      ],
+      "questID:3": 234
+    },
+    "235:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 561,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "issilent:1": 0,
+          "repeattime:3": -1,
+          "name:8": "MV Laser Engraver",
+          "autoclaim:1": 0,
+          "desc:8": "§3Description To Be Added",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 1,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 561,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        199
+      ],
+      "questID:3": 235
+    },
+    "236:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 593,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "issilent:1": 0,
+          "repeattime:3": -1,
+          "name:8": "Circuit Parts",
+          "autoclaim:1": 0,
+          "desc:8": "§3Description To Be Added",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 593,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 592,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 602,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        235,
+        227,
+        234
+      ],
+      "questID:3": 236
+    },
+    "237:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 402,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "issilent:1": 0,
+          "repeattime:3": -1,
+          "name:8": "Better Boards!",
+          "autoclaim:1": 0,
+          "desc:8": "§3Description To Be Added",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "groupDetect:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "FluidName:8": "phenol",
+              "Amount:3": 1000
+            }
+          },
+          "taskID:8": "bq_standard:fluid",
+          "ignoreNBT:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 382,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        },
+        "2:10": {
+          "index:3": 2,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 402,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        223
+      ],
+      "questID:3": 237
+    },
+    "238:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gtow:mistyblock",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Welcome to the Mist!",
+          "repeattime:3": -1,
+          "desc:8": "§3Description To Be Added",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gtow:mistyblock",
+              "Count:3": 10,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gtow:foggystone",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        215
+      ],
+      "questID:3": 238
+    },
+    "239:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 276,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "MV Electrolyzer",
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "§3Description To Be Added"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 276,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        194
+      ],
+      "questID:3": 239
+    },
+    "240:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:meta_dust",
+            "Count:3": 1,
+            "Damage:2": 24013,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Better Ways of Getting Aluminium",
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "§3Description To Be Added"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_dust",
+              "Count:3": 52,
+              "Damage:2": 2063,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        239
+      ],
+      "questID:3": 240
+    },
+    "241:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 518,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Transistors",
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "§3Description To Be Added"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 518,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        233,
+        231,
+        249
+      ],
+      "questID:3": 241
+    },
+    "242:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:meta_dust",
+            "Count:3": 1,
+            "Damage:2": 61,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "First Sources of Manganese",
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "§3Description To Be Added"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:ore_grossular_0",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:ore_pyrolusite_0",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:ore_pyrochlore_0",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:ore_tantalite_0",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        238
+      ],
+      "questID:3": 242
+    },
+    "243:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 623,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "New and Improved Circuits!",
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "§3Description To Be Added"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 623,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        237,
+        236,
+        195
+      ],
+      "questID:3": 243
+    },
+    "244:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 624,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Basic Processor Assembly",
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "§3Description To Be Added"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 624,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        243
+      ],
+      "questID:3": 244
+    },
+    "245:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 625,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Finally, HV Tier Circuits!",
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "§3Description To Be Added"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 625,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        241,
+        244
+      ],
+      "questID:3": 245
+    },
+    "246:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 1212,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "MV Powered Multiblocks",
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "§3Description To Be Added"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1212,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        236
+      ],
+      "questID:3": 246
+    },
+    "247:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:meta_dust",
+            "Count:3": 1,
+            "Damage:2": 288,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Kanthal, a new Alloy!",
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "§3Description To Be Added"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_dust",
+              "Count:3": 1,
+              "Damage:2": 288,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot_hot",
+              "Count:3": 1,
+              "Damage:2": 288,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        },
+        "2:10": {
+          "index:3": 2,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 1,
+              "Damage:2": 288,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        232,
+        229
+      ],
+      "questID:3": 247
+    },
+    "248:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:wire_coil",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Kanthal Coils, Better EBFs!",
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "§3Description To Be Added"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:wire_coil",
+              "Count:3": 16,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        247
+      ],
+      "questID:3": 248
+    },
+    "249:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:meta_ingot",
+            "Count:3": 1,
+            "Damage:2": 99,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Silicon Ingots",
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "§3Description To Be Added"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 1,
+              "Damage:2": 99,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        248
+      ],
+      "questID:3": 249
+    },
+    "250:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:meta_ingot",
+            "Count:3": 1,
+            "Damage:2": 323,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Steel + Stainless \u003d EPICNESS!",
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "§3Description To Be Added"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 1,
+              "Damage:2": 323,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        248
+      ],
+      "questID:3": 250
+    },
+    "251:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 988,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "A Stainless Steel Ship On The Shoreline",
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "After toiling away in the factory for days, you finally have it, everything required for §aHigh Voltage technology. §fLet\u0027s talk about the fine points of getting there now, shall we.\nStainless Steel and HV Circuits should already be in your periphery, and as such the machine hull and circuits are self explanatory. It is the components that may cause an impass. For to get your earliest HV components, you must make them first in an MV Assembler, and then finally finish assembling them using a pneumaticcraft assembly line. \nNote that these are unlike the MV components, and things like the pistons and robot arms are made of the finished motors rather than the unfinished ones.\nYou want your component assemblers, but get to HV!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 988,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 129,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 625,
+              "OreDict:8": ""
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        250,
+        245
+      ],
+      "questID:3": 251
+    },
+    "252:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "HIDDEN",
+          "icon:10": {
+            "id:8": "minecraft:barrier",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "ERROR 404: PROGRESSION NOT FOUND",
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "If you made it here, congrats! Thank you for playing GT - Other Worlds, at least in its unfinished state. This pack has been a passion project of mine for several years and I\u0027ve gone through a lot while working on it in the background, it took a lot of things at once for all the dominoes to fall into place for this alpha being released. And I\u0027m glad if you see this! Hope you stick around for more GTOW in the future!\nA short and non-complete list of thanks to give:\n§d§fThank you to §dNyagi_Byte§f, one of the original contributers on the pack and someone who got me into gregtech on her own rights. She is also a fellow modpack dev!\nThank you to §dLgmrszd §fwho not only supported me making this pack, but also made the Harvestcraft ZS file, thank you so much!\nThank you to §dAce_Muffins §fwho contributed some textures.\nThank you to §dWaitingIdly §fwho helped with some multiblock development and gave permission to use the Divine Journey 2 petal textures\nThank you to §dIncandescenseSy §ffor help with some other multiblock parts.\nAnd, of course, thank you, for playing up to this point, let\u0027s hope the pack only gets better!"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {},
+      "preRequisites:11": [
+        251
+      ],
+      "questID:3": 252
     }
   },
   "questLines:9": {
@@ -18469,7 +19833,7 @@
         }
       },
       "lineID:3": 2,
-      "order:3": 4
+      "order:3": 5
     },
     "3:10": {
       "properties:10": {
@@ -18575,29 +19939,29 @@
         "12:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -48,
+          "x:3": -12,
           "y:3": 96,
           "id:3": 202
         },
         "13:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -8,
+          "x:3": -48,
           "y:3": 96,
           "id:3": 203
         },
         "14:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -48,
-          "y:3": 136,
+          "x:3": -12,
+          "y:3": 132,
           "id:3": 204
         },
         "15:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -8,
-          "y:3": 136,
+          "x:3": -48,
+          "y:3": 132,
           "id:3": 205
         },
         "16:10": {
@@ -18634,10 +19998,31 @@
           "x:3": 272,
           "y:3": 72,
           "id:3": 217
+        },
+        "21:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -84,
+          "y:3": 132,
+          "id:3": 229
+        },
+        "22:10": {
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": -84,
+          "y:3": 192,
+          "id:3": 238
+        },
+        "23:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": 204,
+          "id:3": 242
         }
       },
       "lineID:3": 3,
-      "order:3": 6
+      "order:3": 7
     },
     "4:10": {
       "properties:10": {
@@ -19096,10 +20481,17 @@
           "x:3": 384,
           "y:3": 12,
           "id:3": 226
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 324,
+          "y:3": 72,
+          "id:3": 230
         }
       },
       "lineID:3": 5,
-      "order:3": 7
+      "order:3": 8
     },
     "6:10": {
       "properties:10": {
@@ -19126,10 +20518,10 @@
           "id:3": 72
         },
         "1:10": {
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 0,
-          "y:3": 0,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": -12,
+          "y:3": -24,
           "id:3": 194
         },
         "2:10": {
@@ -19150,7 +20542,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
-          "y:3": 120,
+          "y:3": 84,
           "id:3": 219
         },
         "5:10": {
@@ -19171,7 +20563,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
-          "y:3": 168,
+          "y:3": 120,
           "id:3": 222
         },
         "8:10": {
@@ -19206,8 +20598,141 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
-          "y:3": 216,
+          "y:3": 156,
           "id:3": 227
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 228,
+          "y:3": 108,
+          "id:3": 231
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 168,
+          "y:3": -36,
+          "id:3": 232
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 84,
+          "y:3": 168,
+          "id:3": 233
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 156,
+          "id:3": 234
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -36,
+          "y:3": 156,
+          "id:3": 235
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": 204,
+          "id:3": 236
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 240,
+          "y:3": 156,
+          "id:3": 237
+        },
+        "20:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 108,
+          "y:3": -12,
+          "id:3": 239
+        },
+        "21:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 168,
+          "y:3": 12,
+          "id:3": 240
+        },
+        "22:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 144,
+          "y:3": 204,
+          "id:3": 241
+        },
+        "23:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 240,
+          "y:3": 204,
+          "id:3": 243
+        },
+        "24:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 300,
+          "y:3": 204,
+          "id:3": 244
+        },
+        "25:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 360,
+          "y:3": 204,
+          "id:3": 245
+        },
+        "26:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -36,
+          "y:3": 204,
+          "id:3": 246
+        },
+        "27:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 300,
+          "y:3": -36,
+          "id:3": 247
+        },
+        "28:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 300,
+          "y:3": 12,
+          "id:3": 248
+        },
+        "29:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 300,
+          "y:3": 108,
+          "id:3": 249
+        },
+        "30:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 360,
+          "y:3": 108,
+          "id:3": 250
+        },
+        "31:10": {
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 396,
+          "y:3": 144,
+          "id:3": 251
         }
       },
       "lineID:3": 6,
@@ -19297,10 +20822,52 @@
           "x:3": -120,
           "y:3": 108,
           "id:3": 215
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -120,
+          "y:3": 72,
+          "id:3": 238
         }
       },
       "lineID:3": 7,
-      "order:3": 5
+      "order:3": 6
+    },
+    "8:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Tier 3: High Voltage",
+          "desc:8": "512 EU/tick! Even more multiblocks! Cleanroom! And the end of the pack at this point in time!",
+          "visibility:8": "ALWAYS",
+          "bg_size:3": 256,
+          "icon:10": {
+            "id:8": "gregtech:machine_casing",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "bg_image:8": ""
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 0,
+          "y:3": 0,
+          "id:3": 251
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 12,
+          "y:3": 72,
+          "id:3": 252
+        }
+      },
+      "lineID:3": 8,
+      "order:3": 4
     }
   },
   "format:8": "2.0.0"
