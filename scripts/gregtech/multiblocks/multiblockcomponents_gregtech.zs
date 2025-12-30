@@ -8,7 +8,7 @@ val cobbSlab = <minecraft:stone_slab:3>;
 val rotorIron = <gregtech:meta_rotor:51>;
 val woodWall = <gregtech:steam_casing:5>;
 val bronzeCasing = <gregtech:metal_casing>;
-val gearGold = <gregtech:meta_gear:41>;
+val gearBronze = <gregtech:meta_gear:260>;
 val builder = RecipeBuilder.get("basic");
 
 // Coke Oven
@@ -110,14 +110,14 @@ recipes.remove(<gregtech:machine:1024>);
 recipes.remove(<gregtech:machine:1025>);
 # Steam Oven
 recipes.addShaped(<gregtech:machine:1024>,
-	[[bronzeCasing, gearGold, bronzeCasing],
+	[[bronzeCasing, gearBronze, bronzeCasing],
 	[<gregtech:boiler_firebox_casing>, <gregtech:machine:2>, <gregtech:boiler_firebox_casing>],
-	[bronzeCasing, gearGold, bronzeCasing]]);
+	[bronzeCasing, gearBronze, bronzeCasing]]);
 # Steam Macerator
 recipes.addShaped(<gregtech:machine:1025>,
-	[[bronzeCasing, gearGold, bronzeCasing],
+	[[bronzeCasing, gearBronze, bronzeCasing],
 	[bronzeCasing, <gregtech:machine:10>, bronzeCasing],
-	[bronzeCasing, gearGold, bronzeCasing]]);
+	[bronzeCasing, gearBronze, bronzeCasing]]);
 	
 # Electric Blast Furnace
 recipes.remove(<gregtech:machine:1001>);

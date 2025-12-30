@@ -830,7 +830,6 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 	
 	#dustCoal
 	<ore:dustCoal> : [
-		<threng:material:3>,
 		<actuallyadditions:item_dust:6>,
 		<bloodmagic:component:21>,
 		<enderio:item_material:23>,
