@@ -21,6 +21,9 @@ gregtech.material.manasteel=Manasteel
 gregtech.material.aloh=Aluminium Hydroxide
 gregtech.material.asssteel=Assembly Line Steel
 gregtech.material.precious_metal=Precious Metal
+gregtech.material.pyrotheum=Pyrotheum
+gregtech.material.cryotheum=Cryotheum
+gregtech.material.chloroauric_acid=Chloroauric Acid
 
 item.gt.tool.harvest_level.0=§4Wood
 item.gt.tool.harvest_level.1=§7Flint

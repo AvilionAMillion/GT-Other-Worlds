@@ -12,6 +12,8 @@ content.createItem('conveyorhv').register()
 content.createItem('armhv').register()
 content.createItem('etchedsilicon').register()
 content.createItem('liveroot_dust').register()
+content.createItem('ironsludge').register()
+content.createItem('blanchedgold').register()
 
 // Custom Casings
 content.createBlock('casing_lightsteel')

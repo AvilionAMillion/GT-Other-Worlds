@@ -32,6 +32,8 @@ item.gtow.conveyorhv.name=HV Conveyor Module Parts
 item.gtow.armhv.name=HV Robot Arm Parts
 item.gtow.etchedsilicon.name=Etched Silicon Plate
 item.gtow.liveroot_dust.name=Liveroot Dust
+item.gtow.ironsludge.name=Ferric Metal Sludge
+item.gtow.blanchedgold.name=Blanched Gold
 
 tile.gtow.ow_icon.name=Overworld Dimension
 tile.gtow.tf_icon.name=Twilight Forest Dimension
@@ -52,3 +54,4 @@ fluid.gtow.claymud.name=Clay Mud
 fluid.gtow.thickclaymud.name=Heavy Clay Mud
 fluid.gtow.hotclaymud.name=Boiling Clay Mud
 fluid.gtow.soap.name=Soap
+fluid.gtow.preciousslurry.name=Precious Metal Solution

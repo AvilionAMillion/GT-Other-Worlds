@@ -205,6 +205,25 @@ var precious_metal = MaterialBuilder(24019, "precious_metal")
 	.ore(2, 1, false)
 	.addOreByproducts(<material:gold>)
 	.build();
+# Pyrotheum
+var pyrotheum = MaterialBuilder(24020, "pyrotheum")
+	.fluid("fluid", true)
+	.dust()
+	.color(0xE35305)
+	.iconSet("shiny")	
+	.build();
+# Cryotheum
+var cryotheum = MaterialBuilder(24021, "cryotheum")
+	.fluid("fluid", true)
+	.dust()
+	.color(0x8FE1FF)
+	.iconSet("shiny")	
+	.build();
+# Chloroauric Acid
+var aucl = MaterialBuilder(24022, "chloroauric_acid")
+	.fluid("fluid", false)
+	.color(0xFFB71C)	
+	.build();
 
 // Prexisting
 # Stone
@@ -229,4 +248,6 @@ var precious_metal = MaterialBuilder(24019, "precious_metal")
 <material:ironwood>.setFormula("Fe9(Au(Ma?))", true);
 # Precious Metal
 <material:precious_metal>.setFormula("?(Au)", true);
+# Chloroauric Acid
+<material:chloroauric_acid>.setFormula("H(AuCl4)", true);
 

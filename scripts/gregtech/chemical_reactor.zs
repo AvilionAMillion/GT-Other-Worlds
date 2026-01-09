@@ -22,6 +22,23 @@ chem.recipeBuilder()
 	.duration(160)
 	.EUt(30)
 	.buildAndRegister();
+# Precious Slurry
+chem.recipeBuilder()
+	.inputs(<gregtech:meta_dust:24019> * 12)
+	.fluidInputs(<liquid:aqua_regia> * 1000)
+	.fluidOutputs(<liquid:preciousslurry> * 1000)
+	.duration(540)
+	.EUt(16)
+	.buildAndRegister();
+# Chloroauric Acid
+chem.recipeBuilder()
+	.fluidInputs(<liquid:preciousslurry> * 3000)
+	.outputs(<gtow:ironsludge> * 6)
+	.chancedOutput(<gtow:ironsludge> * 2, 7000, 1000)	
+	.fluidOutputs(<liquid:chloroauric_acid> * 1500, <liquid:nitrogen_dioxide> * 1000)
+	.duration(900)
+	.EUt(24)
+	.buildAndRegister();
 	
 // MV Chemical Reactor
 # Polycaprolactam x1008

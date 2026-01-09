@@ -17,3 +17,7 @@ content.createFluid('soap')
         .setMetalTexture()
         .setViscosity(1300)
         .register()
+
+content.createFluid('preciousslurry')
+        .setColor(0x1F1506)
+        .register()
