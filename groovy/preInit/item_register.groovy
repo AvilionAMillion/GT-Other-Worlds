@@ -14,6 +14,7 @@ content.createItem('etchedsilicon').register()
 content.createItem('liveroot_dust').register()
 content.createItem('ironsludge').register()
 content.createItem('blanchedgold').register()
+content.createItem('hydrastone_dust').register()
 
 // Custom Casings
 content.createBlock('casing_lightsteel')
@@ -56,6 +57,11 @@ content.createBlock('nitroice')
         .setHardness(2.0F)
         .setResistance(1.0F)
         .setSoundType(SoundType.GLASS)
+        .register()
+content.createBlock('hydrastone')
+        .setHardness(15.0F)
+        .setResistance(5.0F)
+        .setSoundType(SoundType.STONE)
         .register()
 
 // Dimensions

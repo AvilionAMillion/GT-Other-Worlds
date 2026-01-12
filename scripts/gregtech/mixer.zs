@@ -60,3 +60,13 @@ mixer.recipeBuilder()
 	.duration(580)
 	.EUt(56)
 	.buildAndRegister();
+	
+// HV Mixer
+# Pyrotheum Dust
+mixer.recipeBuilder()
+	.inputs(<minecraft:blaze_powder> * 4, <gregtech:meta_dust_small:24011>)
+	.fluidInputs(<liquid:sulfuric_acid> * 4000, <liquid:fieryblood> * 500)
+	.fluidOutputs(<liquid:pyrotheum> * 500)
+	.EUt(320)
+	.duration(200)
+	.buildAndRegister();

@@ -1,0 +1,35 @@
+{
+	"populate": {
+		"nitroice": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "gtow:hydrastone"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 15
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 70,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"twilightforest:fire_swamp"
+						]
+					}
+				]
+			}
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		}
+	}
+}

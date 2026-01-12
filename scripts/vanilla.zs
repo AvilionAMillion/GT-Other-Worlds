@@ -23,6 +23,7 @@ recipes.remove(<minecraft:torch>);
 recipes.remove(<minecraft:book>);
 recipes.remove(<minecraft:piston>);
 recipes.remove(<minecraft:enchanting_table>);
+recipes.remove(<minecraft:ender_eye>);
 StoneKiln.removeRecipes(<minecraft:glass>);
 BrickKiln.removeRecipes(<minecraft:glass>);
 furnace.remove(<minecraft:glass>);

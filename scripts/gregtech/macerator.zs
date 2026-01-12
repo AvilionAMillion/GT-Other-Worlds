@@ -18,3 +18,10 @@ macerator.recipeBuilder()
 	.duration(12)
 	.EUt(8)
 	.buildAndRegister();
+# Hydrastone Dust
+macerator.recipeBuilder()
+	.inputs(<gtow:hydrastone>)
+	.outputs(<gtow:hydrastone_dust>)
+	.duration(12)
+	.EUt(8)
+	.buildAndRegister();

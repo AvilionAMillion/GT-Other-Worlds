@@ -68,3 +68,13 @@ chem.recipeBuilder()
 	.duration(400)
 	.EUt(60)
 	.buildAndRegister();
+	
+// HV Tier
+# Eye of Ender
+chem.recipeBuilder()
+	.inputs(<minecraft:ender_pearl>)
+	.fluidInputs(<liquid:pyrotheum> * 125)
+	.outputs(<minecraft:ender_eye>)
+	.EUt(384)
+	.duration(120)
+	.buildAndRegister();

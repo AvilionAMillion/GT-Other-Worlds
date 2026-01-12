@@ -47,6 +47,7 @@ mods.gregtech.assembler.removeByInput(120, [metaitem('hull.mv'), metaitem('drum.
 // Chemical Bath
 mods.gregtech.chemical_bath.removeByInput(120, [metaitem('ingotHotKanthal')], [fluid('water') * 100 * 100])
 mods.gregtech.chemical_bath.removeByInput(120, [metaitem('ingotHotKanthal')], [fluid('distilled_water') * 100 * 100])
+mods.gregtech.chemical_bath.removeByInput(480, [item('minecraft:ender_pearl')], [fluid('blaze') * 144 * 144])
 
 // Chemical Reactor
 mods.gregtech.chemical_reactor.removeByInput(30, [metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('air') * 1000 * 1000, fluid('ethylene') * 144 * 144])

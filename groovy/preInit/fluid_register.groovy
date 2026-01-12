@@ -1,11 +1,9 @@
 content.createFluid('claymud')
         .setColor(0xAAB3BF)
         .register()
-
 content.createFluid('thickclaymud')
         .setColor(0x451D15)
         .register()
-
 content.createFluid('hotclaymud')
         .setMetalTexture()
         .setViscosity(1300)
@@ -20,4 +18,8 @@ content.createFluid('soap')
 
 content.createFluid('preciousslurry')
         .setColor(0x1F1506)
+        .register()
+
+content.createFluid('fieryblood')
+        .setColor(0x781800)
         .register()

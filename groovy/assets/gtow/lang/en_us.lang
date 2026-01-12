@@ -1,5 +1,10 @@
-gtow.machine.woodoven.name=Primitive Pyrolyse Oven
+gtow.machine.bbbf.name=Bellowed Bricked Blast Furnace
 gtow.machine.flotation_tank.name=Flotation Tank
+
+
+gtow.machine.bbbf.tooltip='Bello!
+gtow.machine.bbbf.tooltip.1=Recipes are §b5x§7 faster in this than in the Primitive Blast Furnace
+gtow.machine.bbbf.tooltip.2=Each recipes uses 30 mb/t of steam
 
 recipemap.woodoven.name=Wood Oven
 recipemap.flottank.name=Flotation Tank
@@ -34,6 +39,7 @@ item.gtow.etchedsilicon.name=Etched Silicon Plate
 item.gtow.liveroot_dust.name=Liveroot Dust
 item.gtow.ironsludge.name=Ferric Metal Sludge
 item.gtow.blanchedgold.name=Blanched Gold
+item.gtow.hydrastone_dust.name=Hydrastone Dust
 
 tile.gtow.ow_icon.name=Overworld Dimension
 tile.gtow.tf_icon.name=Twilight Forest Dimension
@@ -43,6 +49,7 @@ tile.gtow.mw_icon.name=Misty World Dimension
 tile.gtow.mistyblock.name=Misty World Portal Block
 tile.gtow.twilightblock.name=Twilight Forest Portal Block
 tile.gtow.nitroice.name=Nitrogenated Ice
+tile.gtow.hydrastone.name=Hydrastone
 
 tile.gtow.casing_lightsteel.name=Light Steel Machine Casing
 
@@ -55,3 +62,4 @@ fluid.gtow.thickclaymud.name=Heavy Clay Mud
 fluid.gtow.hotclaymud.name=Boiling Clay Mud
 fluid.gtow.soap.name=Soap
 fluid.gtow.preciousslurry.name=Precious Metal Solution
+fluid.gtow.fieryblood.name=Fiery Blood
