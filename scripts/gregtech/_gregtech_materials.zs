@@ -12,6 +12,8 @@ var element_utsuhonium = Elements.add(134, 201, -1, null, "Utsuhonium", "Ut", fa
 var element_kaenbyonum = Elements.add(135, 209, -1, null, "Kaenbyonum", "Ka", false);
 var element_magic = Elements.add(136, 100, -1, null, "Magic", "Ma", false);
 var element_infinity = Elements.add(999, 999, -1, null, "Infinity", "*", false);
+var element_pyrotheum = Elements.add(137, 200, -1, null, "Pyrotheum", "Py", false);
+var element_cryotheum = Elements.add(138, 204, -1, null, "Cryotheum", "Cy", false);
 
 // Gregtech Pure Materials
 # Utsuhonium
@@ -47,6 +49,22 @@ var infinity = MaterialBuilder(30013, "infinity")
 	.blastTemp(80000, "HIGH", 2000000)
 	.toolStats(999, 999, 2147483647, 999)
 	.flags(["disable_decomposition", "generate_plate", "generate_rod", "generate_lens", "exclude_block_crafting_by_hand_recipes"])
+	.build();
+# Pyrotheum
+var pyrotheum = MaterialBuilder(30014, "pyrotheum")
+	.element("Pyrotheum")
+	.fluid("fluid", true)
+	.dust()
+	.color(0xE35305)
+	.iconSet("sand")	
+	.build();
+# Cryotheum
+var cryotheum = MaterialBuilder(30015, "cryotheum")
+	.element("Cryotheum")
+	.fluid("fluid", true)
+	.dust()
+	.color(0x8FE1FF)
+	.iconSet("sand")	
 	.build();
 	
 // Gregtech Materials
@@ -204,20 +222,6 @@ var precious_metal = MaterialBuilder(24019, "precious_metal")
 	.iconSet("shiny")
 	.ore(2, 1, false)
 	.addOreByproducts(<material:gold>)
-	.build();
-# Pyrotheum
-var pyrotheum = MaterialBuilder(24020, "pyrotheum")
-	.fluid("fluid", true)
-	.dust()
-	.color(0xE35305)
-	.iconSet("shiny")	
-	.build();
-# Cryotheum
-var cryotheum = MaterialBuilder(24021, "cryotheum")
-	.fluid("fluid", true)
-	.dust()
-	.color(0x8FE1FF)
-	.iconSet("shiny")	
 	.build();
 # Chloroauric Acid
 var aucl = MaterialBuilder(24022, "chloroauric_acid")

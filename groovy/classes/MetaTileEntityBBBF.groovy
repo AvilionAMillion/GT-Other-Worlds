@@ -1,5 +1,6 @@
 package classes
 
+import gregtech.api.GTValues
 import gregtech.api.metatileentity.MetaTileEntity
 import gregtech.api.capability.impl.SteamMultiWorkable
 import gregtech.api.metatileentity.interfaces.IGregTechTileEntity
@@ -45,13 +46,18 @@ public class MetaTileEntityBBBF extends RecipeMapSteamMultiblockController {
     protected BlockPattern createStructurePattern() {
         return FactoryBlockPattern.start()
                 .aisle("FFF****", "FFF****", "FFF****", "FFF****")
-                .aisle("FFF***F", "F#PPPPB", "F#F***B", "F#F***B")
+                .aisle("FFF***H", "F#PPPPB", "F#F***C", "F#F***D")
                 .aisle("FFF****", "FSF****", "FFF****", "FFF****")
                 .where('S' as char, selfPredicate())
                 .where('F' as char, states(MetaBlocks.METAL_CASING.getState(BlockMetalCasing.MetalCasingType.PRIMITIVE_BRICKS))
                         .setMinGlobalLimited(16)
-                        .or(autoAbilities()))
-                .where('B' as char, states(blockstate('gregtech:meta_block_compressed_20', 'variant=gregtech__steel')))
+                        .or(autoAbilities(false, false, true, true, false)))
+                .where('H' as char, states(MetaBlocks.METAL_CASING.getState(BlockMetalCasing.MetalCasingType.STEEL_SOLID))
+                        .setMinGlobalLimited(0)
+                        .or(autoAbilities(true, false, false, false, false)))
+                .where('B' as char, states(blockstate('gtow:casing_bellowsbottom')))
+                .where('C' as char, states(blockstate('gtow:casing_bellows')))
+                .where('D' as char, states(blockstate('gtow:casing_bellowstop')))
                 .where('P' as char, states(blockstate('gregtech:boiler_casing', 'variant=bronze_pipe')))
                 .where('#' as char, air())
                 .where('*' as char, TraceabilityPredicate.ANY)

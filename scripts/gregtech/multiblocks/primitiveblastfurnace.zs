@@ -11,7 +11,7 @@ val pbfIron = <minecraft:iron_ingot>;
 val pbfWroughtIron = <gregtech:meta_ingot:335>;
 val pbfIronBlock = <minecraft:iron_block>;
 val pbfWIronBlock = <gregtech:meta_block_compressed_20:15>;
-val pbfSteel = <gregtech:meta_ingot:24007>;
+val pbfSteel = <gregtech:meta_ingot:324>;
 val pbfSteelBlock = <gregtech:meta_block_compressed_20:4>;
 
 // Removal
@@ -74,4 +74,51 @@ pbf.recipeBuilder()
 	.inputs(pbfIronBlock, <minecraft:coal_block> * 2)
 	.outputs(pbfWIronBlock, <gregtech:meta_dust:275> * 2)
 	.duration(10800)
+	.buildAndRegister();
+	
+// Steel Addition
+pbf.recipeBuilder()
+	.inputs(pbfWroughtIron, <gregtech:meta_dust:319>)
+	.outputs(pbfSteel, <gregtech:meta_dust_tiny:254>)
+	.duration(2400)
+	.buildAndRegister();
+pbf.recipeBuilder()
+	.inputs(pbfWroughtIron, <gregtech:meta_gem:319>)
+	.outputs(pbfSteel, <gregtech:meta_dust_tiny:254>)
+	.duration(2400)
+	.buildAndRegister();
+pbf.recipeBuilder()
+	.inputs(pbfWroughtIron, <minecraft:coal> * 2)
+	.outputs(pbfSteel, <gregtech:meta_dust_tiny:275> * 2)
+	.duration(3200)
+	.buildAndRegister();
+pbf.recipeBuilder()
+	.inputs(pbfWroughtIron, <gregtech:meta_dust:266> * 2)
+	.outputs(pbfSteel, <gregtech:meta_dust_tiny:275> * 2)
+	.duration(3200)
+	.buildAndRegister();
+pbf.recipeBuilder()
+	.inputs(pbfWroughtIron, <minecraft:coal:1> * 2)
+	.outputs(pbfSteel, <gregtech:meta_dust_tiny:275> * 2)
+	.duration(3200)
+	.buildAndRegister();
+pbf.recipeBuilder()
+	.inputs(pbfWroughtIron, <gregtech:meta_dust:271> * 2)
+	.outputs(pbfSteel, <gregtech:meta_dust_tiny:275> * 2)
+	.duration(10800)
+	.buildAndRegister();
+pbf.recipeBuilder()
+	.inputs(pbfWIronBlock, <gregtech:meta_block_compressed_19:15>)
+	.outputs(pbfSteelBlock, <gregtech:meta_dust:254>)
+	.duration(10800)
+	.buildAndRegister();
+pbf.recipeBuilder()
+	.inputs(pbfWIronBlock, <gregtech:meta_block_compressed_16:10> * 2)
+	.outputs(pbfSteelBlock, <gregtech:meta_dust:275> * 2)
+	.duration(14400)
+	.buildAndRegister();
+pbf.recipeBuilder()
+	.inputs(pbfWIronBlock, <minecraft:coal_block> * 2)
+	.outputs(pbfSteelBlock, <gregtech:meta_dust:275> * 2)
+	.duration(14400)
 	.buildAndRegister();

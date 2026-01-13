@@ -52,6 +52,9 @@ tile.gtow.nitroice.name=Nitrogenated Ice
 tile.gtow.hydrastone.name=Hydrastone
 
 tile.gtow.casing_lightsteel.name=Light Steel Machine Casing
+tile.gtow.casing_bellowsbottom.name=Lower Bellows Block
+tile.gtow.casing_bellowstop.name=Upper Bellows Block
+tile.gtow.casing_bellows.name=Large Bellows
 
 tile.gtow.component_motorlv.name=LV Electric Motor Block
 tile.gtow.component_motormv.name=MV Electric Motor Block

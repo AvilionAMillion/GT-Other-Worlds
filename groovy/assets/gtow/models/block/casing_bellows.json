@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "gtow:blocks/casing_bellowstop",
+	"top": "gtow:blocks/casing_bellowstop",
+	"side": "gtow:blocks/casing_bellowsside"
+  }
+}
