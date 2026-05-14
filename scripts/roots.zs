@@ -284,6 +284,8 @@ SummonCreatures.removeEntity(<entity:minecraft:bat>);
 SummonCreatures.removeEntity(<entity:minecraft:pig>);
 # Forest Raven
 SummonCreatures.addEntity(<entity:twilightforest:raven>, [<roots:mystic_feather>, <roots:moonglow_leaf>, <gregtech:meta_dust:55>, <pyrotech:material:45>]);
+# Enderman
+SummonCreatures.addEntity(<entity:minecraft:enderman>, [<gregtech:meta_plate:10>, <ore:ingotDarkSteel>, <gtow:hydrastone_dust>, <gregtech:meta_gem:24011>, <botania:manaresource:22>]);
 
 // Rituals
 # Grove Supplication

@@ -60,6 +60,14 @@ mixer.recipeBuilder()
 	.duration(580)
 	.EUt(56)
 	.buildAndRegister();
+# Endstone Slush
+mixer.recipeBuilder()
+	.inputs(<gtow:aeratedendstone_dust> * 24)
+	.fluidInputs(<liquid:water> * 2000)
+	.fluidOutputs(<liquid:endstoneslush> * 1000)
+	.duration(280)
+	.EUt(60)
+	.buildAndRegister();
 	
 // HV Mixer
 # Pyrotheum Dust

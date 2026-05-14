@@ -20,6 +20,7 @@ import mods.gregtech.recipe.RecipeMap;
 <ore:oreSilver>.add(<mysticalworld:silver_ore>);
 <ore:ingotAluminum>.add(<erebus:materials:42>);
 <ore:ingotAluminum>.add(<gregtech:meta_ingot:2>);
+<ore:ingotAluminum>.add(<gregtech:meta_ingot:2>);
 <ore:ingotCopper>.add(<erebus:materials:43>);
 <ore:ingotCopper>.add(<mysticalworld:copper_ingot>);
 <ore:ingotLead>.add(<erebus:materials:44>);
@@ -863,6 +864,11 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 	#dustEnderium
 	<ore:dustEnderium> : [
 		<thermalfoundation:material:103>
+	],
+	
+	#dustEndstone
+	<ore:dustEndstone> : [
+		<nuclearcraft:gem_dust:11>
 	],
 	
 	#dustInvar

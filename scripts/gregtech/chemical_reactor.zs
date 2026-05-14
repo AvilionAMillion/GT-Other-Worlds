@@ -68,6 +68,15 @@ chem.recipeBuilder()
 	.duration(400)
 	.EUt(60)
 	.buildAndRegister();
+# Aerated Endstone Dust
+chem.recipeBuilder()
+	.inputs(<gregtech:meta_dust:1603> * 12)
+	.fluidInputs(<liquid:carbon_dioxide> * 4000)
+	.outputs(<gtow:aeratedendstone_dust> * 7)
+	.fluidOutputs(<liquid:helium> * 800)
+	.duration(300)
+	.EUt(120)
+	.buildAndRegister();
 	
 // HV Tier
 # Eye of Ender

@@ -78,3 +78,6 @@ mods.gregtech.primitive_blast_furnace.removeByInput(1, [metaitem('ingotWroughtIr
 mods.gregtech.primitive_blast_furnace.removeByInput(1, [metaitem('blockWroughtIron'), item('minecraft:coal_block') * 2 * 2], null)
 mods.gregtech.primitive_blast_furnace.removeByInput(1, [metaitem('blockWroughtIron'), metaitem('blockCharcoal') * 2], null)
 mods.gregtech.primitive_blast_furnace.removeByInput(1, [metaitem('blockWroughtIron'), metaitem('blockCoke')], null)
+
+// Centrifuge
+mods.gregtech.centrifuge.removeByInput(20, [metaitem('dustEndstone')], null)

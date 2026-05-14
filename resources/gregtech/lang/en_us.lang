@@ -24,6 +24,7 @@ gregtech.material.precious_metal=Precious Metal
 gregtech.material.pyrotheum=Pyrotheum
 gregtech.material.cryotheum=Cryotheum
 gregtech.material.chloroauric_acid=Chloroauric Acid
+gregtech.material.platinum_crude=Crude Platinum
 
 item.gt.tool.harvest_level.0=§4Wood
 item.gt.tool.harvest_level.1=§7Flint

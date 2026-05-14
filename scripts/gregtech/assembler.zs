@@ -354,3 +354,4 @@ assembler.recipeBuilder()
 	.EUt(240)
 	.duration(240)
 	.buildAndRegister();
+

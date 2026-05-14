@@ -228,6 +228,12 @@ var aucl = MaterialBuilder(24022, "chloroauric_acid")
 	.fluid("fluid", false)
 	.color(0xFFB71C)	
 	.build();
+# Platinum Rich Powder
+var ptmp = MaterialBuilder(24023, "platinum_crude")
+	.dust()
+	.color(0x524324)
+	.iconSet("rough")
+	.build();
 
 // Prexisting
 # Stone
@@ -254,4 +260,7 @@ var aucl = MaterialBuilder(24022, "chloroauric_acid")
 <material:precious_metal>.setFormula("?(Au)", true);
 # Chloroauric Acid
 <material:chloroauric_acid>.setFormula("H(AuCl4)", true);
+# Platinum Metallic Powder
+<material:platinum_crude>.setFormula("Pt?", true);
+
 

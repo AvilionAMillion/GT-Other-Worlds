@@ -6,7 +6,10 @@ gtow.machine.bbbf.tooltip='Bello!
 gtow.machine.bbbf.tooltip.1=Recipes are §b5x§7 faster in this than in the Primitive Blast Furnace
 gtow.machine.bbbf.tooltip.2=Each recipes uses 30 mb/t of steam
 
-recipemap.woodoven.name=Wood Oven
+tile.gtow.aetherblock.tooltip=§bOnly works in the End Dimension!§7
+item.gtow.levitation_fragment.tooltip=§bUsed to open the Aether Portal§7
+
+recipemap.bbbf.name=Bellowed Blast Furnace
 recipemap.flottank.name=Flotation Tank
 recipemap.COMPONENTASSEMBLER.name=Component Assembler
 recipemap.EVAPORATOR.name=Evaporator
@@ -40,6 +43,8 @@ item.gtow.liveroot_dust.name=Liveroot Dust
 item.gtow.ironsludge.name=Ferric Metal Sludge
 item.gtow.blanchedgold.name=Blanched Gold
 item.gtow.hydrastone_dust.name=Hydrastone Dust
+item.gtow.aeratedendstone_dust.name=Aerated Endstone Dust
+item.gtow.levitation_fragment.name=Levitation Fragment
 
 tile.gtow.ow_icon.name=Overworld Dimension
 tile.gtow.tf_icon.name=Twilight Forest Dimension
@@ -48,6 +53,7 @@ tile.gtow.mw_icon.name=Misty World Dimension
 
 tile.gtow.mistyblock.name=Misty World Portal Block
 tile.gtow.twilightblock.name=Twilight Forest Portal Block
+tile.gtow.aetherblock.name=Aether Portal Block
 tile.gtow.nitroice.name=Nitrogenated Ice
 tile.gtow.hydrastone.name=Hydrastone
 
@@ -65,4 +71,5 @@ fluid.gtow.thickclaymud.name=Heavy Clay Mud
 fluid.gtow.hotclaymud.name=Boiling Clay Mud
 fluid.gtow.soap.name=Soap
 fluid.gtow.preciousslurry.name=Precious Metal Solution
+fluid.gtow.endstoneslush.name=Endstone Slush
 fluid.gtow.fieryblood.name=Fiery Blood
