@@ -1,16 +1,17 @@
-filename = 'fermiumasm-5.28.jar'
+filename = 'fermiumasm-5.31.jar'
 name = 'FermiumASM'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-mc-versions = [ '1.12.2', '1.12.2' ]
 x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '5.31'
 
 [download]
-hash = '2e0e906ff106c208e0a2fe2ebb849ce09e3e3f6f5956428c1e7663ee0c77927a4e630217c1e11edc04a81d0f3cbe84c4667d10e523b77146ef72198444d561f3'
+hash = '00b7d97544560d77226a54c854fce5bae9cfa36339d88154d07a03da21d694bfb2e0bfb7201663b45735424a9b26f11498bc78a8ba6a3c71ce64ad9d3d02565d'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/LnSdxRsG/versions/1j3dT8HI/fermiumasm-5.28.jar'
+url = 'https://cdn.modrinth.com/data/LnSdxRsG/versions/3t9tHaNj/fermiumasm-5.31.jar'
 
 [update.modrinth]
 mod-id = 'LnSdxRsG'
-version = '1j3dT8HI'
+version = '3t9tHaNj'

@@ -1,16 +1,17 @@
-filename = 'UniversalTweaks-1.12.2-1.17.0.jar'
+filename = 'UniversalTweaks-1.12.2-1.20.1.jar'
 name = 'Universal Tweaks'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-mc-versions = [ '1.12.2', '1.12.2' ]
 x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.1'
 
 [download]
-hash = 'fe39bf64ae68354790a852ab2bb43c19cf38f086b183884a3661cbe0dcb49159673ed41a5c8bfd7d8335ed9d7f11f1e59accb34c00af624209adfc998c28e90e'
+hash = '1aae412c61f86b354bfd6fe442f1b5de800740008d08345cbbb3430ec0e3881702afca572c5006df69b518df936a86be3fc3ca677b1443a3471d461e1446f940'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/s32LssQX/versions/s9LIMCwo/UniversalTweaks-1.12.2-1.17.0.jar'
+url = 'https://cdn.modrinth.com/data/s32LssQX/versions/AQqRQW6a/UniversalTweaks-1.12.2-1.20.1.jar'
 
 [update.modrinth]
 mod-id = 's32LssQX'
-version = 's9LIMCwo'
+version = 'AQqRQW6a'

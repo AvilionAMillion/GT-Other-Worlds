@@ -1,16 +1,17 @@
-filename = 'HadEnoughItems_1.12.2-4.29.13.jar'
+filename = 'HadEnoughItems_1.12.2-4.32.0.jar'
 name = 'Had Enough Items'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.12.2' ]
-x-prismlauncher-release-type = 'release'
+x-prismlauncher-mc-versions = [ '1.12.2', '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '4.32.0'
 
 [download]
-hash = '78d1415658fab01b79c3e92cad41978c08bfb51accc193b521c71a53375952710626885fc9fd7a8cb0ae5fcef468837c29c4da0398778f225e576f80a0dc960f'
+hash = 'ca78464e049b5e7482ebb4b5e3df2a42ed6d60a06fa36c19ecf064cd142bc68544d00ede7c4902be625bcd6e44f4471e6574826a23bb3bf208f606ec518dfdee'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/2iXFLwYO/versions/iUG4PcKk/HadEnoughItems_1.12.2-4.29.13.jar'
+url = 'https://cdn.modrinth.com/data/2iXFLwYO/versions/QnA1JVsz/HadEnoughItems_1.12.2-4.32.0.jar'
 
 [update.modrinth]
 mod-id = '2iXFLwYO'
-version = 'iUG4PcKk'
+version = 'QnA1JVsz'

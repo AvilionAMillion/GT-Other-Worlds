@@ -1,17 +1,17 @@
-filename = 'libvulpes-0.5.5.jar'
-name = 'libVulpes'
+filename = 'nonetherportals-1.1.0.jar'
+name = 'No Nether Portals'
 side = ''
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'libvulpes-0.5.5.jar'
+x-prismlauncher-version-number = 'No Nether Portals: 1.1.0'
 
 [download]
-hash = '4a3d2f280f2e20e98d7e4efdf3c469f3e1459ce8'
+hash = '5646d1cb31929787c89192dd0b034061f7a54409'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8339713
-project-id = 1038780
+file-id = 4569618
+project-id = 870486

@@ -1,16 +1,17 @@
-filename = 'CraftPresence-2.7.0+1.12.2-forge.jar'
+filename = 'CraftPresence-2.7.1+1.12.2-forge.jar'
 name = 'CraftPresence'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-mc-versions = [ '1.12.2', '1.12.2' ]
 x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.7.1+1.12.2-forge'
 
 [download]
-hash = 'afdb433eb131ae93634a3bf7e24260558cac3a5e58c4b6e33ea93725273f020dd9a6a66d407062a9fa0f3e483c88ad6a4e4f56dc7721bea44dd702803677ae8c'
+hash = '0798a7338f4c9e8bbf805b866305d0c9d5c04c6e3e9a2e0c7da9775b4d325226e179a868039ce6736d0b17f004de96b6e0b4a2a0ab932b7f5e4e0bfd5a2cc1e8'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/DFqQfIBR/versions/DrztXj3v/CraftPresence-2.7.0%2B1.12.2-forge.jar'
+url = 'https://cdn.modrinth.com/data/DFqQfIBR/versions/IjzBfkpi/CraftPresence-2.7.1%2B1.12.2-forge.jar'
 
 [update.modrinth]
 mod-id = 'DFqQfIBR'
-version = 'DrztXj3v'
+version = 'IjzBfkpi'
