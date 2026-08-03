@@ -38,6 +38,13 @@ mods.gregtech.assembler.removeByInput(120, [metaitem('hull.mv'), metaitem('drum.
 mods.gregtech.assembler.removeByInput(120, [metaitem('hull.mv'), metaitem('drum.bronze'), metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('polybenzimidazole') * 18 * 18])
 mods.gregtech.assembler.removeByInput(120, [metaitem('hull.mv'), metaitem('drum.bronze'), metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('polytetrafluoroethylene') * 144 * 144])
 mods.gregtech.assembler.removeByInput(120, [metaitem('hull.mv'), metaitem('drum.bronze'), metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('polybenzimidazole') * 18 * 18])
+mods.gregtech.assembler.removeByInput(30, [metaitem('cableGtDoubleSilver') * 2, metaitem('stickStainlessSteel') * 2, metaitem('stickSteelMagnetic'), metaitem('wireGtDoubleElectrum') * 4], null)
+mods.gregtech.assembler.removeByInput(30, [metaitem('cableGtSingleGold'), metaitem('pipeNormalFluidStainlessSteel'), metaitem('screwSteel'), metaitem('rotorSteel'), metaitem('ringStyreneButadieneRubber') * 2, metaitem('electric.motor.hv')], null)
+mods.gregtech.assembler.removeByInput(30, [metaitem('cableGtSingleGold'), metaitem('electric.motor.hv') * 2, metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('styrene_butadiene_rubber') * 864 * 864])
+mods.gregtech.assembler.removeByInput(30, [metaitem('cableGtSingleGold'), metaitem('electric.motor.hv') * 2, metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('silicone_rubber') * 864 * 864])
+mods.gregtech.assembler.removeByInput(30, [metaitem('cableGtSingleGold'), metaitem('electric.motor.hv') * 2, metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('rubber') * 864 * 864])
+mods.gregtech.assembler.removeByInput(30, [metaitem('stickStainlessSteel') * 2, metaitem('cableGtSingleGold') * 2, metaitem('plateStainlessSteel') * 3, metaitem('gearSmallStainlessSteel'), metaitem('electric.motor.hv')], null)
+mods.gregtech.assembler.removeByInput(30, [metaitem('cableGtSingleGold') * 3, metaitem('stickStainlessSteel') * 2, metaitem('electric.motor.hv') * 2, metaitem('electric.piston.hv'), metaitem('circuit.advanced_integrated')], null)
 
 
 

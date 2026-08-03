@@ -19,3 +19,11 @@ arc_furnace.recipeBuilder()
 	.EUt(30)
 	.duration(1000)
 	.buildAndRegister();
+# Ferric Metal Sludge
+arc_furnace.recipeBuilder()
+	.inputs(<gtow:ironsludge>)
+	.fluidInputs(<fluid:oxygen> * 3)
+	.chancedOutput(<gregtech:meta_dust_small:51>, 5000, 1500)
+	.EUt(30)
+	.duration(10)
+	.buildAndRegister();

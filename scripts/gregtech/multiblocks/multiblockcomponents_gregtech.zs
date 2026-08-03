@@ -91,6 +91,12 @@ RecipeBuilder.get("basic")
   .addOutput(<gregtech:machine:1000>)
   .create();
   
+// Bellowed Blast Furnace
+recipes.addShaped(<gregtech:machine:32002>, 
+	[[gtWrench, <gregtech:fluid_pipe_normal:260>, gtScrewdriver],
+	[<gregtech:fluid_pipe_normal:260>, <gregtech:machine:1000>, <gregtech:fluid_pipe_normal:260>],
+	[steelScrew, <gregtech:fluid_pipe_normal:260>, steelScrew]]);
+
 // Steel Multiblock Tank
 recipes.remove(<gregtech:machine:1599>);
 recipes.remove(<gregtech:machine:1598>);
