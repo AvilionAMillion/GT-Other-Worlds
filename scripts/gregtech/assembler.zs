@@ -354,4 +354,12 @@ assembler.recipeBuilder()
 	.EUt(240)
 	.duration(240)
 	.buildAndRegister();
+# Aether Portal Block
+assembler.recipeBuilder()
+	.inputs(<gregtech:meta_block_compressed_1501>, platePlatinum * 2)
+	.fluidInputs(<fluid:helium> * 500)
+	.outputs(<gtow:aetherblock>)
+	.EUt(240)
+	.duration(800)
+	.buildAndRegister();
 

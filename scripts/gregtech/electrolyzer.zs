@@ -16,3 +16,20 @@ electrolyzer.recipeBuilder()
 	.EUt(16)
 	.duration(40)
 	.buildAndRegister();
+	
+// MV Electrolyzer
+# Hypochlorous Acid
+electrolyzer.recipeBuilder()
+	.fluidInputs(<fluid:hypochlorous_acid> * 1000)
+	.fluidOutputs(<fluid:hydrochloric_acid> * 1000, <fluid:oxygen> * 1000)
+	.circuit(1)
+	.EUt(60)
+	.duration(30)
+	.buildAndRegister();
+electrolyzer.recipeBuilder()
+	.fluidInputs(<fluid:hypochlorous_acid> * 1000)
+	.fluidOutputs(<fluid:hydrogen> * 1000, <fluid:chlorine> * 1000, <fluid:oxygen> * 1000)
+	.circuit(2)
+	.EUt(60)
+	.duration(66)
+	.buildAndRegister();

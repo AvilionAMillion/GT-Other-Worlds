@@ -95,7 +95,7 @@ RecipeBuilder.get("basic")
 recipes.addShaped(<gregtech:machine:32002>, 
 	[[gtWrench, <gregtech:fluid_pipe_normal:260>, gtScrewdriver],
 	[<gregtech:fluid_pipe_normal:260>, <gregtech:machine:1000>, <gregtech:fluid_pipe_normal:260>],
-	[steelScrew, <gregtech:fluid_pipe_normal:260>, steelScrew]]);
+	[screwSteel, <gregtech:fluid_pipe_normal:260>, screwSteel]]);
 
 // Steel Multiblock Tank
 recipes.remove(<gregtech:machine:1599>);

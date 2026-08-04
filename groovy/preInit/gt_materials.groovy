@@ -1,10 +1,11 @@
-// import gregtech.api.unification.material.properties.PropertyKey
-// import gregtech.api.GregTechAPI.MaterialEvent
-// import gregtech.api.unification.material.Material
+import gregtech.api.unification.material.properties.PropertyKey
+import gregtech.api.unification.material.event.PostMaterialEvent
 
-// nickel = material("nickel").getProperty(PropertyKey.ORE)
-// nickelbyproducts = nickel.getOreByproducts()
-// nickelbyproducts.clear()
-// nickelbyproducts.add(material("iron"))
-// nickelbyproducts.add(material("cobalt"))
-// nickelbyproducts.add(material("platinum_crude"))
+event_manager.listen { PostMaterialEvent event ->
+ def nickel = material('nickel').getProperty(PropertyKey.ORE)
+ def nickelbyproducts = nickel.getOreByProducts()
+ nickelbyproducts.clear()
+ nickelbyproducts.add(material('iron'))
+ nickelbyproducts.add(material('cobalt'))
+ nickelbyproducts.add(material('platinum_crude'))
+}

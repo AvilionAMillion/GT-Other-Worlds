@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "gtow:items/rutileshard"
+    "layer0": "gtow:items/tungstateshard"
   }
 }

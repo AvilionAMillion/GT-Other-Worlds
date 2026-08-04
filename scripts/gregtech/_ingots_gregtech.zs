@@ -26,3 +26,4 @@ mods.mekanism.reaction.addRecipe(<contenttweaker:dopedrubber> * 2, <liquid:oil> 
 // Mana Pool
 mods.botania.ManaInfusion.addInfusion(<gregtech:meta_gem:24011>, <ore:gemExquisiteCarminite>, 30000);
 mods.botania.ManaInfusion.addInfusion(<gregtech:meta_dust:24011>, <gregtech:meta_dust:24015>, 1500);
+mods.botania.ManaInfusion.addInfusion(<gregtech:meta_ingot:24016>, <gregtech:meta_ingot:323>, 10000);

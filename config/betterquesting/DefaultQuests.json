@@ -6,8 +6,8 @@
       "home_offset_x:3": -128,
       "livesmax:3": 10,
       "home_image:8": "gtow:textures/gui/title_card.png",
-      "pack_version:3": 0,
       "party_enable:1": 1,
+      "pack_version:3": 0,
       "editmode:1": 1,
       "hardcore:1": 0,
       "pack_name:8": "GregTech - Other Worlds",
@@ -19038,7 +19038,7 @@
           "repeattime:3": -1,
           "name:8": "The Final Step",
           "autoclaim:1": 0,
-          "desc:8": "After electrolyzing the Blanched Gold you can pat yourself on the back, you just completed the first processing line of the pack and made a decent amount of gold from a completely seperate ore! For every two pieces of precious metal ore, this process gets you about one gold dust, which is some pretty poor returns all things considered, but there are ways of improving this later on!\nSome more notes: The chlorine is recycled in this process, much like the nitrogen. The only input is Hydrogen and Oxygen, use that as you will. Also I recommend fully automating this because the manual carrying sucks after some time, and you\u0027ll need a decent amount of gold, even early on.",
+          "desc:8": "After electrolyzing the Blanched Gold you can pat yourself on the back, you just completed the first processing line of the pack and made a decent amount of gold from a completely seperate ore! For every one piece of precious metal ore, this process gets you about one gold dust, which is some pretty poor returns all things considered, but there are ways of improving this later on!\nSome more notes: The chlorine is recycled in this process, much like the nitrogen. The only input is Hydrogen and Oxygen, use that as you will. Also I recommend fully automating this because the manual carrying sucks after some time, and you\u0027ll need a decent amount of gold, even early on.",
           "simultaneous:1": 0,
           "tasklogic:8": "AND",
           "globalshare:1": 0
@@ -19063,7 +19063,20 @@
           "ignoreNBT:1": 0
         }
       },
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:ore_precious_metal_0",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0
+        }
+      },
       "preRequisites:11": [
         257
       ],

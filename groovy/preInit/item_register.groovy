@@ -17,7 +17,7 @@ content.createItem('blanchedgold').register()
 content.createItem('hydrastone_dust').register()
 content.createItem('aeratedendstone_dust').register()
 content.createItem('levitation_fragment').register()
-content.createItem('rutileshard').register()
+content.createItem('tungstateshard').register()
 
 // Custom Casings
 content.createBlock('casing_lightsteel')

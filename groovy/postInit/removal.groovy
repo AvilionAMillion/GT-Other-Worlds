@@ -7,6 +7,8 @@ mods.gregtech.chemical_bath.removeByInput(120, [metaitem('ingotHotSilicon')], [f
 
 // Electrolyzer
 mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustClay') * 13], null)
+mods.gregtech.electrolyzer.removeByInput(60, null, [fluid('hypochlorous_acid') * 1000 * 1000])
+
 
 // Assembler
 mods.gregtech.assembler.removeByInput(120, [metaitem('wireGtDoubleKanthal') * 8, metaitem('foilAluminium') * 8], [fluid('copper') * 144 * 144])

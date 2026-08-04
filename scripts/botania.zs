@@ -112,6 +112,7 @@ mods.botania.Apothecary.removeRecipe("bubbell");
 // Mana Pool
 # Removal
 mods.botania.ManaInfusion.removeRecipe(<botania:manaresource:23>);
+mods.botania.ManaInfusion.removeRecipe(<botania:manaresource>);
 
 // Fey Crafter
 Fey.addRecipe("puredaisy", <botania:specialflower>.withTag({type: "puredaisy"}), [<contenttweaker:petal_of_the_daisy>, <contenttweaker:petal_of_the_daisy>, <roots:spirit_herb>, <rustic:marsh_mallow>, <gregtech:meta_dust_tiny:24011>]);

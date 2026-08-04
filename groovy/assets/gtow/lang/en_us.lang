@@ -44,7 +44,7 @@ item.gtow.blanchedgold.name=Blanched Gold
 item.gtow.hydrastone_dust.name=Hydrastone Dust
 item.gtow.aeratedendstone_dust.name=Aerated Endstone Dust
 item.gtow.levitation_fragment.name=Levitation Fragment
-item.gtow.rutileshard.name=Rutile Shard
+item.gtow.tungstateshard.name=Tungstate Shard
 
 tile.gtow.ow_icon.name=Overworld Dimension
 tile.gtow.tf_icon.name=Twilight Forest Dimension

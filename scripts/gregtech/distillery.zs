@@ -12,7 +12,7 @@ val distillery as RecipeMap = <recipemap:distillery>;
 # Endstone Slush
 distillery.recipeBuilder()
 	.fluidInputs(<liquid:endstoneslush> * 100)
-	.chancedOutput(<gtow:rutileshard>, 1000, 1000)
+	.chancedOutput(<gtow:tungstateshard>, 1000, 1000)
 	.fluidOutputs(<liquid:liquid_nitrogen> * 8)
 	.circuit(1)
 	.EUt(240)
@@ -31,7 +31,7 @@ distillery.recipeBuilder()
 # Helium+Rutile
 distillery.recipeBuilder()
 	.fluidInputs(<liquid:endstoneslush> * 100)
-	.chancedOutput(<gtow:rutileshard>, 200, 550)
+	.chancedOutput(<gtow:tungstateshard>, 200, 550)
 	.fluidOutputs(<liquid:helium> * 10)
 	.circuit(3)
 	.EUt(820)

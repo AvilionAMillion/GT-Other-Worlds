@@ -3,6 +3,10 @@ crafting.addShaped('evapLV', item('gregtech:machine:29011'), [
         [item('minecraft:glass'), ore('circuitLv'), item('minecraft:glass')],
         [item('gregtech:meta_item_1:97'), item('gregtech:machine:986'), item('gregtech:meta_item_1:97')],
         [item('gregtech:cable_single:112'), ore('circuitLv'), item('gregtech:cable_single:112')]])
+crafting.addShaped('evapMV', item('gregtech:machine:29012'), [
+        [item('minecraft:glass'), ore('circuitLv'), item('minecraft:glass')],
+        [item('gregtech:meta_item_1:98'), item('gregtech:machine:987'), item('gregtech:meta_item_1:98')],
+        [item('gregtech:cable_single:25'), ore('circuitMv'), item('gregtech:cable_single:25')]])
 
 
 

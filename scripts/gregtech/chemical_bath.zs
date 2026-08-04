@@ -17,18 +17,18 @@ bath.recipeBuilder()
 # Silicon Ingot
 bath.recipeBuilder()
 	.inputs(<gregtech:meta_ingot_hot:99>)
-	.fluidInputs(<liquid:liquid_nitrogen> * 500)
+	.fluidInputs(<liquid:liquid_nitrogen> * 150)
 	.outputs(<gregtech:meta_ingot:99>)
-	.fluidOutputs(<liquid:nitrogen> * 500)
+	.fluidOutputs(<liquid:nitrogen> * 150)
 	.duration(1200)
 	.EUt(60)
 	.buildAndRegister();
 # Kanthal Ingot
 bath.recipeBuilder()
 	.inputs(<gregtech:meta_ingot_hot:288>)
-	.fluidInputs(<liquid:liquid_nitrogen> * 500)
+	.fluidInputs(<liquid:liquid_nitrogen> * 150)
 	.outputs(<gregtech:meta_ingot:288>)
-	.fluidOutputs(<liquid:nitrogen> * 500)
+	.fluidOutputs(<liquid:nitrogen> * 150)
 	.duration(1200)
 	.EUt(60)
 	.buildAndRegister();
