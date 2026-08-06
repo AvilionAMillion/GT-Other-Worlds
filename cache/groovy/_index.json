@@ -6,20 +6,20 @@
     {
       "name": "preInit.gt_materials",
       "path": "preInit/gt_materials.groovy",
-      "lm": 1785819947981,
+      "lm": 1785932388737,
       "inner": [
         "preInit.gt_materials$_run_closure1"
       ]
     },
     {
-      "name": "postInit.multis.flotationtank",
-      "path": "postInit/multis/flotationtank.groovy",
-      "lm": 1765097629886
-    },
-    {
       "name": "classes.globals",
       "path": "classes/globals.groovy",
       "lm": 1755920620366
+    },
+    {
+      "name": "postInit.multis.flotationtank",
+      "path": "postInit/multis/flotationtank.groovy",
+      "lm": 1786007662532
     },
     {
       "name": "postInit.fluidcrafting",
@@ -34,7 +34,7 @@
     {
       "name": "postInit.evaporator",
       "path": "postInit/evaporator.groovy",
-      "lm": 1785840098227
+      "lm": 1786006197101
     },
     {
       "name": "postInit.packager",
@@ -52,19 +52,14 @@
       "lm": 1767082866657
     },
     {
+      "name": "postInit.item_vars",
+      "path": "postInit/item_vars.groovy",
+      "lm": 1785986882326
+    },
+    {
       "name": "preInit.gregtech",
       "path": "preInit/gregtech.groovy",
       "lm": 1761096818079
-    },
-    {
-      "name": "preInit.item_register",
-      "path": "preInit/item_register.groovy",
-      "lm": 1785809809112
-    },
-    {
-      "name": "postInit.oreproc",
-      "path": "postInit/oreproc.groovy",
-      "lm": 1764230145650
     },
     {
       "name": "classes.MetaTileEntityFlotationTank",
@@ -72,9 +67,19 @@
       "lm": 1768029473217
     },
     {
+      "name": "postInit.oreproc",
+      "path": "postInit/oreproc.groovy",
+      "lm": 1764230145650
+    },
+    {
+      "name": "preInit.item_register",
+      "path": "preInit/item_register.groovy",
+      "lm": 1785997497362
+    },
+    {
       "name": "postInit.removal",
       "path": "postInit/removal.groovy",
-      "lm": 1785841511090
+      "lm": 1785926416345
     },
     {
       "name": "postInit.machines",
@@ -82,14 +87,14 @@
       "lm": 1768196816514
     },
     {
+      "name": "preInit.fluid_register",
+      "path": "preInit/fluid_register.groovy",
+      "lm": 1786004860225
+    },
+    {
       "name": "classes.MetaTileEntityBBBF",
       "path": "classes/MetaTileEntityBBBF.groovy",
       "lm": 1768262110331
-    },
-    {
-      "name": "preInit.fluid_register",
-      "path": "preInit/fluid_register.groovy",
-      "lm": 1768374158998
     }
   ]
 }

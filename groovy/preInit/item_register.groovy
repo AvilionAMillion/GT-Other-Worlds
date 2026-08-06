@@ -1,23 +1,39 @@
+// Portal Openers
 content.createItem('foggystone').register()
+content.createItem('levitation_fragment').register()
+
+// Dust Likes
 content.createItem('alkalisalt').register()
-content.createItem('yeticlippings').register()
-content.createItem('yetiinsulation').register()
 content.createItem('philipscatalyst').register()
-content.createItem('controlmv').register()
+content.createItem('liveroot_dust').register()
+content.createItem('blanchedgold').register()
+content.createItem('hydrastone_dust').register()
+content.createItem('aeratedendstone_dust').register()
+
+
+// Processing (Probably Sludges)
+content.createItem('crushed_nickelshale').register()
+
+content.createItem('sludge_iron').register()
+content.createItem('tungstateshard').register()
+content.createItem('sludge_nickel').register()
+
+// Components
 content.createItem('laser').register()
 content.createItem('motorhv').register()
 content.createItem('pistonhv').register()
 content.createItem('pumphv').register()
 content.createItem('conveyorhv').register()
 content.createItem('armhv').register()
+
+// Misc Electronics
+content.createItem('controlmv').register()
+content.createItem('controlhv').register()
 content.createItem('etchedsilicon').register()
-content.createItem('liveroot_dust').register()
-content.createItem('ironsludge').register()
-content.createItem('blanchedgold').register()
-content.createItem('hydrastone_dust').register()
-content.createItem('aeratedendstone_dust').register()
-content.createItem('levitation_fragment').register()
-content.createItem('tungstateshard').register()
+content.createItem('yeticlippings').register()
+content.createItem('yetiinsulation').register()
+content.createItem('blankrune').register()
+
 
 // Custom Casings
 content.createBlock('casing_lightsteel')
@@ -76,6 +92,7 @@ content.createBlock('aetherblock')
         .setSoundType(SoundType.STONE)
         .register()
 
+// Stones
 content.createBlock('nitroice')
         .setHardness(2.0F)
         .setResistance(1.0F)
@@ -84,6 +101,11 @@ content.createBlock('nitroice')
 content.createBlock('hydrastone')
         .setHardness(15.0F)
         .setResistance(5.0F)
+        .setSoundType(SoundType.STONE)
+        .register()
+content.createBlock('stone_nickelshale')
+        .setHardness(5.0F)
+        .setResistance(2.0F)
         .setSoundType(SoundType.STONE)
         .register()
 

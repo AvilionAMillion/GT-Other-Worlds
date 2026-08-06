@@ -1,6 +1,6 @@
 {
   "weight": 20,
-  "density": 0.6,
+  "density": 0.2,
   "min_height": 0,
   "max_height": 50,
   "generation_predicate":["block:mist:stone", "block:mist:stone_porous", "block:mist:stone_basic"],
@@ -16,27 +16,30 @@
     "dimension_id:500"
   ],
   "generator": {
-    "type": "layered",
+    "type": "sphere",
     "radius": [
-      14,
-      16
+      16,
+      18
     ]
   },
   "filler": {
-    "type": "layered",
-    "values": [
-      {
-        "primary": "ore:grossular"
-      },
-      {
-        "secondary": "ore:pyrolusite"
-      },
-      {
-        "between": "ore:pyrochlore"
-      },
-      {
-        "sporadic": "ore:tantalite"
-      }
-    ]
+    "type": "ignore_bedrock",
+    "value": {
+      "type": "weight_random",
+      "values": [
+        {
+          "weight": 70,
+          "value": {
+            "block": "gtow:stone_nickelshale"
+          }
+        },
+        {
+          "weight": 30,
+          "value": {
+            "block": "gregtech:ore_nickel_0"
+          }
+        }
+      ]
+    }
   }
 }

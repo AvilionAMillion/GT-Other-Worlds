@@ -1,8 +1,8 @@
 {
-  "weight": 60,
+  "weight": 50,
   "density": 0.44,
   "max_height": 160,
-  "min_height": 10,
+  "min_height": 50,
   "vein_populator": {
     "type": "surface_block",
     "block": {
@@ -14,12 +14,12 @@
   "dimension_filter": [
     "dimension_id:500"
   ],
-  "generation_predicate":["block:mist:stone", "block:mist:stone_porous"],
+  "generation_predicate":["block:mist:stone", "block:mist:stone_porous", "block:mist:stone_basic"],
   "generator": {
     "type": "layered",
     "radius": [
-      17,
-      24
+      12,
+      16
     ]
   },
   "filler": {

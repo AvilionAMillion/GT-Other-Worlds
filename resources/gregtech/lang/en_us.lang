@@ -25,6 +25,8 @@ gregtech.material.pyrotheum=Pyrotheum
 gregtech.material.cryotheum=Cryotheum
 gregtech.material.chloroauric_acid=Chloroauric Acid
 gregtech.material.platinum_crude=Crude Platinum
+gregtech.material.dark_steel=Dark Steel
+
 
 item.gt.tool.harvest_level.0=§4Wood
 item.gt.tool.harvest_level.1=§7Flint
@@ -33,7 +35,7 @@ item.gt.tool.harvest_level.3=§FIron
 item.gt.tool.harvest_level.4=§DWrought Iron
 item.gt.tool.harvest_level.5=§8Steel
 item.gt.tool.harvest_level.6=§CArdite
-item.gt.tool.harvest_level.7=§3UHHHH
+item.gt.tool.harvest_level.7=§3Advanced-er
 
 metaitem.gemMana.name=Mana Diamond
 metaitem.circuit.electronic.name=Primitive Processer

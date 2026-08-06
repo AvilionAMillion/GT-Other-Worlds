@@ -53,6 +53,7 @@ import mods.gregtech.recipe.RecipeMap;
 <ore:blockAmethyst>.add(<mysticalworld:amethyst_block>);
 <ore:gemAmethyst>.add(<mysticalworld:amethyst_gem>);
 <ore:blockIronwood>.add(<twilightforest:block_storage>);
+<ore:blockManasteel>.add(<botania:storage>);
 
 // Occurences
 recipes.replaceAllOccurences(<pneumaticcraft:compressed_iron_gear>, <ore:gearIronCompressed>);
@@ -450,6 +451,11 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 		<abyssalcraft:copperingot>
 	],
 	
+	#ingotDarkSteel
+	<ore:ingotDarkSteel> : [
+		<enderio:item_alloy_ingot:6>
+	],
+	
 	#ingotElectrum
 	<ore:ingotElectrum> : [
 		<thermalfoundation:material:161>
@@ -487,6 +493,11 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 	#ingotLumium
 	<ore:ingotLumium> : [
 		<thermalfoundation:material:166>
+	],
+	
+	#ingotManasteel
+	<ore:ingotManasteel> : [
+		<botania:manaresource>
 	],
 	
 	#ingotMithril
@@ -699,6 +710,11 @@ var blocksDisabled as IItemStack[][IOreDictEntry] = {
 		<mysticalworld:copper_block>,
 	],
 	
+	#blockDarkSteel
+	<ore:blockDarkSteel> : [
+		<enderio:block_alloy:6>
+	],
+	
 	#blockElectrum
 	<ore:blockElectrum> : [
 		<thermalfoundation:storage_alloy:1>
@@ -728,6 +744,11 @@ var blocksDisabled as IItemStack[][IOreDictEntry] = {
 	#blockLumium
 	<ore:blockLumium> : [
 		<thermalfoundation:storage_alloy:6>
+	],
+	
+	#blockManasteel
+	<ore:blockManasteel> : [
+		<botania:storage>
 	],
 	
 	#blockNickel
@@ -1153,6 +1174,11 @@ var nuggetsDisabled as IItemStack[][IOreDictEntry] = {
 		<thermalfoundation:material:231>
 	],
 	
+	#nuggetDarkSteel> : [
+	<ore:nuggetDarkSteel> : [
+		<enderio:item_alloy_nugget:6>
+	],
+	
 	#nuggetInvar
 	<ore:nuggetInvar> : [
 		<thermalfoundation:material:226>
@@ -1178,6 +1204,11 @@ var nuggetsDisabled as IItemStack[][IOreDictEntry] = {
 	#nuggetLumium
 	<ore:nuggetLumium> : [
 		<thermalfoundation:material:230>
+	],
+	
+	#nuggetManasteel
+	<ore:nuggetManasteel> : [
+		<botania:manaresource:17>
 	],
 	
 	#nuggetNickel

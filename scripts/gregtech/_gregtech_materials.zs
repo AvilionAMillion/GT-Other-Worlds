@@ -109,9 +109,7 @@ var refined_bsidian = MaterialBuilder(24005, "refined_obsidian")
 	.ingot(9)
 	.color(0x8067AA)
 	.iconSet("shiny")
-	.toolStats(14.7, 21, 1440, 6)
 	.blastTemp(4480, "HIGH", 2880)
-	.itemPipeProperties(512, 4)
 	.flags(["generate_plate", "generate_rod", "disable_decomposition", "generate_dense", "exclude_block_crafting_by_hand_recipes", "generate_gear", "generate_bolt_screw"])
 	.components([<material:obsidian> * 1, <material:diamond> * 1])
 	.build();
@@ -228,11 +226,22 @@ var aucl = MaterialBuilder(24022, "chloroauric_acid")
 	.fluid("fluid", false)
 	.color(0xFFB71C)	
 	.build();
-# Platinum Rich Powder
+# Crude Platinum
 var ptmp = MaterialBuilder(24023, "platinum_crude")
 	.dust()
 	.color(0x524324)
 	.iconSet("rough")
+	.build();
+# Dark Steel
+var dark_steel = MaterialBuilder(24024, "dark_steel")
+	.ingot()
+	.color(0x2B2B2B)
+	.iconSet("metallic")
+	.toolStats(12.6, 6, 1536,7)
+	.blastTemp(1700, null, 480, 700)
+	.itemPipeProperties(64, 4)
+	.components([<material:steel> * 1, <material:obsidian> * 1])
+	.flags(["exclude_block_crafting_by_hand_recipes", "generate_plate", "generate_rod"])
 	.build();
 
 // Prexisting

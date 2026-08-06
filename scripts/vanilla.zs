@@ -59,6 +59,9 @@ BrickKiln.addRecipe("refrac_glass", <minecraft:glass>, <contenttweaker:glassy_sa
 furnace.addRecipe(<minecraft:glass>, <contenttweaker:glassy_sand>);
 furnace.addRecipe(<minecraft:paper>, <pyrotech:material:25>);
 
+// Mob Drops
+<entity:minecraft:shulker>.addDrop(<gtow:levitation_fragment>, 1, 1, 0.2);
+
 
 // Worktable
 # Flint

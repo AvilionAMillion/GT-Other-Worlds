@@ -86,3 +86,10 @@ mixer.recipeBuilder()
 	.EUt(320)
 	.duration(200)
 	.buildAndRegister();
+# Dark Steel Dust
+mixer.recipeBuilder()
+	.inputs(<gregtech:meta_dust:324>, <gregtech:meta_dust:297>)
+	.outputs(<gregtech:meta_dust:24024> * 2)
+	.EUt(400)
+	.duration(30)
+	.buildAndRegister();

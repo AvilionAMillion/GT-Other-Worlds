@@ -168,3 +168,6 @@ recipes.replaceAllOccurences(<twilightforest:carminite>, <ore:gemExquisiteCarmin
 
 # Mana Diamond Replacement
 recipes.replaceAllOccurences(<ore:manaDiamond>, <gregtech:meta_gem:24011>);
+
+# Crushed Ore Oredict
+<ore:crushedNickel>.add(<gtow:crushed_nickelshale>);

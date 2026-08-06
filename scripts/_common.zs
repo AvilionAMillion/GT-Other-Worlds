@@ -71,6 +71,7 @@ global ingotIron as IOreDictEntry = <ore:ingotIron>;
 global ingotTin as IOreDictEntry = <ore:ingotTin>;
 global ingotAluminium as IOreDictEntry = <ore:ingotAluminium>;
 global ingotWroughtIron as IOreDictEntry = <ore:ingotWroughtIron>;
+global ingotStainlessSteel as IOreDictEntry = <ore:ingotStainlessSteel>;
 
 // Dusts
 global dustRedstone as IOreDictEntry = <ore:dustRedstone>;
@@ -98,6 +99,7 @@ global circuitEV as IOreDictEntry = <ore:circuitEv>;
 global wire1xCopper as IItemStack = <gregtech:wire_single:25>;
 global cable1xTin as IItemStack = <gregtech:cable_single:112>;
 global cable1xCopper as IItemStack = <gregtech:cable_single:25>;
+global cable1xGold as IItemStack = <gregtech:cable_single:41>;
 
 // Components
 #LV Components
@@ -133,4 +135,3 @@ global hullLV as IItemStack = <gregtech:machine:986>;
 global hullMV as IItemStack = <gregtech:machine:987>;
 global hullHV as IItemStack = <gregtech:machine:988>;
 
-// Wires

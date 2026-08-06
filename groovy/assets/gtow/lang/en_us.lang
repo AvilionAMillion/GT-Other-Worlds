@@ -3,10 +3,6 @@ gtow.machine.flotation_tank.name=Flotation Tank
 
 
 gtow.machine.bbbf.tooltip='Bello!
-gtow.machine.bbbf.tooltip.1=Recipes are §b5x§7 faster in this than in the Primitive Blast Furnace
-gtow.machine.bbbf.tooltip.2=Each recipes uses 30 mb/t of steam
-
-tile.gtow.aetherblock.tooltip=Only works in the End Dimension!
 
 recipemap.bbbf.name=Bellowed Blast Furnace
 recipemap.flottank.name=Flotation Tank
@@ -31,6 +27,7 @@ item.gtow.yeticlippings.name=Alpha Yeti Clippings
 item.gtow.yetiinsulation.name=Basic Thermally Regulated Insulation
 item.gtow.philipscatalyst.name=Philips Catalyst
 item.gtow.controlmv.name=MV Control Module
+item.gtow.controlhv.name=HV Control Module
 item.gtow.laser.name=Low Frequency Laser
 item.gtow.motorhv.name=HV Electric Motor Parts
 item.gtow.pistonhv.name=HV Electric Piston Parts
@@ -39,12 +36,15 @@ item.gtow.conveyorhv.name=HV Conveyor Module Parts
 item.gtow.armhv.name=HV Robot Arm Parts
 item.gtow.etchedsilicon.name=Etched Silicon Plate
 item.gtow.liveroot_dust.name=Liveroot Dust
-item.gtow.ironsludge.name=Ferric Metal Sludge
+item.gtow.sludge_iron.name=Ferric Metal Sludge
+item.gtow.sludge_nickel.name=Heavy Metal Rich Nickel Sludge
 item.gtow.blanchedgold.name=Blanched Gold
 item.gtow.hydrastone_dust.name=Hydrastone Dust
 item.gtow.aeratedendstone_dust.name=Aerated Endstone Dust
 item.gtow.levitation_fragment.name=Levitation Fragment
 item.gtow.tungstateshard.name=Tungstate Shard
+item.gtow.blankrune.name=Blank Rune
+item.gtow.crushed_nickelshale.name=Crushed Nickel Shale
 
 tile.gtow.ow_icon.name=Overworld Dimension
 tile.gtow.tf_icon.name=Twilight Forest Dimension
@@ -56,6 +56,8 @@ tile.gtow.twilightblock.name=Twilight Forest Portal Block
 tile.gtow.aetherblock.name=Aether Portal Block
 tile.gtow.nitroice.name=Nitrogenated Ice
 tile.gtow.hydrastone.name=Hydrastone
+
+tile.gtow.stone_nickelshale.name=Nickel Shale
 
 tile.gtow.casing_lightsteel.name=Light Steel Machine Casing
 tile.gtow.casing_bellowsbottom.name=Lower Bellows Block
@@ -73,3 +75,5 @@ fluid.gtow.soap.name=Soap
 fluid.gtow.preciousslurry.name=Precious Metal Solution
 fluid.gtow.endstoneslush.name=Endstone Slush
 fluid.gtow.fieryblood.name=Fiery Blood
+fluid.gtow.froth_nickel.name=Nickel Froth
+fluid.gtow.wastewater_nickel.name=Nickel Wastewater

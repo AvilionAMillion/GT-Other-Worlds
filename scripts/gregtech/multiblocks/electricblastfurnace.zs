@@ -48,6 +48,15 @@ ebf.recipeBuilder()
 	.buildAndRegister();
 	
 // Kanthal Coil
+# Platinum Nuggets
+ebf.recipeBuilder()
+	.inputs(<gregtech:meta_dust:24023> * 3)
+	.outputs(<gregtech:meta_nugget:80> * 2)
+	.EUt(120)
+	.circuit(1)
+	.property("temperature", 1910)
+	.duration(32)
+	.buildAndRegister();
 # Stainless Steel
 ebf.recipeBuilder()
 	.inputs(<gregtech:meta_dust:323>)

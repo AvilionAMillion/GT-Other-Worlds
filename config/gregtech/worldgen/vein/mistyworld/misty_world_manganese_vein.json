@@ -3,7 +3,7 @@
   "density": 0.15,
   "min_height": 112,
   "max_height": 160,
-  "generation_predicate":["block:mist:stone", "block:mist:stone_porous"],
+  "generation_predicate":["block:mist:stone", "block:mist:stone_porous", "block:mist:stone_basic"],
   "vein_populator": {
     "type": "surface_block",
     "block": {

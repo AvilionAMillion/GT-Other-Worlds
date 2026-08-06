@@ -362,4 +362,36 @@ assembler.recipeBuilder()
 	.EUt(240)
 	.duration(800)
 	.buildAndRegister();
+# Fiery Blood
+assembler.recipeBuilder()
+	.inputs(<twilightforest:fiery_tears>, <gtow:hydrastone_dust> * 4)
+	.notConsumable(<twilightforest:trophy:2>)
+	.outputs(<twilightforest:fiery_blood>)
+	.EUt(240)
+	.duration(80)
+	.buildAndRegister();
+# HV Control Module
+assembler.recipeBuilder()
+	.inputs(circuitHV * 4, plateStainlessSteel * 4, cable1xGold, <gregtech:meta_item_1:301>)
+	.fluidInputs(<fluid:soldering_alloy> * 288)
+	.outputs(<gtow:controlhv>)
+	.EUt(512)
+	.duration(860)
+	.buildAndRegister();
+# Plastic Respirator
+assembler.recipeBuilder()
+	.inputs(<ore:string> * 2, platePlastic * 3, ingotStainlessSteel)
+	.outputs(<mist:respirator_single>)
+	.circuit(1)
+	.EUt(400)
+	.duration(300)
+	.buildAndRegister();
+# Open Plastic Respirator
+assembler.recipeBuilder()
+	.inputs(<ore:string> * 2, platePlastic * 2, ingotStainlessSteel)
+	.outputs(<mist:respirator_single_open>)
+	.circuit(2)
+	.EUt(400)
+	.duration(300)
+	.buildAndRegister();
 

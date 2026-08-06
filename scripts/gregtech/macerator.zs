@@ -25,3 +25,21 @@ macerator.recipeBuilder()
 	.duration(12)
 	.EUt(8)
 	.buildAndRegister();
+# Endstone Dust
+macerator.recipeBuilder()
+	.inputs(<minecraft:end_stone>)
+	.outputs(<gregtech:meta_dust:1603>)
+	.chancedOutput(<gregtech:meta_dust:24023>, 3000, 200)
+	.chancedOutput(<gtow:tungstateshard>, 100, 0)
+	.duration(150)
+	.EUt(8)
+	.buildAndRegister();
+# Crushed Nickel Shale
+macerator.recipeBuilder()
+	.inputs(<gtow:stone_nickelshale>)
+	.outputs(<gtow:crushed_nickelshale> * 4)
+	.chancedOutput(<gregtech:meta_dust:24023>, 6000, 200)
+	.chancedOutput(<gregtech:meta_dust:24023>, 1000, 400)
+	.duration(400)
+	.EUt(2)
+	.buildAndRegister();

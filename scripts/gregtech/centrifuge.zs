@@ -25,11 +25,28 @@ centrifuge.recipeBuilder()
 	.EUt(40)
 	.duration(120)
 	.buildAndRegister();
-	
 # Nitrogenated Ice
 centrifuge.recipeBuilder()
 	.inputs(<gtow:nitroice> * 8)
 	.fluidOutputs(<liquid:water> * 7000, <liquid:nitrogen> * 700, <liquid:liquid_nitrogen> * 300)
 	.EUt(80)
 	.duration(300)
+	.buildAndRegister();
+# Nickel Froth
+centrifuge.recipeBuilder()
+	.fluidInputs(<liquid:froth_nickel> * 100)
+	.chancedOutput(<gtow:sludge_nickel> * 2, 7000, 1000)
+	.chancedOutput(<gtow:sludge_nickel>, 4000, 1000)
+	.fluidOutputs(<liquid:nitric_acid> * 40)
+	.EUt(60)
+	.duration(200)
+	.buildAndRegister();
+# Nickel Wastewater
+centrifuge.recipeBuilder()
+	.fluidInputs(<liquid:wastewater_nickel> * 100)
+	.chancedOutput(<gregtech:meta_dust:69>, 1000, 500)
+	.chancedOutput(<gregtech:meta_dust:51>, 3000, 1200)
+	.fluidOutputs(<liquid:diluted_sulfuric_acid> * 20)
+	.EUt(60)
+	.duration(200)
 	.buildAndRegister();

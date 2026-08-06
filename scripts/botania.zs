@@ -10,6 +10,7 @@ import mods.gregtech.recipe.RecipeMap;
 import mods.botania.PureDaisy;
 import mods.botania.Apothecary;
 import mods.botania.ManaInfusion;
+import mods.botania.RuneAltar;
 import mods.roots.Fey;
 
 // Crafting
@@ -113,6 +114,25 @@ mods.botania.Apothecary.removeRecipe("bubbell");
 # Removal
 mods.botania.ManaInfusion.removeRecipe(<botania:manaresource:23>);
 mods.botania.ManaInfusion.removeRecipe(<botania:manaresource>);
+
+// Runic Altar
+# Removal
+mods.botania.RuneAltar.removeRecipe(<botania:rune>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:1>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:2>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:3>);
+
+# Blank Rune
+mods.botania.RuneAltar.addRecipe(<gtow:blankrune> * 3,[<botania:livingrock>, <gregtech:meta_plate:24016>, <gregtech:meta_plate:24016>, <gregtech:meta_dust:24011>, <gregtech:meta_dust:24011>], 5000);
+# Water Rune
+mods.botania.RuneAltar.addRecipe(<botania:rune>,[<gtow:blankrune>, <roots:dewgonia>, <ore:listAllfishraw>, <minecraft:prismarine_shard>], 7500);
+# Fire Rune
+mods.botania.RuneAltar.addRecipe(<botania:rune:1>,[<gtow:blankrune>, <roots:infernal_bulb>, <gregtech:boiler_firebox_casing>, <minecraft:blaze_rod>], 7500);
+# Earth Rune
+mods.botania.RuneAltar.addRecipe(<botania:rune:2>,[<gtow:blankrune>, <roots:spirit_herb>, <gregtech:meta_plate:24009>, <gregtech:meta_gem:24003>], 7500);
+# Air Rune
+mods.botania.RuneAltar.addRecipe(<botania:rune:3>,[<gtow:blankrune>, <roots:cloud_berry>, <gregtech:meta_plate:2>, <minecraft:ghast_tear>], 7500);
+
 
 // Fey Crafter
 Fey.addRecipe("puredaisy", <botania:specialflower>.withTag({type: "puredaisy"}), [<contenttweaker:petal_of_the_daisy>, <contenttweaker:petal_of_the_daisy>, <roots:spirit_herb>, <rustic:marsh_mallow>, <gregtech:meta_dust_tiny:24011>]);

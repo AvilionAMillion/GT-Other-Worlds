@@ -90,3 +90,6 @@ mods.gregtech.primitive_blast_furnace.removeByInput(1, [metaitem('blockWroughtIr
 
 // Centrifuge
 mods.gregtech.centrifuge.removeByInput(20, [metaitem('dustEndstone')], null)
+
+// Macerator
+mods.gregtech.macerator.removeByInput(2, [item('minecraft:end_stone:*')], null)
