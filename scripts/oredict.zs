@@ -60,17 +60,19 @@ var dustWheat = <gregtech:meta_dust:1615>;
 <ore:impureSalt>.add(<gregtech:meta_dust_tiny:312>);
 #	recipes.remove(gtfoDough);
 	recipes.addShapeless(<harvestcraft:doughitem> * 2,
-		[dustWheat, dustWheat, dustWheat, dustWheat, <ore:impureSalt>, <fluid:water>*1000]);
+		[dustWheat, dustWheat, dustWheat, dustWheat, <ore:itemSalt>, <fluid:water>*1000]);
 	recipes.addShapeless(<harvestcraft:doughitem> * 4,
-		[dustWheat, dustWheat, dustWheat, dustWheat, <ore:impureSalt>, <gregtech:meta_dust_tiny:353>, <fluid:water>*1000]);
+		[dustWheat, dustWheat, dustWheat, dustWheat, <ore:itemSalt>, <gregtech:meta_dust_tiny:353>, <fluid:water>*1000]);
 // Rest of dough recipes for the mixer continued in mixer file
 
 //// Salt Changes
 <mekanism:salt>.displayName = "River Salt";
 <ore:itemSalt>.addAll(<ore:dustSalt>);
-<ore:itemSalt>.remove(<harvestcraft:saltitem>);
-<ore:dustSalt>.removeItems([<mekanism:salt>,<harvestcraft:saltitem>]);
+<ore:itemSalt>.removeItems([<harvestcraft:saltitem>,<gregtech:meta_dust:312>,<qmd:chemical_dust:3>]);
+<ore:itemSalt>.add(<gregtech:meta_dust_tiny:312>);
+<ore:dustSalt>.removeItems([<mekanism:salt>,<harvestcraft:saltitem>,<qmd:chemical_dust:3>]);
 mods.jei.JEI.removeAndHide(<harvestcraft:saltitem>);
+mods.jei.JEI.removeAndHide(<qmd:chemical_dust:3>);
 
 //// Food Oredicts
 // Foods won't be removed, just oredicted

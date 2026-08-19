@@ -167,13 +167,14 @@ RecipeBuilder.get("engineer")
   .addOutput(<gregtech:machine:1013>)
   .create();
   
-// Assembler
+// LV Assembler
 # Pyrolyse Oven
 recipes.remove(<gregtech:machine:1004>);
 assembler.recipeBuilder()
 	.inputs(<gtow:controlmv>, pistonMV * 2, pumpMV * 2, <gregtech:wire_quadruple:274> * 4, <gregtech:meta_item_1:98> * 4, hullMV)
 	.fluidInputs(<fluid:soldering_alloy> * 288)
 	.outputs(<gregtech:machine:1004>)
+	.circuit(20)
 	.EUt(64)
 	.duration(600)
 	.buildAndRegister();
@@ -181,8 +182,68 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
 	.inputs(<gtow:controlmv>, hullMV, motorMV * 4, pumpMV * 4, <gregtech:meta_block_frame_20:4> * 4, <gregtech:meta_gear:2036> * 4)
 	.fluidInputs(<fluid:soldering_alloy> * 288)
-	.circuit(2)
+	.circuit(20)
 	.outputs(<gregtech:machine:1032>)
 	.EUt(120)
 	.duration(400)
+	.buildAndRegister();
+# Plascrete
+assembler.recipeBuilder()
+	.inputs(<gregtech:meta_block_frame_0:2>, platePlastic * 2)
+	.fluidInputs(<fluid:concrete> * 144)
+	.outputs(<gregtech:cleanroom_casing>)
+	.EUt(60)
+	.duration(150)
+	.buildAndRegister();
+	
+// HV Assembler
+# Cleanroom
+recipes.remove(<gregtech:machine:1035>);
+assembler.recipeBuilder()
+	.inputs(<gtow:controlhv>, hullHV, motorHV * 2, <gregtech:meta_rotor:24025> * 4, <gregtech:meta_block_frame_0:2> * 4)
+	.fluidInputs(<fluid:soldering_alloy> * 288)
+	.circuit(20)
+	.outputs(<gregtech:machine:1035>)
+	.EUt(240)
+	.duration(400)
+	.buildAndRegister();
+# MultiSmelter
+recipes.remove(<gregtech:machine:1006>);
+assembler.recipeBuilder()
+	.inputs(<gtow:controlhv>, hullHV, <gregtech:meta_item_1:99> * 4, <gregtech:metal_casing:2>)
+	.fluidInputs(<fluid:soldering_alloy> * 288)
+	.circuit(20)
+	.outputs(<gregtech:machine:1006>)
+	.EUt(240)
+	.duration(300)
+	.buildAndRegister();
+# LCR
+recipes.remove(<gregtech:machine:1023>);
+assembler.recipeBuilder()
+	.inputs(<gtow:controlhv>, hullHV, <gregtech:fluid_pipe_large:1016> * 2, motorHV, <gregtech:meta_rotor:323>)
+	.fluidInputs(<fluid:soldering_alloy> * 288)
+	.circuit(20)
+	.outputs(<gregtech:machine:1023>)
+	.EUt(240)
+	.duration(300)
+	.buildAndRegister();
+# Steel Boiler
+recipes.remove(<gregtech:machine:1014>);
+assembler.recipeBuilder()
+	.inputs(<gtow:controlhv>, hullHV, <gregtech:boiler_firebox_casing:1> * 4)
+	.fluidInputs(<fluid:soldering_alloy> * 288)
+	.circuit(20)
+	.outputs(<gregtech:machine:1014>)
+	.EUt(240)
+	.duration(300)
+	.buildAndRegister();
+# Implosion Compressor
+recipes.remove(<gregtech:machine:1003>);
+assembler.recipeBuilder()
+	.inputs(<gtow:controlhv>, hullHV, <enderio:block_reinforced_obsidian> * 4, <gregtech:metal_casing:4>)
+	.fluidInputs(<fluid:soldering_alloy> * 288)
+	.circuit(20)
+	.outputs(<gregtech:machine:1003>)
+	.EUt(240)
+	.duration(300)
 	.buildAndRegister();

@@ -47,6 +47,7 @@ mods.gregtech.assembler.removeByInput(30, [metaitem('cableGtSingleGold'), metait
 mods.gregtech.assembler.removeByInput(30, [metaitem('cableGtSingleGold'), metaitem('electric.motor.hv') * 2, metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('rubber') * 864 * 864])
 mods.gregtech.assembler.removeByInput(30, [metaitem('stickStainlessSteel') * 2, metaitem('cableGtSingleGold') * 2, metaitem('plateStainlessSteel') * 3, metaitem('gearSmallStainlessSteel'), metaitem('electric.motor.hv')], null)
 mods.gregtech.assembler.removeByInput(30, [metaitem('cableGtSingleGold') * 3, metaitem('stickStainlessSteel') * 2, metaitem('electric.motor.hv') * 2, metaitem('electric.piston.hv'), metaitem('circuit.advanced_integrated')], null)
+mods.gregtech.assembler.removeByInput(48, [metaitem('frameSteel'), metaitem('platePlastic') * 6], [fluid('concrete') * 144 * 144])
 
 
 

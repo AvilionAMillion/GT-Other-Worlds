@@ -26,6 +26,9 @@ gregtech.material.cryotheum=Cryotheum
 gregtech.material.chloroauric_acid=Chloroauric Acid
 gregtech.material.platinum_crude=Crude Platinum
 gregtech.material.dark_steel=Dark Steel
+gregtech.material.sanae=Sanaen
+gregtech.material.valkyrie=Valkyrie Metal
+gregtech.material.fluix=Fluix Crystal
 
 
 item.gt.tool.harvest_level.0=§4Wood

@@ -16,6 +16,10 @@ recipes.removeByRecipeName("gregtech:crafting_table");
 recipes.removeByRecipeName("pyrotech:chest");
 recipes.removeByRecipeName("gregtech:chest");
 recipes.removeByRecipeName("enderio:tweak_chest_from_wood");
+recipes.removeByRecipeName("harvestcraft:minecraft_planks_meta_1_x4_pammaple");
+recipes.removeByRecipeName("harvestcraft:minecraft_planks_meta_3_x4_pampaperbark");
+recipes.removeByRecipeName("harvestcraft:minecraft_planks_meta_3_x4_pamcinnamon");
+recipes.removeByRecipeName("abyssalcraft:dltplank");
 recipes.remove(<minecraft:chest>);
 recipes.removeShapeless(<minecraft:flint>, [gravel, gravel, gravel]);
 recipes.remove(<minecraft:paper>);
@@ -28,6 +32,25 @@ StoneKiln.removeRecipes(<minecraft:glass>);
 BrickKiln.removeRecipes(<minecraft:glass>);
 furnace.remove(<minecraft:glass>);
 furnace.remove(<minecraft:redstone>);
+recipes.removeShaped(<minecraft:crafting_table>,
+	[[<ore:plankWood>, <ore:plankWood>],
+	[<ore:plankWood>, <ore:plankWood>]]);
+recipes.remove(<biomesoplenty:planks_0>);
+recipes.remove(<biomesoplenty:planks_0:1>);
+recipes.remove(<biomesoplenty:planks_0:2>);
+recipes.remove(<biomesoplenty:planks_0:3>);
+recipes.remove(<biomesoplenty:planks_0:4>);
+recipes.remove(<biomesoplenty:planks_0:5>);
+recipes.remove(<biomesoplenty:planks_0:6>);
+recipes.remove(<biomesoplenty:planks_0:7>);
+recipes.remove(<biomesoplenty:planks_0:8>);
+recipes.remove(<biomesoplenty:planks_0:9>);
+recipes.remove(<biomesoplenty:planks_0:10>);
+recipes.remove(<biomesoplenty:planks_0:11>);
+recipes.remove(<biomesoplenty:planks_0:12>);
+recipes.remove(<biomesoplenty:planks_0:13>);
+recipes.remove(<biomesoplenty:planks_0:14>);
+recipes.remove(<biomesoplenty:planks_0:15>);
 
 // Crafting
 # Torch

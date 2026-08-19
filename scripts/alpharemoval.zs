@@ -10,8 +10,6 @@ recipes.remove(<libvulpes:structuremachine>);
 recipes.remove(<nuclearcraft:manufactory>);
 recipes.remove(<teslacorelib:machine_case>);
 recipes.remove(<mekanism:basicblock:8>);
-recipes.remove(<appliedenergistics2:energy_acceptor>);
-recipes.remove(<appliedenergistics2:controller>);
 recipes.remove(<botania:terraplate>);
 recipes.remove(<abyssalcraft:necronomicon>);
 recipes.remove(<erebus:gaean_keystone>);

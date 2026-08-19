@@ -19,3 +19,18 @@ alloy_smelter.recipeBuilder()
 	.EUt(30)
 	.duration(200)
 	.buildAndRegister();
+
+// MV Tier
+# Quartz Glass
+alloy_smelter.recipeBuilder()
+	.inputs(<ore:dustNetherQuartz> * 2, <ore:blockGlass>)
+	.outputs(<appliedenergistics2:quartz_glass>)
+	.EUt(90)
+	.duration(140)
+	.buildAndRegister();
+alloy_smelter.recipeBuilder()
+	.inputs(<ore:dustCertusQuartz> * 2, <ore:blockGlass>)
+	.outputs(<appliedenergistics2:quartz_glass>)
+	.EUt(90)
+	.duration(140)
+	.buildAndRegister();

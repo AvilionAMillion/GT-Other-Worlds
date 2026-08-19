@@ -14,6 +14,7 @@ var element_magic = Elements.add(136, 100, -1, null, "Magic", "Ma", false);
 var element_infinity = Elements.add(999, 999, -1, null, "Infinity", "*", false);
 var element_pyrotheum = Elements.add(137, 200, -1, null, "Pyrotheum", "Py", false);
 var element_cryotheum = Elements.add(138, 204, -1, null, "Cryotheum", "Cy", false);
+var element_sanae = Elements.add(139, 138, -1, null, "Sanaen", "Sk", false);
 
 // Gregtech Pure Materials
 # Utsuhonium
@@ -65,6 +66,13 @@ var cryotheum = MaterialBuilder(30015, "cryotheum")
 	.dust()
 	.color(0x8FE1FF)
 	.iconSet("sand")	
+	.build();
+# Sanaen
+var sanae = MaterialBuilder(30016, "sanae")
+	.element("Sanaen")
+	.dust()
+	.color(0x287830)
+	.iconSet("shiny")	
 	.build();
 	
 // Gregtech Materials
@@ -161,7 +169,6 @@ var cryolite = MaterialBuilder(24012, "cryolite")
 	.color(0xDCE6F5)
 	.iconSet("quartz")
 	.components([<material:sodium> * 3, <material:aluminium> * 1, <material:fluorine> * 6])
-	.flags(["disable_decomposition"])
 	.ore(8, 2, false)
 	.addOreByproducts(<material:silver>, <material:sapphire>)
 	.build();
@@ -242,6 +249,22 @@ var dark_steel = MaterialBuilder(24024, "dark_steel")
 	.itemPipeProperties(64, 4)
 	.components([<material:steel> * 1, <material:obsidian> * 1])
 	.flags(["exclude_block_crafting_by_hand_recipes", "generate_plate", "generate_rod"])
+	.build();
+# Valkyrie Metal
+var valkyrie = MaterialBuilder(24025, "valkyrie")
+	.ingot()
+	.color(0xFDFFD9)
+	.iconSet("shiny")
+	.toolStats(20.2, 6, 2200,7)
+	.components([<material:titanium> * 1, <material:sanae> * 1])
+	.flags(["exclude_block_crafting_by_hand_recipes", "disable_decomposition", "generate_plate", "generate_rod", "generate_bolt_screw", "generate_ring", "generate_rotor"])
+	.build();
+var fluix = MaterialBuilder(24026, "fluix")
+	.gem()
+	.color(0x730096)
+	.iconSet("certus")
+	.components([<material:certus_quartz> * 1, <material:nether_quartz> * 1, <material:redstone> * 1])
+	.flags(["generate_plate", "generate_rod", "generate_lens"])
 	.build();
 
 // Prexisting

@@ -43,3 +43,10 @@ macerator.recipeBuilder()
 	.duration(400)
 	.EUt(2)
 	.buildAndRegister();
+# Charged Certus Dust
+macerator.recipeBuilder()
+	.inputs(<appliedenergistics2:material:1>)
+	.outputs(<gtow:dust_chargedcertus>)
+	.duration(20)
+	.EUt(2)
+	.buildAndRegister();

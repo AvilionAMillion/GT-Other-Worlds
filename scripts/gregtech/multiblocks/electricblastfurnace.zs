@@ -75,4 +75,13 @@ ebf.recipeBuilder()
 	.property("temperature", 2100)
 	.duration(36.85 * 20)
 	.buildAndRegister();
+# Philips Catalyst
+ebf.recipeBuilder()
+	.inputs(<gregtech:meta_dust:368> * 4, <gregtech:meta_dust:356>)
+	.outputs(<gtow:philipscatalyst>)
+	.EUt(1720)
+	.circuit(1)
+	.property("temperature", 2200)
+	.duration(140 * 20)
+	.buildAndRegister();
 

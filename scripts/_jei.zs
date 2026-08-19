@@ -58,3 +58,4 @@ mods.jei.JEI.hideCategory("nuclearcraft_ingot_former");
 mods.jei.JEI.hideCategory("nuclearcraft_pressurizer");
 mods.jei.JEI.hideCategory("nuclearcraft_chemical_reactor");
 mods.jei.JEI.hideCategory("nuclearcraft_manufactory");
+mods.jei.JEI.hideCategory("appliedenergistics2.inscriber");

@@ -20,6 +20,8 @@ recipes.addShaped(<gtow:component_motorhv>,
 	[[plateStainlessSteel, motorHV, plateStainlessSteel],
 	[motorHV, <gregtech:meta_block_frame_20:3>, motorHV],
 	[plateStainlessSteel, motorHV, plateStainlessSteel]]);
+// Removal
+recipes.remove(<gregtech:cleanroom_casing:1>);
 
 // Worktables
 # Short Wood Stick

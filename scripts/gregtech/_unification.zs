@@ -54,9 +54,12 @@ import mods.gregtech.recipe.RecipeMap;
 <ore:gemAmethyst>.add(<mysticalworld:amethyst_gem>);
 <ore:blockIronwood>.add(<twilightforest:block_storage>);
 <ore:blockManasteel>.add(<botania:storage>);
+<ore:gemFluix>.add(<appliedenergistics2:material:7>);
 
 // Occurences
 recipes.replaceAllOccurences(<pneumaticcraft:compressed_iron_gear>, <ore:gearIronCompressed>);
+recipes.replaceAllOccurences(<ore:crystalFluix>, <ore:gemFluix>);
+recipes.replaceAllOccurences(<ore:crystalPureFluix>, <ore:gemFluix>);
 recipes.addShapeless(<gregtech:meta_gem:319>, [<pyrotech:material:1>]);
 <pyrotech:material:1>.addTooltip(format.red("Hey! This Isn't Gregtech!"));
 <pyrotech:material:1>.addTooltip(format.red("Tell Avi to fix this later or come up with something better"));
@@ -464,6 +467,11 @@ var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 	#ingotEnderium
 	<ore:ingotEnderium> : [
 		<thermalfoundation:material:167>
+	],
+	
+	#gemFluix
+	<ore:gemFluix> : [
+		<appliedenergistics2:material:7>
 	],
 	
 	#ingotInvar
@@ -1002,7 +1010,8 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 	#dustNetherQuartz
 	<ore:dustNetherQuartz> : [
 		<actuallyadditions:item_dust:5>,
-		<appliedenergistics2:material:3>
+		<appliedenergistics2:material:3>,
+		<nuclearcraft:gem_dust:2>
 	],
 	
 	#dustCertusQuartz
@@ -1056,6 +1065,11 @@ var dustsDisabled as IItemStack[][IOreDictEntry] = {
 	#dustLithium
 	<ore:dustLithium> : [
 		<mekanism:otherdust:4>
+	],
+	
+	#dustFluix
+	<ore:dustFluix> : [
+		<appliedenergistics2:material:8>
 	],
 	
 	#dustWheat

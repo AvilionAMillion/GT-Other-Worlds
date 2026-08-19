@@ -76,6 +76,13 @@ mixer.recipeBuilder()
 	.duration(400)
 	.EUt(60)
 	.buildAndRegister();
+# Fluix Crystal Dust
+mixer.recipeBuilder()
+	.inputs(<gtow:dust_chargedcertus>, <gregtech:meta_dust:339>, <minecraft:redstone>)
+	.outputs(<gregtech:meta_dust:24026> * 3)
+	.duration(100)
+	.EUt(90)
+	.buildAndRegister();
 	
 // HV Mixer
 # Pyrotheum Dust

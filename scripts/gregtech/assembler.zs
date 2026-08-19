@@ -337,6 +337,14 @@ assembler.recipeBuilder()
 	.EUt(120)
 	.duration(240)
 	.buildAndRegister();
+# Inscribed Silicon LV Circuit
+assembler.recipeBuilder()
+	.inputs(circuitLV, <appliedenergistics2:material:20>, <gregtech:meta_wire_fine:2517>)
+	.fluidInputs(<fluid:plastic> * 18)
+	.outputs(<gtow:inscribedsilicon>)
+	.EUt(60)
+	.duration(60)
+	.buildAndRegister();
 
 // HV
 # Diamond Chest
@@ -394,4 +402,52 @@ assembler.recipeBuilder()
 	.EUt(400)
 	.duration(300)
 	.buildAndRegister();
-
+# Plastic Respirator
+assembler.recipeBuilder()
+	.inputs(<ore:string> * 2, platePTFE * 3, ingotStainlessSteel)
+	.outputs(<mist:respirator_rubber>)
+	.circuit(1)
+	.EUt(400)
+	.duration(300)
+	.buildAndRegister();
+# Open Plastic Respirator
+assembler.recipeBuilder()
+	.inputs(<ore:string> * 2, platePTFE * 2, ingotStainlessSteel)
+	.outputs(<mist:respirator_rubber_open>)
+	.circuit(2)
+	.EUt(400)
+	.duration(300)
+	.buildAndRegister();
+# Filter Casing
+assembler.recipeBuilder()
+	.inputs(<gregtech:meta_block_frame_20:4>, <gregtech:meta_item_1:128>, <gregtech:meta_rotor:24025>, <gregtech:meta_item_1:291> * 3, <enderio:block_dark_iron_bars> * 2)
+	.fluidInputs(<fluid:plastic> * 72)
+	.outputs(<gregtech:cleanroom_casing:1>)
+	.circuit(1)
+	.EUt(240)
+	.duration(300)
+	.buildAndRegister();
+# Inscribed Silicon MV Circuit
+assembler.recipeBuilder()
+	.inputs(circuitMV, <appliedenergistics2:material:20> * 2, <gregtech:meta_wire_fine:2517>)
+	.fluidInputs(<fluid:plastic> * 36)
+	.outputs(<gtow:inscribedsilicon> * 2)
+	.EUt(200)
+	.duration(90)
+	.buildAndRegister();
+# Energy Acceptor
+assembler.recipeBuilder()
+	.inputs(hullHV, <gregtech:meta_block_compressed_1501:10>, <appliedenergistics2:quartz_glass> * 4, <gregtech:meta_plate:24024> * 2)
+	.fluidInputs(<fluid:plastic> * 288)
+	.outputs(<appliedenergistics2:energy_acceptor>)
+	.EUt(240)
+	.duration(900)
+	.buildAndRegister();
+# Controller Block
+assembler.recipeBuilder()
+	.inputs(<appliedenergistics2:energy_acceptor>, <appliedenergistics2:part:16> * 8, <appliedenergistics2:material:24> * 2, <gregtech:meta_plate:113> * 4)
+	.fluidInputs(<fluid:polytetrafluoroethylene> * 288)
+	.outputs(<appliedenergistics2:controller>)
+	.EUt(480)
+	.duration(900)
+	.buildAndRegister();

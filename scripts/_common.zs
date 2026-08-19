@@ -37,6 +37,7 @@ global plateWroughtIron as IOreDictEntry = <ore:plateWroughtIron>;
 global platePolycaprolactam as IOreDictEntry = <ore:platePolycaprolactam>;
 global platePlastic as IOreDictEntry = <ore:platePlastic>;
 global platePlatinum as IOreDictEntry = <ore:platePlatinum>;
+global platePTFE as IOreDictEntry = <ore:platePolytetrafluoroethylene>;
 
 // Double Plates
 global plateIron2 as IOreDictEntry = <ore:plateDoubleIron>;

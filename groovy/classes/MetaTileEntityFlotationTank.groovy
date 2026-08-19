@@ -9,8 +9,6 @@ import gregtech.api.pattern.FactoryBlockPattern
 import gregtech.api.recipes.RecipeMap
 import gregtech.api.recipes.builders.SimpleRecipeBuilder
 import gregtech.client.renderer.ICubeRenderer
-import gregtech.api.capability.IHeatingCoil
-import gregtech.api.capability.impl.HeatingCoilRecipeLogic
 
 import gregtech.client.renderer.texture.Textures
 import gregtech.common.blocks.BlockMetalCasing
