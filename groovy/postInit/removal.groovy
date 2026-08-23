@@ -62,6 +62,10 @@ mods.gregtech.chemical_bath.removeByInput(480, [item('minecraft:ender_pearl')], 
 // Chemical Reactor
 mods.gregtech.chemical_reactor.removeByInput(30, [metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('air') * 1000 * 1000, fluid('ethylene') * 144 * 144])
 mods.gregtech.chemical_reactor.removeByInput(30, [metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('oxygen') * 1000 * 1000, fluid('ethylene') * 144 * 144])
+mods.gregtech.chemical_reactor.removeByInput(30, [metaitem('board.plastic'), metaitem('foilCopper') * 6], [fluid('sodium_persulfate') * 500 * 500])
+mods.gregtech.chemical_reactor.removeByInput(30, [metaitem('board.plastic'), metaitem('foilCopper') * 6], [fluid('iron_iii_chloride') * 250 * 250])
+mods.gregtech.chemical_reactor.removeByInput(480, [metaitem('dustCarbon') * 2, metaitem('dustRutile')], [fluid('chlorine') * 4000 * 4000])
+
 
 // Electrolyzer
 mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustSiliconDioxide') * 3], null)
@@ -77,6 +81,7 @@ mods.gregtech.circuit_assembler.removeByInput(16, [metaitem('circuit_board.basic
 // EBF
 mods.gregtech.electric_blast_furnace.removeByInput(480, [metaitem('dustStainlessSteel'), metaitem('circuit.integrated').withNbt(['Configuration': 1])], null)
 mods.gregtech.electric_blast_furnace.removeByInput(480, [metaitem('dustStainlessSteel'), metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('nitrogen') * 1000 * 1000])
+mods.gregtech.electric_blast_furnace.removeByInput(480, [metaitem('dustIlmenite') * 10, metaitem('dustCarbon') * 4], null)
 
 // PBF
 mods.gregtech.primitive_blast_furnace.removeByInput(1, [metaitem('ingotWroughtIron'), item('minecraft:coal') * 2 * 2], null)
@@ -94,3 +99,14 @@ mods.gregtech.centrifuge.removeByInput(20, [metaitem('dustEndstone')], null)
 
 // Macerator
 mods.gregtech.macerator.removeByInput(2, [item('minecraft:end_stone:*')], null)
+
+// Circuit Assembler
+mods.gregtech.circuit_assembler.removeByInput(60, [metaitem('circuit_board.plastic'), metaitem('plate.central_processing_unit'), metaitem('component.resistor') * 4, metaitem('component.capacitor') * 4, metaitem('component.transistor') * 4, metaitem('wireFineRedAlloy') * 4], [fluid('soldering_alloy') * 72 * 72])
+mods.gregtech.circuit_assembler.removeByInput(60, [metaitem('circuit_board.plastic'), metaitem('plate.central_processing_unit'), metaitem('component.resistor') * 4, metaitem('component.capacitor') * 4, metaitem('component.transistor') * 4, metaitem('wireFineRedAlloy') * 4], [fluid('tin') * 144 * 144])
+mods.gregtech.circuit_assembler.removeByInput(2400, [metaitem('circuit_board.plastic'), metaitem('plate.system_on_chip'), metaitem('wireFineRedAlloy') * 4, metaitem('boltAnnealedCopper') * 4], [fluid('soldering_alloy') * 72 * 72])
+mods.gregtech.circuit_assembler.removeByInput(2400, [metaitem('circuit_board.plastic'), metaitem('plate.system_on_chip'), metaitem('wireFineRedAlloy') * 4, metaitem('boltAnnealedCopper') * 4], [fluid('tin') * 144 * 144])
+
+// LCR
+mods.gregtech.large_chemical_reactor.removeByInput(30, [metaitem('board.plastic'), metaitem('foilCopper') * 6], [fluid('sodium_persulfate') * 500 * 500])
+mods.gregtech.large_chemical_reactor.removeByInput(30, [metaitem('board.plastic'), metaitem('foilCopper') * 6], [fluid('iron_iii_chloride') * 250 * 250])
+mods.gregtech.large_chemical_reactor.removeByInput(480, [metaitem('dustCarbon') * 2, metaitem('dustRutile')], [fluid('chlorine') * 4000 * 4000])

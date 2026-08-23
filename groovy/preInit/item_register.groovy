@@ -18,6 +18,7 @@ content.createItem('crushed_nickelshale').register()
 content.createItem('sludge_iron').register()
 content.createItem('tungstateshard').register()
 content.createItem('sludge_nickel').register()
+content.createItem('sludge_bauxite').register()
 
 // Components
 content.createItem('laser').register()

@@ -1,0 +1,42 @@
+{
+  "weight": 50,
+  "density": 0.2,
+  "min_height": 10,
+  "max_height": 110,
+  "generation_predicate":["block:aether_legacy:holystone", "block:aether_legacy:icestone"],
+  "vein_populator": {
+    "type": "surface_block",
+    "block": {
+      "block": "gtow:aetherblock"
+    },
+    "min_amount": 0,
+    "max_amount": 0
+  },
+  "dimension_filter": [
+    "dimension_id:4"
+  ],
+  "generator": {
+    "type": "layered",
+    "radius": [
+      15,
+      15
+    ]
+  },
+  "filler": {
+    "type": "layered",
+    "values": [
+      {
+        "primary": "ore:bauxite"
+      },
+      {
+        "secondary": "ore:bauxite"
+      },
+      {
+        "between": "ore:ilmenite"
+      },
+      {
+        "sporadic": "ore:ilmenite"
+      }
+    ]
+  }
+}

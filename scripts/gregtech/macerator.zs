@@ -50,3 +50,10 @@ macerator.recipeBuilder()
 	.duration(20)
 	.EUt(2)
 	.buildAndRegister();
+# Holystone Dust
+macerator.recipeBuilder()
+	.inputs(<aether_legacy:holystone>)
+	.outputs(<gregtech:meta_dust:24027>)
+	.duration(12)
+	.EUt(8)
+	.buildAndRegister();

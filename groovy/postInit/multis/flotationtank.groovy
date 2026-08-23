@@ -10,7 +10,7 @@ mods.gregtech.assembler.recipeBuilder()
 
 
 
-// MV Recipes
+// MV Recipes //
 // Clay Dust -> Direct Output
 mods.gregtech.flottank.recipeBuilder()
         .inputs(item('gregtech:meta_dust', 2063) * 64)
@@ -71,6 +71,7 @@ mods.gregtech.flottank.recipeBuilder()
         .EUt(120)
         .buildAndRegister()
 
+// HV Recipes //
 // Nickel Shale Processing
 mods.gregtech.flottank.recipeBuilder()
         .inputs(item('gtow:crushed_nickelshale') * 32)
@@ -95,15 +96,43 @@ mods.gregtech.flottank.recipeBuilder()
     .duration(2800)
     .EUt(220)
     .buildAndRegister()
+// Red Mud from Bauxilmenite
+mods.gregtech.flottank.recipeBuilder()
+    .inputs(item('gregtech:meta_dust', 24028) * 8, item('gregtech:meta_dust', 377))
+    .fluidInputs(fluid('water') * 1000)
+    .fluidOutputs(fluid('redmud') * 1000)
+    .duration(20 * 40)
+    .EUt(200)
+    .buildAndRegister()
+mods.gregtech.flottank.recipeBuilder()
+    .inputs(item('gregtech:meta_dust', 24028) * 8, item('gregtech:meta_dust', 377))
+    .fluidInputs(fluid('distilled_water') * 1000)
+    .fluidOutputs(fluid('redmud') * 1000)
+    .duration(20 * 25)
+    .EUt(180)
+    .buildAndRegister()
+// Titanoferous Sludge Processing
+mods.gregtech.flottank.recipeBuilder()
+    .inputs(item('gtow:sludge_bauxite'))
+    .fluidInputs(fluid('sodium_persulfate') * 50)
+    .outputs(item('gregtech:meta_dust', 285), item('gregtech:meta_dust', 51) * 3)
+    .chancedOutput(item('gregtech:meta_dust', 285), 5000, 400)
+    .chancedOutput(item('gregtech:meta_dust', 285), 500, 200)
+    .chancedOutput(item('gregtech:meta_dust', 69), 2000, 800)
+    .duration(20 * 30)
+    .EUt(240)
+    .buildAndRegister()
+
+// EV Recipes //
 // Nickel Froth Boosted Nickel Ore
 mods.gregtech.flottank.recipeBuilder()
-   .inputs(ore('crushedNickel') * 32)
-   .fluidInputs(fluid('froth_nickel') * 100)
-   .outputs(item('gregtech:meta_crushed_purified', 69) * 24, item('gtow:sludge_nickel') * 8, item('gregtech:meta_dust', 24023) * 2)
-   .chancedOutput(item('gtow:sludge_nickel') * 3, 6000, 1500)
-   .chancedOutput(item('gregtech:meta_dust', 24023), 5000, 1000)
-   .fluidOutputs(fluid('froth_nickel') * 100)
-   .circuitMeta(2)
-   .duration(1200)
-   .EUt(780)
-   .buildAndRegister()
+        .inputs(ore('crushedNickel') * 32)
+        .fluidInputs(fluid('froth_nickel') * 100)
+        .outputs(item('gregtech:meta_crushed_purified', 69) * 24, item('gtow:sludge_nickel') * 8, item('gregtech:meta_dust', 24023) * 2)
+        .chancedOutput(item('gtow:sludge_nickel') * 3, 6000, 1500)
+        .chancedOutput(item('gregtech:meta_dust', 24023), 5000, 1000)
+        .fluidOutputs(fluid('froth_nickel') * 100)
+        .circuitMeta(2)
+        .duration(1200)
+        .EUt(780)
+        .buildAndRegister()

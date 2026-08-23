@@ -1,4 +1,5 @@
 // GTOW Dev
+// Botania ZS
 
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
@@ -12,6 +13,8 @@ import mods.botania.Apothecary;
 import mods.botania.ManaInfusion;
 import mods.botania.RuneAltar;
 import mods.roots.Fey;
+import mods.botaniatweaks.Agglomeration;
+import mods.botaniatweaks.AgglomerationRecipe;
 
 // Crafting
 recipes.remove(<botania:altar>);
@@ -114,6 +117,8 @@ mods.botania.Apothecary.removeRecipe("bubbell");
 # Removal
 mods.botania.ManaInfusion.removeRecipe(<botania:manaresource:23>);
 mods.botania.ManaInfusion.removeRecipe(<botania:manaresource>);
+mods.botania.ManaInfusion.removeRecipe(<botania:manaresource:1>);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource:1>, <appliedenergistics2:material:47>, 45000);
 
 // Runic Altar
 # Removal
@@ -125,13 +130,13 @@ mods.botania.RuneAltar.removeRecipe(<botania:rune:3>);
 # Blank Rune
 mods.botania.RuneAltar.addRecipe(<gtow:blankrune> * 3,[<botania:livingrock>, <gregtech:meta_plate:24016>, <gregtech:meta_plate:24016>, <gregtech:meta_dust:24011>, <gregtech:meta_dust:24011>], 5000);
 # Water Rune
-mods.botania.RuneAltar.addRecipe(<botania:rune>,[<gtow:blankrune>, <roots:dewgonia>, <ore:listAllfishraw>, <minecraft:prismarine_shard>], 7500);
+mods.botania.RuneAltar.addRecipe(<botania:rune>,[<gtow:blankrune>, <roots:dewgonia>, <ore:listAllfishraw>, <minecraft:prismarine_shard>], 17500);
 # Fire Rune
-mods.botania.RuneAltar.addRecipe(<botania:rune:1>,[<gtow:blankrune>, <roots:infernal_bulb>, <gregtech:boiler_firebox_casing>, <minecraft:blaze_rod>], 7500);
+mods.botania.RuneAltar.addRecipe(<botania:rune:1>,[<gtow:blankrune>, <roots:infernal_bulb>, <gregtech:boiler_firebox_casing>, <minecraft:blaze_rod>], 17500);
 # Earth Rune
-mods.botania.RuneAltar.addRecipe(<botania:rune:2>,[<gtow:blankrune>, <roots:spirit_herb>, <gregtech:meta_plate:24009>, <gregtech:meta_gem:24003>], 7500);
+mods.botania.RuneAltar.addRecipe(<botania:rune:2>,[<gtow:blankrune>, <roots:spirit_herb>, <gregtech:meta_plate:24009>, <gregtech:meta_gem:24003>], 17500);
 # Air Rune
-mods.botania.RuneAltar.addRecipe(<botania:rune:3>,[<gtow:blankrune>, <roots:cloud_berry>, <gregtech:meta_plate:2>, <minecraft:ghast_tear>], 7500);
+mods.botania.RuneAltar.addRecipe(<botania:rune:3>,[<gtow:blankrune>, <roots:cloud_berry>, <gregtech:meta_plate:2>, <minecraft:ghast_tear>], 17500);
 
 
 // Fey Crafter
@@ -141,3 +146,13 @@ Fey.addRecipe("endoflame", <botania:specialflower>.withTag({type: "endoflame"}),
 Fey.addRecipe("munchdew", <botania:specialflower>.withTag({type: "munchdew"}), [<contenttweaker:munching_petal>, <contenttweaker:munching_petal>, <artisanworktables:artisans_shears_steel>, <gregtech:rubber_sapling>, <gregtech:meta_plate:24009>]);
 Fey.addRecipe("hydroangeas", <botania:specialflower>.withTag({type: "hydroangeas"}), [<contenttweaker:hydrating_petal>, <contenttweaker:hydrating_petal>, <gregtech:meta_item_1:142>, <roots:elemental_soil_water>, <roots:spirit_herb>]);
 Fey.addRecipe("thermalily", <botania:specialflower>.withTag({type: "thermalily"}), [<contenttweaker:thermal_petal>, <contenttweaker:thermal_petal>, <gregtech:machine:6>, <minecraft:nether_brick>, <roots:infernal_bulb>]);
+
+// Agglomeration
+# Crafting Recipe
+recipes.addShaped(<botania:terraplate>,
+	[[<ore:plateLapis>, <ore:blockMana>, <ore:plateLapis>],
+	[<botania:rune>, <aether_legacy:sun_altar>, <botania:rune:1>],
+	[<botania:rune:2>, <ore:circuitEv>, <botania:rune:3>]]);
+# Neodynium Ore
+Agglomeration.addRecipe(<gregtech:meta_gem_flawless:285>, [<gregtech:meta_ingot:113>] as IIngredient[], 300000, 0xBB7EC2, 0x141114, <gregtech:meta_block_compressed_1501>, <aether_legacy:holystone:3>, <aether_legacy:holystone:3>, <gregtech:meta_block_compressed_20:3>, <gregtech:ore_neodymium_0>, <gregtech:ore_neodymium_0>);
+Agglomeration.removeDefaultRecipe();

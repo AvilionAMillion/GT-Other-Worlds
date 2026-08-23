@@ -46,6 +46,15 @@ ebf.recipeBuilder()
 	.property("temperature", 800)
 	.duration(30)
 	.buildAndRegister();
+# Alumina No Cryolite
+ebf.recipeBuilder()
+	.inputs(<gregtech:meta_dust:24013> * 5)
+	.notConsumable(<botania:rune:1>)
+	.outputs(<gregtech:meta_ingot:2> * 2)
+	.EUt(20)
+	.property("temperature", 900)
+	.duration(4 * 20)
+	.buildAndRegister();
 	
 // Kanthal Coil
 # Platinum Nuggets
@@ -83,5 +92,16 @@ ebf.recipeBuilder()
 	.circuit(1)
 	.property("temperature", 2200)
 	.duration(140 * 20)
+	.buildAndRegister();
+	
+// Nichrome Coil
+# Ilmenite Smelting
+ebf.recipeBuilder()
+	.inputs(<gregtech:meta_dust:284> * 10, <gregtech:meta_dust:18> * 4)
+	.outputs(<gregtech:meta_ingot:335> * 2, <gregtech:meta_dust:285> * 6)
+	.fluidOutputs(<fluid:carbon_dioxide> * 2000)
+	.EUt(2560)
+	.property("temperature", 3200)
+	.duration(70 * 20)
 	.buildAndRegister();
 

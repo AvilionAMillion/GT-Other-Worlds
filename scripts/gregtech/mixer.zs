@@ -100,3 +100,11 @@ mixer.recipeBuilder()
 	.EUt(400)
 	.duration(30)
 	.buildAndRegister();
+# Weak Etching Acid
+mixer.recipeBuilder()
+	.inputs(<gregtech:meta_dust:83>)
+	.fluidInputs(<liquid:iron_iii_chloride> * 250, <liquid:mist.acid> * 1000)
+	.fluidOutputs(<liquid:weak_etchingacid> * 1000)
+	.EUt(280)
+	.duration(250)
+	.buildAndRegister();

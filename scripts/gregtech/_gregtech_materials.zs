@@ -259,12 +259,29 @@ var valkyrie = MaterialBuilder(24025, "valkyrie")
 	.components([<material:titanium> * 1, <material:sanae> * 1])
 	.flags(["exclude_block_crafting_by_hand_recipes", "disable_decomposition", "generate_plate", "generate_rod", "generate_bolt_screw", "generate_ring", "generate_rotor"])
 	.build();
+# Fluix
 var fluix = MaterialBuilder(24026, "fluix")
 	.gem()
 	.color(0x730096)
 	.iconSet("certus")
 	.components([<material:certus_quartz> * 1, <material:nether_quartz> * 1, <material:redstone> * 1])
 	.flags(["generate_plate", "generate_rod", "generate_lens"])
+	.build();
+# Holystone
+var holystone = MaterialBuilder(24027, "holystone")
+	.dust()
+	.color(0xA1ACAD)
+	.iconSet("rough")
+	.components([<material:silicon_dioxide> * 1, <material:ilmenite> * 1, <material:sanae> * 1])
+	.flags(["disable_decomposition"])
+	.build();
+# Bauxilmenite
+var bauxilmenite = MaterialBuilder(24028, "bauxilmenite")
+	.dust()
+	.color(0x330D00)
+	.iconSet("rough")
+	.components([<material:bauxite> * 1, <material:ilmenite> * 1])
+	.flags(["disable_decomposition"])
 	.build();
 
 // Prexisting

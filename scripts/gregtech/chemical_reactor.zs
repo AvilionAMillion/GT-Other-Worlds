@@ -77,6 +77,14 @@ chem.recipeBuilder()
 	.duration(300)
 	.EUt(120)
 	.buildAndRegister();
+# Plastic Circuit Board
+chem.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:383> * 1, <gregtech:meta_foil:25> * 6)
+	.fluidInputs(<liquid:weak_etchingacid> * 500)
+	.outputs(<gregtech:meta_item_1:403>)
+	.duration(300)
+	.EUt(80)
+	.buildAndRegister();
 	
 // HV Tier
 # Eye of Ender
@@ -86,4 +94,12 @@ chem.recipeBuilder()
 	.outputs(<minecraft:ender_eye>)
 	.EUt(480)
 	.duration(240)
+	.buildAndRegister();
+# Titanium Tetrachloride
+chem.recipeBuilder()
+	.inputs(<gregtech:meta_dust:18> * 2, <gregtech:meta_dust:285> * 3)
+	.fluidInputs(<liquid:chlorine> * 4000)
+	.fluidOutputs(<liquid:carbon_monoxide> * 2000, <liquid:titanium_tetrachloride> * 1000)
+	.duration(480)
+	.EUt(400)
 	.buildAndRegister();

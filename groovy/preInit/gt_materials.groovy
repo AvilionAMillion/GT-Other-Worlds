@@ -9,3 +9,20 @@ event_manager.listen { PostMaterialEvent event ->
  nickelbyproducts.add(material('cobalt'))
  nickelbyproducts.add(material('platinum_crude'))
 }
+
+event_manager.listen { PostMaterialEvent event ->
+ def bauxite = material('bauxite').getProperty(PropertyKey.ORE)
+ def bxbyproducts = bauxite.getOreByProducts()
+ bxbyproducts.clear()
+ bxbyproducts.add(material('bauxilmenite'))
+ bxbyproducts.add(material('gallium'))
+ bxbyproducts.add(material('gallium'))
+}
+event_manager.listen { PostMaterialEvent event ->
+ def ilmenite = material('ilmenite').getProperty(PropertyKey.ORE)
+ def ilmenitebyproducts = ilmenite.getOreByProducts()
+ ilmenitebyproducts.clear()
+ ilmenitebyproducts.add(material('bauxilmenite'))
+ ilmenitebyproducts.add(material('bauxilmenite'))
+ ilmenitebyproducts.add(material('iron'))
+}

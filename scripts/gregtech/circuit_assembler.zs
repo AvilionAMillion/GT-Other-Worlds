@@ -6,14 +6,14 @@ val circass as RecipeMap = <recipemap:circuit_assembler>;
 // LV Tier
 # Primitive Processor Assembly
 circass.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:401>, circuitLV * 2, <ore:componentDiode> * 2, <gregtech:wire_single:25> * 2)
+	.inputs(<gregtech:meta_item_1:401>, <gregtech:meta_item_1:621> * 2, <ore:componentDiode> * 2, <gregtech:wire_single:25> * 2)
 	.fluidInputs(<fluid:soldering_alloy> * 72)
 	.outputs(<gregtech:meta_item_1:622>)
 	.EUt(16)
 	.duration(300)
 	.buildAndRegister();
 circass.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:401>, circuitLV * 2, <ore:componentDiode> * 2, <gregtech:wire_single:25> * 2)
+	.inputs(<gregtech:meta_item_1:401>, <gregtech:meta_item_1:621> * 2, <ore:componentDiode> * 2, <gregtech:wire_single:25> * 2)
 	.fluidInputs(<fluid:tin> * 144)
 	.outputs(<gregtech:meta_item_1:622>)
 	.EUt(16)
@@ -65,4 +65,21 @@ circass.recipeBuilder()
 	.outputs(<gregtech:meta_item_1:624>)
 	.EUt(24)
 	.duration(400)
+	.buildAndRegister();
+	
+// MV Tier
+# Processor
+circass.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:403>, <gregtech:meta_item_1:627> * 2, <ore:componentResistor> * 4, <ore:componentCapacitor> * 4, <ore:componentTransistor> * 4, <ore:wireFineRedAlloy> * 4)
+	.fluidInputs(<fluid:tin> * 144)
+	.outputs(<gregtech:meta_item_1:628> * 2)
+	.EUt(60)
+	.duration(200)
+	.buildAndRegister();
+circass.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:403>, <gregtech:meta_item_1:627> * 2, <ore:componentResistor> * 4, <ore:componentCapacitor> * 4, <ore:componentTransistor> * 4, <ore:wireFineRedAlloy> * 4)
+	.fluidInputs(<fluid:soldering_alloy> * 72)
+	.outputs(<gregtech:meta_item_1:628> * 2)
+	.EUt(60)
+	.duration(200)
 	.buildAndRegister();

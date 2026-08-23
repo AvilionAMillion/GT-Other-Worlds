@@ -29,7 +29,8 @@ gregtech.material.dark_steel=Dark Steel
 gregtech.material.sanae=Sanaen
 gregtech.material.valkyrie=Valkyrie Metal
 gregtech.material.fluix=Fluix Crystal
-
+gregtech.material.holystone=Holystone
+gregtech.material.bauxilmenite=Aluminium Heavy Metals
 
 item.gt.tool.harvest_level.0=§4Wood
 item.gt.tool.harvest_level.1=§7Flint

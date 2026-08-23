@@ -50,3 +50,23 @@ centrifuge.recipeBuilder()
 	.EUt(60)
 	.duration(200)
 	.buildAndRegister();
+# Bauxite Dust
+centrifuge.recipeBuilder()
+	.inputs(<gregtech:meta_dust:286>)
+	.outputs(<gregtech:meta_dust:24013>)
+	.chancedOutput(<gregtech:meta_dust:24028>, 400, 100)
+	.EUt(90)
+	.duration(6)
+	.buildAndRegister();
+
+// HV Tier
+# Red Mud
+centrifuge.recipeBuilder()
+	.fluidInputs(<liquid:redmud> * 100)
+	.chancedOutput(<gregtech:meta_dust:39>, 2800, 700)
+	.chancedOutput(<gregtech:meta_dust:16>, 2200, 700)
+	.chancedOutput(<gtow:sludge_bauxite>, 5000, 200)
+	.fluidOutputs(<liquid:claymud> * 50)
+	.EUt(60)
+	.duration(200)
+	.buildAndRegister();
