@@ -52,6 +52,7 @@ global screwSteel as IOreDictEntry = <ore:screwSteel>;
 global screwTin as IOreDictEntry = <ore:screwTin>;
 global screwBronze as IOreDictEntry = <ore:screwBronze>;
 global screwWroughtIron as IOreDictEntry = <ore:screwWroughtIron>;
+global screwStainlessSteel as IOreDictEntry = <ore:screwStainlessSteel>;
 
 // Rods
 global rodIron as IOreDictEntry = <ore:stickIron>;

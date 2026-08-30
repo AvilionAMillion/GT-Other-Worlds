@@ -35,6 +35,7 @@ furnace.remove(<minecraft:redstone>);
 recipes.removeShaped(<minecraft:crafting_table>,
 	[[<ore:plankWood>, <ore:plankWood>],
 	[<ore:plankWood>, <ore:plankWood>]]);
+recipes.remove(<minecraft:chest> * 4);
 recipes.remove(<biomesoplenty:planks_0>);
 recipes.remove(<biomesoplenty:planks_0:1>);
 recipes.remove(<biomesoplenty:planks_0:2>);

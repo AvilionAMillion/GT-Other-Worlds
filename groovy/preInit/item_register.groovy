@@ -11,6 +11,9 @@ content.createItem('blanchedgold').register()
 content.createItem('hydrastone_dust').register()
 content.createItem('aeratedendstone_dust').register()
 
+// Other Mechanical Stuff
+content.createItem('foil_siliconlubricated').register()
+
 
 // Processing (Probably Sludges)
 content.createItem('crushed_nickelshale').register()
@@ -129,6 +132,11 @@ content.createBlock('nether_icon')
         .setSoundType(SoundType.STONE)
         .register()
 content.createBlock('mw_icon')
+        .setHardness(1.0F)
+        .setResistance(1.0F)
+        .setSoundType(SoundType.STONE)
+        .register()
+content.createBlock('aether_icon')
         .setHardness(1.0F)
         .setResistance(1.0F)
         .setSoundType(SoundType.STONE)

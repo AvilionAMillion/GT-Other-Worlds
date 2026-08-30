@@ -283,6 +283,13 @@ var bauxilmenite = MaterialBuilder(24028, "bauxilmenite")
 	.components([<material:bauxite> * 1, <material:ilmenite> * 1])
 	.flags(["disable_decomposition"])
 	.build();
+# Polymer Silicon
+var polysi = MaterialBuilder(24029, "polysilicon")
+	.dust()
+	.color(0x565672)
+	.iconSet("metallic")
+	.flags(["generate_plate"])
+	.build();
 
 // Prexisting
 # Stone
@@ -311,5 +318,6 @@ var bauxilmenite = MaterialBuilder(24028, "bauxilmenite")
 <material:chloroauric_acid>.setFormula("H(AuCl4)", true);
 # Platinum Metallic Powder
 <material:platinum_crude>.setFormula("Pt?", true);
-
+# Poly Si
+<material:polysilicon>.setFormula("poly*-Si", true);
 

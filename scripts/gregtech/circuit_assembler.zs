@@ -83,3 +83,37 @@ circass.recipeBuilder()
 	.EUt(60)
 	.duration(200)
 	.buildAndRegister();
+# 1k ME Circuit
+circass.recipeBuilder()
+	.inputs(<appliedenergistics2:material:22>, <ore:gemCertusQuartz> * 4, <gregtech:meta_nugget:2> * 4)
+	.fluidInputs(<fluid:soldering_alloy> * 72)
+	.outputs(<appliedenergistics2:material:35>)
+	.EUt(48)
+	.duration(180)
+	.buildAndRegister();
+# 4k ME Circuit
+circass.recipeBuilder()
+	.inputs(<appliedenergistics2:material:23>, <appliedenergistics2:material:35> * 4, <gregtech:meta_nugget:323> * 4)
+	.fluidInputs(<fluid:soldering_alloy> * 72)
+	.outputs(<appliedenergistics2:material:36>)
+	.EUt(72)
+	.duration(240)
+	.buildAndRegister();
+# 16k ME Circuit
+circass.recipeBuilder()
+	.inputs(<appliedenergistics2:material:23>, <appliedenergistics2:material:36> * 4, <gregtech:meta_nugget:113> * 4)
+	.fluidInputs(<fluid:soldering_alloy> * 144)
+	.outputs(<appliedenergistics2:material:37>)
+	.EUt(128)
+	.duration(240)
+	.buildAndRegister();
+	
+// HV Tier
+# 64k ME Circuit
+circass.recipeBuilder()
+	.inputs(<appliedenergistics2:material:23>, <appliedenergistics2:material:37> * 4, <gregtech:meta_nugget:2013> * 4)
+	.fluidInputs(<fluid:soldering_alloy> * 288)
+	.outputs(<appliedenergistics2:material:38>)
+	.EUt(200)
+	.duration(280)
+	.buildAndRegister();

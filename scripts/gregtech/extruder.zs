@@ -14,3 +14,11 @@ extruder.recipeBuilder()
 	.EUt(42)
 	.duration(176)
 	.buildAndRegister();
+# Quartz Fiber Cable
+extruder.recipeBuilder()
+	.inputs(<appliedenergistics2:quartz_glass>)
+	.notConsumable(<gregtech:meta_item_1:39>)
+	.outputs(<appliedenergistics2:part:140> * 2)
+	.EUt(60)
+	.duration(120)
+	.buildAndRegister();

@@ -18,24 +18,24 @@
   "generator": {
     "type": "layered",
     "radius": [
-      15,
-      15
+      12,
+      12
     ]
   },
   "filler": {
     "type": "layered",
     "values": [
       {
-        "primary": "ore:bauxite"
+        "primary": "ore:peridot"
       },
       {
-        "secondary": "ore:bauxite"
+        "secondary": "ore:lapis"
       },
       {
-        "between": "ore:ilmenite"
+        "between": "ore:diamond"
       },
       {
-        "sporadic": "ore:ilmenite"
+        "sporadic": "ore:diamond"
       }
     ]
   }

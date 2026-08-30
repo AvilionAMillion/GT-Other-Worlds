@@ -48,11 +48,13 @@ item.gtow.blankrune.name=Blank Rune
 item.gtow.crushed_nickelshale.name=Crushed Nickel Shale
 item.gtow.dust_chargedcertus.name=Charged Certus Quartz Dust
 item.gtow.inscribedsilicon.name=Inscribed Printed Silicon
+item.gtow.foil_siliconlubricated.name=Silicon Greased Foil
 
 tile.gtow.ow_icon.name=Overworld Dimension
 tile.gtow.tf_icon.name=Twilight Forest Dimension
 tile.gtow.nether_icon.name=Nether Dimension
 tile.gtow.mw_icon.name=Misty World Dimension
+tile.gtow.aether_icon.name=Aether Dimension
 
 tile.gtow.mistyblock.name=Misty World Portal Block
 tile.gtow.twilightblock.name=Twilight Forest Portal Block

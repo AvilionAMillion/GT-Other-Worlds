@@ -103,3 +103,11 @@ chem.recipeBuilder()
 	.duration(480)
 	.EUt(400)
 	.buildAndRegister();
+# Silicon Greased Foil
+chem.recipeBuilder()
+	.inputs(<contenttweaker:lubricatedfoil> * 2, <gregtech:meta_dust:24029>)
+	.fluidInputs(<liquid:chlorine> * 500)
+	.outputs(<gtow:foil_siliconlubricated> * 2)
+	.duration(480)
+	.EUt(400)
+	.buildAndRegister();

@@ -247,3 +247,43 @@ assembler.recipeBuilder()
 	.EUt(240)
 	.duration(300)
 	.buildAndRegister();
+# Oil Cracking Unit
+recipes.remove(<gregtech:machine:1009>);
+assembler.recipeBuilder()
+	.inputs(<gtow:controlhv>, hullHV, pumpHV * 2, <botania:rune:2> * 2, <gregtech:metal_casing:5>)
+	.fluidInputs(<fluid:soldering_alloy> * 288)
+	.circuit(20)
+	.outputs(<gregtech:machine:1009>)
+	.EUt(240)
+	.duration(300)
+	.buildAndRegister();
+# Large Steel Turbine
+recipes.remove(<gregtech:machine:1010>);
+assembler.recipeBuilder()
+	.inputs(<gtow:controlhv>, hullHV, motorHV * 2, <botania:rune:3>, <gregtech:meta_gear:324> * 4)
+	.fluidInputs(<fluid:soldering_alloy> * 288)
+	.circuit(20)
+	.outputs(<gregtech:machine:1010>)
+	.EUt(240)
+	.duration(300)
+	.buildAndRegister();
+# Distillation Tower
+recipes.remove(<gregtech:machine:1005>);
+assembler.recipeBuilder()
+	.inputs(<gtow:controlhv>, hullHV, pumpHV * 4, <gregtech:fluid_pipe_large:323> * 4)
+	.fluidInputs(<fluid:soldering_alloy> * 288)
+	.circuit(20)
+	.outputs(<gregtech:machine:1005>)
+	.EUt(240)
+	.duration(300)
+	.buildAndRegister();
+# Vacuum Freezer
+recipes.remove(<gregtech:machine:1002>);
+assembler.recipeBuilder()
+	.inputs(<gtow:controlhv>, hullHV, pumpHV * 4, <gregtech:metal_casing:3>)
+	.fluidInputs(<fluid:soldering_alloy> * 288)
+	.circuit(20)
+	.outputs(<gregtech:machine:1002>)
+	.EUt(240)
+	.duration(300)
+	.buildAndRegister();

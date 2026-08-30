@@ -32,9 +32,16 @@ forming_press.recipeBuilder()
 // HV Tier
 # Inscribed Silicon
 forming_press.recipeBuilder()
-	.inputs(platePlastic, <gregtech:meta_nugget:99> * 3)
+	.inputs(<gregtech:meta_plate:99>)
 	.notConsumable(<appliedenergistics2:material:19>)
 	.outputs(<appliedenergistics2:material:20>)
+	.EUt(192)
+	.duration(50)
+	.buildAndRegister();
+forming_press.recipeBuilder()
+	.inputs(<gregtech:meta_plate:24029>)
+	.notConsumable(<appliedenergistics2:material:19>)
+	.outputs(<appliedenergistics2:material:20> * 2)
 	.EUt(192)
 	.duration(50)
 	.buildAndRegister();

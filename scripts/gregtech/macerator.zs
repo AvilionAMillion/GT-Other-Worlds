@@ -57,3 +57,12 @@ macerator.recipeBuilder()
 	.duration(12)
 	.EUt(8)
 	.buildAndRegister();
+# Short Polymerized Silicon
+macerator.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:361>)
+	.outputs(<gregtech:meta_dust:24029> * 4)
+	.chancedOutput(<gregtech:meta_dust:24029> * 2, 5000, 500)
+	.chancedOutput(<gregtech:meta_dust:24029>, 4000, 500)
+	.duration(1600)
+	.EUt(160)
+	.buildAndRegister();

@@ -345,6 +345,23 @@ assembler.recipeBuilder()
 	.EUt(60)
 	.duration(60)
 	.buildAndRegister();
+# Covered Cable
+assembler.recipeBuilder()
+	.inputs(<appliedenergistics2:part:16>)
+	.fluidInputs(<fluid:plastic> * 144)
+	.outputs(<appliedenergistics2:part:36>)
+	.circuit(1)
+	.EUt(80)
+	.duration(30)
+	.buildAndRegister();
+assembler.recipeBuilder()
+	.inputs(<appliedenergistics2:part:16>)
+	.fluidInputs(<fluid:polytetrafluoroethylene> * 72)
+	.outputs(<appliedenergistics2:part:36>)
+	.circuit(1)
+	.EUt(80)
+	.duration(25)
+	.buildAndRegister();
 
 // HV
 # Diamond Chest
@@ -429,10 +446,10 @@ assembler.recipeBuilder()
 	.buildAndRegister();
 # Inscribed Silicon MV Circuit
 assembler.recipeBuilder()
-	.inputs(circuitMV, <appliedenergistics2:material:20> * 2, <gregtech:meta_wire_fine:2517>)
+	.inputs(circuitMV, <appliedenergistics2:material:20> * 3, <gregtech:meta_wire_fine:2517> * 2)
 	.fluidInputs(<fluid:plastic> * 36)
-	.outputs(<gtow:inscribedsilicon> * 2)
-	.EUt(200)
+	.outputs(<gtow:inscribedsilicon> * 3)
+	.EUt(160)
 	.duration(90)
 	.buildAndRegister();
 # Energy Acceptor
@@ -451,3 +468,96 @@ assembler.recipeBuilder()
 	.EUt(480)
 	.duration(900)
 	.buildAndRegister();
+# Inscribed Silicon HV Circuit
+assembler.recipeBuilder()
+	.inputs(circuitHV, <appliedenergistics2:material:20> * 7, <gregtech:meta_wire_fine:2517> * 3)
+	.fluidInputs(<fluid:plastic> * 54)
+	.outputs(<gtow:inscribedsilicon> * 7)
+	.EUt(320)
+	.duration(160)
+	.buildAndRegister();
+# Illuminated Panel
+assembler.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:307>, <appliedenergistics2:quartz_glass> * 4, <gregtech:meta_screw:323> * 4, <gregtech:meta_plate:24026> * 2)
+	.outputs(<appliedenergistics2:part:180>)
+	.EUt(320)
+	.duration(160)
+	.buildAndRegister();
+# Blank Pattern
+assembler.recipeBuilder()
+	.inputs(<gregtech:meta_plate:323> * 3, <appliedenergistics2:quartz_glass> * 2, <appliedenergistics2:material:23>, <gregtech:meta_screw:113> * 2)
+	.fluidInputs(<fluid:polytetrafluoroethylene> * 36)
+	.outputs(<appliedenergistics2:material:52> * 2)
+	.EUt(240)
+	.duration(160)
+	.buildAndRegister();
+# Extended Processing Panel Terminal
+assembler.recipeBuilder()
+	.inputs(<appliedenergistics2:part:340>, <appliedenergistics2:material:24> * 4, <gregtech:meta_plate:2013> * 4)
+	.fluidInputs(<fluid:soldering_alloy> * 144)
+	.outputs(<appliedenergistics2:part:341>)
+	.EUt(480)
+	.duration(320)
+	.buildAndRegister();
+# ME Smart Cable
+assembler.recipeBuilder()
+	.inputs(<appliedenergistics2:part:36> * 4, circuitLV)
+	.fluidInputs(<fluid:red_alloy> * 72)
+	.outputs(<appliedenergistics2:part:56> * 4)
+	.EUt(240)
+	.duration(20 * 4)
+	.buildAndRegister();
+# ME Interface
+assembler.recipeBuilder()
+	.inputs(plateTitanium * 4, <appliedenergistics2:material:43>, <appliedenergistics2:material:44>, <appliedenergistics2:quartz_glass> * 2, robotarmHV)
+	.fluidInputs(<fluid:soldering_alloy> * 288)
+	.outputs(<appliedenergistics2:interface>)
+	.circuit(1)
+	.EUt(240)
+	.duration(20 * 8)
+	.buildAndRegister();
+# Molecular Assembler
+assembler.recipeBuilder()
+	.inputs(plateTitanium * 4, <appliedenergistics2:material:43>, <appliedenergistics2:material:44>, <appliedenergistics2:material:24> * 2, <gregtech:transparent_casing:3> * 2, <gregtech:machine:112>)
+	.fluidInputs(<fluid:soldering_alloy> * 288)
+	.outputs(<appliedenergistics2:molecular_assembler>)
+	.circuit(1)
+	.EUt(480)
+	.duration(20 * 20)
+	.buildAndRegister();
+# Formation Core
+assembler.recipeBuilder()
+	.inputs(<ore:gemCertusQuartz>, <gregtech:meta_dust:24026>, <appliedenergistics2:material:22>, <gregtech:meta_screw:323> * 2)
+	.outputs(<appliedenergistics2:material:43>)
+	.EUt(240)
+	.duration(30)
+	.buildAndRegister();
+# Annihilation Core
+assembler.recipeBuilder()
+	.inputs(<ore:gemNetherQuartz>, <gregtech:meta_dust:24026>, <appliedenergistics2:material:22>, <gregtech:meta_screw:323> * 2)
+	.outputs(<appliedenergistics2:material:44>)
+	.EUt(240)
+	.duration(30)
+	.buildAndRegister();
+# ME Storage Housing
+assembler.recipeBuilder()
+	.inputs(plateStainlessSteel * 2, screwStainlessSteel * 4, <appliedenergistics2:quartz_glass> * 2, <appliedenergistics2:material:22>)
+	.outputs(<appliedenergistics2:material:39>)
+	.EUt(160)
+	.duration(60)
+	.buildAndRegister();
+# Crafting Unit
+assembler.recipeBuilder()
+	.inputs(plateTitanium * 4, <appliedenergistics2:part:16> * 2, <appliedenergistics2:material:23> * 2, <appliedenergistics2:material:22>)
+	.outputs(<appliedenergistics2:crafting_unit>)
+	.EUt(320)
+	.duration(180)
+	.buildAndRegister();
+# Crafting Coprocessing Unit
+assembler.recipeBuilder()
+	.inputs(<appliedenergistics2:crafting_unit>, <appliedenergistics2:material:24> * 2, <gregtech:meta_plate:24026> * 2)
+	.outputs(<appliedenergistics2:crafting_accelerator>)
+	.EUt(480)
+	.duration(220)
+	.buildAndRegister();
+	
