@@ -20,15 +20,9 @@ wroughtIron_Heater.register();
  # Steel Heating Component
 var steel_Heater as Item = VanillaFactory.createItem("steelHeater");
 steel_Heater.register();
- # Elixir
-var elixirN as Item = VanillaFactory.createItem("elixir");
-elixirN.register();
  # Refractory Mortar
 var refrac as Item = VanillaFactory.createItem("refractoryblend");
 refrac.register();
- # Bad Elixir
-var ouchjuice as Item = VanillaFactory.createItem("badelixir");
-ouchjuice.register();
  # Baffle Powder
 var mushroompowder as Item = VanillaFactory.createItem("bafflepowder");
 mushroompowder.register();
@@ -219,11 +213,6 @@ var foundryliquid = VanillaFactory.createFluid("foundry", Color.fromHex("9A9A82"
 foundryliquid.stillLocation = "contenttweaker:fluids/blank_still";
 foundryliquid.flowingLocation = "contenttweaker:fluids/blank_flow";
 foundryliquid.register();
-
-var badJuice = VanillaFactory.createFluid("badjuice", Color.fromHex("2E1C2C"));
-badJuice.stillLocation = "contenttweaker:fluids/blank_still";
-badJuice.flowingLocation = "contenttweaker:fluids/blank_flow";
-badJuice.register();
 
 var micaliquid = VanillaFactory.createFluid("colloidalmica", Color.fromHex("F5ECD3"));
 micaliquid.stillLocation = "contenttweaker:fluids/blank_still";

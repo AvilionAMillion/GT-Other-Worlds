@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    23
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §aStone Kiln, Stone Oven, and Stone Sawmill§f are slightly more efficient versions of their non-stone counterparts. They are powered by §e§b§eburning logs or other fuels in their lower slot.\n§fOn top of the standard recipes, they also have some special recipes that can §eonly be made in improved versions of the machines. § §fAdditionally, they can process §b16 items at once §fwhich is double that of the pit kiln.\n§fFor this quest you\u0027ll craft §ball three of them,§f don\u0027t worry, you will use them all. Additionally it also has you get a §aflint sawblade§f for the sawmill.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pyrotech:stone_kiln"
+      },
+      "name:8": "Stone Machines",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 24,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:stone_kiln"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:flint"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:stone_kiln"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:stone_oven"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:stone_sawmill"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {}
+          },
+          "id:8": "pyrotech:sawmill_blade_flint"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

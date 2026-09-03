@@ -1,0 +1,71 @@
+{
+  "preRequisites:11": [
+    94,
+    93
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Make the Primitive Blast Furnace and get some steel! The primitive blast furnace will only allow you to turn Iron into Wrought Iron and Wrought Iron into Steel, you cannot turn Iron into Steel, you must go through the intermediate. Luckily the PBF turns Iron into Wrought Iron very quickly, so this should not be an issue.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1000,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Steel!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 95,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 324,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 15,
+          "id:8": "gregtech:meta_block_compressed_19"
+        },
+        "2:10": {
+          "Count:3": 64,
+          "id:8": "minecraft:iron_ingot"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1000,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 32,
+          "Damage:2": 1,
+          "id:8": "gregtech:metal_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 324,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

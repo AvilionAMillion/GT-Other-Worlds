@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    123
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "In the Twilight Forest, powerful magic energy flows throughout. Because of this, potent forms of wheat and beetroot can be found in this dimension. Explore, and find the tier 3 roots crops!\n\nSpirit Herb will spawn in the Firefly Forest and Twilight Forest, Wildewheet spawns in the Oak Savannah",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "roots:wildewheet"
+      },
+      "name:8": "Tier 3 Crops",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 125,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "roots:wildewheet"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "roots:spirit_herb"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

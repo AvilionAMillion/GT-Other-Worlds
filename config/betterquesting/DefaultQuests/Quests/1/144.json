@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    142,
+    140,
+    143
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "After all this time, and all this crafting, you can finally make yourself an Electronic Circuit, the first LV Circuit! Putting all the components you\u0027ve made together creates a valuable start to all your electronic futures.\n\nYou\u0027ll want to make a few of these once your wires become cheap, you go through circuits fast.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 621,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "The First of Many!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 144,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 621,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

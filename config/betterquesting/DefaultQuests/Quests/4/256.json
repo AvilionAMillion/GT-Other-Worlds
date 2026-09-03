@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    255
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "By putting Precious Metal Solution through the Chemical Reactor again, it will produce Ferric Metal Sludge, Nitrogen Dioxide, and §aChloroauric Acid\n§fSome notes: The Nitrogen Dioxide enables a perfect loop, and no Nitrogen is consumed in the production of Chloroauric Acid. Oxygen and Hydrogen are consumed in the production of the Nitric Acid though. Ferric Metal Sludge is a waste product, later you may be able to recoup a decent amount of iron from it, however for right now you have an Arc Furnace recipe with pretty poor return.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gtow:sludge_iron"
+      },
+      "name:8": "Sludge and Other Things",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 256,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "chloroauric_acid"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

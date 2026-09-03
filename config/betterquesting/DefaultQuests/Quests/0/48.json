@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    45
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Foundrys take molds, so let\u0027s make some §amolds.\n§fTo start off, you\u0027ll need a §e§amold crafting station,§f with that you can then craft some refractory clay blocks and put them in along with some fuel. §eMake it into a certain shape and then fire it.\n§fOnce you have your raw ingot mold, you\u0027ll want to place it into a §acast§f. Another easy recipe.\n",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "foundry:moldstation"
+      },
+      "name:8": "Clay Molds",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 48,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 5,
+          "id:8": "pyrotech:material"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "foundry:moldstation"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "foundry:castingtable"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

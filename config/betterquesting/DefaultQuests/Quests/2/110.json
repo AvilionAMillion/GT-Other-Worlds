@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    109,
+    108
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "To progress further into Roots, you\u0027ll need a certain type of dust that can\u0027t be made normally, you need some Runic dust. For Runic dust you\u0027ll need some Baffle Cap Powder, Stone Dust, Flint Dust, and a heap of some Steel Dust. grind it all together in a Mortar, and you will have a powerfully magical dust with many unique properties.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 24008,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "Magical Dusts",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 110,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "roots:baffle_cap_mushroom"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 24008,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -65,8 +65,8 @@ RecipeBuilder.get("basic")
     [<pyrotech:material:5>, <artisanworktables:workstation:5>, <pyrotech:material:5>],
     [<pyrotech:material:5>, <minecraft:stone_slab>, <pyrotech:material:5>],
     [<pyrotech:refractory_brick_block>, <pyrotech:stone_kiln>, <pyrotech:refractory_brick_block>]])
-  .addTool(<ore:artisansHammer>, 50)
-  .addTool(<ore:artisansFramingHammer>, 50)
+  .addTool(<ore:artisansHammer>, 10)
+  .addTool(<ore:artisansFramingHammer>, 10)
   .addOutput(<foundry:moldstation>)
   .create();
 # Refractory Casing
@@ -78,9 +78,9 @@ RecipeBuilder.get("basic")
     [<gregtech:meta_nugget:25>, <pyrotech:material:5>, <pyrotech:material:5>, <pyrotech:material:5>, <gregtech:meta_nugget:25>],
     [<gregtech:meta_nugget:25>, <gregtech:meta_nugget:25>, <pyrotech:material:5>, <gregtech:meta_nugget:25>, <gregtech:meta_nugget:25>]])
   .setFluid(<liquid:foundry> * 1000)
-  .addTool(<ore:artisansChisel>, 30)
-  .addTool(<ore:artisansFile>, 30)
-  .addTool(<ore:artisansFramingHammer>, 30)
+  .addTool(<ore:artisansChisel>, 8)
+  .addTool(<ore:artisansFile>, 8)
+  .addTool(<ore:artisansFramingHammer>, 8)
   .addOutput(<foundry:componentblock:3>)
   .create();
 # Burner Heater
@@ -92,9 +92,9 @@ RecipeBuilder.get("basic")
     [<pyrotech:material:5>, <pyrotech:stone_kiln>, <pyrotech:material:5>],
     [<pyrotech:material:5>, <pyrotech:material:5>, <pyrotech:material:5>]])
   .setFluid(<liquid:foundry> * 1000)
-  .addTool(<ore:artisansChisel>, 20)
-  .addTool(<ore:artisansFramingHammer>, 20)
-  .addTool(<ore:artisansDriver>, 20)
+  .addTool(<ore:artisansChisel>, 5)
+  .addTool(<ore:artisansFramingHammer>, 5)
+  .addTool(<ore:artisansDriver>, 5)
   .addOutput(<foundry:burnerheater>)
   .create();
 # Melting Crucible
@@ -106,9 +106,9 @@ RecipeBuilder.get("basic")
     [<pyrotech:material:5>, <pyrotech:material:5>, <pyrotech:material:5>],
     [<pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>]])
   .setFluid(<liquid:foundry> * 1000)
-  .addTool(<ore:artisansChisel>, 40)
-  .addTool(<ore:artisansFramingHammer>, 40)
-  .addTool(<ore:artisansSpanner>, 40)
+  .addTool(<ore:artisansChisel>, 10)
+  .addTool(<ore:artisansFramingHammer>, 10)
+  .addTool(<ore:artisansSpanner>, 10)
   .addOutput(<foundry:machine>)
   .create();
 # Refractory Spout
@@ -118,7 +118,7 @@ RecipeBuilder.get("basic")
     [<gregtech:meta_nugget:25>, <pyrotech:faucet_brick>],
     [<gregtech:meta_nugget:25>, null]])
   .setFluid(<liquid:foundry> * 500)
-  .addTool(<ore:artisansHammer>, 20)
+  .addTool(<ore:artisansHammer>, 4)
   .addOutput(<foundry:refractoryspout>)
   .create();
 # Alloy Mixer
@@ -130,9 +130,9 @@ RecipeBuilder.get("basic")
     [<pyrotech:refractory_brick_block>, <ore:platePotin>, <ore:platePotin>, <ore:platePotin>, <pyrotech:refractory_brick_block>],
     [<ore:plateTin>, <pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <ore:plateTin>]])
   .setFluid(<liquid:lava> * 4000)
-  .addTool(<ore:artisansHammer>, 100)
-  .addTool(<ore:artisansDriver>, 100)
-  .addTool(<ore:artisansChisel>, 100)
+  .addTool(<ore:artisansHammer>, 20)
+  .addTool(<ore:artisansDriver>, 20)
+  .addTool(<ore:artisansChisel>, 20)
   .addOutput(<foundry:machine:9>)
   .create();
   

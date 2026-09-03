@@ -1,0 +1,97 @@
+{
+  "preRequisites:11": [
+    31,
+    29
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Make some §adurable string or tarred boards/anything else with wood tar§f to complete this quest.\nIn order to soak these items correctly, you have to §bplace the soaking pot above a campfire, §fother than that it\u0027s the same.\n§d\n§dOnly the Tarred Planks, Boards, and String are used much, don\u0027t worry about the rest. You only need any one of these items.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pyrotech:planks_tarred"
+      },
+      "name:8": "Tarred Tools",
+      "tasklogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 32,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:tar_collector"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:planks_tarred"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 23,
+          "id:8": "pyrotech:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 26,
+          "id:8": "pyrotech:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 30,
+          "id:8": "pyrotech:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "4:10": {
+      "index:3": 4,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:wood_tar_block"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "5:10": {
+      "index:3": 5,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:wool_tarred"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

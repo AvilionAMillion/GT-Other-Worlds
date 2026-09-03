@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    253
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Native gold ore only spawns in the nether, and its not common. What is far more common is precious metal ore, and if you want to get gold in any appreciable amount, you\u0027re going to need to use precious metal. As such, this next quest chain is the processing line for §eturning Precious Metal Ore into Gold Dust!§f\n§fFirst, we\u0027ll need that precious metal in a good dust form (You\u0027ll need 36), and some Aqua Regia, a combination of Nitric Acid and Hydrochloric Acid",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:gold_ingot"
+      },
+      "name:8": "Going For Gold",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 254,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 36,
+          "Damage:2": 24019,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "aqua_regia"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

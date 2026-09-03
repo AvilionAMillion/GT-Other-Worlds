@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    123
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Craft a Magic Map Focus and the subsequent map! This tool will give you a map of a large area around the spawn, but the special part of the magic map is that it has specific markers for every single important structure of the Twilight Forest! From Hydra Swamps to Urghast Towers, it will show them all.\n\nAnother interesting point of Twilight Forest world generation is that every single boss structure + The Final Castle §lwill, §fwith no exception, be on a singular map. This does not mean every biome will be on one map, as you may discover eventually, but every major structure will be on one map, so you should not have to craft more than one!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {}
+        },
+        "id:8": "twilightforest:magic_map"
+      },
+      "name:8": "Map, Map, I\u0027m the Map!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 124,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "twilightforest:magic_map_focus"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "twilightforest:magic_map_empty"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

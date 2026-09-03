@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    150
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Using a forge hammer, you can turn 3 ingots into 2 plates, which is okay, but we can do better. The bending machine will allow you to turn one ingot into one plate, a perfect ratio.\n\nThere\u0027s some other things here, like foils and etc, but the plates are most important.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 140,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Basic Bending Machine"
+    }
+  },
+  "questID:3": 155,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 140,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

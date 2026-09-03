@@ -36,7 +36,7 @@ import mods.gregtech.material.Elements;
 	<material:gold>.setHarvestLevel(4);
 	<material:granitic_mineral_sand>.setHarvestLevel(3);
 	<material:gypsum>.setHarvestLevel(5);
-	<material:iron>.setHarvestLevel(3);
+	<material:iron>.setHarvestLevel(4);
 	<material:lead>.setHarvestLevel(2);
 	<material:magnetite>.setHarvestLevel(3);
 	<material:malachite>.setHarvestLevel(2);

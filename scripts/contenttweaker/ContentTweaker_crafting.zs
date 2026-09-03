@@ -41,7 +41,7 @@ RecipeBuilder.get("basic")
     [<gregtech:meta_dust:254>, <gregtech:meta_dust:275>, <gregtech:meta_dust:254>],
     [<gregtech:meta_dust:2063>, <gregtech:meta_dust:2023>, <gregtech:meta_dust:2063>]])
   .setFluid(<liquid:water> * 2000)
-  .addTool(<ore:artisansMortar>, 20)
+  .addTool(<ore:artisansMortar>, 10)
   .addOutput(<contenttweaker:refractoryblend>)
   .create();
   
@@ -56,25 +56,6 @@ recipes.addShaped(<contenttweaker:masontrowel>,
 	[[null, <pyrotech:material:16>, <pyrotech:masonry_brick_block>],
 	[<pyrotech:material:26>, stick, <pyrotech:material:16>],
 	[stick, gtFile, null]]);
-	
-# Noxious Elixir
-recipes.addShapeless(<contenttweaker:elixir>,
-	[<rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:instant_health", Duration: 1, Amplifier: 0}]}), <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:regeneration", Duration: 900, Amplifier: 0}]}), <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "mead"}}), <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 3600, Amplifier: 0}]}), <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:speed", Duration: 3600, Amplifier: 0}]})]);
-
-# Extremely Noxious Elixir
-RecipeBuilder.get("basic")
-  .setShapeless([<ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <contenttweaker:elixir>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>, <ore:cropChilipepper>])
-  .setFluid(<liquid:lava> * 2000)
-  .addTool(<ore:artisansBeaker>, 100)
-  .addOutput(<contenttweaker:badelixir>)
-  .create();
-  
-# Liquour Bucket
-RecipeBuilder.get("basic")
-  .setShapeless([<contenttweaker:badelixir>])
-  .setSecondaryIngredients([<minecraft:bucket>])
-  .addOutput(<forge:bucketfilled>.withTag({FluidName: "badjuice", Amount: 1000}))
-  .create();
   
 # Baffle Cap Powder
 Mortar.addRecipe("bafflepowder", <contenttweaker:bafflepowder>, [<roots:baffle_cap_mushroom>]);
@@ -103,8 +84,8 @@ RecipeBuilder.get("basic")
     [<minecraft:obsidian>, <gregtech:meta_dust:24008>, <gregtech:meta_dust:24008>, <gregtech:meta_dust:24008>, <minecraft:obsidian>],
     [<gregtech:meta_plate:24010>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <gregtech:meta_plate:24010>]])
   .setFluid(<liquid:lava> * 10000)
-  .addTool(<ore:artisansHammer>, 500)
-  .addTool(<ore:artisansBurner>, 200)
+  .addTool(<ore:artisansHammer>, 100)
+  .addTool(<ore:artisansBurner>, 40)
   .addOutput(<contenttweaker:netherblock> * 10)
   .create();
 

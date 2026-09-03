@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    118,
+    120
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Use the creature summoning ritual in order to summon a Twilight Raven, and then promptly kill it for it\u0027s feathers. You heartless asshole...",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "twilightforest:raven_feather"
+      },
+      "name:8": "Birds Of Feather Fly Together",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 122,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "twilightforest:raven_feather"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

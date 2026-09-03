@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    22,
+    25
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aWood Tar§f is a byproduct of running the charcoal pit, it can be a useful crafting component for strengthening certain wood materials.\n§dThis Wood Tar may look different, but it\u0027s the exact same",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {}
+        },
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "wood_tar"
+        }
+      },
+      "name:8": "Wood Tar",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 29,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "wood_tar"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

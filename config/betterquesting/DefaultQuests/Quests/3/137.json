@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    135
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Now that you can access the Nether, try getting some gold! It spawns in Nether Limonite veins sporadically, but is the only way to get native gold at this point in time.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:gold_ingot"
+      },
+      "name:8": "Fortune Favors The Gold",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 137,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 324,
+          "id:8": "gregtech:meta_ingot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gregtech:ore_magnetite_0"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gregtech:ore_precious_metal_0"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gregtech:ore_gold_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

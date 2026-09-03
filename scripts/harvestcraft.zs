@@ -9,12 +9,12 @@ import mods.artisanworktables.builder.Copy;
 val healElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:instant_health", Duration: 1, Amplifier: 0}]});
 
 // Alchemy
-mods.rustic.Condenser.addRecipe(<harvestcraft:aridgarden>, healElixir, <rustic:aloe_vera>);
-mods.rustic.Condenser.addRecipe(<harvestcraft:frostgarden>, healElixir, <rustic:cloudsbluff>);
-mods.rustic.Condenser.addRecipe(<harvestcraft:shadedgarden>, healElixir, <rustic:chamomile>);
-mods.rustic.Condenser.addRecipe(<harvestcraft:soggygarden>, healElixir, <rustic:cohosh>);
-mods.rustic.Condenser.addRecipe(<harvestcraft:tropicalgarden>, healElixir, <rustic:marsh_mallow>);
-mods.rustic.Condenser.addRecipe(<harvestcraft:windygarden>, healElixir, <rustic:wind_thistle>);
+mods.rustic.Condenser.addRecipe(<harvestcraft:aridgarden>, <ore:treeSapling>, <rustic:aloe_vera>);
+mods.rustic.Condenser.addRecipe(<harvestcraft:frostgarden>, <ore:treeSapling>, <rustic:cloudsbluff>);
+mods.rustic.Condenser.addRecipe(<harvestcraft:shadedgarden>, <ore:treeSapling>, <rustic:chamomile>);
+mods.rustic.Condenser.addRecipe(<harvestcraft:soggygarden>, <ore:treeSapling>, <rustic:cohosh>);
+mods.rustic.Condenser.addRecipe(<harvestcraft:tropicalgarden>, <ore:treeSapling>, <rustic:marsh_mallow>);
+mods.rustic.Condenser.addRecipe(<harvestcraft:windygarden>, <ore:treeSapling>, <rustic:wind_thistle>);
 
 
 // CB - Cutting Board, P - Pot, S - Skillet, SP - Saucepan, B - Bakeware, MP - Mortar and Pestle, MB - Mixing Bowl, J - Juicer

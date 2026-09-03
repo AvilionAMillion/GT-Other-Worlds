@@ -1,0 +1,80 @@
+{
+  "preRequisites:11": [
+    95
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Steel is slow in the Primitive Blast Furnace, we can go better, using the power of hot steam and a bellows device, we can speed up steel production §a§bby seven times!\n§fThe §aBellowed Blast Furnace §fis going to be what you desire. All you need is a few bronze pipes, a steam hatch, and a couple of bellows to make it! The problem is that the steam requirement is intense, 30 mb/t is NOT cheap. You\u0027re going to want to stockpile some steam... Or maybe find a new way to make it?\nThe steam hatch §cMUST §fgo at the bottom of the three bellows blocks, no other place on the multiblock will work. Enjoy the steel coming your way!\n\n§b§dPS: Find a way to wallshare 4 of them with a single bellows column and you get brownie points!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gtow:casing_bellows"
+      },
+      "name:8": "Better Steel?",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 96,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 324,
+          "id:8": "gregtech:meta_ingot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32002,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 29,
+          "Damage:2": 1,
+          "id:8": "gregtech:metal_casing"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1652,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 1651,
+          "id:8": "gregtech:machine"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 1653,
+          "id:8": "gregtech:machine"
+        },
+        "5:10": {
+          "Count:3": 4,
+          "id:8": "gregtech:boiler_casing"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "gtow:casing_bellowsbottom"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "gtow:casing_bellows"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "id:8": "gtow:casing_bellowstop"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

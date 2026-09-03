@@ -1,8 +1,9 @@
 // Removal of Various Default GT Recipes
-
 // EBF
 mods.gregtech.chemical_bath.removeByInput(120, [metaitem('ingotHotSilicon')], [fluid('water') * 100 * 100])
 mods.gregtech.chemical_bath.removeByInput(120, [metaitem('ingotHotSilicon')], [fluid('distilled_water') * 100 * 100])
+mods.gregtech.electric_blast_furnace.removeByInput(1920, [metaitem('dustIron') * 4, metaitem('dustCarbon')], null)
+mods.gregtech.electric_blast_furnace.removeByInput(1920, [metaitem('dustWroughtIron') * 4, metaitem('dustCarbon')], null)
 
 
 // Electrolyzer

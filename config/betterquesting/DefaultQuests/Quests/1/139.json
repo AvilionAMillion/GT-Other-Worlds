@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    128,
+    123
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Using Raw Resin Extract and Sulfur, you can put it in an alloy smelter to get rubber pulp! This is, a very important ingredient to coating wires, the issue is that you need it to be in a liquid form to coat wires. What a shame...\n\n§eYou can get small amounts of sulfer from chalcopyrite veins in the Twilight Forest.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1068,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "Not Bars?",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 139,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1068,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

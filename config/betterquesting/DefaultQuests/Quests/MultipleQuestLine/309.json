@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    267
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "In HV you unlock access to the most powerful mod in this entire modpack, §aApplied Energistics 2.§f At the start, you don\u0027t have autocrafting, thats for a little later, but to store your items? AE is available unimpeded, lots of changes in the recipes though, so lets get started!\n\nThe first and most important part to AE is the Energy Acceptor, which allows you to power all of your AE terminals and interfaces! As such it will serve as the core to your electronic empire for now. The primary material for much of AE is §eFluix Crystals§f, which is made by mixing Charged Certus Quartz, Nether Quartz, and Redstone. Charged Certus is not an ore! It is instead Certus put through a Laser Engraver. Once you have Fluix Dust you can either autoclave it or explode it into crystals, either way you can make the Energy Acceptor afterwards!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:energy_acceptor"
+      },
+      "name:8": "Applied Energistics, Begin!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 309,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:energy_acceptor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

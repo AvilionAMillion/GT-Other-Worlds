@@ -1,0 +1,77 @@
+{
+  "preRequisites:11": [
+    81
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Make some Firebricks! If you\u0027re going for the Primitive Blast Furnace (And well, what else would you be making with this) You will need 216 Firebricks which is, optimally, 54 blocks of clay and 54 bricks. Be glad I did the math for you.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 352,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "Fired Up!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 93,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 262,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 2032,
+          "id:8": "gregtech:meta_dust"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "Damage:2": 335,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2525,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 351,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 352,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

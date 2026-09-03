@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    148
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The wiremill is an IMMENSELY helpful machine that will allow you to turn a single ingot into two wires!!! That\u0027s some crazy increased returns right there. If you don\u0027t make this first, you\u0027re kind of an idiot. No hard feelings.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 620,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "MAKE THIS FIRST!!!!!!!!!!!!"
+    }
+  },
+  "questID:3": 149,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 620,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    163,
+    162
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Making rubber is pretty expensive right now, so lets do it better! By solidifying molten rubber (from your chemical reactor) into sheets (using a fluid solidifer) you can use that to coat wires directly! No more stupid crucibles!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1068,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "How I Learned To Stop Worrying And Love Rubber",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 164,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 63,
+          "Damage:2": 1068,
+          "id:8": "gregtech:meta_plate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

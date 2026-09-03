@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    122,
+    117
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Twilight Raven came from a place not of this world, another world that is far more magically powerful than this one. Using the Fey you can get a bit of the dirt from that world, and maybe, if you threw that bit of soil into a pond surrounded by flora, you could open up a door to that world. Good luck in there. It will not be easy.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 7,
+        "id:8": "twilightforest:miniature_structure"
+      },
+      "name:8": "I Only Meant To Stay A While",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 123,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:twilightsoil"
+        },
+        "1:10": {
+          "Count:3": 10,
+          "id:8": "gtow:twilightblock"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "dimension:3": 7,
+      "index:3": 1,
+      "name:8": "Twilight Forest",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

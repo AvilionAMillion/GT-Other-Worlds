@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    45
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The regular §echarcoal pit§f is limited in what it can do, so make the new §arefractory one§f instead!\nUnlike the regular charcoal pit, the §brefractory pit needs to be surrounded by refractory blocks on all sides,§f§f making it significantly more expensive. But, in return, it will allow you to §eprocess coal into coke in it§f as well, and get valuable byproducts from doing that.\nSame rules as the old charcoal pit. Refractory collectors can be put in the bottom and refractory drains can take the fluids out of 9 of them.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "pyrotech:tar_collector"
+      },
+      "name:8": "A Better Charcoal Pit",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 197,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 5,
+          "id:8": "pyrotech:material"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "pyrotech:refractory_brick_block"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "pyrotech:tar_drain"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "pyrotech:tar_collector"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

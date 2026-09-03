@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    260
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Same as every other time! Many more multiblocks in HV, check the \"Rage Against The Machine\" tab for more info.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gtow:controlhv"
+      },
+      "name:8": "HV Multiblocks",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 283,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gtow:controlhv"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

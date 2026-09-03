@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    111
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "If you crafted a little bit of food, you may have noticed that Harvestcraft tools now have durability, don\u0027t worry! They won\u0027t be breaking on you! They however will get dirty, and are going to need to be washed in order to make them usable again. To wash a tool requires soap, it\u0027s inexpensive so make it!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "soap"
+        }
+      },
+      "name:8": "What Is This Nonsense!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 228,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "soap"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

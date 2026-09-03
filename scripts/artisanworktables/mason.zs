@@ -23,19 +23,19 @@ RecipeBuilder.get("mason")
  # Stone Brick Slab
 RecipeBuilder.get("mason")
   .setShapeless([<minecraft:stonebrick>])
-  .addTool(<ore:artisansHandsaw>, 2)
+  .addTool(<ore:artisansHandsaw>, 0)
   .addOutput(<minecraft:stone_slab:5> * 2)
   .create();
  # Mason Brick
 RecipeBuilder.get("mason")
   .setShapeless([<minecraft:stone_slab:5>])
-  .addTool(<ore:artisansHandsaw>, 2)
+  .addTool(<ore:artisansHandsaw>, 0)
   .addOutput(<pyrotech:material:16> * 2)
   .create();
  # Stone Slab
 RecipeBuilder.get("mason")
   .setShapeless([<minecraft:stone>])
-  .addTool(<ore:artisansHandsaw>, 2)
+  .addTool(<ore:artisansHandsaw>, 0)
   .addOutput(<minecraft:stone_slab> * 2)
   .create();
  # Mason Brick
@@ -43,7 +43,7 @@ RecipeBuilder.get("mason")
   .setShaped([
     [<pyrotech:material:16>, <pyrotech:material:16>],
     [<pyrotech:material:16>, <pyrotech:material:16>]])
-  .addTool(<ore:artisansHammer>, 1)
+  .addTool(<ore:artisansHammer>, 0)
   .addOutput(<pyrotech:masonry_brick_block>)
   .create();
 # Seared Bricks
@@ -51,7 +51,7 @@ RecipeBuilder.get("mason")
   .setShaped([
     [<tconstruct:materials>, <tconstruct:materials>],
     [<tconstruct:materials>, <tconstruct:materials>]])
-  .addTool(<ore:artisansHammer>, 1)
+  .addTool(<ore:artisansHammer>, 0)
   .addOutput(<tconstruct:seared:3>)
   .create();
  # Refractory Brick Block
@@ -59,7 +59,7 @@ RecipeBuilder.get("mason")
   .setShaped([
     [<pyrotech:material:5>, <pyrotech:material:5>],
     [<pyrotech:material:5>, <pyrotech:material:5>]])
-  .addTool(<ore:artisansHammer>, 1)
+  .addTool(<ore:artisansHammer>, 0)
   .addOutput(<pyrotech:refractory_brick_block>)
   .create();
 # Coke Oven Brick
@@ -67,6 +67,6 @@ builder
   .setShaped([
     [<gregtech:meta_item_1:353>, <gregtech:meta_item_1:353>],
     [<gregtech:meta_item_1:353>, <gregtech:meta_item_1:353>]])
-  .addTool(<ore:artisansHammer>, 1)
+  .addTool(<ore:artisansHammer>, 0)
   .addOutput(<gregtech:metal_casing:8>)
   .create();

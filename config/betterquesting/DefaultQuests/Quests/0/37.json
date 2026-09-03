@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    36
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "So, you\u0027re able to mine now ay? Well Mining is a little bit different here, so let\u0027s get into that.\nFirst off, §aonly Gregtech ores spawn.§f There\u0027s no minecraft ores, no mekanism ores, just gregtech. And gregtech doesn\u0027t do regular ore veins. No it has §b§aore VEINS.§f\nEach vein is often around two chunks wide with hundreds of ores in each. These veins have up to four types of ores: primary, seconday, between, and sporadic. Basically upper layers are primary and bottom layers are secondary.\nEach vein spawns every three chunks. To find out where a vein is take the X and Z chunk coordinate (i.e. the chunk you are in on the chunk grid) and if both values are a multiple of 3n+1, it\u0027s an ore vein.\nGood luck digging!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:stone"
+      },
+      "name:8": "Dig Dug",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 37,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 32,
+          "id:8": "minecraft:torch"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:minerstewitem"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

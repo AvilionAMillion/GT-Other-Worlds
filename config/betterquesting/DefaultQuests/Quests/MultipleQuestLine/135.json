@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    132,
+    134
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "That Twilight dimension has you thinking of worlds, other worlds. Perhaps there is a world that is the complete opposite of this one, that is a burning hell that looks inescapable.\n\nThe nether is a tough place! Bring plenty of good food and armor with you. Maybe consider the Sylvan armor from Roots? This pack has the nether portal constructed differently, instead of obsidian and flint and steel, it\u0027s now Nether Portal blocks and the previously crafted Perfect Powder.\n\nNow go to hell!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:netherblock"
+      },
+      "name:8": "To The Nether!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 135,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 10,
+          "id:8": "contenttweaker:netherblock"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:perfectpowder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "dimension:3": -1,
+      "index:3": 1,
+      "name:8": "The Nether",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

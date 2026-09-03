@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    73,
+    78
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "With an Alloy Smelter... Well you can make alloys how novel is that. But wait! You can make many alloys!\n\nFor starters, you no longer need to melt bronze to alloy it, now you can turn three copper and one tin into bronze directly, no hassle required. But more importantly is §ared alloy§f. A combination of four redstone and one copper. This makes it somewhat costly, but is required for every steam machine moving forward.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2517,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "Alloys, Alloys",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 77,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 2517,
+          "id:8": "gregtech:meta_ingot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 260,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 2517,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

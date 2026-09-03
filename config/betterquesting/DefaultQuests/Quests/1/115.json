@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    95
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Craft a steel pickaxe or hammer! Doesn\u0027t matter to me, you just need steel tools.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {}
+        },
+        "id:8": "gregtech:pickaxe",
+        "tag:10": {
+          "DisallowContainerItem:1": 0,
+          "GT.Behaviours:10": {
+            "TorchPlacing:1": 1
+          },
+          "GT.Tool:10": {
+            "AttackDamage:5": 4.0,
+            "AttackSpeed:5": -2.8,
+            "Durability:3": 0,
+            "HarvestLevel:3": 3,
+            "Material:8": "steel",
+            "MaxDurability:3": 512,
+            "ToolSpeed:5": 9.0
+          },
+          "HideFlags:3": 2
+        }
+      },
+      "name:8": "Tier 5!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 115,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

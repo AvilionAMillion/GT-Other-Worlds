@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    154,
+    166
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "To make any multiblock, you obviously need a way to control it. That\u0027s why you need to make the LV Control Module! This device is used in every multiblock controller, and even though it\u0027s expensive, you\u0027ll need it!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:controllv"
+      },
+      "name:8": "Stay In Control!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 173,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:controllv"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

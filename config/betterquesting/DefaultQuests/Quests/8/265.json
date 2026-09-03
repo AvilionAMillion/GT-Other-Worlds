@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    259,
+    264,
+    266
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§3Description To Be Added",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:ender_eye"
+      },
+      "name:8": "Like Looking Into a Kaleidoscope...",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 265,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:ender_eye"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

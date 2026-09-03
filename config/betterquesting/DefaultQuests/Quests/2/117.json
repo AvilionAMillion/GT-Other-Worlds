@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    113
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Elemental Soil is a block that plants can grow on, and when a plant is grown on it not only can it not be trampled it also has a special effect depending on the type of soil! Specificities of what type of soil does what can be read in JEI, as well as how to make them.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "roots:elemental_soil"
+      },
+      "name:8": "Soil Of Many Colors",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 117,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "roots:elemental_soil"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

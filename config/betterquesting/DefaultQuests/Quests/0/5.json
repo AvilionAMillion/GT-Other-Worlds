@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    3
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Your first tools will not be wood or stone, they must be flint. Flint will not naturally drop from gravel, §ayou have to craft it into flint shards.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10,
+        "id:8": "pyrotech:material"
+      },
+      "name:8": "Materialism",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 5,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 18,
+          "id:8": "minecraft:gravel"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "id:8": "pyrotech:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

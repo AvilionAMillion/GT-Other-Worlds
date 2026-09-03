@@ -1,0 +1,69 @@
+{
+  "preRequisites:11": [
+    169
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You like steam? You like having a §lLOT §l§rof steam? Well look no further than the §a§aLarge Bronze Boiler§r! This multiblock is miles faster than any of your current sources of steam, producing almost a §efull bucket of steam each tick at full efficieny. §fIf you plan on using steam at all in the future §b(And especially the Industrial Steam Turbine) §ryou will practically need this.\n\nThe Boiler is very modular, especially with the output hatches. The diagram in JEI only shows one model, and the required items in this quest shows another, although you can experiment with many different designs! Whatever is the best at making steam for you. You can also use different types of fuels instead of just coals for this, but coal is probably going to be your main way of firing it up at the moment\n\n§cDO NOT PUT FUEL IN IT WITHOUT WATER OR ELSE THE BOILER WILL EXPLODE",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1013,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Big Big Boiler!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 176,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1013,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1151,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1181,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 2,
+          "Damage:2": 1196,
+          "id:8": "gregtech:machine"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 1657,
+          "id:8": "gregtech:machine"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 1654,
+          "id:8": "gregtech:machine"
+        },
+        "6:10": {
+          "Count:3": 2,
+          "id:8": "gregtech:boiler_casing"
+        },
+        "7:10": {
+          "Count:3": 6,
+          "id:8": "gregtech:boiler_firebox_casing"
+        },
+        "8:10": {
+          "Count:3": 22,
+          "id:8": "gregtech:metal_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

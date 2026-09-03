@@ -1,0 +1,62 @@
+{
+  "preRequisites:11": [
+    101
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Using a Block of Flesh you can contort a helpful Night Vision elixir into a, useless Blindness elixir. Why did you do this again?",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rustic:elixir",
+        "tag:10": {
+          "ElixirEffects:9": {
+            "0:10": {
+              "Amplifier:3": 0,
+              "Duration:3": 600,
+              "Effect:8": "minecraft:blindness"
+            }
+          }
+        }
+      },
+      "name:8": "Blinding Yourself, For Fun!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1877816510,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rustic:elixir",
+          "tag:10": {
+            "ElixirEffects:9": {
+              "0:10": {
+                "Amplifier:3": 0,
+                "Duration:3": 600,
+                "Effect:8": "minecraft:blindness"
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forge:bucketfilled",
+          "tag:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "potion_blindness"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

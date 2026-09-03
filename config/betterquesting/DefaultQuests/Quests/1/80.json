@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    79
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Craft a Steam Macerator! This has quite a few uses but one you probably won\u0027t be using is it\u0027s ability to ore double. While, yes, it can double ore output, it\u0027s very slow at that and not efficient. I don\u0027t reccomend you double your ores with this. However it is still necessary.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 9,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Steam Macerator",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 80,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 71,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtechfoodoption:gtfo_meta_item",
+            "orig_meta:3": 71
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 9,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -16,6 +16,7 @@ recipes.removeByRecipeName("gregtech:crafting_table");
 recipes.removeByRecipeName("pyrotech:chest");
 recipes.removeByRecipeName("gregtech:chest");
 recipes.removeByRecipeName("enderio:tweak_chest_from_wood");
+recipes.removeByRecipeName("aetherlegacy:skyroot_chest");
 recipes.removeByRecipeName("harvestcraft:minecraft_planks_meta_1_x4_pammaple");
 recipes.removeByRecipeName("harvestcraft:minecraft_planks_meta_3_x4_pampaperbark");
 recipes.removeByRecipeName("harvestcraft:minecraft_planks_meta_3_x4_pamcinnamon");
@@ -35,7 +36,6 @@ furnace.remove(<minecraft:redstone>);
 recipes.removeShaped(<minecraft:crafting_table>,
 	[[<ore:plankWood>, <ore:plankWood>],
 	[<ore:plankWood>, <ore:plankWood>]]);
-recipes.remove(<minecraft:chest> * 4);
 recipes.remove(<biomesoplenty:planks_0>);
 recipes.remove(<biomesoplenty:planks_0:1>);
 recipes.remove(<biomesoplenty:planks_0:2>);
@@ -52,6 +52,10 @@ recipes.remove(<biomesoplenty:planks_0:12>);
 recipes.remove(<biomesoplenty:planks_0:13>);
 recipes.remove(<biomesoplenty:planks_0:14>);
 recipes.remove(<biomesoplenty:planks_0:15>);
+recipes.remove(<rustic:planks>);
+recipes.remove(<rustic:planks:1>);
+recipes.remove(<thaumcraft:plank_greatwood>);
+recipes.remove(<thaumcraft:plank_silverwood>);
 
 // Crafting
 # Torch
@@ -73,6 +77,8 @@ recipes.addShaped(<minecraft:piston> * 2, [
 	[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
 	[<ore:fenceWood>, <gregtech:wire_single:2517>, <ore:fenceWood>],
 	[<ore:cobblestone>, <ore:gearSteel>, <ore:cobblestone>]]);
+# Blindness Bucket
+recipes.addShapeless(<forge:bucketfilled>.withTag({FluidName: "potion_blindness", Amount: 1000}), [<rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:blindness", Duration: 600, Amplifier: 0}]}), <minecraft:bucket>]);
 	
 // Pyrotech Kilns
  # Glass

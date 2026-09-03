@@ -1,0 +1,55 @@
+{
+  "preRequisites:11": [
+    57
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §aSeared Furnace§f is the first form of Furnace-ry in the entire pack. And now, you can make it. It is costly, but with the quicker refractory machines it will be exceedingly possible.\nThe quest here is for the §esmallest possible 3x3x3.§b Effectively it is a straight cube of seared bricks but the top and bottom only need the middle block and the middle layer needs to have both the tank and controller.\n§fYou can make seared furnaces with bigger interiors, which will allow for more items to be smelted at once.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:seared_furnace_controller"
+      },
+      "name:8": "SMELTING!!!!!!!!!!!!!!!!!!!!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 58,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "gregtech:ore_copper_0"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "id:8": "gregtech:ore_lead_0"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:seared_furnace_controller"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:seared_tank"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "Damage:2": 3,
+          "id:8": "tconstruct:seared"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

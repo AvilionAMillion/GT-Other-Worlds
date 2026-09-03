@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    115
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Steel pickaxes/hammers are able to mine obsidian, find some extraneous lava and make sure to grab some of it.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:obsidian"
+      },
+      "name:8": "Lava Glass",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 116,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:obsidian"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

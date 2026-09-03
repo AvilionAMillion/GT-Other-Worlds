@@ -1,0 +1,71 @@
+{
+  "preRequisites:11": [
+    80,
+    92
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "With a little dash of calcite and gypsum in a barrel full of water, after some time it will make concrete! In it\u0027s liquid form it\u0027s not quite as useful as solidified concrete, but you can still use it for things.\n\nThis is a slow process, so you\u0027ll want multiple barrels making this.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {}
+        },
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "concrete"
+        }
+      },
+      "name:8": "conkreet :)",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 94,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "minecraft:bucket"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 1599,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 262,
+          "id:8": "gregtech:meta_dust"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2032,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "concrete"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

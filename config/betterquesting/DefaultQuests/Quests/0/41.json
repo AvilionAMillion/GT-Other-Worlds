@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    40
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You have unlocked the secrets of the craft, no longer can you merely just work with mason tools, you have become a true mason. You understand stone like it\u0027s a living creature... maybe it is one?\nYou have unlocked the skill to craft the §amason\u0027s workshop. §fUse it wisely.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "artisanworktables:workshop"
+      },
+      "name:8": "Mason Mastery",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 41,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {}
+          },
+          "id:8": "artisanworktables:artisans_handsaw_steel"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "artisanworktables:workshop"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

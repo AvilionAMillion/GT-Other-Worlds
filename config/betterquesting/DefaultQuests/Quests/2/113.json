@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    99,
+    112
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Your cloud berries can be used to make a special type of crafter, suited for more magical products. Of course, you still can\u0027t just craft with it, you\u0027ll also need the Fey Crafter to be near an empowered Grove Stone, which will attract Fey to it and help build your items. Once you have all of your items in the grid, shift-right click on it with a knife in order to start crafting.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "roots:fey_crafter"
+      },
+      "name:8": "Fey Crafting",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 113,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "roots:fey_crafter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

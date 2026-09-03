@@ -40,6 +40,7 @@
     "oreCobalt": {
       "slagColor": "1c5bc1",
       "langKey": [
+        "gregtech:metaitem.rawOreCobalt",
         "gregtech:tile.ore_block"
       ],
       "output": [
@@ -58,6 +59,7 @@
       "slagColor": "ffaa1c",
       "langKey": [
         "abyssalcraft:tile.abycopore",
+        "gregtech:metaitem.rawOreCopper",
         "gregtech:tile.ore_block"
       ],
       "output": [
@@ -76,6 +78,7 @@
       "slagColor": "fcee4b",
       "langKey": [
         "abyssalcraft:tile.abygolore",
+        "gregtech:metaitem.rawOreGold",
         "gregtech:tile.ore_block",
         "mist:tile.mist.gold_ore"
       ],
@@ -95,6 +98,7 @@
       "slagColor": "d8af93",
       "langKey": [
         "abyssalcraft:tile.abyiroore",
+        "gregtech:metaitem.rawOreIron",
         "gregtech:tile.ore_block",
         "mist:tile.mist.iron_ore"
       ],
@@ -113,6 +117,7 @@
     "oreLead": {
       "slagColor": "95afee",
       "langKey": [
+        "gregtech:metaitem.rawOreLead",
         "gregtech:tile.ore_block"
       ],
       "output": [
@@ -130,6 +135,7 @@
     "oreNickel": {
       "slagColor": "e4e5d8",
       "langKey": [
+        "gregtech:metaitem.rawOreNickel",
         "gregtech:tile.ore_block"
       ],
       "output": [
@@ -164,6 +170,7 @@
     "orePlatinum": {
       "slagColor": "55f3ff",
       "langKey": [
+        "gregtech:metaitem.rawOrePlatinum",
         "gregtech:tile.ore_block"
       ],
       "output": [
@@ -181,6 +188,7 @@
     "oreSilver": {
       "slagColor": "e8f6fd",
       "langKey": [
+        "gregtech:metaitem.rawOreSilver",
         "gregtech:tile.ore_block"
       ],
       "output": [
@@ -199,6 +207,7 @@
       "slagColor": "c3e9ff",
       "langKey": [
         "abyssalcraft:tile.abytinore",
+        "gregtech:metaitem.rawOreTin",
         "gregtech:tile.ore_block"
       ],
       "output": [

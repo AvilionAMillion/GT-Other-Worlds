@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    114
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Rubber is a pretty useful resource, it\u0027s stretchy and bender, and also an insulator! But rubber doesn\u0027t spawn naturally in this world... Maybe the Fey can help?\n\nNow only if you had sulfur...",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:rubber_sapling"
+      },
+      "name:8": "Gomu-Gomu no Sapling",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 121,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:rubber_sapling"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

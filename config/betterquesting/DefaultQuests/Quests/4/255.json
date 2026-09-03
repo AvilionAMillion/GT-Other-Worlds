@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    254
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "React the two previous items together to get §aPrecious Metal Solution",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "preciousslurry"
+        }
+      },
+      "name:8": "Precious Metal Solution",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 255,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "preciousslurry"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

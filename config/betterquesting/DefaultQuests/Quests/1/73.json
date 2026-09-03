@@ -1,0 +1,50 @@
+{
+  "preRequisites:11": [
+    70
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Tired of the alloying crucible? Annoyed that it\u0027s almost unbearably clunky to use? Clunk no more, with the §aSteam Alloy Smelter§f!\n\nThe Steam Alloy Smelter will allow you to make bronze and other early alloys with very minimal effort, no more convoluted foundry setups, now it\u0027s just 3 copper and 1 tin. Much more efficient!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 17,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Steam Alloy Smelter",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 73,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 24,
+          "Damage:2": 25,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 112,
+          "id:8": "gregtech:meta_ingot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 17,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

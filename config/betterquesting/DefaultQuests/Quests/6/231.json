@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    218
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§3Description To Be Added",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pneumaticcraft:assembly_controller"
+      },
+      "name:8": "Pneumaticcraft Assembly Line",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 231,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pneumaticcraft:assembly_controller"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "id:8": "pneumaticcraft:assembly_io_unit"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "pneumaticcraft:assembly_drill"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "pneumaticcraft:assembly_laser"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "pneumaticcraft:assembly_platform"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

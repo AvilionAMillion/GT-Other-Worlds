@@ -1,0 +1,173 @@
+{
+  "preRequisites:11": [
+    7
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §b§e§aArtisan\u0027s Flint Hatchet§f is only good at crafting, for chopping down actual trees it\u0027s rather bad. Make a §aFlint Hatchet §fthat is far better at doing that.\nIt has a small durability, so to repair it you can make §aFlint Sharpening Kits",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {}
+        },
+        "id:8": "tconstruct:hatchet",
+        "tag:10": {
+          "Modifiers:9": {
+            "0:10": {
+              "color:4": -7444965,
+              "identifier:8": "ecological",
+              "level:3": 1
+            },
+            "1:10": {
+              "color:4": -9868951,
+              "crude2:1": 1,
+              "identifier:8": "crude",
+              "level:3": 2
+            },
+            "2:10": {
+              "color:3": 16777215,
+              "identifier:8": "toolleveling",
+              "level:3": 1
+            }
+          },
+          "Special:10": {
+            "Categories:9": {
+              "0:8": "harvest",
+              "1:8": "aoe",
+              "2:8": "tool",
+              "3:8": "weapon"
+            }
+          },
+          "Stats:10": {
+            "Attack:5": 3.4,
+            "AttackSpeedMultiplier:5": 1.0,
+            "Durability:3": 120,
+            "FreeModifiers:3": 3,
+            "HarvestLevel:3": 0,
+            "MiningSpeed:5": 5.0
+          },
+          "StatsOriginal:10": {
+            "Attack:5": 3.4,
+            "AttackSpeedMultiplier:5": 1.0,
+            "Durability:3": 120,
+            "FreeModifiers:3": 3,
+            "HarvestLevel:3": 0,
+            "MiningSpeed:5": 5.0
+          },
+          "TinkerData:10": {
+            "Materials:9": {
+              "0:8": "wood",
+              "1:8": "flint",
+              "2:8": "wood"
+            },
+            "Modifiers:9": {
+              "0:8": "toolleveling"
+            }
+          },
+          "Traits:9": {
+            "0:8": "ecological",
+            "1:8": "crude2",
+            "2:8": "toolleveling"
+          }
+        }
+      },
+      "name:8": "For Larger Sized Logs",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 8,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "tconstruct:sharpening_kit",
+          "tag:10": {
+            "Material:8": "flint"
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:jellydonutitem"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {}
+          },
+          "id:8": "tconstruct:hatchet",
+          "tag:10": {
+            "Modifiers:9": {
+              "0:10": {
+                "color:4": -7444965,
+                "identifier:8": "ecological",
+                "level:3": 1
+              },
+              "1:10": {
+                "color:4": -9868951,
+                "crude2:1": 1,
+                "identifier:8": "crude",
+                "level:3": 2
+              },
+              "2:10": {
+                "color:3": 16777215,
+                "identifier:8": "toolleveling",
+                "level:3": 1
+              }
+            },
+            "Special:10": {
+              "Categories:9": {
+                "0:8": "harvest",
+                "1:8": "aoe",
+                "2:8": "tool",
+                "3:8": "weapon"
+              }
+            },
+            "Stats:10": {
+              "Attack:5": 3.4,
+              "AttackSpeedMultiplier:5": 1.0,
+              "Durability:3": 120,
+              "FreeModifiers:3": 3,
+              "HarvestLevel:3": 0,
+              "MiningSpeed:5": 5.0
+            },
+            "StatsOriginal:10": {
+              "Attack:5": 3.4,
+              "AttackSpeedMultiplier:5": 1.0,
+              "Durability:3": 120,
+              "FreeModifiers:3": 3,
+              "HarvestLevel:3": 0,
+              "MiningSpeed:5": 5.0
+            },
+            "TinkerData:10": {
+              "Materials:9": {
+                "0:8": "wood",
+                "1:8": "flint",
+                "2:8": "wood"
+              },
+              "Modifiers:9": {
+                "0:8": "toolleveling"
+              }
+            },
+            "Traits:9": {
+              "0:8": "ecological",
+              "1:8": "crude2",
+              "2:8": "toolleveling"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

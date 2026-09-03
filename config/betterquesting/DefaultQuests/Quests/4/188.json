@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    189,
+    185
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§3Description To Be Added",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "mekanism:machineblock2"
+      },
+      "name:8": "Electrolysis! (Again)",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 188,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "mekanism:machineblock2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "preRequisites:11": [
+    51
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Are you tired of your old stone machines? Think that they\u0027re rather boring? Well fear not, you can make faster and better §arefractory machines with copper plates!\n§fRealistically, You\u0027ll only really use the §ecrucible and sawmill. §fThe §d§ekiln and oven §fdo have their own uses, but otherwise will likely go to the §aSeared Furnace\n§fRefractory Machines now run §b64 items at once instead of 16, making them 4x better.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pyrotech:brick_kiln"
+      },
+      "name:8": "Refractory Machines",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 55,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:brick_tank"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 5,
+          "id:8": "pyrotech:material"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:brick_kiln"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:brick_oven"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:brick_sawmill"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:brick_sawmill"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

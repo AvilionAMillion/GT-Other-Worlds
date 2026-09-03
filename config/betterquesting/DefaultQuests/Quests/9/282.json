@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    280
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Valkyrie Race have long been known for their masterful smithmanship, forging light yet strong weapons passed down throughout families for generations. Of course this means that we will then rob them of all their posessions and smelt it down into raw metal.\n\n§eValkyries §f(of which you probably recently fought a few) drop various Valkyrie armor pieces as loot, and also exist as the reward for their dungeon. You can wear it, however perhaps you should save it for other goals, since §aValkyrie Metal §fis so strong and yet light that you may find §bsome technological uses for it.§f\n\n(you need it for the cleanroom)",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 24025,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "Precious Heirlooms? Metal For Me!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 282,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 24025,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

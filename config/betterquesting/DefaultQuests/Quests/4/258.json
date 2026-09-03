@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    257
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "After electrolyzing the Blanched Gold you can pat yourself on the back, you just completed the first processing line of the pack and made a decent amount of gold from a completely seperate ore! For every one piece of precious metal ore, this process gets you about one gold dust, which is some pretty poor returns all things considered, but there are ways of improving this later on!\nSome more notes: The chlorine is recycled in this process, much like the nitrogen. The only input is Hydrogen and Oxygen, use that as you will. Also I recommend fully automating this because the manual carrying sucks after some time, and you\u0027ll need a decent amount of gold, even early on.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 9,
+        "Damage:2": 41,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "The Final Step",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 258,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 32,
+          "id:8": "gregtech:ore_precious_metal_0"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 9,
+          "Damage:2": 41,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

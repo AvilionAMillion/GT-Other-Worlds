@@ -1,0 +1,57 @@
+{
+  "preRequisites:11": [
+    270,
+    215
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§3Description To Be Added",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "botania:rune"
+      },
+      "name:8": "Making Runes!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 271,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "gtow:blankrune"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:rune"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "botania:rune"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "botania:rune"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "botania:rune"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

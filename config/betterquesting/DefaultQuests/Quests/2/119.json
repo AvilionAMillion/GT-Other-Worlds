@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    113,
+    116
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "With the power of the Fey you can imbue stone with the magical runic powder you made before, making a sturdy stone with very enchanting properties...\nAdditionally, you can further enhance it into a strong form of obsidian, with perhaps more magical applications.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "roots:runestone"
+      },
+      "name:8": "Runestone",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 119,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "roots:runestone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "roots:runed_obsidian"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

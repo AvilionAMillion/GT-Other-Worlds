@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    17
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aTinder §fis a handy combination of §edry plant fibers and sticks§f that can be used as a very flammable material.\nAlso, you should try to find some §b§ewheat to make straw. §fIt\u0027s a easier way of making it, but it\u0027s far from required.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pyrotech:tinder"
+      },
+      "name:8": "Tind\u0027r",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 16,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "harvestcraft:applesmoothieitem"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:tinder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    260,
+    238
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§2§3Description To Be Added",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mist:respirator_single"
+      },
+      "name:8": "Respirators",
+      "tasklogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 278,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mist:respirator_single"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mist:respirator_single_open"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

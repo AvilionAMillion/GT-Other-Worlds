@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    10
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "With your newfound chopping stump and wooden planks, you should attempt to make a §adrying rack. §fIt allows you to turn §eplant fibers into dry plant fibers,§f which is a more consistent source of twine.\n§fIt also will be necessary for making paper later on.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "pyrotech:drying_rack"
+      },
+      "name:8": "A Nice Rack",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 17,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 12,
+          "id:8": "pyrotech:material"
+        },
+        "1:10": {
+          "Count:3": 3,
+          "id:8": "minecraft:ladder"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "pyrotech:drying_rack"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

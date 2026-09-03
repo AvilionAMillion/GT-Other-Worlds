@@ -1,0 +1,174 @@
+{
+  "preRequisites:11": [
+    277
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§3Description To Be Added",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aether_legacy:leather_gloves"
+      },
+      "name:8": "Bronze Dungeon Basher",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 279,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "target:8": "aether_legacy:slider",
+      "targetNBT:10": {
+        "AABB:9": {
+          "0:6": -1.0,
+          "1:6": 0.0,
+          "2:6": -1.0,
+          "3:6": 1.0,
+          "4:6": 2.0,
+          "5:6": 1.0
+        },
+        "AbsorptionAmount:5": 0.0,
+        "Air:2": 300,
+        "ArmorDropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085,
+          "2:5": 0.085,
+          "3:5": 0.085
+        },
+        "ArmorItems:9": {
+          "0:10": {},
+          "1:10": {},
+          "2:10": {},
+          "3:10": {}
+        },
+        "Attributes:9": {
+          "0:10": {
+            "Base:6": 500.0,
+            "Name:8": "generic.maxHealth"
+          },
+          "1:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.knockbackResistance"
+          },
+          "2:10": {
+            "Base:6": 0.699999988079071,
+            "Name:8": "generic.movementSpeed"
+          },
+          "3:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.armor"
+          },
+          "4:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.armorToughness"
+          },
+          "5:10": {
+            "Base:6": 1.0,
+            "Name:8": "forge.swimSpeed"
+          },
+          "6:10": {
+            "Base:6": 16.0,
+            "Name:8": "generic.followRange"
+          }
+        },
+        "CanPickUpLoot:1": 0,
+        "DeathTime:2": 0,
+        "Dimension:3": 0,
+        "FallDistance:5": 0.0,
+        "FallFlying:1": 0,
+        "Fire:2": -1,
+        "ForgeCaps:10": {
+          "enderutilities:entity_portal_cooldown:10": {
+            "LastInPortal:4": 0
+          },
+          "nuclearcraft:capability_entity_rads:10": {
+            "consumed:1": 0,
+            "externalRadiationResistance:6": 0.0,
+            "giveGuidebook:1": 0,
+            "internalRadiationResistance:6": 0.0,
+            "maxRads:6": 25000.0,
+            "messageCooldownTime:3": 0,
+            "poisonBuffer:6": 0.0,
+            "radXCooldown:6": 0.0,
+            "radXUsed:1": 0,
+            "radXWoreOff:1": 0,
+            "radawayBuffer:6": 0.0,
+            "radawayBufferSlow:6": 0.0,
+            "radawayCooldown:6": 0.0,
+            "radiationImmunityStage:1": 0,
+            "radiationImmunityTime:6": 0.0,
+            "radiationLevel:6": 0.0,
+            "recentPoisonAddition:6": 0.0,
+            "recentRadXAddition:6": 0.0,
+            "recentRadawayAddition:6": 0.0,
+            "setMaxRads:1": 1,
+            "shouldWarn:1": 0,
+            "totalRads:6": 0.0
+          },
+          "pneumaticcraft:hacking:10": {},
+          "pyrotech:spear:10": {
+            "itemStacks:9": {},
+            "seed:3": 0
+          },
+          "twilightforest:cap_shield:10": {
+            "permshields:3": 0,
+            "tempshields:3": 0
+          }
+        },
+        "ForgeData:10": {},
+        "HandDropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085
+        },
+        "HandItems:9": {
+          "0:10": {},
+          "1:10": {}
+        },
+        "Health:5": 500.0,
+        "HurtByTimestamp:3": 0,
+        "HurtTime:2": 0,
+        "Invulnerable:1": 0,
+        "Leashed:1": 0,
+        "LeftHanded:1": 0,
+        "Motion:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "OnGround:1": 0,
+        "PersistenceRequired:1": 0,
+        "PortalCooldown:3": 0,
+        "Pos:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "Rotation:9": {
+          "0:5": 0.0,
+          "1:5": 0.0
+        },
+        "UUIDLeast:4": -5757201917792915296,
+        "UUIDMost:4": -5039663931029568482,
+        "UpdateBlocked:1": 0,
+        "bossName:8": "Rotunyarthon",
+        "doorEnd:11": [
+          0,
+          0,
+          0
+        ],
+        "doorStart:11": [
+          0,
+          0,
+          0
+        ],
+        "dungeonX:3": 0,
+        "dungeonY:3": 0,
+        "dungeonZ:3": 0,
+        "id:8": "aether_legacy:slider",
+        "isAwake:1": 0
+      },
+      "taskID:8": "bq_standard:hunt"
+    }
+  }
+}

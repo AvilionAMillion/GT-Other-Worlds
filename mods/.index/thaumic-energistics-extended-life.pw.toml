@@ -1,0 +1,17 @@
+filename = 'thaumic-energistics-extended-life-1.12.2-2.5.2.jar'
+name = 'Thaumic Energistics Extended Life'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'thaumic-energistics-extended-life-1.12.2-2.5.2.jar'
+
+[download]
+hash = '1e4bfc3ff156841e25c05d781bed0b8478ffc7ac'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8416527
+project-id = 849094

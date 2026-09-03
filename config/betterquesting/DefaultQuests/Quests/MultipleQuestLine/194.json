@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    179,
+    190,
+    193,
+    196
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "All of this work has not gone to waste, it is time to make the leap and bound to MV, Medium Voltage, at 128 EU per tick. Of course, the road to it is long and winding, so make haste and not waste!\n\nThe machine casing is fairly easy, as Aluminium should be in your wheelhouse at this point and the recipe is nothing special. The electronic components may be a little more convoluted however, as they require crafting an unpowered version before injecting it with Hydrogen in order to get it to function and be used as a component in any machine. Don\u0027t ask how that works though, I\u0027m not sure. The Good Electronic Circuit is your next hurdle, but not a terribly difficult one either. They take 3 circuits for each one though, so you may want to look to finding a cheaper way to make them... Food for thought, I guess.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 987,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "And With Powers Combined...",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 194,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 987,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 128,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 622,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

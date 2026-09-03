@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    135
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Grab some sulfur! Sulfur veins in the nether contain itself, obviously, pyrite, and spahlerite, which is useful later but for right now can only be processed into Zinc.\nMuch like with redstone, you\u0027ll want the dust, and thus will have to do the crushing method all over again.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 103,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "Smells Of Rotten Eggs",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 138,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gregtech:ore_sulfur_0"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gregtech:ore_pyrite_0"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gregtech:ore_sphalerite_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

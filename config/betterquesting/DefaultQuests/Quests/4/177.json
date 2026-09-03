@@ -1,0 +1,56 @@
+{
+  "preRequisites:11": [
+    165
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§3Description To Be Added",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:micainsulation"
+      },
+      "name:8": "Fullbody Coating",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 177,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 386,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 377,
+          "id:8": "gregtech:meta_dust_small"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 144,
+          "FluidName:8": "colloidalmica"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:micainsulation"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

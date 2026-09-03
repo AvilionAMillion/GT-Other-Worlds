@@ -1,0 +1,59 @@
+{
+  "preRequisites:11": [
+    35
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Do you have a lot of clay balls? Do you not know what to do with them? Fear not, the §acompacting bin §fwill save you! §eJust by putting they clay into the bin and hitting it with a shovel you can get clay blocks!§f Efficiency!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pyrotech:compacting_bin"
+      },
+      "name:8": "Tier -1 Compressor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 42,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {}
+          },
+          "id:8": "gregtech:shovel",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 3.5,
+              "AttackSpeed:5": -3.0,
+              "Durability:3": 0,
+              "HarvestLevel:3": 2,
+              "Material:8": "iron",
+              "MaxDurability:3": 256,
+              "ToolSpeed:5": 6.0
+            },
+            "HideFlags:3": 2
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:compacting_bin"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    145,
+    144
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Oops! Just because you have an Electronic Circuit doesn\u0027t mean you get electronics, dummy! No, in order to get to LV, and get the LV hull and LV components, you need an engineer\u0027s workshop. Even more of an undertaking!\n\nLuckily, none of the recipes are changed for the LV components, you just need the workshop to make them all. In fact, expect this to be a pattern. Initially, you cannot craft any of the electronic components normally, you\u0027re always going to need to do something extra for it.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 6,
+        "id:8": "artisanworktables:workshop"
+      },
+      "name:8": "Catch-22",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 146,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "artisanworktables:workshop"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

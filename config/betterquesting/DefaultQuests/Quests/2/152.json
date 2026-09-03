@@ -1,0 +1,70 @@
+{
+  "preRequisites:11": [
+    125
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Living Tools are a particularly useful set of tools from Roots! The main appeal of them is that they will automatically repair themselves overtime! They can also be tiered up to even more powerful or faster repairing tools.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {
+            "AS_Amulet_HolderLeast:4": -4648920116963100068,
+            "AS_Amulet_HolderMost:4": 3237099140495459049
+          }
+        },
+        "id:8": "roots:living_pickaxe"
+      },
+      "name:8": "I Want To Live!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 152,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {}
+          },
+          "id:8": "roots:living_sword"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {
+              "AS_Amulet_HolderLeast:4": -4648920116963100068,
+              "AS_Amulet_HolderMost:4": 3237099140495459049
+            }
+          },
+          "id:8": "roots:living_pickaxe"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {}
+          },
+          "id:8": "roots:living_axe"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {}
+          },
+          "id:8": "roots:living_shovel"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {}
+          },
+          "id:8": "roots:living_hoe"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

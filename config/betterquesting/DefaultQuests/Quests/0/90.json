@@ -1,0 +1,80 @@
+{
+  "preRequisites:11": [
+    89,
+    91
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aLeather§f is much more arduous to obtain now, so lets work to it!\nBy now, you should already know a little bit about butchery, and you should already have some pelts of some kind. Now you put it to the test. Combine those pelts with a knife in a crafting table to get scraped hide, and then soak that in a soaking pot to get a washed hide. Soak it again for tanned hide, and finally you can put it on a tanning rack for proper leather. You\u0027ll probably want to batch craft this stuff, since it takes a lot of time to make.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:leather"
+      },
+      "name:8": "Leatherworking",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 90,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 3,
+          "id:8": "pyrotech:bucket_clay",
+          "tag:10": {
+            "durability:3": 12,
+            "fluids:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "tannin"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:hide_scraped"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:hide_washed"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:hide_tanned"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:leather"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

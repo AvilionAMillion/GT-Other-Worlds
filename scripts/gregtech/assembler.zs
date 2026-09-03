@@ -316,14 +316,21 @@ assembler.recipeBuilder()
 	.buildAndRegister();
 # Modular Storage
 assembler.recipeBuilder()
-	.inputs(<rftools:machine_frame>, <mekanism:machineblock:13>, <gregtech:meta_item_1:291> * 2, <gregtech:meta_item_1:591> * 2, platePlastic * 4)
+	.inputs(<rftools:machine_frame>, <mekanism:machineblock:13>, <gregtech:meta_item_1:291> * 2, platePlastic * 4)
 	.outputs(<rftools:modular_storage>)
+	.EUt(100)
+	.duration(800)
+	.buildAndRegister();
+# Storage Scanner
+assembler.recipeBuilder()
+	.inputs(<rftools:machine_frame>, <gregtech:meta_item_1:217>, <gregtech:meta_item_1:232>, <gregtech:meta_item_1:732>, <gregtech:meta_item_1:591> * 4)
+	.outputs(<rftools:storage_scanner>)
 	.EUt(100)
 	.duration(800)
 	.buildAndRegister();
 # Storage 1 Module
 assembler.recipeBuilder()
-	.inputs(circuitMV * 2, plateAluminium, <gregtech:meta_wire_fine:277> * 8)
+	.inputs(circuitLV, plateSteel, <gregtech:meta_wire_fine:277> * 4)
 	.fluidInputs(<fluid:plastic> * 288)
 	.outputs(<rftools:storage_module>)
 	.EUt(90)
@@ -331,7 +338,7 @@ assembler.recipeBuilder()
 	.buildAndRegister();
 # Storage 2 Module
 assembler.recipeBuilder()
-	.inputs(circuitHV * 2, plateStainlessSteel, <gregtech:meta_wire_fine:277> * 16)
+	.inputs(circuitMV, plateAluminium, <gregtech:meta_wire_fine:277> * 8)
 	.fluidInputs(<fluid:plastic> * 576)
 	.outputs(<rftools:storage_module:1>)
 	.EUt(120)
@@ -362,6 +369,14 @@ assembler.recipeBuilder()
 	.EUt(80)
 	.duration(25)
 	.buildAndRegister();
+# Storage 3 Module
+assembler.recipeBuilder()
+	.inputs(circuitHV, plateStainlessSteel, <gregtech:meta_wire_fine:277> * 16)
+	.fluidInputs(<fluid:plastic> * 576)
+	.outputs(<rftools:storage_module:2>)
+	.EUt(120)
+	.duration(240)
+	.buildAndRegister();
 
 // HV
 # Diamond Chest
@@ -370,14 +385,6 @@ assembler.recipeBuilder()
 	.outputs(<ironchest:iron_chest:2>)
 	.EUt(240)
 	.duration(500)
-	.buildAndRegister();
-# Storage 3 Module
-assembler.recipeBuilder()
-	.inputs(circuitEV * 2, plateTitanium, <gregtech:meta_wire_fine:104> * 8)
-	.fluidInputs(<fluid:polytetrafluoroethylene> * 288)
-	.outputs(<rftools:storage_module:2>)
-	.EUt(240)
-	.duration(240)
 	.buildAndRegister();
 # Aether Portal Block
 assembler.recipeBuilder()

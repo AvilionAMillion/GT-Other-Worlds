@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    269
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The End has no ores that spawn in it, however this doesn\u0027t mean that mining here is a total bust. Endstone is very high in EV/IV metals and even if you aren\u0027t able to process them out quite yet, it does become a viable early source for high quality platinum, titanium, tungsten, etc.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 192,
+        "id:8": "minecraft:end_stone"
+      },
+      "name:8": "Uses For Endstone",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 275,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 192,
+          "id:8": "minecraft:end_stone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

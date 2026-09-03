@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    225
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§eChests are bad and ugly. We can fix that.\n\n§aModular Storage §fis an incredibly useful way of storing large amounts of items, perfect for your Gregtechian needs, its not as fleshed out as AE2, but it\u0027ll do for now! They don\u0027t take any power to run and depending on the storage module can store up to 300 stacks of items!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftools:modular_storage"
+      },
+      "name:8": "Modular Smodular",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 304,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:modular_storage"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

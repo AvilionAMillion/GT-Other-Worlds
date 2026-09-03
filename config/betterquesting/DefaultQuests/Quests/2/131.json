@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    125
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Wildroot is said to be the sapling of a much larger and much older tree, and while it will not grow into that tree on its own, with some encouragement it just might. Using the pyre ritual of \"Wildroot Growth\" on a fully grown crop of wildroot will grow it into it\u0027s much larger, former, tree self. Chop it down and get it\u0027s wood!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "roots:ritual_wildroot_growth"
+      },
+      "name:8": "Wildwood",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 131,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "roots:wildwood_log"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

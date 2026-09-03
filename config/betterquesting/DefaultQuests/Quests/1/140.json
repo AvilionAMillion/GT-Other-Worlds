@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    139
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You can smelt Rubber Pulp in a Crucible, and then pick it up in a tank or drum from Gregtech, after doing that you can put it into a basic worktable, and then craft yourself some very useful covered cables! These are important for making LV machines and some circuits, and also, of course, they will transfer GTEU.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 112,
+        "id:8": "gregtech:cable_single"
+      },
+      "name:8": "Cable Crafting!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 140,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 112,
+          "id:8": "gregtech:cable_single"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2517,
+          "id:8": "gregtech:cable_single"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

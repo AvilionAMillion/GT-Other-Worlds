@@ -1,0 +1,167 @@
+{
+  "preRequisites:11": [
+    126
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "What???? A Boss right after???? Well, it\u0027s not required immediately after, but soon you\u0027ll have to face the Twilight Lich in the tall towers around the forests and savannahs, kill him and take his bones!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "twilightforest:trophy"
+      },
+      "name:8": "BOSS: Twilight Lich",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 180,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "target:8": "twilightforest:lich",
+      "targetNBT:10": {
+        "AbsorptionAmount:5": 0.0,
+        "Air:2": 300,
+        "ArmorDropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085,
+          "2:5": 0.085,
+          "3:5": 0.085
+        },
+        "ArmorItems:9": {
+          "0:10": {},
+          "1:10": {},
+          "2:10": {},
+          "3:10": {}
+        },
+        "Attributes:9": {
+          "0:10": {
+            "Base:6": -2.0,
+            "Name:8": "tc.mobmod"
+          },
+          "1:10": {
+            "Base:6": 0.0,
+            "Name:8": "tc.mobmodtaint"
+          },
+          "2:10": {
+            "Base:6": 100.0,
+            "Name:8": "generic.maxHealth"
+          },
+          "3:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.knockbackResistance"
+          },
+          "4:10": {
+            "Base:6": 0.45000001788139343,
+            "Name:8": "generic.movementSpeed"
+          },
+          "5:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.armor"
+          },
+          "6:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.armorToughness"
+          },
+          "7:10": {
+            "Base:6": 1.0,
+            "Name:8": "forge.swimSpeed"
+          },
+          "8:10": {
+            "Base:6": 16.0,
+            "Name:8": "generic.followRange"
+          },
+          "9:10": {
+            "Base:6": 6.0,
+            "Name:8": "generic.attackDamage"
+          }
+        },
+        "CanPickUpLoot:1": 0,
+        "DeathTime:2": 0,
+        "Dimension:3": 0,
+        "FallDistance:5": 0.0,
+        "FallFlying:1": 0,
+        "Fire:2": -1,
+        "ForgeCaps:10": {
+          "enderutilities:entity_portal_cooldown:10": {
+            "LastInPortal:4": 0
+          },
+          "nuclearcraft:capability_entity_rads:10": {
+            "consumed:1": 0,
+            "externalRadiationResistance:6": 0.0,
+            "giveGuidebook:1": 0,
+            "internalRadiationResistance:6": 0.0,
+            "maxRads:6": 5000.0,
+            "messageCooldownTime:3": 0,
+            "poisonBuffer:6": 0.0,
+            "radXCooldown:6": 0.0,
+            "radXUsed:1": 0,
+            "radXWoreOff:1": 0,
+            "radawayBuffer:6": 0.0,
+            "radawayBufferSlow:6": 0.0,
+            "radawayCooldown:6": 0.0,
+            "radiationImmunityStage:1": 0,
+            "radiationImmunityTime:6": 0.0,
+            "radiationLevel:6": 0.0,
+            "recentPoisonAddition:6": 0.0,
+            "recentRadXAddition:6": 0.0,
+            "recentRadawayAddition:6": 0.0,
+            "setMaxRads:1": 1,
+            "shouldWarn:1": 0,
+            "totalRads:6": 0.0
+          },
+          "pneumaticcraft:hacking:10": {},
+          "pyrotech:spear:10": {
+            "itemStacks:9": {},
+            "seed:3": 0
+          },
+          "twilightforest:cap_shield:10": {
+            "permshields:3": 0,
+            "tempshields:3": 0
+          }
+        },
+        "ForgeData:10": {},
+        "HandDropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085
+        },
+        "HandItems:9": {
+          "0:10": {},
+          "1:10": {}
+        },
+        "Health:5": 100.0,
+        "HurtByTimestamp:3": 0,
+        "HurtTime:2": 0,
+        "Invulnerable:1": 0,
+        "Leashed:1": 0,
+        "LeftHanded:1": 0,
+        "MinionsToSummon:1": 9,
+        "Motion:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "OnGround:1": 0,
+        "PersistenceRequired:1": 0,
+        "PortalCooldown:3": 0,
+        "Pos:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "Rotation:9": {
+          "0:5": 2.7342553,
+          "1:5": 0.0
+        },
+        "ShadowClone:1": 0,
+        "ShieldStrength:1": 5,
+        "UUIDLeast:4": -7577669254624882522,
+        "UUIDMost:4": -5507328778163304433,
+        "UpdateBlocked:1": 0,
+        "id:8": "twilightforest:lich"
+      },
+      "taskID:8": "bq_standard:hunt"
+    }
+  }
+}

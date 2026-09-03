@@ -1,0 +1,88 @@
+{
+  "preRequisites:11": [
+    103
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Make some of the Rustic Elixirs! The current ones available are the Elixir of Instant Health, the Elixir of Regeneration, the Elixir of Speed, and the Elixir of Night Vision. Each take a specific herb and some other ingredient in order to make.\n\n§bChamomile is found in forests and plains\n\nCohosh is found in forests and plains as well\n\nWind Thistle is found on mountains\n\nMooncap Mushroom is found in jungles and caves\n\n§fGood luck hunting!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rustic:elixir",
+        "tag:10": {
+          "ElixirEffects:9": {
+            "0:10": {
+              "Amplifier:3": 0,
+              "Duration:3": 1,
+              "Effect:8": "minecraft:instant_health"
+            }
+          }
+        }
+      },
+      "name:8": "Early Elixirs",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 101,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rustic:elixir",
+          "tag:10": {
+            "ElixirEffects:9": {
+              "0:10": {
+                "Amplifier:3": 0,
+                "Duration:3": 1,
+                "Effect:8": "minecraft:instant_health"
+              }
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "rustic:elixir",
+          "tag:10": {
+            "ElixirEffects:9": {
+              "0:10": {
+                "Amplifier:3": 0,
+                "Duration:3": 900,
+                "Effect:8": "minecraft:regeneration"
+              }
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "rustic:elixir",
+          "tag:10": {
+            "ElixirEffects:9": {
+              "0:10": {
+                "Amplifier:3": 0,
+                "Duration:3": 3600,
+                "Effect:8": "minecraft:speed"
+              }
+            }
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "rustic:elixir",
+          "tag:10": {
+            "ElixirEffects:9": {
+              "0:10": {
+                "Amplifier:3": 0,
+                "Duration:3": 3600,
+                "Effect:8": "minecraft:night_vision"
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

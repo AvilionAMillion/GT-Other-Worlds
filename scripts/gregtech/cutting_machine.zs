@@ -340,6 +340,48 @@ cutter.recipeBuilder()
 	.EUt(7)
 	.duration(200)
 	.buildAndRegister();
+cutter.recipeBuilder()
+	.inputs(<rustic:log>)
+	.fluidInputs(<liquid:water> * 4)
+	.outputs(<rustic:planks> * 6, <gregtech:meta_dust:1617> * 2)
+	.EUt(7)
+	.duration(400)
+	.buildAndRegister();
+cutter.recipeBuilder()
+	.inputs(<rustic:log>)
+	.fluidInputs(<liquid:distilled_water> * 3)
+	.outputs(<rustic:planks> * 6, <gregtech:meta_dust:1617> * 2)
+	.EUt(7)
+	.duration(300)
+	.buildAndRegister();
+cutter.recipeBuilder()
+	.inputs(<rustic:log>)
+	.fluidInputs(<liquid:lubricant> * 1)
+	.outputs(<rustic:planks> * 6, <gregtech:meta_dust:1617> * 2)
+	.EUt(7)
+	.duration(200)
+	.buildAndRegister();
+cutter.recipeBuilder()
+	.inputs(<rustic:log:1>)
+	.fluidInputs(<liquid:water> * 4)
+	.outputs(<rustic:planks:1> * 6, <gregtech:meta_dust:1617> * 2)
+	.EUt(7)
+	.duration(400)
+	.buildAndRegister();
+cutter.recipeBuilder()
+	.inputs(<rustic:log:1>)
+	.fluidInputs(<liquid:distilled_water> * 3)
+	.outputs(<rustic:planks:1> * 6, <gregtech:meta_dust:1617> * 2)
+	.EUt(7)
+	.duration(300)
+	.buildAndRegister();
+cutter.recipeBuilder()
+	.inputs(<rustic:log:1>)
+	.fluidInputs(<liquid:lubricant> * 1)
+	.outputs(<rustic:planks:1> * 6, <gregtech:meta_dust:1617> * 2)
+	.EUt(7)
+	.duration(200)
+	.buildAndRegister();
 
 // LV Tier
 # Alpha Yeti Clippings

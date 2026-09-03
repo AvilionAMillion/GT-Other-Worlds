@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    69,
+    68
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Something vital for many mechanical circuits. §aRedstone§f. But it wont be easy to get...\n\nFirst, you need to find §ea redstone vein.§f They\u0027re not super common, but you\u0027ll be sure to find one eventually. Next you\u0027ll need §ea cauldron§f which is a simple enough recipe right now.\nThen you need to turn your §eRedstone Ore into Crushed Redstone Ore§b by breaking it with a hammer§f. It §cneeds to be an iron hammer§f since Redstone is iron mining level. Then you\u0027ll have to turn that crushed ore into §eImpure Pile of Redstone Dust §fby putting it with a hammer in a crafting grid. Finally, in a cauldron filled with water, you can throw up to a full stack of Impure Redstone Dust in to make pure Redstone. How nice§d.\nYou can do this same process with other impure dusts to get more bang for your buck, but with GT mining hammers it\u0027s not the biggest help in my opinion§f",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:redstone"
+      },
+      "name:8": "Red Stone Redemption",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 78,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_redstone_0"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:cauldron"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:redstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

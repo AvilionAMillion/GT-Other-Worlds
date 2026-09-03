@@ -1,0 +1,40 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Hello Player and welcome to §aGregtech - Other Worlds§f! This pack is made as a collaborative effort of the GTOW team, and credit is given to each member of the team on the packs main page.\nThis modpack is made mostly off the mod §e§eGregtech Community Edition Unofficial§0§0§f and so there is some expertise of Gregtech recommended, however players of all skill levels can still enjoy the pack!\nCheck the box to begin playing!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "biomesoplenty:earth"
+      },
+      "name:8": "Genesis",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 0,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {}
+          },
+          "id:8": "akashictome:tome"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "id:8": "harvestcraft:pizzasoupitem"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

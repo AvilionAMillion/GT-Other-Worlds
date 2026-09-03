@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    98
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Wooden crop stakes are used to hold certain crops in place, allowing you to farm things like chili peppers and tomatos.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rustic:crop_stake"
+      },
+      "name:8": "Stake Out",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 102,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "rustic:chili_pepper_seeds"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "rustic:tomato_seeds"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rustic:crop_stake"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

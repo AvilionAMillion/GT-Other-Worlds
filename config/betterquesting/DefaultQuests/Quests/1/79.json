@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    77
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "For every steam machine after the alloy smelter and furnace (miner is not craftable) You\u0027ll need §apistons§f in some capacity. They\u0027re not something you can cheap out on, however.\nThe recipe is not very difficult, but it can be expensive when crafting a lot of them. But, they\u0027re required, and I\u0027m sure you can tough through it.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:piston"
+      },
+      "name:8": "Piston Power!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 79,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:fence"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:piston"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:piston"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

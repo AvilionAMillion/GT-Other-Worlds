@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    84
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Has your Granite Anvil been breaking a lot? Well don\u0027t worry, the Ironclad Anvil has come to save you! It has eight times the durability of the granite anvil! How amazing! Wait... why is this required?",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pyrotech:anvil_iron_plated"
+      },
+      "name:8": "Ironclad Anvil",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 86,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:anvil_iron_plated"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

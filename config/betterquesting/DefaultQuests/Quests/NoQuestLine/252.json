@@ -1,0 +1,19 @@
+{
+  "preRequisites:11": [
+    251
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "If you made it here, congrats! Thank you for playing GT - Other Worlds, at least in its unfinished state. This pack has been a passion project of mine for several years and I\u0027ve gone through a lot while working on it in the background, it took a lot of things at once for all the dominoes to fall into place for this alpha being released. And I\u0027m glad if you see this! Hope you stick around for more GTOW in the future!\nA short and non-complete list of thanks to give:\n§d§fThank you to §dNyagi_Byte§f, one of the original contributers on the pack and someone who got me into gregtech on her own rights. She is also a fellow modpack dev!\nThank you to §dLgmrszd §fwho not only supported me making this pack, but also made the Harvestcraft ZS file, thank you so much!\nThank you to §dAce_Muffins §fwho contributed some textures.\nThank you to §dWaitingIdly §fwho helped with some multiblock development and gave permission to use the Divine Journey 2 petal textures\nThank you to §dIncandescenseSy §ffor help with some other multiblock parts.\nAnd, of course, thank you, for playing up to this point, let\u0027s hope the pack only gets better!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:barrier"
+      },
+      "name:8": "ERROR 404: PROGRESSION NOT FOUND",
+      "visibility:8": "HIDDEN"
+    }
+  },
+  "questID:3": 252,
+  "tasks:9": {}
+}

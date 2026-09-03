@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    147
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Electricity is kind of useless without a way to make it, so make a steam turbine! This generator will turn your boiler-produced steam into fully functioning electricity! Perfect for the kids!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 950,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Whrrrrrrr",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 148,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 950,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

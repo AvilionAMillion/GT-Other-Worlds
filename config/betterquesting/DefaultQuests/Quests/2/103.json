@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    98
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Find any of the Rustic crops! You can look in the alamanac to find out where to find any of the crops.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rustic:wind_thistle"
+      },
+      "name:8": "More Herboculture!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 103,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "rustic:fertile_soil"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "OreDict:8": "cropRustic",
+          "id:8": "rustic:chamomile"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

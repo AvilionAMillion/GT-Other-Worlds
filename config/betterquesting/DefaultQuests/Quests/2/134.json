@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    133,
+    127
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Runic dust is so old school. No matter what you can do it seems to stay as a dust, and will never be usable as anything but. Luckily, you\u0027ve found a potential way to make a very powerful type of ingot, something that may turn out to be quite versatile. By performing the transmutation ritual on blocks of ironwood, they turn into \"Runic Metal\", which is strong, durable, and quite magical. Go and Make some posthaste!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 24010,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "Runic Metal",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 134,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 9,
+          "id:8": "gregtech:meta_block_compressed_1500"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 24010,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

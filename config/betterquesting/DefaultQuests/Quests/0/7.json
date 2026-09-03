@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    6,
+    5,
+    4
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §asmall flint hatchet §fdoesn\u0027t actually have much use as a hatchet, but it is an important beginner crafting item. \nAdditionally, the §asmall flint file§f will also end up being used in early recipes. There are also other flint tools that will have to be made, but those will come up when they have to, and they\u0027re all exceedingly simple to craft.\n",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:flintaxe"
+      },
+      "name:8": "Early Flint Tools",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 7,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 10,
+          "id:8": "pyrotech:material"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "minecraft:string"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:flintaxe"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:flintfile"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

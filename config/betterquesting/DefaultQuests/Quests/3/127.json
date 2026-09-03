@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    123
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Find §aLiveroot §funderground and alloy it with steel in order to make §aIronwood!§f The first of the Twilight Alloys. \n\nLiveroot looks like a green version of the regular root blocks. If you are running low on it, you can make more in the Fey Crafter.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 24009,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "It\u0027s Iron AND Wood!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 127,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 24009,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

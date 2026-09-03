@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    8,
+    11
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "With a §achopping block §fand §aflint hatchet§f in hand, you can now go and chip chop your way to some §e§b§awooden planks!\n§fThe chopping block is an §ein world crafting station,§f when you place a log on it with right clock it will appear on the stump. Hitting the chopping block with right click using your axe will slowly break apart the log, eventually returning planks!\nThe Flint Hatchet returns §conly two planks for each log.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:planks"
+      },
+      "name:8": "Better Wood",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:gourmetporkburgeritem"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "OreDict:8": "plankWood",
+          "id:8": "minecraft:planks"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

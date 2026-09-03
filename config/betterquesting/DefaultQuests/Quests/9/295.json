@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    277
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§3Description To Be Added.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:ore_bauxite_0"
+      },
+      "name:8": "Bauxite \u0026 Ilmenite",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 295,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_bauxite_0"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_ilmenite_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

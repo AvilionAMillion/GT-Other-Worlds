@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    110
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Your first roots crops (Other than Baffle Cap or Wildroot) will be gotten with runic dust. These runic crops can be used for certain spells or, also, crafting recipes. The Tier 1 Crops are required for the Tier 2 Crops",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "roots:dewgonia"
+      },
+      "name:8": "Cloudy Dew",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 99,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "rustic:fertile_soil"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "roots:dewgonia"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "roots:cloud_berry"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

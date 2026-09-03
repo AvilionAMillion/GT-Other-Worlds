@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    136
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Using glue, you can now make two other important circuit components, the coated circuit board and resistors! Surrounding the coated circuit board in cables will get you a proper circuit board as well, perfect for putting some components to!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 401,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "More Circuitry!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 143,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 381,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 401,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 519,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

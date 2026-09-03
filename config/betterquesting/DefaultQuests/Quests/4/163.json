@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    150
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Craft a Fluid Solidifier! It allows you to... solidify fluids? Honestly these machines are real simple to write out flavor text for.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 395,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Basic Fluid Solidifier",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 163,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 395,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

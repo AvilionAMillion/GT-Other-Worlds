@@ -1,0 +1,84 @@
+{
+  "preRequisites:11": [
+    70
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Steam Machines use a looooooooooot of steam, so you\u0027re going to want some backup steam that you can use. You need some §astorage options§f.\nThere\u0027s two main ones, the §aWooden Multiblock Tank §for the §aTinker Tank§f. There\u0027s also drums but those are... less useful. §eThe wooden multiblock tank stores 250 buckets§f and pretty nicely at that, it\u0027s also relatively inexpensive, mostly just costing iron and wood. §eIt also automatically outputs fluids using a valve at the bottom.\n§fThe Tinker Tank takes seared bricks, which may be slightly more expensive, and also takes a lot of glass. However, §e§b§ethe tinkers tank is able to be expanded and can hold anywhere from 108 to potentially infinite buckets§f. The way it calculates how much liquid a tinker tank can store is by the amount of blocks in the structure, §bevery block in the structure counts for 4 more buckets§f. The only drawback to a tinker\u0027s tank is that Gregtech pipes do not autoexport from the drains in them, you must use a pump\n§cEither 3x3 tank works for this quest",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1611,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Steam Storage!",
+      "tasklogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 75,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 142,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 6,
+          "Damage:2": 260,
+          "id:8": "gregtech:fluid_pipe_small"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1597,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 1596,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 23,
+          "Damage:2": 5,
+          "id:8": "gregtech:steam_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:tinker_tank_controller"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "id:8": "tconstruct:smeltery_io"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "id:8": "tconstruct:seared_glass"
+        },
+        "3:10": {
+          "Count:3": 15,
+          "Damage:2": 3,
+          "id:8": "tconstruct:seared"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

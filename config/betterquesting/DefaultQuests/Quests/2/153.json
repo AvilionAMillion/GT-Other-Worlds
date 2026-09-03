@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    152
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Eh?\n\nMake the Roots Bow items.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {}
+        },
+        "id:8": "roots:wildwood_bow"
+      },
+      "name:8": "Shooting Fish In a Forest",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 153,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {}
+          },
+          "id:8": "roots:wildwood_bow"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {}
+          },
+          "id:8": "roots:wildwood_quiver"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "roots:living_arrow"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

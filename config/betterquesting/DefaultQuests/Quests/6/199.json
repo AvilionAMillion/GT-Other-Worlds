@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    194
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "As we are now entering MV, your own ability to use Gregtech and your wit will become increasingly important. There wont be quests for many individual machines from now on, make whatever machines you think will help you progress! You definitely need the components first though, get that settled.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 188,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "MV Components",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 199,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 143,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 158,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 173,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 188,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

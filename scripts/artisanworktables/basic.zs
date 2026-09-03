@@ -25,7 +25,7 @@ RecipeBuilder.get("basic")
     [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
     [<ore:string>, <artisanworktables:worktable:5>, <ore:string>],
     [<pyrotech:material:16>, <minecraft:chest>, <pyrotech:material:16>]])
-  .addTool(<ore:artisansHammer>, 25)
+  .addTool(<ore:artisansHammer>, 5)
   .addOutput(<artisanworktables:workstation:5>)
   .create();
 # Basic Workshop
@@ -34,8 +34,8 @@ RecipeBuilder.get("basic")
     [<pyrotech:material:20>, <tconstruct:pattern>, <pyrotech:material:20>],
     [<pyrotech:material:26>, <artisanworktables:workstation:5>, <pyrotech:material:26>],
     [<pyrotech:material:23>, woodToughBinding, <pyrotech:material:23>]])
-  .addTool(<ore:artisansHammer>, 25)
-  .addTool(<ore:artisansHandsaw>, 25)
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansHandsaw>, 5)
   .addOutput(<artisanworktables:workshop:5>)
   .create();
  # Mason's Workshop
@@ -47,9 +47,9 @@ RecipeBuilder.get("basic")
     [<pyrotech:planks_tarred>, <tconstruct:tough_binding>.withTag({Material: "wood"}), <pyrotech:material:26>, <tconstruct:tough_binding>.withTag({Material: "wood"}), <pyrotech:planks_tarred>],
     [<pyrotech:planks_tarred>, <pyrotech:planks_tarred>, <pyrotech:material:26>, <pyrotech:planks_tarred>, <pyrotech:planks_tarred>]])
   .setFluid(<liquid:liquid_clay> * 4000)
-  .addTool(<ore:artisansHammer>, 50)
-  .addTool(<ore:artisansChisel>, 50)
-  .addTool(<ore:artisansTSquare>, 50)
+  .addTool(<ore:artisansHammer>, 10)
+  .addTool(<ore:artisansChisel>, 10)
+  .addTool(<ore:artisansTSquare>, 10)
   .addOutput(<artisanworktables:workshop:2>)
   .create();
 # Engineer's Workshop
@@ -61,9 +61,9 @@ RecipeBuilder.get("basic")
     [<roots:wildwood_planks>, <ore:frameGtTreatedWood>, <ore:frameGtTreatedWood>, <ore:frameGtTreatedWood>, <roots:wildwood_planks>],
     [<roots:wildwood_planks>, <roots:wildwood_planks>, <roots:wildwood_planks>, <roots:wildwood_planks>, <roots:wildwood_planks>]])
   .setFluid(<liquid:rubber> * 1440)
-  .addTool(<ore:artisansCutters>, 150)
-  .addTool(<ore:artisansHammer>, 150)
-  .addTool(<ore:artisansTSquare>, 150)
+  .addTool(<ore:artisansCutters>, 30)
+  .addTool(<ore:artisansHammer>, 30)
+  .addTool(<ore:artisansTSquare>, 30)
   .addOutput(<artisanworktables:workshop:6>)
   .create();
   

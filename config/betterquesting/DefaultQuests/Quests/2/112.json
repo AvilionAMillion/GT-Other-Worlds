@@ -1,0 +1,58 @@
+{
+  "preRequisites:11": [
+    110
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Make a Grove Stone and perform the Grove Supplication ritual! This will empower the grove stone, attracting fey to your territory. These Fey can plant flowers, but they can also help power some certain crafts...",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "roots:ritual_grove_supplication"
+      },
+      "name:8": "Ritual: Grove Supplication",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 112,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "roots:grove_stone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:iron_door"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 24008,
+          "id:8": "gregtech:meta_dust"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "roots:petals"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "roots:wildroot"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "OreDict:8": "treeSapling",
+          "id:8": "rustic:sapling_apple"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

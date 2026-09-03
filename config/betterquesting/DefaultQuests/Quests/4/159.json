@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    158,
+    160
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "That sphalerite you grabbed earlier can be smelted into zinc, if you turn it into some foils you can even lubricate them! Perfect for machines that need just a little bit of tweaking-up. You get more bang for your buck with your foils if you use a metal bender as well. Doubly useful!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:lubricatedfoil"
+      },
+      "name:8": "labricated",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 159,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:lubricatedfoil"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    15
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §aPit Kiln§f is a way to fire up objects early on, it can be used to make §eclay tools§f and it can §esmelt cobblestone into stone. §fYou\u0027ll end up using both of these.\nTo use it, §bplace down the kiln in the ground and then place the object you want to fire on top of it. Cover it with a Straw Bale and then place wood on top of it.§f Lighting it on fire will start the process of burning the item. §e§bYou can burn up to 8 of the same item at once in a single pit kiln§f.\n§b§eThe Pit Kiln must be surrounded on all sides for it to work.\n\n§dTip! You should run around 6 to 8 of these things this early on. Before you get stone machines it\u0027s the only way to make smooth stone or clay tools. If you\u0027re feeling cheap however, make just enough for a stone kiln and make the rest of your smooth stone using that.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pyrotech:kiln_pit"
+      },
+      "name:8": "Controlled Burn",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 19,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 13,
+          "id:8": "pyrotech:material"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:kiln_pit"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:thatch"
+        },
+        "2:10": {
+          "Count:3": 3,
+          "OreDict:8": "logWood",
+          "id:8": "minecraft:log"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

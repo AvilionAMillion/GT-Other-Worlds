@@ -1,0 +1,56 @@
+{
+  "preRequisites:11": [
+    98
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Make a crushing tub! This can be used to crush down certain items into a crushed form. Like honeycombs into honey, or grapes into grape juice.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rustic:crushing_tub"
+      },
+      "name:8": "Crushing",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 104,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:meta_tool",
+            "orig_meta:3": 5,
+            "orig_tag:10": {
+              "GT.ToolStats:10": {
+                "Material:8": "steel"
+              }
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 2,
+          "id:8": "harvestcraft:grapesmoothieitem"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rustic:crushing_tub"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

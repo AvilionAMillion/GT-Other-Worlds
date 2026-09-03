@@ -1,0 +1,60 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    0,
+    0
+  ],
+  "preRequisites:11": [
+    259,
+    301,
+    300
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aTitanium §fis the primary material in EV, not only that, its required for a lot of Applied Energistics components, you need Titanium and you need it now! You should have gotten a good supply of rutile already, thats good, you need to react that with carbon and chlorine to get §eTitanium Tetrachloride.\n\n§fOnce you get Titanium Tetrachloride, you\u0027re able to use an Electric Blast Furnace with Magnesium to get §f§eHot Titanium Ingots§f, however, unlike your prior Hot Ingots, which you could just wash with Liquid Nitrogen, Titanium needs a proper cooler to chill it down.\n\nThus, you use your also recently acquired Vacuum Freezer to cool Hot Titanium into §eTitanium Ingots! §fEverything gets recycled in this loop except for the rutile, so go wild!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 113,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "T Stands For...",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 303,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "titanium_tetrachloride"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 113,
+          "id:8": "gregtech:meta_ingot_hot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 113,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

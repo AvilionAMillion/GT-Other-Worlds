@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    250,
+    245,
+    225
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "After toiling away in the factory for days, you finally have it, everything required for §aHigh Voltage technology. §fLet\u0027s talk about the fine points of getting there now, shall we.\nStainless Steel and HV Circuits should already be in your periphery, and as such the machine hull and circuits are self explanatory. It is the components that may cause an impass. For to get your earliest HV components, you must make them first in an MV Assembler, and then finally finish assembling them using a pneumaticcraft assembly line. \nNote that these are unlike the MV components, and things like the pistons and robot arms are made of the finished motors rather than the unfinished ones.\nYou want your component assemblers, but get to HV!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 988,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "A Stainless Steel Ship On The Shoreline",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 251,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 988,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 129,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 625,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

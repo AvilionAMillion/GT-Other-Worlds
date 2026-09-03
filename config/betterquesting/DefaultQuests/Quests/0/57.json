@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    55
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§eRefractory Crucibles§f can get hot enough to melt cobblestone into §alava, §fa very useful feature! Grab some lava, but be warned because it\u0027ll set you on fire while holding it!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {}
+        },
+        "id:8": "minecraft:lava_bucket"
+      },
+      "name:8": "Hot, Hot!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 57,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "minecraft:bucket"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "lava"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

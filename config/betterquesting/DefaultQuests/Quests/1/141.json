@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    95
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Using steel plates you can make molds, these allow you to make certain things in the alloy smelter! Namely glass tubes, which take the ball mold and you\u0027ll be using a lot of eventually.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 17,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "Mold And Form",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 141,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 17,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

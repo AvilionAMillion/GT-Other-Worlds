@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    45,
+    90
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §aBloomery§f is the first way of smelting any ores, and it is baaaaaad at it.\nIt requires the ore (or dust) to be placed into the §btop first, and then fuel put on top of that. You then light the top on fire and it starts. §fIt is verrrrrrrry slow, however can be sped up using §abellows §fplaced next to it.\nOnce it\u0027s finished you will get a bloom. This bloom should be §bpicked up with tongs and then placed onto an anvil,§f where you can then smash it with a §abloom hammer (like the mason one) §fgetting §eslag, nuggets, and dust in the process.§f\nBe careful! The bloom is very hot and may start a fire!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pyrotech:bloomery"
+      },
+      "name:8": "Primitive Metallurgy",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 44,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "pyrotech:living_tar"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:bloomery"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:bellows"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {}
+          },
+          "id:8": "contenttweaker:hammer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

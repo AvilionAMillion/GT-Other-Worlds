@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    79
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "It breaks rocks! Info is in the tooltip, place water and lava next to it and it will pop out cobblestone and possibly other materials.\nI mean, you §lcan §0§fmake it, but I\u0027ll don\u0027t think you need me to tell you that it\u0027s not required.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 19,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Steam Rock Breaker",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 83,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "minecraft:iron_ingot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 19,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

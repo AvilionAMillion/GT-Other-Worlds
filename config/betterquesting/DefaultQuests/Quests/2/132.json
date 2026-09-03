@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    130
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Combining every single crop into one powder proves to be successful venture. Perhaps nothing will ever be able to beat this powder, it is perfect.\n\nIt can be used to light a Nether Portal, but additionally, it has uses in making small mana powder and, perhaps most interestingly, some Fey recipes. This dust has some inherent magical properties, and thus can be used to make some recipes that normally take Fey crafting without any Fey at all.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:perfectpowder"
+      },
+      "name:8": "It\u0027s Perfect!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 132,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:perfectpowder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

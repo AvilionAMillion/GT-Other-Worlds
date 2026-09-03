@@ -1,0 +1,26 @@
+{
+  "preRequisites:11": [
+    161,
+    173
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "In Low Voltage you have access to only a limited amount of multiblocks, and only one power generation option. That doesn\u0027t mean these mutliblocks are going to be a pushover, they\u0027re still very expensive and very useful to have.\n\nThe multiblocks you have access to because of this tier are:\n\n§9Large Bronze Boiler §d(Specialized Steam Generator)§9\nIndustrial Steam Engine §d(Multiblock Power Generator)§9\nElectric Blast Furnace §c§d(Required for Progression)\n",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1151,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "LV Multiblocks",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 169,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

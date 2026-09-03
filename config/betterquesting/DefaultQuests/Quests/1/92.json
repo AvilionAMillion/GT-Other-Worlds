@@ -1,0 +1,66 @@
+{
+  "preRequisites:11": [
+    88
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "With your upped mining level you can mine two specific ores, Calcite and Gypsum. You\u0027re going to end up needing both of these. Since they spawn so occasionally in their respective veins, you should use a hammer to obtain them.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 262,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "Calcite And Gypsum",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 92,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 19,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:meta_tool",
+            "orig_meta:3": 19,
+            "orig_tag:10": {
+              "GT.ToolStats:10": {
+                "Material:8": "wrought_iron"
+              },
+              "RepairCost:3": 1,
+              "ench:9": {
+                "0:10": {
+                  "id:3": 32,
+                  "lvl:2": 2
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 262,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2032,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

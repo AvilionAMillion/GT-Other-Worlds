@@ -1,0 +1,71 @@
+{
+  "preRequisites:11": [
+    135,
+    178,
+    180
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Is it even spelt right?\n\n§aChrysopoeia §fis the last spell in roots you will get for a while, it allows the user to turn objects into other ones, like rotten flesh into leather, or copper into iron. You may get use out of it for turning §eSteel Dust directly into Runic Dust §fand §f§eRunic Dust directly into Runic Metal§f. Runic tools are pretty good for what it\u0027s worth, and are a significant upgrade from Steel, and this spell cheapens the process.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "roots:spell_icon",
+        "tag:10": {
+          "spell_storage:10": {
+            "s:8": "roots:spell_chrysopoeia"
+          }
+        }
+      },
+      "name:8": "Chrysopoeia",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 181,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 32,
+          "id:8": "minecraft:gold_ingot"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 2,
+          "id:8": "gregtech:meta_ingot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:ancientbone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:glowstone_dust"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:diamond"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 301,
+          "id:8": "gregtech:meta_plate"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "roots:infernal_bulb"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

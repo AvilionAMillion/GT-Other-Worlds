@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    251
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aPlatinum §fis a resource you will use in incredibly large amounts as you head into later tiers. Unfortunately for right now your sources of platinum are. Lacking.\n\nThe only way to obtain platinum is to put §ecrude platinum dust §fin an EBF to get platinum nuggets. There are only three sources of crude platinum right now, §b1. Regular Nickel Ore§f, §b2. Nickel Shale from the Misty World§f, and §b3. Endstone maceration/endstone dust§f. No matter what option you choose its going to give poor returns. Nickel shale is definitely the best option but requires a respirator to access. Endstone is easily renewable and the End is necessary in progression. Ultimately, you must figure it out yourself. Get an ingot for me.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 80,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "#PlatNation",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 272,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 80,
+          "id:8": "gregtech:meta_ingot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 80,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

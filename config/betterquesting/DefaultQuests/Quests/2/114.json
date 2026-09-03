@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    113
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "With the Fey Crafter, you are now able to make the tier 2 crops! Same story with tier 1, can be planted and bonemealed and harvested just like any old crop. These crops should prove even more magical than the ones before it!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "roots:pereskia"
+      },
+      "name:8": "Even More Crops!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 114,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "roots:pereskia"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "roots:moonglow_leaf"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

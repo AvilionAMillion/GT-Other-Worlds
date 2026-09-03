@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    125,
+    126
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Beat the Naga and unlock the final crops from Roots! Stalicripe and Infernal Bulbs",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "roots:stalicripe"
+      },
+      "name:8": "Tier 4 Crops!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 130,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "roots:stalicripe"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "roots:infernal_bulb"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

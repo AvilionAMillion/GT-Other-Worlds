@@ -1,0 +1,79 @@
+{
+  "preRequisites:11": [
+    309,
+    272
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§bC\u0027mon lets not dillydally, let\u0027s get to the good stuff.\n\n§fIf you havent already, grab the inscriber presses from meteors scattered around the world. Then make some inscribed silicon, this will be the basis of all your processors. However you can\u0027t go forming processors immediately, you need some §aInscribed Printed Silicon§f, a recipe that can be made for cheaper depending on if you use more advanced circuits. Progressive, I know!\nAfter that you can then make your three processors, with some platinum wire of course. §aInscribed Logic §fis primarilly for §estorage materials and I/O busses.§f §aInscribed Calculation §fis primarilly used for §eautocrafting components§f, and §aInscribed Engineering §fis primarilly used in §emore expensive late-game AE2 recipes§f.\n\nAll of these things are made in GT machines, no Inscriber for you!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 24,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "Pressed To Impress",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 310,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 19,
+          "id:8": "appliedenergistics2:material"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 15,
+          "id:8": "appliedenergistics2:material"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 13,
+          "id:8": "appliedenergistics2:material"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 14,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gtow:inscribedsilicon"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 22,
+          "id:8": "appliedenergistics2:material"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 23,
+          "id:8": "appliedenergistics2:material"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 24,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

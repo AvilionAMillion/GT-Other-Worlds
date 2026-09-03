@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    150
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§fThe Autoclave is! fairly useless at this point in time. The main purpose of it later is to crystallize gems with water, but you aren\u0027t doing that at this point so you don\u0027t really need one. Except you do! It\u0027s actually a crafting component for later! Make it you schemer!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 125,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Basic Autoclave",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 186,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 125,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

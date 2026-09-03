@@ -93,6 +93,15 @@ ebf.recipeBuilder()
 	.property("temperature", 2200)
 	.duration(140 * 20)
 	.buildAndRegister();
+# Steel w/ Fire Rune
+ebf.recipeBuilder()
+	.inputs(<gregtech:meta_dust:51> * 4, <gregtech:meta_dust:18>)
+	.notConsumable(<botania:rune:1>)
+	.outputs(<gregtech:meta_ingot:324> * 4)
+	.EUt(1920)
+	.property("temperature", 2000)
+	.duration(7 * 20)
+	.buildAndRegister();
 	
 // Nichrome Coil
 # Ilmenite Smelting

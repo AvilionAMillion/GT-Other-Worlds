@@ -19,8 +19,8 @@ RecipeBuilder.get("basic")
     [<gregtech:metal_casing:8>, <tconstruct:seared:3>, <gregtech:metal_casing:8>],
     [<tconstruct:seared:3>, <pyrotech:stone_kiln>, <tconstruct:seared:3>],
     [<gregtech:metal_casing:8>, <tconstruct:seared:3>, <gregtech:metal_casing:8>]])
-  .addTool(<ore:artisansHammer>, 40)
-  .addTool(<ore:artisansFramingHammer>, 40)
+  .addTool(<ore:artisansHammer>, 20)
+  .addTool(<ore:artisansFramingHammer>, 20)
   .addOutput(<gregtech:machine:1017>)
   .create();
   
@@ -72,8 +72,8 @@ RecipeBuilder.get("basic")
     [<gregtech:meta_item_1:352>, <minecraft:brick_block>, <gregtech:meta_item_1:352>],
     [<gregtech:meta_item_1:352>, <ore:plateIron>, <gregtech:meta_item_1:352>]])
   .setFluid(<liquid:concrete> * 500)
-  .addTool(<ore:artisansHammer>, 50)
-  .addTool(<ore:artisansChisel>, 50)
+  .addTool(<ore:artisansHammer>, 20)
+  .addTool(<ore:artisansChisel>, 20)
   .addOutput(<gregtech:metal_casing:1>)
   .create();
 # Controller
@@ -85,9 +85,9 @@ RecipeBuilder.get("basic")
     [<gregtech:meta_stick:335>, <pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <gregtech:meta_stick:335>],
     [<gregtech:metal_casing:1>, gtHammer, <contenttweaker:wroughtironheater>, gtScrewdriver, <gregtech:metal_casing:1>]])
   .setFluid(<liquid:concrete> * 2000)
-  .addTool(<ore:artisansFramingHammer>, 200)
-  .addTool(<ore:artisansTSquare>, 200)
-  .addTool(<ore:artisansChisel>, 200)
+  .addTool(<ore:artisansFramingHammer>, 40)
+  .addTool(<ore:artisansTSquare>, 40)
+  .addTool(<ore:artisansChisel>, 40)
   .addOutput(<gregtech:machine:1000>)
   .create();
   
@@ -134,8 +134,8 @@ RecipeBuilder.get("engineer")
     [<gregtech:meta_plate_double:287>, <ore:craftingFurnace>, <gregtech:meta_block_frame_17:15>, <ore:craftingFurnace>, <gregtech:meta_plate_double:287>],
     [<gregtech:meta_plate:287>, <gregtech:cable_single:112>, <contenttweaker:controllv>, <gregtech:cable_single:112>, <gregtech:meta_plate:287>],
     [<gregtech:meta_screw:287>, <gregtech:meta_plate:287>, <gregtech:meta_plate_double:287>, <gregtech:meta_plate:287>, <gregtech:meta_screw:287>]])
-  .addTool(<ore:artisansHammer>, 200)
-  .addTool(<ore:artisansSolderer>, 250)
+  .addTool(<ore:artisansHammer>, 40)
+  .addTool(<ore:artisansSolderer>, 40)
   .addOutput(<gregtech:machine:1001>)
   .create();
   
@@ -148,8 +148,8 @@ RecipeBuilder.get("engineer")
     [<gregtech:meta_plate_double:259>, <gregtech:fluid_pipe_large:2037>, <gregtech:meta_block_frame_16:3>, <gregtech:fluid_pipe_large:2037>, <gregtech:meta_plate_double:259>],
     [<gregtech:meta_plate:259>, <gregtech:meta_gear:324>, <contenttweaker:controllv>, <gregtech:meta_gear:324>, <gregtech:meta_plate:259>],
     [<gregtech:meta_screw:259>, <gregtech:meta_plate:259>, <gregtech:meta_plate_double:259>, <gregtech:meta_plate:259>, <gregtech:meta_screw:259>]])
-  .addTool(<ore:artisansHammer>, 200)
-  .addTool(<ore:artisansSolderer>, 250)
+  .addTool(<ore:artisansHammer>, 40)
+  .addTool(<ore:artisansSolderer>, 40)
   .addOutput(<gregtech:machine:2027>)
   .create();
   
@@ -162,8 +162,8 @@ RecipeBuilder.get("engineer")
     [<gregtech:meta_plate_double:260>, <gregtech:meta_item_1:97>, <gregtech:boiler_firebox_casing>, <gregtech:meta_item_1:97>, <gregtech:meta_plate_double:260>],
     [<gregtech:meta_plate:260>, <gregtech:cable_single:112>, <contenttweaker:controllv>, <gregtech:cable_single:112>, <gregtech:meta_plate:260>],
     [<gregtech:meta_screw:260>, <gregtech:meta_plate:260>, <gregtech:meta_plate_double:260>, <gregtech:meta_plate:260>, <gregtech:meta_screw:260>]])
-  .addTool(<ore:artisansHammer>, 200)
-  .addTool(<ore:artisansSolderer>, 250)
+  .addTool(<ore:artisansHammer>, 40)
+  .addTool(<ore:artisansSolderer>, 40)
   .addOutput(<gregtech:machine:1013>)
   .create();
   

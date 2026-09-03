@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    146
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Craft your hull and motor, and say hello to LV!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 127,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "Welcome to LV!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 147,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 986,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 127,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 621,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

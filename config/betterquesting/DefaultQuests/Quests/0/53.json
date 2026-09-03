@@ -1,0 +1,50 @@
+{
+  "preRequisites:11": [
+    51
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Make §aCopper Artisan\u0027s Tools§f for more durability!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {}
+        },
+        "id:8": "artisanworktables:artisans_hammer_copper"
+      },
+      "name:8": "More Tools You Say?",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 53,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 25,
+          "id:8": "gregtech:meta_ingot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {}
+          },
+          "OreDict:8": "artisansToolCopper",
+          "id:8": "artisanworktables:artisans_hammer_copper"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

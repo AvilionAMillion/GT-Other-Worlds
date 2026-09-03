@@ -1,0 +1,57 @@
+{
+  "preRequisites:11": [
+    114
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Perform the Creature Summoning Ritual. This ritual will allow you to use resources in order to summon creatures, the ingredients for a creature must be placed on catalyst plates around the altar, and thus are a requirement for the ritual to run. It can accept anywhere from 1-10 catalyst plates, depending on the amount of items required for the recipe.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "roots:ritual_summon_creatures"
+      },
+      "name:8": "Ritual: Creature Summoning",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 120,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "roots:catalyst_plate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 24008,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:egg"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:flesh_block"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "roots:moonglow_leaf"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "roots:pereskia"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

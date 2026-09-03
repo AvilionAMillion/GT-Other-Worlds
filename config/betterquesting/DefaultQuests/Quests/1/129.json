@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    95
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Since you now have steel, you can make a furnace! But not just a regular furnace, an actual furnace! Not any weird seared furnace or anything, but an actual Minecraft Furnace. It\u0027s not too useful, but it\u0027s a bit easier to craft in the late game than stone kilns, so that\u0027s something.\n",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:furnace"
+      },
+      "name:8": "An Actual Furnace?",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 129,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:furnace"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -117,7 +117,7 @@ RecipeBuilder.get("basic")
     [<ore:slabWood>, <minecraft:ladder>, <ore:slabWood>],
     [<ore:string>, <ore:stickWood>, <ore:string>],
     [<ore:stickWood>, null, <ore:stickWood>]])
-  .addTool(<ore:artisansHandsaw>, 20)
+  .addTool(<ore:artisansHandsaw>, 2)
   .addOutput(<pyrotech:drying_rack:1>)
   .create();
 # Granite Anvil
@@ -125,7 +125,7 @@ RecipeBuilder.get("basic")
   .setShaped([
     [<minecraft:stone>, <minecraft:stone>],
     [<minecraft:stone_slab>, <minecraft:stone_slab>]])
-  .addTool(<ore:artisansHammer>, 15)
+  .addTool(<ore:artisansHammer>, 5)
   .addOutput(<pyrotech:anvil_granite>)
   .create();
 # Stone Kiln
@@ -134,8 +134,8 @@ RecipeBuilder.get("basic")
     [masonBrickBlock, <pyrotech:material:16>, masonBrickBlock],
     [masonBrickBlock, <pyrotech:kiln_pit>, masonBrickBlock],
     [masonBrickBlock, masonBrickBlock, masonBrickBlock]])
-  .addTool(<ore:artisansHammer>, 10)
-  .addTool(<ore:artisansFile>, 10)
+  .addTool(<ore:artisansHammer>, 4)
+  .addTool(<ore:artisansFile>, 4)
   .addOutput(<pyrotech:stone_kiln>)
   .create();
 # Stone Oven
@@ -144,8 +144,8 @@ RecipeBuilder.get("basic")
     [masonBrickBlock, <pyrotech:material:16>, masonBrickBlock],
     [masonBrickBlock, <pyrotech:tinder>, masonBrickBlock],
     [masonBrickBlock, masonBrickBlock, masonBrickBlock]])
-  .addTool(<ore:artisansHammer>, 10)
-  .addTool(<ore:artisansFile>, 10)
+  .addTool(<ore:artisansHammer>, 4)
+  .addTool(<ore:artisansFile>, 4)
   .addOutput(<pyrotech:stone_oven>)
   .create();
 # Stone Sawmill
@@ -154,8 +154,8 @@ RecipeBuilder.get("basic")
     [masonBrickBlock, <pyrotech:material:16>, masonBrickBlock],
     [masonBrickBlock, <pyrotech:chopping_block>, masonBrickBlock],
     [masonBrickBlock, masonBrickBlock, masonBrickBlock]])
-  .addTool(<ore:artisansHammer>, 10)
-  .addTool(<ore:artisansFile>, 10)
+  .addTool(<ore:artisansHammer>, 4)
+  .addTool(<ore:artisansFile>, 4)
   .addOutput(<pyrotech:stone_sawmill>)
   .create();
 # Masonry Brick
@@ -163,7 +163,7 @@ RecipeBuilder.get("basic")
   .setShaped([
     [<pyrotech:material:16>, <pyrotech:material:16>],
     [<pyrotech:material:16>, <pyrotech:material:16>]])
-  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansHammer>, 3)
   .addOutput(masonBrickBlock)
   .create();
 # Flint Sawmill Blade
@@ -172,8 +172,8 @@ RecipeBuilder.get("basic")
     [<minecraft:flint>, <minecraft:flint>, <minecraft:flint>],
     [<minecraft:flint>, masonBrickBlock, <minecraft:flint>],
     [<minecraft:flint>, <minecraft:flint>, <minecraft:flint>]])
-  .addTool(<ore:artisansChisel>, 8)
-  .addTool(<ore:artisansFile>, 8)
+  .addTool(<ore:artisansChisel>, 3)
+  .addTool(<ore:artisansFile>, 3)
   .addOutput(<pyrotech:sawmill_blade_flint>)
   .create();
 # Unfired Clay Brick
@@ -182,7 +182,7 @@ RecipeBuilder.get("basic")
     [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
     [<minecraft:clay_ball>, <gregtech:meta_item_1:348>, <minecraft:clay_ball>],
     [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]])
-  .addTool(<ore:artisansHammer>, 4)
+  .addTool(<ore:artisansHammer>, 2)
   .addOutput(<pyrotech:material:24> * 8)
   .create();
 # Unfired Clay Bucket
@@ -198,8 +198,8 @@ RecipeBuilder.get("basic")
     [<pyrotech:material:16>, null, <pyrotech:material:16>],
     [<pyrotech:material:20>, <pyrotech:material:16>, <pyrotech:material:20>],
     [<pyrotech:material:20>, masonBrickBlock, <pyrotech:material:20>]])
-  .addTool(<ore:artisansHammer>, 15)
-  .addTool(<ore:artisansFile>, 15)
+  .addTool(<ore:artisansHammer>, 3)
+  .addTool(<ore:artisansFile>, 3)
   .addOutput(<pyrotech:soaking_pot>)
   .create();
 # Stone Collector
@@ -208,7 +208,7 @@ RecipeBuilder.get("basic")
     [<pyrotech:material:16>, null, <pyrotech:material:16>],
     [<pyrotech:material:16>, null, <pyrotech:material:16>],
     [masonBrickBlock, masonBrickBlock, masonBrickBlock]])
-  .addTool(<ore:artisansHammer>, 15)
+  .addTool(<ore:artisansHammer>, 3)
   .addOutput(<pyrotech:tar_collector>)
   .create();
 # Stone Drain
@@ -217,7 +217,7 @@ RecipeBuilder.get("basic")
     [<pyrotech:material:16>, null, <pyrotech:material:16>],
     [masonBrickBlock, null, masonBrickBlock],
     [<pyrotech:material:16>, null, <pyrotech:material:16>]])
-  .addTool(<ore:artisansHammer>, 10)
+  .addTool(<ore:artisansHammer>, 2)
   .addOutput(<pyrotech:tar_drain>)
   .create();
 # Stone Faucet
@@ -225,7 +225,7 @@ RecipeBuilder.get("basic")
   .setShaped([
     [<pyrotech:material:16>, null, <pyrotech:material:16>],
     [null, <pyrotech:material:16>, null]])
-  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansHammer>, 2)
   .addOutput(<pyrotech:faucet_stone>)
   .create();
 # Log Pile
@@ -234,7 +234,7 @@ RecipeBuilder.get("basic")
     [<ore:logWood>, <ore:logWood>, <ore:logWood>],
     [<ore:logWood>, <ore:logWood>, <ore:logWood>],
     [<ore:logWood>, <ore:logWood>, <ore:logWood>]])
-  .addTool(<ore:artisansHandsaw>, 9)
+  .addTool(<ore:artisansHandsaw>, 4)
   .addOutput(<pyrotech:log_pile>)
   .create();
 # Stone Tank
@@ -243,8 +243,8 @@ RecipeBuilder.get("basic")
     [masonBrickBlock, <ore:blockGlass>, masonBrickBlock],
     [<ore:blockGlass>, <gregtech:machine:1610>, <ore:blockGlass>],
     [masonBrickBlock, <ore:blockGlass>, masonBrickBlock]])
-  .addTool(<ore:artisansHammer>, 15)
-  .addTool(<ore:artisansFile>, 15)
+  .addTool(<ore:artisansHammer>, 3)
+  .addTool(<ore:artisansFile>, 3)
   .addOutput(<pyrotech:stone_tank>)
   .create();
 # Stone Crucible
@@ -253,15 +253,15 @@ RecipeBuilder.get("basic")
     [masonBrickBlock, <pyrotech:material:16>, masonBrickBlock],
     [masonBrickBlock, <pyrotech:stone_tank>, masonBrickBlock],
     [masonBrickBlock, masonBrickBlock, masonBrickBlock]])
-  .addTool(<ore:artisansHammer>, 20)
-  .addTool(<ore:artisansFile>, 20)
+  .addTool(<ore:artisansHammer>, 4)
+  .addTool(<ore:artisansFile>, 4)
   .addOutput(<pyrotech:stone_crucible>)
   .create();
  # Refractory Clay
 RecipeBuilder.get("basic")
   .setShapeless([<gregtech:meta_dust:254>, <gregtech:meta_dust:2063>, <gregtech:meta_dust:2049>, <gregtech:meta_dust:2063>, <gregtech:meta_dust:254>, <gregtech:meta_dust:254>, <gregtech:meta_dust:2063>, <gregtech:meta_dust:2023>, <gregtech:meta_dust:2063>, <gregtech:meta_dust:254>])
   .setFluid(<liquid:liquid_clay> * 100)
-  .addTool(<ore:artisansMortar>, 6)
+  .addTool(<ore:artisansMortar>, 3)
   .addOutput(<pyrotech:material:4> * 8)
   .create();
  # Unfired Refractory Brick
@@ -283,7 +283,7 @@ RecipeBuilder.get("basic")
   .setShaped([
     [<pyrotech:material:5>, <pyrotech:material:5>],
     [<pyrotech:material:5>, <pyrotech:material:5>]])
-  .addTool(<ore:artisansHammer>, 6)
+  .addTool(<ore:artisansHammer>, 3)
   .addOutput(<pyrotech:refractory_brick_block>)
   .create();
  # Bloomery
@@ -292,8 +292,8 @@ RecipeBuilder.get("basic")
     [<pyrotech:refractory_brick_block>, null, <pyrotech:refractory_brick_block>],
     [<pyrotech:refractory_brick_block>, null, <pyrotech:refractory_brick_block>],
     [<pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>]])
-  .addTool(<ore:artisansHammer>, 20)
-  .addTool(<ore:artisansChisel>, 25)
+  .addTool(<ore:artisansHammer>, 4)
+  .addTool(<ore:artisansChisel>, 5)
   .addOutput(<pyrotech:bloomery>)
   .create();
  # Refractory Kiln
@@ -303,8 +303,8 @@ RecipeBuilder.get("basic")
     [<pyrotech:refractory_brick_block>, <pyrotech:stone_kiln>, <pyrotech:refractory_brick_block>],
     [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>]])
   .setFluid(<liquid:foundry> * 1000)
-  .addTool(<ore:artisansHammer>, 45)
-  .addTool(<ore:artisansTSquare>, 45)
+  .addTool(<ore:artisansHammer>, 9)
+  .addTool(<ore:artisansTSquare>, 9)
   .addOutput(<pyrotech:brick_kiln>)
   .create();
  # Refractory Oven
@@ -314,8 +314,8 @@ RecipeBuilder.get("basic")
     [<pyrotech:refractory_brick_block>, <pyrotech:stone_oven>, <pyrotech:refractory_brick_block>],
     [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>]])
   .setFluid(<liquid:foundry> * 1000)
-  .addTool(<ore:artisansHammer>, 45)
-  .addTool(<ore:artisansTSquare>, 45)
+  .addTool(<ore:artisansHammer>, 9)
+  .addTool(<ore:artisansTSquare>, 9)
   .addOutput(<pyrotech:brick_oven>)
   .create();
  # Refractory Sawmill
@@ -325,8 +325,8 @@ RecipeBuilder.get("basic")
     [<pyrotech:refractory_brick_block>, <pyrotech:stone_sawmill>, <pyrotech:refractory_brick_block>],
     [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>]])
   .setFluid(<liquid:foundry> * 1000)
-  .addTool(<ore:artisansHammer>, 45)
-  .addTool(<ore:artisansTSquare>, 45)
+  .addTool(<ore:artisansHammer>, 9)
+  .addTool(<ore:artisansTSquare>, 9)
   .addOutput(<pyrotech:brick_sawmill>)
   .create();
  # Refractory Crucible
@@ -336,8 +336,8 @@ RecipeBuilder.get("basic")
     [<pyrotech:refractory_brick_block>, <pyrotech:stone_crucible>, <pyrotech:refractory_brick_block>],
     [<gregtech:meta_plate:25>, <pyrotech:refractory_brick_block>, <gregtech:meta_plate:25>]])
   .setFluid(<liquid:foundry> * 1000)
-  .addTool(<ore:artisansHammer>, 45)
-  .addTool(<ore:artisansTSquare>, 45)
+  .addTool(<ore:artisansHammer>, 9)
+  .addTool(<ore:artisansTSquare>, 9)
   .addOutput(<pyrotech:brick_crucible>)
   .create();
 # Mechanical Bellows
@@ -346,8 +346,8 @@ RecipeBuilder.get("basic")
     [<pyrotech:material:23>, <ore:plateCopper>, <pyrotech:material:23>],
     [<ore:plateStone>, <pyrotech:bellows>, <ore:plateStone>],
     [<pyrotech:planks_tarred>, <ore:stickStone>, <pyrotech:planks_tarred>]])
-  .addTool(<ore:artisansHammer>, 15)
-  .addTool(<ore:artisansHandsaw>, 15)
+  .addTool(<ore:artisansHammer>, 3)
+  .addTool(<ore:artisansHandsaw>, 3)
   .addOutput(<pyrotech:mechanical_bellows>)
   .create();
 # Barrel
@@ -356,14 +356,14 @@ RecipeBuilder.get("basic")
     [<pyrotech:material:23>, null, <pyrotech:material:23>],
     [<pyrotech:material:23>, <gregtech:machine:1610>, <pyrotech:material:23>],
     [<pyrotech:planks_tarred>, <pyrotech:planks_tarred>, <pyrotech:planks_tarred>]])
-  .addTool(<ore:artisansHandsaw>, 25)
+  .addTool(<ore:artisansHandsaw>, 5)
   .addOutput(<pyrotech:barrel>)
   .create();
 # Barrel Lid
 RecipeBuilder.get("basic")
   .setShaped([
     [<pyrotech:material:23>, <pyrotech:planks_tarred>, <pyrotech:material:23>]])
-  .addTool(<ore:artisansHandsaw>, 5)
+  .addTool(<ore:artisansHandsaw>, 2)
   .addOutput(<pyrotech:barrel_lid>)
   .create();
 # Butcher Table
@@ -372,7 +372,7 @@ RecipeBuilder.get("basic")
     [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
     [<pyrotech:material:23>, <artisanworktables:workstation:5>, <pyrotech:material:23>],
     [<pyrotech:material:23>, <pyrotech:material:20>, <pyrotech:material:23>]])
-  .addTool(<ore:artisansHandsaw>, 20)
+  .addTool(<ore:artisansHandsaw>, 4)
   .addOutput(<pyrotech:butchers_block>)
   .create();
 # Tanning Rack
@@ -381,8 +381,8 @@ RecipeBuilder.get("basic")
     [<ore:string>, <minecraft:stick>, <ore:string>],
     [<minecraft:stick>, <pyrotech:material:26>, <minecraft:stick>],
     [<ore:logWood>, <minecraft:stick>, <ore:logWood>]])
-  .addTool(<ore:artisansHandsaw>, 20)
-  .addTool(<ore:artisansCutters>, 10)
+  .addTool(<ore:artisansHandsaw>, 4)
+  .addTool(<ore:artisansCutters>, 2)
   .addOutput(<pyrotech:tanning_rack>)
   .create();
 # Bellows
@@ -391,7 +391,7 @@ RecipeBuilder.get("basic")
     [<pyrotech:material:20>, <pyrotech:material:16>, <pyrotech:material:20>],
     [<minecraft:leather>, <ore:stickStone>, <minecraft:leather>],
     [<pyrotech:masonry_brick_block>, null, <pyrotech:masonry_brick_block>]])
-  .addTool(<ore:artisansHandsaw>, 10)
+  .addTool(<ore:artisansHandsaw>, 2)
   .addOutput(<pyrotech:bellows>)
   .create();
   

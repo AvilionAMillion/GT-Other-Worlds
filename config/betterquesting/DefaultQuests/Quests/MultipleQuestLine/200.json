@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    123
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§3Description To Be Added",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:shinyflower"
+      },
+      "name:8": "Strawberry Fields Forever",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 200,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:flower"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

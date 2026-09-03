@@ -1,0 +1,89 @@
+{
+  "preRequisites:11": [
+    26,
+    31
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aPaper§f is a versatile ingredient with many properties. Because of this omniusability, it\u0027s not going to be easy to make.\nThe first goal is to get §echad §fby mortaring some sugar cane. You then must §esoak it in a water pot for several minutes.§f Once you have the soaked chad you can combine it into §epulp.§f §aPulp is then dried into paper.\n§fIt\u0027s not an especially difficult process, however you will need a lot of chad for the paper§f, so make sure to have ample amounts of sugarcane.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:paper"
+      },
+      "name:8": "Making Paper",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "minecraft:paper"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "id:8": "minecraft:reeds"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 6,
+          "id:8": "minecraft:reeds"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 1618,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:wetchad"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 25,
+          "id:8": "pyrotech:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "4:10": {
+      "index:3": 4,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:paper"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    43,
+    47,
+    48
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Well, you now have copper nuggets, let\u0027s turn those into ingots.\nYou cannot just manually combine copper nuggets into an ingot, that\u0027s dumb, you need to melt it and then cast it into an ingot. For this you\u0027ll need a§a Foundry§f.\nPlace the §aburner heater§f down and then place a §amelting crucible§f on top of it. §eStick a fuel into the burner heater and your nuggets into the crucible. §fNext place a §arefractory spout§f to the side of the crucible and an§a ingot cast §fdirectly under it.\nCongrats! You now have a foundry!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "foundry:burnerheater"
+      },
+      "name:8": "Basic Metallurgy",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 49,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 1,
+          "id:8": "minecraft:coal"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:koreandinneritem"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "foundry:burnerheater"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "foundry:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "foundry:refractoryspout"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "foundry:castingtable"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

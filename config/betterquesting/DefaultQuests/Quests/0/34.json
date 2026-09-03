@@ -1,0 +1,85 @@
+{
+  "preRequisites:11": [
+    32,
+    33
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "With your newfound patterns, you can make the §atables from tinker\u0027s construct!§f These allow you to make some invaluable §ecrafting components §ffor further on.\n§bWhere\u0027s the tool station you ask? Don\u0027t worry about that silly thing!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "tconstruct:tooltables",
+        "tag:10": {
+          "textureBlock:10": {
+            "Count:1": 1,
+            "Damage:2": 0,
+            "id:8": "minecraft:log"
+          }
+        }
+      },
+      "name:8": "Tinkers Tables",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 34,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:flint"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:hamandpineapplepizzaitem"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "tconstruct:tooltables",
+          "tag:10": {
+            "textureBlock:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "minecraft:planks"
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "tconstruct:tooltables",
+          "tag:10": {
+            "textureBlock:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "minecraft:log"
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "tconstruct:tooltables"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "tconstruct:tooltables"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

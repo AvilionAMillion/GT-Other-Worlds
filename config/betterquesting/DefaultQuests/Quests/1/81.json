@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    79
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Craft a Steam Compressor! This is used for multiple things, though the two most important is compressed fireclay (more on that later) and making metal blocks, yep, §cyou cannot handcraft any mineral into it\u0027s block form.§f You must use a compressor or some other GT machine.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 11,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Steam Compressor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 81,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 24,
+          "id:8": "minecraft:iron_ingot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

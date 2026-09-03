@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    148
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You want components? I got components. The Electric Pump, Conveyor Belt, Piston, and Robot Arm are all used in quite a large amount of gregtech machines, and three of them have some useful utility purposes of their own (especially since item conduits are disabled)",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 187,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "LV Components",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 150,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 142,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 157,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 172,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 187,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

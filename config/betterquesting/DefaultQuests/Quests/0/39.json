@@ -1,0 +1,87 @@
+{
+  "preRequisites:11": [
+    38
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Your next goal is to get §aglass,§f which is a somewhat investive endeavor.\nIn order to make glass you must §esmelt glassy sand in a kiln (not pit). §fGlassy sand is made with two glass dust and two sand. The Glass dust is made with quartz sand (ground up sand) and small piles of flint.\n\n§dBecause of the chance for failure, make a few of these at a time. Kilns can run up to 16 items at once.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:glass"
+      },
+      "name:8": "Heart Of Glass",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 39,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "minecraft:glass"
+        },
+        "1:10": {
+          "Count:3": 32,
+          "id:8": "minecraft:sand"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 2049,
+          "id:8": "gregtech:meta_dust_tiny"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 2023,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 2000,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "id:8": "minecraft:sand"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:glassy_sand"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:glass"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

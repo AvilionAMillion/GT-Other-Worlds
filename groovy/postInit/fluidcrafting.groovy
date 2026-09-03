@@ -9,7 +9,7 @@ inWorldCrafting.fluidToFluid.recipeBuilder()
 
 // Baffle Cap
 inWorldCrafting.fluidToItem.recipeBuilder()
-        .fluidInput(fluid('badjuice'))
+        .fluidInput(fluid('potion_blindness'))
         .input(item('rustic:mooncap_mushroom'))
         .output(item('roots:baffle_cap_mushroom'))
         .register()

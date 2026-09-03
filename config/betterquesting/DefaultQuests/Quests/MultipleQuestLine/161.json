@@ -1,0 +1,68 @@
+{
+  "preRequisites:11": [
+    159,
+    154,
+    166
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Using the lubricated foils, soldering alloy, and many other tools inside of an assembling machine, you can make the key components to every gregtech multiblock, §athe modular inputs/outputs!§f Those being the §6§einput/output bus §b(which works with items), §ethe input/output hatch §b(which works with fluids), §eand the energy/dynamo hatch §b(inputs/outputs energy respectively). §fWith all of these components you can make §a§dany gregtech multiblock you desire!§f Well, as long as you have §cthe controller §ffor it.\n\nMake all of the modular I/O\u0027s and start getting into the big leagues! You\u0027ll also need the §amaintence hatch §fand §amuffler hatch §ffor multiblocks.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1654,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "The World Of Gregtech Multiblocks!"
+    }
+  },
+  "questID:3": 161,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1151,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1166,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1181,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 1196,
+          "id:8": "gregtech:machine"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 1211,
+          "id:8": "gregtech:machine"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 1226,
+          "id:8": "gregtech:machine"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 1654,
+          "id:8": "gregtech:machine"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 1657,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

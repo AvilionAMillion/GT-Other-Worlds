@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    58
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You probably like your log pile burning quite a bit, and it\u0027s very good don\u0027t get me wrong, but you can\u0027t really use a pit to get coal coke, for that you need a §acoke oven§f.\nIt\u0027s a 3x3x3 multiblock, §eyou can have a hatch or not it doesn\u0027t matter§f, §blook in JEI for how to build it.\n§fNow if only you had coal...",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1017,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Coke Oven",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 62,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "minecraft:coal"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1017,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1018,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 24,
+          "Damage:2": 8,
+          "id:8": "gregtech:metal_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

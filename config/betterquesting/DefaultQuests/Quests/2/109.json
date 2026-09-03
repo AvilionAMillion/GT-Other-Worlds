@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    71,
+    95
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Some things can\u0027t be ground down by your gregtech mortar... or your artisan\u0027s mortar... You need a third mortar, a Roots mortar!\nOnce you have steel you can now make both the mortar and pestle from roots, which can be used to ground down certain items. From wheat to gravel, as a bonus, the mortar and pestle uses no durability! You can use it as much as you like.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "roots:mortar"
+      },
+      "name:8": "Mortar and Pestle",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 109,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 324,
+          "id:8": "gregtech:meta_ingot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "roots:mortar"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {}
+          },
+          "id:8": "roots:pestle"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

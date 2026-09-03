@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    165,
+    167
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Stibnite ore in the nether provides you with antimony when smelted down. Putting that, lead, and some tin in a mixer gets you a strong blend called soldering alloy! It\u0027s perfect for stitching things together, especially for an assembler.\n\nYou\u0027ll mostly be using the liquid, so use a fluid extractor and make that as well.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 320,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "Soldering Alloy",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 166,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 320,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 144,
+          "FluidName:8": "soldering_alloy"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

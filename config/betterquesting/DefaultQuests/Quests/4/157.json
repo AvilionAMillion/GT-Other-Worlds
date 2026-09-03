@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    150
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Craft a Distillery! The LV Distillery has limited uses since it cannot process oil, but it\u0027s still able to make some useful appliances.\n\n§cAlternatively (And more likely) Use the brewing machine with talc.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 260,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Basic Distillery",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 157,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 260,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

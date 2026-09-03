@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    130,
+    131
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The transmutation ritual will turn a block or item or any other number of things into another one once every five seconds while running. To function it requires a ritual stone on a 3 block high pillar as well. Check the Almanac for more info.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "roots:ritual_transmutation"
+      },
+      "name:8": "Transmutation",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 133,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2037,
+          "id:8": "gregtech:meta_plate"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "roots:bark_wildwood"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "roots:chiseled_runed_obsidian"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "roots:stalicripe"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:stone_kiln"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

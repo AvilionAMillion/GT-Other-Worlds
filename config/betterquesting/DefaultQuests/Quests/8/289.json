@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    288,
+    263
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Let\u0027s begin the HV Circuit Questline! Each electricity tier from here on out has §bfive §ftiers of circuits for it, not four like in regular gregtech! Starting with the microprocessor, the cheapest LV circuit obtainable.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 627,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "Microprocessor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 289,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 627,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

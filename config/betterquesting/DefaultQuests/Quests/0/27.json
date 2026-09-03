@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    21
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Tired of having to constantly replace your flint tools? You can make §amasons tools! §fThey have §emore durability §fand you can craft most of the same tools as you can flint tools.\nSome mason tools you still can\u0027t make, however.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {}
+        },
+        "id:8": "artisanworktables:artisans_hammer_mason"
+      },
+      "name:8": "Masons\u0027 Tools",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 27,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:steakfajitaitem"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 16,
+          "id:8": "pyrotech:material"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {}
+          },
+          "OreDict:8": "artisansToolMason",
+          "id:8": "artisanworktables:artisans_hammer_mason"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

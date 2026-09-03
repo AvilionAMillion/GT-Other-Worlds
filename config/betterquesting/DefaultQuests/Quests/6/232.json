@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    239
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§eChrome §fis a very important material, it is used in primarilly Stainless Steel, however it is also used in Assembly Line Steel and various other alloys and recipes. Point is, you need chrome, and there is really only one effective way of obtaining it this early in progression.\n§W§b§b§f§bChrome can be obtained as a minor byproduct of Ruby Ore§b. §fWithout the Ruby Juice method, ruby ore still yields a decent amount of chrome, more than enough to subsist you through MV. Electrolyzing ruby dust also nets you some occasional chrome, it\u0027s no definite source though.§b §a§fOnce you obtain the §aFlotation Tank §fhowever; ruby goes from a mild source of chrome to a major source, as well as netting some other byproducts along the way. The Flotation Tank is really good!\n",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 22,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "Ruby and Chrome",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 232,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 22,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

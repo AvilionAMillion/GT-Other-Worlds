@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    283
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aThe Cleanroom §e§fis one of the most important multiblocks in the entire pack, it is required for making advanced tier circuits and wafers by creating a particle free environment for machines to work in. It\u0027s also one of the first properly \"expensive\" multiblocks, and has some weird rules.\n\n§eThe Cleanroom can be anything from a 5x5 to 15x15 hollow interiored box §fwhere the walls §cand corners §fmust be filled with either plascrete or cleanroom glass. Energy must be brought in through a diode in the wall, as generators cannot run within a cleanroom. It must be sealed with an iron door, and i/o can be automated with passthrough hatches. The cleanroom technically only needs §e4 EU/t constantly to run §fhowever overclocking the cleanroom will cause it to clean itself faster at the cost of taking more power to run. This shouldn\u0027t ever be an issue though unless god strikes you down with maintenance issues.\n\nThe cleanroom parts take Valkyrie Metal rotors, and as such you need to go to the aether. Check JEI for how to construct bigger sizes, good luck!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1035,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Don\u0027t Get Your Hands Dirty",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 284,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1035,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "id:8": "gregtech:cleanroom_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    21
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §abasic workstation§f is an important crafting station that allows the use of §btwo artisan tools in order to craft an item.\n§f§bIt can do all of the recipes a regular worktable can do,§f but now has storage for tools and can accept two tools for a single recipe.\nMost masonry and stone machines take two tools to craft, so this is used a lot.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "id:8": "artisanworktables:workstation"
+      },
+      "name:8": "Basic Workstation",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 23,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 16,
+          "id:8": "pyrotech:material"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "artisanworktables:workstation"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

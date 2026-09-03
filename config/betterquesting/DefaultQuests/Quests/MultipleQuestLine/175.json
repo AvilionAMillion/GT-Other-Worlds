@@ -1,0 +1,66 @@
+{
+  "preRequisites:11": [
+    169
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§3Description To Be Added",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2027,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Big Big Engine!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 175,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2027,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 1181,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1196,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 1226,
+          "id:8": "gregtech:machine"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 1654,
+          "id:8": "gregtech:machine"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 1657,
+          "id:8": "gregtech:machine"
+        },
+        "6:10": {
+          "Count:3": 2,
+          "id:8": "gregtech:turbine_casing"
+        },
+        "7:10": {
+          "Count:3": 20,
+          "Damage:2": 12,
+          "id:8": "gcym:large_multiblock_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

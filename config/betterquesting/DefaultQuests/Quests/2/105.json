@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    104,
+    100
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Make a brewing barrel and some mead along with it! This takes some liquid and after half a minecraft day will produce some brew afterwards. You can also increase the quality, reducing the chance of negative effects occuring. For more information, read the almanac.\n\nMead will give you the wither ward effect, which prevents you from getting the wither status. It only takes honey to make.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rustic:brewing_barrel"
+      },
+      "name:8": "Brewery",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 105,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "minecraft:bucket"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:glass_bottle"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rustic:brewing_barrel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

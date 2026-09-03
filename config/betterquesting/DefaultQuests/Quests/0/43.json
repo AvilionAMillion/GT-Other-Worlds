@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    46,
+    44
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "With your bloomery, you can now turn §ecopper into a §a§ebloom, §fbreaking it on a granite anvil with a bloom hammer will allow you to get copper! §aIn... nugget form.§f\nWait? You want copper ingots? §bIt\u0027s gonna take a bit more than that to do it...",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 25,
+        "id:8": "gregtech:meta_nugget"
+      },
+      "name:8": "Not Quite Ingots",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 43,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "gregtech:ore_copper_0"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 25,
+          "id:8": "gregtech:meta_nugget"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

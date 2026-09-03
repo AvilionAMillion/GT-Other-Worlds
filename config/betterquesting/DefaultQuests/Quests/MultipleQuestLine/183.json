@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    169
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§9§3Description To Be Added",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 14,
+        "id:8": "mekanism:basicblock"
+      },
+      "name:8": "Thermal Evaporation Tower",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 183,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 14,
+          "id:8": "mekanism:basicblock"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 15,
+          "id:8": "mekanism:basicblock"
+        },
+        "2:10": {
+          "Count:3": 37,
+          "id:8": "mekanism:basicblock2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

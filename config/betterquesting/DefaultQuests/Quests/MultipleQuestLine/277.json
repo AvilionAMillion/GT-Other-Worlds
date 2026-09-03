@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    272,
+    260,
+    276,
+    270
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aThe Aether §fis where you must go next. A dimension of danger and beauty located in the sky. You did make sure to pack an Elytra right?\nUnlike every other dimension, the aether portal §bonly works in the End §f(at least for now). It must be lit with the Levitation Fragment. The aether unlocks §lvery §fgood weaponry and armor, however it is also fairly dangerous. Be prepared!\n§dDo Not Believe It Saying It Is An Asteroid. These Are Lies.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 10,
+        "id:8": "gtow:aetherblock"
+      },
+      "name:8": "Can We Get Much Higher?",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 277,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 10,
+          "id:8": "gtow:aetherblock"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "gtow:levitation_fragment"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "dimension:3": 4,
+      "index:3": 1,
+      "name:8": "The Aether",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

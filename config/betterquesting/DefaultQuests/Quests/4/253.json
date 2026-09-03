@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    151,
+    189
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Centrifuge and Electrolyzer allow you to make some fairly special fluids, those being the three main gasses, §e§aNitrogen, Oxygen, and Hydrogen§f\nElectrolyzing water is going to be your primary way of getting Hydrogen at this point in time, and centrifuging air will allow you to obtain Nitrogen, both of these produce Oxygen as a byproduct. These are going to be some of the things you use the most in this modpack! It is a good idea to automate it early on, since you will always need some of these basic gasses.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "air"
+        }
+      },
+      "name:8": "Gas, Gas, Gas!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 253,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "nitrogen"
+        },
+        "1:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "hydrogen"
+        },
+        "2:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "oxygen"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

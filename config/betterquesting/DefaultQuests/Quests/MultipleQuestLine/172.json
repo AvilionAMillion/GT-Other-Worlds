@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    97,
+    95,
+    137
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §aSteam Oven§f and §aSteam Macerator §fare two multiblocks that will process multiple items in parralel and function, effectively, as better forms of the Steam Furnace and Steam Macerator. To use them, they take Steam Input Buses and a Steam Hatch, where the steam is put into the steam hatch.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1024,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Steam Multiblocks",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 172,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1024,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1025,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

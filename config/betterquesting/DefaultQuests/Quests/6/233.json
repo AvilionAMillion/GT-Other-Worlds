@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    72
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§3Description To Be Added",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pneumaticcraft:pressure_chamber_wall"
+      },
+      "name:8": "Big Chamber Go BOOM!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 233,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 22,
+          "id:8": "pneumaticcraft:pressure_chamber_wall"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "id:8": "pneumaticcraft:pressure_chamber_interface"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "pneumaticcraft:pressure_chamber_valve"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "pneumaticcraft:pressure_chamber_glass"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

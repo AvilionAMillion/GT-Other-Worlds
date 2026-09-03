@@ -1,0 +1,59 @@
+{
+  "preRequisites:11": [
+    37
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Finally finding the tools to mine, you set off, and look for the ores you can utilize... Of which there is basically only one. Yep, for even minor progression onwards you need to get §acopper.§f\nDon\u0027t fret! Copper is not a rare metal at all, in fact there are §equite a few sources for it!§f §bAll of them can be turned into copper ingots with no processing, but some are easier to find than others.§f\nI\u0027d recommend finding a source of §dchalcopyrite or tetrahedrite.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:ore_copper_0"
+      },
+      "name:8": "Your First Ores!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 46,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "harvestcraft:californiarollitem"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 25,
+          "id:8": "gregtech:meta_raw_ore"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 265,
+          "id:8": "gregtech:meta_raw_ore"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 327,
+          "id:8": "gregtech:meta_raw_ore"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 385,
+          "id:8": "gregtech:meta_raw_ore"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

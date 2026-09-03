@@ -63,37 +63,37 @@ RecipeBuilder.get("basic")
   .setShaped([
     [<pyrotech:material:10>, <pyrotech:material:10>, <ore:string>],
     [<pyrotech:material:10>, <ore:string>, null]])
-  .addTool(<ore:artisansFile>, 8)
+  .addTool(<ore:artisansFile>, 2)
   .addOutput(<tconstruct:axe_head>.withTag({Material: "flint"}))
   .create();
 # Basic Axe
 RecipeBuilder.get("basic")
   .setShapeless([<tconstruct:axe_head>.withTag({Material: "flint"}), <tconstruct:binding>.withTag({Material: "wood"}), <ore:stickWood>])
-  .addTool(<ore:artisansHatchet>, 8)
+  .addTool(<ore:artisansHatchet>, 2)
   .addOutput(basicAxe)
   .create();
 # Basic Pickaxe
 RecipeBuilder.get("basic")
   .setShapeless([<tconstruct:pick_head>.withTag({Material: "flint"}), <tconstruct:binding>.withTag({Material: "wood"}), <ore:stickWood>])
-  .addTool(<ore:artisansHatchet>, 20)
+  .addTool(<ore:artisansHatchet>, 4)
   .addOutput(basicPickaxe)
   .create();
 # Basic Shovel
 RecipeBuilder.get("basic")
   .setShapeless([<tconstruct:shovel_head>.withTag({Material: "flint"}), <tconstruct:binding>.withTag({Material: "wood"}), <ore:stickWood>])
-  .addTool(<ore:artisansHatchet>, 20)
+  .addTool(<ore:artisansHatchet>, 4)
   .addOutput(basicShovel)
   .create();
 # Basic Mattock
 RecipeBuilder.get("basic")
 	.setShapeless([<tconstruct:shovel_head>.withTag({Material: "flint"}), <tconstruct:axe_head>.withTag({Material: "flint"}), stick])
-	.addTool(<ore:artisansHammer>, 20)
+	.addTool(<ore:artisansHammer>, 4)
 	.addOutput(basicMattock)
 	.create();
 # Sharpening Kit
 RecipeBuilder.get("basic")
 	.setShapeless([flintShard, flintShard, flintShard, flintShard])
-	.addTool(<ore:artisansFile>, 5)
+	.addTool(<ore:artisansFile>, 2)
 	.addOutput(<tconstruct:sharpening_kit>.withTag({Material: "flint"}))
 	.create();
 # Basic Pickaxe Head
@@ -101,7 +101,7 @@ RecipeBuilder.get("basic")
   .setShaped([
     [<minecraft:flint>, <minecraft:flint>],
     [<minecraft:flint>]])
-  .addTool(<ore:artisansFile>, 16)
+  .addTool(<ore:artisansFile>, 4)
   .addOutput(<tconstruct:pick_head>.withTag({Material: "flint"}))
   .create();
 # Basic Shovel Head
@@ -109,7 +109,7 @@ RecipeBuilder.get("basic")
   .setShaped([
     [<minecraft:flint>],
     [<minecraft:flint>]])
-  .addTool(<ore:artisansFile>, 16)
+  .addTool(<ore:artisansFile>, 4)
   .addOutput(<tconstruct:shovel_head>.withTag({Material: "flint"}))
   .create();
 # Blank Pattern
@@ -117,7 +117,7 @@ RecipeBuilder.get("basic")
   .setShaped([
     [<minecraft:paper>, <minecraft:paper>],
     [<minecraft:paper>, <minecraft:paper>]])
-  .addTool(<ore:artisansNeedle>, 4)
+  .addTool(<ore:artisansNeedle>, 1)
   .addOutput(<tconstruct:pattern>)
   .create();
  # Grout
@@ -132,7 +132,7 @@ RecipeBuilder.get("basic")
   .setShaped([
     [<tconstruct:materials>, <tconstruct:materials>],
     [<tconstruct:materials>, <tconstruct:materials>]])
-  .addTool(<ore:artisansHammer>, 8)
+  .addTool(<ore:artisansHammer>, 2)
   .addOutput(<tconstruct:seared:3>)
   .create();
 # Flint Shard
@@ -149,8 +149,8 @@ RecipeBuilder.get("basic")
     [<ore:plankWood>, <tconstruct:pattern>, <ore:plankWood>],
     [<ore:fenceWood>, <pyrotech:material:26>, <ore:fenceWood>],
     [<ore:fenceWood>, null, <ore:fenceWood>]])
-  .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansHandsaw>, 5)
+  .addTool(<ore:artisansHammer>, 3)
+  .addTool(<ore:artisansHandsaw>, 3)
   .addOutput(<tconstruct:tooltables:1>.withTag({textureBlock: {id: "minecraft:planks", Count: 1 as byte, Damage: 0 as short}}))
   .create();
 # Part Builder
@@ -159,8 +159,8 @@ RecipeBuilder.get("basic")
     [<ore:plankWood>, <tconstruct:pattern>, <ore:plankWood>],
     [<ore:logWood>, <pyrotech:material:26>, <ore:logWood>],
     [<ore:logWood>, null, <ore:logWood>]])
-  .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansHandsaw>, 5)
+  .addTool(<ore:artisansHammer>, 3)
+  .addTool(<ore:artisansHandsaw>, 3)
   .addOutput(<tconstruct:tooltables:2>.withTag({textureBlock: {id: "minecraft:log", Count: 1 as byte, Damage: 0 as short}}))
   .create();
 # Pattern Chest
@@ -169,8 +169,8 @@ RecipeBuilder.get("basic")
     [<ore:plankWood>, <tconstruct:pattern>, <ore:plankWood>],
     [<ore:stickWood>, <pyrotech:material:26>, <ore:stickWood>],
     [<ore:stickWood>, <minecraft:chest>, <ore:stickWood>]])
-  .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansHandsaw>, 5)
+  .addTool(<ore:artisansHammer>, 3)
+  .addTool(<ore:artisansHandsaw>, 3)
   .addOutput(<tconstruct:tooltables:4>)
   .create();
 # Part Chest
@@ -179,8 +179,8 @@ RecipeBuilder.get("basic")
     [<ore:plankWood>, <tconstruct:pattern>, <ore:plankWood>],
     [<ore:stickWood>, <pyrotech:material:26>, <ore:stickWood>],
     [<ore:stickWood>, null, <ore:stickWood>]])
-  .addTool(<ore:artisansHammer>, 5)
-  .addTool(<ore:artisansHandsaw>, 5)
+  .addTool(<ore:artisansHammer>, 3)
+  .addTool(<ore:artisansHandsaw>, 3)
   .addOutput(<tconstruct:tooltables:5>)
   .create();
 # Seared Furnace
@@ -192,9 +192,9 @@ RecipeBuilder.get("basic")
     [<tconstruct:materials>, <tconstruct:materials>, null, <tconstruct:materials>, <tconstruct:materials>],
     [<gregtech:meta_plate:25>, <tconstruct:seared:3>, <tconstruct:seared:3>, <tconstruct:seared:3>, <gregtech:meta_plate:25>]])
   .setFluid(<liquid:lava> * 1000)
-  .addTool(<ore:artisansHammer>, 100)
-  .addTool(<ore:artisansGroover>, 100)
-  .addTool(<ore:artisansDriver>, 100)
+  .addTool(<ore:artisansHammer>, 20)
+  .addTool(<ore:artisansGroover>, 20)
+  .addTool(<ore:artisansDriver>, 20)
   .addOutput(<tconstruct:seared_furnace_controller>)
   .create();
 # Seared Drain

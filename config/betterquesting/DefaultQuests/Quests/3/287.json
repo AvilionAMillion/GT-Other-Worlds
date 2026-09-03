@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    278
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Your chemical knowhow has created many strong acids before, but somehow the natural environment of the Misty World has a similarly strong acid in it, perhaps you can use it to YOUR advantage?",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "mist.acid"
+        }
+      },
+      "name:8": "Natural Acids",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 287,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "mist.acid"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    304
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Modular Storage is pretty good, but wouldn\u0027t it be nice if I could view multiple storage blocks at once? Well now you can! The Storage Scanner takes RF but can scan for inventories in a 32 block radius! It\u0027s basically a controller block for your storage system.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftools:storage_scanner"
+      },
+      "name:8": "View All",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 306,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:storage_scanner"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

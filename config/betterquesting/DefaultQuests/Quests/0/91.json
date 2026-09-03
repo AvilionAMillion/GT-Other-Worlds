@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    32
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You may have noticed that while killing animals you don\u0027t get any products. Instead you get §a§ecarcasses§f. This is because you need to butcher the animals in order to get their insides.\nFor this you\u0027ll need a §abutchery table §fand some sort of §ahandsaw or knife§f. Handsaws are better at harvesting meat products, whereas the knives are better for harvesting things like lard and pelts.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pyrotech:butchers_block"
+      },
+      "name:8": "Butchery"
+    }
+  },
+  "questID:3": 91,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:beef"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:porkchop"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:butchers_block"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {}
+          },
+          "OreDict:8": "artisansHandsaw",
+          "id:8": "artisanworktables:artisans_handsaw_flint"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {}
+          },
+          "OreDict:8": "artisansKnife",
+          "id:8": "artisanworktables:artisans_knife_flint"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

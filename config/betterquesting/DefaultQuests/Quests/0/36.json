@@ -1,0 +1,80 @@
+{
+  "preRequisites:11": [
+    35
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "For your regular selection of tools, you\u0027re going to be using gregtech ones. Your first set of GT tools you can make for general usage are §aflint tools.§f\nYour previous flint tools are Tinker\u0027s flint tools, which do work, however, they do not have the §ecorrect harvest level to mine any ore.§c You have to use gregtech.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {}
+        },
+        "id:8": "gregtech:pickaxe",
+        "tag:10": {
+          "DisallowContainerItem:1": 0,
+          "GT.Behaviours:10": {
+            "TorchPlacing:1": 1
+          },
+          "GT.Tool:10": {
+            "AttackDamage:5": 2.0,
+            "AttackSpeed:5": -2.8,
+            "Durability:3": 0,
+            "HarvestLevel:3": 1,
+            "Material:8": "flint",
+            "MaxDurability:3": 64,
+            "ToolSpeed:5": 4.0
+          },
+          "HideFlags:3": 2
+        }
+      },
+      "name:8": "No Tinkers?",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 36,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 12,
+          "id:8": "minecraft:flint"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {}
+          },
+          "id:8": "gregtech:pickaxe",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {
+              "TorchPlacing:1": 1
+            },
+            "GT.Tool:10": {
+              "AttackDamage:5": 2.0,
+              "AttackSpeed:5": -2.8,
+              "Durability:3": 0,
+              "HarvestLevel:3": 1,
+              "Material:8": "flint",
+              "MaxDurability:3": 64,
+              "ToolSpeed:5": 4.0
+            },
+            "HideFlags:3": 2
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    22,
+    28
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Welcome to the world of fluid crafting! The §aSoaking Pot §fallows you to soak items in it for some time in order for them to §eturn into different items.\n§fThe liquids you\u0027ll be using early on are mostly going to be water and wood tar, so the §bbucket will not be breaking.\n§fKeep in mind that water is finite in the pack.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pyrotech:soaking_pot"
+      },
+      "name:8": "Soaked And Swallowed",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 31,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:soaking_pot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:soaking_pot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

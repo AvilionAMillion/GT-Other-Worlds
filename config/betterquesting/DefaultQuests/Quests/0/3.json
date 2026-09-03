@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    0
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You\u0027ve gone through most of this song and dance before, break some trees and get some wood.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:log"
+      },
+      "name:8": "Begin Anew",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 3,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "minecraft:apple"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "id:8": "minecraft:sapling"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "OreDict:8": "logWood",
+          "id:8": "minecraft:log"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

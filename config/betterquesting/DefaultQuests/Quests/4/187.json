@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    185,
+    186
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§3Description To Be Added",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10,
+        "id:8": "mekanism:machineblock2"
+      },
+      "name:8": "Under Pressure (ized Reaction)",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 187,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "id:8": "mekanism:machineblock2",
+          "tag:10": {
+            "mekData:10": {}
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

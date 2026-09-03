@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    32
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Make a barrel! Used for crafting Pryotech wines and §atannin§f. The barrel must have a lid on in order to start working, without a lid it is useless.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pyrotech:barrel"
+      },
+      "name:8": "Do A Barrel Roll!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 89,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "pyrotech:pelt_cow"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:barrel"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:barrel_lid"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

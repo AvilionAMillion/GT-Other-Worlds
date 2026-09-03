@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    271,
+    294,
+    292
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§bBotania Terrestrial Agglomeration has been completely reworked§f, and thus, even though you get the plate fairly early in progression, you won\u0027t have many uses for it for a while!\n\n§a§fThe §aTerrestrial Agglomeration Plate §f§fwill take a lot of mana to transform the item on top of it into another, and in some cases the blocks under it too. They cannot be interracted with by Mana Spreaders, you must use sparks for them!",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:terraplate"
+      },
+      "name:8": "First Agglomerations",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 311,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:terraplate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,9 +1,18 @@
 // GTOW ZS File
 // Made by GTOW Team
+import mods.jei.JEI.removeAndHide as rh;
+import mods.rustic.Condenser;
 
 // Val
 val woodRod = <tconstruct:tough_tool_rod>.withTag({Material: "wood"});
 val twine = <pyrotech:material:26>;
+
+val blindnessElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:blindness", Duration: 600, Amplifier: 0}]});
+mods.jei.JEI.addItem(blindnessElixir);
+
+// Condensor
+# Blindness Elixir
+mods.rustic.Condenser.addRecipe(blindnessElixir, <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 3600, Amplifier: 0}]}), <thaumcraft:flesh_block>);
 
 // Crafting
 # Condensor

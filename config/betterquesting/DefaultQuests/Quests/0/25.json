@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    23
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §aCharcoal Pit§f is a §bmultiblock §ffrom Pyrotech that will turn §c§e§blog piles into charcoal, §famong other things.\nIt works fairly similarly to the §echarcoal pit from Forestry,§f if you\u0027ve ever used it. §bAll sides have to be surrounded by dirt/grass except for the bottom, which can be stone drains.\n§fLight one of the top logs and then cover it with dirt or grass again and wait, if you did it right §e§bthe structure should continue smoking.§f Once it has stopped smoking you are able to open it again and §ebreak the ash,§f leaving you with charcoal.\n§eStone basins at the bottom can collect fluid from the process.§f Namely §awood tar, §fwhich can be used later.\nAll of the ingredients here will be required for a good multiblock, §bthe wood log count can be increased though.\n\n§dIt has to be log piles, regular logs wont do. Drains only pull out from collecters in a 3x3 area behind them. If you do not have fluid storage you can pull wood tar straight out of the drain and/or collectors.",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pyrotech:log_pile"
+      },
+      "name:8": "Charcoal Pit",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 25,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "pyrotech:tar_collector"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {}
+          },
+          "id:8": "artisanworktables:artisans_handsaw_copper"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:log_pile"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:tar_collector"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:tar_drain"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "pyrotech:faucet_stone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
