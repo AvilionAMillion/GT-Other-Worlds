@@ -22,18 +22,18 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1,
-          "id:8": "gregtech:ore_sulfur_0"
+          "Damage:2": 103,
+          "id:8": "gregtech:meta_raw_ore"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 1,
-          "id:8": "gregtech:ore_pyrite_0"
+          "Damage:2": 306,
+          "id:8": "gregtech:meta_raw_ore"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 1,
-          "id:8": "gregtech:ore_sphalerite_0"
+          "Damage:2": 322,
+          "id:8": "gregtech:meta_raw_ore"
         }
       },
       "taskID:8": "bq_standard:retrieval"

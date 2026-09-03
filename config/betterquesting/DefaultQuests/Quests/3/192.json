@@ -22,8 +22,8 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1,
-          "id:8": "gregtech:ore_saltpeter_0"
+          "Damage:2": 313,
+          "id:8": "gregtech:meta_raw_ore"
         }
       },
       "taskID:8": "bq_standard:retrieval"

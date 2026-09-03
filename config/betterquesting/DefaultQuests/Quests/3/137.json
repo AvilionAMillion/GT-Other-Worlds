@@ -34,18 +34,18 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1,
-          "id:8": "gregtech:ore_magnetite_0"
+          "Damage:2": 292,
+          "id:8": "gregtech:meta_raw_ore"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 1,
-          "id:8": "gregtech:ore_precious_metal_0"
+          "Damage:2": 24019,
+          "id:8": "gregtech:meta_raw_ore"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 1,
-          "id:8": "gregtech:ore_gold_0"
+          "Damage:2": 41,
+          "id:8": "gregtech:meta_raw_ore"
         }
       },
       "taskID:8": "bq_standard:retrieval"

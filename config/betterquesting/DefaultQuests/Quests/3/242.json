@@ -22,19 +22,23 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "gregtech:ore_grossular_0"
+          "Damage:2": 282,
+          "id:8": "gregtech:meta_raw_ore"
         },
         "1:10": {
           "Count:3": 1,
-          "id:8": "gregtech:ore_pyrolusite_0"
+          "Damage:2": 307,
+          "id:8": "gregtech:meta_raw_ore"
         },
         "2:10": {
           "Count:3": 1,
-          "id:8": "gregtech:ore_pyrochlore_0"
+          "Damage:2": 449,
+          "id:8": "gregtech:meta_raw_ore"
         },
         "3:10": {
           "Count:3": 1,
-          "id:8": "gregtech:ore_tantalite_0"
+          "Damage:2": 318,
+          "id:8": "gregtech:meta_raw_ore"
         }
       },
       "taskID:8": "bq_standard:retrieval"
